@@ -17,3 +17,28 @@
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
 }
+
+#DMS_card {
+	border-radius: 48px 0px;
+  background: var(--extremes-white, #FFF);
+  transition: all .5s ease-out;
+  position: relative;
+	border: 1px solid #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .07);
+  padding: 40px 30px 35px;
+  margin-bottom: 30px;
+}
+
+#DMS_card:hover {
+	background: radial-gradient(#103554, #0071dc, #103554, #0071dc);
+  border-radius: 0px 48px !important;
+  color: #fff;
+}
+
+#DMS_card:hover h3, #DMS_card:hover p {
+	color: #fff;
+}
+
+#DMS_card i {
+  font-size: 60px;
+}

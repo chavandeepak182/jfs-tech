@@ -42,7 +42,7 @@
 					<div class="col-lg-7 col-md-6">
 						<div class="top-head-left">
 							<div class="top-contact">
-								<h3>Support By : <a href="tel:12122555511">+1 (212) 255-5511</a></h3>
+								<h3>Support By : <a href="tel:918421216367">+91 84212 16367</a></h3>
 							</div>
 						</div>
 					</div>
@@ -114,10 +114,10 @@
 									<a href="/services" class="nav-link">Services <i class="bx bx-caret-down"></i></a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="#" class="nav-link">Website Design & Developmen</a>
+											<a href="/digital-marketing-company" class="nav-link">Digital Marketing</a>
 										</li>
 										<li class="nav-item">
-											<a href="/digital-marketing-company" class="nav-link">Digital Marketing</a>
+											<a href="#" class="nav-link">Website Design & Developmen</a>
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link">Mobile Application Development</a>

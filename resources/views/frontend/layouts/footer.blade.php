@@ -7,96 +7,99 @@
 						<div class="footer-widget">
 							<div class="footer-logo">
 								<a href="index.html">
-									<img src="{{ asset('theme') }}/assets/images/logos/footer-logo.png" alt="Images">
+									<img src="{{ asset('theme') }}/assets/images/logos/logo-main.png" width="230px" alt="Images">
 								</a>
 							</div>
-							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auct.Aenean, lorem quis bibendum auct. Aenean sollicitudin lorem.</p>
+							<p>Partner up with us, one of the top digital advertising agencies & avail of an expansive range of services, all at best-in-industry pricing.</p>
 							<div class="footer-call-content">
 								<h3>Talk to Our Support</h3>
-								<span><a href="tel:10021234567">+1 002-123-4567</a></span>
+								<span><a href="tel:918421216367">+91 84212 16367</a></span>
 								<i class="bx bx-headphone"></i>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 col-sm-6">
+					<div class="col-lg-3 col-sm-6">
 						<div class="footer-widget pl-2">
 							<h3>Services</h3>
 							<ul class="footer-list">
 								<li>
 									<a href="#" target="_blank">
 										<i class="bx bx-chevron-right"></i>
-										IT Consultancy
+										Digital Marketing
 									</a>
 								</li>
 								<li>
 									<a href="#" target="_blank">
-									<i class="bx bx-chevron-right"></i>
-									Business Solution
+										<i class="bx bx-chevron-right"></i>
+										Website Design & Developmen
 									</a>
 								</li>
 								<li>
 									<a href="#" target="_blank">
-									<i class="bx bx-chevron-right"></i>
-									Digital Services
+										<i class="bx bx-chevron-right"></i>
+										Mobile Application Development
 									</a>
 								</li>
 								<li>
 									<a href="compare.html" target="_blank">
-									<i class="bx bx-chevron-right"></i>
-									Business Reform
+										<i class="bx bx-chevron-right"></i>
+										Application Development & Support
 									</a>
 								</li>
 								<li>
 									<a href="#" target="_blank">
-									<i class="bx bx-chevron-right"></i>
-									Web Development
-									</a>
-								</li>
-								<li>
-									<a href="#" target="_blank">
-									<i class="bx bx-chevron-right"></i>
-									Cloud Computing
-									</a>
-								</li>
-								<li>
-									<a href="#" target="_blank">
-									<i class="bx bx-chevron-right"></i>
-									Data Analysis
+										<i class="bx bx-chevron-right"></i>
+										Hire Dedicated Developers
 									</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="footer-widget pl-5">
-							<h3>Our Blog</h3>
-							<ul class="footer-blog">
+					<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget pl-2">
+							<h3>Quick Links</h3>
+							<ul class="footer-list">
 								<li>
-									<a href="blog-details.html">
-									<img src="{{ asset('theme') }}/assets/images/blog/blog-img-footer.jpg" alt="Images">
+									<a href="#" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Home
 									</a>
-									<div class="content">
-										<h3><a href="blog-details.html">Product Idea Solution For New Generation</a></h3>
-										<span>04 Dec 2024</span>
-									</div>
 								</li>
 								<li>
-									<a href="blog-details.html">
-									<img src="{{ asset('theme') }}/assets/images/blog/blog-img-footer2.jpg" alt="Images">
+									<a href="#" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Solutions
 									</a>
-									<div class="content">
-										<h3><a href="blog-details.html">New Device Invention for Digital Platform</a></h3>
-										<span>07 Dec 2024</span>
-									</div>
 								</li>
 								<li>
-									<a href="blog-details.html">
-									<img src="{{ asset('theme') }}/assets/images/blog/blog-img-footer3.jpg" alt="Images">
+									<a href="compare.html" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Industries
 									</a>
-									<div class="content">
-										<h3><a href="blog-details.html">Business Strategy Make His Goal Acheive</a></h3>
-										<span>10 Dec 2024</span>
-									</div>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										About Us
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Blogs
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Careers
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Contact Us
+									</a>
 								</li>
 							</ul>
 						</div>
