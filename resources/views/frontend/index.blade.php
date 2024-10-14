@@ -6,8 +6,11 @@
 
 <!-- Banner Area -->
 	<div class="banner-area">
-		<div class="container-fluid">
-			<div class="container-max">
+		<div class="container-fluid p-0">
+			<video id="background-video" autoplay loop muted poster="{{ asset('theme') }}/assets/images/hero-video.mp4">
+				<source src="{{ asset('theme') }}/assets/images/hero-video-1.mp4" type="video/mp4">
+			</video>
+			<!-- <div class="container-max">
 				<div class="banner-item-content banner-item-ptb">
 					<h1>Fueling Growth with Tailored Digital Solutions</h1>
 					<p>Over 10 years of proven track record delivering secure, scalable, and high-performance solutions that address your unique business needs.</p>
@@ -16,7 +19,7 @@
 						<a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Explore More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 

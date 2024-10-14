@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/style.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css">
+	<link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
 
 	<link rel="icon" type="image/png" href="{{ asset('theme') }}/assets/images/favicon.png">
 </head>
@@ -102,7 +103,7 @@
 				<div class="container-max">
 					<nav class="navbar navbar-expand-md navbar-light ">
 						<a class="navbar-brand" href="{{ asset('') }}">
-							<img src="{{ asset('theme') }}/assets/images/logos/jfs.png" class="logo-one" width="150px" alt="Logo">
+							<img src="{{ asset('theme') }}/assets/images/logos/jfs.png" class="logo-one" width="130px" alt="Logo">
 							<!-- <img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo"> -->
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -114,7 +115,18 @@
 									<a href="/services" class="nav-link">Services <i class="bx bx-caret-down"></i></a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="/digital-marketing-company" class="nav-link">Digital Marketing</a>
+											<a href="/digital-marketing-company" class="nav-link">Digital Marketing <i class="bx bx-caret-down"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="/seo-services" class="nav-link">SEO Services</a>
+												</li>
+												<li class="nav-item">
+													<a href="/smo-services" class="nav-link">SMO Services</a>
+												</li>
+												<li class="nav-item">
+													<a href="/ppc-services" class="nav-link">PPC Services</a>
+												</li>
+											</ul>
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link">Website Design & Developmen</a>

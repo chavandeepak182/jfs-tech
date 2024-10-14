@@ -19,7 +19,20 @@ class FrontendController extends Controller
     public function PrivacyView()    {
         return view('frontend.privacy-policy');
     }
+
     public function DigitalMarketingView()    {
         return view('frontend.digital-marketing');
+    }
+
+    public function SEOView()    {
+        return view('frontend.seo-services');
+    }
+
+    public function SMOView()    {
+        return view('frontend.smo-services');
+    }
+
+    public function PPCView()    {
+        return view('frontend.ppc-services');
     }
 }

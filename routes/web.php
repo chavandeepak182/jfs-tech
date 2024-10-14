@@ -12,3 +12,6 @@ Route::get('about-us', [FrontendController::class, 'AboutView']);
 Route::get('contact-us', [FrontendController::class, 'ContactView']);
 Route::get('privacy-policy', [FrontendController::class, 'PrivacyView']);
 Route::get('digital-marketing-company', [FrontendController::class, 'DigitalMarketingView']);
+Route::get('seo-services', [FrontendController::class, 'SEOView']);
+Route::get('smo-services', [FrontendController::class, 'SMOView']);
+Route::get('ppc-services', [FrontendController::class, 'PPCView']);

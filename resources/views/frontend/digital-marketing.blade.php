@@ -13,7 +13,7 @@
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1>Expand Your <b>Clientele</b> Through Targeted <b>Strategies</b> Driven by Data.</h1>
                     <p>At JFS, versatility is our hallmark as a digital marketing and advertising agency, catering to a diverse range of industries.</p>
-                    <a href="contact.html" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
+                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -132,21 +132,21 @@
         <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-undo"></i>
                     <h3><a>1. Focus On ROI</a></h3>
                     <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="flaticon-consulting"></i>
+                    <i class="fal fa-rupee-sign"></i>
                     <h3><a>2. Affordable Prices</a></h3>
                     <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="flaticon-web-development"></i>
+                    <i class="fal fa-laptop-code"></i>
                     <h3><a>3. SEO Friendly</a></h3>
                     <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
                 </div>
@@ -154,14 +154,14 @@
             <div class="col-lg-2 col-sm-6"></div>
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="flaticon-web-development"></i>
+                    <i class="fal fa-chess"></i>
                     <h3><a>4. Unique Strategies</a></h3>
                     <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="flaticon-stats"></i>
+                    <i class="fal fa-laptop-code"></i>
                     <h3><a>5. Our Approach</a></h3>
                     <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
                 </div>
@@ -180,77 +180,77 @@
         <div class="row pt-45 justify-content-center mx-auto">
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-chart-line pb-2"></i>
                     <h3><a>Brand Building</a></h3>
-                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products and services will quickly become the talk of the town.</p>
+                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fas fa-icons pb-2"></i>
                     <h3><a>Paid Social</a></h3>
                     <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-bullhorn pb-2"></i>
                     <h3><a>Marketing Strategy</a></h3>
                     <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
-                    <h3><a>Paid SearchI</a></h3>
+                    <i class="fal fa-search-dollar pb-2"></i>
+                    <h3><a>Paid Search</a></h3>
                     <p>Boost your search engine visibility with our paid search service. Our innovative PPC strategies paired with premium ads ensure your campaign yields maximum ROI</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-chart-pie pb-2"></i>
                     <h3><a>Branded Search</a></h3>
                     <p>Through our branded search service, we enhance your authority on search engine results pages (SERPs) and outperform your competitors’ advertisements.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-comments pb-2"></i>
                     <h3><a>Messaging and Positioning</a></h3>
                     <p>Rise above the clutter and craft a distinctive brand identity. Our messaging and positioning service will assist you in leaving a lasting impression on your audience.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-people-carry pb-2"></i>
                     <h3><a>B2B Marketing</a></h3>
                     <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-atlas pb-2"></i>
                     <h3><a>Content and Website Personalization</a></h3>
                     <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-video pb-2"></i>
                     <h3><a>Video Production</a></h3>
                     <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-compress-arrows-alt pb-2"></i>
                     <h3><a>Conversion Rate Optimization (CRO)</a></h3>
                     <p>Effortlessly turn visitors into customers with our conversion rate optimization service. We’ll enhance your landing page, refine site navigation, and meticulously track visitor activity to boost your conversion rates.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="flaticon-consultant"></i>
+                    <i class="fal fa-envelope-open-text pb-2"></i>
                     <h3><a>Content Marketing</a></h3>
                     <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
                 </div>
