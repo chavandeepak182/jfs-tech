@@ -129,7 +129,7 @@
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Website Design & Developmen</a>
+											<a href="/website-design-and-development" class="nav-link">Website Design & Developmen</a>
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link">Mobile Application Development</a>
@@ -149,7 +149,7 @@
 									<a href="#" class="nav-link">Industries</a>
 								</li>
 								<li class="nav-item">
-									<a href="about-us" class="nav-link">About Us</a>
+									<a href="/about-us" class="nav-link">About Us</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">Blog</a>

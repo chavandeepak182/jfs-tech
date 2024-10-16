@@ -15,3 +15,4 @@ Route::get('digital-marketing-company', [FrontendController::class, 'DigitalMark
 Route::get('seo-services', [FrontendController::class, 'SEOView']);
 Route::get('smo-services', [FrontendController::class, 'SMOView']);
 Route::get('ppc-services', [FrontendController::class, 'PPCView']);
+Route::get('website-design-and-development', [FrontendController::class, 'WebDevView']);

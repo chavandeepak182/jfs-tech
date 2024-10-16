@@ -32,37 +32,61 @@
             <span class="sp-color2">Our Working Process</span>
             <h2>How Our Services Will Help You to Grow Your Business</h2>
         </div>
-        <div class="row pt-45">
+        <div class="row pt-45 justify-content-center mx-auto">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">01.</div>
-                    <h3>Discovery</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
+                    <h3>Website Audit</h3>
+                    <p>Before launching an SEO strategy, JFS Technologies performs a comprehensive website audit to analyze structure, content, and performance, enabling us to create a tailored SEO plan.</p>
                     <i class="flaticon-project"></i>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">02.</div>
-                    <h3>Planning</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
-                    <i class="flaticon-chip"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">03.</div>
-                    <h3>Execute</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
+                    <h3>Keyword Research</h3>
+                    <p>Keyword research is essential for a successful SEO campaign. Our experts identify relevant, high-traffic keywords to help your website rank higher in SERPs and attract qualified traffic.</p>
                     <i class="flaticon-effective"></i>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
+                    <div class="number-title">03.</div>
+                    <h3>On-Page Optimization</h3>
+                    <p>On-page optimization is key to boosting your website's visibility and ranking. Our SEO service improves content, meta tags, and internal links to enhance search engine-friendliness and relevance for better rankings.</p>
+                    <i class="flaticon-chip"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
                     <div class="number-title">04.</div>
-                    <h3>Deliver</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
-                    <i class="flaticon-bullhorn"></i>
+                    <h3>Technical Optimization</h3>
+                    <p>Technical optimization improves site speed, mobile-friendliness, and crawlability. Our team ensures your website meets search engine standards, enhancing performance and user experience.</p>
+                    <i class="flaticon-chip"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">05.</div>
+                    <h3>Local Optimization</h3>
+                    <p>Local optimization helps businesses reach nearby customers by optimizing Google My Business listings, local citations, and content to appear in local search results.</p>
+                    <i class="flaticon-chip"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">06.</div>
+                    <h3>Off-Page Optimization</h3>
+                    <p>Off-page optimization boosts your website's authority through external links and reputable backlinks, improving its ranking and visibility.</p>
+                    <i class="flaticon-chip"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">07.</div>
+                    <h3>Reports & Tracking</h3>
+                    <p>We provide reports to evaluate your SEO campaign's performance, highlighting metrics like traffic, keyword rankings, and conversion rates to guide future decisions.</p>
+                    <i class="fal fa-file-alt my-2"></i>
                 </div>
             </div>
         </div>
@@ -82,9 +106,8 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Launch Your Inaugural Campaign?</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <h2>For Success In The Digital World!</h2>
+                        <p>At JFS Technologies, we are best SEO service provider specialize in assisting organizations of all sizes in enhancing their online visibility through strategic SEO practices. Our experienced SEO professionals apply the latest techniques and best practices to boost your website’s ranking. Utilizing a data-driven approach, we deliver results-focused SEO services that propel your business to new heights.</p>
                     </div>
                     <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
                     <div class="all-skill-bar">
@@ -122,142 +145,529 @@
 </div>
 
 
-<section class="services-area-four pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2">Our Features</span>
-            <h2>Digital Marketing Company Services</h2>
-            <div class="w-75 mx-auto pt-3">Unlock the potential of your online presence with our comprehensive digital marketing services. Whether you’re looking to boost your online visibility, increase website traffic, or generate more leads, our digital marketing services offer the expertise and solutions you need to achieve your goals. Here’s what sets us apart:</div>
-        </div>
-        <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-undo"></i>
-                    <h3><a>1. Focus On ROI</a></h3>
-                    <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-rupee-sign"></i>
-                    <h3><a>2. Affordable Prices</a></h3>
-                    <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>3. SEO Friendly</a></h3>
-                    <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-chess"></i>
-                    <h3><a>4. Unique Strategies</a></h3>
-                    <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>5. Our Approach</a></h3>
-                    <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-        </div>
-    </div>
-</section>
+    <div class="about-area ptb-100">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+					<div class="about-content ml-25">
+						<div class="section-title">
+							<h2>Latest SEO Techniques & Best SEO Practices</h2>
+							<p>Our experts at JFS Technologies are dedicated to implementing cutting-edge SEO technologies and industry best SEO service provider to advance the ranking process for your business website. By staying up-to-date of the latest trends and algorithms, we ensure that your website achieves higher rankings. Our commitment to excellence drives us to continuously refine our strategies, delivering optimal results for your business.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="about-play">
+						<img src="https://jfstechnologies.com/wp-content/uploads/2024/04/SEO-1.png" alt="About Images">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 <section class="clients-area-three pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center mx-auto" style="max-width:650px">
-            <h2>What a Digital Marketing Company Can Do for Your Business</h2>
+            <span class="sp-color2">Why choose Us</span>
+            <h2>For Best SEO Service Provider</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-chart-line pb-2"></i>
-                    <h3><a>Brand Building</a></h3>
-                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
+                    <i class="fal fa-user-graduate pb-2"></i>
+                    <h3><a>Experienced SEO Professionals</a></h3>
+                    <p>At JFS Technologies, our experienced SEO team delivers exceptional results, staying up-to-date with industry trends and search engine algorithms to keep your website competitive.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fas fa-icons pb-2"></i>
-                    <h3><a>Paid Social</a></h3>
-                    <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
+                    <i class="fal fa-analytics pb-2"></i>
+                    <h3><a>Latest Trends & Techniques</a></h3>
+                    <p>We are committed to staying ahead of the curve by implementing the latest SEO trends and techniques. Our team conducts thorough research to identify the most effective strategies that will elevate your website's ranking and drive organic traffic.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-bullhorn pb-2"></i>
-                    <h3><a>Marketing Strategy</a></h3>
-                    <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
+                    <i class="fal fa-chart-bar pb-2"></i>
+                    <h3><a>Advanced Analytics Tools</a></h3>
+                    <p>Leveraging advanced analytics tools, we gather valuable insights into your website's performance and user behavior. This data-driven approach allows us to make informed decisions and tailor our strategies to maximize results.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-search-dollar pb-2"></i>
-                    <h3><a>Paid Search</a></h3>
-                    <p>Boost your search engine visibility with our paid search service. Our innovative PPC strategies paired with premium ads ensure your campaign yields maximum ROI</p>
+                    <i class="fal fa-hat-cowboy pb-2"></i>
+                    <h3><a>Pure White Hat Techniques</a></h3>
+                    <p>Integrity is at the core of our SEO practices. We strictly adhere to white hat techniques, ensuring that your website's reputation is upheld while achieving sustainable, long-term results.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-chart-pie pb-2"></i>
-                    <h3><a>Branded Search</a></h3>
-                    <p>Through our branded search service, we enhance your authority on search engine results pages (SERPs) and outperform your competitors’ advertisements.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-comments pb-2"></i>
-                    <h3><a>Messaging and Positioning</a></h3>
-                    <p>Rise above the clutter and craft a distinctive brand identity. Our messaging and positioning service will assist you in leaving a lasting impression on your audience.</p>
+                    <i class="fal fa-sync-alt pb-2"></i>
+                    <h3><a>360-Degree SEO</a></h3>
+                    <p>Our approach covers all SEO aspects—on-page, off-page, technical, and content marketing - ensuring maximum visibility and keeping your website ahead of the competition.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
                     <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>B2B Marketing</a></h3>
-                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-atlas pb-2"></i>
-                    <h3><a>Content and Website Personalization</a></h3>
-                    <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-video pb-2"></i>
-                    <h3><a>Video Production</a></h3>
-                    <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-compress-arrows-alt pb-2"></i>
-                    <h3><a>Conversion Rate Optimization (CRO)</a></h3>
-                    <p>Effortlessly turn visitors into customers with our conversion rate optimization service. We’ll enhance your landing page, refine site navigation, and meticulously track visitor activity to boost your conversion rates.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-envelope-open-text pb-2"></i>
-                    <h3><a>Content Marketing</a></h3>
-                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
+                    <h3><a>Best SEO Packages</a></h3>
+                    <p>We offer affordable SEO packages tailored to your business needs and budget, providing cost-effective solutions for the best return on investment without compromising quality.</p>
                 </div>
             </div>
         </div>        
     </div>
 </section>
+
+
+    <div class="choose-area pt-100 pb-70">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-10">
+                    <div class="section-title text-center mx-auto" style="max-width:650px">
+                        <span class="sp-color1">Why choose Us</span>
+                        <h2 class="text-white">For Best SEO Service Provider</h2>
+                    </div>
+					<div class="choose-content mt-4">
+                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <table class="table text-center table-striped">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
+                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span><br>₹30000/Month</th>
+                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span><br>₹40000/Month</th>
+                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span><br>₹50000/Month</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">On-Page SEO</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Max Keywords</td>
+                                            <td>Up to 10</td>
+                                            <td>Up to 30</td>
+                                            <td>Up to 50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pages Optimized</td>
+                                            <td>Up to 8</td>
+                                            <td>Up to 15</td>
+                                            <td>Up to 25</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Website & Competitor Analysis</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Keywords Research and Selection</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Meta Tags Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>URL Structure optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Content Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Image Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Heading Tag Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Internal Linking Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Schema for Contact & Address</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Off-Page SEO</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Social Bookmarking</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Blog Submission</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Blog Social Sharing</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Q & A</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Guest Posting</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Creation & Submission</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Infographic Creation & Submission                                            </td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Business/Local Listing</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Google My Business Setup & Verification</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bing Local Listing</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Testimonial Posting</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>News/PR Submission (Paid by client)</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Technical SEO</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Google Analytics Setup</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tag Manager Setup</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Search Console Setup</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Robots.txt Creation & Submission</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>XML Sitemap Creation & submission</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <table class="table text-center table-striped">
+                                    <thead>
+                                        <tr>
+                                        <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
+                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span><br>$400/Month</th>
+                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span><br>$600/Month</th>
+                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span><br>$800/Month</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">On-Page SEO</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Max Keywords</td>
+                                            <td>Up to 10</td>
+                                            <td>Up to 30</td>
+                                            <td>Up to 50</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pages Optimized</td>
+                                            <td>Up to 8</td>
+                                            <td>Up to 15</td>
+                                            <td>Up to 25</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Website & Competitor Analysis</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Keywords Research and Selection</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Meta Tags Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>URL Structure optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Content Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Image Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Heading Tag Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Internal Linking Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Schema for Contact & Address</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Off-Page SEO</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Social Bookmarking</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Blog Submission</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Blog Social Sharing</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Q & A</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Guest Posting</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Creation & Submission</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Infographic Creation & Submission                                            </td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Business/Local Listing</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Google My Business Setup & Verification</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bing Local Listing</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Testimonial Posting</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>News/PR Submission (Paid by client)</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Technical SEO</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Google Analytics Setup</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tag Manager Setup</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Search Console Setup</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Robots.txt Creation & Submission</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>XML Sitemap Creation & submission</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 <div class="brand-area ptb-100">

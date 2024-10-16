@@ -35,4 +35,8 @@ class FrontendController extends Controller
     public function PPCView()    {
         return view('frontend.ppc-services');
     }
+
+    public function WebDevView()    {
+        return view('frontend.website-development');
+    }
 }
