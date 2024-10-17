@@ -132,10 +132,10 @@
 											<a href="/website-design-and-development" class="nav-link">Website Design & Developmen</a>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Mobile Application Development</a>
+											<a href="/mobile-app-development" class="nav-link">Mobile Application Development</a>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Application Development & Support</a>
+											<a href="#" class="nav-link">Application Maintenacne & Support</a>
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link">Hire Dedicated Developers</a>
@@ -207,6 +207,20 @@
     </div>
     {{-- end main content --}}
 
-    @include('frontend.layouts.footer')          
+    @include('frontend.layouts.footer')  
+	
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/66a25e5ebecc2fed692b09dd/1i3l418j6';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
 </body>
 </html>

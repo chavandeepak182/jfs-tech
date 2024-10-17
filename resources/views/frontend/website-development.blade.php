@@ -32,37 +32,45 @@
             <span class="sp-color2">Our Working Process</span>
             <h2>How Our Services Will Help You to Grow Your Business</h2>
         </div>
-        <div class="row pt-45">
-            <div class="col-lg-3 col-sm-6">
+        <div class="row pt-45 justify-content-center mx-auto">
+            <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">01.</div>
-                    <h3>Discovery</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
-                    <i class="flaticon-project"></i>
+                    <h3>Initiation</h3>
+                    <p>In this initial phase, requirements are gathered, objectives are defined, and a project roadmap is outlined. This often includes research, analysis of competitors, and establishing a timeline.</p>
+                    <i class="fal fa-lightbulb-on my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">02.</div>
-                    <h3>Planning</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
-                    <i class="flaticon-chip"></i>
+                    <h3>Design</h3>
+                    <p>During this stage, the visual and user experience aspects of the website are designed. It includes creating wireframes, mockups, and prototypes to establish the website's look and functionality.</p>
+                    <i class="fal fa-pencil-ruler my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">03.</div>
-                    <h3>Execute</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
-                    <i class="flaticon-effective"></i>
+                    <h3>Implementation</h3>
+                    <p>This phase entails coding the website. Front-end development focuses on creating the user interface while back-end development. It involves building server-side functionality, databases, and server configurations.</p>
+                    <i class="fal fa-code my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">04.</div>
-                    <h3>Deliver</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis tempor nunc ac sollicitudin Interdum.</p>
-                    <i class="flaticon-bullhorn"></i>
+                    <h3>Testing</h3>
+                    <p>After implementation, rigorous testing is conducted to ensure the website functions seamlessly. It have across different devices, browsers, and screen sizes. This involves testing functionality, usability, performance, and security.</p>
+                    <i class="fal fa-laptop-code my-2"></i>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">05.</div>
+                    <h3>Deployment</h3>
+                    <p>Once testing is complete, the website is deployed to a live server to make it accessible to users. This step may involve setting up hosting, registering a domain, and configuring server settings.</p>
+                    <i class="fal fa-code-branch my-2"></i>
                 </div>
             </div>
         </div>
@@ -83,8 +91,8 @@
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
                         <h2>For Success In The Digital World!</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <p>Welcome to JFS Technologies, where innovation meets excellence in web design and development. We specialize in crafting tailored digital solutions for startups and enterprises alike. Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results.</p>
+                        <p>From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience exceptional website design for small business with JFS Technologies. Let’s build something extraordinary together.</p>
                     </div>
                     <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
                     <div class="all-skill-bar">
@@ -125,48 +133,32 @@
 <section class="services-area-four pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Our Features</span>
-            <h2>Digital Marketing Company Services</h2>
-            <div class="w-75 mx-auto pt-3">Unlock the potential of your online presence with our comprehensive digital marketing services. Whether you’re looking to boost your online visibility, increase website traffic, or generate more leads, our digital marketing services offer the expertise and solutions you need to achieve your goals. Here’s what sets us apart:</div>
+            <span class="sp-color2"></span>
+            <h2 class="w-50 mx-auto">Empowering Businesses with Powerful Website Solutions</h2>
+            <div class="w-75 mx-auto pt-3"></div>
         </div>
         <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="fal fa-undo"></i>
-                    <h3><a>1. Focus On ROI</a></h3>
-                    <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
+                    <i class="fal fa-file-code"></i>
+                    <h3><a>1. Custom Website Design for small business</a></h3>
+                    <p>At JFS Technologies, we design templates. Our dedicated web designers create bespoke graphics and layouts customized. Which is to your brand and objectives, seamlessly transforming visitors into engaged customers.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="fal fa-rupee-sign"></i>
-                    <h3><a>2. Affordable Prices</a></h3>
-                    <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
+                    <i class="fal fa-store"></i>
+                    <h3><a>2. Build Ecommerce Platform</a></h3>
+                    <p>Revolutionize your online business with JFS Technologies’ Ecommerce Platform Solutions. Tailored to your needs, our expert team crafts powerful, scalable platforms that elevate your brand, streamline operations, and drive revenue growth.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>3. SEO Friendly</a></h3>
-                    <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
+                    <i class="fal fa-newspaper"></i>
+                    <h3><a>3. Manage Your website Content</a></h3>
+                    <p>Simplify content management with JFS Technologies' custom CMS solutions. Whether it's WordPress or a tailored system, our websites ensure effortless data control and user-friendly management.</p>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-6"></div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-chess"></i>
-                    <h3><a>4. Unique Strategies</a></h3>
-                    <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>5. Our Approach</a></h3>
-                    <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
         </div>
     </div>
 </section>
@@ -175,89 +167,200 @@
 <section class="clients-area-three pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center mx-auto" style="max-width:650px">
-            <h2>What a Digital Marketing Company Can Do for Your Business</h2>
+            <h2>Features We Provide</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-chart-line pb-2"></i>
-                    <h3><a>Brand Building</a></h3>
-                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
+                    <i class="fal fa-code pb-2"></i>
+                    <h3><a>Quality Web Development</a></h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fas fa-icons pb-2"></i>
-                    <h3><a>Paid Social</a></h3>
-                    <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
+                    <i class="fal fa-sitemap pb-2"></i> 
+                    <h3><a>Smart Application Architecture</a></h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-bullhorn pb-2"></i>
-                    <h3><a>Marketing Strategy</a></h3>
-                    <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
+                    <i class="fal fa-coins pb-2"></i>
+                    <h3><a>Minimize Costs for the Long-Term</a></h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-search-dollar pb-2"></i>
-                    <h3><a>Paid Search</a></h3>
-                    <p>Boost your search engine visibility with our paid search service. Our innovative PPC strategies paired with premium ads ensure your campaign yields maximum ROI</p>
+                    <i class="fal fa-globe pb-2"></i>
+                    <h3><a>Follow W3C Standards</a></h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-chart-pie pb-2"></i>
-                    <h3><a>Branded Search</a></h3>
-                    <p>Through our branded search service, we enhance your authority on search engine results pages (SERPs) and outperform your competitors’ advertisements.</p>
+                    <i class="fal fa-user-headset pb-2"></i>
+                    <h3><a>Excellent Support</a></h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-comments pb-2"></i>
-                    <h3><a>Messaging and Positioning</a></h3>
-                    <p>Rise above the clutter and craft a distinctive brand identity. Our messaging and positioning service will assist you in leaving a lasting impression on your audience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>B2B Marketing</a></h3>
-                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-atlas pb-2"></i>
-                    <h3><a>Content and Website Personalization</a></h3>
-                    <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-video pb-2"></i>
-                    <h3><a>Video Production</a></h3>
-                    <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-compress-arrows-alt pb-2"></i>
-                    <h3><a>Conversion Rate Optimization (CRO)</a></h3>
-                    <p>Effortlessly turn visitors into customers with our conversion rate optimization service. We’ll enhance your landing page, refine site navigation, and meticulously track visitor activity to boost your conversion rates.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-envelope-open-text pb-2"></i>
-                    <h3><a>Content Marketing</a></h3>
-                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
+                    <i class="fal fa-shield-check pb-2"></i>
+                    <h3><a>Website Security</a></h3>
                 </div>
             </div>
         </div>        
     </div>
 </section>
+
+
+<!-- Technologies Area -->
+<section class="work-process-area-two pt-100 pb-70">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-5">
+					<div class="work-process-left">
+						<div class="section-title">
+							<span class="sp-color1">Our Expertise</span>
+							<h2>Empowering Businesses With Expertise in 100+ Technologies</h2>
+						</div>
+						<a href="contact.html" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/html-5.png" class="p-3" alt="Images">
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/css-3.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/js.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/php.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/react_js.png" class="" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/angular_js.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/.net.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/java.png" class="p-2" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/laravel.png" class="p-2" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/node_js.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/vue_js.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/cpp.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/python.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/next_js.png" class="p-2" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/flutter.png" class="p-3" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-3 col-sm-3">
+							<div class="work-process-card">
+                                <img src="{{ asset('theme') }}/assets/technologies/ror.png" class="p-3" alt="Images">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<div class="choose-area pt-100 pb-70">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-10">
+                    <div class="section-title text-center mx-auto" style="max-width:650px">
+                        <span class="sp-color1">Why choose Us</span>
+                        <h2 class="text-white">For Best SEO Service Provider</h2>
+                    </div>
+					<div class="choose-content mt-4">
+                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <table class="table text-center table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">10-20 Pages</span><br>₹30000/Month</th></th>
+                                            <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">21-40 Pages</span><br>₹50000/Month</th>
+                                            <th scope="col"><span style="color: #4DA73D; font-size: 25px;font-weight: 500;">41-70 Pages</span><br>₹80000/Month</th>
+                                            <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">70-100 Pages</span><br>₹100000/Month</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <table class="table text-center table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">10-20 Pages</span><br>$1000/Month</th></th>
+                                            <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">21-40 Pages</span><br>$1500/Month</th>
+                                            <th scope="col"><span style="color: #4DA73D; font-size: 25px;font-weight: 500;">41-70 Pages</span><br>$5000/Month</th>
+                                            <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">70-100 Pages</span><br>$10000/Month</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 <div class="brand-area ptb-100">
@@ -275,47 +378,64 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is the website development agency approach largely following these days?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>In modern website development agencies integrate user-centric design, agile methods, and responsive principles, focusing on mobile-first approaches. Their goal: create robust, visually appealing websites delivering seamless experiences across devices and platforms.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            Why is Responsive Web Design important?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Responsive Web Design is vital for effective display on different screens, prioritizing user experience. Our Indian website development firm focuses on the mobile-first approach, ensuring optimal performance and adaptability across devices. This strategy enhances engagement, prolongs stay time, and boosts conversion rates.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            Do you offer content writing services in website design for small business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Certainly! As a website development agency, we offer content writing services alongside web design and development. Our skilled writers collaborate closely with you to create engaging content that resonates with your audience, aiming to drive user interaction on your website.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            How do you handle content and images in website development?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>As a web design company, we recognize the importance of content and imagery in website development. We collaborate closely with you to align content with your goals, offering assistance in creation or refinement. Our team suggests suitable images to enhance visual appeal, sourced from professional photography or online galleries, ensuring they complement your content seamlessly.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            Will my website be SEO friendly and get ranked once it's completed?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>To rank your website well, ongoing SEO efforts are essential. As a top web design company, we ensure your site is SEO-ready, but achieving a high SERP position requires continuous SEO practices. Consider our SEO services to enhance your site's ranking. Our experts create custom strategies to boost visibility and attract more visitors. We monitor and optimize your site for SEO success.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            Do you integrate a Content Management System (CMS) into websites?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Certainly! As a top web design company, we seamlessly integrate Content Management Systems (CMS) into your website for easy content management. We offer custom CMS solutions and support popular platforms like WordPress, Magento, and Shopify.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            Will my website work on all devices, including phones, tablets, and desktops?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Indeed! We emphasize responsive web design to ensure your website adjusts seamlessly for an optimal viewing experience across all devices and screen sizes. Whether visitors access your site via phone, tablet, or desktop, the layout and content will automatically adapt, delivering a seamless user experience.</p>
                                         </div>
                                     </li>
                                 </ul>            

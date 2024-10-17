@@ -39,4 +39,8 @@ class FrontendController extends Controller
     public function WebDevView()    {
         return view('frontend.website-development');
     }
+
+    public function MobileAppView()    {
+        return view('frontend.app-development');
+    }
 }

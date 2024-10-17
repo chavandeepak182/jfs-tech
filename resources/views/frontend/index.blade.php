@@ -29,27 +29,35 @@
 			<h2 class="text-center pb-5">Clientele</h2>
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-logo1.png" class="brand-logo-one" alt="Images">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style1.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-logo2.png" class="brand-logo-one" alt="Images">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style2.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-logo3.png" class="brand-logo-one" alt="Images">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-logo4.png" class="brand-logo-one" alt="Images">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style4.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-logo5.png" class="brand-logo-one" alt="Images">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style5.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-logo3.png" class="brand-logo-one" alt="Images">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
 				</div>
 			</div>
@@ -117,37 +125,37 @@
 			<div class="row pt-45">
 				<div class="col-lg-4 col-md-6">
 					<div class="services-item">
-						<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/services/services-img1.jpg" alt="Images">
+						<a href="/mobile-app-development">
+							<img src="{{ asset('theme') }}/assets/images/services/services-img1.jpg" alt="Images">
 						</a>
 						<div class="content">
 							<i class="flaticon-consultant"></i>
-							<span><a href="#">App Services</a></span>
-							<h3><a href="#"></a>App Development</h3>
+							<span><a href="/mobile-app-development">App Services</a></span>
+							<h3><a href="/mobile-app-development"></a>App Development</h3>
 						</div>
 					</div>
 				</div>
                 <div class="col-lg-4 col-md-6">
 					<div class="services-item">
-						<a href="#">
+						<a href="/website-design-and-development">
 							<img src="{{ asset('theme') }}/assets/images/services/services-img3.jpg" alt="Images">
 						</a>
 						<div class="content">
 							<i class="flaticon-web-development"></i>
-							<span><a href="#">Web Services</a></span>
-							<h3><a href="#">Web Development</a></h3>
+							<span><a href="/website-design-and-development">Web Services</a></span>
+							<h3><a href="/website-design-and-development">Web Development</a></h3>
 						</div>
 					</div>
 				</div>
                 <div class="col-lg-4 col-md-6">
 					<div class="services-item">
-						<a href="#">
+						<a href="/digital-marketing-company">
 							<img src="{{ asset('theme') }}/assets/images/services/services-img6.jpg" alt="Images">
 						</a>
 						<div class="content">
 							<i class="flaticon-data-analytics"></i>
-							<span><a href="#">Digital Services</a></span>
-							<h3><a href="#">Digital Marketing</a></h3>
+							<span><a href="/digital-marketing-company">Digital Services</a></span>
+							<h3><a href="/digital-marketing-company">Digital Marketing</a></h3>
 						</div>
 					</div>
 				</div>		
@@ -202,87 +210,87 @@
 							<span class="sp-color1">Our Expertise</span>
 							<h2>Empowering Businesses With Expertise in 100+ Technologies</h2>
 						</div>
-						<a href="contact.html" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
+						<a href="/contact-us" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
 					</div>
 				</div>
 				<div class="col-lg-7">
 					<div class="row">
-						<div class="col-lg-3 col-sm-3">
+						<div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/html-5.png" class="p-3" alt="Images">
 							</div>
 						</div>
-						<div class="col-lg-3 col-sm-3">
+						<div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/css-3.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/js.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/php.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/react_js.png" class="" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/angular_js.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/.net.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/java.png" class="p-2" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/laravel.png" class="p-2" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/node_js.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/vue_js.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/cpp.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/python.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/next_js.png" class="p-2" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/flutter.png" class="p-3" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
+                        <div class="col-lg-3 col-6">
 							<div class="work-process-card">
                                 <img src="{{ asset('theme') }}/assets/technologies/ror.png" class="p-3" alt="Images">
 							</div>
@@ -572,7 +580,7 @@
 						<h3>Call Us 24/7</h3>
 						<a href="tel:+918329729190" class="call-btn">+91 83297 29190</a>
 						<p>Connect with JFS Technologies for comprehensive Digital Marketing Agency that drive engagement, growth, and brand loyalty.</p>
-						<a href="contact.html" class="default-btn btn-bg-two border-radius-5">Contact Us</a>
+						<a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a>
 					</div>
 				</div>
 				<div class="col-lg-5 pt-5 pb-3">
@@ -606,7 +614,7 @@
                                     <div class="agree-label">
                                         <input type="checkbox" id="chb1">
                                         <label for="chb1" class="text-white">
-                                            Accept <a href="terms-condition.html">Terms & Conditions</a> And <a href="privacy-policy.html">Privacy Policy.</a>
+                                            Accept <a href="#">Terms & Conditions</a> And <a href="/privacy-policy">Privacy Policy.</a>
                                         </label>
                                     </div>
                                 </div>
@@ -626,101 +634,98 @@
 	</div>
 
 
-	
-
-
 	<div class="blog-area pt-100 pb-70">
-	<div class="container">
-	<div class="section-title text-center">
-	<span class="sp-color2">Latest Blog</span>
-	<h2>Let’s Check Some Latest Blog</h2>
-	</div>
-	<div class="row pt-45">
-	<div class="col-lg-4 col-md-6">
-	<div class="blog-card">
-	<div class="blog-img">
-	<a href="blog-details.html">
-	<img src="{{ asset('theme') }}/assets/images/blog/blog-img1.jpg" alt="Blog Images">
-	</a>
-	<div class="blog-tag">
-	<h3>11</h3>
-	<span>Dec</span>
-	</div>
-	</div>
-	<div class="content">
-	<ul>
-	<li>
-	<a href="index.html"><i class="bx bxs-user"></i> By Admin</a>
-	</li>
-	<li>
-	<a href="index.html"><i class="bx bx-purchase-tag-alt"></i>Business</a>
-	</li>
-	</ul>
-	<h3>
-	<a href="blog-details.html">Product Idea Solution for New Generation</a>
-	</h3>
-	<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-	<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
-	</div>
-	</div>
-	</div>
-	<div class="col-lg-4 col-md-6">
-	<div class="blog-card">
-	<div class="blog-img">
-	<a href="blog-details.html">
-	<img src="{{ asset('theme') }}/assets/images/blog/blog-img2.jpg" alt="Blog Images">
-	</a>
-	<div class="blog-tag">
-	<h3>14</h3>
-	<span>Dec</span>
-	</div>
-	</div>
-	<div class="content">
-	<ul>
-	<li>
-	<a href="index.html"><i class="bx bxs-user"></i> By Admin</a>
-	</li>
-	<li>
-	<a href="index.html"><i class="bx bx-purchase-tag-alt"></i>Invention</a>
-	</li>
-	</ul>
-	<h3>
-	<a href="blog-details.html">New Device Invention for Digital Platform</a>
-	</h3>
-	<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-	<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
-	</div>
-	</div>
-	</div>
-	<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-	<div class="blog-card">
-	<div class="blog-img">
-	<a href="blog-details.html">
-	<img src="{{ asset('theme') }}/assets/images/blog/blog-img3.jpg" alt="Blog Images">
-	</a>
-	<div class="blog-tag">
-	<h3>17</h3>
-	<span>Dec</span>
-	</div>
-	</div>
-	<div class="content">
-	<ul>
-	<li>
-	<a href="index.html"><i class="bx bxs-user"></i> By Admin</a>
-	</li>
-	<li>
-	<a href="index.html"><i class="bx bx-purchase-tag-alt"></i>Achive</a>
-	</li>
-	</ul>
-	<h3>
-	<a href="blog-details.html">Business Strategy Make His Goal Acheive </a>
-	</h3>
-	<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-	<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
+		<div class="container">
+			<div class="section-title text-center">
+				<span class="sp-color2">Latest Blog</span>
+				<h2>Let’s Check Some Latest Blog</h2>
+			</div>
+			<div class="row pt-45">
+				<div class="col-lg-4 col-md-6">
+					<div class="blog-card">
+						<div class="blog-img">
+							<a href="blog-details.html">
+								<img src="{{ asset('theme') }}/assets/images/blog/blog-img1.jpg" alt="Blog Images">
+							</a>
+							<div class="blog-tag">
+								<h3>11</h3>
+								<span>Dec</span>
+							</div>
+						</div>
+						<div class="content">
+							<ul>
+								<li>
+									<a href="#"><i class="bx bxs-user"></i> By Admin</a>
+								</li>
+								<li>
+									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Business</a>
+								</li>
+							</ul>
+							<h3>
+								<a href="blog-details.html">Product Idea Solution for New Generation</a>
+							</h3>
+							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+							<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="blog-card">
+						<div class="blog-img">
+							<a href="blog-details.html">
+								<img src="{{ asset('theme') }}/assets/images/blog/blog-img2.jpg" alt="Blog Images">
+							</a>
+							<div class="blog-tag">
+								<h3>14</h3>
+								<span>Dec</span>
+								</div>
+							</div>
+							<div class="content">
+								<ul>
+									<li>
+										<a href="#"><i class="bx bxs-user"></i> By Admin</a>
+									</li>
+									<li>
+										<a href="#"><i class="bx bx-purchase-tag-alt"></i>Invention</a>
+									</li>
+								</ul>
+								<h3>
+									<a href="blog-details.html">New Device Invention for Digital Platform</a>
+								</h3>
+								<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+								<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+						<div class="blog-card">
+							<div class="blog-img">
+								<a href="blog-details.html">
+									<img src="{{ asset('theme') }}/assets/images/blog/blog-img3.jpg" alt="Blog Images">
+								</a>
+								<div class="blog-tag">
+									<h3>17</h3>
+									<span>Dec</span>
+								</div>
+							</div>
+							<div class="content">
+							<ul>
+								<li>
+									<a href="#"><i class="bx bxs-user"></i> By Admin</a>
+								</li>
+								<li>
+									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Achive</a>
+								</li>
+							</ul>
+							<h3>
+								<a href="#">Business Strategy Make His Goal Acheive </a>
+							</h3>
+							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 @endsection
