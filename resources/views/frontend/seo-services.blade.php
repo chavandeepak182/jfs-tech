@@ -242,10 +242,10 @@
                                 <table class="table text-center table-striped">
                                     <thead>
                                         <tr>
-                                        <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
-                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span><br>₹30000/Month</th>
-                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span><br>₹40000/Month</th>
-                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span><br>₹50000/Month</th>
+                                            <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
+                                            <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span><br>₹30000/Month</th>
+                                            <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span><br>₹40000/Month</th>
+                                            <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span><br>₹50000/Month</th>
                                         </tr>
                                     </thead>
                                     <tbody class="table-group-divider">
