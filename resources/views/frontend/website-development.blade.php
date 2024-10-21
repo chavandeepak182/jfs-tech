@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/14.png" alt="Images">
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/web-dev.png" alt="Best Website Developers">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -211,9 +211,8 @@
 </section>
 
 
-<!-- Technologies Area -->
-<section class="work-process-area-two pt-100 pb-70">
-		<div class="container">
+    <div class="call-us-area pt-100 pb-70">
+        <div class="container">
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-5">
 					<div class="work-process-left">
@@ -221,7 +220,7 @@
 							<span class="sp-color1">Our Expertise</span>
 							<h2>Empowering Businesses With Expertise in 100+ Technologies</h2>
 						</div>
-						<a href="contact.html" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
+						<a href="/contact-us" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
 					</div>
 				</div>
 				<div class="col-lg-7">
@@ -310,10 +309,70 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+
+<!-- Technologies Area -->
+    <section class="work-process-area-two pt-100 pb-70">
+        <div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-6">
+					<div class="choose-content mr-20">
+						<div class="section-title">
+							<span class="sp-color1"></span>
+							<h2 class="text-dark">Why Choose JFS Technologies?</h2>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-pencil-ruler"></i>
+										<h3 class="text-dark">Tailored Solutions</h3>
+									</div>
+									<p class="text-dark">We offer personalized design and development solutions aligned with your business goals.</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-phone-laptop"></i>
+										<h3 class="text-dark">Responsive & SEO-Optimized</h3>
+									</div>
+									<p class="text-dark">Each website is mobile-responsive and optimized for search engines from the ground up.</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-shield-check"></i>
+										<h3 class="text-dark">Advanced Security</h3>
+									</div>
+									<p class="text-dark">We provide high-level security features to ensure that your site is safe and secure.</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-user-headset"></i>
+										<h3 class="text-dark">Ongoing Support</h3>
+									</div>
+									<p class="text-dark">Our support extends well beyond delivery, ensuring your website performs optimally.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="choose-img">
+						<img src="{{ asset('theme') }}/assets/images/about/13.png" alt="Images">
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 
-<div class="choose-area pt-100 pb-70">
+    <div class="choose-area pt-100 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-10">

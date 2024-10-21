@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Company - JFS Technologies")
-@section('keywords', "")
-@section('description', "Discover comprehensive B2B End-to-End Sales services with our leading digital marketing company . Contact us for services.")
+@section('title', "Best B2B End-to-End Sales | Digital Marketing Company - JFS Technologies")
+@section('keywords', "B2B End-to-End Sales, B2B End-to-End Sales Services, Digital marketing company, Lead generation services, Lead Qualification, Digital marketing services")
+@section('description', "Discover comprehensive B2B End-to-End Sales services with our leading digital marketing company. Contact us for services.")
 
 @section('content')
 <div class="inner-banner">
@@ -34,9 +34,9 @@
                     <div class="about-play-content">
                         <span>Watch Our Intro Video</span>
                         <h2>Perfect Solution for It Services!</h2>
-                        <div class="play-on-area">
+                        <!-- <div class="play-on-area">
                             <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -45,9 +45,7 @@
                 <div class="section-title">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
 							<h2>Right Partner for Software Innovation</h2>
-							<p>
-							Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.
-							</p>
+							<p>Welcome to JFS Technologies, where we accelerate your company’s growth with our innovative B2B end-to-end sales and account management solutions. Our dedicated team of professionals generates leads and encourage valuable connections for your business. We specialize in acquiring new clients and putting efforts on partnerships that drive your enterprise to new heights.</p>
 						</div>
 						<div class="row">
 							<div class="col-lg-6 col-md-6">
@@ -65,7 +63,7 @@
 								</ul>
 							</div>
 						</div>
-						<p class="about-content-text">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+						<p class="about-content-text">As industry leaders, we provide unparalleled services tailored for software companies in both the US and European markets. Partner with JFS Technologies to harness the full potential of our solutions, optimizing your sales pipeline for exceptional growth and success.</p>
                 </div>
             </div>
         </div>
@@ -186,29 +184,41 @@
 </div>
 
 
-<div class="brand-area-two ptb-100">
-<div class="container">
-<div class="brand-slider owl-carousel owl-theme">
-<div class="brand-item">
-<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style1.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style2.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style4.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style5.png" alt="Images">
-</div>
-<div class="brand-item">
-<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" alt="Images">
-</div>
-</div>
-</div>
+<div class="brand-area-two ptb-100" style="background-color: #f4f4ff;">
+    <div class="container-fluid">
+        <div class="brand-slider owl-carousel owl-theme">
+                <div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
+				</div>
+        </div>
+    </div>
 </div>
 
 

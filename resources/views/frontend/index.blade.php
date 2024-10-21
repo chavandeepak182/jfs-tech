@@ -23,57 +23,8 @@
 		</div>
 	</div>
 
-<!-- Clientele Area -->
-	<div class="brand-area mt-3 pt-5 pb-3">
-		<div class="container-fluid">
-			<h2 class="text-center pb-5">Clientele</h2>
-			<div class="brand-slider owl-carousel owl-theme">
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style1.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style2.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style4.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style5.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-			</div>
-		</div>
-	</div>
 
-
-<!-- About Area -->
+	<!-- About Area -->
 	<div class="about-area ptb-100">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
@@ -83,9 +34,9 @@
 						<div class="about-play-content">
 							<span>Watch Our Intro Video</span>
 							<h2>Perfect Solution for IT Services!</h2>
-							<div class="play-on-area">
+							<!-- <div class="play-on-area">
 								<a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -130,20 +81,20 @@
 				<h2>What We Do?</h2>
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
-			<div class="row pt-45">
+			<div class="row pt-45 justify-content-center mx-auto">
 				<div class="col-lg-4 col-md-6">
 					<div class="services-item">
-						<a href="/mobile-app-development">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img1.jpg" alt="Images">
+						<a href="/digital-marketing-company">
+							<img src="{{ asset('theme') }}/assets/images/services/services-img6.jpg" alt="Images">
 						</a>
 						<div class="content">
-							<i class="flaticon-consultant"></i>
-							<span><a href="/mobile-app-development">App Services</a></span>
-							<h3><a href="/mobile-app-development"></a>App Development</h3>
+							<i class="flaticon-data-analytics"></i>
+							<span><a href="/digital-marketing-company">Digital Services</a></span>
+							<h3><a href="/digital-marketing-company">Digital Marketing</a></h3>
 						</div>
 					</div>
-				</div>
-                <div class="col-lg-4 col-md-6">
+				</div>	
+				<div class="col-lg-4 col-md-6">
 					<div class="services-item">
 						<a href="/website-design-and-development">
 							<img src="{{ asset('theme') }}/assets/images/services/services-img3.jpg" alt="Images">
@@ -155,51 +106,39 @@
 						</div>
 					</div>
 				</div>
-                <div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="services-item">
-						<a href="/digital-marketing-company">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img6.jpg" alt="Images">
+						<a href="/mobile-app-development">
+							<img src="{{ asset('theme') }}/assets/images/services/services-img1.jpg" alt="Images">
 						</a>
 						<div class="content">
-							<i class="flaticon-data-analytics"></i>
-							<span><a href="/digital-marketing-company">Digital Services</a></span>
-							<h3><a href="/digital-marketing-company">Digital Marketing</a></h3>
+							<i class="flaticon-consultant"></i>
+							<span><a href="/mobile-app-development">App Services</a></span>
+							<h3><a href="/mobile-app-development"></a>App Development</h3>
 						</div>
 					</div>
-				</div>		
+				</div>	
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<a href="#">
+							<img src="{{ asset('theme') }}/assets/images/services/services-img2.jpg" alt="Images">
+						</a>
+						<div class="content">
+							<i class="flaticon-structure"></i>
+							<span><a href="#">Support Services</a></span>
+							<h3><a href="#">App Maintenacne</a></h3>
+						</div>
+					</div>
+				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="services-item">
 						<a href="#">
 							<img src="{{ asset('theme') }}/assets/images/services/services-img4.jpg" alt="Images">
 						</a>
 						<div class="content">
-							<i class="flaticon-stats"></i>
+							<i class="flaticon-consulting"></i>
 							<span><a href="#">Dedicated</a></span>
 							<h3><a href="#">Hire Developer</a></h3>
-						</div>
-					</div>
-				</div>
-                <div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="#">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img2.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-consulting"></i>
-							<span><a href="#">Support Services</a></span>
-							<h3><a href="#">Product Support</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="#">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img5.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-structure"></i>
-							<span><a href="#">Planing</a></span>
-							<h3><a href="#">Infrastructure</a></h3>
 						</div>
 					</div>
 				</div>
@@ -324,7 +263,7 @@
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-										<i class="flaticon-practice"></i>
+										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
 									<p>We provide customised solutions that align with your business objectives, ensuring your goals are met effectively.</p>
@@ -333,7 +272,7 @@
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-										<i class="flaticon-help"></i>
+										<i class="fal fa-users-crown"></i>
 										<h3>Experienced Team</h3>
 									</div>
 									<p>Our expert developers and digital marketing professionals bring extensive industry experience and technical proficiency.</p>
@@ -342,7 +281,7 @@
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-										<i class="flaticon-help"></i>
+										<i class="fal fa-analytics"></i>
 										<h3>Proven Success</h3>
 									</div>
 									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
@@ -351,7 +290,7 @@
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-										<i class="flaticon-help"></i>
+										<i class="fal fa-globe-asia"></i>
 										<h3>Global Reach</h3>
 									</div>
 									<p>With clients worldwide, we ensure seamless project management and consistent, high-quality delivery across borders.</p>
@@ -363,6 +302,90 @@
 				<div class="col-lg-6">
 					<div class="choose-img">
 						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- Clientele Area -->
+	<div class="brand-area pt-100 pb-100">
+		<div class="container-fluid">
+			<h2 class="text-center pb-5">Clientele</h2>
+			<div class="brand-slider owl-carousel owl-theme">
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style1.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style2.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style4.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style5.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="call-us-area">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-5">
+					<div class="call-contact">
+						<h3>Recognitions</h3>
+						<a class="call-btn">Awards & Achievements</a>
+						<p>We've earned honors as one of the top digital marketing agency across the nation and internationally.</p>
+					</div>
+				</div>
+				<div class="col-lg-7 pt-5 pb-3">
+					<div class="row">
+						<div class="col-lg-4 col-4">
+							<div class="work-process-card rounded">
+                                <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
+							</div>
+						</div>
+						<div class="col-lg-4 col-4">
+							<div class="work-process-card rounded">
+                                <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-4 col-4">
+							<div class="work-process-card rounded">
+                                <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -429,7 +452,7 @@
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img1.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Thomas Paul</h3>
 						<span>Sr. Developer @ APISDOR</span>
@@ -440,7 +463,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Dan Fitzpatrick</h3>
 						<span>President @ KRIXI</span>
@@ -451,7 +474,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img3.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Anand Katti</h3>
 						<span>COO @ Shyena Techyarns</span>
@@ -652,84 +675,75 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="blog-details.html">
-								<img src="{{ asset('theme') }}/assets/images/blog/blog-img1.jpg" alt="Blog Images">
+							<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/">
+								<img src="https://jfstechnologies.com/wp-content/uploads/2024/09/Colorful-Playful-SEO-Informational-Presentation-2560-x-1025-px.png" alt="Blog Images">
 							</a>
 							<div class="blog-tag">
-								<h3>11</h3>
-								<span>Dec</span>
+								<h3>18</h3>
+								<span>Sept</span>
 							</div>
 						</div>
 						<div class="content">
 							<ul>
 								<li>
-									<a href="#"><i class="bx bxs-user"></i> By Admin</a>
-								</li>
-								<li>
-									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Business</a>
+									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
 								</li>
 							</ul>
 							<h3>
-								<a href="blog-details.html">Product Idea Solution for New Generation</a>
+								<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/">Top SEO Tools to Boost Your Website Visibility in 2024</a>
 							</h3>
-							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-							<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<p>Digital marketing is an area that changes all the time, so it’s important for businesses to stay ahead of the curve. Search Engine Optimization (SEO) is still a key part of doing...</p>
+							<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="blog-details.html">
-								<img src="{{ asset('theme') }}/assets/images/blog/blog-img2.jpg" alt="Blog Images">
+							<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/">
+								<img src="https://jfstechnologies.com/wp-content/uploads/2024/08/How-to-Choose-the-Best-Free-Client-Management-Software-for-Your-Needs.png" alt="Blog Images">
 							</a>
 							<div class="blog-tag">
-								<h3>14</h3>
-								<span>Dec</span>
+								<h3>21</h3>
+								<span>Aug</span>
 								</div>
 							</div>
 							<div class="content">
 								<ul>
 									<li>
-										<a href="#"><i class="bx bxs-user"></i> By Admin</a>
-									</li>
-									<li>
-										<a href="#"><i class="bx bx-purchase-tag-alt"></i>Invention</a>
+										<a href="#"><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
 									</li>
 								</ul>
 								<h3>
-									<a href="blog-details.html">New Device Invention for Digital Platform</a>
+									<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/">How to Choose the Best Free Client Management Software for Your Needs</a>
 								</h3>
-								<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-								<a href="blog-details.html" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+								<p>In today’s competitive business landscape, managing client relationships effectively is crucial for success.</p>
+								<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 						<div class="blog-card">
 							<div class="blog-img">
-								<a href="blog-details.html">
-									<img src="{{ asset('theme') }}/assets/images/blog/blog-img3.jpg" alt="Blog Images">
+								<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/">
+									<img src="https://jfstechnologies.com/wp-content/uploads/2024/07/ban1.png" alt="Blog Images">
 								</a>
 								<div class="blog-tag">
-									<h3>17</h3>
-									<span>Dec</span>
+									<h3>31</h3>
+									<span>Jul</span>
 								</div>
 							</div>
 							<div class="content">
 							<ul>
 								<li>
-									<a href="#"><i class="bx bxs-user"></i> By Admin</a>
-								</li>
-								<li>
 									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Achive</a>
 								</li>
 							</ul>
 							<h3>
-								<a href="#">Business Strategy Make His Goal Acheive </a>
+								<a href="#">Why Every Business Needs a Digital Marketing Agency</a>
 							</h3>
-							<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<p>In today’s fast-paced digital landscape Why Every Business Needs a Digital Marketing Agency, staying ahead of the competition requires more than just a great product.</p>
+							<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>

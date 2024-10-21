@@ -103,7 +103,7 @@
 				<div class="container-max">
 					<nav class="navbar navbar-expand-md navbar-light ">
 						<a class="navbar-brand" href="{{ asset('') }}">
-							<img src="{{ asset('theme') }}/assets/images/logos/jfs.png" class="logo-one" width="130px" alt="Logo">
+							<img src="{{ asset('theme') }}/assets/images/logos/jfs-logo-1.png" class="logo-one" alt="Logo" width="190px">
 							<!-- <img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo"> -->
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -152,7 +152,7 @@
 									<a href="/about-us" class="nav-link">About Us</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Blog</a>
+									<a href="#" class="nav-link">Blogs</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">Careers</a>
