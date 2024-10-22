@@ -497,7 +497,7 @@
                                             <td>Multiple Gateways + Advanced Features</td>
                                         </tr>
                                         <tr>
-                                            <th>Website Security Features</th>                                            </td>
+                                            <th>Website Security Features</th>
                                             <td>Basic Security Setup</td>
                                             <td>Advanced Security Setup</td>
                                             <td>Enterprise-Level Security Features</td>
