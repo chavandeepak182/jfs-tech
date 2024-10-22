@@ -3,6 +3,7 @@
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <!-- Banner Area -->
 	<div class="banner-area">
@@ -616,7 +617,8 @@
 				</div>
 				<div class="col-lg-5 pt-5 pb-3">
                     <div class="contact-form">
-                        <form id="contactForm">
+					<form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+					@csrf
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
@@ -750,4 +752,37 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#contactForm').on('submit', function(e) {
+            e.preventDefault(); // Prevent default form submission
+
+            var formData = {
+                name: $('#name').val(),
+                email: $('#email').val(),
+                phone_number: $('#phone_number').val(),
+                msg_subject: $('#msg_subject').val(),
+                message: $('#message').val(),
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "{{ route('contact.submit') }}", // Use Laravel route
+                data: JSON.stringify(formData),
+                contentType: "application/json",
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') // CSRF Token
+                },
+                success: function(response) {
+                    $('#msgSubmit').removeClass('hidden').text(response.message);
+                    $('#contactForm')[0].reset(); // Reset form fields
+                },
+                error: function(error) {
+                    $('#msgSubmit').removeClass('hidden').text('Error sending message: ' + error.responseJSON.message);
+                }
+            });
+        });
+    });
+</script>
 @endsection
