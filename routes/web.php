@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('frontend.index');
@@ -17,3 +18,5 @@ Route::get('smo-services', [FrontendController::class, 'SMOView']);
 Route::get('ppc-services', [FrontendController::class, 'PPCView']);
 Route::get('website-design-and-development', [FrontendController::class, 'WebDevView']);
 Route::get('mobile-app-development', [FrontendController::class, 'MobileAppView']);
+
+Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

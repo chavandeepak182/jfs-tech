@@ -385,7 +385,7 @@
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <table class="table text-center table-striped">
-                                    <thead>
+                                <thead>
                                         <tr>
                                             <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
                                             <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
@@ -396,9 +396,9 @@
                                     <tbody class="table-group-divider">
                                         <tr>
                                             <th>Cost</th>
-                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">₹30,000</strong></td>
-                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">Starting from ₹50,000</strong></td>
-                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">Starting from ₹100,000</strong></td>
+                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">$1,000</strong></td>
+                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">Starting from $2,000</strong></td>
+                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">Starting from $10,000</strong></td>
                                         </tr>
                                         <tr>
                                             <th>Type of Website</th>
@@ -497,7 +497,7 @@
                                             <td>Multiple Gateways + Advanced Features</td>
                                         </tr>
                                         <tr>
-                                            <th>Website Security Features</th>
+                                            <th>Website Security Features</th>                                 
                                             <td>Basic Security Setup</td>
                                             <td>Advanced Security Setup</td>
                                             <td>Enterprise-Level Security Features</td>
@@ -544,7 +544,7 @@
                                             <td>Available Upon Request</td>
                                             <td>Available Upon Request</td>
                                         </tr>
-                                    </tbody>
+                                    </tbody>  
                                 </table>
                             </div>
                             
