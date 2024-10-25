@@ -36,7 +36,7 @@
 	</div>
 
 
-	<header class="top-header top-header-bg">
+	<!-- <header class="top-header top-header-bg">
 		<div class="container-fluid">
 			<div class="container-max">
 				<div class="row align-items-center">
@@ -73,7 +73,7 @@
 									</li>
 								</ul>
 							</div>
-						<!-- <div class="language-list">
+						<div class="language-list">
 						<select class="language-list-item">
 						<option>English</option>
 						<option>العربيّة</option>
@@ -81,20 +81,20 @@
 						<option>Português</option>
 						<option>简体中文</option>
 						</select>
-						</div> -->
+						</div> 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
+	</header> -->
 
 
 	<div class="navbar-area">
 		<div class="mobile-nav">
 			<a href="{{ asset('') }}" class="logo">
-				<img src="{{ asset('theme') }}/assets/images/logos/jfs.png" class="logo-one" alt="Logo">
-				<img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo">
+				<img src="{{ asset('theme') }}/assets/images/logos/jfs-logo-1.png" class="logo-one" alt="Logo">
+				<!--<img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo">-->
 			</a>
 		</div>
 
@@ -103,7 +103,7 @@
 				<div class="container-max">
 					<nav class="navbar navbar-expand-md navbar-light ">
 						<a class="navbar-brand" href="{{ asset('') }}">
-							<img src="{{ asset('theme') }}/assets/images/logos/jfs-logo-1.png" class="logo-one" alt="Logo" width="190px">
+							<img src="{{ asset('theme') }}/assets/images/logos/jfs-logo-1.png" class="logo-one" alt="Logo" width="165px">
 							<!-- <img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo"> -->
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -115,7 +115,10 @@
 									<a href="/services" class="nav-link">Services <i class="bx bx-caret-down"></i></a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="/digital-marketing-company" class="nav-link">Digital Marketing <i class="bx bx-caret-down"></i></a>
+											<a href="/website-design-and-development" class="nav-link">Website Design & Development</a>
+										</li>
+										<li class="nav-item">
+											<a href="/digital-marketing-company" class="nav-link">Digital Marketing <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="/seo-services" class="nav-link">SEO Services</a>
@@ -129,9 +132,6 @@
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="/website-design-and-development" class="nav-link">Website Design & Developmen</a>
-										</li>
-										<li class="nav-item">
 											<a href="/mobile-app-development" class="nav-link">Mobile Application Development</a>
 										</li>
 										<li class="nav-item">
@@ -143,16 +143,21 @@
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Solutions</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Industries</a>
-								</li>
-								<li class="nav-item">
 									<a href="/about-us" class="nav-link">About Us</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Blogs</a>
+									<a class="nav-link">Resources <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="https://jfstechnologies.com/blog/"" class="nav-link">Blogs</a>
+										</li>
+										<li class="nav-item">
+											<a href="/success-stories" class="nav-link">Success Stories</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Portfolio</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">Careers</a>

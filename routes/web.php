@@ -18,5 +18,7 @@ Route::get('smo-services', [FrontendController::class, 'SMOView']);
 Route::get('ppc-services', [FrontendController::class, 'PPCView']);
 Route::get('website-design-and-development', [FrontendController::class, 'WebDevView']);
 Route::get('mobile-app-development', [FrontendController::class, 'MobileAppView']);
+Route::get('success-stories', [FrontendController::class, 'SuccessStoriesView']);
+
 
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

@@ -252,50 +252,83 @@
 </section>
 
 
-    <section class="work-process-area-two pt-100 pb-70">
-        <div class="container">
+<div class="security-area pt-100 pb-70">
+	<div class="container">
+		<div class="section-title text-center">
+		    <span class="sp-color2">Plan Descriptions</span>
+		    <h2>Choose the Best Plan For Your Business</h2>
+		</div>
+		<div class="row pt-45">
+		    <div class="col-lg-4 col-sm-6">
+		        <div class="security-card">
+                    <i class="flaticon-cyber-security"></i>
+                    <h3>Standard Plan</h3>
+                    <p>Ideal for small businesses looking to establish a solid social media presence. This plan includes basic features such as post creation, page setups, and essential social media management.</p>
+                </div>
+		    </div>
+		    <div class="col-lg-4 col-sm-6">
+                <div class="security-card">
+                    <i class="flaticon-computer"></i>
+                    <h3>Professional Plan</h3>
+                    <p>Designed for businesses seeking to boost engagement and visibility, this plan provides more frequent posts, captivating video content, and expanded group sharing to reach a wider audience.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="security-card">
+                    <i class="flaticon-effective"></i>
+                    <h3>Enterprise Plan</h3>
+                    <p>Ideal for larger organizations seeking robust social media strategies, this plan offers advanced features such as higher posting frequency, multi-platform video content, and detailed performance analytics.</p>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+    <div class="choose-area pt-100 pb-70">
+		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-6">
 					<div class="choose-content mr-20">
 						<div class="section-title">
 							<span class="sp-color1"></span>
-							<h2 class="text-dark">Why Choose JFS Technologies?</h2>
+							<h2>Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-users-crown"></i>
-										<h3 class="text-dark">Expert Team Memebers</h3>
+										<h3>Expert Team Memebers</h3>
 									</div>
-									<p class="text-dark">Our team of digital marketing professionals brings years of experience and knowledge to your project.</p>
+									<p>Our team of digital marketing professionals brings years of experience and knowledge to your project.</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-file-chart-line"></i>
-										<h3 class="text-dark">Data-Driven Approach</h3>
+										<h3>Data-Driven Approach</h3>
 									</div>
-									<p class="text-dark">We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
+									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-pencil-ruler"></i>
-										<h3 class="text-dark">Tailored Strategies</h3>
+										<h3>Tailored Strategies</h3>
 									</div>
-									<p class="text-dark">We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
+									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-puzzle-piece"></i>
-										<h3 class="text-dark">Comprehensive Solutions</h3>
+										<h3>Comprehensive Solutions</h3>
 									</div>
-									<p class="text-dark">From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
+									<p>From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
 								</div>
 							</div>
 						</div>
@@ -303,481 +336,7 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/about/13.png" alt="Images">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-    <div class="choose-area pt-100 pb-70">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-10">
-                    <div class="section-title text-center mx-auto" style="max-width:650px">
-                        <span class="sp-color1">Our Pricing</span>
-                        <h2 class="text-white">Digital Marketing Plans</h2>
-                    </div>
-					<div class="choose-content mt-4">
-                        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" tabindex="-1">For Other Countries</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <table class="table text-center table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
-                                            <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
-                                            <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span></th>
-                                            <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="table-group-divider">
-                                        <tr>
-                                            <th>Cost</th>
-                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">₹30,000</strong></td>
-                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">Starting from ₹50,000</strong></td>
-                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">Starting from ₹100,000</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><h5 class="sp-color2">On-Page SEO</h5></th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Max Keywords</td>
-                                            <td>Up to 10</td>
-                                            <td>Up to 30</td>
-                                            <td>Up to 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Pages Optimized</td>
-                                            <td>Up to 8</td>
-                                            <td>Up to 15</td>
-                                            <td>Up to 25</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Website &amp; Competitor Analysis</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Keywords Research and Selection</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Meta Tags Creation</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>URL Structure optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Content Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Image Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Heading Tag Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Internal Linking Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schema for Contact &amp; Address</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><h5 class="sp-color2">Off-Page SEO</h5></th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Social Bookmarking</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Blog Submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Blog Social Sharing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Q &amp; A</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Guest Posting</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Video Creation &amp; Submission</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Infographic Creation &amp; Submission                                            </td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Business/Local Listing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Google My Business Setup &amp; Verification</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Bing Local Listing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Testimonial Posting</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>News/PR Submission (Paid by client)</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><h5 class="sp-color2">Technical SEO</h5></th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Google Analytics Setup</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tag Manager Setup</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Search Console Setup</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Robots.txt Creation &amp; Submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>XML Sitemap Creation &amp; submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <table class="table text-center table-striped">
-                                    <thead>
-                                        <tr>
-                                        <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
-                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
-                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span></th>
-                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="table-group-divider">
-                                        <tr>
-                                            <th>Cost</th>
-                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">$700</strong></td>
-                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">$1,000</strong></td>
-                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">$1,400</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <th>One-Time Setup Charges</th>
-                                            <td>$700</td>
-                                            <td>$700</td>
-                                            <td>$700</td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><h5 class="sp-color2">Facebook</h5></th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Business Page Creation</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Post Creation & Sharing</td>
-                                            <td>12/month</td>
-                                            <td>16/month</td>
-                                            <td>22/month</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Website &amp; Competitor Analysis</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Keywords Research and Selection</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Meta Tags Creation</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>URL Structure optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Content Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Image Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Heading Tag Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Internal Linking Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schema for Contact &amp; Address</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><h5 class="sp-color2">Off-Page SEO</h5></th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Social Bookmarking</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Blog Submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Blog Social Sharing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Q &amp; A</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Guest Posting</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Video Creation &amp; Submission</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Infographic Creation &amp; Submission</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Business/Local Listing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Google My Business Setup &amp; Verification</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Bing Local Listing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Testimonial Posting</td>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>News/PR Submission (Paid by client)</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><h5 class="sp-color2">Technical SEO</h5></th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Google Analytics Setup</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tag Manager Setup</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Search Console Setup</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Robots.txt Creation &amp; Submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>XML Sitemap Creation &amp; submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+						<img src="{{ asset('theme') }}/assets/images/about/13.png" alt="Images">
 					</div>
 				</div>
 			</div>

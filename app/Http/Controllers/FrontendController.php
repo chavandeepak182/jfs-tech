@@ -85,5 +85,9 @@ private function getCountryCodeFromIP($ip)
         return view('frontend.app-development');
     }
 
+    public function SuccessStoriesView()    {
+        return view('frontend.success-stories');
+    }
+
     
 }
