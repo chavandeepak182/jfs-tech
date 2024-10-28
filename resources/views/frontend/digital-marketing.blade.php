@@ -35,26 +35,32 @@
         <div class="row pt-45">
             <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">01.</div>
-                    <h3>Search Engine Optimization (SEO)</h3>
-                    <p>Our SEO strategies focus on optimizing your website to rank higher in search engine results. We conduct thorough keyword research, on-page optimization, technical SEO audits, and build high-quality backlinks to enhance your site's visibility.</p>
-                    <i class="fal fa-file-search my-2"></i>
+                    <a href="/seo-services">
+                        <div class="number-title">01.</div>
+                        <h3>Search Engine Optimization (SEO)</h3>
+                        <p>Our SEO strategies focus on optimizing your website to rank higher in search engine results. We conduct thorough keyword research, on-page optimization, technical SEO audits, and build high-quality backlinks to enhance your site's visibility.</p>
+                        <i class="fal fa-file-search my-2"></i>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">02.</div>
-                    <h3>Social Media Management</h3>
-                    <p>We manage your social media presence across platforms like Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest. Our services include content creation, community engagement, and analytics to measure performance.</p>
-                    <i class="fal fa-icons my-2"></i>
+                    <a href="/smo-services">
+                        <div class="number-title">02.</div>
+                        <h3>Social Media Management</h3>
+                        <p>We manage your social media presence across platforms like Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest. Our services include content creation, community engagement, and analytics to measure performance.</p>
+                        <i class="fal fa-icons my-2"></i>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">03.</div>
-                    <h3>Paid Advertising (PPC)</h3>
-                    <p>Our targeted PPC campaigns aim to deliver high-quality leads by creating compelling ads that not only drive traffic to your website but also maximize your ROI. We continuously optimize ad performance to ensure you're getting the best value from your investment.</p>
-                    <i class="fal fa-ad my-2"></i>
+                    <a href="/ppc-services">
+                        <div class="number-title">03.</div>
+                        <h3>Paid Advertising (PPC)</h3>
+                        <p>Our targeted PPC campaigns aim to deliver high-quality leads by creating compelling ads that not only drive traffic to your website but also maximize your ROI. We continuously optimize ad performance to ensure you're getting the best value from your investment.</p>
+                        <i class="fal fa-ad my-2"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -215,8 +221,8 @@
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
                     <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>B2B Marketing</a></h3>
-                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
+                    <h3><a>Content Marketing</a></h3>
+                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -243,8 +249,8 @@
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
                     <i class="fal fa-envelope-open-text pb-2"></i>
-                    <h3><a>Content Marketing</a></h3>
-                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
+                    <h3><a>B2B Marketing</a></h3>
+                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
                 </div>
             </div>
         </div>        

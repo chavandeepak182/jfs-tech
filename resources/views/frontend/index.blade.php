@@ -13,11 +13,11 @@
 			</video> -->
 			<div class="container-max">
 				<div class="banner-item-content banner-item-ptb">
-					<h1>Fueling Growth with Tailored Digital Solutions</h1>
-					<p>Over 10 years of proven track record delivering secure, scalable, and high-performance solutions that address your unique business needs.</p>
+					<h1>Empowering Your Business with Digital Transformation</h1>
+					<p>Unlock the future with cutting-edge digital solutions in cloud, data, and tailored experiences to drive growth and innovation.</p>
 					<div class="banner-btn">
-						<a href="#" class="default-btn btn-bg-two border-radius-50">Get In Touch <i class="bx bx-chevron-right"></i></a>
-						<a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Explore More <i class="bx bx-chevron-right"></i></a>
+						<a href="#" class="default-btn btn-bg-two border-radius-50">Get Started Today <i class="fal fa-arrow-right"></i></a>
+						<!-- <a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Explore More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
 				</div>
 			</div>
@@ -78,39 +78,36 @@
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card">
-				<div class="col-lg-2 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-web-development"></i>
-						<h3><a href="/website-design-and-development">1. Website Design & Development</a></h3>
-						<a href="/website-design-and-development" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<h3><a href="#">1. Digital Transformation</a></h3>
+						<p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-data-analytics"></i>
-						<h3><a href="/digital-marketing-company">2. Digital Marketing</a></h3>
-						<a href="/digital-marketing-company" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<h3><a href="#">2. Digital Experience</a></h3>
+						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-consultant"></i>
-						<h3><a href="/mobile-app-development">3. Mobile Application Development</a></h3>
-						<a href="/mobile-app-development" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<h3><a href="#">3. Cloud</a></h3>
+						<p>Cloud service provides on-demand access to computing resources, storage, and applications over the internet.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-2 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-computer"></i>
-						<h3><a href="/app-maintenance-Support">4. Application Maintenance & Support</a></h3>
-						<a href="/app-maintenance-Support" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-2 col-sm-6">
-					<div class="services-card services-style-bg">
-						<i class="flaticon-consulting"></i>
-						<h3><a href="/hire-dedicated-developer">5. Hire Dedicated Developers</a></h3>
-						<a href="/hire-dedicated-developer" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<h3><a href="#">4. Resource Augmentation</a></h3>
+						<p>This involves temporarily adding skilled professionals to a team to meet project demands and fill skill gaps.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -292,43 +289,34 @@
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style1.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style2.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style4.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style5.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+				</div>
+				
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
 				</div>
 			</div>
 		</div>
