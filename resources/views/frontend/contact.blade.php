@@ -9,7 +9,7 @@
             <h3>Contact Us</h3>
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="{{ asset('theme') }}">Home</a>
                 </li>
                 <li>
                     <i class="bx bx-chevrons-right"></i>
@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="inner-shape">
-        <img src="assets/images/shape/inner-shape.png" alt="Images">
+        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 
@@ -33,27 +33,27 @@
                 <div class="contact-info mr-20">
                     <span>Contact Info</span>
                     <h2>Let's Connect With Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet varius mi, ut hendrerit magna mollis ac.</p>
+                    <p>Give us a few details & we’ll offer the best solution. Connect by phone, email, & more.</p>
                     <ul>
                         <li>
                             <div class="content">
                                 <i class="bx bx-phone-call"></i>
                                 <h3>Phone Number</h3>
-                                <a href="tel:12122555511">+1 (212) 255-5511</a>
+                                <a href="tel:918329729190">+91 83297 29190</a>
                             </div>
                         </li>
                         <li>
                             <div class="content">
                                 <i class="bx bxs-map"></i>
                                 <h3>Address</h3>
-                                <span>124 Virgil A Virginia, USA</span>
+                                <span>Office No.416, 4th floor, Platinum Square, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014.</span>
                             </div>
                         </li>
                         <li>
                             <div class="content">
                                 <i class="bx bx-message"></i>
                                 <h3>Contact Email</h3>
-                                <a href="mailto:example@example.com">example@example.com</a>
+                                <a href="mailto:info@jfstechnologies.com">info@jfstechnologies.com</a>
                             </div>
                         </li>
                     </ul>
@@ -124,7 +124,7 @@
 
 <div class="map-area">
     <div class="container-fluid m-0 p-0">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50194.82376159623!2d-79.09792989247224!3d38.159337740034566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b4a08eb8621697%3A0xe5d6e4710a09b66e!2sStaunton%2C%20VA%2024401%2C%20USA!5e0!3m2!1sen!2sbd!4v1607173226867!5m2!1sen!2sbd"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.294956854627!2d73.9111051!3d18.5607364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1aefea87bd1%3A0x5256090f743aa340!2sJFS%20Technologies!5e0!3m2!1sen!2sin!4v1729607646744!5m2!1sen!2sin"></iframe>
     </div>
 </div>
 

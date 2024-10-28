@@ -8,19 +8,19 @@
 <!-- Banner Area -->
 	<div class="banner-area">
 		<div class="container-fluid p-0">
-			<video id="background-video" autoplay loop muted poster="{{ asset('theme') }}/assets/images/hero-video.mp4">
+			<!-- <video id="background-video" autoplay loop muted poster="{{ asset('theme') }}/assets/images/hero-video.mp4">
 				<source src="{{ asset('theme') }}/assets/images/hero-video-1.mp4" type="video/mp4">
-			</video>
-			<!-- <div class="container-max">
+			</video> -->
+			<div class="container-max">
 				<div class="banner-item-content banner-item-ptb">
-					<h1>Fueling Growth with Tailored Digital Solutions</h1>
-					<p>Over 10 years of proven track record delivering secure, scalable, and high-performance solutions that address your unique business needs.</p>
+					<h1>Empowering Your Business with Digital Transformation</h1>
+					<p>Unlock the future with cutting-edge digital solutions in cloud, data, and tailored experiences to drive growth and innovation.</p>
 					<div class="banner-btn">
-						<a href="#" class="default-btn btn-bg-two border-radius-50">Get In Touch <i class="bx bx-chevron-right"></i></a>
-						<a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Explore More <i class="bx bx-chevron-right"></i></a>
+						<a href="#" class="default-btn btn-bg-two border-radius-50">Get Started Today <i class="fal fa-arrow-right"></i></a>
+						<!-- <a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Explore More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
 				</div>
-			</div> -->
+			</div>
 		</div>
 	</div>
 
@@ -28,9 +28,32 @@
 	<!-- About Area -->
 	<div class="about-area ptb-100">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-6">
-					<div class="about-play">
+			<div class="row justify-content-center align-items-center mx-auto">
+				<div class="col-lg-12">
+					<div class="about-content ml-25">
+						<div class="section-title">
+							<span class="sp-color2">24+ Years Leadership Experience</span>
+							<h2>Right Partner for Software Innovation</h2>
+							<p>Welcome to JFS Technologies, where we accelerate your company’s growth with our innovative B2B end-to-end sales and account management solutions. Our dedicated team of professionals generates leads and encourage valuable connections for your business. We specialize in acquiring new clients and putting efforts on partnerships that drive your enterprise to new heights.</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6">
+								<ul class="about-list text-start">
+									<li><i class="bx bxs-check-circle"></i>Integrity: Our foundation, your trust</li>
+									<li><i class="bx bxs-check-circle"></i>Transparency: Fostering connections with honesty & openness</li>
+								</ul>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<ul class="about-list text-start about-list-2">
+									<li><i class="bx bxs-check-circle"></i>Ownership: Empowering success, together</li>
+									<li><i class="bx bxs-check-circle"></i>Adaptability: Embracing change with flexibility and resilience</li>
+								</ul>
+							</div>
+						</div>
+						<p class="about-content-text">As industry leaders, we provide unparalleled services tailored for software companies in both the US and European markets. Partner with JFS Technologies to harness the full potential of our solutions, optimizing your sales pipeline for exceptional growth and success.</p>
+					</div>
+
+					<div class="about-play mt-5 text-center">
 						<img src="{{ asset('theme') }}/assets/images/about/about-img1.jpg" alt="About Images">
 						<div class="about-play-content">
 							<span>Watch Our Intro Video</span>
@@ -39,34 +62,6 @@
 								<a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
 							</div> -->
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about-content ml-25">
-						<div class="section-title">
-							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2>Right Partner for Software Innovation</h2>
-							<p>
-							Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.
-							</p>
-						</div>
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<ul class="about-list text-start">
-									<li><i class="bx bxs-check-circle"></i>Cost of Supplies and Equipment</li>
-									<li><i class="bx bxs-check-circle"></i>Bribed Autor Nisi Elit Volume</li>
-									<li><i class="bx bxs-check-circle"></i>Cost of Supplies and Equipment</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<ul class="about-list text-start about-list-2">
-									<li><i class="bx bxs-check-circle"></i>Change the Volume of Expected</li>
-									<li><i class="bx bxs-check-circle"></i>Easy to Customer Services</li>
-									<li><i class="bx bxs-check-circle"></i>Good Quality Products Services</li>
-								</ul>
-							</div>
-						</div>
-						<p class="about-content-text">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 					</div>
 				</div>
 			</div>
@@ -82,65 +77,37 @@
 				<h2>What We Do?</h2>
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
-			<div class="row pt-45 justify-content-center mx-auto">
-				<div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="/digital-marketing-company">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img6.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-data-analytics"></i>
-							<span><a href="/digital-marketing-company">Digital Services</a></span>
-							<h3><a href="/digital-marketing-company">Digital Marketing</a></h3>
-						</div>
-					</div>
-				</div>	
-				<div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="/website-design-and-development">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img3.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-web-development"></i>
-							<span><a href="/website-design-and-development">Web Services</a></span>
-							<h3><a href="/website-design-and-development">Web Development</a></h3>
-						</div>
+			<div class="row pt-45 mx-auto justify-content-between custom-card">
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg">
+						<i class="flaticon-web-development"></i>
+						<h3><a href="#">1. Digital Transformation</a></h3>
+						<p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="/mobile-app-development">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img1.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-consultant"></i>
-							<span><a href="/mobile-app-development">App Services</a></span>
-							<h3><a href="/mobile-app-development"></a>App Development</h3>
-						</div>
-					</div>
-				</div>	
-				<div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="#">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img2.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-structure"></i>
-							<span><a href="#">Support Services</a></span>
-							<h3><a href="#">App Maintenacne</a></h3>
-						</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg">
+						<i class="flaticon-data-analytics"></i>
+						<h3><a href="#">2. Digital Experience</a></h3>
+						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="services-item">
-						<a href="#">
-							<img src="{{ asset('theme') }}/assets/images/services/services-img4.jpg" alt="Images">
-						</a>
-						<div class="content">
-							<i class="flaticon-consulting"></i>
-							<span><a href="#">Dedicated</a></span>
-							<h3><a href="#">Hire Developer</a></h3>
-						</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg">
+						<i class="flaticon-consultant"></i>
+						<h3><a href="#">3. Cloud</a></h3>
+						<p>Cloud service provides on-demand access to computing resources, storage, and applications over the internet.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg">
+						<i class="flaticon-computer"></i>
+						<h3><a href="#">4. Resource Augmentation</a></h3>
+						<p>This involves temporarily adding skilled professionals to a team to meet project demands and fill skill gaps.</p>
+						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -149,105 +116,110 @@
 
 
 <!-- Technologies Area -->
-	<section class="work-process-area-two pt-100 pb-70">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-5">
-					<div class="work-process-left">
+	<div class="about-area ptb-100">
+		<div class="container-fluid">
+			<div class="row mx-auto">
+				<div class="col-lg-12 text-center">
+					<div class="about-content ml-25">
 						<div class="section-title">
-							<span class="sp-color1">Our Expertise</span>
-							<h2>Empowering Businesses With Expertise in 100+ Technologies</h2>
+							<span class="sp-color2">Our Expertise</span>
+							<h2 class="w-50 mx-auto">Empowering Businesses With Expertise in 100+ Technologies</h2>
 						</div>
-						<a href="/contact-us" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
-					</div>
-				</div>
-				<div class="col-lg-7">
-					<div class="row">
-						<div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/html-5.png" class="p-3" alt="Images">
-							</div>
-						</div>
-						<div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/css-3.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/php.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/react_js.png" class="" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/angular_js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/.net.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/java.png" class="p-2" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/laravel.png" class="p-2" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/node_js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/vue_js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/cpp.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/python.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/next_js.png" class="p-2" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/flutter.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-6">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/ror.png" class="p-3" alt="Images">
+
+						<div class="slider">
+							<div class="slide-track">
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/html-5.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/css-3.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/php.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/react_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/angular_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/NET.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/java.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/laravel.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/node_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/vue_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/cpp.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/python.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/next_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/flutter.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/ror.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-card">
+										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/laravel.png" alt="Images">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
 
 <!-- Trust Us Area -->	
@@ -317,43 +289,34 @@
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style1.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style2.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style4.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style5.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
 				</div>
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/brand-style3.png" class="brand-logo-two" alt="Images">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+				</div>
+				
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
 				</div>
 			</div>
 		</div>

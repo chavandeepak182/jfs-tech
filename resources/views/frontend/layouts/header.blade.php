@@ -36,7 +36,7 @@
 	</div>
 
 
-	<header class="top-header top-header-bg">
+	<!-- <header class="top-header top-header-bg">
 		<div class="container-fluid">
 			<div class="container-max">
 				<div class="row align-items-center">
@@ -73,7 +73,7 @@
 									</li>
 								</ul>
 							</div>
-						<!-- <div class="language-list">
+						<div class="language-list">
 						<select class="language-list-item">
 						<option>English</option>
 						<option>العربيّة</option>
@@ -81,20 +81,20 @@
 						<option>Português</option>
 						<option>简体中文</option>
 						</select>
-						</div> -->
+						</div> 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
+	</header> -->
 
 
 	<div class="navbar-area">
 		<div class="mobile-nav">
 			<a href="{{ asset('') }}" class="logo">
-				<img src="{{ asset('theme') }}/assets/images/logos/jfs.png" class="logo-one" alt="Logo">
-				<img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo">
+				<img src="{{ asset('theme') }}/assets/images/logos/logo-n.png" class="logo-one" alt="Logo">
+				<!--<img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo">-->
 			</a>
 		</div>
 
@@ -103,7 +103,7 @@
 				<div class="container-max">
 					<nav class="navbar navbar-expand-md navbar-light ">
 						<a class="navbar-brand" href="{{ asset('') }}">
-							<img src="{{ asset('theme') }}/assets/images/logos/jfs-logo-1.png" class="logo-one" alt="Logo" width="190px">
+							<img src="{{ asset('theme') }}/assets/images/logos/logo-n.png" class="logo-one" alt="Logo" style="width: 250px;">
 							<!-- <img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo"> -->
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -115,50 +115,97 @@
 									<a href="/services" class="nav-link">Services <i class="bx bx-caret-down"></i></a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="/digital-marketing-company" class="nav-link">Digital Marketing <i class="bx bx-caret-down"></i></a>
+											<a href="#" class="nav-link">Digital Transformation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="/seo-services" class="nav-link">SEO Services</a>
+													<a href="#" class="nav-link">Data Science</a>
 												</li>
 												<li class="nav-item">
-													<a href="/smo-services" class="nav-link">SMO Services</a>
+													<a href="#" class="nav-link">Data Practice</a>
 												</li>
 												<li class="nav-item">
-													<a href="/ppc-services" class="nav-link">PPC Services</a>
+													<a href="#" class="nav-link">Infrastructure Management</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Application Modernization</a>
 												</li>
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="/website-design-and-development" class="nav-link">Website Design & Developmen</a>
+											<a href="#" class="nav-link">Digital Experience <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="/digital-marketing-company" class="nav-link">Digital Marketing</a>
+												</li>
+												<li class="nav-item">
+													<a href="/website-design-and-development" class="nav-link">Website Development</a>
+												</li>
+												<li class="nav-item">
+													<a href="/mobile-app-development" class="nav-link">Mobile App Development</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Creative Services</a>
+												</li>
+											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="/mobile-app-development" class="nav-link">Mobile Application Development</a>
+											<a href="#" class="nav-link">Cloud <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="#" class="nav-link">DevOps</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Migration & Modernization</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Cloud Business Application</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Cloud Operation</a>
+												</li>
+											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Application Maintenacne & Support</a>
-										</li>
-										<li class="nav-item">
-											<a href="#" class="nav-link">Hire Dedicated Developers</a>
+											<a href="#" class="nav-link">Resource Augmentation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="#" class="nav-link">Frontend</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Backend</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Fullstack</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Q/A & Testing</a>
+												</li>
+											</ul>
 										</li>
 									</ul>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Solutions</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Industries</a>
 								</li>
 								<li class="nav-item">
 									<a href="/about-us" class="nav-link">About Us</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Blogs</a>
+									<a class="nav-link">Resources <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="https://jfstechnologies.com/blog/"" class="nav-link">Blogs</a>
+										</li>
+										<li class="nav-item">
+											<a href="/success-stories" class="nav-link">Success Stories</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Portfolio</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">Careers</a>
 								</li>
 							</ul>
-							<div class="nav-side d-display nav-side-mt">
+							<div class="nav-side d-display">
 								<!-- <div class="nav-side-item">
 									<div class="search-side-widget">
 										<form class="search-side-form">

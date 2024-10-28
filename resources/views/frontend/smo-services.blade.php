@@ -380,11 +380,11 @@
 
     <div class="choose-area pt-100 pb-70">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
-                        <span class="sp-color1">Best Benefits Of</span>
-                        <h2 class="text-white">Social Media Marketing Agency</h2>
+                        <span class="sp-color1">Our Pricing</span>
+                        <h2 class="text-white">Our SMO Service Plans</h2>
                     </div>
 					<div class="choose-content mt-4">
                         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
@@ -392,7 +392,7 @@
                                 <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
+                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" tabindex="-1">For Other Countries</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -400,81 +400,69 @@
                                 <table class="table text-center table-striped">
                                     <thead>
                                         <tr>
-                                        <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
-                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span><br>₹30000/Month</th>
-                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span><br>₹40000/Month</th>
-                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span><br>₹50000/Month</th>
+                                            <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
+                                            <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
+                                            <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span></th>
+                                            <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span></th>
                                         </tr>
                                     </thead>
                                     <tbody class="table-group-divider">
                                         <tr>
-                                            <th scope="row"><h5 class="sp-color2">On-Page SEO</h5></th>
+                                            <th>Cost</th>
+                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">₹20,000</strong></td>
+                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">₹30,000</strong></td>
+                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">₹40,000</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <th>One-Time Setup Charges</th>
+                                            <td>₹20,000</td>
+                                            <td>₹20,000</td>
+                                            <td>₹20,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Facebook</h5></th>
                                             <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td>Max Keywords</td>
-                                            <td>Up to 10</td>
-                                            <td>Up to 30</td>
-                                            <td>Up to 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Pages Optimized</td>
-                                            <td>Up to 8</td>
-                                            <td>Up to 15</td>
-                                            <td>Up to 25</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Website & Competitor Analysis</td>
+                                            <td>Business Page Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Keywords Research and Selection</td>
+                                            <td>Post Creation & Sharing</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Sharing in Groups</td>
+                                            <td>10</td>
+                                            <td>15</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Posting (2D Video)</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>4/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Increase Followers and Likes</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Meta Tags Creation</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>URL Structure optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Content Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Image Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Heading Tag Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Internal Linking Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schema for Contact & Address</td>
+                                            <td>Call to Action Button Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
@@ -486,80 +474,230 @@
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><h5 class="sp-color2">Off-Page SEO</h5></th>
+                                            <th scope="row"><h5 class="sp-color2">Instagram</h5></th>
                                             <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td>Social Bookmarking</td>
+                                            <td>Page Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Blog Submission</td>
+                                            <td>Page Optimization</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Blog Social Sharing</td>
+                                            <td>Post Creation & Sharing</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instagram Stories Creation</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>6/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">LinkedIn</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Company Page Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Q & A</td>
+                                            <td>Profile & Cover Pic Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Guest Posting</td>
+                                            <td>Profile Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Posting (2D Video)</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>4/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Creation & Sharing</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Invite Connections to Like Page</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Sharing in Groups</td>
+                                            <td>5</td>
+                                            <td>8</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">YouTube</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Channel Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Channel Pic & Cover Pic Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Posting (2D Video)</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>4/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thumbnail Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Keyword Research</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Tags Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Playlist Creation</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Video Creation & Submission</td>
+                                            <td>Video Backlinks</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Infographic Creation & Submission                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Twitter</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Profile Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Profile & Background Picture Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tweet Per Week</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Following Industry Related People</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Business/Local Listing</td>
+                                            <td>Increase Twitter Followers</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Google My Business Setup & Verification</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Pinterest</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Profile Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Bing Local Listing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td>Posting Per Week</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
                                         </tr>
                                         <tr>
-                                            <td>Testimonial Posting</td>
+                                            <td>Board Creation</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Follow Relevant Account and Boards</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>News/PR Submission (Paid by client)</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td>Inviting Relevant Pinners on Board</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
@@ -570,39 +708,45 @@
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><h5 class="sp-color2">Technical SEO</h5></th>
+                                            <th scope="row"><h5 class="sp-color2">Other Services</h5></th>
                                             <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td>Google Analytics Setup</td>
+                                            <td>Advanced Engagement Strategies</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Influencer Collaboration & Outreach</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Custom Graphics & Content Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Tag Manager Setup</td>
+                                            <td>Comprehensive Social Media Strategy</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Search Console Setup</td>
+                                            <td>Social Media Advertising Management</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Robots.txt Creation & Submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>XML Sitemap Creation & submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td>Event Promotion and Live Coverage</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                     </tbody>
@@ -613,80 +757,68 @@
                                     <thead>
                                         <tr>
                                         <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
-                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span><br>$400/Month</th>
-                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span><br>$600/Month</th>
-                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span><br>$800/Month</th>
+                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
+                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span></th>
+                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span></th>
                                         </tr>
                                     </thead>
                                     <tbody class="table-group-divider">
                                         <tr>
-                                            <th scope="row"><h5 class="sp-color2">On-Page SEO</h5></th>
+                                            <th>Cost</th>
+                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">$700</strong></td>
+                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">$1,000</strong></td>
+                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">$1,400</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <th>One-Time Setup Charges</th>
+                                            <td>$700</td>
+                                            <td>$700</td>
+                                            <td>$700</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Facebook</h5></th>
                                             <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td>Max Keywords</td>
-                                            <td>Up to 10</td>
-                                            <td>Up to 30</td>
-                                            <td>Up to 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Pages Optimized</td>
-                                            <td>Up to 8</td>
-                                            <td>Up to 15</td>
-                                            <td>Up to 25</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Website & Competitor Analysis</td>
+                                            <td>Business Page Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Keywords Research and Selection</td>
+                                            <td>Post Creation & Sharing</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Sharing in Groups</td>
+                                            <td>10</td>
+                                            <td>15</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Posting (2D Video)</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>4/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Increase Followers and Likes</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Meta Tags Creation</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>URL Structure optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Content Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Image Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Heading Tag Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Internal Linking Optimization</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Schema for Contact & Address</td>
+                                            <td>Call to Action Button Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
@@ -698,80 +830,230 @@
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><h5 class="sp-color2">Off-Page SEO</h5></th>
+                                            <th scope="row"><h5 class="sp-color2">Instagram</h5></th>
                                             <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td>Social Bookmarking</td>
+                                            <td>Page Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Blog Submission</td>
+                                            <td>Page Optimization</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Blog Social Sharing</td>
+                                            <td>Post Creation & Sharing</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instagram Stories Creation</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>6/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">LinkedIn</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Company Page Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Q & A</td>
+                                            <td>Profile & Cover Pic Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Guest Posting</td>
+                                            <td>Profile Optimization</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Posting (2D Video)</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>4/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Creation & Sharing</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Invite Connections to Like Page</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Sharing in Groups</td>
+                                            <td>5</td>
+                                            <td>8</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">YouTube</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Channel Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Channel Pic & Cover Pic Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Posting (2D Video)</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td>2/month</td>
+                                            <td>4/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thumbnail Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Keyword Research</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Video Tags Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Playlist Creation</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Video Creation & Submission</td>
+                                            <td>Video Backlinks</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Infographic Creation & Submission                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Twitter</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Profile Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Profile & Background Picture Creation</td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tweet Per Week</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Following Industry Related People</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Business/Local Listing</td>
+                                            <td>Increase Twitter Followers</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Google My Business Setup & Verification</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><h5 class="sp-color2">Pinterest</h5></th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Profile Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Bing Local Listing</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td>Posting Per Week</td>
+                                            <td>12/month</td>
+                                            <td>16/month</td>
+                                            <td>22/month</td>
                                         </tr>
                                         <tr>
-                                            <td>Testimonial Posting</td>
+                                            <td>Board Creation</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Follow Relevant Account and Boards</td>
                                             <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>News/PR Submission (Paid by client)</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td>Inviting Relevant Pinners on Board</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
@@ -782,39 +1064,45 @@
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><h5 class="sp-color2">Technical SEO</h5></th>
+                                            <th scope="row"><h5 class="sp-color2">Other Services</h5></th>
                                             <td></td>
                                             <td></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td>Google Analytics Setup</td>
+                                            <td>Advanced Engagement Strategies</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Influencer Collaboration & Outreach</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Custom Graphics & Content Creation</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Tag Manager Setup</td>
+                                            <td>Comprehensive Social Media Strategy</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Search Console Setup</td>
+                                            <td>Social Media Advertising Management</td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>Robots.txt Creation & Submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td>XML Sitemap Creation & submission</td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                            <td>Event Promotion and Live Coverage</td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
                                             <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
                                         </tr>
                                     </tbody>
