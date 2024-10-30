@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services - JFS Technologies")
+@section('title', "Digital transformation Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
@@ -11,7 +11,7 @@
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Expand Your <b>Clientele</b> Through Targeted <b>Strategies</b> Driven by Data.</h1>
+                    <h1>Digital <b>Experience</b></h1>
                     <p>At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
@@ -30,36 +30,58 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital Marketing Services Include</h2>
+            <h2>Our Digital transformation Services Includes</h2>
         </div>
         <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services/seo-services') }}">
+                    <a href="/digital-marketing-company">
                         <div class="number-title">01.</div>
-                        <h3>Search Engine Optimization (SEO)</h3>
-                        <p>Our SEO strategies focus on optimizing your website to rank higher in search engine results. We conduct thorough keyword research, on-page optimization, technical SEO audits, and build high-quality backlinks to enhance your site's visibility.</p>
+                        <h3>Digital Marketing</h3>
+                        <p>Digital marketing leverages online platforms to promote products and engage customers, using strategies like SEO and social media to enhance visibility and drive growth.</p>
                         <i class="fal fa-file-search my-2"></i>
+                        <div class="text-center mt-4">
+                            <a href="/digital-marketing-company" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                        </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services/smo-services') }}">
+                    <a href="/website-design-and-development">
                         <div class="number-title">02.</div>
-                        <h3>Social Media Management</h3>
-                        <p>We manage your social media presence across platforms like Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest. Our services include content creation, community engagement, and analytics to measure performance.</p>
+                        <h3>Website Development</h3>
+                        <p>Website development involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
                         <i class="fal fa-icons my-2"></i>
+                        <div class="text-center mt-4">
+                            <a href="/website-design-and-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                        </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services/ppc-services') }}">
+                    <a href="/mobile-app-development">
                         <div class="number-title">03.</div>
-                        <h3>Paid Advertising (PPC)</h3>
-                        <p>Our targeted PPC campaigns aim to deliver high-quality leads by creating compelling ads that not only drive traffic to your website but also maximize your ROI. We continuously optimize ad performance to ensure you're getting the best value from your investment.</p>
+                        <h3>Mobile App Development</h3>
+                        <p>Mobile app development involves creating applications for smartphones and tablets to enhance user experience and drive engagement.</p>
                         <i class="fal fa-ad my-2"></i>
+                        <div class="text-center mt-4">
+                            <a href="/mobile-app-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <a href="#">
+                        <div class="number-title">04.</div>
+                        <h3>Creative Services</h3>
+                        <p>It provide innovative design, branding & content solutions to enhance brand identity & engagement, including graphic design, copywriting & video production.</p>
+                        <i class="fal fa-ad my-2"></i>
+                        <div class="text-center mt-4">
+                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -120,144 +142,6 @@
 </div>
 
 
-<section class="services-area-four pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2">Our Features</span>
-            <h2>Digital Marketing Company Services</h2>
-            <div class="w-75 mx-auto pt-3">Unlock the potential of your online presence with our comprehensive digital marketing services. Whether you’re looking to boost your online visibility, increase website traffic, or generate more leads, our digital marketing services offer the expertise and solutions you need to achieve your goals. Here’s what sets us apart:</div>
-        </div>
-        <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-undo"></i>
-                    <h3><a>1. Focus On ROI</a></h3>
-                    <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-rupee-sign"></i>
-                    <h3><a>2. Affordable Prices</a></h3>
-                    <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>3. SEO Friendly</a></h3>
-                    <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-chess"></i>
-                    <h3><a>4. Unique Strategies</a></h3>
-                    <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>5. Our Approach</a></h3>
-                    <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-        </div>
-    </div>
-</section>
-
-
-<section class="clients-area-three pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center mx-auto" style="max-width:650px">
-            <h2>What a Digital Marketing Company Can Do for Your Business</h2>
-        </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-line pb-2"></i>
-                    <h3><a>Brand Building</a></h3>
-                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fas fa-icons pb-2"></i>
-                    <h3><a>Paid Social</a></h3>
-                    <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-bullhorn pb-2"></i>
-                    <h3><a>Marketing Strategy</a></h3>
-                    <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-search-dollar pb-2"></i>
-                    <h3><a>Paid Search</a></h3>
-                    <p>Boost your search engine visibility with our paid search service. Our innovative PPC strategies paired with premium ads ensure your campaign yields maximum ROI</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-pie pb-2"></i>
-                    <h3><a>Branded Search</a></h3>
-                    <p>Through our branded search service, we enhance your authority on search engine results pages (SERPs) and outperform your competitors’ advertisements.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-comments pb-2"></i>
-                    <h3><a>Messaging and Positioning</a></h3>
-                    <p>Rise above the clutter and craft a distinctive brand identity. Our messaging and positioning service will assist you in leaving a lasting impression on your audience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>Content Marketing</a></h3>
-                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-atlas pb-2"></i>
-                    <h3><a>Content and Website Personalization</a></h3>
-                    <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-video pb-2"></i>
-                    <h3><a>Video Production</a></h3>
-                    <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-compress-arrows-alt pb-2"></i>
-                    <h3><a>Conversion Rate Optimization (CRO)</a></h3>
-                    <p>Effortlessly turn visitors into customers with our conversion rate optimization service. We’ll enhance your landing page, refine site navigation, and meticulously track visitor activity to boost your conversion rates.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-envelope-open-text pb-2"></i>
-                    <h3><a>B2B Marketing</a></h3>
-                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
-                </div>
-            </div>
-        </div>        
-    </div>
-</section>
-
-
 <div class="security-area pt-100 pb-70">
 	<div class="container">
 		<div class="section-title text-center">
@@ -294,23 +178,23 @@
     <div class="choose-area pt-100 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title">
-							<span class="sp-color1"></span>
+							<span class="sp-color1">We Are Best!!</span>
 							<h2>Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-users-crown"></i>
-										<h3>Expert Team Memebers</h3>
+										<i class="fal fa-users-crown"></i>
+										<h3>Expertise Across Technologies</h3>
 									</div>
-									<p>Our team of digital marketing professionals brings years of experience and knowledge to your project.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-file-chart-line"></i>
@@ -319,16 +203,16 @@
 									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-pencil-ruler"></i>
+										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Strategies</h3>
 									</div>
 									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-puzzle-piece"></i>
@@ -340,11 +224,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/about/13.png" alt="Images">
+						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

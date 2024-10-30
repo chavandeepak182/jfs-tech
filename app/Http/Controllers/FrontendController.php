@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
+    public function HomePageView()    {
+        return view('frontend.index');
+    }
+
     public function ServicesView()    {
         return view('frontend.services');
     }
@@ -83,6 +87,22 @@ private function getCountryCodeFromIP($ip)
 
     public function MobileAppView()    {
         return view('frontend.app-development');
+    }
+
+    public function DigitalTransformationView()    {
+        return view('frontend.digital-transformation');
+    }
+    
+    public function DigitalExperienceView()    {
+        return view('frontend.digital-experience');
+    }
+    
+    public function CloudSolutionView()    {
+        return view('frontend.cloud-solution');
+    }
+
+    public function ResourceAugmentationView()    {
+        return view('frontend.resource-augmentation');
     }
 
     public function SuccessStoriesView()    {

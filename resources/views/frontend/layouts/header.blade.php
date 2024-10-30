@@ -109,13 +109,13 @@
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 							<ul class="navbar-nav m-auto">
 								<li class="nav-item">
-									<a href="{{ asset('') }}" class="nav-link active">Home</a>
+									<a href="{{ route('home') }}" class="nav-link {{ Route::currentRouteName() === 'home' ? 'active' : '' }}">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="/services" class="nav-link">Services <i class="bx bx-caret-down"></i></a>
+									<a href="{{ route('services') }}" class="nav-link {{ Route::currentRouteName() === 'services' ? 'active' : '' }}">Services <i class="bx bx-caret-down"></i></a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="#" class="nav-link">Digital Transformation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<a href="{{ route('services.digital-transformation') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-transformation' ? 'active' : '' }}">Digital Transformation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="#" class="nav-link">Data Science</a>
@@ -132,16 +132,16 @@
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Digital Experience <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<a href="{{ route('services.digital-experience') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-experience' ? 'active' : '' }}">Digital Experience <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="/digital-marketing-company" class="nav-link">Digital Marketing</a>
+													<a href="{{ route('services.digital-marketing-company') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-marketing-company' ? 'active' : '' }}">Digital Marketing</a>
 												</li>
 												<li class="nav-item">
-													<a href="/website-design-and-development" class="nav-link">Website Development</a>
+													<a href="{{ route('services.website-design-and-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.website-design-and-development' ? 'active' : '' }}">Website Development</a>
 												</li>
 												<li class="nav-item">
-													<a href="/mobile-app-development" class="nav-link">Mobile App Development</a>
+													<a href="{{ route('services.mobile-app-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.mobile-app-development' ? 'active' : '' }}">Mobile App Development</a>
 												</li>
 												<li class="nav-item">
 													<a href="#" class="nav-link">Creative Services</a>
@@ -149,7 +149,7 @@
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Cloud <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<a href="{{ route('services.cloud-solution') }}" class="nav-link {{ Route::currentRouteName() === 'services.cloud-solution' ? 'active' : '' }}">Cloud <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="#" class="nav-link">DevOps</a>
@@ -166,7 +166,7 @@
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Resource Augmentation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<a href="{{ route('services.resource-augmentation') }}" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Resource Augmentation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="#" class="nav-link">Frontend</a>
@@ -185,24 +185,24 @@
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="/about-us" class="nav-link">About Us</a>
+									<a href="{{ route('about-us') }}" class="nav-link {{ Route::currentRouteName() === 'about-us' ? 'active' : '' }}">About Us</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link">Resources <i class="bx bx-caret-down"></i></a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="https://jfstechnologies.com/blog/"" class="nav-link">Blogs</a>
+											<a href="https://jfstechnologies.com/blog/" class="nav-link {{ Route::currentRouteName() === 'blog' ? 'active' : '' }}">Blogs</a>
 										</li>
 										<li class="nav-item">
-											<a href="/success-stories" class="nav-link">Success Stories</a>
+											<a href="{{ route('success-stories') }}" class="nav-link {{ Route::currentRouteName() === 'success-stories' ? 'active' : '' }}">Success Stories</a>
 										</li>
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Portfolio</a>
+									<a href="#" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Portfolio</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Careers</a>
+									<a href="#" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Careers</a>
 								</li>
 							</ul>
 							<div class="nav-side d-display">

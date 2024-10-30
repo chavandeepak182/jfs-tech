@@ -34,23 +34,8 @@
 						<div class="section-title">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
 							<h2>Right Partner for Software Innovation</h2>
-							<p>Welcome to JFS Technologies, where we accelerate your company’s growth with our innovative B2B end-to-end sales and account management solutions. Our dedicated team of professionals generates leads and encourage valuable connections for your business. We specialize in acquiring new clients and putting efforts on partnerships that drive your enterprise to new heights.</p>
+							<p>At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
 						</div>
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<ul class="about-list text-start">
-									<li><i class="bx bxs-check-circle"></i>Integrity: Our foundation, your trust</li>
-									<li><i class="bx bxs-check-circle"></i>Transparency: Fostering connections with honesty & openness</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<ul class="about-list text-start about-list-2">
-									<li><i class="bx bxs-check-circle"></i>Ownership: Empowering success, together</li>
-									<li><i class="bx bxs-check-circle"></i>Adaptability: Embracing change with flexibility and resilience</li>
-								</ul>
-							</div>
-						</div>
-						<p class="about-content-text">As industry leaders, we provide unparalleled services tailored for software companies in both the US and European markets. Partner with JFS Technologies to harness the full potential of our solutions, optimizing your sales pipeline for exceptional growth and success.</p>
 					</div>
 
 					<div class="about-play mt-5 text-center">
@@ -73,41 +58,41 @@
 	<section class="services-area-two pt-100 pb-70">
 		<div class="container">
 			<div class="section-title text-center">
-				<span class="sp-color1">Our Services</span>
-				<h2>What We Do?</h2>
+				<span class="sp-color1">What We Do?</span>
+				<h2>Our Comprehensive Services</h2>
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card">
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-web-development"></i>
-						<h3><a href="#">1. Digital Transformation</a></h3>
+						<h3><a href="services/digital-transformation">Digital Transformation</a></h3>
 						<p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p>
-						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-data-analytics"></i>
-						<h3><a href="#">2. Digital Experience</a></h3>
+						<h3><a href="services/digital-experience">Digital Experience</a></h3>
 						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
-						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-consultant"></i>
-						<h3><a href="#">3. Cloud</a></h3>
+						<h3><a href="services/cloud-solution">Cloud</a></h3>
 						<p>Cloud service provides on-demand access to computing resources, storage, and applications over the internet.</p>
-						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="services/cloud-solution" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-computer"></i>
-						<h3><a href="#">4. Resource Augmentation</a></h3>
-						<p>This involves temporarily adding skilled professionals to a team to meet project demands and fill skill gaps.</p>
-						<a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<h3><a href="services/resource-augmentation">Resource Augmentation</a></h3>
+						<p>Resource Augmentation involves temporarily adding skilled professionals to a team to meet project demands and fill skill gaps.</p>
+						<a href="services/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -130,87 +115,87 @@
 							<div class="slide-track">
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/html-5.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/html-5.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/css-3.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/css-3.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/php.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/react_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/angular_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/NET.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/NET.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/java.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/laravel.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/node_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/vue_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/cpp.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/python.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/next_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/flutter.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/ror.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-card">
-										<img src="https://jfs.kotharimedicals.com/theme/assets/technologies/laravel.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
 							</div>
@@ -226,60 +211,137 @@
 	<div class="choose-area pt-100 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title">
 							<span class="sp-color1"></span>
-							<h2>Why Trust Us?</h2>
+							<h2>Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>We provide customised solutions that align with your business objectives, ensuring your goals are met effectively.</p>
+									<p>Every service is customized to meet your specific business challenges and objectives.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Experienced Team</h3>
+										<h3>Expertise Across Technologies</h3>
 									</div>
-									<p>Our expert developers and digital marketing professionals bring extensive industry experience and technical proficiency.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Proven Success</h3>
+										<h3>Proven Track Record</h3>
 									</div>
 									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-globe-asia"></i>
-										<h3>Global Reach</h3>
+										<h3>Global Client Base</h3>
 									</div>
-									<p>With clients worldwide, we ensure seamless project management and consistent, high-quality delivery across borders.</p>
+									<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="choose-img">
 						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
+
+
+<section class="work-process-area home_cards pt-100">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="sp-color2">Unlock the potential</span>
+            <h2>Who We Serve</h2>
+			<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">01.</div>
+                    <h3>Small and Medium-Sized Enterprises (SMEs)</h3>
+                    <p>Achieve growth with tailored websites and digital marketing.</p>
+                    <i class="fal fa-business-time my-2"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">02.</div>
+                    <h3>Startups</h3>
+                    <p>Scale rapidly with advanced tech solutions for accelerated product development and marketing growth.</p>
+                    <i class="fal fa-rocket-launch my-2"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">03.</div>
+                    <h3>Digital Agencies</h3>
+                    <p>Outsource complex projects and manage overflow with our dedicated development teams.</p>
+                    <i class="fal fa-bullhorn my-2"></i>
+                </div>
+            </div>
+			<div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">04.</div>
+                    <h3>Large Enterprises</h3>
+                    <p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance and seamless integration.</p>
+                    <i class="far fa-vihara my-2"></i>
+                </div>
+            </div>
+			<div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">05.</div>
+                    <h3>E-commerce Companies</h3>
+                    <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
+                    <i class="fal fa-store my-2"></i>
+                </div>
+            </div>
+			<div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">06.</div>
+                    <h3>Educational Institutions</h3>
+                    <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
+                    <i class="fal fa-school my-2"></i>
+                </div>
+            </div>
+			<div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">07.</div>
+                    <h3>Nonprofit Organizations</h3>
+                    <p>Boost outreach and fundraising with affordable digital solutions that enhance engagement.</p>
+                    <i class="fal fa-sitemap my-2"></i>
+                </div>
+            </div>
+			<div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
+                    <div class="number-title">08.</div>
+                    <h3>Tech & Software Companies</h3>
+                    <p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution & quality results.</p>
+                    <i class="fal fa-code my-2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- Clientele Area -->
@@ -411,7 +473,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
-				<h2>Listen from our Clients</h2>
+				<h2>What Our Clients Say</h2>
 			</div>
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
@@ -480,7 +542,8 @@
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
 				<span class="sp-color2">Case Study</span>
-				<h2>Our Success Stories</h2>
+				<h2>Proven Success Stories</h2>
+				<p class="w-50 mx-auto">Explore real-world examples of how JFS Technologies delivered tailored solutions that solved complex business challenges:</p>
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
 				<div class="case-study-item">
@@ -488,11 +551,12 @@
 						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
 					</a>
 					<div class="content">
-						<h3><a href="#">Business Solution</a></h3>
-						<ul>
+						<h3><a href="#">Case Study 1</a></h3>
+						<p>E-commerce platform optimization resulting in a 30% increase in conversions.</p>
+						<!-- <ul>
 							<li><a href="#">Business</a></li>
 							<li><a href="#">Planing</a> </li>
-						</ul>
+						</ul> -->
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>
@@ -501,11 +565,12 @@
 						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
 					</a>
 					<div class="content">
-						<h3><a href="#">Business Solution</a></h3>
-						<ul>
+						<h3><a href="#">Case Study 2</a></h3>
+						<p>Cloud migration project reducing operational costs by 40%.</p>
+						<!-- <ul>
 							<li><a href="#">Business</a></li>
 							<li><a href="#">Planing</a> </li>
-						</ul>
+						</ul> -->
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>
@@ -514,11 +579,12 @@
 						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
 					</a>
 					<div class="content">
-						<h3><a href="#">Business Solution</a></h3>
-						<ul>
+						<h3><a href="#">Case Study 3</a></h3>
+						<p>Data-driven marketing campaign driving a 25% increase in customer engagement for an SME.</p>
+						<!-- <ul>
 							<li><a href="#">Business</a></li>
 							<li><a href="#">Planing</a> </li>
-						</ul>
+						</ul> -->
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>
@@ -573,9 +639,9 @@
 				<div class="col-lg-6">
 					<div class="call-contact">
 						<h3>Call Us 24/7</h3>
-						<a href="tel:+918329729190" class="call-btn">+91 83297 29190</a>
-						<p>Connect with JFS Technologies for comprehensive Digital Marketing Agency that drive engagement, growth, and brand loyalty.</p>
-						<a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a>
+						<a href="tel:+918329729190" class="call-btn">Ready to Take Your Business to the Next Level?</a>
+						<p>Partner with JFS Technologies today and unlock the full potential of your digital strategy. From cloud solutions to data analytics and mobile app development, we’ll help you create custom solutions that drive results.</p>
+						<!-- <a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a> -->
 					</div>
 				</div>
 				<div class="col-lg-5 pt-5 pb-3">
@@ -616,7 +682,7 @@
                                 </div>
                                 <div class="col-lg-12 col-md-12 text-center">
                                     <button type="submit" class="default-btn btn-bg-one border-radius-50">
-                                        Send Message <i class="bx bx-chevron-right"></i>
+										Schedule a Free Consultation<i class="bx bx-chevron-right"></i>
                                     </button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>

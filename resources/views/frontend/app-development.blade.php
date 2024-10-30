@@ -11,8 +11,8 @@
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Mobile Application Development</h1>
-                    <p>Looking for Best Affordable Website Design Packages for Small Business ? You are at right place.</p>
+                    <h1>Transform Your <b>Ideas</b> into Cutting-Edge <b>Mobile Applications</b></h1>
+                    <p>At JFS Technologies, we specialize in delivering high-performance mobile app development services tailored to businesses of all sizes. With experience across various industries, we create mobile solutions that ensure your app excels in today’s competitive market.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -29,48 +29,41 @@
 <section class="work-process-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Our Working Process</span>
-            <h2>How Our Services Will Help You to Grow Your Business</h2>
+            <span class="sp-color2">What We Can Do For You?</span>
+            <h2>Our Mobile App Development Expertise</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
             <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">01.</div>
-                    <h3>Initiation</h3>
-                    <p>In this initial phase, requirements are gathered, objectives are defined, and a project roadmap is outlined. This often includes research, analysis of competitors, and establishing a timeline.</p>
-                    <i class="fal fa-lightbulb-on my-2"></i>
+                    <h3>Native App Development</h3>
+                    <p>Our iOS developers create feature-rich, optimized applications that deliver a premium experience on all Apple devices. From concept to App Store submission, we provide end-to-end iOS development services using the latest technologies like Swift and Objective-C to maximize your app's impact.</p>
+                    <i class="fab fa-app-store my-2"></i>
+                    <div class="text-center mt-4">
+                        <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
                     <div class="number-title">02.</div>
-                    <h3>Design</h3>
-                    <p>During this stage, the visual and user experience aspects of the website are designed. It includes creating wireframes, mockups, and prototypes to establish the website's look and functionality.</p>
-                    <i class="fal fa-pencil-ruler my-2"></i>
+                    <h3>Cross-Platform Development</h3>
+                    <p>Maximize your reach with our cross-platform development expertise using Flutter, React Native, and Xamarin. We build applications that provide a consistent experience on both iOS and Android, reducing development time and costs while delivering high-quality, native-like performance.</p>
+                    <i class="fal fa-phone-laptop my-2"></i>
+                    <div class="text-center mt-4">
+                        <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">03.</div>
-                    <h3>Implementation</h3>
-                    <p>This phase entails coding the website. Front-end development focuses on creating the user interface while back-end development. It involves building server-side functionality, databases, and server configurations.</p>
-                    <i class="fal fa-code my-2"></i>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">04.</div>
-                    <h3>Testing</h3>
-                    <p>After implementation, rigorous testing is conducted to ensure the website functions seamlessly. It have across different devices, browsers, and screen sizes. This involves testing functionality, usability, performance, and security.</p>
-                    <i class="fal fa-laptop-code my-2"></i>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">05.</div>
-                    <h3>Deployment</h3>
-                    <p>Once testing is complete, the website is deployed to a live server to make it accessible to users. This step may involve setting up hosting, registering a domain, and configuring server settings.</p>
-                    <i class="fal fa-code-branch my-2"></i>
+                    <div class="number-title">02.</div>
+                    <h3>Hybrid App Development</h3>
+                    <p>Our hybrid app development combines web and native app benefits for a cost-effective, cross-platform solution. Using frameworks like Ionic, Cordova, PhoneGap & NativeScript, we deliver native-like functionality, seamless user experiences, and reduced development time.</p>
+                    <i class="fal fa-cogs my-2"></i>
+                    <div class="text-center mt-4">
+                        <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                    </div>
                 </div>
             </div>
         </div>
