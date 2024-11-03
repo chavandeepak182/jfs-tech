@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "Resource Augmentation Services - JFS Technologies")
+@section('title', "DevOps Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
@@ -11,8 +11,8 @@
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Resource <b>Augmentation</b></h1>
-                    <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
+                    <h1>DevOps <b>Services</b></h1>
+                    <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -35,52 +35,52 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.ci-cd-pipelines') }}">
                         <div class="number-title">01.</div>
-                        <h3>Frontend Development</h3>
-                        <p>Frontend development creates the visual and interactive elements of websites and applications to enhance user experience.</p>
-                        <i class="fad fa-bring-front my-2"></i>
+                        <h3>CI/CD Pipelines</h3>
+                        <p>DevOps integrates development and operations to streamline workflows, enhance collaboration, and accelerate software delivery.</p>
+                        <i class="fad fa-infinity my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.ci-cd-pipelines') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.process-automation') }}">
                         <div class="number-title">02.</div>
-                        <h3>Backend Development</h3>
-                        <p>Backend development involves server-side programming & database management to ensure the seamless functionality of web applications.</p>
-                        <i class="fad fa-send-back my-2"></i>
+                        <h3>Process Automation</h3>
+                        <p>Cloud migration & modernization involve transitioning applications & data to the cloud while enhancing their capabilities & performance.</p>
+                        <i class="fad fa-random my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.process-automation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.containers-and-microservices') }}">
                         <div class="number-title">03.</div>
-                        <h3>Fullstack Development</h3>
-                        <p>It involves creating both front-end and back-end components of web applications, ensuring seamless integration and functionality.</p>
-                        <i class="fad fa-box-full my-2"></i>
+                        <h3>Containers & Microservices</h3>
+                        <p>Cloud business apps utilize cloud technology to enhance scalability & accessibility, driving organizational efficiency & innovation.</p>
+                        <i class="fad fa-cloud-upload my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.containers-and-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.devsecops') }}">
                         <div class="number-title">04.</div>
-                        <h3>Q/A & Testing</h3>
-                        <p>Quality Assurance (QA) and testing ensure software reliability and performance by identifying defects and validating functionality throughout the development process.</p>
-                        <i class="fab fa-codepen my-2"></i>
+                        <h3>DevSecOps</h3>
+                        <p>It optimizes resources for efficient service delivery, encompassing monitoring, security & workflow automation to enhance agility & maximize investments.</p>
+                        <i class="fad fa-cloud-meatball my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.devsecops') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -103,7 +103,7 @@
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
                         <h2>Ready to Embrace the Future of Technology?</h2>
-                        <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
+                        <p>Our dedication to DevSecOps guarantees that security measures are seamlessly integrated into each stage of development, mitigating the potential risks of security breaches and vulnerabilities. With our holistic DevOps services, we empower organizations to drive innovation and maintain a competitive edge in the dynamic digital landscape of today.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
                     <div class="all-skill-bar">

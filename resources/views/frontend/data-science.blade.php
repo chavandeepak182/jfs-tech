@@ -1,66 +1,68 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services - JFS Technologies")
+@section('title', "Data Science Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
 
-<div class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Expand Your <b>Clientele</b> Through Targeted <b>Strategies</b> Driven by Data.</h1>
-                    <p>At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
-                </div>
-            </div>
+<div class="inner-banner">
+    <div class="container">
+        <div class="inner-title text-center">
+            <h3>Our Data Science Services</h3>
+            <ul>
+                <li>
+                    <a href="{{ asset(' ') }}">Home</a>
+                </li>
+                <li>
+                    <i class="bx bx-chevrons-right"></i>
+                </li>
+                <li>Data Science Services</li>
+            </ul>
         </div>
+    </div>
+    <div class="inner-shape">
+        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 
-
-<section class="work-process-area pt-100 pb-70">
+<section class="services-style-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital Marketing Services Include</h2>
+            <span class="sp-color2"></span>
+            <h2>Our Key Services</h2>
+            <p class="margin-auto">Our Data Science Services are designed to provide you with the tools and resources you need to make sense of your data and turn it into actionable insights. From identifying key trends and patterns to uncovering hidden relationships, our team will work with you every step of the way to ensure that you have the information you need to make informed decisions. With our expertise in advanced analytics and machine learning, we can help you uncover valuable insights that can drive your business forward.</p>
         </div>
-        <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="{{ route('services.seo-services') }}">
-                        <div class="number-title">01.</div>
-                        <h3>Search Engine Optimization (SEO)</h3>
-                        <p>Our SEO strategies focus on optimizing your website to rank higher in search engine results. We conduct thorough keyword research, on-page optimization, technical SEO audits, and build high-quality backlinks to enhance your site's visibility.</p>
-                        <i class="fal fa-file-search my-2"></i>
-                    </a>
+        <div class="row pt-45 mx-auto justify-content-center">
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-data-analytics"></i>
+                    <h3><a href="#">1.  Advance Analytics:</a></h3>
+                    <p>Utilizing state-of-the-art technology and sophisticated data analysis methods, we assist businesses in obtaining valuable insights and facilitating informed decision-making processes. Our proficient team of data scientists and analysts excel at transforming raw data into practical intelligence. Through our cutting-edge analytics services, you can outperform competitors and propel growth within your organization. Allow us to unleash the complete potential of your data and convert it into a strategic asset.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="{{ route('services.smo-services') }}">
-                        <div class="number-title">02.</div>
-                        <h3>Social Media Management</h3>
-                        <p>We manage your social media presence across platforms like Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest. Our services include content creation, community engagement, and analytics to measure performance.</p>
-                        <i class="fal fa-icons my-2"></i>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="#">2. Data Visualization</a></h3>
+                    <p>Our data visualization services are designed to help you turn complex datasets into clear, informative visual representations. Whether you need interactive dashboards, compelling infographics, or detailed charts and graphs, our team of experts can create custom solutions to meet your specific needs. With our services, you can unlock valuable insights, identify trends, and communicate your data in a way that is easy to understand and impactful. Reach out to us today to learn more about how we can help you bring your data to life.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="{{ route('services.ppc-services') }}">
-                        <div class="number-title">03.</div>
-                        <h3>Paid Advertising (PPC)</h3>
-                        <p>Our targeted PPC campaigns aim to deliver high-quality leads by creating compelling ads that not only drive traffic to your website but also maximize your ROI. We continuously optimize ad performance to ensure you're getting the best value from your investment.</p>
-                        <i class="fal fa-ad my-2"></i>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-web-development"></i>
+                    <h3><a href="#">3.  Generative AI & Conversational AI</a></h3>
+                    <p>Experience a revolutionary transformation in customer interactions and operational efficiency with our cutting-edge Generative and Conversational AI services. By leveraging the latest advancements in natural language processing and machine learning, our AI solutions enable businesses to effortlessly communicate with customers on a personalized level and provide efficient support on a large scale. Whether you require a chatbot for customer service, virtual assistants for internal processes, or AI-powered voice recognition systems, our bespoke services can enhance your customer experience and streamline operations. Embrace the future of conversational AI with our tailored solutions and revolutionize the way you engage with your target audience.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-computer"></i>
+                    <h3><a href="#">4. Predictive Modelling</a></h3>
+                    <p>We use cutting-edge algorithms and data analysis techniques to help businesses anticipate future trends and behaviors. Our predictive modeling services allow companies to make better decisions, improve operations, and increase profitability. By identifying patterns and relationships in data, we can forecast outcomes with a high degree of accuracy. Whether you're looking to optimize your marketing strategy, streamline your supply chain, or reduce risk, our team of experts can help you leverage the power of predictive analytics to drive success. Contact us today to learn more about how our predictive modeling services can benefit your business. Predictive modeling uses data and machine learning to identify patterns and forecast future outcomes.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -80,15 +82,15 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Launch Your Inaugural Campaign?</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <h2>Ready to Embrace the Future of Technology?</h2>
+                        <p>By harnessing the power of Generative AI and conversational AI, we can help you automate routine tasks and streamline your processes, allowing you to focus on what matters most. Our predictive modelling capabilities will also help you anticipate future trends and make strategic decisions that align with your business goals.</p>
+                        <p>Whether you're looking to enhance your data strategy, improve your predictive capabilities, or simply make better data-driven decisions, our Data Science Services can help you achieve your goals. Contact us today to learn more about how we can help you unlock the full potential of your data and drive business success.</p>
                     </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
+                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
                     <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
+                        <div class="skill-bar" data-percentage="95%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
+                                <span class="progress-title">Accuracy</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
@@ -99,7 +101,7 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="97%">
                             <h4 class="progress-title-holder clearfix">
                                 <span class="progress-title">Solutions</span>
                                 <span class="progress-number-wrapper">
@@ -120,7 +122,7 @@
 </div>
 
 
-<section class="services-area-four pt-100 pb-70">
+<!-- <section class="services-area-four pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Our Features</span>
@@ -199,27 +201,6 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-search-dollar pb-2"></i>
-                    <h3><a>Paid Search</a></h3>
-                    <p>Boost your search engine visibility with our paid search service. Our innovative PPC strategies paired with premium ads ensure your campaign yields maximum ROI</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-pie pb-2"></i>
-                    <h3><a>Branded Search</a></h3>
-                    <p>Through our branded search service, we enhance your authority on search engine results pages (SERPs) and outperform your competitors’ advertisements.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-comments pb-2"></i>
-                    <h3><a>Messaging and Positioning</a></h3>
-                    <p>Rise above the clutter and craft a distinctive brand identity. Our messaging and positioning service will assist you in leaving a lasting impression on your audience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
                     <i class="fal fa-people-carry pb-2"></i>
                     <h3><a>Content Marketing</a></h3>
                     <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
@@ -239,23 +220,9 @@
                     <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-compress-arrows-alt pb-2"></i>
-                    <h3><a>Conversion Rate Optimization (CRO)</a></h3>
-                    <p>Effortlessly turn visitors into customers with our conversion rate optimization service. We’ll enhance your landing page, refine site navigation, and meticulously track visitor activity to boost your conversion rates.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-envelope-open-text pb-2"></i>
-                    <h3><a>B2B Marketing</a></h3>
-                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
-                </div>
-            </div>
         </div>        
     </div>
-</section>
+</section> -->
 
 
 <div class="security-area pt-100 pb-70">
@@ -294,23 +261,23 @@
     <div class="choose-area pt-100 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title">
-							<span class="sp-color1"></span>
+							<span class="sp-color1">We Are Best!!</span>
 							<h2>Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-users-crown"></i>
-										<h3>Expert Team Memebers</h3>
+										<i class="fal fa-users-crown"></i>
+										<h3>Expertise Across Technologies</h3>
 									</div>
-									<p>Our team of digital marketing professionals brings years of experience and knowledge to your project.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-file-chart-line"></i>
@@ -319,16 +286,16 @@
 									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-pencil-ruler"></i>
+										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Strategies</h3>
 									</div>
 									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-puzzle-piece"></i>
@@ -340,11 +307,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/about/13.png" alt="Images">
+						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

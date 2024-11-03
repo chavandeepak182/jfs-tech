@@ -36,7 +36,7 @@
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-web-development"></i>
-                    <h3><a href="/digital-transformation">1. Digital Transformation</a></h3>
+                    <h3><a href="/services/digital-transformation">1. Digital Transformation</a></h3>
                     <p><b>Custom, SEO-Friendly, & Mobile-Responsive Websites</b><br>We design and develop performance-optimized websites tailored to your brand’s unique needs. Our websites not only look great but are also optimized for search engines and mobile devices, ensuring the best user experience.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -46,13 +46,13 @@
                             <li></li>
                         </ul>
                     </p>
-                    <a href="/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="/services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-data-analytics"></i>
-                    <h3><a href="/digital-experience">2. Digital Experience</a></h3>
+                    <h3><a href="/services/digital-experience">2. Digital Experience</a></h3>
                     <p><b>Data-Driven Strategies for Maximum Online Impact</b><br>Our digital marketing services are designed to boost your brand visibility, drive traffic, and generate leads. From SEO to social media and PPC campaigns, we implement data-driven strategies to help your business grow online.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -62,13 +62,13 @@
                             <li>Creative Services</li>
                         </ul>
                     </p>
-                    <a href="/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="/services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-consultant"></i>
-                    <h3><a href="/cloud-solution">3. Cloud</a></h3>
+                    <h3><a href="/services/cloud-solution">3. Cloud</a></h3>
                     <p><b>Native, Hybrid, and Cross-Platform Mobile App Solutions</b><br>Our mobile application development services cover everything from native Android/iOS apps to hybrid and cross-platform solutions. We create apps that are secure, scalable, and provide a seamless user experience.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -78,13 +78,13 @@
                             <li>Cloud Operation</li>
                         </ul>
                     </p>
-                    <a href="/cloud-solution" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="/services/cloud-solution" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-computer"></i>
-                    <h3><a href="/resource-augmentation">4. Resource Augmentation</a></h3>
+                    <h3><a href="/services/resource-augmentation">4. Resource Augmentation</a></h3>
                     <p><b>Reliable, Scalable Software Solutions for Your Business</b><br>We develop robust applications using the latest backend and frontend technologies. Whether you need custom software or ongoing support, our team has the expertise to deliver secure and scalable solutions.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -94,7 +94,7 @@
                             <li>Q/A & Testing</li>
                         </ul>
                     </p>
-                    <a href="/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="/services/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>

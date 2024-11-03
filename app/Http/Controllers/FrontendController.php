@@ -97,8 +97,8 @@ private function getCountryCodeFromIP($ip)
         return view('frontend.digital-experience');
     }
     
-    public function CloudSolutionView()    {
-        return view('frontend.cloud-solution');
+    public function DevOpsView()    {
+        return view('frontend.devops');
     }
 
     public function ResourceAugmentationView()    {
@@ -109,5 +109,51 @@ private function getCountryCodeFromIP($ip)
         return view('frontend.success-stories');
     }
 
-    
+    public function DataScienceView()    {
+        return view('frontend.data-science');
+    }
+
+    public function ArVrView()    {
+        return view('frontend.ar-vr');
+    }
+
+    public function AppModernisationView()    {
+        return view('frontend.application-modernisation');
+    }
+
+    public function InfrastructureManagementView()    {
+        return view('frontend.infrastructure-management');
+    }
+
+    public function CICDView()    {
+        return view('frontend.ci-cd-pipelines');
+    }
+
+    public function ProcessAutomationView()    {
+        return view('frontend.process-automation');
+    }
+
+    public function ContainersMicroservicesView()    {
+        return view('frontend.containers-and-microservices');
+    }
+
+    public function DevSecOpsView()    {
+        return view('frontend.devsecops');
+    }
+
+    public function FrontendDevelopersView()    {
+        return view('frontend.frontend-developers');
+    }
+
+    public function BackendDevelopersView()    {
+        return view('frontend.backend-developers');
+    }
+
+    public function FullStackDevelopersView()    {
+        return view('frontend.fullstack-developers');
+    }
+
+    public function SupportEngineersView()    {
+        return view('frontend.support-engineers');
+    }    
 }

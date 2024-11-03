@@ -1,88 +1,68 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital transformation Services - JFS Technologies")
+@section('title', "Infrastructure Management Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
 
-<div class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Cloud <b>Solutions</b></h1>
-                    <p>At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
-                </div>
-            </div>
+<div class="inner-banner">
+    <div class="container">
+        <div class="inner-title text-center">
+            <h3>Best Infrastructure Management Services</h3>
+            <ul>
+                <li>
+                    <a href="{{ asset(' ') }}">Home</a>
+                </li>
+                <li>
+                    <i class="bx bx-chevrons-right"></i>
+                </li>
+                <li>Infrastructure Management Services</li>
+            </ul>
         </div>
+    </div>
+    <div class="inner-shape">
+        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 
-
-<section class="work-process-area pt-100 pb-70">
+<section class="services-style-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital transformation Services Includes</h2>
+            <span class="sp-color2"></span>
+            <h2>Our Key Services</h2>
+            <p class="margin-auto">We offer comprehensive infrastructure management services that encompass Network Operations Center (NOC) and Security Operations Center (SOC) monitoring, data center management, and cloud services. Our dedicated team of professionals is equipped to handle all aspects of infrastructure management, ensuring optimal performance, security, and scalability for your business operations.</p>
         </div>
-        <div class="row pt-45">
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="#">
-                        <div class="number-title">01.</div>
-                        <h3>DevOps</h3>
-                        <p>DevOps integrates development and operations to streamline workflows, enhance collaboration, and accelerate software delivery.</p>
-                        <i class="fad fa-infinity my-2"></i>
-                        <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                        </div>
-                    </a>
+        <div class="row pt-45 mx-auto justify-content-center">
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="#">1. NOC</a></h3>
+                    <p>Our dedicated team is here to provide round-the-clock monitoring and support for your network infrastructure. With years of experience, our technicians work proactively to detect and resolve any issues before they disrupt your business operations. Rest easy knowing that your network is well taken care of with our NOC services, ensuring any problems are swiftly and effectively dealt with. Reach out to us today to discover how our NOC services can elevate your business performance.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="#">
-                        <div class="number-title">02.</div>
-                        <h3>Migration & Modernization</h3>
-                        <p>Cloud migration & modernization involve transitioning applications & data to the cloud while enhancing their capabilities & performance.</p>
-                        <i class="fad fa-random my-2"></i>
-                        <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                        </div>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-data-analytics"></i>
+                    <h3><a href="#">2. Data Centre</a></h3>
+                    <p>Our team of expert technicians have years of experience in seamlessly migrating data centres for companies of all sizes. We provide end-to-end support to ensure a smooth transition with minimal downtime. Our services include assessing current data centre infrastructure, planning the migration process, executing the move, and providing ongoing support post-migration. Trust us to handle your data centre migration and support needs with precision and efficiency.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="#">
-                        <div class="number-title">03.</div>
-                        <h3>Cloud Business Apps</h3>
-                        <p>Cloud business apps utilize cloud technology to enhance scalability & accessibility, driving organizational efficiency & innovation.</p>
-                        <i class="fad fa-cloud-upload my-2"></i>
-                        <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                        </div>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-web-development"></i>
+                    <h3><a href="#">3. SOC</a></h3>
+                    <p>Our SOC services provide robust, 24/7 monitoring, detection, and response to security incidents, ensuring your organization’s digital assets remain secure. Our team of skilled analysts is adept at identifying, analyzing, and mitigating threats in real-time, delivering proactive defense against evolving risks. By harnessing advanced threat intelligence and cutting-edge tools, our SOC services offer the assurance that your critical data and systems are consistently safeguarded and resilient against cyber threats. Rest easy knowing your valuable assets are protected around the clock.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="#">
-                        <div class="number-title">04.</div>
-                        <h3>Cloud Operation</h3>
-                        <p>It optimizes resources for efficient service delivery, encompassing monitoring, security & workflow automation to enhance agility & maximize investments.</p>
-                        <i class="fad fa-cloud-meatball my-2"></i>
-                        <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                        </div>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-computer"></i>
+                    <h3><a href="#">4. Cloud</a></h3>
+                    <p>Our team of experts is dedicated to providing comprehensive consulting services to help you make informed decisions about utilizing cloud technology in your business. From initial planning to execution, we offer expert guidance every step of the way. Our migration service ensures a smooth transition to the cloud, minimizing disruption and maximizing efficiency. And with our ongoing support, you can count on us to address any issues and keep your cloud services running smoothly. Trust us to be your partner in harnessing the power of the cloud for your business success.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -102,15 +82,14 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Launch Your Inaugural Campaign?</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <h2>Ready to Embrace the Future of Technology?</h2>
+                        <p>Whether you need assistance with monitoring and managing your network, securing your systems and data, optimizing your data center operations, or transitioning to the cloud, we have the expertise to meet your needs effectively and efficiently. Partner with us for reliable and cost-effective infrastructure management solutions that allow you to focus on driving your business forward.</p>
                     </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
+                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
                     <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
+                        <div class="skill-bar" data-percentage="95%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
+                                <span class="progress-title">Accuracy</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
@@ -121,7 +100,7 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="97%">
                             <h4 class="progress-title-holder clearfix">
                                 <span class="progress-title">Solutions</span>
                                 <span class="progress-number-wrapper">
@@ -140,6 +119,109 @@
         </div>
     </div>
 </div>
+
+
+<!-- <section class="services-area-four pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="sp-color2">Our Features</span>
+            <h2>Digital Marketing Company Services</h2>
+            <div class="w-75 mx-auto pt-3">Unlock the potential of your online presence with our comprehensive digital marketing services. Whether you’re looking to boost your online visibility, increase website traffic, or generate more leads, our digital marketing services offer the expertise and solutions you need to achieve your goals. Here’s what sets us apart:</div>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-4 col-sm-6">
+                <div class="services-card services-card-color-bg">
+                    <i class="fal fa-undo"></i>
+                    <h3><a>1. Focus On ROI</a></h3>
+                    <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="services-card services-card-color-bg">
+                    <i class="fal fa-rupee-sign"></i>
+                    <h3><a>2. Affordable Prices</a></h3>
+                    <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="services-card services-card-color-bg">
+                    <i class="fal fa-laptop-code"></i>
+                    <h3><a>3. SEO Friendly</a></h3>
+                    <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6"></div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="services-card services-card-color-bg">
+                    <i class="fal fa-chess"></i>
+                    <h3><a>4. Unique Strategies</a></h3>
+                    <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="services-card services-card-color-bg">
+                    <i class="fal fa-laptop-code"></i>
+                    <h3><a>5. Our Approach</a></h3>
+                    <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="clients-area-three pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center mx-auto" style="max-width:650px">
+            <h2>What a Digital Marketing Company Can Do for Your Business</h2>
+        </div>
+        <div class="row pt-45 justify-content-center mx-auto">
+            <div class="col-lg-4 col-sm-6">
+                <div id="DMS_card">
+                    <i class="fal fa-chart-line pb-2"></i>
+                    <h3><a>Brand Building</a></h3>
+                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div id="DMS_card">
+                    <i class="fas fa-icons pb-2"></i>
+                    <h3><a>Paid Social</a></h3>
+                    <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div id="DMS_card">
+                    <i class="fal fa-bullhorn pb-2"></i>
+                    <h3><a>Marketing Strategy</a></h3>
+                    <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div id="DMS_card">
+                    <i class="fal fa-people-carry pb-2"></i>
+                    <h3><a>Content Marketing</a></h3>
+                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div id="DMS_card">
+                    <i class="fal fa-atlas pb-2"></i>
+                    <h3><a>Content and Website Personalization</a></h3>
+                    <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div id="DMS_card">
+                    <i class="fal fa-video pb-2"></i>
+                    <h3><a>Video Production</a></h3>
+                    <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+</section> -->
 
 
 <div class="security-area pt-100 pb-70">
