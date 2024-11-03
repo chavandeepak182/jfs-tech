@@ -118,16 +118,16 @@
 											<a href="{{ route('services.digital-transformation') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-transformation' ? 'active' : '' }}">Digital Transformation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="#" class="nav-link">Data Science</a>
+													<a href="{{ route('services.data-science') }}" class="nav-link">Data Science</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Data Practice</a>
+													<a href="{{ route('services.ar-vr') }}" class="nav-link">AR/VR</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Infrastructure Management</a>
+													<a href="{{ route('services.infrastructure-management') }}" class="nav-link">Infrastructure Management</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Application Modernization</a>
+													<a href="{{ route('services.application-modernisation') }}" class="nav-link">Application Modernization</a>
 												</li>
 											</ul>
 										</li>
@@ -149,19 +149,19 @@
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="{{ route('services.cloud-solution') }}" class="nav-link {{ Route::currentRouteName() === 'services.cloud-solution' ? 'active' : '' }}">Cloud <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<a href="{{ route('services.devops') }}" class="nav-link {{ Route::currentRouteName() === 'services.devops' ? 'active' : '' }}">DevOps <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="#" class="nav-link">DevOps</a>
+													<a href="{{ route('services.ci-cd-pipelines') }}" class="nav-link">CI/CD Pipelines</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Migration & Modernization</a>
+													<a href="{{ route('services.process-automation') }}" class="nav-link">Process Automation</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Cloud Business Application</a>
+													<a href="{{ route('services.containers-and-microservices') }}" class="nav-link">Containers & Microservices</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Cloud Operation</a>
+													<a href="{{ route('services.devsecops') }}" class="nav-link">DevSecOps</a>
 												</li>
 											</ul>
 										</li>
@@ -169,16 +169,16 @@
 											<a href="{{ route('services.resource-augmentation') }}" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Resource Augmentation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="#" class="nav-link">Frontend</a>
+													<a href="{{ route('services.frontend-developers') }}" class="nav-link">Frontend Developers</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Backend</a>
+													<a href="{{ route('services.backend-developers') }}" class="nav-link">Backend Developers</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Fullstack</a>
+													<a href="{{ route('services.fullstack-developers') }}" class="nav-link">Fullstack Developers</a>
 												</li>
 												<li class="nav-item">
-													<a href="#" class="nav-link">Q/A & Testing</a>
+													<a href="{{ route('services.support-engineers') }}" class="nav-link">Support Engineers</a>
 												</li>
 											</ul>
 										</li>

@@ -74,9 +74,9 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-data-analytics"></i>
-						<h3><a href="services/digital-experience">Digital Experience</a></h3>
+						<h3><a href="services/devops">DevOps</a></h3>
 						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
-						<a href="services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="services/devops" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">

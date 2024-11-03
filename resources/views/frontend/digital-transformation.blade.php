@@ -35,52 +35,52 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.data-science') }}">
                         <div class="number-title">01.</div>
                         <h3>Data Science</h3>
                         <p>Digital science utilizes digital tools and data analytics to enhance research and innovation, accelerating discovery and fostering collaboration.</p>
                         <i class="fal fa-file-search my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.data-science') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.ar-vr') }}">
                         <div class="number-title">02.</div>
-                        <h3>Data Practice</h3>
+                        <h3>AR/VR</h3>
                         <p>Data practice involves using data-driven strategies to inform decisions, optimize processes, and drive business growth.</p>
                         <i class="fal fa-icons my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.ar-vr') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.infrastructure-management') }}">
                         <div class="number-title">03.</div>
                         <h3>Infrastructure Management</h3>
                         <p>Infrastructure Management ensures efficient operation, monitoring, and maintenance of IT systems to support business goals.</p>
                         <i class="fal fa-ad my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.infrastructure-management') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ route('services.application-modernisation') }}">
                         <div class="number-title">04.</div>
                         <h3>Application Modernization</h3>
                         <p>Application Modernization updates legacy software for improved performance, scalability, & compatibility with modern technologies.</p>
                         <i class="fal fa-ad my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ route('services.application-modernisation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
