@@ -37,6 +37,7 @@ Route::get('services/infrastructure-management', [FrontendController::class, 'In
 Route::get('services/application-modernisation', [FrontendController::class, 'AppModernisationView'])->name('services.application-modernisation');
 Route::get('services/ar-vr', [FrontendController::class, 'ArVrView'])->name('services.ar-vr');
 Route::get('services/data-science', [FrontendController::class, 'DataScienceView'])->name('services.data-science');
+Route::get('careers', [FrontendController::class, 'CareersView'])->name('careers');
 
 
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

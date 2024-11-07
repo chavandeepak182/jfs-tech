@@ -105,11 +105,11 @@
                         <h2>Ready to Embrace the Future of Technology?</h2>
                         <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
                     </div>
-                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
+                    <h3>Backed by over 24 years of experience, we offer top resource augmentation solutions.</h3>
                     <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
+                        <div class="skill-bar" data-percentage="100%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
+                                <span class="progress-title">Development</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
@@ -120,9 +120,9 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="100%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
+                                <span class="progress-title">Testing</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>

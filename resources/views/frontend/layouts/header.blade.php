@@ -194,15 +194,15 @@
 											<a href="https://jfstechnologies.com/blog/" class="nav-link {{ Route::currentRouteName() === 'blog' ? 'active' : '' }}">Blogs</a>
 										</li>
 										<li class="nav-item">
+											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">Portfolio</a>
+										</li>
+										<li class="nav-item">
 											<a href="{{ route('success-stories') }}" class="nav-link {{ Route::currentRouteName() === 'success-stories' ? 'active' : '' }}">Success Stories</a>
 										</li>
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Portfolio</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Careers</a>
+									<a href="{{ route('careers') }}" class="nav-link {{ Route::currentRouteName() === 'careers' ? 'active' : '' }}">Careers</a>
 								</li>
 							</ul>
 							<div class="nav-side d-display">

@@ -12,7 +12,7 @@
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1>Digital <b>transformation</b></h1>
-                    <p>At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement.</p>
+                    <p>Experience the power of Digital Transformation with our innovative services, tailored to enhance business operations, elevate customer satisfaction, and drive innovation.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         <div class="number-title">01.</div>
                         <h3>Data Science</h3>
                         <p>Digital science utilizes digital tools and data analytics to enhance research and innovation, accelerating discovery and fostering collaboration.</p>
-                        <i class="fal fa-file-search my-2"></i>
+                        <i class="fal fa-file-chart-line my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.data-science') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -52,7 +52,7 @@
                         <div class="number-title">02.</div>
                         <h3>AR/VR</h3>
                         <p>Data practice involves using data-driven strategies to inform decisions, optimize processes, and drive business growth.</p>
-                        <i class="fal fa-icons my-2"></i>
+                        <i class="fal fa-head-vr my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.ar-vr') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -65,7 +65,7 @@
                         <div class="number-title">03.</div>
                         <h3>Infrastructure Management</h3>
                         <p>Infrastructure Management ensures efficient operation, monitoring, and maintenance of IT systems to support business goals.</p>
-                        <i class="fal fa-ad my-2"></i>
+                        <i class="fal fa-network-wired my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.infrastructure-management') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -78,7 +78,7 @@
                         <div class="number-title">04.</div>
                         <h3>Application Modernization</h3>
                         <p>Application Modernization updates legacy software for improved performance, scalability, & compatibility with modern technologies.</p>
-                        <i class="fal fa-ad my-2"></i>
+                        <i class="fal fa-browser my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.application-modernisation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -102,13 +102,12 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Launch Your Inaugural Campaign?</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <h2>Are You Prepared to Embrace the Future of Technology?</h2>
+                        <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
+                    <h3>With more than 24 years of experience, we provide leading Digital transformation solutions.</h3>
                     <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
+                        <div class="skill-bar" data-percentage="95%">
                             <h4 class="progress-title-holder clearfix">
                                 <span class="progress-title">Analytics</span>
                                 <span class="progress-number-wrapper">
@@ -121,7 +120,7 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="99%">
                             <h4 class="progress-title-holder clearfix">
                                 <span class="progress-title">Solutions</span>
                                 <span class="progress-number-wrapper">

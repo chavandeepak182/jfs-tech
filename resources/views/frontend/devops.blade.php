@@ -38,7 +38,7 @@
                     <a href="{{ route('services.ci-cd-pipelines') }}">
                         <div class="number-title">01.</div>
                         <h3>CI/CD Pipelines</h3>
-                        <p>DevOps integrates development and operations to streamline workflows, enhance collaboration, and accelerate software delivery.</p>
+                        <p>This service streamlines the process of building, testing, & deploying code changes with efficiency, consistency, & enhanced reliability, ensuring rapid delivery without compromising quality.</p>
                         <i class="fad fa-infinity my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.ci-cd-pipelines') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
@@ -51,7 +51,7 @@
                     <a href="{{ route('services.process-automation') }}">
                         <div class="number-title">02.</div>
                         <h3>Process Automation</h3>
-                        <p>Cloud migration & modernization involve transitioning applications & data to the cloud while enhancing their capabilities & performance.</p>
+                        <p>Our team of experts specializes in CI/CD pipeline services that simplify the process of creating, testing, and rolling out code updates with speed and precision.</p>
                         <i class="fad fa-random my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.process-automation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
@@ -64,7 +64,7 @@
                     <a href="{{ route('services.containers-and-microservices') }}">
                         <div class="number-title">03.</div>
                         <h3>Containers & Microservices</h3>
-                        <p>Cloud business apps utilize cloud technology to enhance scalability & accessibility, driving organizational efficiency & innovation.</p>
+                        <p>We specialize in using containers and microservices to optimize your software development and deployment for greater scalability and speed.</p>
                         <i class="fad fa-cloud-upload my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.containers-and-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
@@ -77,7 +77,7 @@
                     <a href="{{ route('services.devsecops') }}">
                         <div class="number-title">04.</div>
                         <h3>DevSecOps</h3>
-                        <p>It optimizes resources for efficient service delivery, encompassing monitoring, security & workflow automation to enhance agility & maximize investments.</p>
+                        <p>With our DevSecOps services, you can have peace of mind knowing that your applications are protected against cyber threats. Our goal is to help you build and deploy secure software effectively.</p>
                         <i class="fad fa-cloud-meatball my-2"></i>
                         <div class="text-center mt-4">
                             <a href="{{ route('services.devsecops') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
@@ -105,11 +105,11 @@
                         <h2>Ready to Embrace the Future of Technology?</h2>
                         <p>Our dedication to DevSecOps guarantees that security measures are seamlessly integrated into each stage of development, mitigating the potential risks of security breaches and vulnerabilities. With our holistic DevOps services, we empower organizations to drive innovation and maintain a competitive edge in the dynamic digital landscape of today.</p>
                     </div>
-                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
+                    <h3>Leveraging over 24 years of expertise, we deliver top devops solutions.</h3>
                     <div class="all-skill-bar">
                         <div class="skill-bar" data-percentage="90%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
+                                <span class="progress-title">Automate Process</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
@@ -120,9 +120,9 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="95%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
+                                <span class="progress-title">Results</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
