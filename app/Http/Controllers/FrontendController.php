@@ -155,5 +155,9 @@ private function getCountryCodeFromIP($ip)
 
     public function SupportEngineersView()    {
         return view('frontend.support-engineers');
-    }    
+    }
+    
+    public function CareersView()    {
+        return view('frontend.careers');
+    }
 }

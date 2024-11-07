@@ -7,9 +7,13 @@
 
 <div class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center">
-            <h3>Our Data Science Services</h3>
-            <ul>
+        <div class="inner-title text-center w-75 mx-auto">
+            <h3>Unlock the Power of Data to Drive Business Success</h3>
+            <p class="text-white"></p>
+            <div class="banner-btn">
+				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Get Started Today <i class="bx bx-chevron-right"></i></a>
+			</div>
+            <!-- <ul>
                 <li>
                     <a href="{{ asset(' ') }}">Home</a>
                 </li>
@@ -17,7 +21,7 @@
                     <i class="bx bx-chevrons-right"></i>
                 </li>
                 <li>Data Science Services</li>
-            </ul>
+            </ul> -->
         </div>
     </div>
     <div class="inner-shape">
@@ -29,8 +33,8 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
-            <h2>Our Key Services</h2>
-            <p class="margin-auto">Our Data Science Services are designed to provide you with the tools and resources you need to make sense of your data and turn it into actionable insights. From identifying key trends and patterns to uncovering hidden relationships, our team will work with you every step of the way to ensure that you have the information you need to make informed decisions. With our expertise in advanced analytics and machine learning, we can help you uncover valuable insights that can drive your business forward.</p>
+            <h2>Why Choose Our Data Science Services?</h2>
+            <p class="margin-auto">Transform your data into actionable insights with our expert data science services. Leverage advanced analytics, machine learning, and AI to fuel better decision-making and future-proof your business. Our Data Science Services are designed to empower businesses by turning raw data into actionable insights. From identifying key patterns and trends to discovering hidden relationships within your data, we work closely with you to ensure that the insights you gain help in making informed, strategic decisions. With expertise in advanced analytics, machine learning, and data visualization, we help you unlock the true potential of your data.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center">
             <div class="col-lg-6 col-sm-6">
@@ -70,6 +74,121 @@
 </section>
 
 
+    <div class="choose-area pt-100 pb-70">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12">
+					<div class="choose-content mr-20">
+						<div class="section-title">
+							<span class="sp-color1">We Are Best!!</span>
+							<h2>Why Trust Our Data Science Expertise?</h2>
+                            <p>At JFS Technologies, we take a collaborative approach to deliver the best results for your business. Here’s why you can trust our data science services:</p>
+						</div>
+						<div class="row">
+                            <div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-users-crown"></i>
+										<h3>Expertise Across Technologies</h3>
+									</div>
+									<p>We leverage cutting-edge technologies such as machine learning, AI, and big data analytics.</p>
+								</div>
+							</div>
+                            <div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-file-chart-line"></i>
+										<h3>Proven Results</h3>
+									</div>
+									<p>Our team has a proven track record of helping businesses across various industries transform their data into valuable insights.</p>
+								</div>
+							</div>
+                            <div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-pencil-ruler"></i>
+										<h3>Tailored Strategies</h3>
+									</div>
+									<p>We work closely with you to create solutions designed around your unique business needs.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-puzzle-piece"></i>
+										<h3>Ongoing Support</h3>
+									</div>
+									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-6">
+					<div class="choose-img">
+						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+    <div class="case-study-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="sp-color2">Success Stories</span>
+                <h2>Real-World Impact of Our Data Science Solutions </h2>
+                <p>Learn how our Data Science services have transformed businesses:</p>
+            </div>
+            <div class="row pt-45">
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Retail Sector</a></h3>
+                            <p>A retail company achieved a 30% increase in sales by implementing predictive analytics for demand forecasting.</p>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Manufacturing Industry</a></h3>
+                            <p>We helped a manufacturing client reduce operational costs by 20% through advanced data analytics.</p>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Business Solution</a></h3>
+                            <ul>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Planing</a> </li>
+                            </ul>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-6 text-center">
+                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Full Case Studies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center">
@@ -82,9 +201,8 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Embrace the Future of Technology?</h2>
-                        <p>By harnessing the power of Generative AI and conversational AI, we can help you automate routine tasks and streamline your processes, allowing you to focus on what matters most. Our predictive modelling capabilities will also help you anticipate future trends and make strategic decisions that align with your business goals.</p>
-                        <p>Whether you're looking to enhance your data strategy, improve your predictive capabilities, or simply make better data-driven decisions, our Data Science Services can help you achieve your goals. Contact us today to learn more about how we can help you unlock the full potential of your data and drive business success.</p>
+                        <h2>Ready to Transform Your Data into Actionable Insights?</h2>
+                        <p>Unlock the potential of your data and drive smarter business decisions with our expert Data Science services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
                     <div class="all-skill-bar">
@@ -223,98 +341,6 @@
         </div>        
     </div>
 </section> -->
-
-
-<div class="security-area pt-100 pb-70">
-	<div class="container">
-		<div class="section-title text-center">
-		    <span class="sp-color2">Plan Descriptions</span>
-		    <h2>Choose the Best Plan For Your Business</h2>
-		</div>
-		<div class="row pt-45">
-		    <div class="col-lg-4 col-sm-6">
-		        <div class="security-card">
-                    <i class="flaticon-cyber-security"></i>
-                    <h3>Standard Plan</h3>
-                    <p>Ideal for small businesses looking to establish a solid social media presence. This plan includes basic features such as post creation, page setups, and essential social media management.</p>
-                </div>
-		    </div>
-		    <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
-                    <i class="flaticon-computer"></i>
-                    <h3>Professional Plan</h3>
-                    <p>Designed for businesses seeking to boost engagement and visibility, this plan provides more frequent posts, captivating video content, and expanded group sharing to reach a wider audience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
-                    <i class="flaticon-effective"></i>
-                    <h3>Enterprise Plan</h3>
-                    <p>Ideal for larger organizations seeking robust social media strategies, this plan offers advanced features such as higher posting frequency, multi-platform video content, and detailed performance analytics.</p>
-                </div>
-            </div>
-		</div>
-	</div>
-</div>
-
-
-    <div class="choose-area pt-100 pb-70">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
-						</div>
-						<div class="row">
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-file-chart-line"></i>
-										<h3>Data-Driven Approach</h3>
-									</div>
-									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Strategies</h3>
-									</div>
-									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-puzzle-piece"></i>
-										<h3>Comprehensive Solutions</h3>
-									</div>
-									<p>From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
 
 
 <div class="brand-area ptb-100">

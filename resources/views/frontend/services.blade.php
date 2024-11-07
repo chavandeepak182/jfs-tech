@@ -35,15 +35,15 @@
         <div class="row pt-45 mx-auto justify-content-center">
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
-                    <i class="flaticon-web-development"></i>
+                    <i class="flaticon-consultant"></i>
                     <h3><a href="/services/digital-transformation">1. Digital Transformation</a></h3>
-                    <p><b>Custom, SEO-Friendly, & Mobile-Responsive Websites</b><br>We design and develop performance-optimized websites tailored to your brand’s unique needs. Our websites not only look great but are also optimized for search engines and mobile devices, ensuring the best user experience.</p>
+                    <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     <p><b>Key Features:</b>
                         <ul>
-                            <li>Artificial Intelligence (AI)</li>
-                            <li>Machine Learning (ML)</li>
-                            <li>Deep Learning (DL)</li>
-                            <li></li>
+                            <li>Data Science</li>
+                            <li>AR/VR</li>
+                            <li>Application Modernisation</li>
+                            <li>Infrastructure Management</li>
                         </ul>
                     </p>
                     <a href="/services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -53,7 +53,7 @@
                 <div class="services-card services-style-bg">
                     <i class="flaticon-data-analytics"></i>
                     <h3><a href="/services/digital-experience">2. Digital Experience</a></h3>
-                    <p><b>Data-Driven Strategies for Maximum Online Impact</b><br>Our digital marketing services are designed to boost your brand visibility, drive traffic, and generate leads. From SEO to social media and PPC campaigns, we implement data-driven strategies to help your business grow online.</p>
+                    <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Partner with us to take your digital experience to the next level.</p>
                     <p><b>Key Features:</b>
                         <ul>
                             <li>Digital Marketing</li>
@@ -67,31 +67,31 @@
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
-                    <i class="flaticon-consultant"></i>
-                    <h3><a href="/services/cloud-solution">3. Cloud</a></h3>
-                    <p><b>Native, Hybrid, and Cross-Platform Mobile App Solutions</b><br>Our mobile application development services cover everything from native Android/iOS apps to hybrid and cross-platform solutions. We create apps that are secure, scalable, and provide a seamless user experience.</p>
+                    <i class="flaticon-web-development"></i>
+                    <h3><a href="/services/devops">3. DevOps</a></h3>
+                    <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <p><b>Key Features:</b>
                         <ul>
-                            <li>DevOps</li>
-                            <li>Migration & Modernization</li>
-                            <li>Cloud Business Apps</li>
-                            <li>Cloud Operation</li>
+                            <li>CI/CD Pipelines</li>
+                            <li>Process Automation</li>
+                            <li>Containers & Microservices</li>
+                            <li>DevSecOps</li>
                         </ul>
                     </p>
-                    <a href="/services/cloud-solution" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="/services/devops" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-computer"></i>
                     <h3><a href="/services/resource-augmentation">4. Resource Augmentation</a></h3>
-                    <p><b>Reliable, Scalable Software Solutions for Your Business</b><br>We develop robust applications using the latest backend and frontend technologies. Whether you need custom software or ongoing support, our team has the expertise to deliver secure and scalable solutions.</p>
+                    <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals. Contact us today to learn more about the features & benefits.</p>
                     <p><b>Key Features:</b>
                         <ul>
-                            <li>Frontend</li>
-                            <li>Backend</li>
-                            <li>Fullstack</li>
-                            <li>Q/A & Testing</li>
+                            <li>Frontend Developers</li>
+                            <li>Backend Developers</li>
+                            <li>Fullstack Developers</li>
+                            <li>Support Engineers</li>
                         </ul>
                     </p>
                     <a href="/services/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>

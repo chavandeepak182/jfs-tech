@@ -56,7 +56,7 @@
 
 <!-- Service Area -->
 	<section class="services-area-two pt-100 pb-70">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="section-title text-center">
 				<span class="sp-color1">What We Do?</span>
 				<h2>Our Comprehensive Services</h2>
@@ -64,27 +64,55 @@
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card">
 				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg">
-						<i class="flaticon-web-development"></i>
-						<h3><a href="services/digital-transformation">Digital Transformation</a></h3>
-						<p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p>
-						<a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
+						<!-- <i class="flaticon-web-development"></i> -->
+						<h3><a class="text-center" href="services/digital-transformation">Digital Transformation</a></h3>
+						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
+						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
+						<!-- <i class="flaticon-web-development"></i> -->
+						<h3><a class="text-center" href="services/digital-transformation">Digital Experience</a></h3>
+						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
+						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
+						<!-- <i class="flaticon-web-development"></i> -->
+						<h3><a class="text-center" href="services/digital-transformation">DevOps</a></h3>
+						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
+						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
+						<!-- <i class="flaticon-web-development"></i> -->
+						<h3 class="text-center"><a class="text-center" href="services/digital-transformation">Resource Augmentation</a></h3>
+						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
+						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
+					</div>
+				</div>
+				<!-- <div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-data-analytics"></i>
-						<h3><a href="services/devops">DevOps</a></h3>
+						<h3><a href="services/digital-experience">Digital Experience</a></h3>
 						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
-						<a href="services/devops" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg">
 						<i class="flaticon-consultant"></i>
-						<h3><a href="services/cloud-solution">Cloud</a></h3>
-						<p>Cloud service provides on-demand access to computing resources, storage, and applications over the internet.</p>
-						<a href="services/cloud-solution" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<h3><a href="services/devops">DevOps</a></h3>
+						<p>It integrates development & operations to accelerate software delivery, improve collaboration, and enhance system reliability.</p>
+						<a href="services/devops" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -94,7 +122,7 @@
 						<p>Resource Augmentation involves temporarily adding skilled professionals to a team to meet project demands and fill skill gaps.</p>
 						<a href="services/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

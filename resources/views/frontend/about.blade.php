@@ -10,7 +10,7 @@
             <h3>About Us</h3>
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href=" ">Home</a>
                 </li>
                 <li>
                     <i class="bx bx-chevrons-right"></i>
@@ -30,14 +30,14 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">
                 <div class="about-play">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img1.jpg" alt="About Images">
-                    <div class="about-play-content">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="About Images">
+                    <!-- <div class="about-play-content">
                         <span>Watch Our Intro Video</span>
                         <h2>Perfect Solution for It Services!</h2>
-                        <!-- <div class="play-on-area">
+                        <div class="play-on-area">
                             <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
-                        </div> -->
-                    </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6">
@@ -45,24 +45,9 @@
                 	<div class="section-title">
 						<span class="sp-color2">24+ Years Leadership Experience</span>
 						<h2>Right Partner for Software Innovation</h2>
-						<p>Welcome to JFS Technologies, where we accelerate your company’s growth with our innovative B2B end-to-end sales and account management solutions. Our dedicated team of professionals generates leads and encourage valuable connections for your business. We specialize in acquiring new clients and putting efforts on partnerships that drive your enterprise to new heights.</p>
+						<p>At JFS Technologies, we believe in driving digital transformation with purpose and innovation. As a trusted partner for businesses across industries, we specialize in providing tailored digital solutions that elevate operational efficiency, enhance customer experience, and foster sustainable growth. Our expertise spans Data Science, AR/VR, Application Modernization, and Infrastructure Management, among other advanced digital services. Whether it’s revolutionizing customer engagement with AI or creating immersive AR/VR experiences, JFS Technologies is committed to empowering your business for the future.</p>
 					</div>
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-							<ul class="about-list text-start">
-								<li><i class="bx bxs-check-circle"></i>Integrity: Our foundation, your trust</li>
-								<li><i class="bx bxs-check-circle"></i>Transparency: Fostering connections with honesty & openness</li>
-							</ul>
-						</div>
-						<div class="col-lg-6 col-md-6">
-							<ul class="about-list text-start about-list-2">
-								<li><i class="bx bxs-check-circle"></i>Ownership: Empowering success, together</li>
-								<li><i class="bx bxs-check-circle"></i>Adaptability: Embracing change with flexibility and resilience</li>
-							</ul>
-						</div>
-					</div>
-					<p class="about-content-text">As industry leaders, we provide unparalleled services tailored for software companies in both the US and European markets. Partner with JFS Technologies to harness the full potential of our solutions, optimizing your sales pipeline for exceptional growth and success.</p>
-                </div>
+				</div>
             </div>
         </div>
     </div>
@@ -73,109 +58,90 @@
 	<div class="choose-area pt-100 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title">
-							<span class="sp-color1"></span>
+							<span class="sp-color1">We Are Best!!</span>
 							<h2>Why Trust Us?</h2>
+							<p>Partner with us for a digital journey built on trust, innovation, and a commitment to your success. Trust is the foundation of our relationship with clients. Here’s why businesses around the world choose JFS Technologies:</p>
 						</div>
-						<div class="row">
-							<div class="col-lg-6 col-6">
+						<div class="row pt-4">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>We provide customised solutions that align with your business objectives, ensuring your goals are met effectively.</p>
+									<p>Our services are designed to meet the specific needs of each client, ensuring a customized approach that aligns with your goals.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Experienced Team</h3>
+										<h3>Commitment to Security</h3>
 									</div>
-									<p>Our expert developers and digital marketing professionals bring extensive industry experience and technical proficiency.</p>
+									<p>We prioritize data security and compliance, giving you peace of mind as you transition to digital.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Proven Success</h3>
+										<h3>Proven Expertise</h3>
 									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+									<p>With years of experience across sectors, we bring a wealth of knowledge in digital transformation.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-globe-asia"></i>
-										<h3>Global Reach</h3>
+										<h3>Innovation-Driven</h3>
 									</div>
-									<p>With clients worldwide, we ensure seamless project management and consistent, high-quality delivery across borders.</p>
+									<p>Staying at the forefront of technology, we constantly explore new tools and techniques to provide the best solutions.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="choose-img">
 						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
 
 <div class="security-area pt-100 pb-70">
 	<div class="container">
-		<div class="section-title text-center">
-		<span class="sp-color2">IT Security & Computing</span>
-		<h2>Searching for a Solution! We Provide Truly Prominent Solutions</h2>
+		<div class="section-title text-center w-75 mx-auto">
+			<span class="sp-color2">IT Security & Computing</span>
+			<h2>We Provide Truly Prominent Solutions</h2>
+			<p>In a rapidly evolving digital landscape, IT security is essential. At JFS Technologies, our dedicated team ensures that your data and systems are protected against emerging threats. From implementing robust security protocols to real-time monitoring and proactive incident response, we are committed to safeguarding your operations. Our security services include:</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-4 col-sm-6">
-			<div class="security-card">
-			<i class="flaticon-cyber-security"></i>
-			<h3><a href="case-details.html">Business Security</a></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque ullamcorper proin scelerisque tortor odio.</p>
-			</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-			<div class="security-card">
-			<i class="flaticon-computer"></i>
-			<h3><a href="case-details.html">Manage IT Service</a></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque ullamcorper proin scelerisque tortor odio.</p>
-			</div>
+				<div class="security-card">
+					<i class="flaticon-cyber-security"></i>
+					<h3><a>24/7 Monitoring</a></h3>
+					<p>Around-the-clock vigilance ensures that potential threats are identified and mitigated swiftly.</p>
+				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6">
-			<div class="security-card">
-			<i class="flaticon-effective"></i>
-			<h3><a href="case-details.html">Product Analysis</a></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque ullamcorper proin scelerisque tortor odio.</p>
-			</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-			<div class="security-card">
-			<i class="flaticon-implement"></i>
-			<h3><a href="case-details.html">Analytic Solution</a></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque ullamcorper proin scelerisque tortor odio.</p>
-			</div>
+				<div class="security-card">
+					<i class="flaticon-computer"></i>
+					<h3><a>Data Protection</a></h3>
+					<p>Advanced encryption and secure storage systems protect sensitive information.</p>
+				</div>
 			</div>
 			<div class="col-lg-4 col-sm-6">
-			<div class="security-card">
-			<i class="flaticon-consulting"></i>
-			<h3><a href="case-details.html">Finest Quality</a></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque ullamcorper proin scelerisque tortor odio.</p>
-			</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-			<div class="security-card">
-			<i class="flaticon-consultant"></i>
-			<h3><a href="case-details.html">Risk Management</a></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit scelerisque ullamcorper proin scelerisque tortor odio.</p>
-			</div>
+				<div class="security-card">
+					<i class="flaticon-effective"></i>
+					<h3><a>Compliance</a></h3>
+					<p>We ensure your digital infrastructure meets industry standards and regulatory requirements, keeping your business compliant and secure.</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -304,9 +270,10 @@
 
 <div class="team-area pt-100 pb-70">
 	<div class="container">
-		<div class="section-title text-center">
+		<div class="section-title text-center w-75 mx-auto">
 			<span class="sp-color2">Our Team</span>
-			<h2>Our Team Members</h2>
+			<h2>The Minds Behind Our Success</h2>
+			<p>Our team at JFS Technologies comprises seasoned professionals, passionate innovators, and industry experts. Every team member brings a unique perspective and specialized expertise, making us uniquely equipped to tackle complex digital challenges. From data scientists and AI engineers to UX designers and cybersecurity specialists, our team is dedicated to delivering solutions that drive real results.</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-3 col-md-6">

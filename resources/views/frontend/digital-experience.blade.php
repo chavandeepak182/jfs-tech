@@ -12,7 +12,7 @@
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1>Digital <b>Experience</b></h1>
-                    <p>At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement.</p>
+                    <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Our team of experienced professionals is equipped to handle all aspects of your digital strategy, ensuring that your brand stands out in today's competitive landscape.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -30,44 +30,44 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital transformation Services Includes</h2>
+            <h2>Our Digital Experience Services Includes</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="/digital-marketing-company">
+                    <a href="/serivces/digital-marketing-company">
                         <div class="number-title">01.</div>
                         <h3>Digital Marketing</h3>
                         <p>Digital marketing leverages online platforms to promote products and engage customers, using strategies like SEO and social media to enhance visibility and drive growth.</p>
-                        <i class="fal fa-file-search my-2"></i>
+                        <i class="fal fa-ad my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="/digital-marketing-company" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="/serivces/digital-marketing-company" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="/website-design-and-development">
+                    <a href="/serivces/website-design-and-development">
                         <div class="number-title">02.</div>
                         <h3>Website Development</h3>
                         <p>Website development involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
-                        <i class="fal fa-icons my-2"></i>
+                        <i class="fal fa-desktop-alt my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="/website-design-and-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="/serivces/website-design-and-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="/mobile-app-development">
+                    <a href="/serivces/mobile-app-development">
                         <div class="number-title">03.</div>
                         <h3>Mobile App Development</h3>
                         <p>Mobile app development involves creating applications for smartphones and tablets to enhance user experience and drive engagement.</p>
-                        <i class="fal fa-ad my-2"></i>
+                        <i class="fas fa-mobile-alt my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="/mobile-app-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="/serivces/mobile-app-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -78,7 +78,7 @@
                         <div class="number-title">04.</div>
                         <h3>Creative Services</h3>
                         <p>It provide innovative design, branding & content solutions to enhance brand identity & engagement, including graphic design, copywriting & video production.</p>
-                        <i class="fal fa-ad my-2"></i>
+                        <i class="fal fa-lightbulb-on my-2"></i>
                         <div class="text-center mt-4">
                             <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -103,14 +103,14 @@
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
                         <h2>Ready to Launch Your Inaugural Campaign?</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <p>Whether you need a new website design or a mobile application to reach your customers on the        go, our services are tailored to meet your unique requirements. Our digital marketing expertise will help you reach and engage with your target audience through various online channels, while our creative services will ensure that your brand identity is reflected consistently across all digital touchpoints.</p>
+                        <p>Partner with us to take your digital experience to the next level and drive meaningful results for your business. With our comprehensive suite of services and experienced team, we can help you achieve your digital goals and stand out in today's fast-paced digital world.</p>
                     </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
+                    <h3>We Have 24+ Years Of Experience. We Offer Digital Experience with IT Solutions</h3>
                     <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
+                        <div class="skill-bar" data-percentage="100%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
+                                <span class="progress-title">Branding</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
@@ -121,9 +121,9 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="99%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
+                                <span class="progress-title">Accuracy</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
