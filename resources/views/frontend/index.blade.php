@@ -67,7 +67,7 @@
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
 						<!-- <i class="flaticon-web-development"></i> -->
-						<h3><a class="text-center" href="services/digital-transformation">Digital Transformation</a></h3>
+						<h3><a class="text-center" href="services/digital-transformation">Digital Transformation <i class="fal fa-arrow-right"></i></a></h3>
 						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
 						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
@@ -76,7 +76,7 @@
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
 						<!-- <i class="flaticon-web-development"></i> -->
-						<h3><a class="text-center" href="services/digital-transformation">Digital Experience</a></h3>
+						<h3><a class="text-center" href="services/digital-transformation">Digital Experience <i class="fal fa-arrow-right"></i></a></h3>
 						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
 						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
@@ -85,7 +85,7 @@
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
 						<!-- <i class="flaticon-web-development"></i> -->
-						<h3><a class="text-center" href="services/digital-transformation">DevOps</a></h3>
+						<h3><a class="text-center" href="services/digital-transformation">DevOps <i class="fal fa-arrow-right"></i></a></h3>
 						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
 						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
@@ -94,7 +94,7 @@
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
 						<!-- <i class="flaticon-web-development"></i> -->
-						<h3 class="text-center"><a class="text-center" href="services/digital-transformation">Resource Augmentation</a></h3>
+						<h3 class="text-center"><a class="text-center" href="services/digital-transformation">Resource Augmentation <i class="fal fa-arrow-right"></i></a></h3>
 						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
 						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
@@ -142,87 +142,87 @@
 						<div class="slider">
 							<div class="slide-track">
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/html-5.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/css-3.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/NET.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
-									<div class="work-process-card">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
@@ -236,12 +236,12 @@
 
 
 <!-- Trust Us Area -->	
-	<div class="choose-area pt-100 pb-70">
+	<div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
-						<div class="section-title">
+						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
 							<h2>Why Choose JFS Technologies?</h2>
 						</div>
@@ -308,7 +308,7 @@
                     <div class="number-title">01.</div>
                     <h3>Small and Medium-Sized Enterprises (SMEs)</h3>
                     <p>Achieve growth with tailored websites and digital marketing.</p>
-                    <i class="fal fa-business-time my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/SMEs.gif" class="brand-logo-one" alt="SMEs">
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -316,7 +316,7 @@
                     <div class="number-title">02.</div>
                     <h3>Startups</h3>
                     <p>Scale rapidly with advanced tech solutions for accelerated product development and marketing growth.</p>
-                    <i class="fal fa-rocket-launch my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/rocket.gif" class="brand-logo-one" alt="Startups">
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -324,7 +324,7 @@
                     <div class="number-title">03.</div>
                     <h3>Digital Agencies</h3>
                     <p>Outsource complex projects and manage overflow with our dedicated development teams.</p>
-                    <i class="fal fa-bullhorn my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/ads.gif" class="brand-logo-one" alt="Ads">
                 </div>
             </div>
 			<div class="col-lg-3 col-sm-6">
@@ -332,7 +332,7 @@
                     <div class="number-title">04.</div>
                     <h3>Large Enterprises</h3>
                     <p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance and seamless integration.</p>
-                    <i class="far fa-vihara my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/enterprise.gif" class="brand-logo-one" alt="Large Enterprises">
                 </div>
             </div>
 			<div class="col-lg-3 col-sm-6">
@@ -340,7 +340,7 @@
                     <div class="number-title">05.</div>
                     <h3>E-commerce Companies</h3>
                     <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
-                    <i class="fal fa-store my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/cart.gif" class="brand-logo-one" alt="cart">
                 </div>
             </div>
 			<div class="col-lg-3 col-sm-6">
@@ -348,7 +348,7 @@
                     <div class="number-title">06.</div>
                     <h3>Educational Institutions</h3>
                     <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
-                    <i class="fal fa-school my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/elearning.gif" class="brand-logo-one" alt="Elearning">
                 </div>
             </div>
 			<div class="col-lg-3 col-sm-6">
@@ -356,7 +356,7 @@
                     <div class="number-title">07.</div>
                     <h3>Nonprofit Organizations</h3>
                     <p>Boost outreach and fundraising with affordable digital solutions that enhance engagement.</p>
-                    <i class="fal fa-sitemap my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/engagement.gif" class="brand-logo-one" alt="engagement">
                 </div>
             </div>
 			<div class="col-lg-3 col-sm-6">
@@ -364,7 +364,7 @@
                     <div class="number-title">08.</div>
                     <h3>Tech & Software Companies</h3>
                     <p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution & quality results.</p>
-                    <i class="fal fa-code my-2"></i>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.gif" class="brand-logo-one" alt="computer">
                 </div>
             </div>
         </div>

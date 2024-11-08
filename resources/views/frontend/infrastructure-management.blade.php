@@ -7,17 +7,21 @@
 
 <div class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center">
+        <div class="inner-title text-center w-75 mx-auto">
             <h3>Best Infrastructure Management Services</h3>
-            <ul>
+            <p class="text-white"></p>
+            <div class="banner-btn">
+				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Journey Today <i class="bx bx-chevron-right"></i></a>
+			</div>
+            <!-- <ul>
                 <li>
                     <a href="{{ asset(' ') }}">Home</a>
                 </li>
                 <li>
                     <i class="bx bx-chevrons-right"></i>
                 </li>
-                <li>Infrastructure Management Services</li>
-            </ul>
+                <li>Data Science Services</li>
+            </ul> -->
         </div>
     </div>
     <div class="inner-shape">
@@ -70,6 +74,120 @@
 </section>
 
 
+<div class="choose-area pt-100 pb-70 home">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12">
+					<div class="choose-content mr-20">
+						<div class="section-title mb-3">
+							<span class="sp-color1">We Are Best!!</span>
+							<h2>Why Choose JFS Technologies?</h2>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-pencil-ruler"></i>
+										<h3>Tailored Solutions</h3>
+									</div>
+									<p>Each project is customized to fit your unique needs, ensuring a solution that’s perfect for your business.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-users-crown"></i>
+										<h3>Diverse Industry Experience</h3>
+									</div>
+									<p>We have experience creating AR/VR solutions across various sectors, including manufacturing, real estate, and education.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-analytics"></i>
+										<h3>Proven Track Record</h3>
+									</div>
+									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-headset"></i>
+										<h3>Dedicated Support</h3>
+									</div>
+									<p>Our team provides ongoing support and guidance, from initial concept through execution and beyond.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-6">
+					<div class="choose-img">
+						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+
+    <div class="case-study-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="sp-color2">Success Stories</span>
+                <h2>Real-World Impact of Our AR/VR Solutions</h2>
+                <p>Discover how our AR/VR solutions have transformed client projects:</p>
+            </div>
+            <div class="row pt-45">
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Manufacturing Training</a></h3>
+                            <p>A leading automotive company used our VR simulations for employee training, resulting in a 25% improvement in training effectiveness.</p>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Architecture Visualization</a></h3>
+                            <p>We provided an architectural firm with 3D virtual walkthroughs that enhanced client satisfaction & facilitated faster project approvals.</p>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Business Solution</a></h3>
+                            <ul>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Planing</a> </li>
+                            </ul>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-6 text-center">
+                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Case Studies</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center">
@@ -82,10 +200,10 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Embrace the Future of Technology?</h2>
-                        <p>Whether you need assistance with monitoring and managing your network, securing your systems and data, optimizing your data center operations, or transitioning to the cloud, we have the expertise to meet your needs effectively and efficiently. Partner with us for reliable and cost-effective infrastructure management solutions that allow you to focus on driving your business forward.</p>
+                        <h2>Ready to Transform Your Vision with AR/VR?</h2>
+                        <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
                     </div>
-                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
+                    <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
                     <div class="all-skill-bar">
                         <div class="skill-bar" data-percentage="95%">
                             <h4 class="progress-title-holder clearfix">
@@ -114,6 +232,7 @@
                             </div>
                         </div>
                     </div>
+                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>
@@ -222,98 +341,6 @@
         </div>        
     </div>
 </section> -->
-
-
-<div class="security-area pt-100 pb-70">
-	<div class="container">
-		<div class="section-title text-center">
-		    <span class="sp-color2">Plan Descriptions</span>
-		    <h2>Choose the Best Plan For Your Business</h2>
-		</div>
-		<div class="row pt-45">
-		    <div class="col-lg-4 col-sm-6">
-		        <div class="security-card">
-                    <i class="flaticon-cyber-security"></i>
-                    <h3>Standard Plan</h3>
-                    <p>Ideal for small businesses looking to establish a solid social media presence. This plan includes basic features such as post creation, page setups, and essential social media management.</p>
-                </div>
-		    </div>
-		    <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
-                    <i class="flaticon-computer"></i>
-                    <h3>Professional Plan</h3>
-                    <p>Designed for businesses seeking to boost engagement and visibility, this plan provides more frequent posts, captivating video content, and expanded group sharing to reach a wider audience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="security-card">
-                    <i class="flaticon-effective"></i>
-                    <h3>Enterprise Plan</h3>
-                    <p>Ideal for larger organizations seeking robust social media strategies, this plan offers advanced features such as higher posting frequency, multi-platform video content, and detailed performance analytics.</p>
-                </div>
-            </div>
-		</div>
-	</div>
-</div>
-
-
-    <div class="choose-area pt-100 pb-70">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
-						</div>
-						<div class="row">
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-file-chart-line"></i>
-										<h3>Data-Driven Approach</h3>
-									</div>
-									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Strategies</h3>
-									</div>
-									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-puzzle-piece"></i>
-										<h3>Comprehensive Solutions</h3>
-									</div>
-									<p>From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
 
 
 <div class="brand-area ptb-100">
