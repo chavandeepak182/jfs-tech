@@ -65,38 +65,26 @@
 			<div class="row pt-45 mx-auto justify-content-between custom-card">
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
-						<!-- <i class="flaticon-web-development"></i> -->
+						<img src="{{ asset('theme') }}/assets/images/transform.gif" alt="Images">
 						<h3><a class="text-center" href="services/digital-transformation">Digital Transformation <i class="fal fa-arrow-right"></i></a></h3>
-						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
-						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
-						<!-- <i class="flaticon-web-development"></i> -->
-						<h3><a class="text-center" href="services/digital-transformation">Digital Experience <i class="fal fa-arrow-right"></i></a></h3>
-						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
-						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
+						<img src="{{ asset('theme') }}/assets/images/experience.gif" alt="Images">
+						<h3><a class="text-center" href="services/digital-experience">Digital Experience <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
-						<!-- <i class="flaticon-web-development"></i> -->
-						<h3><a class="text-center" href="services/digital-transformation">DevOps <i class="fal fa-arrow-right"></i></a></h3>
-						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
-						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
+						<img src="{{ asset('theme') }}/assets/images/devops.gif" alt="Images">
+						<h3><a class="text-center" href="services/devops">DevOps <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/test-1.gif" alt="Images">
-						<!-- <i class="flaticon-web-development"></i> -->
-						<h3 class="text-center"><a class="text-center" href="services/digital-transformation">Resource Augmentation <i class="fal fa-arrow-right"></i></a></h3>
-						<!-- <p>Digital Transformation integrates technology to enhance operations, customer experiences, and innovation.</p> -->
-						<!-- <a href="services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a> -->
+						<img src="{{ asset('theme') }}/assets/images/resource.gif" alt="Images">
+						<h3 class="text-center"><a class="text-center" href="services/resource-augmentation">Resource Augmentation <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
 				<!-- <div class="col-lg-3 col-sm-6">
@@ -105,22 +93,6 @@
 						<h3><a href="services/digital-experience">Digital Experience</a></h3>
 						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
 						<a href="services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg">
-						<i class="flaticon-consultant"></i>
-						<h3><a href="services/devops">DevOps</a></h3>
-						<p>It integrates development & operations to accelerate software delivery, improve collaboration, and enhance system reliability.</p>
-						<a href="services/devops" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg">
-						<i class="flaticon-computer"></i>
-						<h3><a href="services/resource-augmentation">Resource Augmentation</a></h3>
-						<p>Resource Augmentation involves temporarily adding skilled professionals to a team to meet project demands and fill skill gaps.</p>
-						<a href="services/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div> -->
 			</div>
@@ -252,14 +224,14 @@
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>Every service is customized to meet your specific business challenges and objectives.</p>
+									<p>Each service is tailored to meet your unique business challenges, objectives, and growth goals.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
+										<h3>Technology Prowess</h3>
 									</div>
 									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
 								</div>
@@ -299,13 +271,13 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Who We Serve</h2>
+            <h2>Who We Serve?</h2>
 			<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">01.</div>
+                    <div class="number-title invisible ">01.</div>
                     <h3>Small and Medium-Sized Enterprises (SMEs)</h3>
                     <p>Achieve growth with tailored websites and digital marketing.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/SMEs.gif" class="brand-logo-one" alt="SMEs">
@@ -313,7 +285,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">02.</div>
+                    <div class="number-title invisible ">02.</div>
                     <h3>Startups</h3>
                     <p>Scale rapidly with advanced tech solutions for accelerated product development and marketing growth.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/rocket.gif" class="brand-logo-one" alt="Startups">
@@ -321,7 +293,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">03.</div>
+                    <div class="number-title invisible ">03.</div>
                     <h3>Digital Agencies</h3>
                     <p>Outsource complex projects and manage overflow with our dedicated development teams.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/ads.gif" class="brand-logo-one" alt="Ads">
@@ -329,7 +301,7 @@
             </div>
 			<div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">04.</div>
+                    <div class="number-title invisible ">04.</div>
                     <h3>Large Enterprises</h3>
                     <p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance and seamless integration.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/enterprise.gif" class="brand-logo-one" alt="Large Enterprises">
@@ -337,7 +309,7 @@
             </div>
 			<div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">05.</div>
+                    <div class="number-title invisible ">05.</div>
                     <h3>E-commerce Companies</h3>
                     <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/cart.gif" class="brand-logo-one" alt="cart">
@@ -345,7 +317,7 @@
             </div>
 			<div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">06.</div>
+                    <div class="number-title invisible ">06.</div>
                     <h3>Educational Institutions</h3>
                     <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/elearning.gif" class="brand-logo-one" alt="Elearning">
@@ -353,15 +325,15 @@
             </div>
 			<div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">07.</div>
+                    <div class="number-title invisible ">07.</div>
                     <h3>Nonprofit Organizations</h3>
                     <p>Boost outreach and fundraising with affordable digital solutions that enhance engagement.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/engagement.gif" class="brand-logo-one" alt="engagement">
+                    <img src="{{ asset('theme') }}/assets/images/icons/care.gif" class="brand-logo-one" alt="engagement">
                 </div>
             </div>
 			<div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <div class="number-title">08.</div>
+                    <div class="number-title invisible ">08.</div>
                     <h3>Tech & Software Companies</h3>
                     <p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution & quality results.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.gif" class="brand-logo-one" alt="computer">
@@ -459,7 +431,7 @@
 					<div class="counter-another-content">
 						<i class="flaticon-web-development"></i>
 						<h3>10+</h3>
-						<span>Years Industry Experience</span>
+						<span>Years of Experience</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
@@ -471,16 +443,16 @@
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-startup"></i>
-						<h3>5+</h3>
-						<span>Locations</span>
+						<i class="flaticon-consulting-1"></i>
+						<h3>1000+</h3>
+						<span>Clients Worldwide</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-consulting-1"></i>
-						<h3>1000+</h3>
-						<span>Clients Worldwide</span>
+						<i class="flaticon-startup"></i>
+						<h3>5+</h3>
+						<span>Locations</span>
 					</div>
 				</div>
 			</div>

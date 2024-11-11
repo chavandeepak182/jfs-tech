@@ -6,8 +6,8 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a href="index.html">
-									<img src="{{ asset('theme') }}/assets/images/logos/logo-main.png" width="230px" alt="Images">
+								<a href="{{ asset(' ') }}">
+									<img src="{{ asset('theme') }}/assets/images/logos/logo-w.png" width="250px" alt="Images">
 								</a>
 							</div>
 							<p>Partner up with us, one of the top digital advertising agencies & avail of an expansive range of services, all at best-in-industry pricing.</p>
@@ -23,33 +23,33 @@
 							<h3>Services</h3>
 							<ul class="footer-list">
 								<li>
-									<a href="#" target="_blank">
+									<a href="/services/digital-transformation" target="_blank">
 										<i class="bx bx-chevron-right"></i>
-										Digital Marketing
+										Digital Transformation
+									</a>
+								</li>
+								<li>
+									<a href="/services/digital-experience" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Digital Experience
+									</a>
+								</li>
+								<li>
+									<a href="/services/devops" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										DevOps
+									</a>
+								</li>
+								<li>
+									<a href="/services/resource-augmentation" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Resource Augmentation
 									</a>
 								</li>
 								<li>
 									<a href="#" target="_blank">
 										<i class="bx bx-chevron-right"></i>
-										Website Design & Developmen
-									</a>
-								</li>
-								<li>
-									<a href="#" target="_blank">
-										<i class="bx bx-chevron-right"></i>
-										Mobile Application Development
-									</a>
-								</li>
-								<li>
-									<a href="compare.html" target="_blank">
-										<i class="bx bx-chevron-right"></i>
-										Application Development & Support
-									</a>
-								</li>
-								<li>
-									<a href="#" target="_blank">
-										<i class="bx bx-chevron-right"></i>
-										Hire Dedicated Developers
+										Hire A Dedicated Developer
 									</a>
 								</li>
 							</ul>
@@ -60,33 +60,21 @@
 							<h3>Quick Links</h3>
 							<ul class="footer-list">
 								<li>
-									<a href="#" target="_blank">
+									<a href="{{ asset(' ') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Home
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
-										<i class="bx bx-chevron-right"></i>
-										Solutions
-									</a>
-								</li>
-								<li>
-									<a href="compare.html" target="_blank">
-										<i class="bx bx-chevron-right"></i>
-										Industries
-									</a>
-								</li>
-								<li>
-									<a href="#" target="_blank">
+									<a href="/about-us" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										About Us
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
+									<a href="/success-stories" target="_blank">
 										<i class="bx bx-chevron-right"></i>
-										Blogs
+										Success Stories
 									</a>
 								</li>
 								<li>
@@ -96,7 +84,13 @@
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
+									<a href="https://jfstechnologies.com/blog/" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										Blogs
+									</a>
+								</li>
+								<li>
+									<a href="/contact-us" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Contact Us
 									</a>
@@ -106,9 +100,40 @@
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<div class="footer-widget">
-							<h3>Newsletter</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus molestie molestie. Phasellus ac rutrum massa, et volutpat nisl. Fusce ultrices suscipit nisl.</p>
-							<div class="newsletter-area">
+							<h3>Reach Us</h3>
+							<ul class="footer-list">
+								<li><p>Office No.416, 4th floor, Platinum Square, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014.</p></li>
+								<li>
+									<a href="mailto:info@jfstechnologies.com" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										info@jfstechnologies.com
+									</a>
+								</li>
+								<li>
+									<a href="tel:918329729190" target="_blank">
+										<i class="bx bx-chevron-right"></i>
+										+91 83297 29190
+									</a>
+								</li>
+								<li class="d-flex justify-content-between px-3">
+									<a href="https://www.linkedin.com/company/jfs-technologies-pvt-ltd/?viewAsMember=true" target="_blank">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+									<a href="https://www.facebook.com/people/JFS-Technologies/61563351610594/" target="_blank">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="https://x.com/JfsTechnologies" target="_blank">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="https://www.instagram.com/jfs_technologies_services?igsh=MThhNmJ5M2xtenMxeg==" target="_blank">
+										<i class="fab fa-instagram"></i>
+									</a>
+									<a href="https://api.whatsapp.com/send?phone=919922212234&text=Hello,%20I%27m%20looking%20for" target="_blank">
+										<i class="fab fa-whatsapp"></i>
+									</a>
+								</li>
+							</ul>
+							<div class="newsletter-area mt-3">
 								<form class="newsletter-form" data-toggle="validator" method="POST">
 									<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
 									<button class="subscribe-btn" type="submit">

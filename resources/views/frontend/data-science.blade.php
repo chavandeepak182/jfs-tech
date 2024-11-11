@@ -8,7 +8,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
-            <h3>Unlock the Power of Data to Drive Business Success</h3>
+            <h1>Unlock the Power of Data to Drive Business Success</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Get Started Today <i class="bx bx-chevron-right"></i></a>
@@ -33,40 +33,40 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
-            <h2>We Provide Best Data Science Services</h2>
+            <h2>Insight-Driven Growth with Smart Data Solutions</h2>
             <p class="margin-auto">Transform your data into actionable insights with our expert data science services. Leverage advanced analytics, machine learning, and AI to fuel better decision-making and future-proof your business. Our Data Science Services are designed to empower businesses by turning raw data into actionable insights. From identifying key patterns and trends to discovering hidden relationships within your data, we work closely with you to ensure that the insights you gain help in making informed, strategic decisions. With expertise in advanced analytics, machine learning, and data visualization, we help you unlock the true potential of your data.</p>
         </div>
-        <div class="row pt-45 mx-auto justify-content-center">
+        <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-data-analytics"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/adv-analytics.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">1.  Advance Analytics:</a></h3>
                     <p>Utilizing state-of-the-art technology and sophisticated data analysis methods, we assist businesses in obtaining valuable insights and facilitating informed decision-making processes. Our proficient team of data scientists and analysts excel at transforming raw data into practical intelligence. Through our cutting-edge analytics services, you can outperform competitors and propel growth within your organization. Allow us to unleash the complete potential of your data and convert it into a strategic asset.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-consultant"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/data-view.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">2. Data Visualization</a></h3>
                     <p>Our data visualization services are designed to help you turn complex datasets into clear, informative visual representations. Whether you need interactive dashboards, compelling infographics, or detailed charts and graphs, our team of experts can create custom solutions to meet your specific needs. With our services, you can unlock valuable insights, identify trends, and communicate your data in a way that is easy to understand and impactful. Reach out to us today to learn more about how we can help you bring your data to life.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-web-development"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/ai-assistant.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">3.  Generative AI & Conversational AI</a></h3>
                     <p>Experience a revolutionary transformation in customer interactions and operational efficiency with our cutting-edge Generative and Conversational AI services. By leveraging the latest advancements in natural language processing and machine learning, our AI solutions enable businesses to effortlessly communicate with customers on a personalized level and provide efficient support on a large scale. Whether you require a chatbot for customer service, virtual assistants for internal processes, or AI-powered voice recognition systems, our bespoke services can enhance your customer experience and streamline operations. Embrace the future of conversational AI with our tailored solutions and revolutionize the way you engage with your target audience.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-computer"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/pre-mod.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">4. Predictive Modelling</a></h3>
                     <p>We use cutting-edge algorithms and data analysis techniques to help businesses anticipate future trends and behaviors. Our predictive modeling services allow companies to make better decisions, improve operations, and increase profitability. By identifying patterns and relationships in data, we can forecast outcomes with a high degree of accuracy. Whether you're looking to optimize your marketing strategy, streamline your supply chain, or reduce risk, our team of experts can help you leverage the power of predictive analytics to drive success. Contact us today to learn more about how our predictive modeling services can benefit your business. Predictive modeling uses data and machine learning to identify patterns and forecast future outcomes.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -74,36 +74,18 @@
 </section>
 
 
-    <div class="choose-area pt-100 pb-70">
+    <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
-						<div class="section-title">
+						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
 							<h2>Why Trust Our Data Science Expertise?</h2>
                             <p>At JFS Technologies, we take a collaborative approach to deliver the best results for your business. Here’s why you can trust our data science services:</p>
 						</div>
 						<div class="row">
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
-									</div>
-									<p>We leverage cutting-edge technologies such as machine learning, AI, and big data analytics.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-file-chart-line"></i>
-										<h3>Proven Results</h3>
-									</div>
-									<p>Our team has a proven track record of helping businesses across various industries transform their data into valuable insights.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
@@ -115,7 +97,25 @@
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-puzzle-piece"></i>
+										<i class="fal fa-users-crown"></i>
+										<h3>Technology Prowess</h3>
+									</div>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-analytics"></i>
+										<h3>Proven Track Record</h3>
+									</div>
+									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-headset"></i>
 										<h3>Ongoing Support</h3>
 									</div>
 									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
@@ -148,7 +148,7 @@
                         </a>
                         <div class="content">
                             <h3><a href="#">Retail Sector</a></h3>
-                            <p>A retail company achieved a 30% increase in sales by implementing predictive analytics for demand forecasting.</p>
+                            <p>A retail company saw a 30% sales increase with predictive forecasting.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         </a>
                         <div class="content">
                             <h3><a href="#">Manufacturing Industry</a></h3>
-                            <p>We helped a manufacturing client reduce operational costs by 20% through advanced data analytics.</p>
+                            <p>We reduced a manufacturer's costs by 20% with advanced analytics.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -205,34 +205,7 @@
                         <p>Unlock the potential of your data and drive smarter business decisions with our expert Data Science services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="95%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Accuracy</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="97%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>
