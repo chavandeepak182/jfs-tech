@@ -216,7 +216,7 @@
 								</div> -->
 								<div class="nav-side-item">
 									<div class="get-btn">
-										<a href="/contact-us" class="default-btn btn-bg-two border-radius-50">Get A Quote <i class="bx bx-chevron-right"></i></a>
+										<a href="/contact-us" class="default-btn btn-bg-two border-radius-50">Let’s Connect! <i class="bx bx-chevron-right"></i></a>
 									</div>
 								</div>
 							</div>

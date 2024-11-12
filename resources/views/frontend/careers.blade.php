@@ -7,7 +7,7 @@
 <div class="inner-banner" style="background-image: url(https://s7ap1.scene7.com/is/image/TCSCOMprod/tab3-2048x1076-1?wid=1000&hei=526&dpr=off);">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>Shape the future you envision</h3>
+            <h1>Shape the future you envision</h1>
             <ul>
                 <li>
                     <a href="{{ asset('theme') }}">Home</a>

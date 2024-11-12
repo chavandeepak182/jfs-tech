@@ -6,7 +6,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>Contact Us</h3>
+            <h1>Let’s Work Together: Reach Out Today!</h1>
             <ul>
                 <li>
                     <a href="{{ asset('theme') }}">Home</a>
@@ -31,8 +31,8 @@
         <div class="row pt-45">
             <div class="col-lg-4">
                 <div class="contact-info mr-20">
-                    <span>Contact Info</span>
-                    <h2>Let's Connect With Us</h2>
+                    <span>Let's Connect</span>
+                    <h2>We're Here!</h2>
                     <p>Give us a few details & we’ll offer the best solution. Connect by phone, email, & more.</p>
                     <ul>
                         <li>
