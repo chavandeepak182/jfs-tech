@@ -39,34 +39,34 @@
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/adv-analytics.gif" class="brand-logo-one icons-img" alt="Startups">
+                    <img src="{{ asset('theme') }}/assets/images/icons/hologram.gif" class="brand-logo-one icons-img" alt="hologram">
                     <h3><a href="#">1. 3D Environments</a></h3>
                     <p>Our 3D environment services provide photo realistic simulations and visualizations for a wide range of industries, including architecture, urban planning, and interior design. Our cutting-edge technology allows clients to experience spaces in a whole new way, from virtual walkthroughs to detailed interactive models. Let us bring your projects to life in stunning 3D detail. Our 3D environment services deliver photorealistic simulations and immersive visualizations across industries such as architecture, urban planning, real estate, and interior design.</p>
                     <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-web-development"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/interaction.gif" class="brand-logo-one icons-img" alt="hologram">
                     <h3><a href="#">2.  Interactive Experience</a></h3>
                     <p>Our team provides a range of services aimed at enhancing client and target audience engagement. From personalized virtual reality simulations to interactive touchscreens and augmented reality features, we collaborate closely with clients to craft immersive experiences that leave a lasting impact. Our skilled developers, designers, and project managers are committed to bringing visions to life, delivering visually striking and user-friendly interactive experiences. Elevate your next project with our Interactive Experience services.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-data-analytics"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/metaverse.gif" class="brand-logo-one icons-img" alt="metaverse">
                     <h3><a href="#">3.  Simulations:</a></h3>
                     <p>Our Simulation services provide innovative solutions for a wide range of industries, including aerospace, automotive, & manufacturing. With our cutting-edge technology & expert team of engineers, we can simulate complex systems & processes to optimize performance, reduce costs, & minimize risks. Whether you need virtual testing for new product designs or predictive modeling for system analysis, our Simulation services can help you achieve your goals efficiently & effectively. Let us help you bring your ideas to life through simulation.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-computer"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/video.gif" class="brand-logo-one icons-img" alt="Visual Screen">
                     <h3><a href="#">4. Virtual Scenarios</a></h3>
                     <p>Experience a wide array of services that are designed to enhance client and target audience engagement with our team. We work closely with our clients to create personalized virtual reality simulations, interactive touchscreens, and augmented reality features that provide immersive experiences leaving a lasting impact. Our team of skilled developers, designers, and project managers are dedicated to bringing visions to life, delivering visually stunning and user-friendly interactive experiences. Elevate your next project with our Interactive Experience services.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Diverse Industry Experience</h3>
+										<h3>Technology Prowess</h3>
 									</div>
 									<p>We have experience creating AR/VR solutions across various sectors, including manufacturing, real estate, and education.</p>
 								</div>
@@ -148,7 +148,7 @@
                         </a>
                         <div class="content">
                             <h3><a href="#">Manufacturing Training</a></h3>
-                            <p>A leading automotive company used our VR simulations for employee training, resulting in a 25% improvement in training effectiveness.</p>
+                            <p>Our VR simulations increased training effectiveness by 25%.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         </a>
                         <div class="content">
                             <h3><a href="#">Architecture Visualization</a></h3>
-                            <p>We provided an architectural firm with 3D virtual walkthroughs that enhanced client satisfaction & facilitated faster project approvals.</p>
+                            <p>Our 3D walkthroughs enhanced satisfaction and sped up approvals.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -204,34 +204,6 @@
                         <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="95%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Accuracy</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="97%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
                     <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
