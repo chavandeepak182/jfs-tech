@@ -8,7 +8,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
-            <h3>Immersive AR/VR Experiences to Transform Your Business</h3>
+            <h1>Immersive AR/VR Experiences to Transform Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your AR/VR Journey Today <i class="bx bx-chevron-right"></i></a>
@@ -33,16 +33,16 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
-            <h2>Our AR/VR Services</h2>
+            <h2>Beyond the Screen: Dive into AR/VR Experiences</h2>
             <p class="margin-auto">Our AR/VR services provide cutting-edge solutions that transform ideas into immersive experiences. Whether you're looking to create training simulations, virtual walkthroughs, or dynamic interactive experiences, our team of experts is here to make your vision a reality. Using advanced AR/VR technology, we design realistic and engaging virtual environments suitable for training, marketing, education, and more. From custom 3D modeling to fully interactive scenarios, we tailor each solution to your unique requirements, helping you stay ahead in a technology-driven world.</p>
         </div>
-        <div class="row pt-45 mx-auto justify-content-center">
+        <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-consultant"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/adv-analytics.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">1. 3D Environments</a></h3>
                     <p>Our 3D environment services provide photo realistic simulations and visualizations for a wide range of industries, including architecture, urban planning, and interior design. Our cutting-edge technology allows clients to experience spaces in a whole new way, from virtual walkthroughs to detailed interactive models. Let us bring your projects to life in stunning 3D detail. Our 3D environment services deliver photorealistic simulations and immersive visualizations across industries such as architecture, urban planning, real estate, and interior design.</p>
-                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
