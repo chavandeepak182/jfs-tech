@@ -7,7 +7,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>Our Top Notch Services</h3>
+            <h1>Our Top Notch Services</h1>
             <ul>
                 <li>
                     <a href="{{ asset(' ') }}">Home</a>

@@ -65,25 +65,25 @@
 			<div class="row pt-45 mx-auto justify-content-between custom-card">
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/transform.gif" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/transform.webp" alt="Images">
 						<h3><a class="text-center" href="services/digital-transformation">Digital Transformation <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/experience.gif" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="Images">
 						<h3><a class="text-center" href="services/digital-experience">Digital Experience <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/devops.gif" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="Images">
 						<h3><a class="text-center" href="services/devops">DevOps <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/resource.gif" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="Images">
 						<h3 class="text-center"><a class="text-center" href="services/resource-augmentation">Resource Augmentation <i class="fal fa-arrow-right"></i></a></h3>
 					</div>
 				</div>
@@ -99,6 +99,82 @@
 		</div>
 	</section>
 
+	<section class="work-process-area home_cards pt-100">
+		<div class="container">
+			<div class="section-title text-center">
+				<span class="sp-color2">Unlock the potential</span>
+				<h2>Who We Serve?</h2>
+				<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
+			</div>
+			<div class="row pt-45">
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">01.</div>
+						<h3>Small and Medium-Sized Enterprises (SMEs)</h3>
+						<p>Achieve growth with tailored websites and digital marketing.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/SMEs.svg" class="brand-logo-one" alt="SMEs">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">02.</div>
+						<h3>Startups</h3>
+						<p>Scale rapidly with advanced tech solutions for accelerated product development and marketing growth.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">03.</div>
+						<h3>Digital Agencies</h3>
+						<p>Outsource complex projects and manage overflow with our dedicated development teams.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/ads.svg" class="brand-logo-one" alt="Ads">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">04.</div>
+						<h3>Large Enterprises</h3>
+						<p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance and seamless integration.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/enterprise.svg" class="brand-logo-one" alt="Large Enterprises">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">05.</div>
+						<h3>E-commerce Companies</h3>
+						<p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/cart.svg" class="brand-logo-one" alt="cart">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">06.</div>
+						<h3>Educational Institutions</h3>
+						<p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/elearning.svg" class="brand-logo-one" alt="Elearning">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">07.</div>
+						<h3>Nonprofit Organizations</h3>
+						<p>Boost outreach and fundraising with affordable digital solutions that enhance engagement.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="work-process-card-three">
+						<div class="number-title invisible ">08.</div>
+						<h3>Tech & Software Companies</h3>
+						<p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution & quality results.</p>
+						<img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 <!-- Technologies Area -->
 	<div class="about-area ptb-100">
@@ -108,7 +184,7 @@
 					<div class="about-content ml-25">
 						<div class="section-title">
 							<span class="sp-color2">Our Expertise</span>
-							<h2 class="w-50 mx-auto">Empowering Businesses With Expertise in 100+ Technologies</h2>
+							<h2 class="w-50 mx-auto">Technologies to Power Your Next Big Move</h2>
 						</div>
 
 						<div class="slider">
@@ -267,87 +343,9 @@
 	</div>
 
 
-<section class="work-process-area home_cards pt-100">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2">Unlock the potential</span>
-            <h2>Who We Serve?</h2>
-			<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
-        </div>
-        <div class="row pt-45">
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">01.</div>
-                    <h3>Small and Medium-Sized Enterprises (SMEs)</h3>
-                    <p>Achieve growth with tailored websites and digital marketing.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/SMEs.gif" class="brand-logo-one" alt="SMEs">
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">02.</div>
-                    <h3>Startups</h3>
-                    <p>Scale rapidly with advanced tech solutions for accelerated product development and marketing growth.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/rocket.gif" class="brand-logo-one" alt="Startups">
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">03.</div>
-                    <h3>Digital Agencies</h3>
-                    <p>Outsource complex projects and manage overflow with our dedicated development teams.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/ads.gif" class="brand-logo-one" alt="Ads">
-                </div>
-            </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">04.</div>
-                    <h3>Large Enterprises</h3>
-                    <p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance and seamless integration.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/enterprise.gif" class="brand-logo-one" alt="Large Enterprises">
-                </div>
-            </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">05.</div>
-                    <h3>E-commerce Companies</h3>
-                    <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/cart.gif" class="brand-logo-one" alt="cart">
-                </div>
-            </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">06.</div>
-                    <h3>Educational Institutions</h3>
-                    <p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/elearning.gif" class="brand-logo-one" alt="Elearning">
-                </div>
-            </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">07.</div>
-                    <h3>Nonprofit Organizations</h3>
-                    <p>Boost outreach and fundraising with affordable digital solutions that enhance engagement.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/care.gif" class="brand-logo-one" alt="engagement">
-                </div>
-            </div>
-			<div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title invisible ">08.</div>
-                    <h3>Tech & Software Companies</h3>
-                    <p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution & quality results.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.gif" class="brand-logo-one" alt="computer">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!-- Clientele Area -->
-	<div class="brand-area pt-100 pb-100">
+<div class="brand-area pt-100">
 		<div class="container-fluid">
-			<h2 class="text-center pb-5">Clientele</h2>
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
@@ -384,47 +382,13 @@
 		</div>
 	</div>
 
-	
-	<div class="call-us-area">
-		<div class="container">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-5">
-					<div class="call-contact">
-						<h3>Recognitions</h3>
-						<a class="call-btn">Awards & Achievements</a>
-						<p>We've earned honors as one of the top digital marketing agency across the nation and internationally.</p>
-					</div>
-				</div>
-				<div class="col-lg-7 pt-5 pb-3">
-					<div class="row">
-						<div class="col-lg-4 col-4">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
-							</div>
-						</div>
-						<div class="col-lg-4 col-4">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-4 col-4">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-
-<!-- Key highlights Area -->
+	<!-- Key highlights Area -->
 	<div class="counter-area pt-100 pb-70">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Key highlights</span>
-				<h2>Let’s Check Our Business Growth and Success Story</h2>
+				<h2>Milestones Matter: Our Growth in Focus</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
@@ -467,74 +431,39 @@
 		</div>
 	</div>
 
-
-<!-- Testimonials Area -->
-	<section class="clients-area pt-100 pb-70">
+	
+	<div class="call-us-area">
 		<div class="container">
-			<div class="section-title text-center">
-				<span class="sp-color1">Testimonials</span>
-				<h2>What Our Clients Say</h2>
-			</div>
-			<div class="clients-slider owl-carousel owl-theme pt-45">
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Thomas Paul</h3>
-						<span>Sr. Developer @ APISDOR</span>
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-5">
+					<div class="call-contact">
+						<h3>Recognitions</h3>
+						<a class="call-btn">Awards & Achievements</a>
+						<p>We've earned honors as one of the top digital marketing agency across the nation and internationally.</p>
 					</div>
-					<p>
-					“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”
-					</p>
 				</div>
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Dan Fitzpatrick</h3>
-						<span>President @ KRIXI</span>
+				<div class="col-lg-7 pt-5 pb-3">
+					<div class="row">
+						<div class="col-lg-4 col-4">
+							<div class="work-process-card rounded">
+                                <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
+							</div>
+						</div>
+						<div class="col-lg-4 col-4">
+							<div class="work-process-card rounded">
+                                <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
+							</div>
+						</div>
+                        <div class="col-lg-4 col-4">
+							<div class="work-process-card rounded">
+                                <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
+							</div>
+						</div>
 					</div>
-					<p>
-					“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”
-					</p>
-				</div>
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Anand Katti</h3>
-						<span>COO @ Shyena Techyarns</span>
-					</div>
-					<p>
-					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth. Their holistic approach and unwavering commitment have been instrumental. I highly recommend their services!”
-					</p>
 				</div>
 			</div>
 		</div>
-		<div class="client-circle">
-			<div class="client-circle-1">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-2">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-3">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-4">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-5">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-6">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-7">
-				<div class="circle"></div>
-			</div>
-		</div>
-	</section>
+	</div>
 
 
 <!-- Let's Build Area -->
@@ -632,68 +561,73 @@
 	</div>
 
 
-<!-- Call Us Area -->
-	<div class="call-us-area">
+	<!-- Testimonials Area -->
+	<section class="clients-area pt-100 pb-70">
 		<div class="container">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6">
-					<div class="call-contact">
-						<h3>Call Us 24/7</h3>
-						<a href="tel:+918329729190" class="call-btn">Ready to Take Your Business to the Next Level?</a>
-						<p>Partner with JFS Technologies today and unlock the full potential of your digital strategy. From cloud solutions to data analytics and mobile app development, we’ll help you create custom solutions that drive results.</p>
-						<!-- <a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a> -->
+			<div class="section-title text-center">
+				<span class="sp-color1">Testimonials</span>
+				<h2>What Our Clients Say</h2>
+			</div>
+			<div class="clients-slider owl-carousel owl-theme pt-45">
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Thomas Paul</h3>
+						<span>Sr. Developer @ APISDOR</span>
 					</div>
+					<p>
+					“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”
+					</p>
 				</div>
-				<div class="col-lg-5 pt-5 pb-3">
-                    <div class="contact-form">
-					<form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
-					@csrf
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control rounded" required data-error="Please Enter Your Name" placeholder="Name*">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control rounded" placeholder="Phone Number*">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control rounded" required data-error="Please Enter Your Email" placeholder="Email*">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12">
-                                        <textarea name="message" class="form-control" id="message" cols="20" rows="4" required data-error="Write your message" placeholder="Your Message*"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="agree-label">
-                                        <input type="checkbox" id="chb1">
-                                        <label for="chb1" class="text-white">
-                                            Accept <a href="#">Terms & Conditions</a> And <a href="/privacy-policy">Privacy Policy.</a>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 text-center">
-                                    <button type="submit" class="default-btn btn-bg-one border-radius-50">
-										Schedule a Free Consultation<i class="bx bx-chevron-right"></i>
-                                    </button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Dan Fitzpatrick</h3>
+						<span>President @ KRIXI</span>
+					</div>
+					<p>
+					“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”
+					</p>
+				</div>
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Anand Katti</h3>
+						<span>COO @ Shyena Techyarns</span>
+					</div>
+					<p>
+					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth. Their holistic approach and unwavering commitment have been instrumental. I highly recommend their services!”
+					</p>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="client-circle">
+			<div class="client-circle-1">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-2">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-3">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-4">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-5">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-6">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-7">
+				<div class="circle"></div>
+			</div>
+		</div>
+	</section>
 
 
 	<div class="blog-area pt-100 pb-70">
@@ -781,37 +715,103 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- Call Us Area -->
+	<!-- <div class="call-us-area">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6">
+					<div class="call-contact">
+						<h3>Call Us 24/7</h3>
+						<a href="tel:+918329729190" class="call-btn">Ready to Take Your Business to the Next Level?</a>
+						<p>Partner with JFS Technologies today and unlock the full potential of your digital strategy. From cloud solutions to data analytics and mobile app development, we’ll help you create custom solutions that drive results.</p>
+						<a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a>
+					</div>
+				</div>
+				<div class="col-lg-5 pt-5 pb-3">
+                    <div class="contact-form">
+					<form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+					@csrf
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control rounded" required data-error="Please Enter Your Name" placeholder="Name*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control rounded" placeholder="Phone Number*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="form-control rounded" required data-error="Please Enter Your Email" placeholder="Email*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                        <textarea name="message" class="form-control" id="message" cols="20" rows="4" required data-error="Write your message" placeholder="Your Message*"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="agree-label">
+                                        <input type="checkbox" id="chb1">
+                                        <label for="chb1" class="text-white">
+                                            Accept <a href="#">Terms & Conditions</a> And <a href="/privacy-policy">Privacy Policy.</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 text-center">
+                                    <button type="submit" class="default-btn btn-bg-one border-radius-50">
+										Schedule a Free Consultation<i class="bx bx-chevron-right"></i>
+                                    </button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('#contactForm').on('submit', function(e) {
-            e.preventDefault(); // Prevent default form submission
+	<script>
+		$(document).ready(function() {
+			$('#contactForm').on('submit', function(e) {
+				e.preventDefault(); // Prevent default form submission
 
-            var formData = {
-                name: $('#name').val(),
-                email: $('#email').val(),
-                phone_number: $('#phone_number').val(),
-                msg_subject: $('#msg_subject').val(),
-                message: $('#message').val(),
-            };
+				var formData = {
+					name: $('#name').val(),
+					email: $('#email').val(),
+					phone_number: $('#phone_number').val(),
+					msg_subject: $('#msg_subject').val(),
+					message: $('#message').val(),
+				};
 
-            $.ajax({
-                type: "POST",
-                url: "{{ route('contact.submit') }}", // Use Laravel route
-                data: JSON.stringify(formData),
-                contentType: "application/json",
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') // CSRF Token
-                },
-                success: function(response) {
-                    $('#msgSubmit').removeClass('hidden').text(response.message);
-                    $('#contactForm')[0].reset(); // Reset form fields
-                },
-                error: function(error) {
-                    $('#msgSubmit').removeClass('hidden').text('Error sending message: ' + error.responseJSON.message);
-                }
-            });
-        });
-    });
-</script>
+				$.ajax({
+					type: "POST",
+					url: "{{ route('contact.submit') }}", // Use Laravel route
+					data: JSON.stringify(formData),
+					contentType: "application/json",
+					headers: {
+						'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') // CSRF Token
+					},
+					success: function(response) {
+						$('#msgSubmit').removeClass('hidden').text(response.message);
+						$('#contactForm')[0].reset(); // Reset form fields
+					},
+					error: function(error) {
+						$('#msgSubmit').removeClass('hidden').text('Error sending message: ' + error.responseJSON.message);
+					}
+				});
+			});
+		});
+	</script>
 @endsection
