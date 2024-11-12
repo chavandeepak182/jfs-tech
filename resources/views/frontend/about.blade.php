@@ -7,7 +7,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>About Us</h3>
+            <h1>About Us</h1>
             <ul>
                 <li>
                     <a href=" ">Home</a>

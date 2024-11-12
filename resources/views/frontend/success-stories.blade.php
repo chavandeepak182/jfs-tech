@@ -6,7 +6,7 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>Our Success Stories</h3>
+            <h1>Our Success Stories</h1>
             <ul>
                 <li>
                     <a href="{{ asset('theme') }}">Home</a>
