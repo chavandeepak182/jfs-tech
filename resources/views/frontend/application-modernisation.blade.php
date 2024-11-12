@@ -8,10 +8,10 @@
 <div class="inner-banner">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
-            <h3>Best Application Modernisation Services</h3>
+            <h1>Transform & Modernize Your Applications for the Digital Age</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Journey Today <i class="bx bx-chevron-right"></i></a>
+				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
 			</div>
             <!-- <ul>
                 <li>
@@ -33,37 +33,37 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
-            <h2>Our Key Services</h2>
-            <p class="margin-auto">Our application modernisation services are designed to help businesses update and improve their existing software applications. Whether you're looking to migrate to a new platform, enhance the user experience, or streamline your processes, our team of experts can provide the guidance and support you need.</p>
+            <h2>Reimagine Your Applications for a Digital-First Future</h2>
+            <p class="margin-auto">Our Application Modernization services are designed to help your business stay competitive in an evolving digital landscape. Whether you’re upgrading legacy systems, migrating to the cloud, or enhancing user experience, our expert team is here to guide you every step of the way. Leveraging the latest technologies, we ensure that your applications are secure, efficient, and future-ready. Let us help you bring your applications into the modern era and drive business growth.</p>
         </div>
-        <div class="row pt-45 mx-auto justify-content-center">
+        <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-consultant"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/applications.gif" class="brand-logo-one icons-img" alt="applications">
                     <h3><a href="#">1. Application Modernisation Consulting</a></h3>
                     <p>We specialize in assisting organizations in enhancing and modernizing their software applications to align with the latest technology trends and boost overall efficiency. Utilizing cutting-edge technologies such as cloud computing and automation tools, we strive to simplify operations, lower expenses, and elevate user satisfaction. Our team of skilled professionals will collaborate closely with your organization to evaluate your current applications, pinpoint areas in need of enhancement, and formulate a personalized modernization strategy for a seamless transition. Whether you seek to shift to a new platform, optimize code, or introduce innovative features, our application modernization solutions will ensure you remain competitive in today's rapidly evolving digital environment.</p>
                     <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-data-analytics"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/responsive.gif" class="brand-logo-one icons-img" alt="responsive">
                     <h3><a href="#">2.UI/UX Modernisation</a></h3>
                     <p>In today's fast-paced digital landscape, where user expectations are constantly evolving, businesses need innovative and engaging interfaces to stay competitive. Our UI/UX Modernization services are crafted to help you excel and stand out. We start by thoroughly analyzing your current user interface and experience to identify opportunities for enhancement, optimization, and innovation. Our skilled team of designers and developers then collaborates to create a visually stunning, intuitive interface that not only enhances user experience but also drives engagement and conversion rates. Whether you need a complete overhaul or targeted updates, our experts are ready to elevate your UI/UX to new heights, setting your business apart in a crowded market.</p>
                     <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-web-development"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/database.gif" class="brand-logo-one icons-img" alt="database">
                     <h3><a href="#">3. Legacy to Cloud Migration</a></h3>
                     <p>Our team of experts has years of experience in helping businesses seamlessly transition their legacy systems to cloud-based applications. With our proven methodology and technical expertise, we ensure a smooth and efficient migration process, minimizing downtime and maximizing cost savings. Trust us to guide you through every step of the migration journey, from planning and assessment to implementation and testing. Let us help you unlock the full potential of cloud technology and transform your business for the digital age.</p>
                     <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg">
-                    <i class="flaticon-computer"></i>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/api.gif" class="brand-logo-one icons-img" alt="API">
                     <h3><a href="#">4. API Integration</a></h3>
                     <p>Our API integration services streamline the process of connecting different applications and systems, allowing for seamless data exchange and communication. With our experienced team of developers, we can ensure that your APIs are implemented efficiently and effectively. Whether you are looking to integrate third-party services or build custom APIs for your own platform, we have the expertise to meet your needs. Trust us to handle the complexities of API integration so you can focus on growing your business.</p>
                     <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -81,7 +81,8 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2>Why Partner with Us for Application Modernization?</h2>
+                            <p>Partnering with us for your Application Modernization needs means gaining access to:</p>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -90,16 +91,16 @@
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>Each project is customized to fit your unique needs, ensuring a solution that’s perfect for your business.</p>
+									<p>Our team brings extensive experience across multiple sectors, ensuring best practices tailored to your needs.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Diverse Industry Experience</h3>
+										<h3>Technology Prowess</h3>
 									</div>
-									<p>We have experience creating AR/VR solutions across various sectors, including manufacturing, real estate, and education.</p>
+									<p>We stay on the cutting edge of technology trends, utilizing cloud, automation, and modern UI/UX design to enhance application functionality.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -117,7 +118,7 @@
                                         <i class="fal fa-headset"></i>
 										<h3>Dedicated Support</h3>
 									</div>
-									<p>Our team provides ongoing support and guidance, from initial concept through execution and beyond.</p>
+									<p>From consulting to post-implementation, we’re with you every step of the way to ensure success.</p>
 								</div>
 							</div>
 						</div>
@@ -136,9 +137,9 @@
     <div class="case-study-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Success Stories</span>
-                <h2>Real-World Impact of Our AR/VR Solutions</h2>
-                <p>Discover how our AR/VR solutions have transformed client projects:</p>
+                <span class="sp-color2">Case Studies</span>
+                <h2>Success Stories in Application Modernization</h2>
+                <p>See how our Application Modernization services have helped businesses transform:</p>
             </div>
             <div class="row pt-45">
                 <div class="col-lg-4 col-md-6">
@@ -147,8 +148,8 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">Manufacturing Training</a></h3>
-                            <p>A leading automotive company used our VR simulations for employee training, resulting in a 25% improvement in training effectiveness.</p>
+                            <h3><a href="#">Healthcare Platform Revamp</a></h3>
+                            <p>We modernized a healthcare system, boosting data access & efficiency.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -159,8 +160,8 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">Architecture Visualization</a></h3>
-                            <p>We provided an architectural firm with 3D virtual walkthroughs that enhanced client satisfaction & facilitated faster project approvals.</p>
+                            <h3><a href="#">Finance Cloud Migration</a></h3>
+                            <p>We migrated a financial client to the cloud, enhancing performance and cutting costs.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -181,7 +182,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Case Studies</a>
+                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
                 </div>
             </div>
         </div>
@@ -200,147 +201,16 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Transform Your Vision with AR/VR?</h2>
-                        <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
+                        <h2>Ready to Modernize Your Applications?</h2>
+                        <p>Don’t let outdated applications hold your business back. Our Application Modernization services can bring new life to your software, helping you improve efficiency, enhance security, and deliver better experiences to your users.</p>
                     </div>
-                    <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="95%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Accuracy</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="97%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <h3>With 24+ years of expertise, we deliver cutting-edge Application Modernization solutions.</h3>
                     <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-<!-- <section class="services-area-four pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2">Our Features</span>
-            <h2>Digital Marketing Company Services</h2>
-            <div class="w-75 mx-auto pt-3">Unlock the potential of your online presence with our comprehensive digital marketing services. Whether you’re looking to boost your online visibility, increase website traffic, or generate more leads, our digital marketing services offer the expertise and solutions you need to achieve your goals. Here’s what sets us apart:</div>
-        </div>
-        <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-undo"></i>
-                    <h3><a>1. Focus On ROI</a></h3>
-                    <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-rupee-sign"></i>
-                    <h3><a>2. Affordable Prices</a></h3>
-                    <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>3. SEO Friendly</a></h3>
-                    <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-chess"></i>
-                    <h3><a>4. Unique Strategies</a></h3>
-                    <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>5. Our Approach</a></h3>
-                    <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-        </div>
-    </div>
-</section>
-
-
-<section class="clients-area-three pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center mx-auto" style="max-width:650px">
-            <h2>What a Digital Marketing Company Can Do for Your Business</h2>
-        </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-line pb-2"></i>
-                    <h3><a>Brand Building</a></h3>
-                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fas fa-icons pb-2"></i>
-                    <h3><a>Paid Social</a></h3>
-                    <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-bullhorn pb-2"></i>
-                    <h3><a>Marketing Strategy</a></h3>
-                    <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>Content Marketing</a></h3>
-                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-atlas pb-2"></i>
-                    <h3><a>Content and Website Personalization</a></h3>
-                    <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-video pb-2"></i>
-                    <h3><a>Video Production</a></h3>
-                    <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
-                </div>
-            </div>
-        </div>        
-    </div>
-</section> -->
 
 
 <div class="brand-area ptb-100">
