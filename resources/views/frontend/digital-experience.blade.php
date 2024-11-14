@@ -10,7 +10,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
+                    <span>TECHNOLOGY & VIRTUAL SOLUTIONS</span>
                     <h1>Digital <b>Experience</b></h1>
                     <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Our team of experienced professionals is equipped to handle all aspects of your digital strategy, ensuring that your brand stands out in today's competitive landscape.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
@@ -35,39 +35,39 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="/serivces/digital-marketing-company">
+                    <a href="{{ url('/services/digital-marketing-company') }}">
                         <div class="number-title">01.</div>
                         <h3>Digital Marketing</h3>
                         <p>Digital marketing leverages online platforms to promote products and engage customers, using strategies like SEO and social media to enhance visibility and drive growth.</p>
                         <i class="fal fa-ad my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="/serivces/digital-marketing-company" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/digital-marketing-company') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="/serivces/website-design-and-development">
+                    <a href="{{ url('/services/website-design-and-development') }}">
                         <div class="number-title">02.</div>
                         <h3>Website Development</h3>
                         <p>Website development involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
                         <i class="fal fa-desktop-alt my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="/serivces/website-design-and-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/website-design-and-development') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="/serivces/mobile-app-development">
+                    <a href="{{ url('/services/mobile-app-development') }}">
                         <div class="number-title">03.</div>
                         <h3>Mobile App Development</h3>
                         <p>Mobile app development involves creating applications for smartphones and tablets to enhance user experience and drive engagement.</p>
                         <i class="fas fa-mobile-alt my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="/serivces/mobile-app-development" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/mobile-app-development') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -80,7 +80,7 @@
                         <p>It provide innovative design, branding & content solutions to enhance brand identity & engagement, including graphic design, copywriting & video production.</p>
                         <i class="fal fa-lightbulb-on my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/creative-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -101,40 +101,13 @@
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
-                        <span class="sp-color2">Partner Up With Us</span>
+                        <span class="sp-color1">Partner Up With Us</span>
                         <h2>Ready to Launch Your Inaugural Campaign?</h2>
                         <p>Whether you need a new website design or a mobile application to reach your customers on the        go, our services are tailored to meet your unique requirements. Our digital marketing expertise will help you reach and engage with your target audience through various online channels, while our creative services will ensure that your brand identity is reflected consistently across all digital touchpoints.</p>
                         <p>Partner with us to take your digital experience to the next level and drive meaningful results for your business. With our comprehensive suite of services and experienced team, we can help you achieve your digital goals and stand out in today's fast-paced digital world.</p>
                     </div>
                     <h3>We Have 24+ Years Of Experience. We Offer Digital Experience with IT Solutions</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="100%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Branding</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="99%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Accuracy</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
                 </div>
             </div>
         </div>
@@ -175,50 +148,51 @@
 </div>
 
 
-    <div class="choose-area pt-100 pb-70">
+    <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
-						<div class="section-title">
+						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2>Why Trust Our Digital Experience Services?</h2>
+                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
 						</div>
 						<div class="row">
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-file-chart-line"></i>
-										<h3>Data-Driven Approach</h3>
-									</div>
-									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Strategies</h3>
 									</div>
-									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
+									<p>We work closely with you to create solutions designed around your unique business needs.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-puzzle-piece"></i>
-										<h3>Comprehensive Solutions</h3>
+										<i class="fal fa-users-crown"></i>
+										<h3>Technology Prowess</h3>
 									</div>
-									<p>From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-analytics"></i>
+										<h3>Proven Track Record</h3>
+									</div>
+									<p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-headset"></i>
+										<h3>Ongoing Support</h3>
+									</div>
+									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
 								</div>
 							</div>
 						</div>

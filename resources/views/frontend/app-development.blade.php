@@ -251,7 +251,7 @@
 						</div>
                         <div class="col-lg-3 col-sm-3">
 							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/.net.png" class="p-3" alt="Images">
+                                <img src="{{ asset('theme') }}/assets/technologies/dot-net.png" class="p-3" alt="Images">
 							</div>
 						</div>
                         <div class="col-lg-3 col-sm-3">

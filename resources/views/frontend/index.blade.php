@@ -393,29 +393,29 @@
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-web-development"></i>
-						<h3>10+</h3>
-						<span>Years of Experience</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="experience">
+						<h3>24+</h3>
+						<span>Years of Expertise</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-web-development"></i>
-						<h3>250+</h3>
-						<span>Industry Experts</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
+						<h3>150+</h3>
+						<span>Technology Experts</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-consulting-1"></i>
-						<h3>1000+</h3>
+						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="Customer Base">
+						<h3>100+</h3>
 						<span>Clients Worldwide</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-startup"></i>
-						<h3>5+</h3>
+						<img src="{{ asset('theme') }}/assets/images/icons/locations.svg" class="brand-logo-one" alt="locations">
+						<h3>4+</h3>
 						<span>Locations</span>
 					</div>
 				</div>
@@ -571,7 +571,7 @@
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Thomas Paul</h3>
 						<span>Sr. Developer @ APISDOR</span>
@@ -582,7 +582,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Dan Fitzpatrick</h3>
 						<span>President @ KRIXI</span>
@@ -593,7 +593,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/office-man.png" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Anand Katti</h3>
 						<span>COO @ Shyena Techyarns</span>

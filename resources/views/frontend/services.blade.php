@@ -10,7 +10,7 @@
             <h1>Our Top Notch Services</h1>
             <ul>
                 <li>
-                    <a href="{{ asset(' ') }}">Home</a>
+                    <a href="{{ url('/') }}">Home</a>
                 </li>
                 <li>
                     <i class="bx bx-chevrons-right"></i>
@@ -36,7 +36,7 @@
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-consultant"></i>
-                    <h3><a href="/services/digital-transformation">1. Digital Transformation</a></h3>
+                    <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
                     <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -46,13 +46,13 @@
                             <li>Infrastructure Management</li>
                         </ul>
                     </p>
-                    <a href="/services/digital-transformation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/digital-transformation') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-data-analytics"></i>
-                    <h3><a href="/services/digital-experience">2. Digital Experience</a></h3>
+                    <h3><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
                     <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Partner with us to take your digital experience to the next level.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -62,13 +62,13 @@
                             <li>Creative Services</li>
                         </ul>
                     </p>
-                    <a href="/services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/digital-experience') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-web-development"></i>
-                    <h3><a href="/services/devops">3. DevOps</a></h3>
+                    <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
                     <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -78,13 +78,13 @@
                             <li>DevSecOps</li>
                         </ul>
                     </p>
-                    <a href="/services/devops" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/devops') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg">
                     <i class="flaticon-computer"></i>
-                    <h3><a href="/services/resource-augmentation">4. Resource Augmentation</a></h3>
+                    <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
                     <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals. Contact us today to learn more about the features & benefits.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -94,7 +94,7 @@
                             <li>Support Engineers</li>
                         </ul>
                     </p>
-                    <a href="/services/resource-augmentation" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -131,23 +131,24 @@
                 </div>
             </div>
             <div class="col-lg-12 col-sm-6 text-center">
-                <a href="/contact-us" class="default-btn btn-bg-two border-radius-5 py-3">Contact Us for a Free Consultation</a>
+                <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-5 py-3">Contact Us for a Free Consultation</a>
             </div>
         </div>        
     </div>
 </section>
 
 
-    <section class="clients-area pt-100 pb-70">
+	<!-- Testimonials Area -->
+	<section class="clients-area pt-100 pb-70">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
-				<h2>Listen from our Clients</h2>
+				<h2>What Our Clients Say</h2>
 			</div>
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img1.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Thomas Paul</h3>
 						<span>Sr. Developer @ APISDOR</span>
@@ -158,7 +159,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Dan Fitzpatrick</h3>
 						<span>President @ KRIXI</span>
@@ -169,7 +170,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img3.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Anand Katti</h3>
 						<span>COO @ Shyena Techyarns</span>
