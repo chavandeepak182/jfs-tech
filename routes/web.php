@@ -72,6 +72,22 @@ Route::get('/services/creative-services', function () {
     return view('frontend.creative-services');
 });
 
+Route::get('/services/uiux-design', function () {
+    return view('frontend.uiux-design');
+});
+
+Route::get('/services/graphics-design', function () {
+    return view('frontend.graphics-design');
+});
+
+Route::get('/services/content-creation', function () {
+    return view('frontend.content-creation');
+});
+
+Route::get('/services/3d-design', function () {
+    return view('frontend.3d-design');
+});
+
 Route::get('/services/digital-transformation', function () {
     return view('frontend.digital-transformation');
 });

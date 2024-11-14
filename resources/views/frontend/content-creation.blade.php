@@ -25,7 +25,6 @@
     </video>
 </div>
 
-
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
@@ -39,7 +38,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>1. User Experience (UX) and User Interface (UI) Design</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="{{ url('/services/uiux-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -47,7 +46,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>2. Graphic Design</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="{{ url('/services/graphics-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -55,7 +54,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>3. Content Creation</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="{{ url('/services/content-creation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -63,7 +62,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>4. 3D Services</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="{{ url('/services/3d-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
