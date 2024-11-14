@@ -4,40 +4,128 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ContactController;
 
-// Route::get('/', function () {
-//     return view('frontend.index');
-// });
+Route::get('/', function () {
+    return view('frontend.index');
+});
 
-Route::get('/', [FrontendController::class, 'HomePageView'])->name('home');
+Route::get('/services', function () {
+    return view('frontend.services');
+});
 
-Route::get('services', [FrontendController::class, 'ServicesView'])->name('services');
-Route::get('about-us', [FrontendController::class, 'AboutView'])->name('about-us');
-Route::get('contact-us', [FrontendController::class, 'ContactView'])->name('contact-us');
-Route::get('privacy-policy', [FrontendController::class, 'PrivacyView']);
-Route::get('services/digital-marketing-company', [FrontendController::class, 'DigitalMarketingView'])->name('services.digital-marketing-company');
-Route::get('services/seo-services', [FrontendController::class, 'SEOView'])->name('services.seo-services');
-Route::get('services/smo-services', [FrontendController::class, 'SMOView'])->name('services.smo-services');
-Route::get('services/ppc-services', [FrontendController::class, 'PPCView'])->name('services.ppc-services');
-Route::get('services/website-design-and-development', [FrontendController::class, 'WebDevView'])->name('services.website-design-and-development');
-Route::get('services/mobile-app-development', [FrontendController::class, 'MobileAppView'])->name('services.mobile-app-development');
-Route::get('success-stories', [FrontendController::class, 'SuccessStoriesView'])->name('success-stories');
-Route::get('services/digital-transformation', [FrontendController::class, 'DigitalTransformationView'])->name('services.digital-transformation');
-Route::get('services/digital-experience', [FrontendController::class, 'DigitalExperienceView'])->name('services.digital-experience');
-Route::get('services/devops', [FrontendController::class, 'DevOpsView'])->name('services.devops');
-Route::get('services/resource-augmentation', [FrontendController::class, 'ResourceAugmentationView'])->name('services.resource-augmentation');
-Route::get('services/support-engineers', [FrontendController::class, 'SupportEngineersView'])->name('services.support-engineers');
-Route::get('services/fullstack-developers', [FrontendController::class, 'FullStackDevelopersView'])->name('services.fullstack-developers');
-Route::get('services/backend-developers', [FrontendController::class, 'BackendDevelopersView'])->name('services.backend-developers');
-Route::get('services/frontend-developers', [FrontendController::class, 'FrontendDevelopersView'])->name('services.frontend-developers');
-Route::get('services/devsecops', [FrontendController::class, 'DevSecOpsView'])->name('services.devsecops');
-Route::get('services/containers-and-microservices', [FrontendController::class, 'ContainersMicroservicesView'])->name('services.containers-and-microservices');
-Route::get('services/process-automation', [FrontendController::class, 'ProcessAutomationView'])->name('services.process-automation');
-Route::get('services/ci-cd-pipelines', [FrontendController::class, 'CICDView'])->name('services.ci-cd-pipelines');
-Route::get('services/infrastructure-management', [FrontendController::class, 'InfrastructureManagementView'])->name('services.infrastructure-management');
-Route::get('services/application-modernisation', [FrontendController::class, 'AppModernisationView'])->name('services.application-modernisation');
-Route::get('services/ar-vr', [FrontendController::class, 'ArVrView'])->name('services.ar-vr');
-Route::get('services/data-science', [FrontendController::class, 'DataScienceView'])->name('services.data-science');
-Route::get('careers', [FrontendController::class, 'CareersView'])->name('careers');
+Route::get('/about-us', function () {
+    return view('frontend.about-us');
+});
 
+Route::get('/contact-us', function () {
+    return view('frontend.contact');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('frontend.privacy-policy');
+});
+
+Route::get('/services/infrastructure-management', function () {
+    return view('frontend.infrastructure-management');
+});
+
+Route::get('/services/application-modernisation', function () {
+    return view('frontend.application-modernisation');
+});
+
+Route::get('/services/ar-vr', function () {
+    return view('frontend.ar-vr');
+});
+
+Route::get('/services/data-science', function () {
+    return view('frontend.data-science');
+});
+
+Route::get('/services/digital-marketing-company', function () {
+    return view('frontend.digital-marketing');
+});
+
+Route::get('/services/seo-services', function () {
+    return view('frontend.seo-services');
+});
+
+Route::get('/services/smo-services', function () {
+    return view('frontend.smo-services');
+});
+
+Route::get('/services/ppc-services', function () {
+    return view('frontend.ppc-services');
+});
+
+Route::get('/services/website-design-and-development', function () {
+    return view('frontend.website-development');
+});
+
+Route::get('/services/mobile-app-development', function () {
+    return view('frontend.app-development');
+});
+
+Route::get('/services/success-stories', function () {
+    return view('frontend.success-stories');
+});
+
+Route::get('/services/creative-services', function () {
+    return view('frontend.creative-services');
+});
+
+Route::get('/services/digital-transformation', function () {
+    return view('frontend.digital-transformation');
+});
+
+Route::get('/services/digital-experience', function () {
+    return view('frontend.digital-experience');
+});
+
+Route::get('/services/devops', function () {
+    return view('frontend.devops');
+});
+
+Route::get('/services/resource-augmentation', function () {
+    return view('frontend.resource-augmentation');
+});
+
+Route::get('/services/support-engineers', function () {
+    return view('frontend.support-engineers');
+});
+
+Route::get('/services/fullstack-developers', function () {
+    return view('frontend.fullstack-developers');
+});
+
+Route::get('/services/backend-developers', function () {
+    return view('frontend.backend-developers');
+});
+
+Route::get('/services/frontend-developers', function () {
+    return view('frontend.frontend-developers');
+});
+
+Route::get('/services/devsecops', function () {
+    return view('frontend.devsecops');
+});
+
+Route::get('/services/containers-and-microservices', function () {
+    return view('frontend.containers-and-microservices');
+});
+
+Route::get('/services/process-automation', function () {
+    return view('frontend.process-automation');
+});
+
+Route::get('/services/ci-cd-pipelines', function () {
+    return view('frontend.ci-cd-pipelines');
+});
+
+Route::get('/services/infrastructure-management', function () {
+    return view('frontend.infrastructure-management');
+});
+
+Route::get('/careers', function () {
+    return view('frontend.careers');
+});
 
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

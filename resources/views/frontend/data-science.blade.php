@@ -5,7 +5,7 @@
 
 @section('content')
 
-<div class="inner-banner">
+<div class="inner-banner" style="background-image: url(../theme/assets/images/data-sci.webp);">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
             <h1>Unlock the Power of Data to Drive Business Success</h1>
@@ -189,23 +189,23 @@
 
 
 
-<div class="about-area about-bg2 pt-100 pb-70">
+<div class="about-area about-bg2 pt-4 pb-1">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/data-sci-cta.png" alt="About Images">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
-                        <span class="sp-color2">Partner Up With Us</span>
+                        <span class="sp-color1">Partner Up With Us</span>
                         <h2>Ready to Transform Your Data into Actionable Insights?</h2>
                         <p>Unlock the potential of your data and drive smarter business decisions with our expert Data Science services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-5 py-3">Get in Touch Today</a>
+                    <a href="/contact-us" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>

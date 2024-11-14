@@ -12,7 +12,7 @@
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1>Digital <b>transformation</b></h1>
-                    <p>Experience the power of Digital Transformation with our innovative services, tailored to enhance business operations, elevate customer satisfaction, and drive innovation.</p>
+                    <p><em>The future of business is digital.</em> Digital transformation enables organizations to modernize their systems, adopt new technologies, and streamline their operations to meet evolving customer expectations. From automating tasks to leveraging data for better insights, digital transformation empowers businesses to stay agile, increase efficiency, and drive growth. Discover how digital transformation can help your business thrive in an increasingly competitive, tech-driven marketplace.</p>
                     <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -35,52 +35,52 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.data-science') }}">
+                    <a href="{{ url('/services/data-science') }}">
                         <div class="number-title">01.</div>
                         <h3>Data Science</h3>
                         <p>Digital science utilizes digital tools and data analytics to enhance research and innovation, accelerating discovery and fostering collaboration.</p>
                         <i class="fal fa-file-chart-line my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.data-science') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/data-science') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.ar-vr') }}">
+                    <a href="{{ url('/services/ar-vr') }}">
                         <div class="number-title">02.</div>
                         <h3>AR/VR</h3>
                         <p>Data practice involves using data-driven strategies to inform decisions, optimize processes, and drive business growth.</p>
                         <i class="fal fa-head-vr my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.ar-vr') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/ar-vr') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.infrastructure-management') }}">
+                    <a href="{{ url('/services/infrastructure-management') }}">
                         <div class="number-title">03.</div>
                         <h3>Infrastructure Management</h3>
                         <p>Infrastructure Management ensures efficient operation, monitoring, and maintenance of IT systems to support business goals.</p>
                         <i class="fal fa-network-wired my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.infrastructure-management') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/infrastructure-management') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.application-modernisation') }}">
+                    <a href="{{ url('/services/application-modernisation') }}">
                         <div class="number-title">04.</div>
                         <h3>Application Modernization</h3>
                         <p>Application Modernization updates legacy software for improved performance, scalability, & compatibility with modern technologies.</p>
                         <i class="fal fa-browser my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.application-modernisation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/application-modernisation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -90,7 +90,7 @@
 </section>
 
 
-<div class="about-area about-bg2 pt-100 pb-70">
+<div class="about-area about-bg2 pt-5 pb-2">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -101,39 +101,12 @@
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
-                        <span class="sp-color2">Partner Up With Us</span>
+                        <span class="sp-color1">Partner Up With Us</span>
                         <h2>Are You Prepared to Embrace the Future of Technology?</h2>
                         <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     </div>
                     <h3>With more than 24 years of experience, we provide leading Digital transformation solutions.</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="95%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="99%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
                 </div>
             </div>
         </div>
@@ -174,50 +147,51 @@
 </div>
 
 
-    <div class="choose-area pt-100 pb-70">
+    <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
-						<div class="section-title">
+						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2>Why Trust Our Digital Transformation Services?</h2>
+                            <p>At JFS Technologies, we take a collaborative approach to deliver the best results for your business. Here’s why you can choose our digital transformation services:</p>
 						</div>
 						<div class="row">
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-file-chart-line"></i>
-										<h3>Data-Driven Approach</h3>
-									</div>
-									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Strategies</h3>
 									</div>
-									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
+									<p>We work closely with you to create solutions designed around your unique business needs.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-puzzle-piece"></i>
-										<h3>Comprehensive Solutions</h3>
+										<i class="fal fa-users-crown"></i>
+										<h3>Technology Prowess</h3>
 									</div>
-									<p>From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-analytics"></i>
+										<h3>Proven Track Record</h3>
+									</div>
+									<p>We’ve helped numerous businesses transform their digital strategies & achieving measurable growth.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-headset"></i>
+										<h3>Ongoing Support</h3>
+									</div>
+									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
 								</div>
 							</div>
 						</div>
