@@ -5,28 +5,21 @@
 
 @section('content')
 
-<div class="inner-banner" style="background-image: url(../theme/assets/images/ar-vr.webp);">
+<div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Immersive Experience to Transform Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your AR/VR Journey Today <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your AR/VR Journey Today <i class="bx bx-chevron-right"></i></a>
 			</div>
-            <!-- <ul>
-                <li>
-                    <a href="{{ asset(' ') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Data Science Services</li>
-            </ul> -->
         </div>
     </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
-    </div>
+    
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/arvr.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 <section class="services-style-area pt-100 pb-70">
@@ -181,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Case Studies</a>
                 </div>
             </div>
         </div>
@@ -204,7 +197,7 @@
                         <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
-                    <a href="/success-stories" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>

@@ -23,25 +23,25 @@
 							<h3>Services</h3>
 							<ul class="footer-list">
 								<li>
-									<a href="/services/digital-transformation" target="_blank">
+									<a href="{{ url('/services/digital-transformation') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Digital Transformation
 									</a>
 								</li>
 								<li>
-									<a href="/services/digital-experience" target="_blank">
+									<a href="{{ url('/services/digital-experience') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Digital Experience
 									</a>
 								</li>
 								<li>
-									<a href="/services/devops" target="_blank">
+									<a href="{{ url('/services/devops') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										DevOps
 									</a>
 								</li>
 								<li>
-									<a href="/services/resource-augmentation" target="_blank">
+									<a href="{{ url('/services/resource-augmentation') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Resource Augmentation
 									</a>
@@ -66,19 +66,19 @@
 									</a>
 								</li>
 								<li>
-									<a href="/about-us" target="_blank">
+									<a href="{{ url('/about-us') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										About Us
 									</a>
 								</li>
 								<li>
-									<a href="/success-stories" target="_blank">
+									<a href="{{ url('/success-stories') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Success Stories
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
+									<a href="{{ url('/careers') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Careers
 									</a>
@@ -90,7 +90,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="/contact-us" target="_blank">
+									<a href="{{ url('/contact-us') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
 										Contact Us
 									</a>
@@ -102,16 +102,16 @@
 						<div class="footer-widget">
 							<h3>Reach Us</h3>
 							<ul class="footer-list">
-								<li><p>Office No.416, 4th floor, Platinum Square, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014.</p></li>
+								<li><p>416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</p></li>
 								<li>
 									<a href="mailto:info@jfstechnologies.com" target="_blank">
-										<i class="bx bx-chevron-right"></i>
+										<i class="fal fa-paper-plane"></i>
 										info@jfstechnologies.com
 									</a>
 								</li>
 								<li>
 									<a href="tel:918329729190" target="_blank">
-										<i class="bx bx-chevron-right"></i>
+										<i class="fal fa-phone-alt"></i>
 										+91 83297 29190
 									</a>
 								</li>

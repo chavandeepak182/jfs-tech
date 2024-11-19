@@ -13,7 +13,7 @@
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1>DevOps <b>Services</b></h1>
                     <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -35,52 +35,52 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.ci-cd-pipelines') }}">
+                    <a href="{{ url('services/ci-cd-pipelines') }}">
                         <div class="number-title">01.</div>
                         <h3>CI/CD Pipelines</h3>
                         <p>This service streamlines the process of building, testing, & deploying code changes with efficiency, consistency, & enhanced reliability, ensuring rapid delivery without compromising quality.</p>
                         <i class="fad fa-infinity my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.ci-cd-pipelines') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/ci-cd-pipelines') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.process-automation') }}">
+                    <a href="{{ url('services/process-automation') }}">
                         <div class="number-title">02.</div>
                         <h3>Process Automation</h3>
                         <p>Our team of experts specializes in CI/CD pipeline services that simplify the process of creating, testing, and rolling out code updates with speed and precision.</p>
                         <i class="fad fa-random my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.process-automation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/process-automation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.containers-and-microservices') }}">
+                    <a href="{{ url('services/containers-and-microservices') }}">
                         <div class="number-title">03.</div>
                         <h3>Containers & Microservices</h3>
                         <p>We specialize in using containers and microservices to optimize your software development and deployment for greater scalability and speed.</p>
                         <i class="fad fa-cloud-upload my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.containers-and-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/containers-and-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="{{ route('services.devsecops') }}">
+                    <a href="{{ url('services/devsecops') }}">
                         <div class="number-title">04.</div>
                         <h3>DevSecOps</h3>
                         <p>With our DevSecOps services, you can have peace of mind knowing that your applications are protected against cyber threats. Our goal is to help you build and deploy secure software effectively.</p>
                         <i class="fad fa-cloud-meatball my-2"></i>
                         <div class="text-center mt-4">
-                            <a href="{{ route('services.devsecops') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/devsecops') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>

@@ -11,7 +11,7 @@
             <h1>Unlock Your Brand’s Potential with Powerful Digital Marketing</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
             <!-- <ul>
                 <li>
@@ -34,32 +34,40 @@
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
-            <h2>Your Partner in Data-Driven Digital Marketing Success</h2>
-            <p class="margin-auto">At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement. Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
+            <h2>Digital Marketing Solutions to Boost Online Presence</h2>
+            <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Our digital marketing services are designed to help your business grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO to paid advertising and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">1. Search Engine Optimization (SEO)</a></h3>
-                    <p>Our SEO strategies focus on optimizing your website to rank higher in search engine results. We conduct thorough keyword research, on-page optimization, technical SEO audits, and build high-quality backlinks to enhance your site's visibility.</p>
-                    <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <p>SEO is the foundation of any successful digital marketing strategy. Our SEO services are designed to help your website rank higher on search engines, increase organic traffic, and improve visibility. We focus on both on-page and off-page optimization to ensure that your site performs well on search engines like Google.</p>
+                    <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">2. Social Media Management</a></h3>
-                    <p>We expertly manage your social media presence across platforms like Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest. Our comprehensive services include content creation, community engagement, and in-depth analytics to measure performance.</p>
+                    <p>Social media platforms are crucial for connecting with your audience and creating brand awareness. Our social media marketing services help you engage your audience on platforms like Facebook, Instagram, LinkedIn, and more. We develop strategies that build a loyal community around your brand, drive traffic, and encourage customer interaction.</p>
                     <a href="{{ url('/services/smo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">3. Paid Advertising (PPC)</a></h3>
-                    <p>Our targeted PPC campaigns aim to deliver high-quality leads by creating compelling ads that not only drive traffic to your website but also maximize your ROI. We continuously optimize ad performance to ensure you're getting the best value from your investment.</p>
+                    <p>Paid advertising allows businesses to get quick visibility and reach a wider audience. Our PPC services help you run targeted campaigns across platforms like Google Ads, Bing, and social media. We ensure that your ads reach the right people at the right time, driving relevant traffic and delivering measurable ROI.</p>
                     <a href="{{ url('/services/ppc-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/e-mark.gif" class="brand-logo-one icons-img" alt="network">
+                    <h3><a href="{{ url('/services/email-marketing') }}">4. Email Marketing</a></h3>
+                    <p>Email marketing is a powerful tool for nurturing leads and keeping your audience engaged. Our email marketing services help you create personalized campaigns that deliver the right message to the right people at the right time. From newsletters to automated email sequences, we provide a comprehensive approach to email marketing.</p>
+                    <a href="{{ url('/services/email-marketing') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -74,8 +82,8 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Partner with Us for Application Modernization?</h2>
-                            <p>Partnering with us for your Application Modernization needs means gaining access to:</p>
+							<h2>Why Choose Our Digital Marketing Services?</h2>
+                            <p>With years of experience, our digital marketing experts are here to help you navigate the complex world of online marketing. We combine creativity with data-driven strategies to deliver measurable results, allowing your business to stand out in a crowded digital marketplace.</p>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -175,7 +183,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
                 </div>
             </div>
         </div>
@@ -198,7 +206,7 @@
                         <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
-                    <a href="/success-stories" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>

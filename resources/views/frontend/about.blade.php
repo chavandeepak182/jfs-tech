@@ -55,51 +55,50 @@
 
 
 <!-- Trust Us Area -->	
-	<div class="choose-area pt-100 pb-70">
+	<div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
-						<div class="section-title">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Trust Us?</h2>
-							<p>Partner with us for a digital journey built on trust, innovation, and a commitment to your success. Trust is the foundation of our relationship with clients. Here’s why businesses around the world choose JFS Technologies:</p>
+						<div class="section-title mb-3">
+							<span class="sp-color1"></span>
+							<h2>Why Choose JFS Technologies?</h2>
 						</div>
-						<div class="row pt-4">
+						<div class="row">
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>Our services are designed to meet the specific needs of each client, ensuring a customized approach that aligns with your goals.</p>
+									<p>Each service is tailored to meet your unique business challenges, objectives, and growth goals.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Commitment to Security</h3>
+										<h3>Technology Prowess</h3>
 									</div>
-									<p>We prioritize data security and compliance, giving you peace of mind as you transition to digital.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Proven Expertise</h3>
+										<h3>Proven Track Record</h3>
 									</div>
-									<p>With years of experience across sectors, we bring a wealth of knowledge in digital transformation.</p>
+									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-globe-asia"></i>
-										<h3>Innovation-Driven</h3>
+										<h3>Global Client Base</h3>
 									</div>
-									<p>Staying at the forefront of technology, we constantly explore new tools and techniques to provide the best solutions.</p>
+									<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 								</div>
 							</div>
 						</div>
@@ -186,39 +185,40 @@
 </div>
 
 
-    <div class="counter-area pt-100 pb-70">
+	<!-- Key highlights Area -->
+	<div class="counter-area pt-100 pb-70">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Key highlights</span>
-				<h2>Let’s Check Our Business Growth and Success Story</h2>
+				<h2>Milestones Matter: Our Growth in Focus</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-web-development"></i>
-						<h3>10+</h3>
-						<span>Years Industry Experience</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="experience">
+						<h3>24+</h3>
+						<span>Years of Expertise</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-web-development"></i>
-						<h3>250+</h3>
-						<span>Industry Experts</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
+						<h3>150+</h3>
+						<span>Technology Experts</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<i class="flaticon-startup"></i>
-						<h3>5+</h3>
-						<span>Locations</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6 col-md-3">
-					<div class="counter-another-content">
-						<i class="flaticon-consulting-1"></i>
-						<h3>1000+</h3>
+						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="Customer Base">
+						<h3>100+</h3>
 						<span>Clients Worldwide</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6 col-md-3">
+					<div class="counter-another-content">
+						<img src="{{ asset('theme') }}/assets/images/icons/locations.svg" class="brand-logo-one" alt="locations">
+						<h3>4+</h3>
+						<span>Locations</span>
 					</div>
 				</div>
 			</div>

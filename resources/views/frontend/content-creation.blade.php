@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "Creative Services - JFS Technologies")
+@section('title', "Content Creation Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
@@ -8,65 +8,62 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
-            <h1>Creative Services to Transform Your Digital Experience</h1>
+            <h1>Content Crafted to Connect, Enlighten & Empower</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
-    </div>
-
+    
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
         <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
 
-<section class="services-style-area pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2"></span>
-            <h2>Unleashing Creativity Across Every Digital Touchpoint</h2>
-            <p class="margin-auto">In a world driven by visuals and digital interactions, a compelling design can set your brand apart. Our Creative Services offer everything you need to deliver memorable and user-friendly experiences that make a lasting impression. We focus on user-centered designs, visual storytelling, and impactful content creation, ensuring that your brand connects with its audience across all digital platforms. Whether it’s crafting a seamless interface, designing powerful brand visuals, or creating engaging multimedia content, we’re here to make every interaction count.</p>
-        </div>
-        <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>1. User Experience (UX) and User Interface (UI) Design</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>2. Graphic Design</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>3. Content Creation</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>4. 3D Services</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="work-process-area home_cards pt-100 pb-70">
+	<div class="container">
+		<div class="section-title text-center">
+			<span class="sp-color2">Our Content Creation Services</span>
+			<h2>Content that Engages, Educates & Inspires</h2>
+			<p>Content is the voice of your brand, and we’re here to help you make it impactful. Our content creation services span from persuasive copywriting to compelling video production, ensuring every piece connects with your audience and amplifies your message. We approach content creation with research, creativity, and precision. By understanding your audience and objectives, we create content that aligns with your brand voice and drives engagement. Our process includes strategy, ideation, and execution, ensuring every piece serves a purpose.</p>
+		</div>
+		<div class="row pt-45">
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Copywriting</h3>
+					<p>Engaging copy for websites, ads, blogs, and more, crafted to inform, persuade, and drive action.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Social Media</h3>
+					<p>Creative, on-brand posts for social platforms that foster interaction and build community.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Video Production</h3>
+					<p>From concept to final cut, we produce videos that communicate your brand’s story, whether it’s a product explainer or similar like.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Content Strategy</h3>
+					<p>A data-driven approach to planning & distributing content that aligns with your audience’s needs & your business goals.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 
@@ -77,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our Creative Services Stand Out?</h2>
+							<h2>Why Our UI/UX Design Service Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -127,8 +124,8 @@
     <div class="case-study-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Portfolio </span>
-                <h2>Our Creative Work in Action</h2>
+                <span class="sp-color2"></span>
+                <h2>Client Success Stories</h2>
             </div>
             <div class="row pt-45">
                 <div class="col-lg-4 col-md-6">
@@ -137,8 +134,8 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
-                            <p>Enhanced navigation & visuals led to a 30% boost in user engagement.</p>
+                            <h3><a href="#">Corporate Rebranding</a></h3>
+                            <p>Created a unified visual identity for a healthcare client, boosting brand recognition.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -149,8 +146,8 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">Brand Identity for a Healthcare Company</a></h3>
-                            <p>Created a cohesive visual identity to strengthen brand recognition.</p>
+                            <h3><a href="#">Illustration for Campaigns</a></h3>
+                            <p>Illustrated an NGO campaign to boost engagement.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -180,18 +177,17 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/infra-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Elevate Your Digital Experience?</h2>
+                        <h2>Ready to deliver a user experience that drives results?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
-                    <h3>Over Two Decades of Expertise in Creative Branding & User Experience Solutions.</h3>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Let’s Talk UX/UI Design</a>
                 </div>
             </div>
         </div>

@@ -35,6 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Website and App Design</h3>
 					<p>We create clean, user-friendly interfaces that adapt seamlessly across devices, prioritizing form & function. Our designs enhance user journeys, boost engagement, & reflect your brand’s identity—whether for web, mobile, or desktop applications.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6">
@@ -42,6 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>UX Research & Strategy</h3>
 					<p>Through user interviews, surveys, and heat mapping, we gather insights into behaviors and preferences that drive our design decisions. These insights help us create intuitive, visually engaging UI/UX designs aligned with your business goals.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6">
@@ -49,6 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Wireframing & Prototyping</h3>
 					<p>Starting with initial layouts and prototypes, we test, refine, and align designs with your vision. This iterative approach ensures a user-centered, polished final product that meets both business goals and user expectations.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
 		</div>

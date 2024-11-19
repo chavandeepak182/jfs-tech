@@ -5,28 +5,21 @@
 
 @section('content')
 
-<div class="inner-banner" style="background-image: url(../theme/assets/images/modern-app.webp);">
+<div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
             <h1>Transform & Modernize Your Applications for the Digital Age</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
 			</div>
-            <!-- <ul>
-                <li>
-                    <a href="{{ asset(' ') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Data Science Services</li>
-            </ul> -->
         </div>
     </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
-    </div>
+
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/modern-app.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 <section class="services-style-area pt-100 pb-70">
@@ -182,7 +175,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
                 </div>
             </div>
         </div>
@@ -205,7 +198,7 @@
                         <p>Don’t let outdated applications hold your business back. Our Application Modernization services can bring new life to your software, helping you improve efficiency, enhance security, and deliver better experiences to your users.</p>
                     </div>
                     <h3>With 24+ years of expertise, we deliver cutting-edge Application Modernization solutions.</h3>
-                    <a href="/success-stories" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>
