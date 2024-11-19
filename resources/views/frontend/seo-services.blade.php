@@ -5,236 +5,142 @@
 
 @section('content')
 
-<div class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Best <b>SEO Service</b> Provider</h1>
-                    <p>We offer best SEO service provider and affordable SEO packages for small to large size businesses.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
-                </div>
-            </div>
+<div class="inner-banner" style="background-image: url(../theme/assets/images/infra.webp);">
+    <div class="container">
+        <div class="inner-title text-center w-75 mx-auto">
+            <h1>Boost Your Website Traffic with Proven SEO Strategies</h1>
+            <p class="text-white"></p>
+            <div class="banner-btn">
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+			</div>
         </div>
     </div>
 </div>
 
-
-<section class="work-process-area pt-100 pb-70">
-    <div class="container">
+<section class="services-style-area home_cards pt-100 pb-70">
+	<div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Our Working Process</span>
-            <h2>How Our Services Will Help You to Grow Your Business</h2>
+            <span class="sp-color2"></span>
+            <h2>Result-Driven SEO Agency to Increase Your Visibility</h2>
+            <p class="margin-auto">Search Engine Optimization (SEO) is the process of improving your website’s visibility on search engines like Google, Bing, and Yahoo. SEO ensures that yourwebsite appears in front of potential customers when they search for relevant keywords related to your business. A well-optimized website not only ranks higher but also attracts quality traffic, improves user experience, and boosts conversions. At JFS Technologies, we follow a comprehensive approach to SEO that includes both on-page and off-page optimization strategies, ensuring your website ranks well and remains competitive. Our SEO services are customized for your business’s specific needs, industry, and target audience</p>
         </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">01.</div>
-                    <h3>Website Audit</h3>
-                    <p>Before launching an SEO strategy, JFS Technologies performs a comprehensive website audit to analyze structure, content, and performance, enabling us to create a tailored SEO plan.</p>
-                    <i class="flaticon-project"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">02.</div>
-                    <h3>Keyword Research</h3>
-                    <p>Keyword research is essential for a successful SEO campaign. Our experts identify relevant, high-traffic keywords to help your website rank higher in SERPs and attract qualified traffic.</p>
-                    <i class="flaticon-effective"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">03.</div>
-                    <h3>On-Page Optimization</h3>
-                    <p>On-page optimization is key to boosting your website's visibility and ranking. Our SEO service improves content, meta tags, and internal links to enhance search engine-friendliness and relevance for better rankings.</p>
-                    <i class="flaticon-chip"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">04.</div>
-                    <h3>Technical Optimization</h3>
-                    <p>Technical optimization improves site speed, mobile-friendliness, and crawlability. Our team ensures your website meets search engine standards, enhancing performance and user experience.</p>
-                    <i class="flaticon-chip"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">05.</div>
-                    <h3>Local Optimization</h3>
-                    <p>Local optimization helps businesses reach nearby customers by optimizing Google My Business listings, local citations, and content to appear in local search results.</p>
-                    <i class="flaticon-chip"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">06.</div>
-                    <h3>Off-Page Optimization</h3>
-                    <p>Off-page optimization boosts your website's authority through external links and reputable backlinks, improving its ranking and visibility.</p>
-                    <i class="flaticon-chip"></i>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">07.</div>
-                    <h3>Reports & Tracking</h3>
-                    <p>We provide reports to evaluate your SEO campaign's performance, highlighting metrics like traffic, keyword rankings, and conversion rates to guide future decisions.</p>
-                    <i class="fal fa-file-alt my-2"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+		<div class="row pt-45">
+			<div class="col-lg-4 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>On-Page SEO</h3>
+					<p>Optimizing individual web pages for specific keywords to increase the relevance and rankings in search engine results.
+                        <ul>
+                            <li><strong>Keyword Research:</strong> Identifying high-performing, relevant keywords that your audience is searching for.</li>
+                            <li><strong>Content Optimization:</strong> Crafting high-quality, engaging content that aligns with search intent.</li>
+                            <li><strong>Meta Tags & Headings:</strong> Optimizing title tags, meta descriptions, and headers to improve click-through rates.</li>
+                            <li><strong>Internal Linking:</strong> Structuring your website with a clear navigation system to help users and search engines find your content.</li>
+                        </ul>
+                    </p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+				</div>
+			</div>
+            <div class="col-lg-4 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Off-Page SEO</h3>
+					<p>Building the authority of your website by earning backlinks from reputable websites.
+                        <ul>
+                            <li><strong>Backlink Strategy:</strong> Acquiring high-quality backlinks through guest posts, outreach, and partnerships.</li>
+                            <li><strong>Social Signals:</strong> Using social media platforms to drive traffic and enhance your website's credibility.</li>
+                            <li><strong>Local SEO:</strong> Optimizing your website for local search queries to help your business rank in local search results.</li>
+                        </ul>
+                    </p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+				</div>
+			</div>
+            <div class="col-lg-4 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Technical SEO</h3>
+					<p>Improving the technical aspects of your website to ensure it's easily crawled, indexed, and accessible.
+                        <ul>
+                            <li><strong>Site Speed Optimization:</strong> Improving website load times for a better user experience and better rankings.</li>
+                            <li><strong>Mobile Optimization:</strong> Ensuring your site is fully responsive and mobile-friendly.</li>
+                            <li><strong>Crawlability & Indexability:</strong> Fixing technical issues that prevent search engines from crawling and indexing your site properly.</li>
+                        </ul>
+                    </p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
-
-<div class="about-area about-bg2 pt-100 pb-70">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="about-content-3 ml-20">
-                    <div class="section-title">
-                        <span class="sp-color2">Partner Up With Us</span>
-                        <h2>For Success In The Digital World!</h2>
-                        <p>At JFS Technologies, we are best SEO service provider specialize in assisting organizations of all sizes in enhancing their online visibility through strategic SEO practices. Our experienced SEO professionals apply the latest techniques and best practices to boost your website’s ranking. Utilizing a data-driven approach, we deliver results-focused SEO services that propel your business to new heights.</p>
-                    </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-    <div class="about-area ptb-100">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-                <div class="col-lg-6">
-					<div class="about-content ml-25">
-						<div class="section-title">
-							<h2>Latest SEO Techniques & Best SEO Practices</h2>
-							<p>Our experts at JFS Technologies are dedicated to implementing cutting-edge SEO technologies and industry best SEO service provider to advance the ranking process for your business website. By staying up-to-date of the latest trends and algorithms, we ensure that your website achieves higher rankings. Our commitment to excellence drives us to continuously refine our strategies, delivering optimal results for your business.</p>
-						</div>
+<div class="choose-area pt-100 pb-70 home">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-3">
+						<span class="sp-color1">We Are Best!!</span>
+						<h2>Why Choose Our SEO Services?</h2>
 					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about-play">
-						<img src="https://jfstechnologies.com/wp-content/uploads/2024/04/SEO-1.png" alt="About Images">
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-pencil-ruler"></i>
+									<h3>Custom Solutions</h3>
+								</div>
+								<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-users-crown"></i>
+									<h3>Experienced Team</h3>
+								</div>
+								<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-analytics"></i>
+									<h3>Holistic Approach</h3>
+								</div>
+								<p>We consider every aspect of the user journey to create cohesive, engaging digital experiences.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+                                    <i class="fal fa-headset"></i>
+									<h3>Commitment to Quality</h3>
+								</div>
+								<p>From concept to execution, we prioritize high standards to ensure outstanding results.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 
-<section class="clients-area-three pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center mx-auto" style="max-width:650px">
-            <span class="sp-color2">Why choose Us</span>
-            <h2>For Best SEO Service Provider</h2>
-        </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-user-graduate pb-2"></i>
-                    <h3><a>Experienced SEO Professionals</a></h3>
-                    <p>At JFS Technologies, our experienced SEO team delivers exceptional results, staying up-to-date with industry trends and search engine algorithms to keep your website competitive.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-analytics pb-2"></i>
-                    <h3><a>Latest Trends & Techniques</a></h3>
-                    <p>We are committed to staying ahead of the curve by implementing the latest SEO trends and techniques. Our team conducts thorough research to identify the most effective strategies that will elevate your website's ranking and drive organic traffic.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-bar pb-2"></i>
-                    <h3><a>Advanced Analytics Tools</a></h3>
-                    <p>Leveraging advanced analytics tools, we gather valuable insights into your website's performance and user behavior. This data-driven approach allows us to make informed decisions and tailor our strategies to maximize results.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-hat-cowboy pb-2"></i>
-                    <h3><a>Pure White Hat Techniques</a></h3>
-                    <p>Integrity is at the core of our SEO practices. We strictly adhere to white hat techniques, ensuring that your website's reputation is upheld while achieving sustainable, long-term results.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-sync-alt pb-2"></i>
-                    <h3><a>360-Degree SEO</a></h3>
-                    <p>Our approach covers all SEO aspects—on-page, off-page, technical, and content marketing - ensuring maximum visibility and keeping your website ahead of the competition.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>Best SEO Packages</a></h3>
-                    <p>We offer affordable SEO packages tailored to your business needs and budget, providing cost-effective solutions for the best return on investment without compromising quality.</p>
-                </div>
-            </div>
-        </div>        
-    </div>
-</section>
-
-
-    <div class="choose-area pt-100 pb-70">
+    <div class="about-area pt-100 pb-70">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
-                        <span class="sp-color1">Why choose Us</span>
-                        <h2 class="text-white">For Best SEO Service Provider</h2>
+                        <span class="sp-color2">Pricing Made Easy</span>
+                        <h2>Get Started with the Right Package</h2>
                     </div>
 					<div class="choose-content mt-4">
                         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -668,6 +574,29 @@
 			</div>
 		</div>
 	</div>
+
+
+<div class="about-area about-bg2 pt-5">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img-4">
+                    <img src="../theme/assets/images/modern-cta.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content-3 ml-20">
+                    <div class="section-title">
+                        <span class="sp-color1">Partner Up With Us</span>
+                        <h2>Ready to improves your rankings and drives results?</h2>
+                        <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
+                    </div>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="brand-area ptb-100">

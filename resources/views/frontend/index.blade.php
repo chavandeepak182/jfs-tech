@@ -13,11 +13,11 @@
 			</video> -->
 			<div class="container-max">
 				<div class="banner-item-content banner-item-ptb">
-					<h1>Empowering Your Business with Digital Transformation</h1>
-					<p>Unlock the future with cutting-edge digital solutions in cloud, data, and tailored experiences to drive growth and innovation.</p>
+					<h1>Transforming Businesses Through Digital Excellence</h1>
+					<p>Empowering enterprises with innovative technology solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
-						<a href="#" class="default-btn btn-bg-two border-radius-50">Get Started Today <i class="fal fa-arrow-right"></i></a>
-						<!-- <a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Explore More <i class="bx bx-chevron-right"></i></a> -->
+						<a href="#" class="default-btn btn-bg-two border-radius-50">Explore Our Services <i class="fal fa-arrow-right"></i></a>
+						<a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Get a Consultation <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -59,32 +59,72 @@
 		<div class="container-fluid">
 			<div class="section-title text-center">
 				<span class="sp-color1">What We Do?</span>
-				<h2>Our Comprehensive Services</h2>
+				<h2>Our Core Services</h2>
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card">
 				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/transform.webp" alt="Images">
-						<h3><a class="text-center" href="services/digital-transformation">Digital Transformation <i class="fal fa-arrow-right"></i></a></h3>
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<img src="{{ asset('theme') }}/assets/images/transform.webp" alt="">
+								<h3>Digital Transformation</h3>
+							</div>
+						</div>
+						<div class="face face2">
+							<div class="content">
+								<p class="mt-4">Empowering businesses with next-gen technologies to optimize processes, enhance efficiency & foster innovation.</p>
+								<a href="{{ url('/services/digital-transformation') }}">Know More</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="Images">
-						<h3><a class="text-center" href="services/digital-experience">Digital Experience <i class="fal fa-arrow-right"></i></a></h3>
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="">
+								<h3>Digital Experience</h3>
+							</div>
+						</div>
+						<div class="face face2">
+							<div class="content">
+								<p class="mt-4">Creating impactful digital touchpoints to connect your brand with its audience effectively.</p>
+								<a href="{{ url('/services/digital-experience') }}">Know More</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="Images">
-						<h3><a class="text-center" href="services/devops">DevOps <i class="fal fa-arrow-right"></i></a></h3>
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="">
+								<h3>DevOps</h3>
+							</div>
+						</div>
+						<div class="face face2">
+							<div class="content">
+								<p class="mt-4">Accelerating your development lifecycle with streamlined processes and robust practices.</p>
+								<a href="{{ url('/services/devops') }}">Know More</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="Images">
-						<h3 class="text-center"><a class="text-center" href="services/resource-augmentation">Resource Augmentation <i class="fal fa-arrow-right"></i></a></h3>
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="">
+								<h3>Resource Augmentation</h3>
+							</div>
+						</div>
+						<div class="face face2">
+							<div class="content">
+								<p class="mt-4">Providing skilled professionals to seamlessly integrate with your team and scale your operations.</p>
+								<a href="{{ url('/services/resource-augmentation') }}">Know More</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- <div class="col-lg-3 col-sm-6">
@@ -388,35 +428,35 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Key highlights</span>
-				<h2>Milestones Matter: Our Growth in Focus</h2>
+				<h2>Our Impact in Numbers</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="experience">
-						<h3>24+</h3>
-						<span>Years of Expertise</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="experience">
+						<h3>150+</h3>
+						<span>Projects Delivered</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
-						<h3>150+</h3>
-						<span>Technology Experts</span>
+						<h3>25+</h3>
+						<span>Industries Served</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="Customer Base">
-						<h3>100+</h3>
-						<span>Clients Worldwide</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Customer Base">
+						<h3>10+</h3>
+						<span>Years of Excellence</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/locations.svg" class="brand-logo-one" alt="locations">
-						<h3>4+</h3>
-						<span>Locations</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="locations">
+						<h3>100%</h3>
+						<span>Client Satisfaction</span>
 					</div>
 				</div>
 			</div>
@@ -471,8 +511,8 @@
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
 				<span class="sp-color2">Case Study</span>
-				<h2>Proven Success Stories</h2>
-				<p class="w-50 mx-auto">Explore real-world examples of how JFS Technologies delivered tailored solutions that solved complex business challenges:</p>
+				<h2>Driving Success for Our Clients</h2>
+				<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
 				<div class="case-study-item">
@@ -481,7 +521,7 @@
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 1</a></h3>
-						<p>E-commerce platform optimization resulting in a 30% increase in conversions.</p>
+						<p>Learn How We Increased Organic Traffic by 200%.</p>
 						<!-- <ul>
 							<li><a href="#">Business</a></li>
 							<li><a href="#">Planing</a> </li>
@@ -495,7 +535,7 @@
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 2</a></h3>
-						<p>Cloud migration project reducing operational costs by 40%.</p>
+						<p>Discover How We Streamlined a Retailer’s Online Sales</p>
 						<!-- <ul>
 							<li><a href="#">Business</a></li>
 							<li><a href="#">Planing</a> </li>
@@ -509,50 +549,11 @@
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 3</a></h3>
-						<p>Data-driven marketing campaign driving a 25% increase in customer engagement for an SME.</p>
+						<p>Read About Our Work in Healthcare Technology</p>
 						<!-- <ul>
 							<li><a href="#">Business</a></li>
 							<li><a href="#">Planing</a> </li>
 						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
-				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study4.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">UI/UX Research</a></h3>
-						<ul>
-							<li><a href="#">UI/UX Design</a></li>
-							<li><a href="#">Research</a> </li>
-						</ul>
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
-				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study6.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Business Solution</a></h3>
-						<ul>
-							<li><a href="#">Solution</a></li>
-							<li><a href="#">Business</a> </li>
-						</ul>
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
-				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Web Development</a></h3>
-						<ul>
-							<li><a href="#">Design</a></li>
-							<li><a href="#">Development</a> </li>
-						</ul>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>

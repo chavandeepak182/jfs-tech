@@ -13,7 +13,7 @@ Route::get('/services', function () {
 });
 
 Route::get('/about-us', function () {
-    return view('frontend.about-us');
+    return view('frontend.about');
 });
 
 Route::get('/contact-us', function () {
@@ -64,7 +64,7 @@ Route::get('/services/mobile-app-development', function () {
     return view('frontend.app-development');
 });
 
-Route::get('/services/success-stories', function () {
+Route::get('/success-stories', function () {
     return view('frontend.success-stories');
 });
 
@@ -142,6 +142,10 @@ Route::get('/services/infrastructure-management', function () {
 
 Route::get('/careers', function () {
     return view('frontend.careers');
+});
+
+Route::get('/services/email-marketing', function () {
+    return view('frontend.email-marketing');
 });
 
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

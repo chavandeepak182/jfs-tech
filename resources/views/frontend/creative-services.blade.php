@@ -11,12 +11,9 @@
             <h1>Creative Services to Transform Your Digital Experience</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
-    </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
@@ -36,7 +33,7 @@
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/uiux.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>1. User Experience (UX) and User Interface (UI) Design</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
                     <a href="{{ url('/services/uiux-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -44,7 +41,7 @@
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/graphics.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>2. Graphic Design</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
                     <a href="{{ url('/services/graphics-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -52,7 +49,7 @@
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/content.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>3. Content Creation</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
                     <a href="{{ url('/services/content-creation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -60,7 +57,7 @@
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/3d.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a>4. 3D Services</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
                     <a href="{{ url('/services/3d-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>

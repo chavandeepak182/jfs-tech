@@ -5,28 +5,21 @@
 
 @section('content')
 
-<div class="inner-banner" style="background-image: url(../theme/assets/images/data-sci.webp);">
+<div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title text-center w-75 mx-auto">
             <h1>Unlock the Power of Data to Drive Business Success</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="/contact-us" class="default-btn btn-bg-one border-radius-50 ml-20">Get Started Today <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Get Started Today <i class="bx bx-chevron-right"></i></a>
 			</div>
-            <!-- <ul>
-                <li>
-                    <a href="{{ asset(' ') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Data Science Services</li>
-            </ul> -->
         </div>
     </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
-    </div>
+    
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/data-sci.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 <section class="services-style-area pt-100 pb-70">
@@ -181,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="/success-stories" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Full Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Full Case Studies</a>
                 </div>
             </div>
         </div>
@@ -205,7 +198,7 @@
                         <p>Unlock the potential of your data and drive smarter business decisions with our expert Data Science services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
-                    <a href="/contact-us" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
         </div>

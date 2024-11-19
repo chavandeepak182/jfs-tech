@@ -1,66 +1,68 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services - JFS Technologies")
+@section('title', "DevSecOps Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
 
-<div class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Expand Your <b>Clientele</b> Through Targeted <b>Strategies</b> Driven by Data.</h1>
-                    <p>At JFS Technologies, we offer a comprehensive suite of digital marketing services tailored to enhance your online presence and drive targeted lead generation. Our expertise spans multiple platforms to ensure your brand achieves maximum visibility and engagement.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
-                </div>
-            </div>
+<div class="inner-banner">
+    <div class="container">
+        <div class="inner-title text-center">
+            <h1>DevSecOps Services</h1>
+            <ul>
+                <li>
+                    <a href="{{ asset(' ') }}">Home</a>
+                </li>
+                <li>
+                    <i class="bx bx-chevrons-right"></i>
+                </li>
+                <li>DevSecOps Services</li>
+            </ul>
         </div>
+    </div>
+    <div class="inner-shape">
+        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 
-
-<section class="work-process-area pt-100 pb-70">
+<section class="services-style-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital Marketing Services Include</h2>
+            <span class="sp-color2"></span>
+            <h2>Our Key Services</h2>
+            <p class="margin-auto">AR/VR services offer cutting-edge solutions for creating immersive simulations, 3D environments, and virtual scenarios. Whether you need to develop training simulations, virtual walkthroughs, or interactive experiences, our team of experts can help bring your vision to life. We leverage the latest AR/VR technologies to create realistic and engaging virtual environments that can be used for training, marketing, education, and more.</p>
         </div>
-        <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="{{ route('services.seo-services') }}">
-                        <div class="number-title">01.</div>
-                        <h3>Search Engine Optimization (SEO)</h3>
-                        <p>Our SEO strategies focus on optimizing your website to rank higher in search engine results. We conduct thorough keyword research, on-page optimization, technical SEO audits, and build high-quality backlinks to enhance your site's visibility.</p>
-                        <i class="fal fa-file-search my-2"></i>
-                    </a>
+        <div class="row pt-45 mx-auto justify-content-center">
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-consultant"></i>
+                    <h3><a href="#">1. 3D Environments</a></h3>
+                    <p>Our 3D environment services provide photo realistic simulations and visualizations for a wide range of industries, including architecture, urban planning, and interior design. Our cutting-edge technology allows clients to experience spaces in a whole new way, from virtual walkthroughs to detailed interactive models. Let us bring your projects to life in stunning 3D detail. Our 3D environment services deliver photorealistic simulations and immersive visualizations across industries such as architecture, urban planning, real estate, and interior design.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="{{ route('services.smo-services') }}">
-                        <div class="number-title">02.</div>
-                        <h3>Social Media Management</h3>
-                        <p>We manage your social media presence across platforms like Facebook, Instagram, LinkedIn, YouTube, Twitter, and Pinterest. Our services include content creation, community engagement, and analytics to measure performance.</p>
-                        <i class="fal fa-icons my-2"></i>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-web-development"></i>
+                    <h3><a href="#">2.  Interactive Experience</a></h3>
+                    <p>Our team provides a range of services aimed at enhancing client and target audience engagement. From personalized virtual reality simulations to interactive touchscreens and augmented reality features, we collaborate closely with clients to craft immersive experiences that leave a lasting impact. Our skilled developers, designers, and project managers are committed to bringing visions to life, delivering visually striking and user-friendly interactive experiences. Elevate your next project with our Interactive Experience services.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <a href="{{ route('services.ppc-services') }}">
-                        <div class="number-title">03.</div>
-                        <h3>Paid Advertising (PPC)</h3>
-                        <p>Our targeted PPC campaigns aim to deliver high-quality leads by creating compelling ads that not only drive traffic to your website but also maximize your ROI. We continuously optimize ad performance to ensure you're getting the best value from your investment.</p>
-                        <i class="fal fa-ad my-2"></i>
-                    </a>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-data-analytics"></i>
+                    <h3><a href="#">3.  Simulations:</a></h3>
+                    <p>Our Simulation services provide innovative solutions for a wide range of industries, including aerospace, automotive, & manufacturing. With our cutting-edge technology & expert team of engineers, we can simulate complex systems & processes to optimize performance, reduce costs, & minimize risks. Whether you need virtual testing for new product designs or predictive modeling for system analysis, our Simulation services can help you achieve your goals efficiently & effectively. Let us help you bring your ideas to life through simulation.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg">
+                    <i class="flaticon-computer"></i>
+                    <h3><a href="#">4. Virtual Scenarios</a></h3>
+                    <p>Experience a wide array of services that are designed to enhance client and target audience engagement with our team. We work closely with our clients to create personalized virtual reality simulations, interactive touchscreens, and augmented reality features that provide immersive experiences leaving a lasting impact. Our team of skilled developers, designers, and project managers are dedicated to bringing visions to life, delivering visually stunning and user-friendly interactive experiences. Elevate your next project with our Interactive Experience services.</p>
+                    <a href="#" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
@@ -80,15 +82,14 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Launch Your Inaugural Campaign?</h2>
-                        <p>Our seasoned digital marketing company professionals and extensive expertise enable us. Also to design bespoke websites and implement tailored digital marketing ad agency to meet the needs of businesses of any size, spanning various sectors.</p>
-                        <p>Whether it’s drawing in new leads, strengthening your brand’s online visibility, or enhancing your revenue channels, digital marketing services offers a distinct edge for your business. As a top digital marketing agency, we specialize in achieving these goals and more. Backed by a skilled team and a focus on customer satisfaction, our best digital marketing services are geared towards elevating your brand’s expansion to unprecedented levels.</p>
+                        <h2>Ready to Embrace the Future of Technology?</h2>
+                        <p>From designing custom 3D models to developing interactive scenarios, we have the expertise to deliver high-quality AR/VR experiences that meet your specific needs. Let us help you harness the power of AR/VR technology to enhance your business operations and engage your audience in new and innovative ways.</p>
                     </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
+                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
                     <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
+                        <div class="skill-bar" data-percentage="95%">
                             <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
+                                <span class="progress-title">Accuracy</span>
                                 <span class="progress-number-wrapper">
                                 <span class="progress-number-mark">
                                 <span class="percent"></span>
@@ -99,7 +100,7 @@
                                 <div class="progress-content"></div>
                             </div>
                         </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
+                        <div class="skill-bar mb-0" data-percentage="97%">
                             <h4 class="progress-title-holder clearfix">
                                 <span class="progress-title">Solutions</span>
                                 <span class="progress-number-wrapper">
@@ -120,7 +121,7 @@
 </div>
 
 
-<section class="services-area-four pt-100 pb-70">
+<!-- <section class="services-area-four pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Our Features</span>
@@ -199,27 +200,6 @@
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div id="DMS_card">
-                    <i class="fal fa-search-dollar pb-2"></i>
-                    <h3><a>Paid Search</a></h3>
-                    <p>Boost your search engine visibility with our paid search service. Our innovative PPC strategies paired with premium ads ensure your campaign yields maximum ROI</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-pie pb-2"></i>
-                    <h3><a>Branded Search</a></h3>
-                    <p>Through our branded search service, we enhance your authority on search engine results pages (SERPs) and outperform your competitors’ advertisements.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-comments pb-2"></i>
-                    <h3><a>Messaging and Positioning</a></h3>
-                    <p>Rise above the clutter and craft a distinctive brand identity. Our messaging and positioning service will assist you in leaving a lasting impression on your audience.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
                     <i class="fal fa-people-carry pb-2"></i>
                     <h3><a>Content Marketing</a></h3>
                     <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
@@ -239,23 +219,9 @@
                     <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-compress-arrows-alt pb-2"></i>
-                    <h3><a>Conversion Rate Optimization (CRO)</a></h3>
-                    <p>Effortlessly turn visitors into customers with our conversion rate optimization service. We’ll enhance your landing page, refine site navigation, and meticulously track visitor activity to boost your conversion rates.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-envelope-open-text pb-2"></i>
-                    <h3><a>B2B Marketing</a></h3>
-                    <p>Seeking efficient marketing solutions tailored for businesses and organizations? Our team of B2B marketing experts is here to assist you. We’ll collaborate to devise robust strategies, pinpoint optimal channels, and execute top-performing campaigns.</p>
-                </div>
-            </div>
         </div>        
     </div>
-</section>
+</section> -->
 
 
 <div class="security-area pt-100 pb-70">
@@ -294,23 +260,23 @@
     <div class="choose-area pt-100 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title">
-							<span class="sp-color1"></span>
+							<span class="sp-color1">We Are Best!!</span>
 							<h2>Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-users-crown"></i>
-										<h3>Expert Team Memebers</h3>
+										<i class="fal fa-users-crown"></i>
+										<h3>Expertise Across Technologies</h3>
 									</div>
-									<p>Our team of digital marketing professionals brings years of experience and knowledge to your project.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-file-chart-line"></i>
@@ -319,16 +285,16 @@
 									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+                            <div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-pencil-ruler"></i>
+										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Strategies</h3>
 									</div>
 									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 col-6">
+							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-puzzle-piece"></i>
@@ -340,11 +306,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/about/13.png" alt="Images">
+						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

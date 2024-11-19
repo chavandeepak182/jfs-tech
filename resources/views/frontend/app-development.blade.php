@@ -5,322 +5,125 @@
 
 @section('content')
 
-<div class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Transform Your <b>Ideas</b> into Cutting-Edge <b>Mobile Applications</b></h1>
-                    <p>At JFS Technologies, we specialize in delivering high-performance mobile app development services tailored to businesses of all sizes. With experience across various industries, we create mobile solutions that ensure your app excels in today’s competitive market.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<section class="work-process-area pt-100 pb-70">
+<div class="inner-banner" style="background-image: url(../theme/assets/images/infra.webp);">
     <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2">What We Can Do For You?</span>
-            <h2>Our Mobile App Development Expertise</h2>
-        </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">01.</div>
-                    <h3>Native App Development</h3>
-                    <p>Our iOS developers create feature-rich, optimized applications that deliver a premium experience on all Apple devices. From concept to App Store submission, we provide end-to-end iOS development services using the latest technologies like Swift and Objective-C to maximize your app's impact.</p>
-                    <i class="fab fa-app-store my-2"></i>
-                    <div class="text-center mt-4">
-                        <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">02.</div>
-                    <h3>Cross-Platform Development</h3>
-                    <p>Maximize your reach with our cross-platform development expertise using Flutter, React Native, and Xamarin. We build applications that provide a consistent experience on both iOS and Android, reducing development time and costs while delivering high-quality, native-like performance.</p>
-                    <i class="fal fa-phone-laptop my-2"></i>
-                    <div class="text-center mt-4">
-                        <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="work-process-card-three">
-                    <div class="number-title">02.</div>
-                    <h3>Hybrid App Development</h3>
-                    <p>Our hybrid app development combines web and native app benefits for a cost-effective, cross-platform solution. Using frameworks like Ionic, Cordova, PhoneGap & NativeScript, we deliver native-like functionality, seamless user experiences, and reduced development time.</p>
-                    <i class="fal fa-cogs my-2"></i>
-                    <div class="text-center mt-4">
-                        <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<div class="about-area about-bg2 pt-100 pb-70">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="about-content-3 ml-20">
-                    <div class="section-title">
-                        <span class="sp-color2">Partner Up With Us</span>
-                        <h2>For Success In The Digital World!</h2>
-                        <p>Welcome to JFS Technologies, where innovation meets excellence in web design and development. We specialize in crafting tailored digital solutions for startups and enterprises alike. Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results.</p>
-                        <p>From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience exceptional website design for small business with JFS Technologies. Let’s build something extraordinary together.</p>
-                    </div>
-                    <h3>We Have 24+ Years Of Experience. We Offer It Solutions , Digital Technology Service</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="90%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Analytics</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="80%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Solutions</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="inner-title text-center w-75 mx-auto">
+            <h1>Transform Your Ideas into Cutting-Edge Mobile Applications</h1>
+            <p class="text-white"></p>
+            <div class="banner-btn">
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+			</div>
         </div>
     </div>
 </div>
 
 
-<section class="services-area-four pt-100 pb-70">
+<section class="services-style-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
-            <h2 class="w-50 mx-auto">Empowering Businesses with Powerful Website Solutions</h2>
-            <div class="w-75 mx-auto pt-3"></div>
+            <h2>Crafting Your Ideas into Next-Gen Mobile Solutions</h2>
+            <p class="margin-auto">At <strong>JFS Technologies</strong>, we specialize in delivering high-performance mobile app development services tailored to businesses of all sizes. With experience across various industries, we create mobile solutions that ensure your app excels in today’s competitive market.</p>
         </div>
-        <div class="row pt-45">
+        <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-file-code"></i>
-                    <h3><a>1. Custom Website Design for small business</a></h3>
-                    <p>At JFS Technologies, we design templates. Our dedicated web designers create bespoke graphics and layouts customized. Which is to your brand and objectives, seamlessly transforming visitors into engaged customers.</p>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/native.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
+                    <h3><a href="#">Native App Development</a></h3>
+					<p>Our iOS developers create feature-rich, optimized applications that deliver a premium experience on all Apple devices. From concept to App Store submission, we provide end-to-end iOS development services using the latest technologies like Swift and Objective-C to maximize your app's impact.</p>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-store"></i>
-                    <h3><a>2. Build Ecommerce Platform</a></h3>
-                    <p>Revolutionize your online business with JFS Technologies’ Ecommerce Platform Solutions. Tailored to your needs, our expert team crafts powerful, scalable platforms that elevate your brand, streamline operations, and drive revenue growth.</p>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/cross.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
+                    <h3><a href="#">Cross-Platform Development</a></h3>
+					<p>Maximize your reach with our cross-platform development expertise using Flutter, React Native, and Xamarin. We build applications that provide a consistent experience on both iOS and Android, reducing development time and costs while delivering high-quality, native-like performance.</p>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-newspaper"></i>
-                    <h3><a>3. Manage Your website Content</a></h3>
-                    <p>Simplify content management with JFS Technologies' custom CMS solutions. Whether it's WordPress or a tailored system, our websites ensure effortless data control and user-friendly management.</p>
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/hybrid.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
+                    <h3><a href="#">Hybrid App Development</a></h3>
+					<p>Our hybrid app development combines web & native app benefits for a cost-effective, cross-platform solution. Using frameworks like Ionic, Cordova, PhoneGap & NativeScript, we deliver native-like functionality, seamless user experiences & reduced development time.</p>
+                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-        </div>
-    </div>
+		</div>
+	</div>
 </section>
 
 
-<section class="clients-area-three pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center mx-auto" style="max-width:650px">
-            <h2>Features We Provide</h2>
-        </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-3 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-code pb-2"></i>
-                    <h3><a>Quality Web Development</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-sitemap pb-2"></i> 
-                    <h3><a>Smart Application Architecture</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-coins pb-2"></i>
-                    <h3><a>Minimize Costs for the Long-Term</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-globe pb-2"></i>
-                    <h3><a>Follow W3C Standards</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-user-headset pb-2"></i>
-                    <h3><a>Excellent Support</a></h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-shield-check pb-2"></i>
-                    <h3><a>Website Security</a></h3>
-                </div>
-            </div>
-        </div>        
-    </div>
-</section>
-
-
-<!-- Technologies Area -->
-<section class="work-process-area-two pt-100 pb-70">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-5">
-					<div class="work-process-left">
-						<div class="section-title">
-							<span class="sp-color1">Our Expertise</span>
-							<h2>Empowering Businesses With Expertise in 100+ Technologies</h2>
-						</div>
-						<a href="contact.html" class="default-btn btn-bg-two border-radius-50 text-center">Get A Quote</a>
+<div class="choose-area pt-100 pb-70 home">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-3">
+						<span class="sp-color1">We Are Best!!</span>
+						<h2>Why Choose JFS Technologies?</h2>
 					</div>
-				</div>
-				<div class="col-lg-7">
 					<div class="row">
-						<div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/html-5.png" class="p-3" alt="Images">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-pencil-ruler"></i>
+									<h3>Tailored Solutions</h3>
+								</div>
+								<p>We offer personalized design & development solutions aligned with your business goals.</p>
 							</div>
 						</div>
-						<div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/css-3.png" class="p-3" alt="Images">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-users-crown"></i>
+									<h3>Responsive & SEO-Optimized</h3>
+								</div>
+								<p>Each website is responsive & optimized for search engines from the ground up.</p>
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/js.png" class="p-3" alt="Images">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-analytics"></i>
+									<h3>Advanced Security</h3>
+								</div>
+								<p>We provide high-level security features to ensure that your site is safe and secure.</p>
 							</div>
 						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/php.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/react_js.png" class="" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/angular_js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/dot-net.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/java.png" class="p-2" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/laravel.png" class="p-2" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/node_js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/vue_js.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/cpp.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/python.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/next_js.png" class="p-2" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/flutter.png" class="p-3" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-3 col-sm-3">
-							<div class="work-process-card">
-                                <img src="{{ asset('theme') }}/assets/technologies/ror.png" class="p-3" alt="Images">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+                                    <i class="fal fa-headset"></i>
+									<h3>Ongoing Support</h3>
+								</div>
+								<p>Our support extends well beyond delivery, ensuring your website performs optimally.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</div>
 
 
-<div class="choose-area pt-100 pb-70">
+    <div class="about-area pt-100 pb-70">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
-                        <span class="sp-color1">Why choose Us</span>
-                        <h2 class="text-white">For Best SEO Service Provider</h2>
+                        <span class="sp-color2">Pricing Made Easy</span>
+                        <h2>Get Started with the Right Package</h2>
                     </div>
 					<div class="choose-content mt-4">
                         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For India</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Other Countries</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -354,6 +157,29 @@
 			</div>
 		</div>
 	</div>
+
+
+<div class="about-area about-bg2 pt-5">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img-4">
+                    <img src="../theme/assets/images/about/web-dev.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content-3 ml-20">
+                    <div class="section-title">
+                        <span class="sp-color1">Partner Up With Us</span>
+                        <h2>For Success In The Digital World!</h2>
+                        <p>Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results. From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience exceptional website design for small business with JFS Technologies. Let’s build something extraordinary together.</p>
+                    </div>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get Started Today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="brand-area ptb-100">
@@ -411,24 +237,6 @@
                                         </a>
                                         <div class="accordion-content">
                                             <p>To rank your website well, ongoing SEO efforts are essential. As a top web design company, we ensure your site is SEO-ready, but achieving a high SERP position requires continuous SEO practices. Consider our SEO services to enhance your site's ranking. Our experts create custom strategies to boost visibility and attract more visitors. We monitor and optimize your site for SEO success.</p>
-                                        </div>
-                                    </li>
-                                    <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            Do you integrate a Content Management System (CMS) into websites?
-                                        </a>
-                                        <div class="accordion-content">
-                                            <p>Certainly! As a top web design company, we seamlessly integrate Content Management Systems (CMS) into your website for easy content management. We offer custom CMS solutions and support popular platforms like WordPress, Magento, and Shopify.</p>
-                                        </div>
-                                    </li>
-                                    <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            Will my website work on all devices, including phones, tablets, and desktops?
-                                        </a>
-                                        <div class="accordion-content">
-                                            <p>Indeed! We emphasize responsive web design to ensure your website adjusts seamlessly for an optimal viewing experience across all devices and screen sizes. Whether visitors access your site via phone, tablet, or desktop, the layout and content will automatically adapt, delivering a seamless user experience.</p>
                                         </div>
                                     </li>
                                 </ul>            
