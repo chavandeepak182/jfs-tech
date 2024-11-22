@@ -231,12 +231,12 @@
 							<div class="slide-track">
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/html-5.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/css-3.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
@@ -261,7 +261,7 @@
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/NET.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">

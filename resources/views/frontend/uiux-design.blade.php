@@ -11,7 +11,7 @@
             <h1>User-Centered Design for Memorable Digital Experiences</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>

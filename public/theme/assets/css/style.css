@@ -112,7 +112,12 @@ img{max-width:100%}
   font-weight: 600;
 }
 
-.default-btn i{font-size:20px;position:relative;top:4px;display:none}
+.default-btn i{
+  font-size:20px;
+  position:relative;
+  top:4px;
+  display:none;
+}
 
 .default-btn::before{content:"";position:absolute;z-index:-1;height:100%;left:-36%;top:0;transform:skew(50deg);transition-duration:.6s;transform-origin:top left;width:0}
 
@@ -246,7 +251,7 @@ img{max-width:100%}
   background-position:center center;
   background-size:cover;
   background-repeat:no-repeat;
-  background-image:url(../images/hero3.jpg);
+  background-image:url(../images/hero.png);
 }
 
 .banner-area::before{
