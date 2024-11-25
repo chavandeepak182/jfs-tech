@@ -13,19 +13,7 @@
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
 			</div>
-            <!-- <ul>
-                <li>
-                    <a href="{{ asset(' ') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Data Science Services</li>
-            </ul> -->
         </div>
-    </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 

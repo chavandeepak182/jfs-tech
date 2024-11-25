@@ -11,14 +11,14 @@
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>Digital <b>transformation</b></h1>
-                    <p><em>The future of business is digital.</em> Digital transformation enables organizations to modernize their systems, adopt new technologies, and streamline their operations to meet evolving customer expectations. From automating tasks to leveraging data for better insights, digital transformation empowers businesses to stay agile, increase efficiency, and drive growth. Discover how digital transformation can help your business thrive in an increasingly competitive, tech-driven marketplace.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
+                    <h1 class="text-white">Digital <b>transformation</b></h1>
+                    <p class="text-white"><em>The future of business is digital.</em> Digital transformation enables organizations to modernize their systems, adopt new technologies, and streamline their operations to meet evolving customer expectations. From automating tasks to leveraging data for better insights, digital transformation empowers businesses to stay agile, increase efficiency, and drive growth. Discover how digital transformation can help your business thrive in an increasingly competitive, tech-driven marketplace.</p>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
+                <div class="banner-five-img mx-auto">
+                    <img src="{{ asset('theme') }}/assets/images/digital-trans.png" alt="Images">
                 </div>
             </div>
         </div>

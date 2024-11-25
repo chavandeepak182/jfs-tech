@@ -19,9 +19,6 @@
             </ul>
         </div>
     </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
-    </div>
 </div>
 
 
@@ -71,7 +68,7 @@
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>Each service is tailored to meet your unique business challenges, objectives, and growth goals.</p>
+									<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -80,7 +77,7 @@
 										<i class="fal fa-users-crown"></i>
 										<h3>Technology Prowess</h3>
 									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -104,11 +101,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>

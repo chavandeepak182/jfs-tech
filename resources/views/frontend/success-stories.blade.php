@@ -24,57 +24,57 @@
 </div>
 
 <div class="case-study-area pt-100 pb-70">
-<div class="container">
-<div class="section-title text-center">
-<span class="sp-color2">Case Study</span>
-<h2>Introduce Our Projects and Check Recent Work </h2>
-</div>
-<div class="row pt-45">
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Business Solution</a></h3>
-<ul>
-<li><a href="#">Business</a></li>
-<li><a href="#">Planing</a> </li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Web Development</a></h3>
-<ul>
-<li><a href="#">Design</a></li>
-<li><a href="#">Development</a> </li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Social Media App</a></h3>
-<ul>
-<li><a href="#">Design</a></li>
-<li><a href="#">Social</a> </li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="sp-color2">Case Study</span>
+            <h2>Introduce Our Projects and Check Recent Work </h2>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Business Solution</a></h3>
+                        <ul>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Planing</a> </li>
+                        </ul>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Web Development</a></h3>
+                        <ul>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Development</a> </li>
+                        </ul>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Social Media App</a></h3>
+                        <ul>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Social</a> </li>
+                        </ul>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
 <div class="col-lg-4 col-md-6">
 <div class="case-study-item">
 <a href="#">

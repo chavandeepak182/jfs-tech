@@ -11,14 +11,14 @@
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
-                    <h1>DevOps <b>Services</b></h1>
-                    <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
+                    <h1 class="text-white">DevOps <b>Services</b></h1>
+                    <p class="text-white">Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
+                <div class="banner-five-img mx-auto">
+                    <img src="{{ asset('theme') }}/assets/images/devop-ser.png" alt="Images">
                 </div>
             </div>
         </div>
