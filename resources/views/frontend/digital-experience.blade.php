@@ -11,14 +11,14 @@
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & VIRTUAL SOLUTIONS</span>
-                    <h1>Digital <b>Experience</b></h1>
-                    <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Our team of experienced professionals is equipped to handle all aspects of your digital strategy, ensuring that your brand stands out in today's competitive landscape.</p>
-                    <a href="/contact-us" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
+                    <h1 class="text-white">Digital <b>Experience</b></h1>
+                    <p class="text-white">Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Our team of experienced professionals is equipped to handle all aspects of your digital strategy, ensuring that your brand stands out in today's competitive landscape.</p>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="banner-five-img">
-                    <img src="{{ asset('theme') }}/assets/images/home-five-img.png" alt="Images">
+                <div class="banner-five-img mx-auto">
+                    <img src="{{ asset('theme') }}/assets/images/digital-exp.png" alt="Images">
                 </div>
             </div>
         </div>

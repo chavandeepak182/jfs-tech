@@ -16,8 +16,8 @@
 					<h1>Transforming Businesses Through Digital Excellence</h1>
 					<p>Empowering enterprises with innovative technology solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
-						<a href="#" class="default-btn btn-bg-two border-radius-50">Explore Our Services <i class="fal fa-arrow-right"></i></a>
-						<a href="#" class="default-btn btn-bg-one border-radius-50 ml-20">Get a Consultation <i class="bx bx-chevron-right"></i></a>
+						<a href="{{ url('/services') }}" class="default-btn btn-bg-two border-radius-50 mr-20">Explore Our Services <i class="fal fa-arrow-right"></i></a>
+						<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Get a Consultation <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 					<div class="about-content ml-25">
 						<div class="section-title">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2>Right Partner for Software Innovation</h2>
+							<h2 class="m-0">Right Partner for Software Innovation</h2>
 							<p>At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
 						</div>
 					</div>
@@ -62,8 +62,8 @@
 				<h2>Our Core Services</h2>
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
-			<div class="row pt-45 mx-auto justify-content-between custom-card">
-				<div class="col-lg-3 col-sm-6">
+			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
+				<div class="col-lg-3">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -79,7 +79,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -95,7 +95,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -111,7 +111,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -127,14 +127,40 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-3 col-sm-6">
-					<div class="services-card services-style-bg">
-						<i class="flaticon-data-analytics"></i>
-						<h3><a href="services/digital-experience">Digital Experience</a></h3>
-						<p>It is the user interaction with a brand across digital channels, emphasizing seamless and personalized experiences.</p>
-						<a href="services/digital-experience" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+			</div>
+			<div class="row pt-45 mx-auto justify-content-between custom-card mobile-view">
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/transform.webp" alt="">
+						<h3><a href="{{ url('/services/digital-transformation') }}">Digital Transformation</a></h3>
+						<p>Empowering businesses with next-gen technologies to optimize processes, enhance efficiency & foster innovation.</p>
+						<a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
-				</div> -->
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="">
+						<h3><a href="{{ url('/services/digital-experience') }}">Digital Experience</a></h3>
+						<p>Creating impactful digital touchpoints to connect your brand with its audience effectively.</p>
+						<a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="">
+						<h3><a href="{{ url('/services/devops') }}">DevOps</a></h3>
+						<p>Accelerating your development lifecycle with streamlined processes and robust practices.</p>
+						<a href="{{ url('/services/devops') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="services-card services-style-bg p-0">
+						<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="">
+						<h3><a href="{{ url('/services/resource-augmentation') }}">Resource Augmentation</a></h3>
+						<p>Providing skilled professionals to seamlessly integrate with your team and scale your operations.</p>
+						<a href="{{ url('/services/resource-augmentation') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -340,7 +366,7 @@
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>Each service is tailored to meet your unique business challenges, objectives, and growth goals.</p>
+									<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -349,7 +375,7 @@
 										<i class="fal fa-users-crown"></i>
 										<h3>Technology Prowess</h3>
 									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -373,11 +399,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -433,7 +454,7 @@
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="experience">
+						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="experience">
 						<h3>150+</h3>
 						<span>Projects Delivered</span>
 					</div>
@@ -454,7 +475,7 @@
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="locations">
+						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="locations">
 						<h3>100%</h3>
 						<span>Client Satisfaction</span>
 					</div>
@@ -474,7 +495,7 @@
 	
 	<div class="call-us-area">
 		<div class="container">
-			<div class="row align-items-center justify-content-between">
+			<div class="row align-items-center justify-content-between pt-5 pb-4">
 				<div class="col-lg-5">
 					<div class="call-contact">
 						<h3>Recognitions</h3>
@@ -482,19 +503,19 @@
 						<p>We've earned honors as one of the top digital marketing agency across the nation and internationally.</p>
 					</div>
 				</div>
-				<div class="col-lg-7 pt-5 pb-3">
+				<div class="col-lg-7">
 					<div class="row">
-						<div class="col-lg-4 col-4">
+						<div class="col-lg-4 col-6">
 							<div class="work-process-card rounded">
                                 <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 							</div>
 						</div>
-						<div class="col-lg-4 col-4">
+						<div class="col-lg-4 col-6">
 							<div class="work-process-card rounded">
                                 <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
 							</div>
 						</div>
-                        <div class="col-lg-4 col-4">
+                        <div class="col-lg-4 col-6">
 							<div class="work-process-card rounded">
                                 <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
 							</div>
@@ -600,7 +621,7 @@
 						<span>COO @ Shyena Techyarns</span>
 					</div>
 					<p>
-					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth. Their holistic approach and unwavering commitment have been instrumental. I highly recommend their services!”
+					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
 					</p>
 				</div>
 			</div>

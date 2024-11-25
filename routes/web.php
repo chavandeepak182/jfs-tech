@@ -148,4 +148,8 @@ Route::get('/services/email-marketing', function () {
     return view('frontend.email-marketing');
 });
 
+Route::get('/portfolio', function () {
+    return view('frontend.portfolio');
+});
+
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

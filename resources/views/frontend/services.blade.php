@@ -145,11 +145,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8081/theme/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -165,7 +160,7 @@
 			<div class="case-study-slider owl-carousel owl-theme pt-45 owl-loaded owl-drag">				
 			    <div class="owl-stage-outer"><div class="owl-stage" style="transition: 0.25s; width: 4261px; transform: translate3d(-1742px, 0px, 0px);"><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study3.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 3</a></h3>
@@ -178,7 +173,7 @@
 					</div>
 				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 1</a></h3>
@@ -191,7 +186,7 @@
 					</div>
 				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study2.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 2</a></h3>
@@ -204,7 +199,7 @@
 					</div>
 				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study3.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 3</a></h3>
@@ -217,7 +212,7 @@
 					</div>
 				</div></div><div class="owl-item" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 1</a></h3>
@@ -230,7 +225,7 @@
 					</div>
 				</div></div><div class="owl-item active" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study2.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 2</a></h3>
@@ -243,7 +238,7 @@
 					</div>
 				</div></div><div class="owl-item active center" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study3.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 3</a></h3>
@@ -256,7 +251,7 @@
 					</div>
 				</div></div><div class="owl-item cloned active" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 1</a></h3>
@@ -269,7 +264,7 @@
 					</div>
 				</div></div><div class="owl-item cloned active" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study2.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/theme/assets/images/case-study/case-study2.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 2</a></h3>
@@ -282,7 +277,7 @@
 					</div>
 				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study3.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 3</a></h3>
@@ -295,7 +290,7 @@
 					</div>
 				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
 					<a href="#">
-						<img src="http://127.0.0.1:8081/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
 					</a>
 					<div class="content">
 						<h3><a href="#">Case Study 1</a></h3>
@@ -383,17 +378,11 @@
 <div class="brand-area ptb-100">
     <div class="container">
         <div class="row justify-content-center align-items-center">
-            <div class="col-lg-6">
-				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
-				</div>
-			</div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
                         <div class="section-title">
                             <h2>Frequently Asked Questions</h2>
-                            <p class="margin-auto">We are the agency who always gives you a priority on the free of question and you can easily make a question on the bunch.</p>
                         </div>
                         <div class="faq-content mt-4">
                             <div class="faq-accordion">
@@ -440,6 +429,11 @@
                     </div>
                 </div>
             </div>
+			<div class="col-lg-5">
+				<div class="choose-img">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				</div>
+			</div>
         </div>
     </div>
 </div>

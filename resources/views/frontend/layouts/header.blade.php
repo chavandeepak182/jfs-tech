@@ -194,7 +194,7 @@
 											<a href="https://jfstechnologies.com/blog/" class="nav-link {{ Route::currentRouteName() === 'blog' ? 'active' : '' }}">Blogs</a>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">Portfolio</a>
+											<a href="{{ url('/portfolio') }}" class="nav-link {{ Route::currentRouteName() === 'portfolio' ? 'active' : '' }}">Portfolio</a>
 										</li>
 										<li class="nav-item">
 											<a href="{{ url('/success-stories') }}" class="nav-link {{ Route::currentRouteName() === 'success-stories' ? 'active' : '' }}">Success Stories</a>

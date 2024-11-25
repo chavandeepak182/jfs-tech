@@ -175,38 +175,30 @@
 	<script src="{{ asset('theme') }}/assets/js/contact-form-script.js"></script>
 	<script src="{{ asset('theme') }}/assets/js/custom.js"></script>
 
+	<!-- Mixitup -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
 	<script>
-		document.addEventListener('DOMContentLoaded', () => {
-		const message = document.querySelector('.message');
-
-		// Add click interaction to words
-		const words = document.querySelectorAll('.word1, .word2, .word3, .word4');
-		words.forEach(word => {
-			word.addEventListener('click', () => {
-			word.style.transform = 'scale(1.1)';
-			setTimeout(() => {
-				word.style.transform = 'scale(1)';
-			}, 200);
-			});
+		/*Downloaded from https://www.codeseek.co/ezra_siton/mixitup-fancybox3-JydYqm */
+		// 1. querySelector
+		var containerEl = document.querySelector(".portfolio-item");
+		// 2. Passing the configuration object inline
+		//https://www.kunkalabs.com/mixitup/docs/configuration-object/
+		var mixer = mixitup(containerEl, {
+		animation: {
+			effects: "fade translateZ(-100px)",
+			effectsIn: "fade translateY(-100%)",
+			easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+		}
 		});
-
-		// Easter egg: Double click to add sparkle effect
-		message.addEventListener('dblclick', () => {
-			createSparkle(message);
-		});
-
-		function createSparkle(element) {
-			const sparkle = document.createElement('span');
-			sparkle.textContent = '✨';
-			sparkle.style.position = 'absolute';
-			sparkle.style.left = Math.random() * 100 + '%';
-			sparkle.style.top = Math.random() * 100 + '%';
-			sparkle.style.animation = 'sparkle 1s forwards';
-			element.appendChild(sparkle);
-
-			setTimeout(() => {
-			sparkle.remove();
-			}, 1000);
+		// fancybox insilaze & options //
+		$("[data-fancybox]").fancybox({
+		loop: true,
+		hash: true,
+		transitionEffect: "slide",
+		/* zoom VS next////////////////////
+		clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
+		clickContent: function(current, event) {
+			return current.type === "image" ? "next" : false;
 		}
 		});
 	</script>
