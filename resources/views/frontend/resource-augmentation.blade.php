@@ -12,12 +12,12 @@
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1 class="text-white">Resource <b>Augmentation</b></h1>
-                    <p class="text-white">We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
+                    <p class="text-white">We have a team of highly skilled and experienced developers who are experts in these cutting-edge technologies and committed to delivering excellence. Whether you need additional support for a specific project, want to augment your existing team, or require specialized expertise to tackle complex challenges, our resource augmentation services can provide you with exceptional talent, unparalleled flexibility, and a results-driven approach to achieve your goals efficiently & effectively.</p>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="banner-five-img mx-auto">
+                <div class="banner-five-img mx-auto w-75">
                     <img src="{{ asset('theme') }}/assets/images/resource-aug.png" alt="Images">
                 </div>
             </div>
@@ -26,20 +26,21 @@
 </div>
 
 
-<section class="work-process-area pt-100 pb-70">
+<section class="services-style-area home_cards pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital transformation Services Includes</h2>
+            <h2>Our Resource Augmentation Services Includes</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
                     <a href="#">
-                        <div class="number-title">01.</div>
+                        <div class="number-title invisible">01.</div>
                         <h3>Frontend Development</h3>
                         <p>Frontend development creates the visual and interactive elements of websites and applications to enhance user experience.</p>
-                        <i class="fad fa-bring-front my-2"></i>
+                        <!-- <i class="fad fa-bring-front my-2"></i> -->
+                        <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
                             <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -49,10 +50,11 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
                     <a href="#">
-                        <div class="number-title">02.</div>
+                        <div class="number-title invisible">02.</div>
                         <h3>Backend Development</h3>
                         <p>Backend development involves server-side programming & database management to ensure the seamless functionality of web applications.</p>
-                        <i class="fad fa-send-back my-2"></i>
+                        <!-- <i class="fad fa-send-back my-2"></i> -->
+                        <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
                             <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -62,10 +64,11 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
                     <a href="#">
-                        <div class="number-title">03.</div>
+                        <div class="number-title invisible">03.</div>
                         <h3>Fullstack Development</h3>
                         <p>It involves creating both front-end and back-end components of web applications, ensuring seamless integration and functionality.</p>
-                        <i class="fad fa-box-full my-2"></i>
+                        <!-- <i class="fad fa-box-full my-2"></i> -->
+                        <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
                             <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -75,10 +78,11 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
                     <a href="#">
-                        <div class="number-title">04.</div>
-                        <h3>Q/A & Testing</h3>
-                        <p>Quality Assurance (QA) and testing ensure software reliability and performance by identifying defects and validating functionality throughout the development process.</p>
-                        <i class="fab fa-codepen my-2"></i>
+                        <div class="number-title invisible">04.</div>
+                        <h3>Support Engineers</h3>
+                        <p>Expert engineers providing reliable, timely assistance to resolve technical issues, ensure system efficiency & deliver exceptional user satisfaction.</p>
+                        <!-- <i class="fab fa-codepen my-2"></i> -->
+                        <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
                             <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -90,55 +94,59 @@
 </section>
 
 
-<div class="about-area about-bg2 pt-100 pb-70">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="about-content-3 ml-20">
-                    <div class="section-title">
-                        <span class="sp-color2">Partner Up With Us</span>
-                        <h2>Ready to Embrace the Future of Technology?</h2>
-                        <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
-                    </div>
-                    <h3>Backed by over 24 years of experience, we offer top resource augmentation solutions.</h3>
-                    <div class="all-skill-bar">
-                        <div class="skill-bar" data-percentage="100%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Development</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                        <div class="skill-bar mb-0" data-percentage="100%">
-                            <h4 class="progress-title-holder clearfix">
-                                <span class="progress-title">Testing</span>
-                                <span class="progress-number-wrapper">
-                                <span class="progress-number-mark">
-                                <span class="percent"></span>
-                                </span>
-                                </span>
-                            </h4>
-                            <div class="progress-content-outter">
-                                <div class="progress-content"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    <div class="choose-area pt-100 pb-70 home">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12">
+					<div class="choose-content mr-20">
+						<div class="section-title mb-3">
+							<span class="sp-color1">We Are Best!!</span>
+							<h2>Why Trust Our Resource Augmentation Services?</h2>
+                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-pencil-ruler"></i>
+										<h3>Tailored Strategies</h3>
+									</div>
+									<p>We work closely with you to create solutions designed around your unique business needs.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-users-crown"></i>
+										<h3>Technology Prowess</h3>
+									</div>
+									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+										<i class="fal fa-analytics"></i>
+										<h3>Proven Track Record</h3>
+									</div>
+									<p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-6">
+								<div class="choose-content-card">
+									<div class="content">
+                                        <i class="fal fa-headset"></i>
+										<h3>Ongoing Support</h3>
+									</div>
+									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 <div class="security-area pt-100 pb-70">
@@ -174,63 +182,28 @@
 </div>
 
 
-    <div class="choose-area pt-100 pb-70">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
-						</div>
-						<div class="row">
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Expertise Across Technologies</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-file-chart-line"></i>
-										<h3>Data-Driven Approach</h3>
-									</div>
-									<p>We use analytics and performance metrics to continually optimize and improve your digital marketing campaigns.</p>
-								</div>
-							</div>
-                            <div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Strategies</h3>
-									</div>
-									<p>We understand that every business is unique. We create customized digital marketing strategies that align with your specific goals.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-puzzle-piece"></i>
-										<h3>Comprehensive Solutions</h3>
-									</div>
-									<p>From SEO to social media management and paid advertising, we cover all aspects of digital marketing to ensure your business thrives online.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
+<div class="about-area about-bg2 pt-100 pb-70">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img-4">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content-3 ml-20">
+                    <div class="section-title">
+                        <span class="sp-color1">Partner Up With Us</span>
+                        <h2>Ready to Embrace the Future of Technology?</h2>
+                        <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
+                    </div>
+                    <h3>Backed by over 24 years of experience, we offer top resource augmentation solutions.</h3>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="brand-area ptb-100">

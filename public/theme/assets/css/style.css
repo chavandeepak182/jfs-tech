@@ -372,7 +372,7 @@ img{max-width:100%}
   .banner-five-content p{font-size:17px;font-weight:500;margin-bottom:30px}
   
   .banner-five-img{
-    animation:moveBounce 9s infinite ease-in-out;
+    animation:moveBounce 5s infinite ease-in-out;
     width: 60%;
   }
   
@@ -1482,4 +1482,8 @@ img{max-width:100%}
 
 .portfolio-item {
   list-style: none;
+}
+
+.video video {
+  margin: 0 0 -15px 0;
 }
