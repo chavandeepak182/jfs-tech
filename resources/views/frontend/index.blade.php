@@ -26,7 +26,7 @@
 
 
 	<!-- About Area -->
-	<div class="about-area ptb-100">
+	<div class="about-area pt-100 pb-5">
 		<div class="container">
 			<div class="row justify-content-center align-items-center mx-auto">
 				<div class="col-lg-12">
@@ -35,23 +35,32 @@
 							<span class="sp-color2">24+ Years Leadership Experience</span>
 							<h2 class="m-0">Right Partner for Software Innovation</h2>
 							<p>At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
+							<p>Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions. We pride ourselves on staying ahead of industry trends, delivering future-ready strategies tailored to meet the unique challenges of your business.</p>
 						</div>
 					</div>
 
-					<div class="about-play mt-5 text-center">
+					<!-- <div class="about-play mt-5 text-center">
 						<img src="{{ asset('theme') }}/assets/images/about/about-img1.jpg" alt="About Images">
 						<div class="about-play-content">
 							<span>Watch Our Intro Video</span>
 							<h2>Perfect Solution for IT Services!</h2>
-							<!-- <div class="play-on-area">
+							<div class="play-on-area">
 								<a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
-							</div> -->
+							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+<section class="video">
+	<video class="w-100" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+		<source src="../theme/assets/images/intro.mp4" type="video/mp4">
+		<source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+	</video>
+</section>
 
 
 <!-- Service Area -->

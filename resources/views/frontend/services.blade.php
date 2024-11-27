@@ -61,7 +61,7 @@
             </div>
             <div class="col-lg-6 col-sm-6">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/dev-cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
+                    <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
                     <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
                     <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <p><b>Key Features:</b>
@@ -344,7 +344,7 @@
 						<span>COO @ Shyena Techyarns</span>
 					</div>
 					<p>
-					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth. Their holistic approach and unwavering commitment have been instrumental. I highly recommend their services!”
+					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
 					</p>
 				</div>
 			</div>
