@@ -467,6 +467,12 @@
 		<div class="container-fluid">
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/kc.png" class="brand-logo-one" alt="KC Overseas">
+				</div>
+				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
 				</div>
 				<div class="brand-item">
@@ -476,16 +482,16 @@
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-				</div>
-				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
 				</div>
 				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
 				</div>
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
@@ -493,42 +499,58 @@
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
 				</div>
-				
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-				</div>
 			</div>
 		</div>
 	</div>
 
 	
-	<div class="call-us-area">
+	<div class="call-us-area pt-100 pb-70">
 		<div class="container">
-			<div class="row align-items-center justify-content-between pt-5 pb-4">
-				<div class="col-lg-5">
-					<div class="call-contact">
-						<h3>Recognitions</h3>
-						<a class="call-btn">Awards & Achievements</a>
-						<p>We've earned honors as one of the top digital marketing agency across the nation and internationally.</p>
+			<div class="section-title text-center">
+				<span class="sp-color1">Recognitions</span>
+				<h2 class="text-white">Awards & Achievements</h2>
+			</div>
+			<div class="row align-items-center justify-content-center pt-5">
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-7">
-					<div class="row">
-						<div class="col-lg-4 col-6">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
-							</div>
-						</div>
-						<div class="col-lg-4 col-6">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-4 col-6">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
-							</div>
-						</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
+					</div>
+				</div>
+                <div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/g-partner.png" class="" alt="Google Partner">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/top-dmc.png" class="" alt="Top Digital Marketing Company">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
 					</div>
 				</div>
 			</div>

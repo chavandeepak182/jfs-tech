@@ -185,7 +185,15 @@
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="{{ url('/about-us') }}" class="nav-link {{ Route::currentRouteName() === 'about-us' ? 'active' : '' }}">About Us</a>
+									<a href="{{ url('/about-us') }}" class="nav-link {{ Route::currentRouteName() === 'about-us' ? 'active' : '' }}">About Us <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">Newsroom</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">CSR</a>
+										</li>
+									</ul>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link">Resources <i class="bx bx-caret-down"></i></a>
@@ -202,7 +210,15 @@
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="{{ url('/careers') }}" class="nav-link {{ Route::currentRouteName() === 'careers' ? 'active' : '' }}">Careers</a>
+									<a href="{{ url('/careers') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">Careers</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link {{ Route::currentRouteName() === 'portfolio' ? 'active' : '' }}">Gallery</a>
+										</li>
+									</ul>
 								</li>
 							</ul>
 							<div class="nav-side d-display">

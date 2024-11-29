@@ -10,7 +10,7 @@
 									<img src="{{ asset('theme') }}/assets/images/logos/logo-w.png" width="250px" alt="Images">
 								</a>
 							</div>
-							<p>We're a global leader in digital solutions, offering services in Digital Transformation, Digital Experience, DevOps & Resource Augmentation. Our mission is to empower businesses with innovative technologies & scalable solutions to achieve excellence in a competitive world.</p>
+							<p>At JFS Technologies, we combine innovation & expertise to provide world-class services in Digital Transformation, Experience Design, DevOps & Resource Augmentation, helping businesses achieve their goals.</p>
 							<!-- <div class="footer-call-content">
 								<h3>Talk to Our Support</h3>
 								<span><a href="tel:918421216367">+91 84212 16367</a></span>
