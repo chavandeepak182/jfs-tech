@@ -413,51 +413,11 @@
 	</div>
 
 
-<!-- Clientele Area -->
-<div class="brand-area pt-100">
-		<div class="container-fluid">
-			<div class="brand-slider owl-carousel owl-theme">
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
-				</div>
-				
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-				</div>
-			</div>
-		</div>
-	</div>
-
-
 	<!-- Key highlights Area -->
-	<div class="counter-area pt-100 pb-70">
+	<div class="counter-area pt-100">
 		<div class="container">
 			<div class="section-title text-center">
-				<span class="sp-color2">Key highlights</span>
+				<span class="sp-color2">Clientele</span>
 				<h2>Our Impact in Numbers</h2>
 			</div>
 			<div class="row pt-45">
@@ -497,6 +457,46 @@
 			</div>
 			<div class="shape2">
 				<img src="{{ asset('theme') }}/assets/images/shape/shape2.png" alt="Images">
+			</div>
+		</div>
+	</div>
+
+
+<!-- Clientele Area -->
+	<div class="brand-area ptb-100">
+		<div class="container-fluid">
+			<div class="brand-slider owl-carousel owl-theme">
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+				</div>
+				
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -635,7 +635,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="client-circle">
+		<!-- <div class="client-circle">
 			<div class="client-circle-1">
 				<div class="circle"></div>
 			</div>
@@ -657,7 +657,7 @@
 			<div class="client-circle-7">
 				<div class="circle"></div>
 			</div>
-		</div>
+		</div> -->
 	</section>
 
 

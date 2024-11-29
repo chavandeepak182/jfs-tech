@@ -10,12 +10,12 @@
 									<img src="{{ asset('theme') }}/assets/images/logos/logo-w.png" width="250px" alt="Images">
 								</a>
 							</div>
-							<p>Partner up with us, one of the top digital advertising agencies & avail of an expansive range of services, all at best-in-industry pricing.</p>
-							<div class="footer-call-content">
+							<p>We're a global leader in digital solutions, offering services in Digital Transformation, Digital Experience, DevOps & Resource Augmentation. Our mission is to empower businesses with innovative technologies & scalable solutions to achieve excellence in a competitive world.</p>
+							<!-- <div class="footer-call-content">
 								<h3>Talk to Our Support</h3>
 								<span><a href="tel:918421216367">+91 84212 16367</a></span>
 								<i class="bx bx-headphone"></i>
-							</div>
+							</div> -->
 						</div>
 					</div>
 					<div class="col-lg-3 col-sm-6">
@@ -102,7 +102,7 @@
 						<div class="footer-widget">
 							<h3>Reach Us</h3>
 							<ul class="footer-list">
-								<li><p>416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</p></li>
+								<li><p>#416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</p></li>
 								<li>
 									<a href="mailto:info@jfstechnologies.com" target="_blank">
 										<i class="fal fa-paper-plane"></i>
@@ -133,7 +133,7 @@
 									</a>
 								</li>
 							</ul>
-							<div class="newsletter-area mt-3">
+							<!-- <div class="newsletter-area mt-3">
 								<form class="newsletter-form" data-toggle="validator" method="POST">
 									<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
 									<button class="subscribe-btn" type="submit">
@@ -141,7 +141,7 @@
 									</button>
 									<div id="validator-newsletter" class="form-result"></div>
 								</form>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
