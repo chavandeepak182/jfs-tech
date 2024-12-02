@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Efficient, Scalable Solutions with Microservices Architecture</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -30,28 +30,70 @@
 			<p class="margin-auto">We are specialists in leveraging containers and microservices to enhance your software development and deployment strategies. Containers streamline application packaging and deployment, while microservices architecture simplifies complex applications into manageable components. Together, these technologies offer scalability, flexibility, and resilience for your software projects. Our experienced team has a wealth of knowledge in designing, implementing, and managing containers & microservices for various applications.</p>
 		</div>
 		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
-				<div class="work-process-card-three">
+            <h2 class="pb-3">Containers:</h2>
+			<div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Website and App Design</h3>
-					<p>We create clean, user-friendly interfaces that adapt seamlessly across devices, prioritizing form & function. Our designs enhance user journeys, boost engagement, & reflect your brand’s identity—whether for web, mobile, or desktop applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Docker</h3>
+					<p>Docker is one of the most popular containerization platforms that allows developers to package applications and their dependencies into a lightweight, portable container image.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
-				<div class="work-process-card-three">
+            <div class="col-lg-3 col-sm-6">
+                <div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>UX Research & Strategy</h3>
-					<p>Through user interviews, surveys, and heat mapping, we gather insights into behaviors and preferences that drive our design decisions. These insights help us create intuitive, visually engaging UI/UX designs aligned with your business goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Podman</h3>
+					<p>Podman is a container engine that provides a secure and fully-featured alternative to Docker, supporting container creation, management, orchestration, and networking.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Wireframing & Prototyping</h3>
-					<p>Starting with initial layouts and prototypes, we test, refine, and align designs with your vision. This iterative approach ensures a user-centered, polished final product that meets both business goals and user expectations.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Kubernetes</h3>
+					<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications across clusters of nodes.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>LXC/LXD</h3>
+					<p>LXC (Linux Containers) and LXD are system container technologies that enable the secure isolation of applications at the operating system level, providing lightweight virtualization.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <h2 class="pt-3 pb-3">Microservices:</h2>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Spring Boot</h3>
+					<p>Spring Boot is a Java-based framework that simplifies the development of microservices by providing a robust set of tools and libraries for building, deploying, and scaling applications.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Node.js</h3>
+					<p>Node.js is a powerful JavaScript runtime environment that is commonly used for building lightweight and fast microservices, leveraging a non-blocking, event-driven architecture.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>.NET Core</h3>
+					<p>.NET Core is a cross-platform framework that supports the creation of microservices using C# and ASP.NET, enabling developers to build scalable and high-performance applications.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Flask</h3>
+					<p>Flask is a lightweight Python web framework that is well-suited for developing microservices, offering simplicity and flexibility for building RESTful APIs and web services.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>

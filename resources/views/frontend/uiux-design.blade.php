@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>User-Centered Design for Memorable Digital Experiences</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -22,12 +22,12 @@
     </video>
 </div>
 
-<section class="work-process-area home_cards pt-100 pb-70">
+<section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
 		<div class="section-title text-center">
 			<span class="sp-color2"></span>
 			<h2>UX/UI Design Services for Seamless User Experiences</h2>
-			<p>Our UX/UI design process is rooted in empathy and precision. We begin with a thorough understanding of your audience, followed by creating prototypes, and testing every element to ensure usability and aesthetic appeal. Every step is focused on delivering a digital experience that users find effortless and engaging. We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
+			<p class="margin-auto">Our UX/UI design process is rooted in empathy & precision. We begin with a thorough understanding of your audience, followed by creating prototypes & testing every element to ensure usability & aesthetic appeal. Every step is focused on delivering a digital experience that users find effortless & engaging. We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-4 col-sm-6">

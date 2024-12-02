@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Streamline Development with Reliable CI/CD Pipeline Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -30,28 +30,36 @@
 			<p class="margin-auto">Our CI/CD pipeline services streamline the process of building, testing, and deploying code changes efficiently and consistently. By automating key stages of the development lifecycle, we help teams accelerate their software delivery while ensuring quality and reliability. With our expertise in CI CD tools and best practices, we empower organizations to embrace a culture of continuous integration and continuous delivery for faster time-to-market and increased competitiveness.</p>
 		</div>
 		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Website and App Design</h3>
-					<p>We create clean, user-friendly interfaces that adapt seamlessly across devices, prioritizing form & function. Our designs enhance user journeys, boost engagement, & reflect your brand’s identity—whether for web, mobile, or desktop applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Build Automation</h3>
+					<p>Services like Jenkins and Travis CI automate the process of compiling code, running tests, generating artifacts, monitoring builds, and seamlessly deploying applications with enhanced efficiency.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>UX Research & Strategy</h3>
-					<p>Through user interviews, surveys, and heat mapping, we gather insights into behaviors and preferences that drive our design decisions. These insights help us create intuitive, visually engaging UI/UX designs aligned with your business goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Deployment Automation</h3>
+					<p>Platforms like AWS CodePipeline and Azure DevOps automate the process of deploying code changes to different environments, such as staging and production.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Wireframing & Prototyping</h3>
-					<p>Starting with initial layouts and prototypes, we test, refine, and align designs with your vision. This iterative approach ensures a user-centered, polished final product that meets both business goals and user expectations.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Continuous Testing</h3>
+					<p>Tools like GitLab CI/CD and CircleCI enable continuous testing, integration, and validation of code changes, ensuring the quality and reliability of the software throughout the pipeline.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Infrastructure as Code</h3>
+					<p>Services like Jenkins, GitLab CI/CD, and AWS CodePipeline support the concept of Infrastructure as Code, allowing developers to define and manage their infrastructure using code.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>
@@ -66,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our UI/UX Design Service Stands Out?</h2>
+							<h2>Why Our CI/CD Services Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">

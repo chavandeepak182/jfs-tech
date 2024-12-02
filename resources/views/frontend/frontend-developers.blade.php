@@ -29,29 +29,61 @@
 			<h2>Pixel-Perfect Frontend Development for Your Brand</h2>
 			<p class="margin-auto">Our team of front-end developers are experts in various technologies and frameworks, including HTML, CSS, JavaScript, React, Angular, Vue.js, and more. Whether you require a basic static website or a sophisticated web application, our team has the skills and experience to turn your vision into reality. We continuously stay informed on the newest trends in front-end development to guarantee that your project is contemporary, easy to use, and adaptable. Allow our talented team of front-end developers to elevate your website or web applications to new heights.</p>
 		</div>
-		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
+		<div class="row pt-45 justify-content-center">
+			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Frontend Architecture and Design</h3>
-					<p>We leverage the power of frontend development to craft visually stunning and responsive user experiences. Our goal is to blend our expertise with your vision, delivering tailored solutions that align seamlessly with your objectives.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>UI/UX Designers</h3>
+					<p>These developers design the user interface and experience of websites or applications, creating visually appealing and user-friendly designs that boost engagement and satisfaction.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Frontend User Interface Development</h3>
-					<p>User interfaces play a crucial role in boosting engagement. Our frontend experts specialize in designing intuitive UIs that streamline navigation, enhance content readability, and elevate your digital presence.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Front-End Developers</h3>
+					<p>These developers write front-end code using HTML, CSS, and JavaScript, implementing designs and ensuring functionality across browsers and devices.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Custom Frontend Development</h3>
-					<p>With extensive experience across various industry domains, we understand the unique needs of every business. Our custom services are designed to deliver solutions that align seamlessly with your business goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>React Developers</h3>
+					<p>React is a popular JavaScript library for building user interfaces. These developers create interactive web apps & are skilled in components, state management & React-specific features.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Angular Developers</h3>
+					<p>Angular developers build dynamic, scalable web apps using powerful features like modules, components, services & routing, ensuring efficient & maintainable code.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Vue.js Developers</h3>
+					<p>Vue.js developers use the progressive JavaScript framework to build interactive and responsive web apps, leveraging components, directives, and Vuex state management.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Responsive Web Designers</h3>
+					<p>Responsive web designers create websites that adapt to various screen sizes and devices, ensuring a seamless and consistent user experience across all screens.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Accessibility Specialists</h3>
+					<p>They ensure websites and apps are usable for users with disabilities by implementing design & development practices that comply with WCAG standards.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>
@@ -60,80 +92,102 @@
 
 
 <!-- Technologies Area -->
-<div class="about-area pb-70">
-	<div class="container-fluid">
-		<div class="row mx-auto">
-			<div class="col-lg-12 text-center">
-				<div class="about-content ml-25">
-					<div class="section-title">
-						<span class="sp-color2">Our Expertise</span>
-						<h2 class="w-50 mx-auto">Technologies to Power Your Next Big Move</h2>
-					</div>
-					<div class="slider">
-						<div class="slide-track">
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/html-5.png" alt="Images">
+	<div class="about-area ptb-100">
+		<div class="container-fluid">
+			<div class="row mx-auto">
+				<div class="col-lg-12 text-center">
+					<div class="about-content ml-25">
+						<div class="section-title">
+							<span class="sp-color2">Our Expertise</span>
+							<h2 class="w-50 mx-auto">Technologies to Power Your Next Big Move</h2>
+						</div>
+
+						<div class="slider">
+							<div class="slide-track">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/css-3.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
+									</div>
 								</div>
-							</div>
-                            <div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
+									</div>
 								</div>
-							</div>
-                            <div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
+									</div>
 								</div>
-							</div>
-							<div class="slide">
-								<div class="work-process-cards">
-									<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+									</div>
 								</div>
 							</div>
 						</div>
@@ -142,10 +196,9 @@
 			</div>
 		</div>
 	</div>
-</div>
 
 
-<div class="choose-area pt-100 pb-70 home">
+	<div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
@@ -250,6 +303,86 @@
     </div>
 
 
+<!-- Testimonials Area -->
+	<section class="clients-area pt-100 pb-70">
+		<div class="container">
+			<div class="section-title text-center">
+				<span class="sp-color1">Testimonials</span>
+				<h2>What Our Clients Say</h2>
+			</div>
+			<div class="clients-slider owl-carousel owl-theme pt-45">
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Thomas Paul</h3>
+						<span>Sr. Developer @ APISDOR</span>
+					</div>
+					<p>
+					“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”
+					</p>
+				</div>
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Dan Fitzpatrick</h3>
+						<span>President @ KRIXI</span>
+					</div>
+					<p>
+					“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”
+					</p>
+				</div>
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Anand Katti</h3>
+						<span>COO @ Shyena Techyarns</span>
+					</div>
+					<p>
+					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="client-circle">
+			<div class="client-circle-1">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-2">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-3">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-4">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-5">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-6">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-7">
+				<div class="circle"></div>
+			</div>
+		</div> -->
+	</section>
+
+
+	<div class="case-study-area ptb-100">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="sp-color2">Steps to Hire Top Frontend Talent</span>
+                <h2 class="pb-5">Hire a Frontend Developers in Few Steps</h2>
+				<img class="hire_steps" alt="Steps for Hiring">
+            </div>
+		</div>
+	</div>
+
+
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container">
         <div class="row align-items-center">
@@ -311,75 +444,6 @@
         </div>
     </div>
 </div>
-
-
-<!-- Testimonials Area -->
-	<section class="clients-area pt-100 pb-70">
-		<div class="container">
-			<div class="section-title text-center">
-				<span class="sp-color1">Testimonials</span>
-				<h2>What Our Clients Say</h2>
-			</div>
-			<div class="clients-slider owl-carousel owl-theme pt-45">
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Thomas Paul</h3>
-						<span>Sr. Developer @ APISDOR</span>
-					</div>
-					<p>
-					“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”
-					</p>
-				</div>
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Dan Fitzpatrick</h3>
-						<span>President @ KRIXI</span>
-					</div>
-					<p>
-					“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”
-					</p>
-				</div>
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Anand Katti</h3>
-						<span>COO @ Shyena Techyarns</span>
-					</div>
-					<p>
-					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth. Their holistic approach and unwavering commitment have been instrumental. I highly recommend their services!”
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="client-circle">
-			<div class="client-circle-1">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-2">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-3">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-4">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-5">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-6">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-7">
-				<div class="circle"></div>
-			</div>
-		</div>
-	</section>
 
 
 <div class="brand-area ptb-100">

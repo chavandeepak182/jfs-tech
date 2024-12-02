@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Content Crafted to Connect, Enlighten & Empower</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
+				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -22,19 +22,19 @@
     </video>
 </div>
 
-<section class="work-process-area home_cards pt-100 pb-70">
+<section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
 		<div class="section-title text-center">
-			<span class="sp-color2">Our Content Creation Services</span>
+			<span class="sp-color2"></span>
 			<h2>Content that Engages, Educates & Inspires</h2>
-			<p>Content is the voice of your brand, and we’re here to help you make it impactful. Our content creation services span from persuasive copywriting to compelling video production, ensuring every piece connects with your audience and amplifies your message. We approach content creation with research, creativity, and precision. By understanding your audience and objectives, we create content that aligns with your brand voice and drives engagement. Our process includes strategy, ideation, and execution, ensuring every piece serves a purpose.</p>
+			<p class="margin-auto">Content is the voice of your brand, and we’re here to help you make it impactful. Our content creation services span from persuasive copywriting to compelling video production, ensuring every piece connects with your audience and amplifies your message. We approach content creation with research, creativity, and precision. By understanding your audience and objectives, we create content that aligns with your brand voice and drives engagement. Our process includes strategy, ideation, and execution, ensuring every piece serves a purpose.</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Copywriting</h3>
-					<p>Engaging copy for websites, ads, blogs, and more, crafted to inform, persuade, and drive action.</p>
+					<p>Engaging copy for websites, ads, blogs & more, crafted to inform, persuade & drive action, enhancing your brand's voice & connection with audiences.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Social Media</h3>
-					<p>Creative, on-brand posts for social platforms that foster interaction and build community.</p>
+					<p>Creative, on-brand posts for social platforms that foster interaction, build community & enhance audience engagement, brand loyalty & long-term customer relationships.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -50,7 +50,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Video Production</h3>
-					<p>From concept to final cut, we produce videos that communicate your brand’s story, whether it’s a product explainer or similar like.</p>
+					<p>From concept to final cut, we produce high-quality videos that communicate your brand’s story, whether it’s a product explainer, promotional video, or similar content.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Strategy</h3>
-					<p>A data-driven approach to planning & distributing content that aligns with your audience’s needs & your business goals.</p>
+					<p>A data-driven approach to planning and distributing content that aligns with your audience’s needs, boosts engagement, and supports your business goals.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -67,14 +67,14 @@
 </section>
 
 
-<div class="choose-area pt-100 pb-70 home">
+    <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our UI/UX Design Service Stands Out?</h2>
+							<h2>Why Our Content Creation Services Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">

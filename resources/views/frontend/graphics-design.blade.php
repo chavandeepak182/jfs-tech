@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Graphic Design that Communicates & Connects</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
+				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -22,19 +22,19 @@
     </video>
 </div>
 
-<section class="work-process-area home_cards pt-100 pb-70">
+<section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
 		<div class="section-title text-center">
 			<span class="sp-color2"></span>
 			<h2>Crafting Visuals That Resonate & Communicate</h2>
-			<p>Graphic design is more than aesthetics; it’s a means to communicate your brand’s personality, values, and story. Our design team delivers eye-catching, consistent visuals across all media, ensuring your brand remains memorable and distinct. Our graphic design process begins with an in-depth understanding of your brand and audience, followed by a collaborative design phase to create visuals that align with your vision and goals. Whether it’s a new logo or a full brand refresh, we ensure every detail reflects your identity.</p>
+			<p class="margin-auto">Graphic design is more than aesthetics; it’s a means to communicate your brand’s personality, values, and story. Our design team delivers eye-catching, consistent visuals across all media, ensuring your brand remains memorable and distinct. Our graphic design process begins with an in-depth understanding of your brand and audience, followed by a collaborative design phase to create visuals that align with your vision and goals. Whether it’s a new logo or a full brand refresh, we ensure every detail reflects your identity.</p>
 		</div>
-		<div class="row pt-45">
+		<div class="row pt-45 justify-content-center">
 			<div class="col-lg-4 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Print Design</h3>
-					<p>Professional designs for brochures, posters, business cards, packaging, and more to leave a lasting impression in the physical space.</p>
+					<p>Professional designs for brochures, posters, business cards, packaging, and more to leave a lasting impression in the physical and digital space, enhancing brand identity and engagement.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Digital Design</h3>
-					<p>Dynamic visuals for websites, social media, email templates, and digital ads tailored to engage and inspire your digital audience.</p>
+					<p>Dynamic visuals for websites, social media, email templates, and digital ads tailored to engage, captivate, and inspire your digital audience, driving brand awareness and boosting conversions effectively.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
@@ -50,7 +50,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Illustration</h3>
-					<p>Custom illustrations that add a unique touch to your brand, making your storytelling visually impactful and memorable.</p>
+					<p>Custom illustrations that add a unique touch to your brand, making your storytelling visually impactful, engaging, and truly memorable for your audience, enhancing brand identity and connection.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Brand Strategy & Visual Identity</h3>
-					<p>We define your brand’s purpose, mission, and vision, then create logos, color palettes, and typographic styles that are consistent and distinctive.</p>
+					<p>We define your brand’s purpose, mission, and vision, then create logos, color palettes, and typographic styles that are consistent, distinctive, and resonate with your target audience.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
@@ -66,15 +66,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Brand Guidelines</h3>
-					<p>A comprehensive guide to maintain brand consistency across all platforms, ensuring every representation is on-brand.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
-				</div>
-			</div>
-            <div class="col-lg-4 col-sm-6">
-				<div class="work-process-card-three">
-					<div class="number-title invisible ">01.</div>
-					<h3>Brand Guidelines</h3>
-					<p>A comprehensive guide to maintain brand consistency across all platforms, ensuring every representation is on-brand.</p>
+					<p>A comprehensive guide to maintain brand consistency across all platforms, ensuring every representation is on-brand, aligns with your company's core values and identity, and strengthens brand recognition.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
@@ -90,7 +82,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our UI/UX Design Service Stands Out?</h2>
+							<h2>Why Our Graphics Design Services Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
