@@ -413,7 +413,7 @@
 	</div>
 
 
-	<!-- Key highlights Area -->
+<!-- Key highlights Area -->
 	<div class="counter-area pt-100">
 		<div class="container">
 			<div class="section-title text-center">

@@ -4,25 +4,22 @@
 @section('description', "Discover comprehensive B2B End-to-End Sales services with our leading digital marketing company. Contact us for services.")
 
 @section('content')
-<div class="inner-banner">
+<div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center">
+        <div class="inner-title w-75">
             <h1>About Us</h1>
-            <ul>
-                <li>
-                    <a href=" ">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>About Us</li>
-            </ul>
+            <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
         </div>
     </div>
+    
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/services.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 
-<div class="about-area ptb-100">
+<div class="about-area pt-100">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">
@@ -42,13 +39,93 @@
                 	<div class="section-title">
 						<span class="sp-color2">24+ Years Leadership Experience</span>
 						<h2>Right Partner for Software Innovation</h2>
-						<p>At JFS Technologies, we believe in driving digital transformation with purpose and innovation. As a trusted partner for businesses across industries, we specialize in providing tailored digital solutions that elevate operational efficiency, enhance customer experience, and foster sustainable growth. Our expertise spans Data Science, AR/VR, Application Modernization, and Infrastructure Management, among other advanced digital services. Whether it’s revolutionizing customer engagement with AI or creating immersive AR/VR experiences, JFS Technologies is committed to empowering your business for the future.</p>
+						<p>At JFS Technologies, we are a forward-thinking technology company committed to helping businesses thrive in a constantly evolving digital landscape. With a deep understanding of emerging technologies and industry trends, we design and implement innovative solutions tailored to your specific needs. Whether it&#39;s transforming legacy systems, building interactive experiences, or scaling your operations, we are your trusted partner in achieving sustainable growth. Founded on the principles of collaboration, innovation, and excellence, JFS Technologies brings together a team of experienced professionals dedicated to delivering measurable results. Our goal is to not only solve your current challenges but also prepare your business for the opportunities of tomorrow.</p>
 					</div>
 				</div>
             </div>
         </div>
     </div>
 </div>
+
+
+<section class="services-style-area pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="sp-color2">What We Do</span>
+            <h2 style="max-width: 725px;">Transforming Ideas into Reality</h2>
+            <p class="margin-auto">We offer a diverse portfolio of services designed to address every aspect of your digital journey. Our expertise spans across the following four key areas:</p>
+        </div>
+        <div class="row pt-45 mx-auto justify-content-center custom-card">
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
+                    <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
+                    <p>Empowering businesses to stay competitive by leveraging modern technologies and strategies.</p>
+                    <p><b>Key Features:</b>
+                        <ul>
+                            <li><strong>Data Science:</strong> Unlock the power of your data with advanced analytics and predictive modeling.</li>
+                            <li><strong>AR/VR:</strong> Create immersive experiences to enhance customer engagement and training.</li>
+                            <li><strong>Application Modernisation:</strong> Transform legacy applications to meet current and future business needs.</li>
+                            <li><strong>Infrastructure Management: </strong>Optimize and maintain your IT infrastructure for maximum efficiency.</li>
+                        </ul>
+                    </p>
+                    <a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/digital-exp.gif" class="brand-logo-one icons-img" alt="digital-exp">
+                    <h3><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
+                    <p>Creating impactful digital interactions that resonate with your target audience.</p>
+                    <p><b>Key Features:</b>
+                        <ul>
+                            <li><strong>Digital Marketing:</strong> Reach and engage your customers through tailored marketing strategies.</li>
+                            <li><strong>Website Development:</strong> Build responsive, fast, and user-friendly websites that reflect your brand.</li>
+                            <li><strong>Mobile App Development:</strong> Deliver seamless mobile experiences for iOS and Android platforms.</li>
+                            <li><strong>Creative Services:</strong> Enhance your brand identity with compelling visuals, designs, and content.</li>
+                        </ul>
+                    </p>
+                    <a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
+                    <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
+                    <p>Accelerating development cycles and enhancing operational efficiency.</p>
+                    <p><b>Key Features:</b>
+                        <ul>
+                            <li><strong>CI/CD Pipelines:</strong> Streamline your software delivery with continuous integration and deployment.</li>
+                            <li><strong>Process Automation:</strong> Automate repetitive tasks to reduce errors and save time.</li>
+                            <li><strong>Containers & Microservices:</strong> Build scalable applications using containerized architectures.</li>
+                            <li><strong>DevSecOps:</strong> Integrate security into every stage of your software lifecycle.</li>
+                        </ul>
+                    </p>
+                    <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
+                    <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
+                    <p>Providing the right talent to complement and strengthen your teams.</p>
+                    <p><b>Key Features:</b>
+                        <ul>
+                            <li><strong>Frontend Developers:</strong> Deliver intuitive and engaging user interfaces.</li>
+                            <li><strong>Backend Developers:</strong> Build robust server-side solutions for your applications.</li>
+                            <li><strong>Fullstack Developers:</strong> Get experts proficient in both frontend and backend technologies.</li>
+                            <li><strong>Support Engineers:</strong> Ensure seamless operation and quick resolution of technical issues.</li>
+                        </ul>
+                    </p>
+                    <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 
 <!-- Trust Us Area -->	
@@ -105,112 +182,40 @@
 		</div>
 	</div>
 
-<div class="security-area pt-100 pb-70">
-	<div class="container">
-		<div class="section-title text-center w-75 mx-auto">
-			<span class="sp-color2">IT Security & Computing</span>
-			<h2>We Provide Truly Prominent Solutions</h2>
-			<p>In a rapidly evolving digital landscape, IT security is essential. At JFS Technologies, our dedicated team ensures that your data and systems are protected against emerging threats. From implementing robust security protocols to real-time monitoring and proactive incident response, we are committed to safeguarding your operations. Our security services include:</p>
-		</div>
-		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
-				<div class="security-card">
-					<i class="flaticon-cyber-security"></i>
-					<h3><a>24/7 Monitoring</a></h3>
-					<p>Around-the-clock vigilance ensures that potential threats are identified and mitigated swiftly.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="security-card">
-					<i class="flaticon-computer"></i>
-					<h3><a>Data Protection</a></h3>
-					<p>Advanced encryption and secure storage systems protect sensitive information.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="security-card">
-					<i class="flaticon-effective"></i>
-					<h3><a>Compliance</a></h3>
-					<p>We ensure your digital infrastructure meets industry standards and regulatory requirements, keeping your business compliant and secure.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
-
-<div class="brand-area-two ptb-100" style="background-color: #f4f4ff;">
-    <div class="container-fluid">
-        <div class="brand-slider owl-carousel owl-theme">
-            <div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-			</div>
-			<div class="brand-item">
-				<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
-			</div>
-        </div>
-    </div>
-</div>
-
-
-	<!-- Key highlights Area -->
-	<div class="counter-area pt-100 pb-70">
+	<div class="counter-area pt-100">
 		<div class="container">
 			<div class="section-title text-center">
-				<span class="sp-color2">Key highlights</span>
-				<h2>Milestones Matter: Our Growth in Focus</h2>
+				<span class="sp-color2">Clientele</span>
+				<h2>Our Impact in Numbers</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="experience">
-						<h3>24+</h3>
-						<span>Years of Expertise</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="experience">
+						<h3>150+</h3>
+						<span>Projects Delivered</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
-						<h3>150+</h3>
-						<span>Technology Experts</span>
+						<h3>25+</h3>
+						<span>Industries Served</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/customers.svg" class="brand-logo-one" alt="Customer Base">
-						<h3>100+</h3>
-						<span>Clients Worldwide</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Customer Base">
+						<h3>10+</h3>
+						<span>Years of Excellence</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/locations.svg" class="brand-logo-one" alt="locations">
-						<h3>4+</h3>
-						<span>Locations</span>
+						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="locations">
+						<h3>100%</h3>
+						<span>Client Satisfaction</span>
 					</div>
 				</div>
 			</div>
@@ -226,33 +231,95 @@
 	</div>
 
 
-	<div class="call-us-area">
+<!-- Clientele Area -->
+	<div class="brand-area ptb-100">
+		<div class="container-fluid">
+			<div class="brand-slider owl-carousel owl-theme">
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/kc.png" class="brand-logo-one" alt="KC Overseas">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+				</div>
+				<div class="brand-item">
+					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="call-us-area pt-100 pb-70">
 		<div class="container">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-5">
-					<div class="call-contact">
-						<h3>Recognitions</h3>
-						<a class="call-btn">Awards &amp; Achievements</a>
-						<p>We've earned honors as one of the top digital marketing agency across the nation and internationally.</p>
+			<div class="section-title text-center">
+				<span class="sp-color1">Recognitions</span>
+				<h2 class="text-white">Awards & Achievements</h2>
+			</div>
+			<div class="row align-items-center justify-content-center pt-5">
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-7 pt-5 pb-3">
-					<div class="row">
-						<div class="col-lg-4 col-4">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
-							</div>
-						</div>
-						<div class="col-lg-4 col-4">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
-							</div>
-						</div>
-                        <div class="col-lg-4 col-4">
-							<div class="work-process-card rounded">
-                                <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
-							</div>
-						</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
+					</div>
+				</div>
+                <div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/g-partner.png" class="" alt="Google Partner">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/top-dmc.png" class="" alt="Top Digital Marketing Company">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
 					</div>
 				</div>
 			</div>
