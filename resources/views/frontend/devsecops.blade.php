@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Empowering DevOps with Built-in Security and Compliance</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -30,28 +30,36 @@
 			<p class="margin-auto">Our DevSecOps services focus on integrating security practices early on in the development process to ensure that your applications are secure from the start. We work closely with your development and operations teams to implement security controls, automate security testing, and continuously monitor and improve the security of your applications. Our goal is to help you build and deploy secure software more efficiently and effectively. With our DevSecOps services, you can have peace of mind knowing that your applications are protected against cyber threats.</p>
 		</div>
 		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Website and App Design</h3>
-					<p>We create clean, user-friendly interfaces that adapt seamlessly across devices, prioritizing form & function. Our designs enhance user journeys, boost engagement, & reflect your brand’s identity—whether for web, mobile, or desktop applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Security Automation</h3>
+					<p>DevSecOps services provide automated security testing tools and processes that can be integrated into the CI/CD pipeline, allowing for continuous security testing of code changes and deployments.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>UX Research & Strategy</h3>
-					<p>Through user interviews, surveys, and heat mapping, we gather insights into behaviors and preferences that drive our design decisions. These insights help us create intuitive, visually engaging UI/UX designs aligned with your business goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Vulnerability Management</h3>
+					<p>DevSecOps services include comprehensive vulnerability scanning and management tools that help identify, prioritize, and address security vulnerabilities in applications and infrastructure efficiently.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Wireframing & Prototyping</h3>
-					<p>Starting with initial layouts and prototypes, we test, refine, and align designs with your vision. This iterative approach ensures a user-centered, polished final product that meets both business goals and user expectations.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Compliance Monitoring</h3>
+					<p>DevSecOps services offer compliance monitoring tools that help ensure that applications and systems meet regulatory and industry-specific security standards, enhancing overall security posture and risk management.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Secure Code Review</h3>
+					<p>DevSecOps services include advanced secure code review tools that help developers identify, analyze, and fix security issues in code early in the development process, ensuring better overall software security.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>
@@ -66,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our UI/UX Design Service Stands Out?</h2>
+							<h2>Why Our DevSecOps Service Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">

@@ -35,7 +35,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/adv-analytics.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">1.  Advance Analytics:</a></h3>
                     <p>Utilizing state-of-the-art technology and sophisticated data analysis methods, we assist businesses in obtaining valuable insights and facilitating informed decision-making processes. Our proficient team of data scientists and analysts excel at transforming raw data into practical intelligence. Through our cutting-edge analytics services, you can outperform competitors and propel growth within your organization. Allow us to unleash the complete potential of your data and convert it into a strategic asset.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -43,7 +43,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/data-view.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">2. Data Visualization</a></h3>
                     <p>Our data visualization services are designed to help you turn complex datasets into clear, informative visual representations. Whether you need interactive dashboards, compelling infographics, or detailed charts and graphs, our team of experts can create custom solutions to meet your specific needs. With our services, you can unlock valuable insights, identify trends, and communicate your data in a way that is easy to understand and impactful. Reach out to us today to learn more about how we can help you bring your data to life.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -51,7 +51,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/ai-assistant.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">3.  Generative AI & Conversational AI</a></h3>
                     <p>Experience a revolutionary transformation in customer interactions and operational efficiency with our cutting-edge Generative and Conversational AI services. By leveraging the latest advancements in natural language processing and machine learning, our AI solutions enable businesses to effortlessly communicate with customers on a personalized level and provide efficient support on a large scale. Whether you require a chatbot for customer service, virtual assistants for internal processes, or AI-powered voice recognition systems, our bespoke services can enhance your customer experience and streamline operations. Embrace the future of conversational AI with our tailored solutions and revolutionize the way you engage with your target audience.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -59,7 +59,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/pre-mod.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">4. Predictive Modelling</a></h3>
                     <p>We use cutting-edge algorithms and data analysis techniques to help businesses anticipate future trends and behaviors. Our predictive modeling services allow companies to make better decisions, improve operations, and increase profitability. By identifying patterns and relationships in data, we can forecast outcomes with a high degree of accuracy. Whether you're looking to optimize your marketing strategy, streamline your supply chain, or reduce risk, our team of experts can help you leverage the power of predictive analytics to drive success. Contact us today to learn more about how our predictive modeling services can benefit your business. Predictive modeling uses data and machine learning to identify patterns and forecast future outcomes.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>

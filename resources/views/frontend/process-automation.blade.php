@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Driving Efficiency with Tailored Process Automation Solutions</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -30,28 +30,36 @@
 			<p class="margin-auto">Our team of experts specializes in CI/CD pipeline services that simplify the process of creating, testing, and rolling out code updates with speed and precision. By automating crucial steps in the development cycle, we enable teams to expedite software delivery without compromising on quality or dependability. Leveraging our knowledge of CI/CD tools and industry standards, we equip businesses to adopt a mindset of ongoing integration and delivery, leading to quicker launches and a greater edge in the market.</p>
 		</div>
 		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Website and App Design</h3>
-					<p>We create clean, user-friendly interfaces that adapt seamlessly across devices, prioritizing form & function. Our designs enhance user journeys, boost engagement, & reflect your brand’s identity—whether for web, mobile, or desktop applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Configuration Management</h3>
+					<p>Tools like Ansible, Puppet, and Chef automate the provisioning and configuration of infrastructure and application components, ensuring consistency and repeatability.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>UX Research & Strategy</h3>
-					<p>Through user interviews, surveys, and heat mapping, we gather insights into behaviors and preferences that drive our design decisions. These insights help us create intuitive, visually engaging UI/UX designs aligned with your business goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Continuous Integration</h3>
+					<p>Services like Jenkins, GitLab CI/CD, and TeamCity automate the process of integrating code changes from multiple developers into a shared repository, triggering automated builds and tests.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Wireframing & Prototyping</h3>
-					<p>Starting with initial layouts and prototypes, we test, refine, and align designs with your vision. This iterative approach ensures a user-centered, polished final product that meets both business goals and user expectations.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<h3>Continuous Deployment</h3>
+					<p>AWS CodeDeploy, Azure DevOps, and Jenkins efficiently automate code deployment to staging and production environments, ensuring seamless updates using predefined triggers and rules.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Monitoring & Alerting</h3>
+					<p>Tools like Prometheus, Grafana, and Nagios automate the monitoring of infrastructure and application performance, providing real-time insights and triggering alerts based on predefined thresholds.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>
@@ -66,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our UI/UX Design Service Stands Out?</h2>
+							<h2>Why Our Automation Services Lead the Way</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">

@@ -1326,6 +1326,10 @@ img{max-width:100%}
   font-weight: 500;
 }
 
+.hire_steps{
+  content: url(../images/steps.png);  
+}
+
 .cards {
   position: relative;
   width: 100%;

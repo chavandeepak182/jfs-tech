@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
-            <h1>3D Services to Bring Your Ideas to Life</h1>
+        <div class="inner-title w-75">
+            <h1>Transform Your Ideas with Professional 3D Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -25,7 +25,7 @@
 <section class="work-process-area home_cards pt-100 pb-70">
 	<div class="container">
 		<div class="section-title text-center">
-			<span class="sp-color2">Our Content Creation Services</span>
+			<span class="sp-color2"></span>
 			<h2>Bringing Concepts to Life with 3D Excellence</h2>
 			<p>3D visualization offers a new perspective, bringing concepts to life with precision and detail. Our 3D services help you showcase products, envision spaces, and create engaging visual experiences that captivate and communicate effectively. Our 3D design process combines technical expertise with creativity, ensuring every project is delivered with precision. From initial concept to final rendering, we work collaboratively with clients to bring their vision to life, creating visuals that are not only accurate but also compelling.</p>
 		</div>
@@ -34,7 +34,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Product Design</h3>
-					<p>Realistic 3D models for showcasing product features, suitable for both prototyping and marketing purposes.</p>
+					<p>Realistic 3D models for showcasing product features, suitable for both prototyping, marketing purposes, and enhancing customer engagement and decision-making.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Exhibition Booth Design</h3>
-					<p>Custom 3D designs for exhibitions and trade shows that grab attention and create a memorable experience for attendees.</p>
+					<p>Custom 3D designs for exhibitions and trade shows that grab attention, engage visitors, and create a memorable experience for attendees.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Strategy</h3>
-					<p>Animations that highlight features, demonstrate functionality, or tell a brand story through engaging 3D visuals.</p>
+					<p>Animations that highlight features, demonstrate functionality, or tell a brand story through engaging 3D visuals, creating a memorable and impactful user experience.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -74,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our UI/UX Design Service Stands Out?</h2>
+							<h2>Why Our 3D Design Service Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">

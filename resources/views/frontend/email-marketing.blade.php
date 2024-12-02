@@ -7,7 +7,7 @@
 
 <div class="inner-banner" style="background-image: url(../theme/assets/images/infra.webp);">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Compelling Email Designs & Copy That Drive Conversions</h1>
             <p class="text-white"></p>
             <div class="banner-btn">

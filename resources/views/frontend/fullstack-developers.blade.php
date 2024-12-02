@@ -5,130 +5,248 @@
 
 @section('content')
 
-<div class="inner-banner" style="background-image: url(../theme/assets/images/modern-app.webp);">
+<div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
-            <h1>Transform & Modernize Your Applications for the Digital Age</h1>
+        <div class="inner-title w-75">
+            <h1>Reliable Full-Stack Development Services for All Industries</h1>                 
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
-            <!-- <ul>
-                <li>
-                    <a href="{{ asset(' ') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Data Science Services</li>
-            </ul> -->
         </div>
     </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
-    </div>
+    
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
-<section class="services-style-area pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2"></span>
-            <h2>Reimagine Your Applications for a Digital-First Future</h2>
-            <p class="margin-auto">Our Application Modernization services are designed to help your business stay competitive in an evolving digital landscape. Whether you’re upgrading legacy systems, migrating to the cloud, or enhancing user experience, our expert team is here to guide you every step of the way. Leveraging the latest technologies, we ensure that your applications are secure, efficient, and future-ready. Let us help you bring your applications into the modern era and drive business growth.</p>
-        </div>
-        <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/applications.gif" class="brand-logo-one icons-img" alt="applications">
-                    <h3><a href="#">1. Application Modernisation Consulting</a></h3>
-                    <p>We specialize in assisting organizations in enhancing and modernizing their software applications to align with the latest technology trends and boost overall efficiency. Utilizing cutting-edge technologies such as cloud computing and automation tools, we strive to simplify operations, lower expenses, and elevate user satisfaction. Our team of skilled professionals will collaborate closely with your organization to evaluate your current applications, pinpoint areas in need of enhancement, and formulate a personalized modernization strategy for a seamless transition. Whether you seek to shift to a new platform, optimize code, or introduce innovative features, our application modernization solutions will ensure you remain competitive in today's rapidly evolving digital environment.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/responsive.gif" class="brand-logo-one icons-img" alt="responsive">
-                    <h3><a href="#">2.UI/UX Modernisation</a></h3>
-                    <p>In today's fast-paced digital landscape, where user expectations are constantly evolving, businesses need innovative and engaging interfaces to stay competitive. Our UI/UX Modernization services are crafted to help you excel and stand out. We start by thoroughly analyzing your current user interface and experience to identify opportunities for enhancement, optimization, and innovation. Our skilled team of designers and developers then collaborates to create a visually stunning, intuitive interface that not only enhances user experience but also drives engagement and conversion rates. Whether you need a complete overhaul or targeted updates, our experts are ready to elevate your UI/UX to new heights, setting your business apart in a crowded market.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/database.gif" class="brand-logo-one icons-img" alt="database">
-                    <h3><a href="#">3. Legacy to Cloud Migration</a></h3>
-                    <p>Our team of experts has years of experience in helping businesses seamlessly transition their legacy systems to cloud-based applications. With our proven methodology and technical expertise, we ensure a smooth and efficient migration process, minimizing downtime and maximizing cost savings. Trust us to guide you through every step of the migration journey, from planning and assessment to implementation and testing. Let us help you unlock the full potential of cloud technology and transform your business for the digital age.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/api.gif" class="brand-logo-one icons-img" alt="API">
-                    <h3><a href="#">4. API Integration</a></h3>
-                    <p>Our API integration services streamline the process of connecting different applications and systems, allowing for seamless data exchange and communication. With our experienced team of developers, we can ensure that your APIs are implemented efficiently and effectively. Whether you are looking to integrate third-party services or build custom APIs for your own platform, we have the expertise to meet your needs. Trust us to handle the complexities of API integration so you can focus on growing your business.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="services-style-area home_cards pt-100 pb-70">
+	<div class="container">
+		<div class="section-title text-center">
+			<span class="sp-color2"></span>
+			<h2>End-to-End Full-Stack Web Development Services</h2>
+			<p class="margin-auto">Our fullstack developers are carefully selected based on their expertise and experience in the specific technology stack required for the project. They are skilled professionals who possess a deep understanding of both front-end and back-end development, allowing them to seamlessly integrate different components of a software application. Each type of full stack developer offers a unique set of skills and capabilities, making them valuable assets in resource augmentation services for businesses seeking to enhance their development capabilities.</p>
+		</div>
+		<div class="row pt-45 justify-content-center">
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>UI/UX Designers</h3>
+					<p>These developers design the user interface and experience of websites or applications, creating visually appealing and user-friendly designs that boost engagement and satisfaction.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Front-End Developers</h3>
+					<p>These developers write front-end code using HTML, CSS, and JavaScript, implementing designs and ensuring functionality across browsers and devices.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>React Developers</h3>
+					<p>React is a popular JavaScript library for building user interfaces. These developers create interactive web apps & are skilled in components, state management & React-specific features.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Angular Developers</h3>
+					<p>Angular developers build dynamic, scalable web apps using powerful features like modules, components, services & routing, ensuring efficient & maintainable code.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Vue.js Developers</h3>
+					<p>Vue.js developers use the progressive JavaScript framework to build interactive and responsive web apps, leveraging components, directives, and Vuex state management.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Responsive Web Designers</h3>
+					<p>Responsive web designers create websites that adapt to various screen sizes and devices, ensuring a seamless and consistent user experience across all screens.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Accessibility Specialists</h3>
+					<p>They ensure websites and apps are usable for users with disabilities by implementing design & development practices that comply with WCAG standards.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 
-    <div class="choose-area pt-100 pb-70 home">
+<!-- Technologies Area -->
+    <div class="about-area ptb-100">
+		<div class="container-fluid">
+			<div class="row mx-auto">
+				<div class="col-lg-12 text-center">
+					<div class="about-content ml-25">
+						<div class="section-title">
+							<span class="sp-color2">Our Expertise</span>
+							<h2 class="w-50 mx-auto">Technologies to Power Your Next Big Move</h2>
+						</div>
+
+						<div class="slider">
+							<div class="slide-track">
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div class="choose-area pt-100 pb-70 home">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Partner with Us for Application Modernization?</h2>
-                            <p>Partnering with us for your Application Modernization needs means gaining access to:</p>
+							<span class="sp-color1">Hire Us Now!!</span>
+							<h2>Why Hire Full-stack Developers from JFS</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
+										<h3>Custom Solutions</h3>
 									</div>
-									<p>Our team brings extensive experience across multiple sectors, ensuring best practices tailored to your needs.</p>
+									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
+										<h3>Experienced Team</h3>
 									</div>
-									<p>We stay on the cutting edge of technology trends, utilizing cloud, automation, and modern UI/UX design to enhance application functionality.</p>
+									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
+										<h3>Holistic Approach</h3>
 									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+									<p>We consider every aspect of the user journey to create cohesive, engaging digital experiences.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-headset"></i>
-										<h3>Dedicated Support</h3>
+										<h3>Commitment to Quality</h3>
 									</div>
-									<p>From consulting to post-implementation, we’re with you every step of the way to ensure success.</p>
+									<p>From concept to execution, we prioritize high standards to ensure outstanding results.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -137,9 +255,8 @@
     <div class="case-study-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Case Studies</span>
-                <h2>Success Stories in Application Modernization</h2>
-                <p>See how our Application Modernization services have helped businesses transform:</p>
+                <span class="sp-color2"></span>
+                <h2>Client Success Stories</h2>
             </div>
             <div class="row pt-45">
                 <div class="col-lg-4 col-md-6">
@@ -148,8 +265,8 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">Healthcare Platform Revamp</a></h3>
-                            <p>We upgraded a healthcare system, improving access and efficiency.</p>
+                            <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                            <p>Enhanced navigation & visuals led to a 30% boost in user engagement.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -160,8 +277,8 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">Finance Cloud Migration</a></h3>
-                            <p>We migrated a financial client to the cloud, enhancing performance and cutting costs.</p>
+                            <h3><a href="#">Mobile App UX Optimization</a></h3>
+                            <p>Redesigned the booking flow, boosting satisfaction.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -172,40 +289,156 @@
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <ul>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Planing</a> </li>
-                            </ul>
+                            <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                            <p>Built a cohesive visual identity to enhance brand recognition.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
+                    <a href="{{ url('/portfolio') }}" class="default-btn btn-bg-two border-radius-5 py-3">View Our Portfolio</a>
                 </div>
             </div>
         </div>
     </div>
 
 
-<div class="about-area about-bg2 pt-5 pb-1">
-    <div class="container-fluid">
-        <div class="row align-items-center">
+<!-- Testimonials Area -->
+	<section class="clients-area pt-100 pb-70">
+		<div class="container">
+			<div class="section-title text-center">
+				<span class="sp-color1">Testimonials</span>
+				<h2>What Our Clients Say</h2>
+			</div>
+			<div class="clients-slider owl-carousel owl-theme pt-45">
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Thomas Paul</h3>
+						<span>Sr. Developer @ APISDOR</span>
+					</div>
+					<p>
+					“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”
+					</p>
+				</div>
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Dan Fitzpatrick</h3>
+						<span>President @ KRIXI</span>
+					</div>
+					<p>
+					“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”
+					</p>
+				</div>
+				<div class="clients-content">
+					<div class="content">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<i class="bx bxs-quote-alt-left"></i>
+						<h3>Anand Katti</h3>
+						<span>COO @ Shyena Techyarns</span>
+					</div>
+					<p>
+					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="client-circle">
+			<div class="client-circle-1">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-2">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-3">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-4">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-5">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-6">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-7">
+				<div class="circle"></div>
+			</div>
+		</div> -->
+	</section>
+
+
+	<div class="case-study-area ptb-100">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="sp-color2">Steps for Hiring</span>
+                <h2 class="pb-5">Hire a Full-stack Developer in Few Steps</h2>
+				<img class="hire_steps" alt="Steps for Hiring">
+            </div>
+		</div>
+	</div>
+
+
+<div class="about-area about-bg2 pt-100 pb-70">
+    <div class="container">
+        <div class="row">
             <div class="col-lg-6">
-                <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                <div class="about-content-3 mr-20">
+                    <div class="section-title">
+                        <span class="sp-color1">Let's Start Today!</span>
+                        <h2>Hire Top Full-Stack Developers</h2>
+                        <p>Our team of fullstack developers is adept at working with various technologies and frameworks, ensuring that they can tackle any challenge and deliver high-quality solutions. Whether it's building web applications, mobile apps, or custom software solutions, our fullstack developers have the knowledge and skills to meet the unique requirements of each project.</p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="about-content-3 ml-20">
-                    <div class="section-title">
-                        <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Modernize Your Applications?</h2>
-                        <p>Don’t let outdated applications hold your business back. Our Application Modernization services can bring new life to your software, helping you improve efficiency, enhance security, and deliver better experiences to your users.</p>
-                    </div>
-                    <h3>With 24+ years of expertise, we deliver cutting-edge Application Modernization solutions.</h3>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
+                <div class="contact-form">
+                    <form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Full Name*">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Business Email*">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number*">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="company_name" id="company_name" class="form-control" required data-error="Please Enter Your Company's Name" placeholder="Company Name*">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" required data-error="Write your message" placeholder="Tell us something about your requirement...*"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 text-center">
+                                <button type="submit" class="default-btn btn-bg-one border-radius-5 px-5">
+                                    Hire Us Now <i class="fal fa-exclamation"></i>
+                                </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

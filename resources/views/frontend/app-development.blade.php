@@ -7,11 +7,11 @@
 
 <div class="inner-banner" style="background-image: url(../theme/assets/images/infra.webp);">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto">
+        <div class="inner-title w-75">
             <h1>Transform Your Ideas into Cutting-Edge Mobile Applications</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -31,7 +31,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/native.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
                     <h3><a href="#">Native App Development</a></h3>
 					<p>Our iOS developers create feature-rich, optimized applications that deliver a premium experience on all Apple devices. From concept to App Store submission, we provide end-to-end iOS development services using the latest technologies like Swift and Objective-C to maximize your app's impact.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -39,7 +39,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/cross.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
                     <h3><a href="#">Cross-Platform Development</a></h3>
 					<p>Maximize your reach with our cross-platform development expertise using Flutter, React Native, and Xamarin. We build applications that provide a consistent experience on both iOS and Android, reducing development time and costs while delivering high-quality, native-like performance.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -47,7 +47,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/hybrid.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
                     <h3><a href="#">Hybrid App Development</a></h3>
 					<p>Our hybrid app development combines web & native app benefits for a cost-effective, cross-platform solution. Using frameworks like Ionic, Cordova, PhoneGap & NativeScript, we deliver native-like functionality, seamless user experiences & reduced development time.</p>
-                    <a href="#" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
 		</div>

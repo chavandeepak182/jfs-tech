@@ -35,56 +35,56 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ url('/frontend-developers') }}">
                         <div class="number-title invisible">01.</div>
                         <h3>Frontend Development</h3>
                         <p>Frontend development creates the visual and interactive elements of websites and applications to enhance user experience.</p>
                         <!-- <i class="fad fa-bring-front my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/frontend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ url('/backend-developers') }}">
                         <div class="number-title invisible">02.</div>
                         <h3>Backend Development</h3>
                         <p>Backend development involves server-side programming & database management to ensure the seamless functionality of web applications.</p>
                         <!-- <i class="fad fa-send-back my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/backend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ url('/fullstack-developers') }}">
                         <div class="number-title invisible">03.</div>
                         <h3>Fullstack Development</h3>
                         <p>It involves creating both front-end and back-end components of web applications, ensuring seamless integration and functionality.</p>
                         <!-- <i class="fad fa-box-full my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/fullstack-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
-                    <a href="#">
+                    <a href="{{ url('/support-engineers') }}">
                         <div class="number-title invisible">04.</div>
                         <h3>Support Engineers</h3>
                         <p>Expert engineers providing reliable, timely assistance to resolve technical issues, ensure system efficiency & deliver exceptional user satisfaction.</p>
                         <!-- <i class="fab fa-codepen my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/support-engineers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
