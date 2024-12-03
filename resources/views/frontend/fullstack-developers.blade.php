@@ -33,56 +33,51 @@
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>UI/UX Designers</h3>
-					<p>These developers design the user interface and experience of websites or applications, creating visually appealing and user-friendly designs that boost engagement and satisfaction.</p>
+					<p><strong>JavaScript</strong> Full-Stack Developers, for example, excel in building web apps using popular JavaScript frameworks like React, Angular, or Vue, creating dynamic user interfaces & robust back-end systems.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Front-End Developers</h3>
-					<p>These developers write front-end code using HTML, CSS, and JavaScript, implementing designs and ensuring functionality across browsers and devices.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
-				</div>
-			</div>
-            <div class="col-lg-3 col-sm-6">
-				<div class="work-process-card-three">
-					<div class="number-title invisible ">01.</div>
-					<h3>React Developers</h3>
-					<p>React is a popular JavaScript library for building user interfaces. These developers create interactive web apps & are skilled in components, state management & React-specific features.</p>
+					<p><strong>MERN</strong> Stack Developers specialize in MongoDB, Express.js, React, and Node.js, while</p>
+					<p><strong>MEAN</strong> Stack Developers focus on MongoDB, Express.js, Angular, and Node.js.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Angular Developers</h3>
-					<p>Angular developers build dynamic, scalable web apps using powerful features like modules, components, services & routing, ensuring efficient & maintainable code.</p>
+					<p><strong>Ruby on Rails</strong> Full-Stack Developers are proficient in developing web apps using the Ruby programming language and the Rails framework, ensuring high performance, scalability & maintainable code.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Vue.js Developers</h3>
-					<p>Vue.js developers use the progressive JavaScript framework to build interactive and responsive web apps, leveraging components, directives, and Vuex state management.</p>
+					<p><strong>Python</strong> Full-Stack Developers leverage the versatility of Python to build robust & scalable apps, integrating various frameworks & libraries to enhance functionality & performance.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Responsive Web Designers</h3>
-					<p>Responsive web designers create websites that adapt to various screen sizes and devices, ensuring a seamless and consistent user experience across all screens.</p>
+					<p><strong>LAMP</strong> Stack Developers work with Linux, Apache, MySQL, and PHP to create dynamic websites and web applications.</p>
+					<p><strong>PHP</strong> Full-Stack Developers specialize in PHP and popular frameworks like Laravel or Symfony.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Accessibility Specialists</h3>
-					<p>They ensure websites and apps are usable for users with disabilities by implementing design & development practices that comply with WCAG standards.</p>
+					<p><strong>Mobile</strong> Full-Stack Developers have expertise in developing both front-end and back-end solutions for mobile applications, utilizing technologies like React Native, Flutter, Xamarin & cloud-based integrations.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<p><strong>DevOps</strong> Full-Stack Developers excel in both development and operations, specializing in process automation, system performance monitoring, seamless deployment, and effective software maintenance.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -92,7 +87,7 @@
 
 
 <!-- Technologies Area -->
-    <div class="about-area ptb-100">
+    <div class="about-area pb-70">
 		<div class="container-fluid">
 			<div class="row mx-auto">
 				<div class="col-lg-12 text-center">
@@ -104,16 +99,6 @@
 
 						<div class="slider">
 							<div class="slide-track">
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
-									</div>
-								</div>
 								<div class="slide">
 									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
@@ -151,6 +136,11 @@
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
 									</div>
 								</div>
@@ -161,22 +151,7 @@
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
@@ -186,7 +161,12 @@
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
+									</div>
+								</div>
+								<div class="slide">
+									<div class="work-process-cards">
+										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
 									</div>
 								</div>
 							</div>

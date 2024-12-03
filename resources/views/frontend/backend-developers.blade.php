@@ -100,7 +100,7 @@
 
 
 <!-- Technologies Area -->
-	<div class="about-area ptb-100">
+	<div class="about-area pb-70">
 		<div class="container-fluid">
 			<div class="row mx-auto">
 				<div class="col-lg-12 text-center">
@@ -114,32 +114,7 @@
 							<div class="slide-track">
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
@@ -164,16 +139,6 @@
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
 									</div>
 								</div>
@@ -184,17 +149,7 @@
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
 										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
-									</div>
-								</div>
-								<div class="slide">
-									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
 							</div>
