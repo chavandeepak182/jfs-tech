@@ -147,7 +147,7 @@
 	</div>
 
 
-<div class="about-area about-bg2 pt-100 pb-2" style="background: #fff;">
+<div class="about-area about-bg2 pt-100 pb-70" style="background: #fff;">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -165,80 +165,6 @@
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="brand-area ptb-100">
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-7">
-                <div class="faq-area ">
-                    <div class="container">
-                        <div class="section-title">
-                            <h2>Frequently Asked Questions</h2>
-                        </div>
-                        <div class="faq-content mt-4">
-                            <div class="faq-accordion">
-                                <ul class="accordion">
-                                    <li class="accordion-item">
-                                        <a class="accordion-title active" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            What is digital marketing?
-                                        </a>
-                                        <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
-                                        </div>
-                                    </li>
-                                    <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
-                                        </a>
-                                        <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
-                                        </div>
-                                    </li>
-                                    <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
-                                        </a>
-                                        <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
-                                        </div>
-                                    </li>
-                                    <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
-                                        </a>
-                                        <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
-                                        </div>
-                                    </li>
-                                    <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
-                                            <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
-                                        </a>
-                                        <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
-                                        </div>
-                                    </li>
-                                </ul>            
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
-				</div>
-			</div>
         </div>
     </div>
 </div>

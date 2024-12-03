@@ -4,113 +4,58 @@
 
 
 @section('content')
-<div class="inner-banner" style="background-image: url(https://s7ap1.scene7.com/is/image/TCSCOMprod/tab3-2048x1076-1?wid=1000&hei=526&dpr=off);">
+<div class="inner-banner" style="background-image: url(../theme/assets/images/infra-mgmt.jpg);">
     <div class="container">
-        <div class="inner-title text-center">
-            <h1>Shape the future you envision</h1>
-            <ul>
-                <li>
-                    <a href="{{ asset('theme') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Careers</li>
-            </ul>
+        <div class="inner-title w-75">
+            <h1>Experience Work-Life Balance & Growth at JFS Technologies</h1>
+            <p class="text-white"></p>
+            <div class="banner-btn">
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Current Openings <i class="bx bx-chevron-right"></i></a>
+			</div>
         </div>
-    </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 
-<div class="case-study-area pt-100 pb-70">
+<section class="services-style-area home_cards pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Why JFS Technologies?</span>
-            <h2>Amazing Opportunities Await You!</h2>
-            <p>JFS Technologies is more than just a company; it’s a community of creative, dedicated, and driven professionals working together toward a common vision: building meaningful relationships and delivering impactful results. Join a leading digital solutions provider that values organizational well-being and sustainable growth!</p>
+            <span class="sp-color2">Life at JFS Technologies</span>
+            <h2>A Place to Grow and Thrive</h2>
+            <p class="margin-auto">At JFS Technologies, we believe in creating a workplace that goes beyond the ordinary. Our culture is built on collaboration, innovation, and respect, offering every team member the opportunity to learn, contribute, and succeed. Whether you&#39;re a seasoned professional or just starting your career, you'll find an environment that nurtures talent and encourages new ideas.</p>
         </div>
-
-        <div class="row pt-45">
-            <div class="col-md-4">
-                <div class="cards">
-                    <div class="front p-3" style="background: url('https://icrmsoftware.com/storage/posts/November2021/OFuNiODwVKelw6ffLyDZ.png');background-size: cover;background-position: center center;">
-                        <!-- <div class="front__img"></div>
-                        <div class="front__content">
-                            <div class="front__content--add"> Super Pizza</div>
-                            <div class="front__content--header">Any pizza for 1 dollar</div>
-                            <div class="front__content--add">Advertising</div>
-                        </div> -->
-                    </div>
-                    <div class="back p-3">
-                        <div class="back__content">
-                            <p>You welcome if you need professional web developer.</p>
-                            <p>My stack:</p>
-                            <ul>
-                                <li>React JS</li>
-                                <li>Vue JS</li>
-                                <li>Pure JS (ES6 and higher)</li>
-                                <li>NodeJS or Kotlin(JVM) on backend</li>
-                                <li>Unit and e2e testing</li>
-                            </ul>
-                            <p>Email us: <a href="mail:careers@jfstechnologies.com" class="text-white"><b><u>careers@jfstechnologies.com</u></b></a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="cards">
-                    <div class="front p-3" style="background: url('https://icrmsoftware.com/storage/posts/November2021/OFuNiODwVKelw6ffLyDZ.png');background-size: cover;background-position: center center;">
-                        <!-- <div class="front__img"></div>
-                        <div class="front__content">
-                            <div class="front__content--add"> Super Pizza</div>
-                            <div class="front__content--header">Any pizza for 1 dollar</div>
-                            <div class="front__content--add">Advertising</div>
-                        </div> -->
-                    </div>
-                    <div class="back p-3">
-                        <div class="back__content">
-                            <p>You welcome if you need professional web developer.</p>
-                            <p>My stack:</p>
-                            <ul>
-                                <li>React JS</li>
-                                <li>Vue JS</li>
-                                <li>Pure JS (ES6 and higher)</li>
-                                <li>NodeJS or Kotlin(JVM) on backend</li>
-                                <li>Unit and e2e testing</li>
-                            </ul>
-                            <p>Email us: <a href="mail:careers@jfstechnologies.com" class="text-white"><b><u>careers@jfstechnologies.com</u></b></a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="cards">
-                    <div class="front p-3" style="background: url('https://icrmsoftware.com/storage/posts/November2021/OFuNiODwVKelw6ffLyDZ.png');background-size: cover;background-position: center center;">
-                        <!-- <div class="front__img"></div>
-                        <div class="front__content">
-                            <div class="front__content--add"> Super Pizza</div>
-                            <div class="front__content--header">Any pizza for 1 dollar</div>
-                            <div class="front__content--add">Advertising</div>
-                        </div> -->
-                    </div>
-                    <div class="back p-3">
-                        <div class="back__content">
-                            <p>You welcome if you need professional web developer.</p>
-                            <p>My stack:</p>
-                            <ul>
-                                <li>React JS</li>
-                                <li>Vue JS</li>
-                                <li>Pure JS (ES6 and higher)</li>
-                                <li>NodeJS or Kotlin(JVM) on backend</li>
-                                <li>Unit and e2e testing</li>
-                            </ul>
-                            <p>Email us: <a href="mail:careers@jfstechnologies.com" class="text-white"><b><u>careers@jfstechnologies.com</u></b></a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row pt-45 justify-content-center">
+			<div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Innovative Projects</h3>
+					<p>Be part of cutting-edge projects that make a difference in the tech world.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Learning Opportunities</h3>
+					<p>Gain exposure to the latest technologies and upskill through training sessions and certifications.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Collaborative Culture</h3>
+					<p>Work alongside talented individuals in a team-driven, open environment.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
+            <div class="col-lg-3 col-sm-6">
+				<div class="work-process-card-three">
+					<div class="number-title invisible ">01.</div>
+					<h3>Recognition & Growth</h3>
+					<p>Your contributions are valued and rewarded with clear growth paths and recognition programs.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+				</div>
+			</div>
         </div>
     </div>
 </div>
