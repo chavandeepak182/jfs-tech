@@ -152,4 +152,8 @@ Route::get('/portfolio', function () {
     return view('frontend.portfolio');
 });
 
+Route::get('/newsroom', function () {
+    return view('frontend.newsroom');
+});
+
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');

@@ -120,12 +120,12 @@
                     <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
+			<div class="col-12 text-center pt-5">
+				<img src="{{ asset('theme') }}/assets/images/vmv.png" alt="Our Core Values" style="width:85%;">
+			</div>
         </div>
     </div>
 </section>
-
-
-
 
 
 <!-- Trust Us Area -->	
@@ -325,6 +325,29 @@
 			</div>
 		</div>
 	</div>
+
+
+<div class="about-area about-bg2 pt-100 pb-2" style="background: #fff;">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img-4">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content-3 ml-20">
+                    <div class="section-title">
+                        <span class="sp-color2">Partner Up With Us</span>
+                        <h2 class="text-dark">Unlock Your Project's Potential</h2>
+                        <p class="text-dark">At JFS Technologies, we are more than a service provider—we are your partner in digital transformation. Our commitment to quality, innovation, and client satisfaction drives everything we do, ensuring that your business is equipped to succeed in the digital era. For more details on each service, visit our Services Pages to learn how JFS Technologies can help your business grow.</p>
+                    </div>
+                    <a href="{{ url('/services') }}" class="default-btn btn-bg-one border-radius-5 py-3">Request a Free Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="team-area pt-100 pb-70">
