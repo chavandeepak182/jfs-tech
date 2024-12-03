@@ -835,7 +835,7 @@ img{max-width:100%}
     transition:.7s
   }
 
-  .home_cards .work-process-card-three::before {
+  .home_cards .work-process-card-three::before, .newsroom .work-process-card-three::before {
     background-color:#fff;
   }
   
@@ -1328,6 +1328,24 @@ img{max-width:100%}
 
 .hire_steps{
   content: url(../images/steps.png);  
+}
+
+.newsroom .work-process-card-three {
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+  padding: 35px 23px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  min-height: 300px;
+}
+
+.newsroom .work-process-card-three i {
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  top: 3px;
+  right: 2px;
 }
 
 .cards {
