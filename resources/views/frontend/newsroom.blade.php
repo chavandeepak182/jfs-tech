@@ -7,7 +7,7 @@
 
 <div class="banner-five-area">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-down" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <div class="col-lg-6">
                 <div class="banner-five-content">
                     <span></span>
@@ -27,7 +27,7 @@
 
 <div class="about-area pt-100">
     <div class="container">
-        <div class="row align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play">
                     <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="About Images">
@@ -64,7 +64,7 @@
 			<h2>Top News of the Moment</h2>
 		</div>
 		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
                     <h3>Tech Connect 2025– Emerging Trends in Digital Experience</h3>
                     <p><i class="fal fa-calendar-alt fa-2x sp-color2"></i> January 15, 2024 </p>
@@ -72,7 +72,7 @@
                     <p>Explore how businesses can redefine customer experiences through cutting-edge technology.</p>
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
                     <h3>Workshop: Mastering DevSecOps</h3>
                     <p><i class="fal fa-calendar-alt fa-2x sp-color2"></i> February 20, 2025 </p>
@@ -80,7 +80,7 @@
                     <p>Hands-on training with our experienced experts in seamlessly integrating security into your DevOps practices effectively.</p>
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
                     <h3>Webinar: Future of Resource Augmentation</h3>
                     <p><i class="fal fa-calendar-alt fa-2x sp-color2"></i> March 10, 2025</p>
@@ -95,7 +95,7 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -149,7 +149,7 @@
 
 <div class="about-area about-bg2 pt-100 pb-70" style="background: #fff;">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">

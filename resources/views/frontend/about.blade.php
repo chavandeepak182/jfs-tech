@@ -6,7 +6,7 @@
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-down" data-aos-offset="600" data-aos-easing="ease-in-sine">
             <h1>About Us</h1>
             <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
         </div>
@@ -21,7 +21,7 @@
 
 <div class="about-area pt-100">
     <div class="container">
-        <div class="row align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play">
                     <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="About Images">
@@ -56,7 +56,7 @@
             <p class="margin-auto">We offer a diverse portfolio of services designed to address every aspect of your digital journey. Our expertise spans across the following four key areas:</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
                     <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
@@ -72,7 +72,7 @@
                     <a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digital-exp.gif" class="brand-logo-one icons-img" alt="digital-exp">
                     <h3><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
@@ -88,7 +88,7 @@
                     <a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
                     <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
@@ -104,7 +104,7 @@
                     <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
                     <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
@@ -120,7 +120,7 @@
                     <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-			<div class="col-12 text-center pt-5">
+			<div class="col-12 text-center pt-5" data-aos="zoom-in" data-aos-duration="750">
 				<img src="{{ asset('theme') }}/assets/images/vmv.png" alt="Our Core Values" style="width:85%;">
 			</div>
         </div>
@@ -131,7 +131,7 @@
 <!-- Trust Us Area -->	
 	<div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -183,7 +183,7 @@
 	</div>
 
 
-	<div class="counter-area pt-100">
+	<div class="counter-area pt-100" data-aos="fade-up" data-aos-duration="750">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Clientele</span>
@@ -232,7 +232,7 @@
 
 
 <!-- Clientele Area -->
-	<div class="brand-area ptb-100">
+	<div class="brand-area ptb-100" data-aos="fade-up" data-aos-duration="750">
 		<div class="container-fluid">
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
@@ -280,44 +280,54 @@
 				<h2 class="text-white">Awards & Achievements</h2>
 			</div>
 			<div class="row align-items-center justify-content-center pt-5">
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
 					</div>
 				</div>
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
 					</div>
 				</div>
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/app-dev.png" class="" alt="Technimply - Top Mobile App Dev Company">
+					</div>
+				</div>
 			</div>
 			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/g-partner.png" class="" alt="Google Partner">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-dmc.png" class="" alt="Top Digital Marketing Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/bcs.png" class="" alt="Software World - Best Customer Support">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
 					</div>
@@ -329,7 +339,7 @@
 
 <div class="about-area about-bg2 pt-100 pb-2" style="background: #fff;">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
@@ -358,7 +368,7 @@
 			<p>Our team at JFS Technologies comprises seasoned professionals, passionate innovators, and industry experts. Every team member brings a unique perspective and specialized expertise, making us uniquely equipped to tackle complex digital challenges. From data scientists and AI engineers to UX designers and cybersecurity specialists, our team is dedicated to delivering solutions that drive real results.</p>
 		</div>
 		<div class="row pt-45">
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img1.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -389,7 +399,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -420,7 +430,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -436,7 +446,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img5.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -452,7 +462,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img6.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -468,7 +478,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img1.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -484,7 +494,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -500,7 +510,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -516,7 +526,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -532,7 +542,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -548,7 +558,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img2.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -564,7 +574,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img6.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -580,7 +590,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img1.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -596,7 +606,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -612,7 +622,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -628,7 +638,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/team-img5.jpg" alt="Team Images">
 					<ul class="social-link">

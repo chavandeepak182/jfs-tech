@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css">
 	<link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<link rel="icon" type="image/png" href="{{ asset('theme') }}/assets/images/favicon.png">
 </head>
