@@ -12,7 +12,7 @@
 				<source src="{{ asset('theme') }}/assets/images/hero-video-1.mp4" type="video/mp4">
 			</video> -->
 			<div class="container-max">
-				<div class="banner-item-content banner-item-ptb">
+				<div class="banner-item-content banner-item-ptb" data-aos="fade-down" data-aos-offset="500" data-aos-easing="ease-in-sine">
 					<h1>Transforming Businesses Through Digital Excellence</h1>
 					<p>Empowering enterprises with innovative technology solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
@@ -30,7 +30,7 @@
 		<div class="container">
 			<div class="row justify-content-center align-items-center mx-auto">
 				<div class="col-lg-12">
-					<div class="about-content ml-25">
+					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
 						<div class="section-title">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
 							<h2 class="m-0">Right Partner for Software Innovation</h2>
@@ -55,7 +55,7 @@
 	</div>
 
 
-<section class="video">
+<section class="video" data-aos="zoom-in-right" data-aos-duration="700">
 	<video class="w-100" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
 		<source src="../theme/assets/images/intro.mp4" type="video/mp4">
 		<source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
@@ -72,7 +72,7 @@
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
-				<div class="col-lg-3">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -88,7 +88,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="750">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -104,7 +104,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -120,7 +120,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1250">
 					<div class="card">
 						<div class="face face1">
 							<div class="content">
@@ -182,7 +182,7 @@
 				<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
 			</div>
 			<div class="row pt-45">
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">01.</div>
 						<h3>Small and Medium-Sized Enterprises (SMEs)</h3>
@@ -190,7 +190,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/SMEs.svg" class="brand-logo-one" alt="SMEs">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">02.</div>
 						<h3>Startups</h3>
@@ -198,7 +198,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">03.</div>
 						<h3>Digital Agencies</h3>
@@ -206,7 +206,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/ads.svg" class="brand-logo-one" alt="Ads">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">04.</div>
 						<h3>Large Enterprises</h3>
@@ -214,7 +214,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/enterprise.svg" class="brand-logo-one" alt="Large Enterprises">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">05.</div>
 						<h3>E-commerce Companies</h3>
@@ -222,7 +222,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/cart.svg" class="brand-logo-one" alt="cart">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">06.</div>
 						<h3>Educational Institutions</h3>
@@ -230,7 +230,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/elearning.svg" class="brand-logo-one" alt="Elearning">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">07.</div>
 						<h3>Nonprofit Organizations</h3>
@@ -238,7 +238,7 @@
 						<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">08.</div>
 						<h3>Tech & Software Companies</h3>
@@ -252,7 +252,7 @@
 
 
 <!-- Technologies Area -->
-	<div class="about-area ptb-100">
+	<div class="about-area ptb-100" data-aos="fade-up" data-aos-duration="750">
 		<div class="container-fluid">
 			<div class="row mx-auto">
 				<div class="col-lg-12 text-center">
@@ -359,7 +359,7 @@
 
 
 <!-- Trust Us Area -->	
-	<div class="choose-area pt-100 pb-70 home">
+	<div class="choose-area pt-100 pb-70 home" data-aos="fade-up" data-aos-duration="750">
 		<div class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12">
@@ -414,7 +414,7 @@
 
 
 <!-- Key highlights Area -->
-	<div class="counter-area pt-100">
+	<div class="counter-area pt-100" data-aos="fade-up" data-aos-duration="750">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Clientele</span>
@@ -463,7 +463,7 @@
 
 
 <!-- Clientele Area -->
-	<div class="brand-area ptb-100">
+	<div class="brand-area ptb-100" data-aos="fade-up" data-aos-duration="750">
 		<div class="container-fluid">
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
@@ -511,54 +511,54 @@
 				<h2 class="text-white">Awards & Achievements</h2>
 			</div>
 			<div class="row align-items-center justify-content-center pt-5">
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
 					</div>
 				</div>
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/app-dev.png" class="" alt="Technimply - Top Mobile App Dev Company">
 					</div>
 				</div>
 			</div>
 			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/g-partner.png" class="" alt="Google Partner">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-dmc.png" class="" alt="Top Digital Marketing Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/bcs.png" class="" alt="Software World - Best Customer Support">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6">
+				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
 					</div>
@@ -569,10 +569,10 @@
 
 
 <!-- Let's Build Area -->
-    <div class="case-study-area pt-100 pb-70">
+    <div class="case-study-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="750">
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
-				<span class="sp-color2">Case Study</span>
+				<span class="sp-color2">Success Stories</span>
 				<h2>Driving Success for Our Clients</h2>
 				<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 			</div>
@@ -625,7 +625,7 @@
 
 
 <!-- Testimonials Area -->
-	<section class="clients-area pt-100 pb-70">
+	<section class="clients-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="750">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
@@ -693,7 +693,7 @@
 	</section>
 
 
-	<div class="blog-area pt-100 pb-70">
+	<div class="blog-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="750">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Latest Blog</span>

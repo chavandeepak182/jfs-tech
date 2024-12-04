@@ -3,32 +3,17 @@
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
-<div class="inner-banner">
+<div class="inner-banner" style="background-image: url(../theme/assets/images/infra-mgmt.jpg);">
     <div class="container">
-        <div class="inner-title text-center">
-            <h1>Let’s Work Together: Reach Out Today!</h1>
-            <ul>
-                <li>
-                    <a href="{{ asset('theme') }}">Home</a>
-                </li>
-                <li>
-                    <i class="bx bx-chevrons-right"></i>
-                </li>
-                <li>Contact Us</li>
-            </ul>
+        <div class="inner-title w-75" data-aos="fade-down" data-aos-offset="600" data-aos-easing="ease-in-sine">
+            <h1>Partner with Us: Let’s Build Something Great!</h1>
         </div>
-    </div>
-    <div class="inner-shape">
-        <img src="{{ asset('theme') }}/assets/images/shape/inner-shape.png" alt="Images">
     </div>
 </div>
 
 <div class="contact-form-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
-            <h2>Let's Send Us a Message Below</h2>
-        </div>
-        <div class="row pt-45">
+        <div class="row pt-45" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-4">
                 <div class="contact-info mr-20">
                     <span>Let's Connect</span>
@@ -37,16 +22,16 @@
                     <ul>
                         <li>
                             <div class="content">
-                                <i class="bx bx-phone-call"></i>
-                                <h3>Phone Number</h3>
-                                <a href="tel:918329729190">+91 83297 29190</a>
+                                <i class="bx bxs-map"></i>
+                                <h3>Address</h3>
+                                <span>#416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</span>
                             </div>
                         </li>
                         <li>
                             <div class="content">
-                                <i class="bx bxs-map"></i>
-                                <h3>Address</h3>
-                                <span>Office No.416, 4th floor, Platinum Square, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014.</span>
+                                <i class="bx bx-phone-call"></i>
+                                <h3>Phone Number</h3>
+                                <a href="tel:918329729190">+91 83297 29190</a>
                             </div>
                         </li>
                         <li>
@@ -122,9 +107,9 @@
     </div>
 </div>
 
-<div class="map-area">
+<div class="map-area" data-aos="zoom-in" data-aos-duration="750">
     <div class="container-fluid m-0 p-0">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.294956854627!2d73.9111051!3d18.5607364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1aefea87bd1%3A0x5256090f743aa340!2sJFS%20Technologies!5e0!3m2!1sen!2sin!4v1729607646744!5m2!1sen!2sin"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.294956854627!2d73.9111051!3d18.5607364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1aefea87bd1%3A0x5256090f743aa340!2sJFS%20Technologies!5e0!3m2!1sen!2sin!4v1729607646744!5m2!1sen!2sin"></iframe>
     </div>
 </div>
 

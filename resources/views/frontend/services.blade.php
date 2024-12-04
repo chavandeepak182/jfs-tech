@@ -6,7 +6,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-down" data-aos-offset="600" data-aos-easing="ease-in-sine">
             <h1>End-to-End Digital Services for Business Transformation</h1>
             <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
         </div>
@@ -27,7 +27,7 @@
             <p class="margin-auto">Comprehensive digital solutions designed to transform your business, streamline operations, enhance customer experiences, and drive sustainable growth through innovative strategies and cutting-edge technologies. At <strong>JFS Technologies</strong>, we offer a range of innovative digital solutions to help your business thrive in a competitive digital landscape. Explore our key services below:</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
                     <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
@@ -43,7 +43,7 @@
                     <a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digital-exp.gif" class="brand-logo-one icons-img" alt="digital-exp">
                     <h3><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
@@ -59,7 +59,7 @@
                     <a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
                     <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
@@ -75,7 +75,7 @@
                     <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
                     <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
@@ -98,7 +98,7 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -150,7 +150,7 @@
 	</div>
 
 
-    <div class="case-study-area pt-100 pb-70">
+    <div class="case-study-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="500">
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
 				<span class="sp-color2">Case Study</span>
@@ -307,7 +307,7 @@
 
 
 	<!-- Testimonials Area -->
-	<section class="clients-area pt-100 pb-70">
+	<section class="clients-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="500">
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
@@ -349,35 +349,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="client-circle">
-			<div class="client-circle-1">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-2">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-3">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-4">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-5">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-6">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-7">
-				<div class="circle"></div>
-			</div>
-		</div>
 	</section>
 
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
