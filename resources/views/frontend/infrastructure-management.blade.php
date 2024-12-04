@@ -5,7 +5,7 @@
 
 @section('content')
 
-<div class="inner-banner" style="background-image: url(../theme/assets/images/infra-mgmt.jpg);">
+<div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75">
             <h1>Smart Infrastructure Solutions for Maximum Uptime</h1>
@@ -15,6 +15,11 @@
 			</div>
         </div>
     </div>
+
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/infra-mgmt.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 <section class="services-style-area pt-100 pb-70">
@@ -165,7 +170,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
                 </div>
             </div>
         </div>

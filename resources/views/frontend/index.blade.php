@@ -531,6 +531,11 @@
                         <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
 					</div>
 				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/app-dev.png" class="" alt="Technimply - Top Mobile App Dev Company">
+					</div>
+				</div>
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-lg-2 col-6">
@@ -546,6 +551,11 @@
 				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
+					</div>
+				</div>
+				<div class="col-lg-2 col-6">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/bcs.png" class="" alt="Software World - Best Customer Support">
 					</div>
 				</div>
 				<div class="col-lg-2 col-6">
@@ -614,7 +624,7 @@
 	</div>
 
 
-	<!-- Testimonials Area -->
+<!-- Testimonials Area -->
 	<section class="clients-area pt-100 pb-70">
 		<div class="container">
 			<div class="section-title text-center">

@@ -130,7 +130,7 @@
     <div class="case-study-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Case Studies</span>
+                <span class="sp-color2">Success Stories</span>
                 <h2>Success Stories in Application Modernization</h2>
                 <p>See how our Application Modernization services have helped businesses transform:</p>
             </div>
@@ -175,7 +175,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
                 </div>
             </div>
         </div>
