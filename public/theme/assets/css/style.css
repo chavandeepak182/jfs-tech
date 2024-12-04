@@ -1348,73 +1348,6 @@ img{max-width:100%}
   right: 2px;
 }
 
-.cards {
-  position: relative;
-  width: 100%;
-  height: 325px;
-  perspective: 1000px;
-  &:hover {
-     & .front {
-        transform: rotateY(180deg);
-     }
-     & .back {
-        transform: rotateY(360deg);
-     }
-  }
-  
-}
-
-.front, .back {
-  position: absolute;
-  background: linear-gradient(135deg, #0a2155 50%, #0071dc);
-  border-radius: 10px;
-  overflow: hidden;
-  outline: none;
-  box-shadow: 0 2px 2px 2px rgba(190, 190, 190, 0.4);
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  transition: all .9s;
-}
-
-.back p, .back ul li{
-  color: #fff;
-}
-
-.front {
-  background-color: #fff;
-  &__img {
-     width: 100%;
-     height: 200px;
-     background: url('https://i.pinimg.com/736x/c2/d2/0f/c2d20f1afafaac8e752fd179a6a4b354.jpg') no-repeat;
-     background-size: cover;
-     background-position: center center;
-  }
-  &__content {
-     height: 100px;
-     text-align: center;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     &--add {
-        font-size: 12px;
-        color: #949494;
-     }
-     &--header {
-        font-size: 20px;
-        font-weight: 700;
-        margin: 7px 0;
-     }
-  }
-}
-
-.back {
-  transform: rotateY(180deg);
-  &__content {
-     padding: 20px;
-  }
-}
-
 #videobcg {
   position: absolute;
   top: 0;
@@ -1507,7 +1440,7 @@ img{max-width:100%}
       padding: 5px;
       border: 1px solid #333;
       &:hover {
-        background: #0a2155;
+        background-color: #0a2155;
         color: #fff;
       }
     }

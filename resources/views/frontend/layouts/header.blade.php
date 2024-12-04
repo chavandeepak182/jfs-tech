@@ -210,12 +210,7 @@
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="{{ url('/careers') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS <i class="bx bx-caret-down"></i></a>
-									<ul class="dropdown-menu">
-										<li class="nav-item">
-											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">Current Openings</a>
-										</li>
-									</ul>
+									<a href="{{ url('/careers') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS</a>
 								</li>
 							</ul>
 							<div class="nav-side d-display">

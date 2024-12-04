@@ -127,7 +127,7 @@
 				</div>
 				<!-- <div class="col-lg-6">
 					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
+						<img src="{{ asset('theme') }}/assets/s/images/choose-img.jpg" alt="Images">
 					</div>
 				</div> -->
 			</div>
@@ -138,7 +138,7 @@
     <div class="case-study-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Case Studies</span>
+                <span class="sp-color2">Success Stories</span>
                 <h2>Success Stories in Application Modernization</h2>
                 <p>See how our Application Modernization services have helped businesses transform:</p>
             </div>
@@ -146,7 +146,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
-                            <img src="http://127.0.0.1:8000/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Healthcare Platform Revamp</a></h3>
@@ -158,7 +158,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
-                            <img src="http://127.0.0.1:8000/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Finance Cloud Migration</a></h3>
@@ -170,7 +170,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
-                            <img src="http://127.0.0.1:8000/theme/assets/images/case-study/case-study1.jpg" alt="Images">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Business Solution</a></h3>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Read Our Case Studies</a>
+                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
                 </div>
             </div>
         </div>

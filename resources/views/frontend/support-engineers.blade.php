@@ -272,7 +272,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/portfolio') }}" class="default-btn btn-bg-two border-radius-5 py-3">View Our Portfolio</a>
+					<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
                 </div>
             </div>
         </div>
