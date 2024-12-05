@@ -66,7 +66,7 @@
 <!-- Service Area -->
 	<section class="services-area-two pt-100 pb-70">
 		<div class="container-fluid">
-			<div class="section-title text-center">
+			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">What We Do?</span>
 				<h2>Our Core Services</h2>
 				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
@@ -138,7 +138,7 @@
 				</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card mobile-view">
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/transform.webp" alt="">
 						<h3><a href="{{ url('/services/digital-transformation') }}">Digital Transformation</a></h3>
@@ -146,7 +146,7 @@
 						<a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="">
 						<h3><a href="{{ url('/services/digital-experience') }}">Digital Experience</a></h3>
@@ -154,7 +154,7 @@
 						<a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="">
 						<h3><a href="{{ url('/services/devops') }}">DevOps</a></h3>
@@ -162,7 +162,7 @@
 						<a href="{{ url('/services/devops') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="">
 						<h3><a href="{{ url('/services/resource-augmentation') }}">Resource Augmentation</a></h3>
@@ -176,7 +176,7 @@
 
 	<section class="work-process-area home_cards pt-100">
 		<div class="container">
-			<div class="section-title text-center">
+			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color2">Unlock the potential</span>
 				<h2>Who We Serve?</h2>
 				<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
@@ -506,7 +506,7 @@
 	
 	<div class="call-us-area pt-100 pb-70">
 		<div class="container">
-			<div class="section-title text-center">
+			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">Recognitions</span>
 				<h2 class="text-white">Awards & Achievements</h2>
 			</div>
@@ -578,44 +578,42 @@
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
 				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 1</a></h3>
-						<p>Learn How We Increased Organic Traffic by 200%.</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+				<div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
+                    </div>
+                </div>
+				<div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
 				<div class="case-study-item">
 					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
+						<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Images">
 					</a>
 					<div class="content">
-						<h3><a href="#">Case Study 2</a></h3>
-						<p>Discover How We Streamlined a Retailer’s Online Sales</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
-				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 3</a></h3>
-						<p>Read About Our Work in Healthcare Technology</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
+						<h3><a href="#">Secure Cloud Migration</a></h3>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>

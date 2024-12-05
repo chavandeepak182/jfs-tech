@@ -5,16 +5,21 @@
 
 @section('content')
 
-<div class="inner-banner" style="background-image: url(../theme/assets/images/infra.webp);">
+<div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75">
             <h1>Transform Your Ideas into Cutting-Edge Mobile Applications</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
+
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 
