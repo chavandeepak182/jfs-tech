@@ -578,29 +578,42 @@
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
 				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 1</a></h3>
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+				<div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
+                    </div>
+                </div>
+				<div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
 				<div class="case-study-item">
 					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
+						<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Images">
 					</a>
 					<div class="content">
-						<h3><a href="#">Case Study 2</a></h3>
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div>
-				<div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 3</a></h3>
+						<h3><a href="#">Secure Cloud Migration</a></h3>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>
