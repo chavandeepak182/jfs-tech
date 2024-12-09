@@ -134,41 +134,46 @@
                 <p>Discover how our AR/VR solutions have transformed client projects:</p>
             </div>
             <div class="row pt-45">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Manufacturing Training</a></h3>
-                            <p>Our VR simulations increased training effectiveness by 25%.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Architecture Visualization</a></h3>
-                            <p>Our 3D walkthroughs enhanced satisfaction and sped up approvals.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Business Solution</a></h3>
-                            <ul>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Planing</a> </li>
-                            </ul>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Business Solution</a></h3>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -220,47 +225,71 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is AR/VR, and how does it work?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>Augmented Reality (AR) overlays digital content onto the real world, while Virtual Reality (VR) immerses users in a fully digital environment. Both technologies use devices like smartphones, AR glasses, or VR headsets to create engaging, interactive experiences.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            What industries can benefit from AR/VR solutions?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>AR/VR has applications in a wide range of industries, including:</p>
+                                            <ul>
+                                                <li>Retail (virtual try-ons, store navigation)</li>
+                                                <li>Education and Training (immersive learning environments)</li>
+                                                <li>Healthcare (surgical simulations, therapy)</li>
+                                                <li>Real Estate (virtual property tours)</li>
+                                                <li>Manufacturing (assembly training, maintenance assistance)</li>
+                                            </ul>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            How can AR/VR enhance my business operations or customer engagement?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>AR/VR can provide immersive customer experiences, streamline training processes, reduce operational costs, and differentiate your brand by leveraging cutting-edge technology to interact with your audience in new ways.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            What platforms do you develop AR/VR solutions for?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>We create AR/VR solutions for multiple platforms, including iOS, Android, and VR devices like Oculus, HTC Vive, and Microsoft HoloLens. Our team ensures compatibility with your chosen hardware.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do you ensure the scalability of AR/VR solutions?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>Our solutions are designed to grow with your business. We use modular development approaches, cloud-based infrastructure, and robust testing to ensure scalability and seamless updates.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            Is my data secure with AR/VR solutions?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Yes, JFS Technologies prioritizes data security. Whether it’s user data or sensitive business information, we implement encryption, access controls, and secure coding practices to protect your assets.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            How do I start incorporating AR/VR into my business?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>You can begin by contacting us for a consultation. We’ll evaluate your business goals, recommend use cases, and develop a tailored strategy to implement AR/VR effectively. <a href="{{ url('/contact-us') }}">Get in Touch <i class="bx bx-chevron-right"></i></a></p>
                                         </div>
                                     </li>
                                 </ul>            

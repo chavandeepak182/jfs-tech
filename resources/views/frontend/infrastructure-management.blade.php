@@ -130,41 +130,46 @@
                 <p>Learn how our Infrastructure Management services have made a difference:</p>
             </div>
             <div class="row pt-45">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Network Uptime Improvement</a></h3>
-                            <p>We optimized a client's network for 99.9% uptime and better efficiency.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#"> Secure Cloud Migration</a></h3>
-                            <p>We led a seamless cloud migration, cutting costs by 30% and boosting flexibility.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Business Solution</a></h3>
-                            <ul>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Planing</a> </li>
-                            </ul>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Business Solution</a></h3>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -216,47 +221,71 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is IT Infrastructure Management?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>IT Infrastructure Management involves overseeing and maintaining a business’s hardware, software, network resources, and data storage systems to ensure seamless operations, optimal performance, and security.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            Why is Infrastructure Management important for my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Effective infrastructure management minimizes downtime, enhances security, ensures scalability, and enables cost efficiency by optimizing IT resources. It’s essential for businesses that rely on technology for daily operations.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            What services are included in your Infrastructure Management offering?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Our services include:</p>
+                                            <ul>
+                                                <li>xServer and network monitoring</li>
+                                                <li>Cloud infrastructure management</li>
+                                                <li>Security and compliance management</li>
+                                                <li>Backup and disaster recovery solutions</li>
+                                                <li>IT infrastructure optimization</li>
+                                            </ul>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            Do you provide support for on-premise and cloud infrastructure?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Yes, we manage both on-premise IT setups and cloud-based infrastructure, offering tailored solutions to meet your business requirements.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do you ensure infrastructure security?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>We use a multi-layered approach to security, including firewalls, encryption, intrusion detection systems, and regular vulnerability assessments, ensuring your IT environment is protected against threats.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            What cloud platforms do you support?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>We support major cloud platforms, including AWS, Microsoft Azure, Google Cloud Platform, and private cloud environments. Our team ensures smooth integration and ongoing management.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            How do I start with JFS Technologies’ Infrastructure Management services?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>You can begin by contacting us for a consultation. We’ll assess your current IT setup, identify areas for improvement, and recommend a tailored infrastructure management plan. <a href="{{ url('/contact-us') }}">Get in Touch <i class="bx bx-chevron-right"></i></a></p>
                                         </div>
                                     </li>
                                 </ul>            

@@ -34,7 +34,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>JavaScript</strong> Full-Stack Developers, for example, excel in building web apps using popular JavaScript frameworks like React, Angular, or Vue, creating dynamic user interfaces & robust back-end systems.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -42,21 +42,21 @@
 					<div class="number-title invisible ">01.</div>
 					<p><strong>MERN</strong> Stack Developers specialize in MongoDB, Express.js, React, and Node.js, while</p>
 					<p><strong>MEAN</strong> Stack Developers focus on MongoDB, Express.js, Angular, and Node.js.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/mm.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>Ruby on Rails</strong> Full-Stack Developers are proficient in developing web apps using the Ruby programming language and the Rails framework, ensuring high performance, scalability & maintainable code.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/ruby.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>Python</strong> Full-Stack Developers leverage the versatility of Python to build robust & scalable apps, integrating various frameworks & libraries to enhance functionality & performance.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/python.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -64,21 +64,21 @@
 					<div class="number-title invisible ">01.</div>
 					<p><strong>LAMP</strong> Stack Developers work with Linux, Apache, MySQL, and PHP to create dynamic websites and web applications.</p>
 					<p><strong>PHP</strong> Full-Stack Developers specialize in PHP and popular frameworks like Laravel or Symfony.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/lamp.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>Mobile</strong> Full-Stack Developers have expertise in developing both front-end and back-end solutions for mobile applications, utilizing technologies like React Native, Flutter, Xamarin & cloud-based integrations.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/mobile.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>DevOps</strong> Full-Stack Developers excel in both development and operations, specializing in process automation, system performance monitoring, seamless deployment, and effective software maintenance.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/devops.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>
