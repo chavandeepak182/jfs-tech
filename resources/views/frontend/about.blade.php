@@ -601,7 +601,7 @@
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Sayaam Sharma</h3>
+						<h3>Saayam Sharma</h3>
 						<span>Business Development Executive</span>
 					</div>
 				</div>

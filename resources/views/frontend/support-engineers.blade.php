@@ -35,7 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Technical Support Engineer</h3>
 					<p>They provide customer support for software products or services, resolving technical issues & answering queries through various channels such as phone, email, or chat.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/tech-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -43,7 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Application Support Engineer</h3>
 					<p>They focus on providing technical support for specific software applications, managing incidents & ensuring the availability & performance of the application.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/app-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>System Support Engineer</h3>
 					<p>System Support Engineers are responsible for maintaining and supporting IT infrastructure, including servers, networks, and hardware components.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/sys-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Helpdesk Support Engineer</h3>
 					<p>They provide front-line support to end-users, addressing technical issues, providing guidance on system usage & escalating complex problems to teams.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/cust-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>

@@ -35,7 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Java Developers</h3>
 					<p>Java developers specialize in building backend applications with Java, using frameworks like Spring and Hibernate to create scalable, robust solutions.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/java.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -43,7 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>PHP Developers</h3>
 					<p>PHP developers specialize in backend development, building web applications, CMS, and e-commerce platforms using PHP frameworks like Laravel and Symfony.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/php.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>.NET Developers</h3>
 					<p>.NET developers specialize in backend development using the .NET framework, C#, and F#, building enterprise applications, APIs, and services with ASP.NET and .NET Core.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/dot-net.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>DevOps Engineers</h3>
 					<p>DevOps engineers streamline development & operations, automating processes, setting up CI/CD pipelines & monitoring backend application performance & infra.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/devops-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -67,7 +67,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Python Developers</h3>
 					<p>Python developers specialize in backend development, building web apps, data pipelines, and services using frameworks like Django and Flask.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/python-dev.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -75,7 +75,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Node.js Developers</h3>
 					<p>Node.js developers build backend applications using JavaScript, specializing in scalable, event-driven apps and APIs with frameworks like Express.js.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/node.js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -83,7 +83,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Ruby on Rails Developers</h3>
 					<p>Ruby on Rails developers build backend apps using Ruby & the Rails framework, emphasizing convention over configuration & rapid development.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/ruby-code.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -91,7 +91,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Database Developers</h3>
 					<p>Database developers specialize in designing, optimizing, and managing SQL/NoSQL databases while ensuring data integrity and security.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/database.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>

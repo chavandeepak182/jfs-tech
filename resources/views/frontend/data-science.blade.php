@@ -134,41 +134,46 @@
                 <p>Learn how our Data Science services have transformed businesses:</p>
             </div>
             <div class="row pt-45">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Retail Sector</a></h3>
-                            <p>A retail company saw a 30% sales increase with predictive forecasting.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Manufacturing Industry</a></h3>
-                            <p>We reduced a manufacturer's costs by 20% with advanced analytics.</p>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="case-study-item">
                         <a href="#">
                             <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="#">Business Solution</a></h3>
-                            <ul>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Planing</a> </li>
-                            </ul>
+                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="case-study-item">
+                        <a href="#">
+                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <h3><a href="#">Business Solution</a></h3>
                             <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
@@ -324,47 +329,72 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is Data Science, and how can it benefit my business?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>Data Science involves analyzing complex data to uncover patterns, trends, and insights that can inform better decision-making. It can help your business optimize operations, predict trends, enhance customer experiences, and drive growth through data-driven strategies.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            What industries can benefit from Data Science solutions?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Data Science can benefit a wide range of industries, including:</p>
+                                            <ul>
+                                                <li>Retail and eCommerce
+                                                <li>Healthcare</li>
+                                                <li>Banking and Financial Services</li>
+                                                <li>Manufacturing</li>
+                                                <li>Transportation and Logistics</li>
+                                                <li>Marketing and Advertising</li>
+                                            </ui>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            What types of data can JFS Technologies analyze?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>We work with diverse data types, including structured data (e.g., spreadsheets, databases) and unstructured data (e.g., text, images, videos). Our expertise spans big data, IoT data, and real-time data processing.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            What technologies and tools do you use in your Data Science services?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Our team is proficient in leading tools and technologies such as Python, R, Apache Spark, TensorFlow, Tableau, and cloud platforms like AWS, Azure, and Google Cloud for advanced data analysis and visualization.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How secure is my data during the analysis process?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>Data security is a top priority at JFS Technologies. We comply with industry standards and regulations to ensure your data is protected through encryption, secure access controls, and adherence to GDPR and other data protection laws.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            Can Data Science solutions be customized for my specific business needs?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>Absolutely! Our Data Science services are tailored to address the unique challenges and goals of your business. We work closely with you to understand your requirements and deliver custom solutions that drive results.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            How do I get started with JFS Technologies&#39; Data Science services?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>You can get started by contacting us for a consultation. Our team will assess your current data capabilities, discuss your business objectives, and recommend tailored solutions to meet your needs. <a href="{{ url('/contact-us') }}">Get in Touch <i class="bx bx-chevron-right"></i></a></p>
                                         </div>
                                     </li>
                                 </ul>            
