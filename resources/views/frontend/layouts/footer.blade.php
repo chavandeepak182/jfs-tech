@@ -78,9 +78,9 @@
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/careers') }}" target="_blank">
+									<a href="{{ url('/life-at-jfs') }}" target="_blank">
 										<i class="bx bx-chevron-right"></i>
-										Careers
+										Life at JFS
 									</a>
 								</li>
 								<li>

@@ -211,7 +211,7 @@
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="{{ url('/careers') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS</a>
+									<a href="{{ url('/life-at-jfs') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS</a>
 								</li>
 							</ul>
 							<div class="nav-side d-display">
