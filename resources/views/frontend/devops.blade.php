@@ -12,7 +12,8 @@
                 <div class="banner-five-content">
                     <span>TECHNOLOGY & IT SOLUTIONS</span>
                     <h1 class="text-white">DevOps <b>Services</b></h1>
-                    <p class="text-white">Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift, reliable, and effective delivery of software updates, enhancements, and new features. Leveraging our deep proficiency in containers, orchestration tools, and microservices architecture, we design adaptable, scalable, and future-ready solutions that seamlessly adjust to evolving business requirements, industry trends, and technological advancements.</p>
+                    <p class="text-white">At <strong>JFS Technologies</strong>, we empower businesses to bridge the gap between development and operations through streamlined DevOps practices. Our solutions accelerate software delivery, enhance collaboration, and integrate robust security, enabling organizations to thrive in an ever-evolving digital landscape.</p>
+                    <!-- <p class="text-white">Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift, reliable, and effective delivery of software updates, enhancements, and new features. Leveraging our deep proficiency in containers, orchestration tools, and microservices architecture, we design adaptable, scalable, and future-ready solutions that seamlessly adjust to evolving business requirements, industry trends, and technological advancements.</p> -->
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -29,8 +30,9 @@
 <section class="services-style-area home_cards pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital transformation Services Includes</h2>
+            <span class="sp-color2"></span>
+            <h2>Our DevOps Solutions</h2>
+            <p class="margin-auto">We provide a comprehensive suite of DevOps services tailored to meet your unique needs.</p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6">
@@ -38,7 +40,7 @@
                     <a href="{{ url('services/ci-cd-pipelines') }}">
                         <div class="number-title invisible">01.</div>
                         <h3>CI/CD Pipelines</h3>
-                        <p>This service streamlines the process of building, testing, & deploying code changes with efficiency, consistency, & enhanced reliability, ensuring rapid delivery without compromising quality.</p>
+                        <p>Streamline the software release process with automated integration and deployment.</p>
                         <!-- <i class="fad fa-infinity my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/ci-cd.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -52,7 +54,7 @@
                     <a href="{{ url('services/process-automation') }}">
                         <div class="number-title invisible">02.</div>
                         <h3>Process Automation</h3>
-                        <p>Our team of experts specializes in CI/CD pipeline services that simplify the process of creating, testing, and rolling out code updates with speed and precision.</p>
+                        <p>Enhance operational efficiency by automating routine tasks & workflows.</p>
                         <!-- <i class="fad fa-random my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/auto.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -66,7 +68,7 @@
                     <a href="{{ url('services/containers-and-microservices') }}">
                         <div class="number-title invisible">03.</div>
                         <h3>Containers & Microservices</h3>
-                        <p>We specialize in using containers and microservices to optimize your software development and deployment for greater scalability and speed.</p>
+                        <p>Build scalable, modular architectures that support agile development.</p>
                         <!-- <i class="fad fa-cloud-upload my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/micro-ser.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -80,7 +82,7 @@
                     <a href="{{ url('services/devsecops') }}">
                         <div class="number-title invisible">04.</div>
                         <h3>DevSecOps</h3>
-                        <p>With our DevSecOps services, you can have peace of mind knowing that your applications are protected against cyber threats. Our goal is to help you build and deploy secure software effectively.</p>
+                        <p>Embed security into every phase of the development lifecycle for robust protection.</p>
                         <!-- <i class="fad fa-cloud-meatball my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/dev-sec.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -100,9 +102,9 @@
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Trust Our DevOps Services?</h2>
-                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
+							<span class="sp-color1">We Are The Best!!</span>
+							<h2>Benefits of Choosing JFS Technologies for DevOps</h2>
+                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our DevOps services are the right choice:</p>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -111,34 +113,34 @@
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Strategies</h3>
 									</div>
-									<p>We work closely with you to create solutions designed around your unique business needs.</p>
+									<p>Tailored solutions designed to align seamlessly with your business goals.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
+										<h3>Integrated Security</h3>
 									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+									<p>Proactive measures to identify and prevent potential vulnerabilities effectively.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
+										<h3>Faster Time-to-Market</h3>
 									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
+									<p>Reduced delays with optimized pipelines, streamlined workflows, and efficient processes.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-headset"></i>
-										<h3>Ongoing Support</h3>
+										<h3>End-to-End Automation:</h3>
 									</div>
-									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
+									<p>From development to deployment, we simplify the entire process.</p>
 								</div>
 							</div>
 						</div>

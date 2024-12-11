@@ -35,7 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>UI/UX Designers</h3>
 					<p>These developers design the user interface and experience of websites or applications, creating visually appealing and user-friendly designs that boost engagement and satisfaction.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/uiux.svg" class="brand-logo-one" alt="UI/UX">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -43,7 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Front-End Developers</h3>
 					<p>These developers write front-end code using HTML, CSS, and JavaScript, implementing designs and ensuring functionality across browsers and devices.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="frontend dev">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>React Developers</h3>
 					<p>React is a popular JavaScript library for building user interfaces. These developers create interactive web apps & are skilled in components, state management & React-specific features.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/react-js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Angular Developers</h3>
 					<p>Angular developers build dynamic, scalable web apps using powerful features like modules, components, services & routing, ensuring efficient & maintainable code.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/angular-js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -67,7 +67,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Vue.js Developers</h3>
 					<p>Vue.js developers use the progressive JavaScript framework to build interactive and responsive web apps, leveraging components, directives, and Vuex state management.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/vue-js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -75,7 +75,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Responsive Web Designers</h3>
 					<p>Responsive web designers create websites that adapt to various screen sizes and devices, ensuring a seamless and consistent user experience across all screens.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/responsive-dev.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
@@ -83,7 +83,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Accessibility Specialists</h3>
 					<p>They ensure websites and apps are usable for users with disabilities by implementing design & development practices that comply with WCAG standards.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/accessibility.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>

@@ -140,8 +140,8 @@ Route::get('/services/infrastructure-management', function () {
     return view('frontend.infrastructure-management');
 });
 
-Route::get('/careers', function () {
-    return view('frontend.careers');
+Route::get('/life-at-jfs', function () {
+    return view('frontend.life-at-jfs');
 });
 
 Route::get('/services/email-marketing', function () {
