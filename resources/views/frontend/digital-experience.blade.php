@@ -5,35 +5,35 @@
 
 @section('content')
 
-<div class="banner-five-area">
+<div id="service_banner" class="banner-five-area">
     <div class="container-fluid">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="banner-five-content">
-                    <span>TECHNOLOGY & VIRTUAL SOLUTIONS</span>
-                    <h1 class="text-white">Digital <b>Experience</b></h1>
-                    <p class="text-white">Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Our team of experienced professionals is equipped to handle all aspects of your digital strategy, ensuring that your brand stands out in today's competitive landscape.</p>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img mx-auto">
-                    <img src="{{ asset('theme') }}/assets/images/digital-exp.png" alt="Images">
+                    <span></span>
+                    <h1 class="text-white">Digital <b><br>Experience</b></h1>
+                    <p class="text-white">Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/digital-exp.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 
 <section class="services-style-area home_cards pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>
             <h2>Our Digital Experience Services Includes</h2>
         </div>
         <div class="row pt-45">
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
                     <a href="{{ url('/services/digital-marketing-company') }}">
                         <div class="number-title invisible">01.</div>
@@ -47,7 +47,7 @@
                     </a>
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/website-design-and-development') }}">
                         <div class="number-title invisible">02.</div>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/mobile-app-development') }}">
                         <div class="number-title invisible">03.</div>
@@ -75,7 +75,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <a href="#">
                         <div class="number-title invisible">04.</div>
@@ -96,7 +96,7 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -155,7 +155,7 @@
 
 
 <div class="security-area pt-100 pb-70">
-	<div class="container">
+	<div class="container" data-aos="fade-up" data-aos-duration="500">
 		<div class="section-title text-center">
 		    <span class="sp-color2">Plan Descriptions</span>
 		    <h2>Choose the Best Plan For Your Business</h2>
@@ -189,7 +189,7 @@
 
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
@@ -214,7 +214,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

@@ -5,26 +5,25 @@
 
 @section('content')
 
-<div class="banner-five-area">
+<div id="service_banner" class="banner-five-area">
     <div class="container-fluid">
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="banner-five-content">
-                    <span>TECHNOLOGY & IT SOLUTIONS</span>
+                    <span></span>
                     <h1 class="text-white">Resource <b>Augmentation</b></h1>
-                    <p class="text-white">We have a team of highly skilled and experienced developers who are experts in these cutting-edge technologies and committed to delivering excellence. Whether you need additional support for a specific project, want to augment your existing team, or require specialized expertise to tackle complex challenges, our resource augmentation services can provide you with exceptional talent, unparalleled flexibility, and a results-driven approach to achieve your goals efficiently & effectively.</p>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img mx-auto w-75">
-                    <img src="{{ asset('theme') }}/assets/images/resource-aug.png" alt="Images">
-                </div>
+                    <p class="text-white">Our team comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our resource augmentation services are here to assist you.</p>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
+                    </div>
             </div>
         </div>
     </div>
-</div>
 
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/resource-aug.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
+</div>
 
 <section class="services-style-area home_cards pt-100 pb-70">
     <div class="container">
