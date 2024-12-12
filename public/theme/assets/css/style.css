@@ -347,9 +347,9 @@ img{max-width:100%}
   .banner-four-img{position:relative;z-index:1;margin-bottom:50px}
   
   .banner-five-area{
-    background-color:#0a2155;
-    position:relative;
-    padding:50px 0;
+    /* background-color:#0a2155;
+    position:relative; */
+    padding:25px 0;
   }
   
   .banner-five-content{max-width:560px;margin-left:auto}
@@ -1427,10 +1427,10 @@ img{max-width:100%}
 .slider .work-process-cards {
   width: 125px;
   animation: scroll 20s linear infinite;
-  border-radius: 10px;
-  box-shadow: 5px 10px 15px rgba(0, 0, 0, .1);
+  /* border-radius: 10px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, .1); */
   padding: 10px 20px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   position: relative;
   z-index: 1;
 }
@@ -1545,6 +1545,13 @@ img{max-width:100%}
 #banner {
   position: relative;
   height:400px;
+  width:100%;
+  overflow: hidden;
+}
+
+#service_banner {
+  position: relative;
+  height:500px;
   width:100%;
   overflow: hidden;
 }
