@@ -66,7 +66,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Security Automation</h3>
 					<p>Automate security testing in CI/CD pipelines. Continuous testing ensures real-time identification of vulnerabilities without disrupting development.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/secure-auto.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -74,7 +74,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Infrastructure as Code Security</h3>
 					<p>Safeguard your IaC by scanning for vulnerabilities, enforcing configurations, and maintaining compliance across cloud resources.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/iac.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -82,7 +82,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Compliance Monitoring</h3>
 					<p>Ensure your systems align with regulatory and industry-specific standards through automated compliance checks and reporting.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/compliance-monitor.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -90,7 +90,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Secure Code Review</h3>
 					<p>Equip your development team with tools and best practices to detect and fix security issues during the coding process, reducing risks early.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/secure-code.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -98,7 +98,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Vulnerability Management</h3>
 					<p>Proactively detect and address vulnerabilities in applications and infrastructure. Our tools and processes help mitigate risks before they can be exploited.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/vulnerabe-mgmt.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -106,7 +106,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Container Security</h3>
 					<p>Secure your containerized applications by implementing best practices and utilizing specialized tools to prevent vulnerabilities in environments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/container-secure.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
@@ -114,7 +114,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Incident Response Planning</h3>
 					<p>Prepare for potential security incidents with comprehensive planning and training. Develop effective response strategies to minimize impact and downtime.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/incident-response.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>
