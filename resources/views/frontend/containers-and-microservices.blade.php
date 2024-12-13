@@ -67,7 +67,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Docker</h3>
 					<p>Package and deploy applications seamlessly with Docker, one of the most popular containerization platforms, ensuring portability and consistency across environments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/docker.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -75,7 +75,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Podman</h3>
 					<p>Podman is a container engine that provides a secure and fully-featured alternative to Docker, supporting container creation, management, orchestration, and networking.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/podman.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -83,7 +83,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Kubernetes</h3>
 					<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications across clusters of nodes.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/kubernetes.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -91,7 +91,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>LXC/LXD</h3>
 					<p>LXC (Linux Containers) and LXD are system container technologies that enable the secure isolation of applications at the operating system level, providing lightweight virtualization.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/lxc-lxd.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <h2 class="pt-3 pb-3">Our Microservices Services:</h2>
@@ -100,7 +100,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Spring Boot</h3>
 					<p>Spring Boot is a Java-based framework that simplifies the development of microservices by providing a robust set of tools and libraries for building, deploying, and scaling applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/spring-boot.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -108,7 +108,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Node.js</h3>
 					<p>Node.js is a powerful JavaScript runtime environment that is commonly used for building lightweight and fast microservices, leveraging a non-blocking, event-driven architecture.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/node-js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -116,7 +116,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>.NET Core</h3>
 					<p>.NET Core is a cross-platform framework that supports the creation of microservices using C# and ASP.NET, enabling developers to build scalable and high-performance applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/dotnet-core.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -124,7 +124,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Flask</h3>
 					<p>Flask is a lightweight Python web framework that is well-suited for developing microservices, offering simplicity and flexibility for building RESTful APIs and web services.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/flask.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
 		</div>

@@ -94,7 +94,7 @@
 	<div class="navbar-area">
 		<div class="mobile-nav">
 			<a href="{{ asset('') }}" class="logo">
-				<img src="{{ asset('theme') }}/assets/images/logos/logo-n.png" class="logo-one" alt="Logo">
+				<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo">
 				<!--<img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo">-->
 			</a>
 		</div>
@@ -104,7 +104,7 @@
 				<div class="container-max">
 					<nav class="navbar navbar-expand-md navbar-light ">
 						<a class="navbar-brand" href="{{ asset('') }}">
-							<img src="{{ asset('theme') }}/assets/images/logos/logo-n.png" class="logo-one" alt="Logo" style="width: 250px;">
+							<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo" style="width: 250px;">
 							<!-- <img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo"> -->
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
