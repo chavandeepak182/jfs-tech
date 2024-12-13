@@ -25,65 +25,89 @@
     </video>
 </div>
 
-<section class="services-style-area home_cards pt-100 pb-70">
+
+<div class="about-area pt-3">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-6">
+                <div class="about-play p-5">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content ml-25">
+                	<div class="section-title">
+						<span class="sp-color2">Skilled Experts, Anytime</span>
+						<h2>Your Team, Supercharged</h2>
+						<p>In today’s fast-paced digital world, having the right talent on hand is essential for the success of any project. Our <b>Resource Augmentation</b> services provide businesses with highly skilled developers who seamlessly integrate into existing teams to meet project demands. Whether you need additional support for a project or want to enhance your current team, our resource augmentation solutions provide the expertise you require.</p>
+                        <p>Our developers are proficient in a range of technologies, ensuring that we can meet your specific needs for frontend, backend, full-stack, and support engineering roles. Explore our specialized services below to discover how we can assist you in achieving your business goals.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="services-style-area home_cards pt-80 pb-70">
+    <div class="container">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>
             <h2>Our Resource Augmentation Services Includes</h2>
         </div>
         <div class="row pt-45">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/frontend-developers') }}">
+                    <a href="{{ url('/services/frontend-developers') }}">
                         <div class="number-title invisible">01.</div>
                         <h3>Frontend Development</h3>
-                        <p>Frontend development creates the visual and interactive elements of websites and applications to enhance user experience.</p>
+                        <p>Our frontend developers use HTML, CSS, JavaScript, React, Angular, and Vue.js to build responsive, user-friendly, and high-performance web experiences, from simple sites to complex applications.</p>
                         <!-- <i class="fad fa-bring-front my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/frontend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/frontend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/backend-developers') }}">
+                    <a href="{{ url('/services/backend-developers') }}">
                         <div class="number-title invisible">02.</div>
                         <h3>Backend Development</h3>
-                        <p>Backend development involves server-side programming & database management to ensure the seamless functionality of web applications.</p>
+                        <p>Our backend developers are experts in Python, Java, PHP, .NET, Node.js, and more, delivering robust server-side logic, databases, and APIs for scalable, secure, reliable, and highly efficient software solutions.</p>
                         <!-- <i class="fad fa-send-back my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/backend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/backend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/fullstack-developers') }}">
+                    <a href="{{ url('/services/fullstack-developers') }}">
                         <div class="number-title invisible">03.</div>
                         <h3>Fullstack Development</h3>
-                        <p>It involves creating both front-end and back-end components of web applications, ensuring seamless integration and functionality.</p>
+                        <p>Our full-stack developers bridge the gap between frontend and backend, offering comprehensive, scalable, and innovative end-to-end solutions across various tech stacks such as MERN, MEAN, LAMP, and more.</p>
                         <!-- <i class="fad fa-box-full my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/fullstack-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/fullstack-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/support-engineers') }}">
+                    <a href="{{ url('/services/support-engineers') }}">
                         <div class="number-title invisible">04.</div>
                         <h3>Support Engineers</h3>
-                        <p>Expert engineers providing reliable, timely assistance to resolve technical issues, ensure system efficiency & deliver exceptional user satisfaction.</p>
+                        <p>Our support engineers offer a range of services to maintain system performance, from basic troubleshooting to handling complex issues and ensuring seamless operations across all systems.</p>
                         <!-- <i class="fab fa-codepen my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/support-engineers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/support-engineers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -95,12 +119,12 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Trust Our Resource Augmentation Services?</h2>
+							<span class="sp-color1">We Are The Best!!</span>
+							<h2>Why Choose Our Resource Augmentation Services?</h2>
                             <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
 						</div>
 						<div class="row">
@@ -108,36 +132,36 @@
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Strategies</h3>
+										<h3>Tailored Expertise</h3>
 									</div>
-									<p>We work closely with you to create solutions designed around your unique business needs.</p>
+									<p>Access specialized skills for frontend, backend, full-stack, and support roles to enhance your team's capabilities.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
+                                        <i class="fal fa-balance-scale"></i>
+										<h3>Scalable Solutions</h3>
 									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+									<p>Whether you need short-term or long-term assistance, we provide flexibility to match your project needs.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
+                                        <i class="fal fa-tachometer-alt-fastest"></i>
+										<h3>Faster Time-to-Market</h3>
 									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
+									<p>With experienced developers ready to integrate into your team, you can quickly accelerate project timelines.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Ongoing Support</h3>
+                                        <i class="fal fa-badge-percent"></i>
+										<h3>Budget Efficiency</h3>
 									</div>
-									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
+									<p>Minimize overhead costs associated with hiring and training, while accessing top-tier talent.</p>
 								</div>
 							</div>
 						</div>
@@ -150,26 +174,26 @@
 
 <div class="security-area pt-100 pb-70">
 	<div class="container">
-		<div class="section-title text-center">
+		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 		    <span class="sp-color2">Plan Descriptions</span>
 		    <h2>Choose the Best Plan For Your Business</h2>
 		</div>
 		<div class="row pt-45">
-		    <div class="col-lg-4 col-sm-6">
+		    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 		        <div class="security-card">
                     <i class="flaticon-cyber-security"></i>
                     <h3>Standard Plan</h3>
                     <p>Ideal for small businesses looking to establish a solid social media presence. This plan includes basic features such as post creation, page setups, and essential social media management.</p>
                 </div>
 		    </div>
-		    <div class="col-lg-4 col-sm-6">
+		    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="security-card">
                     <i class="flaticon-computer"></i>
                     <h3>Professional Plan</h3>
                     <p>Designed for businesses seeking to boost engagement and visibility, this plan provides more frequent posts, captivating video content, and expanded group sharing to reach a wider audience.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="security-card">
                     <i class="flaticon-effective"></i>
                     <h3>Enterprise Plan</h3>
@@ -183,7 +207,7 @@
 
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
@@ -193,11 +217,16 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Embrace the Future of Technology?</h2>
-                        <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals.</p>
+                        <h2>Flexible Workforce, Limitless Potential</h2>
+                        <p>At <b>JFS Technologies</b>, we offer flexible and scalable resource augmentation services to help businesses achieve their project goals. Connect with us to discover how our skilled developers can contribute to your success. Our process includes:</p>
+                        <ul class="text-white pt-3">
+                            <li>Identify Requirements: We collaborate with you to understand your project’s needs and the specific skills required.</li>
+                            <li>Talent Matching: We match you with the right developers based on their expertise and your project’s scope.</li>
+                            <li>Seamless Integration: Our developers quickly integrate into your existing teams, minimizing ramp-up time.</li>
+                            <li>Ongoing Support: We provide continuous support to ensure that the resources we provide continue to meet your evolving needs.</li>
+                        </ul>
                     </div>
-                    <h3>Backed by over 24 years of experience, we offer top resource augmentation solutions.</h3>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
+                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today!</a>
                 </div>
             </div>
         </div>
@@ -207,7 +236,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

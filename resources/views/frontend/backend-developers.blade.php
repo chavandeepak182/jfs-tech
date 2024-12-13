@@ -7,11 +7,11 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Robust Backend Development for Seamless Operations</h1>                 
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -22,15 +22,38 @@
     </video>
 </div>
 
-<section class="services-style-area home_cards pt-100 pb-70">
+
+<div class="about-area pt-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-6">
+                <div class="about-play p-5">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content ml-25">
+                	<div class="section-title">
+						<span class="sp-color2">Backends That Drive Efficiency</span>
+						<h2>Backend Solutions for Streamlined Operations</h2>
+						<p>Strengthen your development team with our backend developers, equipped with in-depth knowledge of programming languages like Python, Java, PHP, .NET, and C++. Our developers excel in frameworks such as Django, Spring, and Node.js, ensuring your backend solutions are robust, scalable, and efficient. From database design to API integration, our resource augmentation services allow you to access specialized backend expertise tailored to your project’s needs. With our flexible, scalable solutions, you can accelerate development timelines, enhance performance, and drive innovation, all while maintaining high-quality standards. From creating databases to improving server efficiency to integrating APIs, we are dedicated to delivering top-notch backend solutions that surpass client expectations.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="services-style-area home_cards pt-80 pb-70" id="service-sec">
 	<div class="container">
-		<div class="section-title text-center">
-			<span class="sp-color2"></span>
+		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
+			<span class="sp-color2">Strong Backends, Seamless Solutions</span>
 			<h2>Tailored Backend Solutions to Power Your Applications</h2>
-			<p class="margin-auto">Our team of skilled developers brings a wealth of expertise in Python, Java, PHP, .Net, C++ programming languages and more, along with proficiency in frameworks such as Django, Spring, and Node.js. They are committed to staying up-to-date with industry advancements and adopting best practices to provide cutting-edge and effective backend solutions for our clients. From creating databases to improving server efficiency to integrating APIs, we are dedicated to delivering top-notch backend solutions that surpass client expectations.</p>
+			<p class="margin-auto">Our team of skilled developers brings a wealth of expertise in Python, Java, PHP, .Net, C++ programming languages and more, along with proficiency in frameworks such as Django, Spring, and Node.js. They are committed to staying up-to-date with industry advancements and adopting best practices to provide cutting-edge and effective backend solutions for our clients.</p>
 		</div>
 		<div class="row pt-45 justify-content-center">
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Java Developers</h3>
@@ -38,7 +61,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/java.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>PHP Developers</h3>
@@ -46,7 +69,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/php.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>.NET Developers</h3>
@@ -55,14 +78,14 @@
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
-				<div class="work-process-card-three">
+				<div class="work-process-card-three" data-aos="fade-up" data-aos-duration="1250">
 					<div class="number-title invisible ">01.</div>
 					<h3>DevOps Engineers</h3>
 					<p>DevOps engineers streamline development & operations, automating processes, setting up CI/CD pipelines & monitoring backend application performance & infra.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/devops-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Python Developers</h3>
@@ -70,7 +93,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/python-dev.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Node.js Developers</h3>
@@ -78,7 +101,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/node.js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Ruby on Rails Developers</h3>
@@ -86,7 +109,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/ruby-code.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Database Developers</h3>
@@ -102,7 +125,7 @@
 <!-- Technologies Area -->
 	<div class="about-area pb-70">
 		<div class="container-fluid">
-			<div class="row mx-auto">
+			<div class="row mx-auto" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12 text-center">
 					<div class="about-content ml-25">
 						<div class="section-title">
@@ -163,48 +186,48 @@
 
 <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">Hire Us Now!!</span>
-							<h2>Why Hire Backend Developers from JFS</h2>
+							<h2>Advantages of Backend Resource Augmentation</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
-										<h3>Custom Solutions</h3>
+										<h3>Diverse Expertise</h3>
 									</div>
-									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+									<p>Gain access to professionals skilled in a variety of technologies and frameworks.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Experienced Team</h3>
+										<h3>Project Flexibility</h3>
 									</div>
-									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+									<p>Scale your backend development team based on project demands.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Holistic Approach</h3>
+										<h3>Cost-Effective Solutions</h3>
 									</div>
-									<p>We consider every aspect of the user journey to create cohesive, engaging digital experiences.</p>
+									<p>Optimize your resources without the need for long-term hiring commitments.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-headset"></i>
-										<h3>Commitment to Quality</h3>
+										<h3>Seamless Integration</h3>
 									</div>
-									<p>From concept to execution, we prioritize high standards to ensure outstanding results.</p>
+									<p>Our developers align with your workflows and collaborate effectively with existing teams.</p>
 								</div>
 							</div>
 						</div>
@@ -215,60 +238,72 @@
 	</div>
 
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2"></span>
-                <h2>Client Success Stories</h2>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Client Milestones Achieved</h2>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
-                            <p>Enhanced navigation & visuals led to a 30% boost in user engagement.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Mobile App UX Optimization</a></h3>
-                            <p>Redesigned the booking flow, boosting satisfaction.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">3D Visualization for a Product Launch</a></h3>
-                            <p>Built a cohesive visual identity to enhance brand recognition.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-					<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 <!-- Testimonials Area -->
 	<section class="clients-area pt-100 pb-70">
-		<div class="container">
+		<div class="container" data-aos="fade-up" data-aos-duration="750">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
 				<h2>What Our Clients Say</h2>
@@ -337,7 +372,7 @@
 
 	<div class="case-study-area ptb-100">
         <div class="container">
-            <div class="section-title text-center">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
                 <span class="sp-color2">Steps for Hiring</span>
                 <h2 class="pb-5">Hire a Backend Developer in Few Steps</h2>
 				<img class="hire_steps" alt="Steps for Hiring">
@@ -348,18 +383,18 @@
 
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-content-3 mr-20">
                     <div class="section-title">
                         <span class="sp-color1">Let's Start Today!</span>
-                        <h2>Hire a Dedicated Backend Developer For Your Next Project</h2>
-                        <p>We are here to help you containerize your applications, orchestrate them using tools like Kubernetes, and utilize microservices to create agile, modular systems. Whether you are looking to update existing applications or build new ones from scratch, we will guide you through the process to ensure efficient and seamless operation of your containers and microservices.</p>
+                        <h2>Streamlined Backends, Effortless Operations</h2>
+                        <p>Partner with us to access backend developers who bring the technical proficiency and collaborative approach needed to ensure your backend systems are secure, efficient, and capable of supporting your applications at scale. Our experts work closely with your team to deliver customized solutions, optimize performance, and ensure seamless integration, driving the success of your projects.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="contact-form">
+                <div class="contact-form mb-0">
                     <form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
                         @csrf
                         <div class="row">
@@ -411,7 +446,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
