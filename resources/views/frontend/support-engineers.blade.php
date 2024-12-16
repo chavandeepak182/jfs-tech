@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Professional Support Engineers for Your Business</h1>                 
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -17,28 +17,114 @@
     </div>
     
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="../theme/assets/images/support-engg.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
 
-<section class="services-style-area home_cards pt-100 pb-70">
+
+<div class="about-area pt-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-6">
+                <div class="about-play p-5">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content ml-25">
+                	<div class="section-title">
+						<span class="sp-color2">Problem Solvers, Not Just Supporters</span>
+						<h2>Support Engineers – Resource Augmentation Services</h2>
+						<p>Support engineers play a vital role in ensuring the smooth operation of systems, applications, and IT infrastructure. Our resource augmentation services provide access to skilled support engineers at various levels of expertise to address technical challenges effectively. From basic troubleshooting to resolving complex issues, our support engineers ensure minimal downtime and optimal performance for your systems and applications.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pt-80 pb-5 about-area about-bg2 home"  style="background: #fff;">
 	<div class="container">
-		<div class="section-title text-center">
-			<span class="sp-color2"></span>
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title text-center margin-auto" style="width: 650px;" data-aos="fade-up" data-aos-duration="500">
+						<span class="sp-color2">Tailored Support Expertise</span>
+						<h2 class="text-dark">Support Architects: Building Resolutions</h2>
+					</div>
+					<div class="row pt-4 justify-content-between">
+						<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="500">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-user-tie"></i>
+									<h3 class="text-dark">L0 Engineers</h3>
+								</div>
+								<p class="text-dark">Efficiently handle basic troubleshooting & ticket routing to the appropriate teams.</p>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="far fa-user-tie"></i>
+									<h3 class="text-dark">L1 Engineers</h3>
+								</div>
+								<p class="text-dark">Offer advanced support for recurring technical issues, ensuring prompt & effective resolution.</p>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="1000">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fad fa-user-tie"></i>
+									<h3 class="text-dark">L2 Engineers</h3>
+								</div>
+								<p class="text-dark">Equipped to diagnose & resolve complex problems requiring deep technical expertise.</p>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="1250">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fas fa-user-tie"></i>
+									<h3 class="text-dark">L3 Engineers</h3>
+								</div>
+								<p class="text-dark">Senior specialists collaborating with vendors to address challenging technical issues.</p>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="1500">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fas fa-user-graduate"></i>
+									<h3 class="text-dark">L4 Engineers</h3>
+								</div>
+								<p class="text-dark">Top experts contributing to innovative solutions and advanced technologies.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<section class="services-style-area home_cards pt-80 pb-70">
+	<div class="container">
+		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
+			<span class="sp-color2">Types of Support Engineers</span>
 			<h2>Dedicated Support Engineers for Seamless Operations</h2>
 			<p class="margin-auto">Our team of support engineers is structured to provide specialized assistance for a wide range of technical issues. Beginning with our L0 engineers, who offer basic troubleshooting and ticket routing, clients can escalate to L1 engineers with more experience when needed. Our L2 engineers are the experts in their field, equipped to handle complex problems that require a deep understanding. For the most challenging issues, our L3 engineers, senior specialists, collaborate directly with vendors to find solutions. Finally, our L4 engineers, the pinnacle of support, bring the highest level of expertise and are often instrumental in developing innovative solutions and technologies.</p>
 		</div>
 		<div class="row pt-45 justify-content-center">
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Technical Support Engineer</h3>
-					<p>They provide customer support for software products or services, resolving technical issues & answering queries through various channels such as phone, email, or chat.</p>
+					<p>Provide technical support for software via phone, email, or chat, using product expertise to troubleshoot issues and ensure a seamless user experience.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/tech-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Application Support Engineer</h3>
@@ -46,7 +132,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/app-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>System Support Engineer</h3>
@@ -54,7 +140,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/sys-sup-eng.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Helpdesk Support Engineer</h3>
@@ -71,7 +157,7 @@
     <div class="about-area pb-70">
 		<div class="container-fluid">
 			<div class="row mx-auto">
-				<div class="col-lg-12 text-center">
+				<div class="col-lg-12 text-center" data-aos="fade-up" data-aos-duration="750">
 					<div class="about-content ml-25">
 						<div class="section-title">
 							<span class="sp-color2">Our Expertise</span>
@@ -175,50 +261,49 @@
 
 
 <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">Hire Us Now!!</span>
-							<h2>Why Hire Support Engineers from JFS</h2>
+	<div class="container">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-3">
+						<span class="sp-color1">Smart Support for Smarter Systems</span>
+						<h2>Why Choose Resource Augmentation for Support Engineers?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-balance-scale"></i>
+									<h3>Scalable Expertise</h3>
+								</div>
+								<p>Access support professionals at the required level of expertise for your needs.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Custom Solutions</h3>
-									</div>
-									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-users-crown"></i>
+									<h3>Enhanced Efficiency</h3>
 								</div>
+								<p>Significantly reduce response and resolution times with skilled, specialized engineers.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Experienced Team</h3>
-									</div>
-									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-badge-percent"></i>
+									<h3>Budget Efficiency</h3>
 								</div>
+								<p>Augment your team without the overhead of hiring permanent staff.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Holistic Approach</h3>
-									</div>
-									<p>We consider every aspect of the user journey to create cohesive, engaging digital experiences.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<i class="fal fa-pencil-ruler"></i>
+									<h3>Tailored Solutions</h3>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Commitment to Quality</h3>
-									</div>
-									<p>From concept to execution, we prioritize high standards to ensure outstanding results.</p>
-								</div>
+								<p>Select the exact type of support engineer to complement your existing team.</p>
 							</div>
 						</div>
 					</div>
@@ -226,74 +311,75 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2"></span>
-                <h2>Client Success Stories</h2>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Client Milestones Achieved</h2>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-							<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-							<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Mobile App UX Optimization</a></h3>
-							<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-							<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">3D Visualization for a Product Launch</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-				<div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-							<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">3D Visualization for a Product Launch</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-					<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 <!-- Testimonials Area -->
 	<section class="clients-area pt-100 pb-70">
-		<div class="container">
+		<div class="container" data-aos="fade-up" data-aos-duration="750">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
 				<h2>What Our Clients Say</h2>
@@ -362,7 +448,7 @@
 
 	<div class="case-study-area ptb-100">
         <div class="container">
-            <div class="section-title text-center">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
                 <span class="sp-color2">Steps for Hiring </span>
                 <h2 class="pb-5">Hire a Dedicated Support Engineer in Few Steps</h2>
 				<img class="hire_steps" alt="Steps for Hiring">
@@ -373,13 +459,13 @@
 
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-content-3">
                     <div class="section-title">
                         <span class="sp-color1">Let's Start Today!</span>
                         <h2>Hire a Top-Quality Support Engineer</h2>
-                        <p>By hiring support engineers through resource augmentation services, organizations can augment their existing support teams with experienced professionals who can effectively handle technical support tasks, enhance customer satisfaction, and contribute to the overall success of their IT operations. Working together, our support engineers guarantee that our clients receive top-tier technical assistance for their network, storage, compute, and security requirements.</p>
+                        <p>Partner with us to streamline your technical support with experts who ensure stability, performance, and customer satisfaction. Through resource augmentation, enhance your team with skilled support engineers who excel in managing IT operations and technical tasks. Our engineers deliver top-tier assistance for network, storage, compute, and security needs, driving your business success.</p>
                     </div>
                 </div>
             </div>
@@ -436,7 +522,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
