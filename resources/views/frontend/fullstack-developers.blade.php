@@ -7,37 +7,60 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Reliable Full-Stack Development Services for All Industries</h1>                 
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
     
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="../theme/assets/images/fullstack-dev.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
 
-<section class="services-style-area home_cards pt-100 pb-70">
+
+<div class="about-area pt-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-6">
+                <div class="about-play p-5">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content ml-25">
+                	<div class="section-title">
+						<span class="sp-color2">One Codebase, Endless Possibilities</span>
+						<h2>Full-Stack Developers – Resource Augmentation Services</h2>
+						<p>Access top-tier talent with our full-stack developers, proficient in both front-end and back-end technologies. With a comprehensive understanding of application architecture, these developers are skilled in seamlessly integrating various components to deliver cohesive and high-performing solutions. Whether your project requires web applications, mobile apps, or custom software, our full-stack developers bring versatility and expertise to meet your specific needs.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="services-style-area home_cards pt-80 pb-70">
 	<div class="container">
-		<div class="section-title text-center">
-			<span class="sp-color2"></span>
+		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
+			<span class="sp-color2">Expertise Across Technology Stacks</span>
 			<h2>End-to-End Full-Stack Web Development Services</h2>
 			<p class="margin-auto">Our fullstack developers are carefully selected based on their expertise and experience in the specific technology stack required for the project. They are skilled professionals who possess a deep understanding of both front-end and back-end development, allowing them to seamlessly integrate different components of a software application. Each type of full stack developer offers a unique set of skills and capabilities, making them valuable assets in resource augmentation services for businesses seeking to enhance their development capabilities.</p>
 		</div>
 		<div class="row pt-45 justify-content-center">
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>JavaScript</strong> Full-Stack Developers, for example, excel in building web apps using popular JavaScript frameworks like React, Angular, or Vue, creating dynamic user interfaces & robust back-end systems.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>MERN</strong> Stack Developers specialize in MongoDB, Express.js, React, and Node.js, while</p>
@@ -45,21 +68,21 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/mm.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>Ruby on Rails</strong> Full-Stack Developers are proficient in developing web apps using the Ruby programming language and the Rails framework, ensuring high performance, scalability & maintainable code.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/ruby.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>Python</strong> Full-Stack Developers leverage the versatility of Python to build robust & scalable apps, integrating various frameworks & libraries to enhance functionality & performance.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/python.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>LAMP</strong> Stack Developers work with Linux, Apache, MySQL, and PHP to create dynamic websites and web applications.</p>
@@ -67,14 +90,14 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/lamp.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>Mobile</strong> Full-Stack Developers have expertise in developing both front-end and back-end solutions for mobile applications, utilizing technologies like React Native, Flutter, Xamarin & cloud-based integrations.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/mobile.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p><strong>DevOps</strong> Full-Stack Developers excel in both development and operations, specializing in process automation, system performance monitoring, seamless deployment, and effective software maintenance.</p>
@@ -89,7 +112,7 @@
 <!-- Technologies Area -->
     <div class="about-area pb-70">
 		<div class="container-fluid">
-			<div class="row mx-auto">
+			<div class="row mx-auto" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12 text-center">
 					<div class="about-content ml-25">
 						<div class="section-title">
@@ -180,48 +203,48 @@
 
 <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
-							<span class="sp-color1">Hire Us Now!!</span>
-							<h2>Why Hire Full-stack Developers from JFS</h2>
+							<span class="sp-color1">Crafting Complete Digital Ecosystems</span>
+							<h2>Benefits of Full-Stack Resource Augmentation</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
-										<h3>Custom Solutions</h3>
+										<h3>Comprehensive Expertise</h3>
 									</div>
-									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+									<p>Access professionals capable of handling both front-end and back-end tasks effortlessly and seamlessly.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Experienced Team</h3>
+										<h3>Streamlined Communication</h3>
 									</div>
-									<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+									<p>Minimize coordination challenges by working with developers who understand the entire application lifecycle.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Holistic Approach</h3>
+										<h3>Project Versatility</h3>
 									</div>
-									<p>We consider every aspect of the user journey to create cohesive, engaging digital experiences.</p>
+									<p>Tailor development capabilities to match project requirements with diverse skill sets and innovative solutions.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
 								<div class="choose-content-card">
 									<div class="content">
                                         <i class="fal fa-headset"></i>
-										<h3>Commitment to Quality</h3>
+										<h3>Scalable Solutions</h3>
 									</div>
-									<p>From concept to execution, we prioritize high standards to ensure outstanding results.</p>
+									<p>Quickly adapt your development team as project requirements grow, shift, and evolve dynamically.</p>
 								</div>
 							</div>
 						</div>
@@ -232,60 +255,72 @@
 	</div>
 
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2"></span>
-                <h2>Client Success Stories</h2>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Client Milestones Achieved</h2>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
-                            <p>Enhanced navigation & visuals led to a 30% boost in user engagement.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Mobile App UX Optimization</a></h3>
-                            <p>Redesigned the booking flow, boosting satisfaction.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">3D Visualization for a Product Launch</a></h3>
-                            <p>Built a cohesive visual identity to enhance brand recognition.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-					<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 <!-- Testimonials Area -->
 	<section class="clients-area pt-100 pb-70">
-		<div class="container">
+		<div class="container" data-aos="fade-up" data-aos-duration="750">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
 				<h2>What Our Clients Say</h2>
@@ -354,7 +389,7 @@
 
 	<div class="case-study-area ptb-100">
         <div class="container">
-            <div class="section-title text-center">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
                 <span class="sp-color2">Steps for Hiring</span>
                 <h2 class="pb-5">Hire a Full-stack Developer in Few Steps</h2>
 				<img class="hire_steps" alt="Steps for Hiring">
@@ -365,13 +400,13 @@
 
 <div class="about-area about-bg2 pt-100 pb-70">
     <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-content-3 mr-20">
                     <div class="section-title">
-                        <span class="sp-color1">Let's Start Today!</span>
-                        <h2>Hire Top Full-Stack Developers</h2>
-                        <p>Our team of fullstack developers is adept at working with various technologies and frameworks, ensuring that they can tackle any challenge and deliver high-quality solutions. Whether it's building web applications, mobile apps, or custom software solutions, our fullstack developers have the knowledge and skills to meet the unique requirements of each project.</p>
+                        <span class="sp-color1">Code. Build. Scale. We Handle It All.</span>
+                        <h2>From Idea to Launch: Full-Stack Simplified</h2>
+                        <p>Leverage our full-stack resource augmentation services to gain access to professionals who can efficiently manage all aspects of your development projects, ensuring timely delivery and exceptional performance. Our team of fullstack developers is adept at working with various technologies and frameworks, ensuring that they can tackle any challenge and deliver high-quality solutions.</p>
                     </div>
                 </div>
             </div>
@@ -428,7 +463,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
