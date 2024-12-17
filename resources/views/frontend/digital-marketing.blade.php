@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Unlock Your Brand’s Potential with Powerful Digital Marketing</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -25,13 +25,13 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Digital Marketing Solutions to Boost Online Presence</h2>
             <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Our digital marketing services are designed to help your business grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO to paid advertising and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">1. Search Engine Optimization (SEO)</a></h3>
@@ -39,7 +39,7 @@
                     <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">2. Social Media Management</a></h3>
@@ -47,7 +47,7 @@
                     <a href="{{ url('/services/smo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">3. Paid Advertising (PPC)</a></h3>
@@ -55,7 +55,7 @@
                     <a href="{{ url('/services/ppc-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/e-mark.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="{{ url('/services/email-marketing') }}">4. Email Marketing</a></h3>
@@ -70,7 +70,7 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -128,63 +128,72 @@
 	</div>
 
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2">Success Stories</span>
-                <h2>Success Stories in Application Modernization</h2>
-                <p>See how our Application Modernization services have helped businesses transform:</p>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Success Stories in Application Modernization</h2>
+            <p>See how our Application Modernization services have helped businesses transform:</p>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Healthcare Platform Revamp</a></h3>
-                            <p>We upgraded a healthcare system, improving access and efficiency.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Finance Cloud Migration</a></h3>
-                            <p>We migrated a financial client to the cloud, enhancing performance and cutting costs.</p>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <ul>
-                                <li><a href="#">Business</a></li>
-                                <li><a href="#">Planing</a> </li>
-                            </ul>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 <div class="about-area about-bg2 pt-5 pb-3">
-    <div class="container-fluid">
+    <div class="container-fluid" data-aos="fade-up" data-aos-duration="750">
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-4">
@@ -209,7 +218,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

@@ -21,13 +21,13 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Crafting Digital Journeys That Redefine Success</h2>
             <p class="margin-auto">Comprehensive digital solutions designed to transform your business, streamline operations, enhance customer experiences, and drive sustainable growth through innovative strategies and cutting-edge technologies. At <strong>JFS Technologies</strong>, we offer a range of innovative digital solutions to help your business thrive in a competitive digital landscape. Explore our key services below:</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
                     <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
@@ -75,7 +75,7 @@
                     <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
                     <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
@@ -150,165 +150,62 @@
 	</div>
 
 
-    <div class="case-study-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="500">
-		<div class="container-fluid p-0">
-			<div class="section-title text-center">
-				<span class="sp-color2">Case Study</span>
-				<h2>Driving Success for Our Clients</h2>
-				<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
+<div class="case-study-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="750">
+	<div class="container-fluid p-0">
+		<div class="section-title text-center">
+			<span class="sp-color2">Success Stories</span>
+			<h2>Driving Success for Our Clients</h2>
+			<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
+		</div>
+		<div class="case-study-slider owl-carousel owl-theme pt-45">
+			<div class="case-study-item">
+                <a href="#">
+                    <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+					<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                </a>
+                <div class="content">
+                    <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                    <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                </div>
+            </div>
+			<div class="case-study-item">
+                <a href="#">
+                    <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+					<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                </a>
+                <div class="content">
+                    <h3><a href="#">Mobile App UX Optimization</a></h3>
+					<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                </div>
+            </div>
+			<div class="case-study-item">
+                <a href="#">
+                    <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+					<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                </a>
+                <div class="content">
+                    <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                    <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                </div>
+            </div>
+			<div class="case-study-item">
+				<a href="#">
+					<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images"> -->
+					<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Images">
+				</a>
+				<div class="content">
+					<h3><a href="#">Secure Cloud Migration</a></h3>
+					<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+				</div>
 			</div>
-			<div class="case-study-slider owl-carousel owl-theme pt-45 owl-loaded owl-drag">				
-			    <div class="owl-stage-outer"><div class="owl-stage" style="transition: 0.25s; width: 4261px; transform: translate3d(-1742px, 0px, 0px);"><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 3</a></h3>
-						<p>Read About Our Work in Healthcare Technology</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 1</a></h3>
-						<p>Learn How We Increased Organic Traffic by 200%.</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 2</a></h3>
-						<p>Discover How We Streamlined a Retailer’s Online Sales</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 3</a></h3>
-						<p>Read About Our Work in Healthcare Technology</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 1</a></h3>
-						<p>Learn How We Increased Organic Traffic by 200%.</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item active" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 2</a></h3>
-						<p>Discover How We Streamlined a Retailer’s Online Sales</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item active center" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 3</a></h3>
-						<p>Read About Our Work in Healthcare Technology</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned active" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 1</a></h3>
-						<p>Learn How We Increased Organic Traffic by 200%.</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned active" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/theme/assets/images/case-study/case-study2.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 2</a></h3>
-						<p>Discover How We Streamlined a Retailer’s Online Sales</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 3</a></h3>
-						<p>Read About Our Work in Healthcare Technology</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div><div class="owl-item cloned" style="width: 357.3px; margin-right: 30px;"><div class="case-study-item">
-					<a href="#">
-						<img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-					</a>
-					<div class="content">
-						<h3><a href="#">Case Study 1</a></h3>
-						<p>Learn How We Increased Organic Traffic by 200%.</p>
-						<!-- <ul>
-							<li><a href="#">Business</a></li>
-							<li><a href="#">Planing</a> </li>
-						</ul> -->
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-					</div>
-				</div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
 		</div>
 	</div>
+</div>
 
 
 	<!-- Testimonials Area -->
-	<section class="clients-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="500">
-		<div class="container">
+	<section class="clients-area pt-100 pb-70">
+		<div class="container" data-aos="fade-up" data-aos-duration="750">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
 				<h2>What Our Clients Say</h2>
@@ -354,7 +251,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
