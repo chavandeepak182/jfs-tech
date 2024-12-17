@@ -5,23 +5,18 @@
 
 @section('content')
 
-<div class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center" data-aos="fade-down" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <div class="col-lg-6">
-                <div class="banner-five-content">
-                    <span></span>
-                    <h1 class="text-white">Welcome to the JFS <b>Newsroom</b></h1>
-                    <p class="text-white">A hub for the latest updates, insights, and achievements from our organization. Stay informed about our news, events, and collaborations as we continue to drive innovation and deliver impactful solutions. Explore our newsroom to gain a deeper understanding of our journey, milestones, and contributions to the tech industry.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="banner-five-img mx-auto w-75">
-                    <img src="{{ asset('theme') }}/assets/images/digital-trans.png" alt="Images">
-                </div>
-            </div>
+<div id="banner" class="inner-banner">
+    <div class="container">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+            <h1>Welcome to the JFS <b>Newsroom</b></h1>
+            <p class="text-white">A hub for the latest updates, insights, and achievements from our organization. Stay informed about our news, events, collaborations, and upcoming initiatives as we continue to drive innovation and deliver impactful solutions. Explore our newsroom to gain a deeper understanding of our journey, milestones, partnerships, and contributions to the tech industry, while learning about the cutting-edge technologies, success stories, and thought leadership that shape our vision for the future.</p>
         </div>
     </div>
+
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/news-banner.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
+    </video>
 </div>
 
 

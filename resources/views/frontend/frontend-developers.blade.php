@@ -456,47 +456,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What types of frontend development roles do you offer?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>We offer a range of frontend development roles, including UI/UX Designers who focus on creating engaging and user-friendly interfaces, Frontend Coders who implement designs into functional code, React Developers skilled in building dynamic applications, and Angular Developers for robust and scalable projects. Whatever your project needs, we have the right expertise to deliver.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How do you ensure that your developers are a good fit for my project?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>At JFS Technologies, we take the time to understand your project requirements and goals. We then match you with developers who have the right skills and experience for your specific needs. Our developers are not only technically proficient but also excel in communication and collaboration, ensuring a seamless integration with your team.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            Can I communicate directly with the developers working on my project?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Yes! We encourage open communication between our clients and developers. You’ll have direct access to the developers working on your project, allowing for efficient collaboration and feedback. We believe that clear communication is key to project success.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            What is the process for onboarding a frontend developer for my project?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Our onboarding process is straightforward. Once you outline your project requirements, we will present you with suitable developer candidates. After you select the right fit, we’ll set up an onboarding meeting to discuss project details, timelines, and expectations. Our goal is to ensure a smooth transition and quick start on your project.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            What if I need to scale my team or adjust my project requirements mid-way?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>We understand that project needs can evolve. If you find that you need to scale your team or adjust your requirements, simply reach out to us. We can quickly provide additional developers or modify the project scope to meet your new goals. Our flexibility is designed to support your changing needs.</p>
                                         </div>
                                     </li>
                                 </ul>            

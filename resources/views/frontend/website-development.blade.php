@@ -331,46 +331,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is the website development agency approach largely following these days?
+                                            What types of websites do you design and develop?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>In modern website development agencies integrate user-centric design, agile methods, and responsive principles, focusing on mobile-first approaches. Their goal: create robust, visually appealing websites delivering seamless experiences across devices and platforms.</p>
+                                            <p>We create a variety of websites, including static websites for simple needs, dynamic websites for interactive experiences, and eCommerce websites for online selling. Whatever your business requires, we’ve got you covered!</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Why is Responsive Web Design important?
+                                            How long does it take to build a website?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Responsive Web Design is vital for effective display on different screens, prioritizing user experience. Our Indian website development firm focuses on the mobile-first approach, ensuring optimal performance and adaptability across devices. This strategy enhances engagement, prolongs stay time, and boosts conversion rates.</p>
+                                            <p>The timeline depends on the type of website and its complexity. A basic static site might take a few weeks, while dynamic or eCommerce sites with custom features may take a couple of months. We’ll provide you with a clear timeline during our consultation.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Do you offer content writing services in website design for small business?
+                                            Can you help with redesigning my existing website?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Certainly! As a website development agency, we offer content writing services alongside web design and development. Our skilled writers collaborate closely with you to create engaging content that resonates with your audience, aiming to drive user interaction on your website.</p>
+                                            <p>Of course! Whether you want to refresh the design, add new features, or completely revamp your site, we can transform your existing website into something modern and user-friendly.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you handle content and images in website development?
+                                            Do you offer ongoing support after the website is launched?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>As a web design company, we recognize the importance of content and imagery in website development. We collaborate closely with you to align content with your goals, offering assistance in creation or refinement. Our team suggests suitable images to enhance visual appeal, sourced from professional photography or online galleries, ensuring they complement your content seamlessly.</p>
+                                            <p>Yes, we provide post-launch support, including updates, maintenance, and troubleshooting. Our goal is to ensure your website stays functional and secure long after it’s live.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Do you integrate a Content Management System (CMS) into websites?
+                                            Will my website be mobile-friendly and optimized for search engines?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Certainly! As a top web design company, we seamlessly integrate Content Management Systems (CMS) into your website for easy content management. We offer custom CMS solutions and support popular platforms like WordPress, Magento, and Shopify.</p>
+                                            <p>Absolutely! We design all our websites to be mobile-responsive and SEO-friendly, ensuring they look great on any device and are easy for customers to find online.</p>
                                         </div>
                                     </li>
                                 </ul>            

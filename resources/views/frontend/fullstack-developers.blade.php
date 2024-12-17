@@ -476,47 +476,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What types of full-stack developers do you offer?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>We offer a variety of full-stack developers to suit your project’s needs, including JavaScript Full-Stack Developers, MERN Stack Developers, Ruby on Rails Full-Stack Developers, Python Full-Stack Developers, LAMP Stack Developers, Mobile Full-Stack Developers, and DevOps Full-Stack Developers. No matter the stack, we’ve got you covered!</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How do I know if a full-stack developer is the right fit for my project?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Full-stack developers are ideal for projects that need expertise in both frontend and backend. If you’re looking for someone who can handle end-to-end development, coordinate between teams, or streamline workflows, a full-stack developer could be perfect. Our team can help you identify the right developer based on your specific goals and technologies.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            Will the developers work directly with my team?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Absolutely! Our developers will collaborate directly with your team to understand your requirements, provide regular updates, and ensure seamless integration into your existing workflows. You’ll have full communication and control to keep the project on track.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            Can I hire a full-stack developer for short-term projects or specific tasks?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Yes, we offer flexible hiring models to accommodate both short-term tasks and long-term engagements. Whether you need help with a small project or ongoing support for a large initiative, our full-stack developers are available to meet your needs.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do you ensure the quality and expertise of your full-stack developers?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>Our full-stack developers undergo a rigorous screening process, including technical assessments, problem-solving evaluations, and hands-on project reviews. Additionally, we provide continuous training to keep them up-to-date with the latest tools and technologies, ensuring they deliver top-notch results for your projects.</p>
                                         </div>
                                     </li>
                                 </ul>            

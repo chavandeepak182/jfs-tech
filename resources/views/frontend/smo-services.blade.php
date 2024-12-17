@@ -104,7 +104,7 @@
 									<i class="fal fa-users-crown"></i>
 									<h3>Experienced Team</h3>
 								</div>
-								<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+								<p>Our skilled team of professionals brings deep expertise to every project.</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-6">
@@ -909,47 +909,55 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What does your social media marketing services offer?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>Our social media marketing company offers a comprehensive range of services including social media strategy development, content creation, community management, paid advertising, and analytics tracking.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How can social media optimization benefit my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Social media marketing and advertising can benefit your business by increasing brand awareness, driving website traffic, generating leads, engaging with your audience, building customer loyalty, and ultimately boosting sales and revenue.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            How do you determine the right social media strategy for my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>We conduct a thorough analysis of your business goals, target audience, industry, competitors, and current social media advertising agencies presence to develop a customized social media strategy that aligns with your objectives and resonates with your audience.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            Which social media platforms do you recommend for my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>The social media platforms we recommend depend on factors such as your target audience demographics, industry, and business goals. We typically recommend platforms like Facebook, Instagram, Twitter, LinkedIn, and Pinterest, but we tailor our recommendations to your specific needs.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do you measure the success of your social media campaigns?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>We measure the success of our social media campaigns using various metrics such as engagement rates, reach, impressions, clicks, conversions, and return on investment (ROI). We provide regular reports and analytics to track progress and optimize campaigns accordingly.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            Can you guarantee specific results from your social media marketing services efforts?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>While we cannot guarantee specific results, we are committed to implementing best practices and strategies to maximize the effectiveness of your social media marketing companies campaigns and achieve your business objectives.</p>
                                         </div>
                                     </li>
                                 </ul>            

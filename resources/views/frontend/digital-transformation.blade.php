@@ -52,7 +52,7 @@
                     <a href="{{ url('/services/ar-vr') }}">
                         <div class="number-title invisible">02.</div>
                         <h3>AR/VR</h3>
-                        <p>Data practice involves using data-driven strategies to inform decisions, optimize processes, and drive business growth.</p>
+                        <p>AR/VR practice involves using immersive technologies to inform decisions, optimize processes, and drive business growth.</p>
                         <!-- <i class="fal fa-head-vr my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/ar-vr.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">

@@ -49,11 +49,12 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Off-Page SEO</h3>
-					<p>Building the authority of your website by earning backlinks from reputable websites.
+					<p>Building the authority of your website by earning high-quality backlinks from reputable websites and industry leaders.
                         <ul>
                             <li><strong>Backlink Strategy:</strong> Acquiring high-quality backlinks through guest posts, outreach, and partnerships.</li>
                             <li><strong>Social Signals:</strong> Using social media platforms to drive traffic and enhance your website's credibility.</li>
                             <li><strong>Local SEO:</strong> Optimizing your website for local search queries to help your business rank in local search results.</li>
+                            <li><strong>Content Marketing:</strong> Creating valuable, engaging content that naturally attracts backlinks and drives organic traffic.</li>
                         </ul>
                     </p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
@@ -63,11 +64,12 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Technical SEO</h3>
-					<p>Improving the technical aspects of your website to ensure it's easily crawled, indexed, and accessible.
+					<p>Improving the technical aspects of your website to ensure it's easily crawled, indexed, accessible, and optimized for performance.
                         <ul>
                             <li><strong>Site Speed Optimization:</strong> Improving website load times for a better user experience and better rankings.</li>
                             <li><strong>Mobile Optimization:</strong> Ensuring your site is fully responsive and mobile-friendly.</li>
                             <li><strong>Crawlability & Indexability:</strong> Fixing technical issues that prevent search engines from crawling and indexing your site properly.</li>
+                            <li><strong>Structured Data:</strong> Implementing schema markup to help search engines understand and display your content more effectively.</li>
                         </ul>
                     </p>
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
@@ -102,7 +104,7 @@
 									<i class="fal fa-users-crown"></i>
 									<h3>Experienced Team</h3>
 								</div>
-								<p>Our designers, developers, and content creators bring a wealth of experience to every project.</p>
+								<p>Our skilled team of professionals brings deep expertise to every project.</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-6">
@@ -619,47 +621,55 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What does a best SEO service provider do?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>A SEO service provider helps businesses improve their online visibility and organic search rankings by optimizing their website and content to align with search engine algorithms and user intent.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How can SEO services benefit my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>SEO services can benefit your business by driving targeted traffic to your website, increasing brand awareness, improving search engine rankings, and ultimately boosting conversions and revenue.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            What services do you offer as an SEO service provider?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>We offer a comprehensive range of SEO services including keyword research, on-page optimization, content creation and optimization, link building, technical SEO audits, and SEO strategy development.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            How do you determine the right SEO strategy for my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>We conduct a thorough analysis of your website, industry, target audience, and competitors to develop a customized SEO strategy tailored to your specific goals, budget, and timeline.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do we get started with your SEO services?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>Getting started is simple! Contact us through our website or email, and one of our SEO specialists will schedule a consultation to discuss your goals, assess your current website and SEO performance, and recommend a customized plan of action to drive results.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            How do you measure the success of your SEO campaigns?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>We measure the success of our SEO campaigns using various metrics such as organic traffic, keyword rankings, conversion rates, and return on investment (ROI). We provide regular reports and analytics to track progress and adjust strategies as needed.</p>
                                         </div>
                                     </li>
                                 </ul>            
