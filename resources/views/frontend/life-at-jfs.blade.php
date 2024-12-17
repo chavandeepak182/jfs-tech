@@ -6,7 +6,7 @@
 @section('content')
 <div class="inner-banner" style="background-image: url(../theme/assets/images/infra-mgmt.jpg);">
     <div class="container">
-        <div class="inner-title w-75" data-aos="fade-down" data-aos-offset="600" data-aos-easing="ease-in-sine">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Experience Work-Life Balance & Growth at JFS Technologies</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -17,14 +17,14 @@
 </div>
 
 <section class="services-style-area home_cards pt-100 pb-70">
-    <div class="container" data-aos="fade-up" data-aos-duration="750">
-        <div class="section-title text-center">
+    <div class="container">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Life at JFS Technologies</span>
             <h2>A Place to Grow and Thrive</h2>
             <p class="margin-auto">At JFS Technologies, we believe in creating a workplace that goes beyond the ordinary. Our culture is built on collaboration, innovation, and respect, offering every team member the opportunity to learn, contribute, and succeed. Whether you&#39;re a seasoned professional or just starting your career, you'll find an environment that nurtures talent and encourages new ideas.</p>
         </div>
         <div class="row pt-45 justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-			<div class="col-lg-3 col-sm-6">
+			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Innovative Projects</h3>
@@ -32,7 +32,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Learning Opportunities</h3>
@@ -40,7 +40,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Collaborative Culture</h3>
@@ -48,7 +48,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Recognition & Growth</h3>

@@ -26,16 +26,15 @@
 
 
 	<!-- About Area -->
-	<div class="about-area pt-100 pb-5">
+	<div class="about-area pt-80 pb-70">
 		<div class="container">
 			<div class="row justify-content-center align-items-center mx-auto">
 				<div class="col-lg-12">
 					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
-						<div class="section-title">
+						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2 class="m-0">Right Partner for Software Innovation</h2>
-							<p>At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
-							<p>Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions. We pride ourselves on staying ahead of industry trends, delivering future-ready strategies tailored to meet the unique challenges of your business.</p>
+							<h2>Right Partner for Software Innovation</h2>
+							<div class="mx-auto pt-3">At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions. We pride ourselves on staying ahead of industry trends, delivering future-ready strategies tailored to meet the unique challenges of your business.</div>
 						</div>
 					</div>
 
@@ -226,7 +225,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">01.</div>
 						<h3>Small and Medium-Sized Enterprises (SMEs)</h3>
-						<p>Achieve growth with tailored websites and digital marketing.</p>
+						<p>Achieve sustainable growth with tailored websites and innovative digital marketing strategies.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/SMEs.svg" class="brand-logo-one" alt="SMEs">
 					</div>
 				</div>
@@ -234,7 +233,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">02.</div>
 						<h3>Startups</h3>
-						<p>Scale rapidly with advanced tech solutions for accelerated product development and marketing growth.</p>
+						<p>Scale rapidly with advanced tech solutions for accelerated product development, streamlined operations, and sustainable marketing growth.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
 					</div>
 				</div>
@@ -242,7 +241,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">03.</div>
 						<h3>Digital Agencies</h3>
-						<p>Outsource complex projects and manage overflow with our dedicated development teams.</p>
+						<p>Outsource complex projects and manage overflow with our dedicated development teams, ensuring efficiency, scalability, and on-time project delivery.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/ads.svg" class="brand-logo-one" alt="Ads">
 					</div>
 				</div>
@@ -250,7 +249,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">04.</div>
 						<h3>Large Enterprises</h3>
-						<p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance and seamless integration.</p>
+						<p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance, seamless integration, and long-term reliability.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/enterprise.svg" class="brand-logo-one" alt="Large Enterprises">
 					</div>
 				</div>
@@ -258,7 +257,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">05.</div>
 						<h3>E-commerce Companies</h3>
-						<p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
+						<p>Create interactive platforms designed for e-commerce companies to boost collaboration, improve training, and increase engagement with dynamic content.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/cart.svg" class="brand-logo-one" alt="cart">
 					</div>
 				</div>
@@ -266,7 +265,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">06.</div>
 						<h3>Educational Institutions</h3>
-						<p>Create engaging learning platforms that foster collaboration and enhance education with interactive content.</p>
+						<p>Create engaging learning platforms that foster collaboration, improve knowledge retention, and enhance education with interactive, user-friendly content.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/elearning.svg" class="brand-logo-one" alt="Elearning">
 					</div>
 				</div>
@@ -274,7 +273,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">07.</div>
 						<h3>Nonprofit Organizations</h3>
-						<p>Boost outreach and fundraising with affordable digital solutions that enhance engagement.</p>
+						<p>Boost outreach and fundraising efforts with affordable, scalable digital solutions that enhance audience engagement, improve visibility, and drive measurable results.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
 					</div>
 				</div>
@@ -282,7 +281,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">08.</div>
 						<h3>Tech & Software Companies</h3>
-						<p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution & quality results.</p>
+						<p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution, quality results, and accelerated time-to-market.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 					</div>
 				</div>

@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Smart Infrastructure Solutions for Maximum Uptime</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -24,37 +24,37 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Reliable Infrastructure, Resilient Operations</h2>
             <p class="margin-auto">Maintaining a robust, secure, and efficient IT infrastructure is essential for business success. Our Infrastructure Management services cover all critical aspects, including Network Operations Center (NOC) and Security Operations Center (SOC) monitoring, data center management, and cloud solutions. With an experienced team dedicated to proactive monitoring and management, we handle your infrastructure needs so you can focus on your core business goals. Whether securing your network, optimizing data center operations, or transitioning to cloud technology, we ensure a smooth, scalable solution for your evolving needs.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
                     <h3><a href="#">1. NOC</a></h3>
-                    <p>Our dedicated team is here to provide round-the-clock monitoring and support for your network infrastructure. With years of experience, our technicians work proactively to detect and resolve any issues before they disrupt your business operations. Rest easy knowing that your network is well taken care of with our NOC services, ensuring any problems are swiftly and effectively dealt with. Reach out to us today to discover how our NOC services can elevate your business performance.</p>
+                    <p>Our dedicated team is here to provide round-the-clock monitoring and support for your network infrastructure. With years of experience, our technicians work proactively to detect and resolve any issues before they disrupt your business operations. Rest easy knowing that your network is well taken care of with our NOC services, ensuring any problems are swiftly and effectively dealt with. We also offer detailed reporting and continuous system optimization. Reach out to us today to discover how our NOC services can elevate your business performance and provide unparalleled peace of mind.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/db-center.gif" class="brand-logo-one icons-img" alt="Database Center">
-                    <h3><a href="#">2. Data Centre</a></h3>
-                    <p>Our team of expert technicians have years of experience in seamlessly migrating data centres for companies of all sizes. We provide end-to-end support to ensure a smooth transition with minimal downtime. Our services include assessing current data centre infrastructure, planning the migration process, executing the move, and providing ongoing support post-migration. Trust us to handle your data centre migration and support needs with precision and efficiency.</p>
-                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cyber-security.gif" class="brand-logo-one icons-img" alt="cyber-security">
-                    <h3><a href="#">3. SOC</a></h3>
+                    <h3><a href="#">2. SOC</a></h3>
                     <p>Our SOC services provide robust, 24/7 monitoring, detection, and response to security incidents, ensuring your organization’s digital assets remain secure. Our team of skilled analysts is adept at identifying, analyzing, and mitigating threats in real-time, delivering proactive defense against evolving risks. By harnessing advanced threat intelligence and cutting-edge tools, our SOC services offer the assurance that your critical data and systems are consistently safeguarded and resilient against cyber threats. Rest easy knowing your valuable assets are protected around the clock.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+                <div class="services-card services-style-bg p-0">
+                    <img src="{{ asset('theme') }}/assets/images/icons/db-center.gif" class="brand-logo-one icons-img" alt="Database Center">
+                    <h3><a href="#">3. Data Centre</a></h3>
+                    <p>Our team of expert technicians has years of experience in seamlessly migrating data centres for companies of all sizes. We provide end-to-end support to ensure a smooth transition with minimal downtime. Our services include assessing current data centre infrastructure, planning the migration process, executing the move, and providing ongoing support post-migration. We also ensure data security and compliance throughout the process. Trust us to handle your data centre migration and support needs with precision, efficiency, and a commitment to operational excellence.</p>
+                    <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="cloud setup">
                     <h3><a href="#">4. Cloud</a></h3>
@@ -69,7 +69,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -122,69 +122,73 @@
 	</div>
 
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2">Success Stories</span>
-                <h2>Transformative Success in Infra Management</h2>
-                <p>Learn how our Infrastructure Management services have made a difference:</p>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Transformative Success in Infra Management</h2>
+            <p>Learn how our Infrastructure Management services have made a difference:</p>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Network Uptime Improvement</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#"> Secure Cloud Migration</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/infra-cta.png" alt="About Images">
@@ -208,7 +212,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

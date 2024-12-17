@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Unlock the Power of Data to Drive Business Success</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -24,13 +24,13 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Insight-Driven Growth with Smart Data Solutions</h2>
             <p class="margin-auto">Transform your data into actionable insights with our expert data science services. Leverage advanced analytics, machine learning, and AI to fuel better decision-making and future-proof your business. Our Data Science Services are designed to empower businesses by turning raw data into actionable insights. From identifying key patterns and trends to discovering hidden relationships within your data, we work closely with you to ensure that the insights you gain help in making informed, strategic decisions. With expertise in advanced analytics, machine learning, and data visualization, we help you unlock the true potential of your data.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/adv-analytics.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">1.  Advance Analytics:</a></h3>
@@ -38,7 +38,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/data-view.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">2. Data Visualization</a></h3>
@@ -46,7 +46,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/ai-assistant.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">3.  Generative AI & Conversational AI</a></h3>
@@ -54,7 +54,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/pre-mod.gif" class="brand-logo-one icons-img" alt="Startups">
                     <h3><a href="#">4. Predictive Modelling</a></h3>
@@ -69,7 +69,7 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -126,70 +126,74 @@
 		</div>
 	</div>
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2">Success Stories</span>
-                <h2>Real-World Impact of Our Data Science Solutions </h2>
-                <p>Learn how our Data Science services have transformed businesses:</p>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Real-World Impact of Our Data Science Solutions</h2>
+            <p>Learn how our Data Science services have transformed businesses:</p>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Retail Sector</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Manufacturing Industry</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 
 <div class="about-area about-bg2 pt-4 pb-1">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/data-sci-cta.png" alt="About Images">
@@ -211,112 +215,9 @@
 </div>
 
 
-<!-- <section class="services-area-four pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2">Our Features</span>
-            <h2>Digital Marketing Company Services</h2>
-            <div class="w-75 mx-auto pt-3">Unlock the potential of your online presence with our comprehensive digital marketing services. Whether you’re looking to boost your online visibility, increase website traffic, or generate more leads, our digital marketing services offer the expertise and solutions you need to achieve your goals. Here’s what sets us apart:</div>
-        </div>
-        <div class="row pt-45">
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-undo"></i>
-                    <h3><a>1. Focus On ROI</a></h3>
-                    <p>JFS Focus on ROI with right execution and adding real value to your Business. In the fast-paced world of digital marketing sites, we are the best digital marketing agency.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-rupee-sign"></i>
-                    <h3><a>2. Affordable Prices</a></h3>
-                    <p>Cost-effective approach that does not mean cheap work but innovative and unique work that weight the fundamentals of your market.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>3. SEO Friendly</a></h3>
-                    <p>Sometimes, we switch things up, using strategies like structural SEO, PPC, FB ads, SMO, and mobile-friendly websites to achieve our goals.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-chess"></i>
-                    <h3><a>4. Unique Strategies</a></h3>
-                    <p>We may focus on structural SEO, PPC, FB ads, enhance Social Presence through SMO, create mobile-friendly websites, or combine multiple strategies.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="services-card services-card-color-bg">
-                    <i class="fal fa-laptop-code"></i>
-                    <h3><a>5. Our Approach</a></h3>
-                    <p>Although the core concepts are consistent, the approach to achieving goals varies for businesses. We tailor our strategies & plans to fit industry insights & needs of each client.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-6"></div>
-        </div>
-    </div>
-</section>
-
-
-<section class="clients-area-three pt-100 pb-70">
-    <div class="container">
-        <div class="section-title text-center mx-auto" style="max-width:650px">
-            <h2>What a Digital Marketing Company Can Do for Your Business</h2>
-        </div>
-        <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-chart-line pb-2"></i>
-                    <h3><a>Brand Building</a></h3>
-                    <p>As a leading digital marketing agency, we ensure your brand captures the attention of your target audience. Leveraging our brand-building expertise, your products & services will quickly become the talk of the town.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fas fa-icons pb-2"></i>
-                    <h3><a>Paid Social</a></h3>
-                    <p>Harness the vast potential of social media through our paid social service. We enhance your brand’s visibility and audience reach by creating ads tailored to resonate with your target audience’s user profiles.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-bullhorn pb-2"></i>
-                    <h3><a>Marketing Strategy</a></h3>
-                    <p>Wondering how to best connect with your customers? Our digital marketing strategy service has the solutions! We offer in-depth market analysis & boost sales opportunities, keeping you ahead of the competition.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-people-carry pb-2"></i>
-                    <h3><a>Content Marketing</a></h3>
-                    <p>Content is the foundation of every successful business, and we excel at unlocking its full potential. With our content marketing service, we aim to position you as an industry thought leader while deepening your connection with customers.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-atlas pb-2"></i>
-                    <h3><a>Content and Website Personalization</a></h3>
-                    <p>Elevate your engagement levels with our content and website personalization service. We specialize in crafting personalized experiences by skilfully harnessing zero and first-party data.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div id="DMS_card">
-                    <i class="fal fa-video pb-2"></i>
-                    <h3><a>Video Production</a></h3>
-                    <p>Illuminate the unique selling points of your products in an immersive and thorough manner through our video production services. Captivate your audience effortlessly and effectively convey your value proposition with ease.</p>
-                </div>
-            </div>
-        </div>        
-    </div>
-</section> -->
-
-
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

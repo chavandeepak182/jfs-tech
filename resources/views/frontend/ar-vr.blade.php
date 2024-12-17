@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Immersive Experience to Transform Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -24,13 +24,13 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Beyond the Screen: Dive into AR/VR Experiences</h2>
             <p class="margin-auto">Our AR/VR services provide cutting-edge solutions that transform ideas into immersive experiences. Whether you're looking to create training simulations, virtual walkthroughs, or dynamic interactive experiences, our team of experts is here to make your vision a reality. Using advanced AR/VR technology, we design realistic and engaging virtual environments suitable for training, marketing, education, and more. From custom 3D modeling to fully interactive scenarios, we tailor each solution to your unique requirements, helping you stay ahead in a technology-driven world.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/hologram.gif" class="brand-logo-one icons-img" alt="hologram">
                     <h3><a href="#">1. 3D Environments</a></h3>
@@ -38,7 +38,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/interaction.gif" class="brand-logo-one icons-img" alt="hologram">
                     <h3><a href="#">2.  Interactive Experience</a></h3>
@@ -46,7 +46,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/metaverse.gif" class="brand-logo-one icons-img" alt="metaverse">
                     <h3><a href="#">3.  Simulations:</a></h3>
@@ -54,7 +54,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/video.gif" class="brand-logo-one icons-img" alt="Visual Screen">
                     <h3><a href="#">4. Virtual Scenarios</a></h3>
@@ -69,7 +69,7 @@
 
     <div class="choose-area pt-100 pb-70 home">
 		<div class="container">
-			<div class="row justify-content-center align-items-center">
+			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
 				<div class="col-lg-12">
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
@@ -126,69 +126,73 @@
 	</div>
     
 
-    <div class="case-study-area pt-100 pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="sp-color2">Success Stories</span>
-                <h2>Real-World Impact of Our AR/VR Solutions</h2>
-                <p>Discover how our AR/VR solutions have transformed client projects:</p>
+<div class="case-study-area pt-80 pb-70">
+    <div class="container" data-aos="fade-up" data-aos-duration="750">
+        <div class="section-title text-center">
+            <span class="sp-color2">Success Stories</span>
+            <h2>Real-World Impact of Our AR/VR Solutions</h2>
+            <p>Discover how our AR/VR solutions have transformed client projects:</p>
+        </div>
+        <div class="row pt-45">
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row pt-45">
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Manufacturing Training</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Architecture Visualization</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
+            </div>
+			<div class="col-lg-3 col-md-6">
+                <div class="case-study-item">
+                    <a href="#">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="case-study-item">
-                        <a href="#">
-                            <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <h3><a href="#">Business Solution</a></h3>
-                            <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-sm-6 text-center">
-                    <a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
-                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 text-center">
+				<a href="{{ url('/success-stories') }}" class="default-btn btn-bg-two border-radius-5 py-3">Explore Our Success Stories</a>
             </div>
         </div>
     </div>
+</div>
 
 
 <div class="about-area about-bg2 pt-5 pb-3">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="{{ asset('theme') }}/assets/images/arvr-cta.png" alt="About Images">
@@ -212,7 +216,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

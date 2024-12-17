@@ -50,13 +50,13 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">What We Do</span>
             <h2 style="max-width: 725px;">Transforming Ideas into Reality</h2>
             <p class="margin-auto">We offer a diverse portfolio of services designed to address every aspect of your digital journey. Our expertise spans across the following four key areas:</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
                     <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
@@ -104,7 +104,7 @@
                     <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
                     <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
@@ -183,8 +183,8 @@
 	</div>
 
 
-	<div class="counter-area pt-100" data-aos="fade-up" data-aos-duration="750">
-		<div class="container">
+	<div class="counter-area pt-100">
+		<div class="container" data-aos="fade-up" data-aos-duration="750">
 			<div class="section-title text-center">
 				<span class="sp-color2">Clientele</span>
 				<h2>Our Impact in Numbers</h2>
@@ -232,8 +232,8 @@
 
 
 <!-- Clientele Area -->
-	<div class="brand-area ptb-100" data-aos="fade-up" data-aos-duration="750">
-		<div class="container-fluid">
+	<div class="brand-area ptb-100">
+		<div class="container-fluid" data-aos="fade-up" data-aos-duration="750">
 			<div class="brand-slider owl-carousel owl-theme">
 				<div class="brand-item">
 					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
@@ -274,60 +274,60 @@
 
 	
 	<div class="call-us-area pt-100 pb-70">
-		<div class="container">
+		<div class="container" data-aos="fade-up" data-aos-duration="750">
 			<div class="section-title text-center">
 				<span class="sp-color1">Recognitions</span>
 				<h2 class="text-white">Awards & Achievements</h2>
 			</div>
 			<div class="row align-items-center justify-content-center pt-5">
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
 					</div>
 				</div>
-                <div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+                <div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/app-dev.png" class="" alt="Technimply - Top Mobile App Dev Company">
 					</div>
 				</div>
 			</div>
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+			<div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/g-partner.png" class="" alt="Google Partner">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/top-dmc.png" class="" alt="Top Digital Marketing Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/bcs.png" class="" alt="Software World - Best Customer Support">
 					</div>
 				</div>
-				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
                         <img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
 					</div>

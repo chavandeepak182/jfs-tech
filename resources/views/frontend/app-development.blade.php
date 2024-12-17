@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Transform Your Ideas into Cutting-Edge Mobile Applications</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -25,13 +25,13 @@
 
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Crafting Your Ideas into Next-Gen Mobile Solutions</h2>
             <p class="margin-auto">At <strong>JFS Technologies</strong>, we specialize in delivering high-performance mobile app development services tailored to businesses of all sizes. With experience across various industries, we create mobile solutions that ensure your app excels in today’s competitive market.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/native.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
                     <h3><a href="#">Native App Development</a></h3>
@@ -39,7 +39,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cross.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
                     <h3><a href="#">Cross-Platform Development</a></h3>
@@ -47,7 +47,7 @@
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/hybrid.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
                     <h3><a href="#">Hybrid App Development</a></h3>
@@ -62,7 +62,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 	<div class="container">
-		<div class="row justify-content-center align-items-center">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 			<div class="col-lg-12">
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
@@ -116,7 +116,7 @@
 
     <div class="about-area pt-100 pb-70">
 		<div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
                         <span class="sp-color2">Pricing Made Easy</span>
@@ -166,7 +166,7 @@
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="../theme/assets/images/about/web-dev.png" alt="About Images">
@@ -189,7 +189,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Innovative Web Development to Elevate Your Online Presence</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -25,27 +25,27 @@
 
 <section class="services-style-area pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Seamless Website Solutions: From Concept to Launch</h2>
             <p class="margin-auto">At <strong>JFS Technologies</strong>, we offer a comprehensive range of <strong>Website Design & Development</strong> services to meet the unique needs of your business. Whether you are looking for a simple static website, a dynamic platform, or a full-fledged e-commerce solution, we have the expertise to deliver scalable, secure, and high-performance websites.</p>
         </div>
 		<div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/website.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
                     <h3><a>Static Website Creation</a></h3>
                     <p>Fast, informative websites that are ideal for small businesses looking to establish their digital presence, enhance brand visibility, connect with their target audience, and drive meaningful online engagement.</p>
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/dashboard.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
                     <h3><a>Dynamic Website Creation</a></h3>
                     <p>Content-rich websites with integrated content management systems (CMS) that allow regular updates, enabling businesses to easily manage & improve their content & keep audience engaged with fresh, relevant information.</p>
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/e-comm.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
                     <h3><a>Build Ecommerce Platforms</a></h3>
@@ -59,7 +59,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 	<div class="container">
-		<div class="row justify-content-center align-items-center">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
 			<div class="col-lg-12">
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
@@ -113,7 +113,7 @@
 
     <div class="about-area pt-100 pb-70">
 		<div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
                         <span class="sp-color1">Pricing Made Easy</span>
@@ -295,7 +295,7 @@
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="../theme/assets/images/about/web-dev.png" alt="About Images">
@@ -318,7 +318,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
