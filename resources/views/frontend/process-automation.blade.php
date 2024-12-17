@@ -287,47 +287,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is process automation, and why is it important for my business?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>Process automation uses tools and technology to streamline repetitive tasks, reduce errors, and improve efficiency. It helps your business save time, cut costs, and focus on what matters most—growth and innovation.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            What services do you provide under process automation?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Our process automation services include configuration management, continuous integration, continuous deployment, and monitoring & alerting as code. These solutions optimize your workflows and ensure seamless operations.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            How does configuration management improve efficiency?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Configuration management keeps your systems organized and consistent. It tracks and manages changes to your IT infrastructure, ensuring that your environments are always in sync and easy to maintain.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            What is Monitoring & Alerting as Code, and why is it important?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Monitoring & Alerting as Code automates the setup of monitoring tools and alerts. It ensures that any issues in your systems are detected and resolved quickly, minimizing downtime and keeping your operations running smoothly.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            Can process automation be customized for my specific business needs?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>Definitely! We work closely with you to understand your goals and challenges, then tailor our automation solutions to fit your unique requirements, ensuring maximum impact and efficiency.</p>
                                         </div>
                                     </li>
                                 </ul>            

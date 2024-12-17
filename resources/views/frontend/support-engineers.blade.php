@@ -535,47 +535,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What types of Support Engineers do you provide?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>We offer a range of Support Engineers, including Technical Support Engineers, Application Support Engineers, System Support Engineers, and Helpdesk Support Engineers. Each is equipped to handle specific aspects of client projects, ensuring smooth operations and quick resolutions.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How can your Support Engineers help my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Our Support Engineers can address technical issues, provide application and system support, and ensure seamless IT operations. Whether it’s troubleshooting problems, maintaining system performance, or assisting users, they’re here to help your team stay productive.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            Will the Support Engineers work as part of my existing team?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Yes, our Support Engineers integrate seamlessly into your team and workflows. They’ll collaborate with your staff, understand your systems, and provide proactive and reactive support to meet your specific needs.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            Can I hire a Support Engineer for specific hours or shifts?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Absolutely! We offer flexible engagement models to align with your business needs, whether you require support during specific hours, 24/7 coverage, or just for critical projects.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do you ensure your Support Engineers have the right expertise?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>All our Support Engineers go through a thorough vetting process, including technical skill assessments and hands-on evaluations. We also provide ongoing training to keep them updated with the latest tools, systems, and industry best practices.</p>
                                         </div>
                                     </li>
                                 </ul>            

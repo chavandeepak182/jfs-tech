@@ -4,19 +4,19 @@
 
 
 @section('content')
-<div class="inner-banner" style="background-image: url(../theme/assets/images/infra-mgmt.jpg);">
+<div class="inner-banner" style="background-image: url(../theme/assets/images/group-pic.jpg);">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Experience Work-Life Balance & Growth at JFS Technologies</h1>
+            <h1 class="invisible">Experience Work-Life Balance & Growth at JFS Technologies</h1>
             <p class="text-white"></p>
-            <div class="banner-btn">
+            <div class="banner-btn invisible">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Current Openings <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
 </div>
 
-<section class="services-style-area home_cards pt-100 pb-70">
+<section class="services-style-area home_cards pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Life at JFS Technologies</span>

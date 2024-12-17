@@ -459,47 +459,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What types of backend developers do you offer?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>We offer a diverse range of backend developers, including Java Developers, PHP Developers, .NET Developers, DevOps Engineers, Python Developers, Node.js Developers, Ruby on Rails Developers, and Database Developers. This variety ensures that we can meet the specific needs of your project and provide the right expertise for any technical challenge.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How do I choose the right backend developer for my project?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Choosing the right backend developer depends on your project requirements and technology stack. Our team is here to help! We’ll discuss your project goals, the technologies you’re using, and any specific skills you need. Based on this information, we’ll recommend developers who are the best fit for your project to ensure a successful collaboration.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            Can I work with the backend developer directly?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Yes! We believe in fostering direct communication between you and the developer. You’ll have the opportunity to work closely with them throughout the project, providing feedback, discussing requirements, and ensuring that the final product aligns with your vision.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            What if my project requirements change after hiring a developer?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>We understand that project requirements can evolve. If you find that your needs change, simply reach out to us. We can adjust the team structure, bring in additional developers, or reallocate resources as needed. Our flexible approach allows us to adapt to your project's dynamics without any hassle.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How does JFS Technologies ensure the quality of its backend developers?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>At JFS Technologies, we prioritize quality by implementing a rigorous selection process that includes technical assessments, interviews, and reference checks. Additionally, we provide ongoing training and professional development opportunities for our developers, ensuring they stay updated with the latest technologies and best practices to deliver exceptional results for your projects.</p>
                                         </div>
                                     </li>
                                 </ul>            

@@ -12,7 +12,7 @@
 				<source src="{{ asset('theme') }}/assets/images/hero-video-1.mp4" type="video/mp4">
 			</video> -->
 			<div class="container-max">
-				<div class="banner-item-content banner-item-ptb" data-aos="fade-down" data-aos-offset="500" data-aos-easing="ease-in-sine">
+				<div class="banner-item-content banner-item-ptb" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
 					<h1>Transforming Businesses Through Digital Excellence</h1>
 					<p>Empowering enterprises with innovative technology solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
@@ -75,9 +75,7 @@
 					<div class = "card">
 						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="">
 						<div class="card-content">
-							<h2>
-								Digital Transformation
-							</h2>
+							<h3>Digital Transformation</h3>
 							<p>Empowering businesses with advanced tech for optimization and innovation.</p>
 							<a href="{{ url('/services/digital-transformation') }}" class="button">
 								Know More 
@@ -92,7 +90,7 @@
 					<div class = "card">
 						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="">
 						<div class="card-content">
-							<h2>Digital Experience</h2>
+							<h3>Digital Experience</h3>
 							<p>Creating impactful digital touchpoints to connect your brand effectively.</p>
 							<a href="{{ url('/services/digital-experience') }}" class="button">
 								Know More 
@@ -102,27 +100,13 @@
 							</a>
 						</div>
 					</div>
-					<!-- <div class="card">
-						<div class="face face1">
-							<div class="content">
-								<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="">
-								<h3>Digital Experience</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p class="mt-4">Creating impactful digital touchpoints to connect your brand with its audience effectively.</p>
-								<a href="{{ url('/services/digital-experience') }}">Know More</a>
-							</div>
-						</div>
-					</div> -->
 				</div>
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
 					<div class = "card">
 						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="">
 						<div class="card-content">
-							<h2>DevOps</h2>
-							<p>Accelerating your development lifecycle with streamlined processes and robust practices.</p>
+							<h3>DevOps</h3>
+							<p>Accelerating your development lifecycle with streamlined processes.</p>
 							<a href="{{ url('/services/devops') }}" class="button">Know More
 								<span class="material-symbols-outlined">
 									<i class="far fa-long-arrow-right"></i>
@@ -130,28 +114,13 @@
 							</a>
 						</div>
 					</div>
-					
-					<!-- <div class="card">
-						<div class="face face1">
-							<div class="content">
-								<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="">
-								<h3>DevOps</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p class="mt-4">Accelerating your development lifecycle with streamlined processes and robust practices.</p>
-								<a href="{{ url('/services/devops') }}">Know More</a>
-							</div>
-						</div>
-					</div> -->
 				</div>
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1250">
 					<div class = "card">
 						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="">
 						<div class="card-content">
-							<h2>Resource Augmentation</h2>
-							<p>Providing skilled professionals to seamlessly integrate with your team and scale your operations.</p>
+							<h3>Resource Augmentation</h3>
+							<p>Providing skilled professionals to integrate with your team and scale operations.</p>
 							<a href="{{ url('/services/resource-augmentation') }}" class="button">
 								Know More 
 								<span class="material-symbols-outlined">
@@ -160,26 +129,12 @@
 							</a>
 						</div>
 					</div>
-					<!-- <div class="card">
-						<div class="face face1">
-							<div class="content">
-								<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="">
-								<h3>Resource Augmentation</h3>
-							</div>
-						</div>
-						<div class="face face2">
-							<div class="content">
-								<p class="mt-4">Providing skilled professionals to seamlessly integrate with your team and scale your operations.</p>
-								<a href="{{ url('/services/resource-augmentation') }}">Know More</a>
-							</div>
-						</div>
-					</div> -->
 				</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card mobile-view">
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/transform.webp" alt="">
+						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="">
 						<h3><a href="{{ url('/services/digital-transformation') }}">Digital Transformation</a></h3>
 						<p>Empowering businesses with next-gen technologies to optimize processes, enhance efficiency & foster innovation.</p>
 						<a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -187,7 +142,7 @@
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/experience.webp" alt="">
+						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="">
 						<h3><a href="{{ url('/services/digital-experience') }}">Digital Experience</a></h3>
 						<p>Creating impactful digital touchpoints to connect your brand with its audience effectively.</p>
 						<a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -195,7 +150,7 @@
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/devops.webp" alt="">
+						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="">
 						<h3><a href="{{ url('/services/devops') }}">DevOps</a></h3>
 						<p>Accelerating your development lifecycle with streamlined processes and robust practices.</p>
 						<a href="{{ url('/services/devops') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -203,7 +158,7 @@
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/resource.webp" alt="">
+						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="">
 						<h3><a href="{{ url('/services/resource-augmentation') }}">Resource Augmentation</a></h3>
 						<p>Providing skilled professionals to seamlessly integrate with your team and scale your operations.</p>
 						<a href="{{ url('/services/resource-augmentation') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
