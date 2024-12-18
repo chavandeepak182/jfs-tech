@@ -1,5 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services | Account Management Services")
+@section('title', "Digital Transformation Company | Digital Transformation consultant")
+@section('description', "JFS Technologies is a leading digital transformation company, empowering businesses with innovative solutions, and seamless digital strategies to drive growth and success. ")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -33,7 +34,7 @@
 					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
 						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2>Right Partner for Software Innovation</h2>
+							<h2 title="JFS Technologies - Right Partner for Digital Transformation">Right Partner for Digital Transformation</h2>
 							<div class="mx-auto pt-3">At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions. We pride ourselves on staying ahead of industry trends, delivering future-ready strategies tailored to meet the unique challenges of your business.</div>
 						</div>
 					</div>
@@ -67,8 +68,8 @@
 		<div class="container-fluid">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">What We Do?</span>
-				<h2>Our Core Services</h2>
-				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
+				<h2 title="Our Core Digital Transformation Services at JFS Technologies">Our Core Digital Transformation Services</h2>
+				<div class="text-white w-50 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
@@ -172,7 +173,7 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color2">Unlock the potential</span>
-				<h2>Who We Serve?</h2>
+				<h2 title="Who We Serve at JFS Technologies">Who We Serve?</h2>
 				<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
 			</div>
 			<div class="row pt-45">
@@ -253,7 +254,7 @@
 					<div class="about-content ml-25">
 						<div class="section-title">
 							<span class="sp-color2">Our Expertise</span>
-							<h2 class="w-50 mx-auto">Technologies to Power Your Next Big Move</h2>
+							<h2 class="w-50 mx-auto" title="Technologies to Power Your Next Big Move">Technologies to Power Your Next Big Move</h2>
 						</div>
 
 						<div class="slider">
@@ -412,7 +413,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Clientele</span>
-				<h2>Our Impact in Numbers</h2>
+				<h2 title="JFS Technologies - Impact in Numbers">Our Impact in Numbers</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
@@ -567,7 +568,7 @@
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
 				<span class="sp-color2">Success Stories</span>
-				<h2>Driving Success for Our Clients</h2>
+				<h2 title="Driving Success for Clients of JFS Technologies">Driving Success for Our Clients</h2>
 				<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
@@ -621,7 +622,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color1">Testimonials</span>
-				<h2>What Our Clients Say</h2>
+				<h2 titles="What Our Clients Say about JFS Technologies">What Our Clients Say</h2>
 			</div>
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
@@ -689,7 +690,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Latest Blog</span>
-				<h2>Let’s Check Some Latest Blog</h2>
+				<h2 title="Latest blog from JFS Technologies">Let’s Check Some Latest Blog</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-4 col-md-6">

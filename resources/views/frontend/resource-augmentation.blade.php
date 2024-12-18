@@ -13,8 +13,8 @@
                     <span></span>
                     <h1 class="text-white">Resource <b>Augmentation</b></h1>
                     <p class="text-white">Our team comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our resource augmentation services are here to assist you.</p>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
-                    </div>
+                    <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
 </div>
 
 
-<section class="services-style-area home_cards pt-80 pb-70">
+<section class="services-style-area home_cards pt-80 pb-70" id="service-sec">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>

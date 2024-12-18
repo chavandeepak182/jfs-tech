@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Boost Your Website Traffic with Proven SEO Strategies</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -24,13 +24,13 @@
 
 <section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Result-Driven SEO Agency to Increase Your Visibility</h2>
             <p class="margin-auto">Search Engine Optimization (SEO) is the process of improving your website’s visibility on search engines like Google, Bing, and Yahoo. SEO ensures that yourwebsite appears in front of potential customers when they search for relevant keywords related to your business. A well-optimized website not only ranks higher but also attracts quality traffic, improves user experience, and boosts conversions. At JFS Technologies, we follow a comprehensive approach to SEO that includes both on-page and off-page optimization strategies, ensuring your website ranks well and remains competitive. Our SEO services are customized for your business’s specific needs, industry, and target audience</p>
         </div>
 		<div class="row pt-45">
-			<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>On-Page SEO</h3>
@@ -45,7 +45,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Off-Page SEO</h3>
@@ -60,7 +60,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Technical SEO</h3>
@@ -81,7 +81,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 	<div class="container">
-		<div class="row justify-content-center align-items-center">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 			<div class="col-lg-12">
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
@@ -135,7 +135,7 @@
 
     <div class="about-area pt-100 pb-70">
 		<div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
                         <span class="sp-color2">Pricing Made Easy</span>
@@ -585,7 +585,7 @@
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="../theme/assets/images/modern-cta.png" alt="About Images">
@@ -608,7 +608,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

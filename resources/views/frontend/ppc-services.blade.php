@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Performance-Driven PPC Solutions for Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -25,13 +25,13 @@
 
 <section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Optimize Your Paid Ads with Strategic PPC Management</h2>
             <p class="margin-auto">Pay-Per-Click (PPC) advertising allows you to get immediate visibility by bidding on keywords related to your business. PPC is an effective way to drive targeted traffic to your website by placing ads on search engines and social media platforms. You only pay when someone clicks on your ad, making it a cost-effective solution for businesses looking to drive conversions. At JFS Technologies, we specialize in creating data-driven, cost-effective PPC campaigns. We manage and optimize campaigns on Google Ads, Facebook Ads, LinkedIn Ads, and more to ensure that your advertising budget is spent efficiently and effectively.</p>
         </div>
 		<div class="row pt-45">
-			<div class="col-lg-6 col-sm-6">
+			<div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Google Ads Management</h3>
@@ -45,7 +45,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Social Media Paid Campaigns</h3>
@@ -59,7 +59,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Landing Page Optimization</h3>
@@ -67,7 +67,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Analytics & Reporting</h3>
@@ -82,7 +82,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 	<div class="container">
-		<div class="row justify-content-center align-items-center">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
 			<div class="col-lg-12">
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
@@ -136,12 +136,12 @@
 
 <section class="work-process-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Key Benefits Of</span>
             <h2>PPC Advertising Management Business & Agencies</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">01.</div>
                     <h3>Immediate Results:</h3>
@@ -149,7 +149,7 @@
                     <i class="fal fa-chart-bar  my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">02.</div>
                     <h3>Increased Brand Exposure:</h3>
@@ -157,7 +157,7 @@
                     <i class="fal fa-chart-line my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">03.</div>
                     <h3>Cost-Effectiveness:</h3>
@@ -165,7 +165,7 @@
                     <i class="fal fa-coins my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">04.</div>
                     <h3>Competitive Advantage:</h3>
@@ -173,7 +173,7 @@
                     <i class="fal fa-users my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">05.</div>
                     <h3>Measurable Results:</h3>
@@ -182,7 +182,7 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">06.</div>
                     <h3>Control Over Budget:</h3>
@@ -190,7 +190,7 @@
                     <i class="fal fa-user-lock my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">07.</div>
                     <h3>Flexible Ad Options:</h3>
@@ -198,7 +198,7 @@
                     <i class="fal fa-ad my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">08.</div>
                     <h3>Precise Targeting:</h3>
@@ -206,7 +206,7 @@
                     <i class="fal fa-bullseye-arrow my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">09.</div>
                     <h3>Targeted Reach:</h3>
@@ -214,7 +214,7 @@
                     <i class="fal fa-bullseye-pointer my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">10.</div>
                     <h3>Competitive Advantage:</h3>
@@ -229,7 +229,7 @@
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="../theme/assets/images/modern-cta.png" alt="About Images">
@@ -252,7 +252,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
@@ -265,47 +265,55 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is PPC advertising management?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>PPC (Pay-Per-Click) advertising management involves overseeing and optimizing paid search campaigns on platforms like Google Ads and Social Media Platforms to drive targeted traffic to a website and maximize return on investment (ROI).</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            What services do you offer for PPC advertising management?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>We offer a range of PPC advertising management services, including campaign setup and optimization, keyword research, ad copywriting, bid management, performance tracking, and analytics reporting.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            How can PPC advertising benefit my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>PPC advertising can benefit your business by increasing website traffic, generating leads and sales, improving brand visibility, targeting specific audiences, and providing measurable results and ROI.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            How do you determine the right PPC strategy for my business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>We conduct a thorough analysis of your business goals, target audience, industry, competitors, and budget to develop a customized PPC strategy that aligns with your objectives and maximizes results.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            Which platforms do you recommend for PPC advertising?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>We typically recommend platforms like Google Ads (formerly AdWords) and Social Media Ads for PPC advertising, but we tailor our recommendations based on your target audience, industry, and advertising goals.</p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion-item">
+                                        <a class="accordion-title" href="javascript:void(0)">
+                                            <i class="bx bx-plus"></i>
+                                            How do you measure the success of PPC campaigns?
+                                        </a>
+                                        <div class="accordion-content">
+                                            <p>We measure the success of PPC campaigns using various metrics such as click-through rates (CTR), conversion rates, cost per click (CPC), return on ad spend (ROAS), and overall ROI. We provide regular reports and analytics to track performance and optimize campaigns accordingly.</p>
                                         </div>
                                     </li>
                                 </ul>            

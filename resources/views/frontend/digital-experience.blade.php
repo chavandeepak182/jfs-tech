@@ -227,47 +227,46 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is Digital Experience?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
-                                            <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
+                                            <p>Digital Experience refers to the interactions and experiences users have with a business across digital platforms like websites, mobile apps, and other digital touchpoints. It focuses on delivering seamless, engaging, and user-friendly digital interactions.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            How is Digital Experience useful for businesses?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>A well-crafted digital experience enhances customer satisfaction, drives engagement, improves brand loyalty, and boosts conversions. By meeting user expectations online, businesses can achieve greater growth and competitive advantage.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            What is included in Digital Experience services?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>Digital Experience services typically include UI/UX design, website and mobile app development, customer journey mapping, omnichannel optimization, performance analysis, and personalized user engagement strategies.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            Why is improving Digital Experience important for customer retention?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Customers expect fast, intuitive, and personalized experiences online. Improving digital experience ensures better satisfaction, reduces bounce rates, and encourages repeat interactions, leading to long-term customer loyalty.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            How do you measure the success of a Digital Experience strategy?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>Success is measured through key performance indicators (KPIs) such as user engagement metrics, bounce rates, conversion rates, customer satisfaction scores, and overall digital platform performance.</p>
                                         </div>
                                     </li>
                                 </ul>            
