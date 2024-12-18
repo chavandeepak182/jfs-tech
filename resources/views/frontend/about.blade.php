@@ -370,7 +370,7 @@
 		<div class="row pt-45">
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img1.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/dilip-y.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.facebook.com/" target="_blank">
@@ -401,7 +401,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/sandy-p.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.facebook.com/" target="_blank">
@@ -459,22 +459,6 @@
 					<div class="content">
 						<h3>Irfana Shaikh</h3>
 						<span>Marketing Manager</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img6.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Aniket Palekar</h3>
-						<span>Business Development Manager</span>
 					</div>
 				</div>
 			</div>

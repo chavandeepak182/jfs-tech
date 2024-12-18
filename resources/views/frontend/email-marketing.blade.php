@@ -7,7 +7,7 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>Compelling Email Designs & Copy That Drive Conversions</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -25,13 +25,13 @@
 
 <section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2>Maximize Engagement with Targeted Email Campaigns</h2>
             <p class="margin-auto">Email marketing remains one of the most effective methods of communicating with your audience. It allows you to deliver personalized messages directly to the inbox, fostering relationships and driving conversions. Whether you’re nurturing leads, engaging current customers, or announcing new products, email marketing plays a critical role in your digital strategy. At JFS Technologies, we offer end-to-end email marketing services, from campaign strategy to execution. Our team designs email campaigns that resonate with your audience, deliver value, and drive results.</p>
         </div>
 		<div class="row pt-45">
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Email Design & Copywriting</h3>
@@ -44,7 +44,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Email Automation</h3>
@@ -57,7 +57,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Email Campaign Strategy</h3>
@@ -65,7 +65,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Analytics & Reporting</h3>
@@ -80,7 +80,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 	<div class="container">
-		<div class="row justify-content-center align-items-center">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 			<div class="col-lg-12">
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
@@ -134,12 +134,12 @@
 
 <section class="work-process-area pt-100 pb-70">
     <div class="container">
-        <div class="section-title text-center">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Key Benefits of Email Marketing</span>
             <h2>Turn Every Email Into a Growth Opportunity</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">01.</div>
                     <h3>Measurable Results</h3>
@@ -147,7 +147,7 @@
                     <i class="fal fa-chart-bar  my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">02.</div>
                     <h3>High ROI</h3>
@@ -155,7 +155,7 @@
                     <i class="fal fa-chart-line my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">03.</div>
                     <h3>Cost-Effectiveness</h3>
@@ -163,7 +163,7 @@
                     <i class="fal fa-coins my-2"></i>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <div class="number-title invisible">04.</div>
                     <h3>Automation Opportunities</h3>
@@ -178,7 +178,7 @@
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="../theme/assets/images/modern-cta.png" alt="About Images">
@@ -201,7 +201,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">

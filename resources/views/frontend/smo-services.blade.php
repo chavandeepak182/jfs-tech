@@ -23,15 +23,15 @@
 </div>
 
 
-<section class="services-style-area home_cards pt-100 pb-70">
+<section class="services-style-area home_cards pt-80 pb-70">
 	<div class="container">
         <div class="section-title text-center">
-            <span class="sp-color2"></span>
+            <span class="sp-color2">Your Market, Our Social Media Mastery</span>
             <h2>Social Media Tailored to Dominate Your Market</h2>
-            <p class="margin-auto">Social Media Marketing (SMM) involves using platforms like Facebook, Instagram, Twitter, LinkedIn, and others to promote your products or services. It’s an effective way to increase brand awareness, engage with customers, and drive traffic to your website. With millions of users on these platforms, social media marketing offers a vast opportunity to grow your business. At JFS Technologies, we help businesses create an impactful presence on social media. We focus on crafting engaging content, growing your community, and leveraging social platforms for increased brand recognition and customer engagement.</p>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="750">Social Media Marketing (SMM) involves using platforms like Facebook, Instagram, Twitter, LinkedIn, and others to promote your products or services. It’s an effective way to increase brand awareness, engage with customers, and drive traffic to your website. With millions of users on these platforms, social media marketing offers a vast opportunity to grow your business. At JFS Technologies, we help businesses create an impactful presence on social media. We focus on crafting engaging content, growing your community, and leveraging social platforms for increased brand recognition and customer engagement.</p>
         </div>
 		<div class="row pt-45">
-			<div class="col-lg-6 col-sm-6">
+			<div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Social Media Strategy Development</h3>
@@ -39,7 +39,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Community Management</h3>
@@ -47,7 +47,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Creation & Curation</h3>
@@ -60,7 +60,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
 				</div>
 			</div>
-            <div class="col-lg-6 col-sm-6">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Paid Social Media Advertising</h3>
@@ -81,7 +81,7 @@
 
 <div class="choose-area pt-100 pb-70 home">
 	<div class="container">
-		<div class="row justify-content-center align-items-center">
+		<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 			<div class="col-lg-12">
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
@@ -135,7 +135,7 @@
 
     <div class="about-area pt-100 pb-70">
 		<div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
                         <span class="sp-color2">Pricing Made Easy</span>
@@ -151,7 +151,7 @@
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="tab-pane fade show active table-responsive" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <table class="table text-center table-striped">
                                     <thead>
                                         <tr>
@@ -873,7 +873,7 @@
 
 <div class="about-area about-bg2 pt-5">
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
                     <img src="../theme/assets/images/modern-cta.png" alt="About Images">
@@ -896,7 +896,7 @@
 
 <div class="brand-area ptb-100">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
                 <div class="faq-area ">
                     <div class="container">
