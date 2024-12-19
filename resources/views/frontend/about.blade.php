@@ -432,7 +432,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -448,7 +448,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img5.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/irfana-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/irfana-shaikh-bbb7b7a7/" target="_blank">
@@ -464,7 +464,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img1.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/vineet-n.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/vineet-nair-956961238/" target="_blank">
@@ -480,7 +480,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/amol-d.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -496,7 +496,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/tarun-p.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="http://www.linkedin.com/in/tarun-kumar-50478618" target="_blank">
@@ -512,7 +512,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/vaibhav-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/shubhav97/" target="_blank">
@@ -528,7 +528,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -544,7 +544,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img2.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/shalaka-n.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/" target="_blank">
@@ -560,7 +560,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img6.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/aditya-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/aditya-sharma-60ba1a106/" target="_blank">
@@ -576,7 +576,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img1.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/saayam-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -592,7 +592,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img3.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/nikhil-v.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -608,7 +608,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img4.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/rahul-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#/" target="_blank">
@@ -624,7 +624,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/team-img5.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/anusha-p.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/anusha-patil-505009b6/" target="_blank">
