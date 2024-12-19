@@ -14,7 +14,7 @@
 			</video> -->
 			<div class="container-max">
 				<div class="banner-item-content banner-item-ptb" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-					<h1>Transforming Businesses Through Digital Excellence</h1>
+					<h1 title="JFS Technologies - Digital Transformation Company">Transforming Businesses Through Digital Excellence</h1>
 					<p>Empowering enterprises with innovative technology solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
 						<a href="{{ url('/services') }}" class="default-btn btn-bg-two border-radius-50 mr-20">Explore Our Services <i class="fal fa-arrow-right"></i></a>
@@ -106,7 +106,7 @@
 					<div class = "card">
 						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="">
 						<div class="card-content">
-							<h3>DevOps</h3>
+							<h3>DevOps Services</h3>
 							<p>Accelerating your development lifecycle with streamlined processes.</p>
 							<a href="{{ url('/services/devops') }}" class="button">Know More
 								<span class="material-symbols-outlined">
@@ -180,7 +180,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">01.</div>
-						<h3>Small and Medium-Sized Enterprises (SMEs)</h3>
+						<p class="title">Small and Medium-Sized Enterprises (SMEs)</p>
 						<p>Achieve sustainable growth with tailored websites and innovative digital marketing strategies.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/SMEs.svg" class="brand-logo-one" alt="SMEs">
 					</div>
@@ -188,7 +188,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">02.</div>
-						<h3>Startups</h3>
+						<p class="title">Startups</p>
 						<p>Scale rapidly with advanced tech solutions for accelerated product development, streamlined operations, and sustainable marketing growth.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
 					</div>
@@ -196,7 +196,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">03.</div>
-						<h3>Digital Agencies</h3>
+						<p class="title">Digital Agencies</p>
 						<p>Outsource complex projects and manage overflow with our dedicated development teams, ensuring efficiency, scalability, and on-time project delivery.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/ads.svg" class="brand-logo-one" alt="Ads">
 					</div>
@@ -204,7 +204,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">04.</div>
-						<h3>Large Enterprises</h3>
+						<p class="title">Large Enterprises</p>
 						<p>Leverage expert teams for scalable Java applications and enterprise solutions, ensuring robust performance, seamless integration, and long-term reliability.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/enterprise.svg" class="brand-logo-one" alt="Large Enterprises">
 					</div>
@@ -212,7 +212,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">05.</div>
-						<h3>E-commerce Companies</h3>
+						<p class="title">E-commerce Companies</p>
 						<p>Create interactive platforms designed for e-commerce companies to boost collaboration, improve training, and increase engagement with dynamic content.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/cart.svg" class="brand-logo-one" alt="cart">
 					</div>
@@ -220,7 +220,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">06.</div>
-						<h3>Educational Institutions</h3>
+						<p class="title">Educational Institutions</p>
 						<p>Create engaging learning platforms that foster collaboration, improve knowledge retention, and enhance education with interactive, user-friendly content.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/elearning.svg" class="brand-logo-one" alt="Elearning">
 					</div>
@@ -228,7 +228,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">07.</div>
-						<h3>Nonprofit Organizations</h3>
+						<p class="title">Nonprofit Organizations</p>
 						<p>Boost outreach and fundraising efforts with affordable, scalable digital solutions that enhance audience engagement, improve visibility, and drive measurable results.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
 					</div>
@@ -236,7 +236,7 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">08.</div>
-						<h3>Tech & Software Companies</h3>
+						<p class="title">Tech & Software Companies</p>
 						<p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution, quality results, and accelerated time-to-market.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 					</div>
@@ -254,7 +254,7 @@
 					<div class="about-content ml-25">
 						<div class="section-title">
 							<span class="sp-color2">Our Expertise</span>
-							<h2 class="w-50 mx-auto" title="Technologies to Power Your Next Big Move">Technologies to Power Your Next Big Move</h2>
+							<h2 class="w-50 mx-auto" title="Technologies to Power Your Next Big Move at JFS Technologies">Technologies to Power Your Next Big Move</h2>
 						</div>
 
 						<div class="slider">
@@ -368,7 +368,7 @@
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
+										<p class="title">Tailored Solutions</p>
 									</div>
 									<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
 								</div>
@@ -377,7 +377,7 @@
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
+										<p class="title">Technology Prowess</p>
 									</div>
 									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 								</div>
@@ -386,7 +386,7 @@
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
+										<p class="title">Proven Track Record</p>
 									</div>
 									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 								</div>
@@ -395,7 +395,7 @@
 								<div class="choose-content-card">
 									<div class="content">
 										<i class="fal fa-globe-asia"></i>
-										<h3>Global Client Base</h3>
+										<p class="title">Global Client Base</p>
 									</div>
 									<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 								</div>
@@ -419,28 +419,28 @@
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="experience">
-						<h3>150+</h3>
+						<p class="title">150+</p>
 						<span>Projects Delivered</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
-						<h3>25+</h3>
+						<p class="title">25+</p>
 						<span>Industries Served</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Customer Base">
-						<h3>10+</h3>
+						<p class="title">10+</p>
 						<span>Years of Excellence</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="locations">
-						<h3>100%</h3>
+						<p class="title">100%</p>
 						<span>Client Satisfaction</span>
 					</div>
 				</div>
@@ -503,7 +503,7 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">Recognitions</span>
-				<h2 class="text-white">Awards & Achievements</h2>
+				<h2 class="text-white" title="Awards & Achievements of JFS Technologies">Awards & Achievements</h2>
 			</div>
 			<div class="row align-items-center justify-content-center pt-5">
 				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
@@ -578,7 +578,7 @@
 						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="#">E-Commerce Platform UI/UX Redesign</a>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -588,7 +588,7 @@
 						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">Mobile App UX Optimization</a></h3>
+                        <a href="#">Mobile App UX Optimization</a>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -598,7 +598,7 @@
 						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <a href="#">3D Visualization for a Product Launch</a>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -608,7 +608,7 @@
 						<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Images">
 					</a>
 					<div class="content">
-						<h3><a href="#">Secure Cloud Migration</a></h3>
+						<a href="#">Secure Cloud Migration</a>
 						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>
@@ -629,7 +629,7 @@
 					<div class="content">
 						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Thomas Paul</h3>
+						<p class="title">Thomas Paul</p>
 						<span>Sr. Developer @ APISDOR</span>
 					</div>
 					<p>
@@ -640,7 +640,7 @@
 					<div class="content">
 						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Dan Fitzpatrick</h3>
+						<p class="title">Dan Fitzpatrick</p>
 						<span>President @ KRIXI</span>
 					</div>
 					<p>
@@ -651,7 +651,7 @@
 					<div class="content">
 						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Anand Katti</h3>
+						<p class="title">Anand Katti</p>
 						<span>COO @ Shyena Techyarns</span>
 					</div>
 					<p>
@@ -710,9 +710,7 @@
 									<a><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
 								</li>
 							</ul>
-							<h3>
-								<a>Top SEO Tools to Boost Your Website Visibility in 2024</a>
-							</h3>
+							<a class="blog-title">Top SEO Tools to Boost Your Website Visibility in 2024</a>
 							<p>Digital marketing is an area that changes all the time, so it’s important for businesses to stay ahead of the curve. Search Engine Optimization (SEO) is still a key part of doing...</p>
 							<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
@@ -735,9 +733,7 @@
 										<a href="#"><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
 									</li>
 								</ul>
-								<h3>
-									<a>How to Choose the Best Free Client Management Software for Your Needs</a>
-								</h3>
+								<a class="blog-title">How to Choose the Best Free Client Management Software for Your Needs</a>
 								<p>In today’s competitive business landscape, managing client relationships effectively is crucial for success.</p>
 								<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 							</div>
@@ -760,9 +756,7 @@
 									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Achive</a>
 								</li>
 							</ul>
-							<h3>
-								<a>Why Every Business Needs a Digital Marketing Agency</a>
-							</h3>
+							<a class="blog-title">Why Every Business Needs a Digital Marketing Agency</a>
 							<p>In today’s fast-paced digital landscape Why Every Business Needs a Digital Marketing Agency, staying ahead of the competition requires more than just a great product.</p>
 							<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>

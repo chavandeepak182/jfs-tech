@@ -512,6 +512,22 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/maulik-t.jpg" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="#" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Maulik Trivedi</h3>
+						<span>Sr. Graphic Designer</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/vaibhav-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
@@ -522,7 +538,7 @@
 					</ul>
 					<div class="content">
 						<h3>VaiBhav SaxEna</h3>
-						<span>Sr. Fullstack Developer</span>
+						<span>Sr. Frontend Developer</span>
 					</div>
 				</div>
 			</div>
@@ -538,7 +554,7 @@
 					</ul>
 					<div class="content">
 						<h3>Deepak Chavan</h3>
-						<span>Sr. Fullstack Developer</span>
+						<span>Sr. Backend Developer</span>
 					</div>
 				</div>
 			</div>

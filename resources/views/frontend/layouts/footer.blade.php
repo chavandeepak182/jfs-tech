@@ -1,7 +1,7 @@
 <!-- Footer Area -->
     <footer class="footer-area footer-bg">
 		<div class="container">
-			<div class="footer-top pt-100 pb-70">
+			<div class="footer-top pt-80 pb-4">
 				<div class="row">
 					<div class="col-lg-4 col-sm-6">
 						<div class="footer-widget">
@@ -20,7 +20,7 @@
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<div class="footer-widget pl-2">
-							<h3>Services</h3>
+							<p class="footer-title">Services</p>
 							<ul class="footer-list">
 								<li>
 									<a href="{{ url('/services/digital-transformation') }}" target="_blank">
@@ -56,8 +56,8 @@
 						</div>
 					</div>
 					<div class="col-lg-2 col-sm-6">
-					<div class="footer-widget pl-2">
-							<h3>Quick Links</h3>
+						<div class="footer-widget pl-2">
+							<p class="footer-title">Quick Links</p>
 							<ul class="footer-list">
 								<li>
 									<a href="{{ asset(' ') }}" target="_blank">
@@ -100,7 +100,7 @@
 					</div>
 					<div class="col-lg-3 col-sm-6">
 						<div class="footer-widget">
-							<h3>Reach Us</h3>
+							<p class="footer-title">Reach Us</p>
 							<ul class="footer-list">
 								<li><p>#416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</p></li>
 								<li>
