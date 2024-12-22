@@ -1,4 +1,8 @@
 @media only screen and (max-width:767px){
+    #banner .w-75{
+        width: 100%!important;
+    }
+
     .ptb-100{padding-top:50px;padding-bottom:50px}
     
     .pt-100{padding-top:50px}
@@ -32,6 +36,10 @@
         margin-top:0;
     }
 
+    .inner-banner .inner-title h1 {
+        font-size: 35px;
+    }
+
     .work-process-area .section-title h2 {
         max-width: 75%;
     }
@@ -60,20 +68,6 @@
 
     .mobile-nav .logo img{
         max-width: 200px;
-    }
-
-    .card {
-        & .face {
-            &.face1 {
-                position: relative;
-                background: #333;
-                display: flex
-    ;
-                z-index: 1;
-                transform: translateY(0px);
-                height: 230px;
-            }
-        }
     }
     
     .work-process-card-three img {

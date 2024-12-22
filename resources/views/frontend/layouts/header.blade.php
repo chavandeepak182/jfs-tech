@@ -28,74 +28,10 @@
 </head>
 
 <body>
-	<!-- <div class="preloader">
-		<div class="d-table">
-			<div class="d-table-cell">
-				<div class="spinner"></div>
-			</div>
-		</div>
-	</div> -->
-
-
-	<!-- <header class="top-header top-header-bg">
-		<div class="container-fluid">
-			<div class="container-max">
-				<div class="row align-items-center">
-					<div class="col-lg-7 col-md-6">
-						<div class="top-head-left">
-							<div class="top-contact">
-								<h3>Support By : <a href="tel:918421216367">+91 84212 16367</a></h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-6">
-						<div class="top-header-right">
-							<div class="top-header-social">
-								<ul>
-									<li>
-										<a href="https://www.facebook.com/profile.php?id=61563351610594" target="_blank">
-										<i class="bx bxl-facebook"></i>
-										</a>
-									</li>
-									<li>
-									<a href="https://x.com/JfsTechnologies" target="_blank">
-									<i class="bx bxl-twitter"></i>
-									</a>
-									</li>
-									<li>
-									<a href="https://www.linkedin.com/company/jfs-technologies-pvt-ltd" target="_blank">
-									<i class="bx bxl-linkedin-square"></i>
-									</a>
-									</li>
-									<li>
-									<a href="https://www.instagram.com/jfs_technologies_services/" target="_blank">
-									<i class="bx bxl-instagram"></i>
-									</a>
-									</li>
-								</ul>
-							</div>
-						<div class="language-list">
-						<select class="language-list-item">
-						<option>English</option>
-						<option>العربيّة</option>
-						<option>Deutsch</option>
-						<option>Português</option>
-						<option>简体中文</option>
-						</select>
-						</div> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header> -->
-
-
 	<div class="navbar-area">
 		<div class="mobile-nav">
 			<a href="{{ asset('') }}" class="logo">
 				<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo">
-				<!--<img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo">-->
 			</a>
 		</div>
 
@@ -105,7 +41,6 @@
 					<nav class="navbar navbar-expand-md navbar-light ">
 						<a class="navbar-brand" href="{{ asset('') }}">
 							<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo" style="width: 250px;">
-							<!-- <img src="{{ asset('theme') }}/assets/images/logos/logo-2.png" class="logo-two" alt="Logo"> -->
 						</a>
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 							<ul class="navbar-nav m-auto">
@@ -191,9 +126,6 @@
 										<li class="nav-item">
 											<a href="{{ url('/newsroom') }}" class="nav-link {{ Route::currentRouteName() === 'newsroom' ? 'active' : '' }}">Newsroom</a>
 										</li>
-										<!-- <li class="nav-item">
-											<a href="#" class="nav-link {{ Route::currentRouteName() === '' ? 'active' : '' }}">CSR</a>
-										</li> -->
 									</ul>
 								</li>
 								<li class="nav-item">
@@ -215,14 +147,6 @@
 								</li>
 							</ul>
 							<div class="nav-side d-display">
-								<!-- <div class="nav-side-item">
-									<div class="search-side-widget">
-										<form class="search-side-form">
-											<input type="search" class="form-control" placeholder="Search...">
-											<button type="submit"><i class="bx bx-search"></i></button>
-										</form>
-									</div>
-								</div> -->
 								<div class="nav-side-item">
 									<div class="get-btn">
 										<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50">Let’s Connect! <i class="bx bx-chevron-right"></i></a>
@@ -231,27 +155,6 @@
 							</div>
 						</div>
 					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="search-overlay">
-		<div class="d-table">
-			<div class="d-table-cell">
-				<div class="search-layer"></div>
-				<div class="search-layer"></div>
-				<div class="search-layer"></div>
-				<div class="search-close">
-					<span class="search-close-line"></span>
-					<span class="search-close-line"></span>
-				</div>
-				<div class="search-form">
-					<form>
-						<input type="text" class="input-search" placeholder="Search here...">
-						<button type="submit"><i class="bx bx-search"></i></button>
-					</form>
 				</div>
 			</div>
 		</div>

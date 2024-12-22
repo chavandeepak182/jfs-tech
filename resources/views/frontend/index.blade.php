@@ -69,7 +69,7 @@
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">What We Do?</span>
 				<h2 title="Our Core Digital Transformation Services at JFS Technologies">Our Core Digital Transformation Services</h2>
-				<div class="text-white w-50 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
+				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
@@ -79,10 +79,7 @@
 							<h3>Digital Transformation</h3>
 							<p>Empowering businesses with advanced tech for optimization and innovation.</p>
 							<a href="{{ url('/services/digital-transformation') }}" class="button">
-								Know More 
-								<span class="material-symbols-outlined">
-									<i class="far fa-long-arrow-right"></i>
-								</span>
+								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
 					</div>
@@ -94,10 +91,7 @@
 							<h3>Digital Experience</h3>
 							<p>Creating impactful digital touchpoints to connect your brand effectively.</p>
 							<a href="{{ url('/services/digital-experience') }}" class="button">
-								Know More 
-								<span class="material-symbols-outlined">
-									<i class="far fa-long-arrow-right"></i>
-								</span>
+								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
 					</div>
@@ -108,10 +102,7 @@
 						<div class="card-content">
 							<h3>DevOps Services</h3>
 							<p>Accelerating your development lifecycle with streamlined processes.</p>
-							<a href="{{ url('/services/devops') }}" class="button">Know More
-								<span class="material-symbols-outlined">
-									<i class="far fa-long-arrow-right"></i>
-								</span>
+							<a href="{{ url('/services/devops') }}" class="button">Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
 					</div>
@@ -123,10 +114,7 @@
 							<h3>Resource Augmentation</h3>
 							<p>Providing skilled professionals to integrate with your team and scale operations.</p>
 							<a href="{{ url('/services/resource-augmentation') }}" class="button">
-								Know More 
-								<span class="material-symbols-outlined">
-									<i class="far fa-long-arrow-right"></i>
-								</span>
+								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
 					</div>
