@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital transformation Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Digital Transformation Services | Digital Transformation Management Consulting")
+@section('description', "Digital Transformation services including Data Science, Augmented reality and virtual reality, Infrastructure management and Application Modernization")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -194,10 +194,9 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Are You Prepared to Embrace the Future of Technology?</h2>
+                        <h2>Are You Prepared to Embrace the Future of Digital Transformation Technology?</h2>
                         <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     </div>
-                    <h3>With more than 24 years of experience, we provide leading Digital transformation solutions.</h3>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
                 </div>
             </div>
@@ -213,7 +212,7 @@
                 <div class="faq-area ">
                     <div class="container">
                         <div class="section-title">
-                            <h2>Frequently Asked Questions</h2>
+                            <h2 title="Frequently Asked Questions for Digital transformation service">Frequently Asked Questions</h2>
                         </div>
                         <div class="faq-content mt-4">
                             <div class="faq-accordion">

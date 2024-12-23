@@ -66,7 +66,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Build Automation</h3>
 					<p>Services like Jenkins and Travis CI automate the process of compiling code, running tests, generating artifacts, monitoring builds, and seamlessly deploying applications with enhanced efficiency.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/build-auto.svg" class="brand-logo-one" alt="Build Automation">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -74,7 +74,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Deployment Automation</h3>
 					<p>Streamline the process of deploying code changes across environments like staging and production using platforms such as AWS CodePipeline and Azure DevOps.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/deploy-auto.svg" class="brand-logo-one" alt="Deployment Automation">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -82,7 +82,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Continuous Testing</h3>
 					<p>Integrate tools like GitLab CI/CD and CircleCI to ensure continuous validation of code changes, reducing defects and ensuring reliability throughout the pipeline.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/continue-test.svg" class="brand-logo-one" alt="Continuous Testing">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -90,7 +90,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Infrastructure as Code</h3>
 					<p>Leverage tools such as Jenkins, GitLab CI/CD, and AWS CodePipeline to define and manage infrastructure using code, enabling consistent and repeatable deployments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/infra-code.svg" class="brand-logo-one" alt="Infrastructure as Code">
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Data Science Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Data Science Services | Turn Your Data into Powerful Insights")
+@section('description', "Discover the power of Data Science with our advanced services, including analytics, data visualization, generative AI, conversational AI, and predictive modeling. We help you turn complex data into actionable insights to boost growth and efficiency.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -8,7 +8,7 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Unlock the Power of Data to Drive Business Success</h1>
+            <h1>Unlock the Power of Data Science to Drive Business Success</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Get Started Today <i class="bx bx-chevron-right"></i></a>
@@ -26,7 +26,7 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Insight-Driven Growth with Smart Data Solutions</h2>
+            <h2>Unlock the Power of Data Science to Drive Business Success</h2>
             <p class="margin-auto">Transform your data into actionable insights with our expert data science services. Leverage advanced analytics, machine learning, and AI to fuel better decision-making and future-proof your business. Our Data Science Services are designed to empower businesses by turning raw data into actionable insights. From identifying key patterns and trends to discovering hidden relationships within your data, we work closely with you to ensure that the insights you gain help in making informed, strategic decisions. With expertise in advanced analytics, machine learning, and data visualization, we help you unlock the true potential of your data.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
@@ -117,11 +117,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -203,10 +198,9 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Transform Your Data into Actionable Insights?</h2>
+                        <h2>Ready to Leverage Data Science to Transform Your Data into Actionable Insights?</h2>
                         <p>Unlock the potential of your data and drive smarter business decisions with our expert Data Science services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
                     </div>
-                    <h3>Leveraging over 24 years of expertise, we deliver top data transformation solutions.</h3>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
@@ -222,7 +216,7 @@
                 <div class="faq-area ">
                     <div class="container">
                         <div class="section-title">
-                            <h2>Frequently Asked Questions</h2>
+                            <h2 title="Frequently Asked Questions for Data Science service">Frequently Asked Questions</h2>
                         </div>
                         <div class="faq-content mt-4">
                             <div class="faq-accordion">
