@@ -66,7 +66,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Configuration Management</h3>
 					<p>Automate provisioning and configuration of infrastructure and applications using tools like <b>Ansible</b>, <b>Puppet</b>, and <b>Chef</b>, ensuring uniformity and repeatability across environments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/config-mgmt.svg" class="brand-logo-one" alt="Configuration Management" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -74,7 +74,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Continuous Integration</h3>
 					<p>Streamline code integration with services like <b>Jenkins</b>, <b>GitLab CI/CD</b>, and <b>TeamCity</b>, enabling developers to merge changes seamlessly, with automated builds and tests triggered upon integration.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/continue-integral.svg" class="brand-logo-one" alt="Continuous Integration" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -82,7 +82,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Continuous Deployment</h3>
 					<p>Deploy code changes to staging and production environments with precision using platforms such as <b>AWS CodeDeploy</b>, <b>Azure DevOps</b>, and <b>Jenkins</b>, based on predefined rules and triggers.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/continue-deploye.svg" class="brand-logo-one" alt="Continuous Deployment" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -90,7 +90,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Monitoring & Alerting</h3>
 					<p>Monitor infrastructure and application performance with tools like <b>Prometheus</b>, <b>Grafana</b>, and <b>Nagios</b>, providing real-time insights and automated alerts based on threshold breaches.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/monitor-alert.svg" class="brand-logo-one" alt="Monitoring & Alerting" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -98,7 +98,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Incident Response</h3>
 					<p>Simplify incident management with services like <b>PagerDuty</b> and <b>VictorOps</b>, enabling coordinated responses, timely communication, efficient issue resolution, and improved team collaboration.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/incident-res.svg" class="brand-logo-one" alt="Incident Response" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
@@ -106,7 +106,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Release Management</h3>
 					<p>Automate the release process, including versioning, deployment approvals & rollbacks, using platforms like <b>Spinnaker</b> & <b>Octopus Deploy</b>, ensuring smooth & controlled software launches.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/release-mgmt.svg" class="brand-logo-one" alt="Release Management" style="width: 25%;">
 				</div>
 			</div>
 		</div>
