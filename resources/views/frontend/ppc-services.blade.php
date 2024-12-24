@@ -42,7 +42,7 @@
                             <li><strong>Performance Tracking:</strong> Continuously monitoring and adjusting bids, targeting, and ad copy to improve ROI.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/google-ads.svg" class="brand-logo-one" alt="google ads" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -56,23 +56,23 @@
                             <li><strong>Performance Tracking:</strong> Regularly monitoring and optimizing bids, targeting, and ad copy to maximize ROI.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/paid-content.svg" class="brand-logo-one" alt="Paid Campaigns" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Landing Page Optimization</h3>
-					<p>We design and optimize landing pages that align with your PPC campaigns, ensuring that users have a smooth experience and are more likely to convert.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<p>We design and optimize high-converting, visually engaging, and mobile-friendly landing pages that align seamlessly with your PPC campaigns, ensuring users have a smooth experience, build trust, drive engagement, and are more likely to convert successfully while maximizing ROI, improving ad relevance, and supporting your overall marketing goals effectively.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/lpo.svg" class="brand-logo-one" alt="Landing Page" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Analytics & Reporting</h3>
-					<p>We track and report key metrics such as cost-per-click (CPC), conversion rates, and return on ad spend (ROAS), giving you clear insights into campaign performance and areas for improvement.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<p>We track and report key metrics such as cost-per-click (CPC), conversion rates, and return on ad spend (ROAS), providing you with actionable insights, data-driven strategies, and tailored recommendations to optimize performance, improve targeting, enhance visibility, drive higher conversions, and maximize your advertising budget effectively.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/analytics-report.svg" class="brand-logo-one" alt="analytics-report" style="width:22%;">
 				</div>
 			</div>
 		</div>

@@ -35,7 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Copywriting</h3>
 					<p>Engaging copy for websites, ads, blogs & more, crafted to inform, persuade & drive action, enhancing your brand's voice & connection with audiences.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/copywriting.svg" class="brand-logo-one" alt="Copywriting">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -43,7 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Social Media</h3>
 					<p>Creative, on-brand posts for social platforms that foster interaction, build community & enhance audience engagement, brand loyalty & long-term customer relationships.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/social-media.svg" class="brand-logo-one" alt="social-media">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Video Production</h3>
 					<p>From concept to final cut, we produce high-quality videos that communicate your brand’s story, whether it’s a product explainer, promotional video, or similar content.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/video-production.svg" class="brand-logo-one" alt="video-production">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Strategy</h3>
 					<p>A data-driven approach to planning and distributing content that aligns with your audience’s needs, boosts engagement, and supports your business goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/content-strategy.svg" class="brand-logo-one" alt="content-strategy">
 				</div>
 			</div>
 		</div>
