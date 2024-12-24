@@ -41,7 +41,7 @@
                             <li><strong>Responsive Design:</strong> Ensuring emails look great on both desktop and mobile devices.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-design.svg" class="brand-logo-one" alt="email-design" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -54,23 +54,23 @@
                             <li><strong>Triggered Emails:</strong> Sending emails based on specific triggers like sign-ups or purchases.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-automation.svg" class="brand-logo-one" alt="email-automation" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Email Campaign Strategy</h3>
-					<p>We begin by understanding your business goals and target audience to create a comprehensive email marketing strategy. This includes segmenting your email list, designing a tailored content plan, defining clear KPIs, and crafting personalized campaigns to maximize engagement and conversions.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<p>We begin by understanding your business goals and target audience to create a comprehensive email marketing strategy. This includes segmenting your email list, designing a tailored content plan, defining clear KPIs, and crafting personalized campaigns to maximize engagement, boost open rates, increase click-through rates, nurture leads, and drive higher conversions effectively.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-campaign.svg" class="brand-logo-one" alt="email-campaign" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Analytics & Reporting</h3>
-					<p>We measure the performance of each email campaign by tracking open rates, click-through rates, and conversions, providing detailed analytics, actionable insights, and tailored recommendations for continuous optimization and improved engagement.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+					<p>We measure the performance of each email campaign by tracking open rates, click-through rates, and conversions, providing detailed analytics, actionable insights, and tailored recommendations for continuous optimization, enhanced targeting, higher deliverability, improved engagement, better return on investment (ROI), increased customer retention, and long-term business growth.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-analytics.svg" class="brand-logo-one" alt="email-analytics" style="width:20%;">
 				</div>
 			</div>
 		</div>

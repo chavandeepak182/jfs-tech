@@ -24,141 +24,111 @@
 	<link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+	<link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet"/>
+
 	<link rel="icon" type="image/png" href="{{ asset('theme') }}/assets/images/favicon.png">
 </head>
 
 <body>
-	<div class="navbar-area">
-		<div class="mobile-nav">
-			<a href="{{ asset('') }}" class="logo">
-				<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo">
-			</a>
-		</div>
+	<nav class="nav shadow-lg">
+		<div class="wrapper container-fluid">
+			<div class="logo">
+				<a href="{{ asset('') }}">
+					<img src="{{ asset('theme') }}/assets/images/logos/logo-w.png" class="logo-one" alt="Logo">
+				</a>
+			</div>
 
-		<div class="main-nav">
-			<div class="container-fluid">
-				<div class="container-max">
-					<nav class="navbar navbar-expand-md navbar-light ">
-						<a class="navbar-brand" href="{{ asset('') }}">
-							<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo" style="width: 250px;">
-						</a>
-						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-							<ul class="navbar-nav m-auto">
-								<li class="nav-item">
-									<a href="{{ url('/') }}" class="nav-link {{ Route::currentRouteName() === 'home' ? 'active' : '' }}">Home</a>
-								</li>
-								<li class="nav-item">
-									<a href="{{ url('/services') }}" class="nav-link {{ Route::currentRouteName() === 'services' ? 'active' : '' }}">Services <i class="bx bx-caret-down"></i></a>
-									<ul class="dropdown-menu">
-										<li class="nav-item">
-											<a href="{{ url('/services/digital-transformation') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-transformation' ? 'active' : '' }}">Digital Transformation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
-											<ul class="dropdown-menu">
-												<li class="nav-item">
-													<a href="{{ url('/services/data-science') }}" class="nav-link">Data Science</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/ar-vr') }}" class="nav-link">AR/VR</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/infrastructure-management') }}" class="nav-link">Infrastructure Management</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/application-modernisation') }}" class="nav-link">Application Modernization</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a href="{{ url('/services/digital-experience') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-experience' ? 'active' : '' }}">Digital Experience <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
-											<ul class="dropdown-menu">
-												<li class="nav-item">
-													<a href="{{ url('/services/digital-marketing-company') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-marketing-company' ? 'active' : '' }}">Digital Marketing</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/website-design-and-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.website-design-and-development' ? 'active' : '' }}">Website Development</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/mobile-app-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.mobile-app-development' ? 'active' : '' }}">Mobile App Development</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/creative-services') }}" class="nav-link">Creative Services</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a href="{{ url('/services/devops') }}" class="nav-link {{ Route::currentRouteName() === 'services.devops' ? 'active' : '' }}">DevOps <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
-											<ul class="dropdown-menu">
-												<li class="nav-item">
-													<a href="{{ url('/services/ci-cd-pipelines') }}" class="nav-link">CI/CD Pipelines</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/process-automation') }}" class="nav-link">Process Automation</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/containers-and-microservices') }}" class="nav-link">Containers & Microservices</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('/services/devsecops') }}" class="nav-link">DevSecOps</a>
-												</li>
-											</ul>
-										</li>
-										<li class="nav-item">
-											<a href="{{ url('services/resource-augmentation') }}" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Resource Augmentation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
-											<ul class="dropdown-menu">
-												<li class="nav-item">
-													<a href="{{ url('services/frontend-developers') }}" class="nav-link">Frontend Developers</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('services/backend-developers') }}" class="nav-link">Backend Developers</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('services/fullstack-developers') }}" class="nav-link">Fullstack Developers</a>
-												</li>
-												<li class="nav-item">
-													<a href="{{ url('services/support-engineers') }}" class="nav-link">Support Engineers</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a href="{{ url('/about-us') }}" class="nav-link {{ Route::currentRouteName() === 'about-us' ? 'active' : '' }}">About Us <i class="bx bx-caret-down"></i></a>
-									<ul class="dropdown-menu">
-										<li class="nav-item">
-											<a href="{{ url('/newsroom') }}" class="nav-link {{ Route::currentRouteName() === 'newsroom' ? 'active' : '' }}">Newsroom</a>
-										</li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link">Resources <i class="bx bx-caret-down"></i></a>
-									<ul class="dropdown-menu">
-										<li class="nav-item">
-											<a href="https://jfstechnologies.com/blog/" class="nav-link {{ Route::currentRouteName() === 'blog' ? 'active' : '' }}">Blogs</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{ url('/portfolio') }}" class="nav-link {{ Route::currentRouteName() === 'portfolio' ? 'active' : '' }}">Portfolio</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{ url('/success-stories') }}" class="nav-link {{ Route::currentRouteName() === 'success-stories' ? 'active' : '' }}">Success Stories</a>
-										</li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a href="{{ url('/life-at-jfs') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS</a>
-								</li>
-							</ul>
-							<div class="nav-side d-display">
-								<div class="nav-side-item">
-									<div class="get-btn">
-										<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50">Let’s Connect! <i class="bx bx-chevron-right"></i></a>
-									</div>
-								</div>
+			<ul class="nav-list">
+				<div class="top">
+					<label for="" class="btn close-btn"><i class='bx bx-x' ></i></label>
+				</div>
+
+				<li><a href="{{ asset('') }}">Home</a></li>
+				<li>
+					<a href="{{ url('/services') }}" class="desktop-item">Services <span><i class='bx bx-caret-down'></i></span></a>
+					<input type="checkbox" id="showMega" />
+					<label for="showMega" class="mobile-item"><a href="{{ url('/services') }}">Services</a> <span><i class='bx bx-caret-down'></i></span></label>
+					<div class="mega-box">
+						<div class="content">
+							<div class="row">
+								<a href="{{ url('/services/digital-transformation') }}"><img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" class="brand-logo-one icons-img" alt="digitalization"> Digital Transformation</a>
+								<ul class="mega-links">
+									<li><a href="{{ url('/services/data-science') }}"><i class="bx bx-chevron-right"></i> Data Science</a></li>
+									<li><a href="{{ url('/services/ar-vr') }}"><i class="bx bx-chevron-right"></i> AR/VR</a></li>
+									<li><a href="{{ url('/services/application-modernisation') }}"><i class="bx bx-chevron-right"></i> Application Modernization</a></li>
+									<li><a href="{{ url('/services/infrastructure-management') }}"><i class="bx bx-chevron-right"></i> Infrastructure Management</a></li>
+								</ul>
+							</div>
+							<div class="row">
+								<a href="{{ url('/services/digital-experience') }}"><img src="{{ asset('theme') }}/assets/images/icons/digital-exp-y.gif" class="brand-logo-one icons-img" alt="digitalization"> Digital Experience</a>
+								<ul class="mega-links">
+									<li><a href="{{ url('/services/digital-marketing-company') }}"><i class="bx bx-chevron-right"></i> Digital Marketing</a></li>
+									<li><a href="{{ url('/services/website-design-and-development') }}"><i class="bx bx-chevron-right"></i> Website Development</a></li>
+									<li><a href="{{ url('/services/mobile-app-development') }}"><i class="bx bx-chevron-right"></i> Mobile App Development</a></li>
+									<li><a href="{{ url('/services/creative-services') }}"><i class="bx bx-chevron-right"></i> Creative Services</a></li>
+								</ul>
+							</div>
+							<div class="row">
+								<a href="{{ url('/services/devops') }}"><img src="{{ asset('theme') }}/assets/images/icons/cloud-y.gif" class="brand-logo-one icons-img" alt="digitalization"> DevOps</a>
+								<ul class="mega-links">
+									<li><a href="{{ url('/services/ci-cd-pipelines') }}"><i class="bx bx-chevron-right"></i> CI/CD Pipelines</a></li>
+									<li><a href="{{ url('/services/process-automation') }}"><i class="bx bx-chevron-right"></i> Process Automation</a></li>
+									<li><a href="{{ url('/services/containers-and-microservices') }}"><i class="bx bx-chevron-right"></i> Containers & Microservices</a></li>
+									<li><a href="{{ url('/services/devsecops') }}"><i class="bx bx-chevron-right"></i> DevSecOps</a></li>
+								</ul>
+							</div>
+							<div class="row">
+								<a href="{{ url('services/resource-augmentation') }}"><img src="{{ asset('theme') }}/assets/images/icons/select-y.gif" class="brand-logo-one icons-img" alt="digitalization"> Resource Augmentation</a>
+								<ul class="mega-links">
+									<li><a href="{{ url('services/frontend-developers') }}"><i class="bx bx-chevron-right"></i> Frontend Developers</a></li>
+									<li><a href="{{ url('services/backend-developers') }}"><i class="bx bx-chevron-right"></i> Backend Developers</a></li>
+									<li><a href="{{ url('services/fullstack-developers') }}"><i class="bx bx-chevron-right"></i> Fullstack Developers</a></li>
+									<li><a href="{{ url('services/support-engineers') }}"><i class="bx bx-chevron-right"></i> Support Engineers</a></li>
+								</ul>
 							</div>
 						</div>
-					</nav>
+					</div>
+				</li>
+				<li>
+					<a href="{{ url('/about-us') }}" class="desktop-item">About Us <span><i class='bx bx-caret-down'></i></span></a>
+					<input type="checkbox"  id="showdrop1">
+					<label for="showdrop1" class="mobile-item"><a href="{{ url('/about-us') }}">About Us </a> <span><i class='bx bx-caret-down'></i></span></label>
+					<ul class="drop-menu1">
+						<li><a href="{{ url('/newsroom') }}">Newsroom</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="" class="desktop-item">Resources <span><i class='bx bx-caret-down'></i></span></a>
+					<input type="checkbox"  id="showdrop2">
+					<label for="showdrop2" class="mobile-item"><a href="">Resources</a> <span><i class='bx bx-caret-down'></i></span></label>
+					<ul class="drop-menu2">
+						<li><a href="https://jfstechnologies.com/blog/">Blogs</a></li>
+						<li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
+						<li><a href="{{ url('/success-stories') }}">Success Stories</a></li>
+					</ul>
+				</li>
+				<li><a href="{{ url('/life-at-jfs') }}">Life At JFS</a></li>
+				<li>
+					<div class="nav-side mobile-item mt-5 w-75">
+						<div class="nav-side-item">
+							<div class="get-btn">
+								<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Connect! <i class="bx bx-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="nav-side d-display">
+				<div class="nav-side-item">
+					<div class="get-btn">
+						<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50">Let’s Connect! <i class="bx bx-chevron-right"></i></a>
+					</div>
 				</div>
 			</div>
+			<label for="" class="btn open-btn"><i class='bx bx-menu' ></i></label>
 		</div>
-	</div>
+    </nav>
+
         
     {{-- main content --}}
     <div class="main-content">

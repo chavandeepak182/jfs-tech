@@ -36,7 +36,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Social Media Strategy Development</h3>
 					<p>We begin by understanding your business goals, target audience, and competitors to develop a tailored social media strategy that aligns with your brand and objectives. This includes choosing the right platforms, defining KPIs, and setting measurable goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/smm-strategy.svg" class="brand-logo-one" alt="smm-strategy" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -44,7 +44,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Community Management</h3>
 					<p>We help build a loyal community around your brand by engaging with followers, responding to queries, and fostering a positive environment. This leads to increased trust, brand loyalty, and higher conversion rates.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/comm-mgmt.svg" class="brand-logo-one" alt="Community Management" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -57,7 +57,7 @@
                             <li><strong>Content Calendar:</strong> We plan content around key dates, industry events, and promotions to maintain consistency.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/content-creation.svg" class="brand-logo-one" alt="content-creation" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -71,7 +71,7 @@
                             <li><strong>Analytics & Reporting:</strong> Tracking key metrics like click-through rates, impressions, and conversions to continuously improve performance.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/paid-media.svg" class="brand-logo-one" alt="paid-media" style="width:20%;">
 				</div>
 			</div>
 		</div>

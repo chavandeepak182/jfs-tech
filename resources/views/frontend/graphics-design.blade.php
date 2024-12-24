@@ -35,7 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Print Design</h3>
 					<p>Professional designs for brochures, posters, business cards, packaging, and more to leave a lasting impression in the physical and digital space, enhancing brand identity and engagement.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/print-design.svg" class="brand-logo-one" alt="print-design" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6">
@@ -43,7 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Digital Design</h3>
 					<p>Dynamic visuals for websites, social media, email templates, and digital ads tailored to engage, captivate, and inspire your digital audience, driving brand awareness and boosting conversions effectively.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/digital-design.svg" class="brand-logo-one" alt="digital-design" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6">
@@ -51,7 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Illustration</h3>
 					<p>Custom illustrations that add a unique touch to your brand, making your storytelling visually impactful, engaging, and truly memorable for your audience, enhancing brand identity and connection.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/illustration.svg" class="brand-logo-one" alt="illustration" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6">
@@ -59,7 +59,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Brand Strategy & Visual Identity</h3>
 					<p>We define your brand’s purpose, mission, and vision, then create logos, color palettes, and typographic styles that are consistent, distinctive, and resonate with your target audience.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/brand-visibility.svg" class="brand-logo-one" alt="brand-visibility" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6">
@@ -67,7 +67,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Brand Guidelines</h3>
 					<p>A comprehensive guide to maintain brand consistency across all platforms, ensuring every representation is on-brand, aligns with your company's core values and identity, and strengthens brand recognition.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/brand-guidelines.svg" class="brand-logo-one" alt="brand-guidelines" style="width:22%;">
 				</div>
 			</div>
 		</div>

@@ -35,7 +35,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Product Design</h3>
 					<p>Realistic 3D models for showcasing product features, suitable for both prototyping, marketing purposes, and enhancing customer engagement and decision-making.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/product-design.svg" class="brand-logo-one" alt="product-design">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -43,7 +43,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Exhibition Booth Design</h3>
 					<p>Custom 3D designs for exhibitions and trade shows that grab attention, engage visitors, and create a memorable experience for attendees.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/exhibition.svg" class="brand-logo-one" alt="exhibition">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Home & Commercial Interiors</h3>
 					<p>3D renderings that allow you to visualize interior spaces accurately, ideal for architects, real estate, and interior designers.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/interior-design.svg" class="brand-logo-one" alt="interior-design">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Strategy</h3>
 					<p>Animations that highlight features, demonstrate functionality, or tell a brand story through engaging 3D visuals, creating a memorable and impactful user experience.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/content-strategy1.svg" class="brand-logo-one" alt="content-strategy">
 				</div>
 			</div>
 		</div>

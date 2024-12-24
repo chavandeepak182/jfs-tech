@@ -42,7 +42,7 @@
                             <li><strong>Internal Linking:</strong> Structuring your website with a clear navigation system to help users and search engines find your content.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/off-page-seo.svg" class="brand-logo-one" alt="off-page-seo" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -57,7 +57,7 @@
                             <li><strong>Content Marketing:</strong> Creating valuable, engaging content that naturally attracts backlinks and drives organic traffic.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/on-page-seo.svg" class="brand-logo-one" alt="on-page-seo" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -72,7 +72,7 @@
                             <li><strong>Structured Data:</strong> Implementing schema markup to help search engines understand and display your content more effectively.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/technical-seo.svg" class="brand-logo-one" alt="technical-seo" style="width:22%;">
 				</div>
 			</div>
 		</div>

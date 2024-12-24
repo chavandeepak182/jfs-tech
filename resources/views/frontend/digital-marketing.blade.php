@@ -34,7 +34,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="#">1. Search Engine Optimization (SEO)</a></h3>
+                    <h3><a href="{{ url('/services/seo-services') }}">1. Search Engine Optimization (SEO)</a></h3>
                     <p>SEO is the foundation of any successful digital marketing strategy. Our SEO services are designed to help your website rank higher on search engines, increase organic traffic, and improve visibility. We focus on both on-page and off-page optimization to ensure that your site performs well on search engines like Google.</p>
                     <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -42,7 +42,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="#">2. Social Media Management</a></h3>
+                    <h3><a href="{{ url('/services/smo-services') }}">2. Social Media Management</a></h3>
                     <p>Social media platforms are crucial for connecting with your audience and creating brand awareness. Our social media marketing services help you engage your audience on platforms like Facebook, Instagram, LinkedIn, and more. We develop strategies that build a loyal community around your brand, drive traffic, and encourage customer interaction.</p>
                     <a href="{{ url('/services/smo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -50,7 +50,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="#">3. Paid Advertising (PPC)</a></h3>
+                    <h3><a href="{{ url('/services/ppc-services') }}">3. Paid Advertising (PPC)</a></h3>
                     <p>Paid advertising allows businesses to get quick visibility and reach a wider audience. Our PPC services help you run targeted campaigns across platforms like Google Ads, Bing, and social media. We ensure that your ads reach the right people at the right time, driving relevant traffic and delivering measurable ROI.</p>
                     <a href="{{ url('/services/ppc-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
