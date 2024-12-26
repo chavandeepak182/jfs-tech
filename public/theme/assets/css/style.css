@@ -237,9 +237,11 @@ nav {
   position: relative;
   height: 100%;
   padding: 0 4rem;
+  padding: 0 3rem;
 }
 
 .wrapper .logo a img {
+  width: 265px;
   width: 265px;
 }
 
