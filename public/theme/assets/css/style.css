@@ -236,13 +236,19 @@ nav {
   justify-content: space-between;
   position: relative;
   height: 100%;
+<<<<<<< HEAD
   padding: 0 4rem;
+=======
+>>>>>>> 1deb4b1 (Update style.css)
   padding: 0 3rem;
 }
 
 .wrapper .logo a img {
   width: 265px;
+<<<<<<< HEAD
   width: 265px;
+=======
+>>>>>>> 1deb4b1 (Update style.css)
 }
 
 .wrapper .nav-list {
