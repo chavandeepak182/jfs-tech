@@ -17,7 +17,7 @@
     </div>
 
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="../theme/assets/images/ppc-bnr.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
@@ -25,10 +25,10 @@
 
 <section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
-            <span class="sp-color2"></span>
+        <div class="section-title text-center">
+            <span class="sp-color2">Smarter Ads. Bigger Impact. Better PPC!</span>
             <h2>Optimize Your Paid Ads with Strategic PPC Management</h2>
-            <p class="margin-auto">Pay-Per-Click (PPC) advertising allows you to get immediate visibility by bidding on keywords related to your business. PPC is an effective way to drive targeted traffic to your website by placing ads on search engines and social media platforms. You only pay when someone clicks on your ad, making it a cost-effective solution for businesses looking to drive conversions. At JFS Technologies, we specialize in creating data-driven, cost-effective PPC campaigns. We manage and optimize campaigns on Google Ads, Facebook Ads, LinkedIn Ads, and more to ensure that your advertising budget is spent efficiently and effectively.</p>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Pay-Per-Click (PPC) advertising allows you to get immediate visibility by bidding on keywords related to your business. PPC is an effective way to drive targeted traffic to your website by placing ads on search engines and social media platforms. You only pay when someone clicks on your ad, making it a cost-effective solution for businesses looking to drive conversions. At JFS Technologies, we specialize in creating data-driven, cost-effective PPC campaigns. We manage and optimize campaigns on Google Ads, Facebook Ads, LinkedIn Ads, and more to ensure that your advertising budget is spent efficiently and effectively.</p>
         </div>
 		<div class="row pt-45">
 			<div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">

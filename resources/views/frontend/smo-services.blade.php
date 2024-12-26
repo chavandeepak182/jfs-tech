@@ -7,17 +7,17 @@
 
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title text-center w-75 mx-auto invisible">
-            <h1>Social Media Magic: Transform Likes into Leads</h1>
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+            <h1>Elevate Your Brand with Targeted Social Media Strategies</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
 
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/smo-vc.mp4" type="video/mp4">
+        <source src="../theme/assets/images/smo-bnr.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>

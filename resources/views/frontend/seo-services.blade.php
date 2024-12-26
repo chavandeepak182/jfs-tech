@@ -17,17 +17,17 @@
     </div>
 
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="../theme/assets/images/seo-bnr.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
 
 <section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
-            <span class="sp-color2"></span>
+        <div class="section-title text-center">
+            <span class="sp-color2">Dominate Search Rankings Today!</span>
             <h2>Result-Driven SEO Agency to Increase Your Visibility</h2>
-            <p class="margin-auto">Search Engine Optimization (SEO) is the process of improving your website’s visibility on search engines like Google, Bing, and Yahoo. SEO ensures that yourwebsite appears in front of potential customers when they search for relevant keywords related to your business. A well-optimized website not only ranks higher but also attracts quality traffic, improves user experience, and boosts conversions. At JFS Technologies, we follow a comprehensive approach to SEO that includes both on-page and off-page optimization strategies, ensuring your website ranks well and remains competitive. Our SEO services are customized for your business’s specific needs, industry, and target audience</p>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Search Engine Optimization (SEO) is the process of improving your website’s visibility on search engines like Google, Bing, and Yahoo. SEO ensures that yourwebsite appears in front of potential customers when they search for relevant keywords related to your business. A well-optimized website not only ranks higher but also attracts quality traffic, improves user experience, and boosts conversions. At JFS Technologies, we follow a comprehensive approach to SEO that includes both on-page and off-page optimization strategies, ensuring your website ranks well and remains competitive. Our SEO services are customized for your business’s specific needs, industry, and target audience</p>
         </div>
 		<div class="row pt-45">
 			<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
