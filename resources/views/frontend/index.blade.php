@@ -34,7 +34,7 @@
 					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
 						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2 title="Digital transformation company for software development">Your Trusted Partner in Digital Transformation for Software Innovation</h2>
+							<h2 title="Digital transformation company for software innovation">Trusted Partner for Digital Transformation & Software Innovation</h2>
 							<div class="mx-auto pt-3">At JFS Technologies, we are a digital transformation company, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From <strong>digital marketing services</strong> to <strong>Cloud services in Infrastructure management</strong> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
 							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <strong>DevOps cybersecurity services</strong>, <strong>CI/CD performance testing</strong>, and <strong>software development company services</strong>, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
 						</div>
