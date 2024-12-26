@@ -17,7 +17,7 @@
     </div>
 
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/pvr-1.mp4" type="video/mp4">
+        <source src="../theme/assets/images/email-mark-bnr.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
@@ -25,10 +25,10 @@
 
 <section class="services-style-area home_cards pt-100 pb-70">
 	<div class="container">
-        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
-            <span class="sp-color2"></span>
+        <div class="section-title text-center">
+            <span class="sp-color2">Hit the Inbox, Win the Customer!</span>
             <h2>Maximize Engagement with Targeted Email Campaigns</h2>
-            <p class="margin-auto">Email marketing remains one of the most effective methods of communicating with your audience. It allows you to deliver personalized messages directly to the inbox, fostering relationships and driving conversions. Whether you’re nurturing leads, engaging current customers, or announcing new products, email marketing plays a critical role in your digital strategy. At JFS Technologies, we offer end-to-end email marketing services, from campaign strategy to execution. Our team designs email campaigns that resonate with your audience, deliver value, and drive results.</p>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Email marketing remains one of the most effective methods of communicating with your audience. It allows you to deliver personalized messages directly to the inbox, fostering relationships and driving conversions. Whether you’re nurturing leads, engaging current customers, or announcing new products, email marketing plays a critical role in your digital strategy. At JFS Technologies, we offer end-to-end email marketing services, from campaign strategy to execution. Our team designs email campaigns that resonate with your audience, deliver value, and drive results.</p>
         </div>
 		<div class="row pt-45">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
