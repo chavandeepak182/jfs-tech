@@ -229,3 +229,140 @@
 	<!--End of Tawk.to Script-->
 </body>
 </html>
+
+
+
+
+
+<!-- Second Phase Navbar -->
+<div class="navbar-area">
+		<div class="mobile-nav">
+			<a href="{{ asset('') }}" class="logo">
+				<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo">
+			</a>
+		</div>
+
+		<div class="main-nav">
+			<div class="container-fluid">
+				<div class="container-max">
+					<nav class="navbar navbar-expand-md navbar-light ">
+						<a class="navbar-brand" href="{{ asset('') }}">
+							<img src="{{ asset('theme') }}/assets/images/logos/logo-n.svg" class="logo-one" alt="Logo" style="width: 250px;">
+						</a>
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav m-auto">
+								<li class="nav-item">
+									<a href="{{ url('/') }}" class="nav-link {{ Route::currentRouteName() === 'home' ? 'active' : '' }}">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="{{ url('/services') }}" class="nav-link {{ Route::currentRouteName() === 'services' ? 'active' : '' }}">Services <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="{{ url('/services/digital-transformation') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-transformation' ? 'active' : '' }}">Digital Transformation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="{{ url('/services/data-science') }}" class="nav-link">Data Science</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/ar-vr') }}" class="nav-link">AR/VR</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/infrastructure-management') }}" class="nav-link">Infrastructure Management</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/application-modernisation') }}" class="nav-link">Application Modernization</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a href="{{ url('/services/digital-experience') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-experience' ? 'active' : '' }}">Digital Experience <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="{{ url('/services/digital-marketing-company') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-marketing-company' ? 'active' : '' }}">Digital Marketing</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/website-design-and-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.website-design-and-development' ? 'active' : '' }}">Website Development</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/mobile-app-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.mobile-app-development' ? 'active' : '' }}">Mobile App Development</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/creative-services') }}" class="nav-link">Creative Services</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a href="{{ url('/services/devops') }}" class="nav-link {{ Route::currentRouteName() === 'services.devops' ? 'active' : '' }}">DevOps <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="{{ url('/services/ci-cd-pipelines') }}" class="nav-link">CI/CD Pipelines</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/process-automation') }}" class="nav-link">Process Automation</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/containers-and-microservices') }}" class="nav-link">Containers & Microservices</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('/services/devsecops') }}" class="nav-link">DevSecOps</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a href="{{ url('services/resource-augmentation') }}" class="nav-link {{ Route::currentRouteName() === 'services.resource-augmentation' ? 'active' : '' }}">Resource Augmentation <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="{{ url('services/frontend-developers') }}" class="nav-link">Frontend Developers</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('services/backend-developers') }}" class="nav-link">Backend Developers</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('services/fullstack-developers') }}" class="nav-link">Fullstack Developers</a>
+												</li>
+												<li class="nav-item">
+													<a href="{{ url('services/support-engineers') }}" class="nav-link">Support Engineers</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="{{ url('/about-us') }}" class="nav-link {{ Route::currentRouteName() === 'about-us' ? 'active' : '' }}">About Us <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="{{ url('/newsroom') }}" class="nav-link {{ Route::currentRouteName() === 'newsroom' ? 'active' : '' }}">Newsroom</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link">Resources <i class="bx bx-caret-down"></i></a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="https://jfstechnologies.com/blog/" class="nav-link {{ Route::currentRouteName() === 'blog' ? 'active' : '' }}">Blogs</a>
+										</li>
+										<li class="nav-item">
+											<a href="{{ url('/portfolio') }}" class="nav-link {{ Route::currentRouteName() === 'portfolio' ? 'active' : '' }}">Portfolio</a>
+										</li>
+										<li class="nav-item">
+											<a href="{{ url('/success-stories') }}" class="nav-link {{ Route::currentRouteName() === 'success-stories' ? 'active' : '' }}">Success Stories</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="{{ url('/life-at-jfs') }}" class="nav-link {{ Route::currentRouteName() === 'Life At JFS' ? 'active' : '' }}">Life At JFS</a>
+								</li>
+							</ul>
+							<div class="nav-side d-display">
+								<div class="nav-side-item">
+									<div class="get-btn">
+										<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50">Let’s Connect! <i class="bx bx-chevron-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
