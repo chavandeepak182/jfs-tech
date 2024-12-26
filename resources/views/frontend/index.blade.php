@@ -34,7 +34,7 @@
 					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
 						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2 title="Digital transformation company for software development">Your Trusted Digital Transformation Company for Software Innovation</h2>
+							<h2 title="Digital transformation company for software development">Your Trusted Partner in Digital Transformation for Software Innovation</h2>
 							<div class="mx-auto pt-3">At JFS Technologies, we are a digital transformation company, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From <strong>digital marketing services</strong> to <strong>Cloud services in Infrastructure management</strong> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
 							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <strong>DevOps cybersecurity services</strong>, <strong>CI/CD performance testing</strong>, and <strong>software development company services</strong>, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
 						</div>
@@ -649,29 +649,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="client-circle">
-			<div class="client-circle-1">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-2">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-3">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-4">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-5">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-6">
-				<div class="circle"></div>
-			</div>
-			<div class="client-circle-7">
-				<div class="circle"></div>
-			</div>
-		</div> -->
 	</section>
 
 
@@ -685,8 +662,8 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/">
-								<img src="https://jfstechnologies.com/wp-content/uploads/2024/09/Colorful-Playful-SEO-Informational-Presentation-2560-x-1025-px.png" alt="Blog Images">
+							<a href="#">
+								<img src="{{ asset('theme') }}/assets/images/blog-1.png" alt="Blog Images">
 							</a>
 							<div class="blog-tag">
 								<h3>18</h3>
@@ -694,22 +671,17 @@
 							</div>
 						</div>
 						<div class="content">
-							<ul>
-								<li>
-									<a><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
-								</li>
-							</ul>
 							<a class="blog-title">Top SEO Tools to Boost Your Website Visibility in 2024</a>
 							<p>Digital marketing is an area that changes all the time, so it’s important for businesses to stay ahead of the curve. Search Engine Optimization (SEO) is still a key part of doing...</p>
-							<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/">
-								<img src="https://jfstechnologies.com/wp-content/uploads/2024/08/How-to-Choose-the-Best-Free-Client-Management-Software-for-Your-Needs.png" alt="Blog Images">
+							<a href="#">
+								<img src="{{ asset('theme') }}/assets/images/blog-2.png" alt="Blog Images">
 							</a>
 							<div class="blog-tag">
 								<h3>21</h3>
@@ -717,22 +689,17 @@
 								</div>
 							</div>
 							<div class="content">
-								<ul>
-									<li>
-										<a href="#"><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
-									</li>
-								</ul>
 								<a class="blog-title">How to Choose the Best Free Client Management Software for Your Needs</a>
 								<p>In today’s competitive business landscape, managing client relationships effectively is crucial for success.</p>
-								<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+								<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 						<div class="blog-card">
 							<div class="blog-img">
-								<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/">
-									<img src="https://jfstechnologies.com/wp-content/uploads/2024/07/ban1.png" alt="Blog Images">
+								<a href="#">
+									<img src="{{ asset('theme') }}/assets/images/blog-3.png" alt="Blog Images">
 								</a>
 								<div class="blog-tag">
 									<h3>31</h3>
@@ -740,84 +707,15 @@
 								</div>
 							</div>
 							<div class="content">
-							<ul>
-								<li>
-									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Achive</a>
-								</li>
-							</ul>
 							<a class="blog-title">Why Every Business Needs a Digital Marketing Agency</a>
 							<p>In today’s fast-paced digital landscape Why Every Business Needs a Digital Marketing Agency, staying ahead of the competition requires more than just a great product.</p>
-							<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
-	<!-- Call Us Area -->
-	<!-- <div class="call-us-area">
-		<div class="container">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6">
-					<div class="call-contact">
-						<h3>Call Us 24/7</h3>
-						<a href="tel:+918329729190" class="call-btn">Ready to Take Your Business to the Next Level?</a>
-						<p>Partner with JFS Technologies today and unlock the full potential of your digital strategy. From cloud solutions to data analytics and mobile app development, we’ll help you create custom solutions that drive results.</p>
-						<a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a>
-					</div>
-				</div>
-				<div class="col-lg-5 pt-5 pb-3">
-                    <div class="contact-form">
-					<form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
-					@csrf
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control rounded" required data-error="Please Enter Your Name" placeholder="Name*">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control rounded" placeholder="Phone Number*">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control rounded" required data-error="Please Enter Your Email" placeholder="Email*">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12">
-                                        <textarea name="message" class="form-control" id="message" cols="20" rows="4" required data-error="Write your message" placeholder="Your Message*"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="agree-label">
-                                        <input type="checkbox" id="chb1">
-                                        <label for="chb1" class="text-white">
-                                            Accept <a href="#">Terms & Conditions</a> And <a href="/privacy-policy">Privacy Policy.</a>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 text-center">
-                                    <button type="submit" class="default-btn btn-bg-one border-radius-50">
-										Schedule a Free Consultation<i class="bx bx-chevron-right"></i>
-                                    </button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
