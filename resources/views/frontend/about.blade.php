@@ -519,7 +519,7 @@
 						</li>
 					</ul>
 					<div class="content">
-						<h3>VaiBhav SaxEna</h3>
+						<h3>Vaibhav Saxena</h3>
 						<span>Sr. Frontend Developer</span>
 					</div>
 				</div>
