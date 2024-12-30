@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital transformation Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Digital Experience Services | Digital Experience Platform Solutions")
+@section('description', "Looking for Digital Experience Services? Our Digital Experience Platform Solutions provide customized strategies to transform your business")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -11,7 +11,7 @@
             <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="banner-five-content">
                     <span></span>
-                    <h1 class="text-white">Digital <b><br>Experience</b></h1>
+                    <h1 class="text-white" title="Digital Marketing services for all businesses">Digital <b><br>Experience</b></h1>
                     <p class="text-white">Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
                 </div>
@@ -30,7 +30,7 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Digital Experience Services Includes</h2>
+            <h2 title="Top Digital Experience Company for Businesses">Our Top Digital Experience Services Includes</h2>
         </div>
         <div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -101,7 +101,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Trust Our Digital Experience Services?</h2>
+							<h2 title="Digital services for all business">Why Trust Our Digital Experience Services?</h2>
                             <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
 						</div>
 						<div class="row">
@@ -158,7 +158,7 @@
 	<div class="container" data-aos="fade-up" data-aos-duration="500">
 		<div class="section-title text-center">
 		    <span class="sp-color2">Plan Descriptions</span>
-		    <h2>Choose the Best Plan For Your Business</h2>
+		    <h2>Choose the Affordable Digital Marketing Plan For Businesss</h2>
 		</div>
 		<div class="row pt-45">
 		    <div class="col-lg-4 col-sm-6">
@@ -199,7 +199,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Launch Your Inaugural Campaign?</h2>
+                        <h2>Ready to Launch Your First Campaign with the Best Digital Marketing Agency?</h2>
                         <p>Whether you need a new website design or a mobile application to reach your customers on the        go, our services are tailored to meet your unique requirements. Our digital marketing expertise will help you reach and engage with your target audience through various online channels, while our creative services will ensure that your brand identity is reflected consistently across all digital touchpoints.</p>
                         <p>Partner with us to take your digital experience to the next level and drive meaningful results for your business. With our comprehensive suite of services and experienced team, we can help you achieve your digital goals and stand out in today's fast-paced digital world.</p>
                     </div>

@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Process Automation Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Process Automation Services | Streamline Business Operations")
+@section('description', "Optimize efficiency and reduce costs with process automation services. Automate repetitive tasks, improve workflows, and drive business growth through intelligent solutions.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')

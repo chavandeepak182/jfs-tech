@@ -6,14 +6,14 @@
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75" data-aos="fade-down" data-aos-offset="600" data-aos-easing="ease-in-sine">
+        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>About Us</h1>
             <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
         </div>
     </div>
     
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/services.mp4" type="video/mp4">
+        <source src="../theme/assets/images/about-intro.mp4" type="video/mp4">
         <source src="movie.webm" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
@@ -51,75 +51,41 @@
 <section class="services-style-area pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
-            <span class="sp-color2">What We Do</span>
-            <h2 style="max-width: 725px;">Transforming Ideas into Reality</h2>
-            <p class="margin-auto">We offer a diverse portfolio of services designed to address every aspect of your digital journey. Our expertise spans across the following four key areas:</p>
+            <span class="sp-color2">Our Trusted Labels!</span>
+            <h2>Our Brands</h2>
+            <p class="margin-auto">At JFS Technologies, we are committed to driving innovation, sustainability, and inclusivity across our ventures. Through our diverse portfolio of brands, we work towards building a digital future that empowers both individuals and organizations. Each brand under our umbrella shares a focus on delivering exceptional services and solutions, with a commitment to quality and customer satisfaction.</p>
         </div>
-        <div class="row pt-45 mx-auto justify-content-center custom-card">
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
-                    <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
-                    <p>Empowering businesses to stay competitive by leveraging modern technologies and strategies.</p>
-                    <p><b>Key Features:</b>
-                        <ul>
-                            <li><strong>Data Science:</strong> Unlock the power of your data with advanced analytics and predictive modeling.</li>
-                            <li><strong>AR/VR:</strong> Create immersive experiences to enhance customer engagement and training.</li>
-                            <li><strong>Application Modernisation:</strong> Transform legacy applications to meet current and future business needs.</li>
-                            <li><strong>Infrastructure Management: </strong>Optimize and maintain your IT infrastructure for maximum efficiency.</li>
-                        </ul>
-                    </p>
-                    <a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/digital-exp.gif" class="brand-logo-one icons-img" alt="digital-exp">
-                    <h3><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
-                    <p>Creating impactful digital interactions that resonate with your target audience.</p>
-                    <p><b>Key Features:</b>
-                        <ul>
-                            <li><strong>Digital Marketing:</strong> Reach and engage your customers through tailored marketing strategies.</li>
-                            <li><strong>Website Development:</strong> Build responsive, fast, and user-friendly websites that reflect your brand.</li>
-                            <li><strong>Mobile App Development:</strong> Deliver seamless mobile experiences for iOS and Android platforms.</li>
-                            <li><strong>Creative Services:</strong> Enhance your brand identity with compelling visuals, designs, and content.</li>
-                        </ul>
-                    </p>
-                    <a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
-                    <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
-                    <p>Accelerating development cycles and enhancing operational efficiency.</p>
-                    <p><b>Key Features:</b>
-                        <ul>
-                            <li><strong>CI/CD Pipelines:</strong> Streamline your software delivery with continuous integration and deployment.</li>
-                            <li><strong>Process Automation:</strong> Automate repetitive tasks to reduce errors and save time.</li>
-                            <li><strong>Containers & Microservices:</strong> Build scalable applications using containerized architectures.</li>
-                            <li><strong>DevSecOps:</strong> Integrate security into every stage of your software lifecycle.</li>
-                        </ul>
-                    </p>
-                    <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
-                <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
-                    <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
-                    <p>Providing the right talent to complement and strengthen your teams.</p>
-                    <p><b>Key Features:</b>
-                        <ul>
-                            <li><strong>Frontend Developers:</strong> Deliver intuitive and engaging user interfaces.</li>
-                            <li><strong>Backend Developers:</strong> Build robust server-side solutions for your applications.</li>
-                            <li><strong>Fullstack Developers:</strong> Get experts proficient in both frontend and backend technologies.</li>
-                            <li><strong>Support Engineers:</strong> Ensure seamless operation and quick resolution of technical issues.</li>
-                        </ul>
-                    </p>
-                    <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
+        <div class="row mx-auto justify-content-center custom-card brands">
+			<div class="row pt-45 align-items-center justify-content-center text-center">
+				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="" alt="Images">
+						<hr>
+						<p>Providing strategic financial solutions with a customer-centric approach to loans and investments.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="" alt="Images">
+						<hr>
+						<p>Offering stylish, functional furniture for home and office spaces, ensuring quality and comfort.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="" alt="Images">
+						<hr>
+						<p>Supplying high-quality hospital equipment, supporting healthcare institutions with essential tools for patient care.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
+					<div class="work-process-card rounded">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="" alt="Images">
+						<hr>
+						<p>Leaders in real estate development, focused on creating sustainable and innovative living spaces.</p>
+					</div>
+				</div>
+			</div>
 			<div class="col-12 text-center pt-5" data-aos="zoom-in" data-aos-duration="750">
 				<img src="{{ asset('theme') }}/assets/images/vmv.png" alt="Our Core Values" style="width:85%;">
 			</div>
@@ -183,38 +149,38 @@
 	</div>
 
 
-	<div class="counter-area pt-100">
-		<div class="container" data-aos="fade-up" data-aos-duration="750">
+	<div class="counter-area pt-100" data-aos="fade-up" data-aos-duration="750">
+		<div class="container">
 			<div class="section-title text-center">
 				<span class="sp-color2">Clientele</span>
-				<h2>Our Impact in Numbers</h2>
+				<h2 title="JFS Technologies - Impact in Numbers">Our Impact in Numbers</h2>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="experience">
-						<h3>150+</h3>
+						<p class="title">150+</p>
 						<span>Projects Delivered</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
-						<h3>25+</h3>
+						<p class="title">25+</p>
 						<span>Industries Served</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Customer Base">
-						<h3>10+</h3>
+						<p class="title">10+</p>
 						<span>Years of Excellence</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
 						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="locations">
-						<h3>100%</h3>
+						<p class="title">100%</p>
 						<span>Client Satisfaction</span>
 					</div>
 				</div>
@@ -360,14 +326,14 @@
 </div>
 
 
-<div class="team-area pt-100 pb-70">
+<div class="team-area pt-100 pb-70" id="team">
 	<div class="container">
 		<div class="section-title text-center w-75 mx-auto">
 			<span class="sp-color2">Our Team</span>
 			<h2>The Minds Behind Our Success</h2>
 			<p>Our team at JFS Technologies comprises seasoned professionals, passionate innovators, and industry experts. Every team member brings a unique perspective and specialized expertise, making us uniquely equipped to tackle complex digital challenges. From data scientists and AI engineers to UX designers and cybersecurity specialists, our team is dedicated to delivering solutions that drive real results.</p>
 		</div>
-		<div class="row pt-45">
+		<div class="row pt-45 justify-content-center">
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/dilip-y.jpg" alt="Team Images">
@@ -459,6 +425,22 @@
 					<div class="content">
 						<h3>Irfana Shaikh</h3>
 						<span>Marketing Manager</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/anusha-p.jpg" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/anusha-patil-505009b6/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Anusha Patil</h3>
+						<span>HR-Operations</span>
 					</div>
 				</div>
 			</div>
@@ -608,22 +590,6 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/nikhil-v.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="#" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Nikhil Veer</h3>
-						<span>Business Development Executive</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/rahul-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
@@ -635,22 +601,6 @@
 					<div class="content">
 						<h3>Rahul Sonewane</h3>
 						<span>Business Development Executive</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/anusha-p.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/anusha-patil-505009b6/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Anusha Patil</h3>
-						<span>HR-Operations</span>
 					</div>
 				</div>
 			</div>

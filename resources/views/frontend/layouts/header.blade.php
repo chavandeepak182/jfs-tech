@@ -94,6 +94,8 @@
 					<input type="checkbox"  id="showdrop1">
 					<label for="showdrop1" class="mobile-item"><a href="{{ url('/about-us') }}">About Us </a> <span><i class='bx bx-caret-down'></i></span></label>
 					<ul class="drop-menu1">
+						<li><a href="{{ url('/about-us#team') }}">Out Team</a></li>
+						<li><a href="{{ url('/life-at-jfs') }}">Life At JFS</a></li>
 						<li><a href="{{ url('/newsroom') }}">Newsroom</a></li>
 					</ul>
 				</li>
@@ -107,7 +109,6 @@
 						<li><a href="{{ url('/success-stories') }}">Success Stories</a></li>
 					</ul>
 				</li>
-				<li><a href="{{ url('/life-at-jfs') }}">Life At JFS</a></li>
 				<li>
 					<div class="nav-side mobile-item mt-5 w-75">
 						<div class="nav-side-item">

@@ -7,8 +7,8 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>End-to-End Digital Services for Business Transformation</h1>
-            <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
+            <h1 title="End-to-End Digital Transformation Services for Business">End-to-End Transformation Services for Modern Businesses</h1>
+            <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven digital transformation insights.</p>
         </div>
     </div>
     
@@ -23,15 +23,15 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Crafting Digital Journeys That Redefine Success</h2>
-            <p class="margin-auto">Comprehensive digital solutions designed to transform your business, streamline operations, enhance customer experiences, and drive sustainable growth through innovative strategies and cutting-edge technologies. At <strong>JFS Technologies</strong>, we offer a range of innovative digital solutions to help your business thrive in a competitive digital landscape. Explore our key services below:</p>
+            <h2 title="Digital services for businesses">Crafting Digital Journeys That Redefine Success</h2>
+            <p class="margin-auto">Comprehensive digital solutions designed to transform your business, streamline operations, enhance customer experiences, and drive sustainable growth through innovative strategies and cutting-edge technologies. At JFS Technologies, we offer a range of innovative digital solutions to help your business thrive in a competitive digital landscape. Explore our key services below:</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="digitalization">
-                    <h3><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
-                    <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
+                    <h3 title="digital transformation for business"><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
+                    <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation Consulting and best Infrastructure Management services, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     <p><b>Key Features:</b>
                         <ul>
                             <li>Data Science</li>
@@ -46,8 +46,8 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digital-exp.gif" class="brand-logo-one icons-img" alt="digital-exp">
-                    <h3><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
-                    <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Partner with us to take your digital experience to the next level.</p>
+                    <h3 title="Digital marketing services for all business"><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
+                    <p>Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, best mobile app development company, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Partner with us to take your digital experience to the next level.</p>
                     <p><b>Key Features:</b>
                         <ul>
                             <li>Digital Marketing</li>
@@ -62,8 +62,8 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
-                    <h3><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
-                    <p>Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
+                    <h3 title="DevOps software development lifecycle"><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
+                    <p>Through the implementation of performance testing in the ci/cd pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <p><b>Key Features:</b>
                         <ul>
                             <li>CI/CD Pipelines</li>
@@ -78,14 +78,14 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="Select">
-                    <h3><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
-                    <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services can provide you with the talent you need to achieve your goals. Contact us today to learn more about the features & benefits.</p>
+                    <h3 title="Resource Augmentation to Extend Your Team"><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
+                    <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services to Extend your team can provide you with the talent you need to achieve your goals.</p>
                     <p><b>Key Features:</b>
                         <ul>
-                            <li>Frontend Developers</li>
-                            <li>Backend Developers</li>
-                            <li>Fullstack Developers</li>
-                            <li>Support Engineers</li>
+                            <li title="best frontend development services">Frontend Developers</li>
+                            <li title="best Backend development services">Backend Developers</li>
+                            <li title="best fullstack development services">Fullstack Developers</li>
+                            <li title="support engineer for business">Support Engineers</li>
                         </ul>
                     </p>
                     <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>

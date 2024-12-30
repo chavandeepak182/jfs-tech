@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Digital Marketing Agency | Top Digital Marketing Services")
+@section('description', "JFS Technologies is a top digital marketing company serving businesses in India and the United States. We offer innovative solutions including SEO, SMM, PPC and Email Marketing services to drive business growth.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
