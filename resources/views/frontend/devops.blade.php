@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "DevOps Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "DevOps services and Solutions - JFS Technologies")
+@section('description', "We are a DevOps services provider dedicated to improving IT performance and delivering continuous, high-quality results through our expert consulting and development services.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')

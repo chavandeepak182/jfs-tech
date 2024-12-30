@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Infrastructure Management Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Reliable Infrastructure Management Services | Ensure Performance & Uptime")
+@section('description', "Optimize your IT infrastructure with expert management services. Ensure reliability, security, and maximum uptime for your business operations.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -8,7 +8,7 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Smart Infrastructure Solutions for Maximum Uptime</h1>
+            <h1 title="Smart Infrastructure Management Solutions for Reliable Performance and Maximum Uptime">Smart Infrastructure Solutions for Maximum Uptime</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>

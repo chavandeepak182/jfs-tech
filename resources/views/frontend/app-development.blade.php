@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Mobile Application Development - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Mobile App Development Company | Mobile application development")
+@section('description', "Get custom mobile app development services for iOS, Android, and cross-platform apps. Build user-friendly, scalable apps to grow your business and engage customers.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')

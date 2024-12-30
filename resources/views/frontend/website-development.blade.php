@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Professional Web Design & Development Services | Build Your Online Presence")
+@section('description', "Create a powerful online presence with our expert web design and development services. From responsive designs to scalable web solutions, we deliver customized websites tailored to your business needs.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')

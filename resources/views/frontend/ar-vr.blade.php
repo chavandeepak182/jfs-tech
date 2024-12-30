@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Augmented Reality & Virtual Reality Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Augmented Reality & Virtual Reality Services | Transform Your Vision into Reality")
+@section('description', "Experience the future with our Augmented Reality and Virtual Reality solutions. From immersive experiences to innovative business applications, we create AR/VR solutions to drive business success.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -8,7 +8,7 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Immersive Experience to Transform Your Business</h1>
+            <h1 title="Immersive Augmented Reality and Virtual Reality Experiences to Transform Your Business">Immersive AR/VR Experiences to Transform Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your AR/VR Journey Today <i class="bx bx-chevron-right"></i></a>
@@ -74,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2 title="Why Choose JFS Technologies for Augmented Reality and Virtual Reality Solutions?">Why Choose JFS Technologies for AR/VR Solutions?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -83,7 +83,7 @@
 										<i class="fal fa-pencil-ruler"></i>
 										<h3>Tailored Solutions</h3>
 									</div>
-									<p>Each project is customized to fit your unique needs, ensuring a solution that’s perfect for your business.</p>
+									<p>Each project is carefully customized to fit your unique needs, delivering innovative and scalable solutions perfect for your business growth.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -110,7 +110,7 @@
                                         <i class="fal fa-headset"></i>
 										<h3>Dedicated Support</h3>
 									</div>
-									<p>Our team provides ongoing support and guidance, from initial concept through execution and beyond.</p>
+									<p>Our dedicated team provides ongoing support and expert guidance, from initial concept through seamless execution and long-term growth.</p>
 								</div>
 							</div>
 						</div>
@@ -130,7 +130,7 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Real-World Impact of Our AR/VR Solutions</h2>
+            <h2 title="Real-World Impact of Our Augmented Reality (AR) and Virtual Reality (VR) Solutions">Real-World Impact of Our AR/VR Solutions</h2>
             <p>Discover how our AR/VR solutions have transformed client projects:</p>
         </div>
         <div class="row pt-45">
@@ -221,7 +221,7 @@
                 <div class="faq-area ">
                     <div class="container">
                         <div class="section-title">
-                            <h2>Frequently Asked Questions</h2>
+                            <h2 title="Frequently Asked Questions for Augmented Reality and Virtual Reality service">Frequently Asked Questions</h2>
                         </div>
                         <div class="faq-content mt-4">
                             <div class="faq-accordion">

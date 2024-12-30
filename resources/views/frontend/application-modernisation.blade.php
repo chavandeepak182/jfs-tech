@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Application Modernisation Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
+@section('title', "Application Modernization Services | Upgrade Your Software for Today's Digital World")
+@section('description', "Transform software with our application modernization services. Enhance functionality, improve user experience, and integrate the latest technologies to prepare your applications for today.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
@@ -8,7 +8,7 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Transform & Modernize Your Applications for the Digital Age</h1>
+            <h1 title="Transform and Modernize Your Applications with Expert Application Modernization Solutions for the Digital Age">Transform & Modernize Your Applications for the Digital Age</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
@@ -26,7 +26,7 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Reimagine Your Applications for a Digital-First Future</h2>
+            <h2 title="Reimagine your applications with our application modernization services to embrace a digital-first future">Reimagine Your Applications for a Digital-First Future</h2>
             <p class="margin-auto">Our Application Modernization services are designed to help your business stay competitive in an evolving digital landscape. Whether you’re upgrading legacy systems, migrating to the cloud, or enhancing user experience, our expert team is here to guide you every step of the way. Leveraging the latest technologies, we ensure that your applications are secure, efficient, and future-ready. Let us help you bring your applications into the modern era and drive business growth.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
@@ -222,7 +222,7 @@
                 <div class="faq-area ">
                     <div class="container">
                         <div class="section-title">
-                            <h2>Frequently Asked Questions</h2>
+                            <h2 title="Frequently Asked Questions for Application Modernisation service">Frequently Asked Questions</h2>
                         </div>
                         <div class="faq-content mt-4">
                             <div class="faq-accordion">
