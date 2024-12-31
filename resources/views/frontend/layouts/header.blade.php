@@ -51,7 +51,7 @@
 					<div class="mega-box">
 						<div class="content">
 							<div class="row">
-								<a href="{{ url('/services/digital-transformation') }}"><img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" class="brand-logo-one icons-img" alt="digitalization"> Digital Transformation</a>
+								<a href="{{ url('/services/digital-transformation') }}"><img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" class="brand-logo-one" alt="digitalization"> Digital Transformation</a>
 								<ul class="mega-links">
 									<li><a href="{{ url('/services/data-science') }}"><i class="bx bx-chevron-right"></i> Data Science</a></li>
 									<li><a href="{{ url('/services/ar-vr') }}"><i class="bx bx-chevron-right"></i> AR/VR</a></li>
@@ -60,7 +60,7 @@
 								</ul>
 							</div>
 							<div class="row">
-								<a href="{{ url('/services/digital-experience') }}"><img src="{{ asset('theme') }}/assets/images/icons/digital-exp-y.gif" class="brand-logo-one icons-img" alt="digitalization"> Digital Experience</a>
+								<a href="{{ url('/services/digital-experience') }}"><img src="{{ asset('theme') }}/assets/images/icons/digital-exp-y.gif" class="brand-logo-one" alt="digitalization"> Digital Experience</a>
 								<ul class="mega-links">
 									<li><a href="{{ url('/services/digital-marketing-company') }}"><i class="bx bx-chevron-right"></i> Digital Marketing</a></li>
 									<li><a href="{{ url('/services/website-design-and-development') }}"><i class="bx bx-chevron-right"></i> Website Development</a></li>
@@ -69,7 +69,7 @@
 								</ul>
 							</div>
 							<div class="row">
-								<a href="{{ url('/services/devops') }}"><img src="{{ asset('theme') }}/assets/images/icons/cloud-y.gif" class="brand-logo-one icons-img" alt="digitalization"> DevOps</a>
+								<a href="{{ url('/services/devops') }}"><img src="{{ asset('theme') }}/assets/images/icons/cloud-y.gif" class="brand-logo-one" alt="digitalization"> DevOps</a>
 								<ul class="mega-links">
 									<li><a href="{{ url('/services/ci-cd-pipelines') }}"><i class="bx bx-chevron-right"></i> CI/CD Pipelines</a></li>
 									<li><a href="{{ url('/services/process-automation') }}"><i class="bx bx-chevron-right"></i> Process Automation</a></li>
@@ -78,7 +78,7 @@
 								</ul>
 							</div>
 							<div class="row">
-								<a href="{{ url('services/resource-augmentation') }}"><img src="{{ asset('theme') }}/assets/images/icons/select-y.gif" class="brand-logo-one icons-img" alt="digitalization"> Resource Augmentation</a>
+								<a href="{{ url('services/resource-augmentation') }}"><img src="{{ asset('theme') }}/assets/images/icons/select-y.gif" class="brand-logo-one" alt="digitalization"> Resource Augmentation</a>
 								<ul class="mega-links">
 									<li><a href="{{ url('services/frontend-developers') }}"><i class="bx bx-chevron-right"></i> Frontend Developers</a></li>
 									<li><a href="{{ url('services/backend-developers') }}"><i class="bx bx-chevron-right"></i> Backend Developers</a></li>

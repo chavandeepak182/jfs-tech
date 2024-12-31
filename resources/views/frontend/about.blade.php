@@ -339,23 +339,8 @@
 					<img src="{{ asset('theme') }}/assets/images/team/dilip-y.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.facebook.com/" target="_blank">
-								<i class="bx bxl-facebook"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com/?lang=en" target="_blank">
-								<i class="bx bxl-twitter"></i>
-							</a>
-						</li>
-						<li>
 							<a href="https://www.linkedin.com/in/dilip-kumar-83a65722/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/" target="_blank">
-								<i class="bx bxl-instagram"></i>
 							</a>
 						</li>
 					</ul>
@@ -370,23 +355,8 @@
 					<img src="{{ asset('theme') }}/assets/images/team/sandy-p.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.facebook.com/" target="_blank">
-								<i class="bx bxl-facebook"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com/?lang=en" target="_blank">
-								<i class="bx bxl-twitter"></i>
-							</a>
-						</li>
-						<li>
 							<a href="https://www.linkedin.com/in/sandeep-pawar-0949561a/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/" target="_blank">
-								<i class="bx bxl-instagram"></i>
 							</a>
 						</li>
 					</ul>
@@ -401,7 +371,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://www.linkedin.com/in/gajananc/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -465,7 +435,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/amol-d.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://www.linkedin.com/in/amol-dagale-001b3a312/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -497,7 +467,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/maulik-t.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://www.linkedin.com/in/maulik-trivedi-960b45271/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -529,7 +499,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://www.linkedin.com/in/deepak-chavan-970a40193" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -545,7 +515,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/shalaka-n.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.linkedin.com/" target="_blank">
+							<a href="https://www.linkedin.com/in/shalaka-nakhate-68783a160-seo" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -577,7 +547,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/saayam-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="#" target="_blank">
+							<a href="https://www.linkedin.com/in/saayam-sharma-6573a5284/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -593,7 +563,7 @@
 					<img src="{{ asset('theme') }}/assets/images/team/rahul-s.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="#/" target="_blank">
+							<a href="https://www.linkedin.com/in/rahul-sonawane-189045182/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
@@ -607,5 +577,4 @@
 		</div>
 	</div>
 </div>
-
 @endsection
