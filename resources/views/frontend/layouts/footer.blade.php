@@ -23,31 +23,31 @@
 							<p class="footer-title">Services</p>
 							<ul class="footer-list">
 								<li>
-									<a href="{{ url('/services/digital-transformation') }}"
+									<a href="{{ url('/services/digital-transformation') }}">
 										<i class="bx bx-chevron-right"></i>
 										Digital Transformation
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/services/digital-experience') }}"
+									<a href="{{ url('/services/digital-experience') }}">
 										<i class="bx bx-chevron-right"></i>
 										Digital Experience
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/services/devops') }}"
+									<a href="{{ url('/services/devops') }}">
 										<i class="bx bx-chevron-right"></i>
 										DevOps
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/services/resource-augmentation') }}"
+									<a href="{{ url('/services/resource-augmentation') }}">
 										<i class="bx bx-chevron-right"></i>
 										Resource Augmentation
 									</a>
 								</li>
 								<li>
-									<a href="#"
+									<a href="#">
 										<i class="bx bx-chevron-right"></i>
 										Hire A Dedicated Developer
 									</a>
@@ -60,37 +60,37 @@
 							<p class="footer-title">Quick Links</p>
 							<ul class="footer-list">
 								<li>
-									<a href="{{ asset(' ') }}"
+									<a href="{{ asset(' ') }}">
 										<i class="bx bx-chevron-right"></i>
 										Home
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/about-us') }}"
+									<a href="{{ url('/about-us') }}">
 										<i class="bx bx-chevron-right"></i>
 										About Us
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/success-stories') }}"
+									<a href="{{ url('/success-stories') }}">
 										<i class="bx bx-chevron-right"></i>
 										Success Stories
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/life-at-jfs') }}"
+									<a href="{{ url('/life-at-jfs') }}">
 										<i class="bx bx-chevron-right"></i>
 										Life at JFS
 									</a>
 								</li>
 								<li>
-									<a href="https://jfstechnologies.com/blog/"
+									<a href="https://jfstechnologies.com/blog/">
 										<i class="bx bx-chevron-right"></i>
 										Blogs
 									</a>
 								</li>
 								<li>
-									<a href="{{ url('/contact-us') }}"
+									<a href="{{ url('/contact-us') }}">
 										<i class="bx bx-chevron-right"></i>
 										Contact Us
 									</a>
@@ -104,31 +104,31 @@
 							<ul class="footer-list">
 								<li><p>#416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</p></li>
 								<li>
-									<a href="mailto:info@jfstechnologies.com"
+									<a href="mailto:info@jfstechnologies.com">
 										<i class="fal fa-paper-plane"></i>
 										info@jfstechnologies.com
 									</a>
 								</li>
 								<li>
-									<a href="tel:918329729190"
+									<a href="tel:918329729190">
 										<i class="fal fa-phone-alt"></i>
 										+91 83297 29190
 									</a>
 								</li>
 								<li class="d-flex justify-content-between px-3">
-									<a href="https://www.linkedin.com/company/jfs-technologies-pvt-ltd/?viewAsMember=true"
+									<a href="https://www.linkedin.com/company/jfs-technologies-pvt-ltd/?viewAsMember=true">
 										<i class="fab fa-linkedin-in"></i>
 									</a>
-									<a href="https://www.facebook.com/people/JFS-Technologies/61563351610594/"
+									<a href="https://www.facebook.com/people/JFS-Technologies/61563351610594/">
 										<i class="fab fa-facebook-f"></i>
 									</a>
-									<a href="https://x.com/JfsTechnologies"
+									<a href="https://x.com/JfsTechnologies">
 										<i class="fab fa-twitter"></i>
 									</a>
-									<a href="https://www.instagram.com/jfs_technologies_services?igsh=MThhNmJ5M2xtenMxeg=="
+									<a href="https://www.instagram.com/jfs_technologies_services?igsh=MThhNmJ5M2xtenMxeg==">
 										<i class="fab fa-instagram"></i>
 									</a>
-									<a href="https://api.whatsapp.com/send?phone=919922212234&text=Hello,%20I%27m%20looking%20for"
+									<a href="https://api.whatsapp.com/send?phone=919922212234&text=Hello,%20I%27m%20looking%20for">
 										<i class="fab fa-whatsapp"></i>
 									</a>
 								</li>
