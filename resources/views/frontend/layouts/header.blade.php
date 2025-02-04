@@ -9,6 +9,18 @@
     <meta name="description" content="@yield('description')">
     <meta name="Keywords" content="@yield('keywords')">
 
+	<link rel="canonical" href="https://jfstechnologies.com/">
+	<link rel="canonical" href="https://www.jfstechnologies.com/services">
+	<link rel="canonical" href="https://jfstechnologies.com/about-us">
+	<link rel="canonical" href="https://jfstechnologies.com/contact-us">
+	<link rel="canonical" href="https://jfstechnologies.com/life-at-jfs">
+	<link rel="canonical" href="https://jfstechnologies.com/newsroom">
+	<link rel="canonical" href="https://jfstechnologies.com/portfolio">
+	<link rel="canonical" href="https://jfstechnologies.com/services/application-modernisation">
+	<link rel="canonical" href="https://jfstechnologies.com/services/ar-vr">
+	<link rel="canonical" href="https://jfstechnologies.com/services/ci-cd-pipelines">
+	<link rel="canonical" href="https://jfstechnologies.com/services/containers-and-microservices">
+
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/fonts/flaticon.css">
@@ -27,6 +39,11 @@
 	<link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet"/>
 
 	<link rel="icon" type="image/png" href="{{ asset('theme') }}/assets/images/favicon.png">
+	
+	<!-- fancybox -->
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
+	<!-- magnific-popup -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 </head>
 
 <body>
@@ -94,17 +111,17 @@
 					<input type="checkbox"  id="showdrop1">
 					<label for="showdrop1" class="mobile-item"><a href="{{ url('/about-us') }}">About Us </a> <span><i class='bx bx-caret-down'></i></span></label>
 					<ul class="drop-menu1">
-						<li><a href="{{ url('/about-us#team') }}">Out Team</a></li>
+						<li><a href="{{ url('/about-us#team') }}">Our Team</a></li>
 						<li><a href="{{ url('/life-at-jfs') }}">Life At JFS</a></li>
 						<li><a href="{{ url('/newsroom') }}">Newsroom</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="" class="desktop-item">Resources <span><i class='bx bx-caret-down'></i></span></a>
+					<a class="desktop-item">Resources <span><i class='bx bx-caret-down'></i></span></a>
 					<input type="checkbox"  id="showdrop2">
-					<label for="showdrop2" class="mobile-item"><a href="">Resources</a> <span><i class='bx bx-caret-down'></i></span></label>
+					<label for="showdrop2" class="mobile-item"><a>Resources</a> <span><i class='bx bx-caret-down'></i></span></label>
 					<ul class="drop-menu2">
-						<li><a href="https://jfstechnologies.com/blog/">Blogs</a></li>
+						<li><a href="#">Blogs</a></li>
 						<li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
 						<li><a href="{{ url('/success-stories') }}">Success Stories</a></li>
 					</ul>
