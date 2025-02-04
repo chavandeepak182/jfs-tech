@@ -1,225 +1,232 @@
 <!-- Footer Area -->
-    <footer class="footer-area footer-bg">
-		<div class="container">
-			<div class="footer-top pt-80 pb-4">
-				<div class="row">
-					<div class="col-lg-4 col-sm-6">
-						<div class="footer-widget">
-							<div class="footer-logo">
-								<a href="{{ asset(' ') }}">
-									<img src="{{ asset('theme') }}/assets/images/logos/logo-w.png" width="250px" alt="Images">
+<footer class="footer-area footer-bg">
+	<div class="container">
+		<div class="footer-top pt-80 pb-4">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6">
+					<div class="footer-widget">
+						<div class="footer-logo">
+							<a href="{{ asset(' ') }}">
+								<img src="{{ asset('theme') }}/assets/images/logos/logo-w.png" width="250px" alt="Images">
+							</a>
+						</div>
+						<p>At JFS Technologies, we combine innovation & expertise to provide world-class services in Digital Transformation, Experience Design, DevOps & Resource Augmentation, helping businesses achieve their goals.</p>
+						<!-- <div class="footer-call-content">
+							<h3>Talk to Our Support</h3>
+							<span><a href="tel:918421216367">+91 84212 16367</a></span>
+							<i class="bx bx-headphone"></i>
+						</div> -->
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget pl-2">
+						<p class="footer-title">Services</p>
+						<ul class="footer-list">
+							<li>
+								<a href="{{ url('/services/digital-transformation') }}">
+									<i class="bx bx-chevron-right"></i>
+									Digital Transformation
 								</a>
-							</div>
-							<p>At JFS Technologies, we combine innovation & expertise to provide world-class services in Digital Transformation, Experience Design, DevOps & Resource Augmentation, helping businesses achieve their goals.</p>
-							<!-- <div class="footer-call-content">
-								<h3>Talk to Our Support</h3>
-								<span><a href="tel:918421216367">+91 84212 16367</a></span>
-								<i class="bx bx-headphone"></i>
-							</div> -->
-						</div>
+							</li>
+							<li>
+								<a href="{{ url('/services/digital-experience') }}">
+									<i class="bx bx-chevron-right"></i>
+									Digital Experience
+								</a>
+							</li>
+							<li>
+								<a href="{{ url('/services/devops') }}">
+									<i class="bx bx-chevron-right"></i>
+									DevOps
+								</a>
+							</li>
+							<li>
+								<a href="{{ url('/services/resource-augmentation') }}">
+									<i class="bx bx-chevron-right"></i>
+									Resource Augmentation
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="bx bx-chevron-right"></i>
+									Hire A Dedicated Developer
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="footer-widget pl-2">
-							<p class="footer-title">Services</p>
-							<ul class="footer-list">
-								<li>
-									<a href="{{ url('/services/digital-transformation') }}">
-										<i class="bx bx-chevron-right"></i>
-										Digital Transformation
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/services/digital-experience') }}">
-										<i class="bx bx-chevron-right"></i>
-										Digital Experience
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/services/devops') }}">
-										<i class="bx bx-chevron-right"></i>
-										DevOps
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/services/resource-augmentation') }}">
-										<i class="bx bx-chevron-right"></i>
-										Resource Augmentation
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bx-chevron-right"></i>
-										Hire A Dedicated Developer
-									</a>
-								</li>
-							</ul>
-						</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget pl-2">
+						<p class="footer-title">Quick Links</p>
+						<ul class="footer-list">
+							<li>
+								<a href="{{ asset(' ') }}">
+									<i class="bx bx-chevron-right"></i>
+									Home
+								</a>
+							</li>
+							<li>
+								<a href="{{ url('/about-us') }}">
+									<i class="bx bx-chevron-right"></i>
+									About Us
+								</a>
+							</li>
+							<li>
+								<a href="{{ url('/success-stories') }}">
+									<i class="bx bx-chevron-right"></i>
+									Success Stories
+								</a>
+							</li>
+							<li>
+								<a href="{{ url('/life-at-jfs') }}">
+									<i class="bx bx-chevron-right"></i>
+									Life at JFS
+								</a>
+							</li>
+							<li>
+								<a href="https://jfstechnologies.com/blog/">
+									<i class="bx bx-chevron-right"></i>
+									Blogs
+								</a>
+							</li>
+							<li>
+								<a href="{{ url('/contact-us') }}">
+									<i class="bx bx-chevron-right"></i>
+									Contact Us
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="col-lg-2 col-sm-6">
-						<div class="footer-widget pl-2">
-							<p class="footer-title">Quick Links</p>
-							<ul class="footer-list">
-								<li>
-									<a href="{{ asset(' ') }}">
-										<i class="bx bx-chevron-right"></i>
-										Home
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/about-us') }}">
-										<i class="bx bx-chevron-right"></i>
-										About Us
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/success-stories') }}">
-										<i class="bx bx-chevron-right"></i>
-										Success Stories
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/life-at-jfs') }}">
-										<i class="bx bx-chevron-right"></i>
-										Life at JFS
-									</a>
-								</li>
-								<li>
-									<a href="https://jfstechnologies.com/blog/">
-										<i class="bx bx-chevron-right"></i>
-										Blogs
-									</a>
-								</li>
-								<li>
-									<a href="{{ url('/contact-us') }}">
-										<i class="bx bx-chevron-right"></i>
-										Contact Us
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="footer-widget">
-							<p class="footer-title">Reach Us</p>
-							<ul class="footer-list">
-								<li><p>#416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</p></li>
-								<li>
-									<a href="mailto:info@jfstechnologies.com">
-										<i class="fal fa-paper-plane"></i>
-										info@jfstechnologies.com
-									</a>
-								</li>
-								<li>
-									<a href="tel:918329729190">
-										<i class="fal fa-phone-alt"></i>
-										+91 83297 29190
-									</a>
-								</li>
-								<li class="d-flex justify-content-between px-3">
-									<a href="https://www.linkedin.com/company/jfs-technologies-pvt-ltd/?viewAsMember=true">
-										<i class="fab fa-linkedin-in"></i>
-									</a>
-									<a href="https://www.facebook.com/people/JFS-Technologies/61563351610594/">
-										<i class="fab fa-facebook-f"></i>
-									</a>
-									<a href="https://x.com/JfsTechnologies">
-										<i class="fab fa-twitter"></i>
-									</a>
-									<a href="https://www.instagram.com/jfs_technologies_services?igsh=MThhNmJ5M2xtenMxeg==">
-										<i class="fab fa-instagram"></i>
-									</a>
-									<a href="https://api.whatsapp.com/send?phone=919922212234&text=Hello,%20I%27m%20looking%20for">
-										<i class="fab fa-whatsapp"></i>
-									</a>
-								</li>
-							</ul>
-							<!-- <div class="newsletter-area mt-3">
-								<form class="newsletter-form" data-toggle="validator" method="POST">
-									<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
-									<button class="subscribe-btn" type="submit">
-										<i class="bx bxs-paper-plane"></i>
-									</button>
-									<div id="validator-newsletter" class="form-result"></div>
-								</form>
-							</div> -->
-						</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget">
+						<p class="footer-title">Reach Us</p>
+						<ul class="footer-list">
+							<li><p>#416 Platinum Square,<br>Viman Nagar, Pune,<br>Maharashtra 411014.</p></li>
+							<li>
+								<a href="mailto:info@jfstechnologies.com">
+									<i class="fal fa-paper-plane"></i>
+									info@jfstechnologies.com
+								</a>
+							</li>
+							<li>
+								<a href="tel:918329729190">
+									<i class="fal fa-phone-alt"></i>
+									+91 83297 29190
+								</a>
+							</li>
+							<li class="d-flex justify-content-between px-3">
+								<a href="https://www.linkedin.com/company/jfs-technologies-pvt-ltd/?viewAsMember=true">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+								<a href="https://www.facebook.com/people/JFS-Technologies/61563351610594/">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="https://x.com/JfsTechnologies">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="https://www.instagram.com/jfs_technologies_services?igsh=MThhNmJ5M2xtenMxeg==">
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="https://api.whatsapp.com/send?phone=919922212234&text=Hello,%20I%27m%20looking%20for">
+									<i class="fab fa-whatsapp"></i>
+								</a>
+							</li>
+						</ul>
+						<!-- <div class="newsletter-area mt-3">
+							<form class="newsletter-form" data-toggle="validator" method="POST">
+								<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
+								<button class="subscribe-btn" type="submit">
+									<i class="bx bxs-paper-plane"></i>
+								</button>
+								<div id="validator-newsletter" class="form-result"></div>
+							</form>
+						</div> -->
 					</div>
 				</div>
 			</div>
-            <div class="copy-right-area">
-                <div class="copy-right-text">
-                    <p>Copyright © <script>document.write(new Date().getFullYear())</script> JFS Technologies Pvt. Ltd. | All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-	</footer>
-
-
-	<div class="switch-box">
-        <label id="switch" class="switch">
-            <input type="checkbox" onchange="toggleTheme()" id="slider">
-            <span class="slider round"></span>
-        </label>
+		</div>
+		<div class="copy-right-area">
+			<div class="copy-right-text">
+				<p>Copyright © <script>document.write(new Date().getFullYear())</script> JFS Technologies Pvt. Ltd. | All Rights Reserved.</p>
+			</div>
+		</div>
 	</div>
+</footer>
 
 
-	<script src="{{ asset('theme') }}/assets/js/jquery.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/bootstrap.bundle.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/owl.carousel.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/jquery.nice-select.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/wow.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/meanmenu.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/jquery.ajaxchimp.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/form-validator.min.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/contact-form-script.js"></script>
-	<script src="{{ asset('theme') }}/assets/js/custom.js"></script>
+<div class="switch-box">
+	<label id="switch" class="switch">
+		<input type="checkbox" onchange="toggleTheme()" id="slider">
+		<span class="slider round"></span>
+	</label>
+</div>
 
-	<!-- Mixitup -->
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
-	<script>
-		/*Downloaded from https://www.codeseek.co/ezra_siton/mixitup-fancybox3-JydYqm */
-		// 1. querySelector
-		var containerEl = document.querySelector(".portfolio-item");
-		// 2. Passing the configuration object inline
-		//https://www.kunkalabs.com/mixitup/docs/configuration-object/
-		var mixer = mixitup(containerEl, {
-		animation: {
-			effects: "fade translateZ(-100px)",
-			effectsIn: "fade translateY(-100%)",
-			easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
-		}
-		});
-		// fancybox insilaze & options //
-		$("[data-fancybox]").fancybox({
-		loop: true,
-		hash: true,
-		transitionEffect: "slide",
-		/* zoom VS next////////////////////
-		clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
-		clickContent: function(current, event) {
-			return current.type === "image" ? "next" : false;
-		}
-		});
-	</script>
 
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/owl.carousel.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.nice-select.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/wow.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/meanmenu.js"></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/form-validator.min.js"></script>
+<script src="{{ asset('theme') }}/assets/js/contact-form-script.js"></script>
+<script src="{{ asset('theme') }}/assets/js/custom.js"></script>
 
-	<script>
-		/* =========== Toggle Menu ============ */
-        const openNav = document.querySelector(".open-btn");
-        const closeNav = document.querySelector(".close-btn");
-        const menu = document.querySelector(".nav-list");
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-        openNav.addEventListener("click", () => {
-            menu.classList.add("show");
-        });
+<script>
+	/* =========== Toggle Menu ============ */
+	const openNav = document.querySelector(".open-btn");
+	const closeNav = document.querySelector(".close-btn");
+	const menu = document.querySelector(".nav-list");
 
-        closeNav.addEventListener("click", () => {
-            menu.classList.remove("show");
-        });
-	</script>
-	
-	<script>
-		AOS.init();
-	</script>
+	openNav.addEventListener("click", () => {
+		menu.classList.add("show");
+	});
+
+	closeNav.addEventListener("click", () => {
+		menu.classList.remove("show");
+	});
+</script>
+
+<script>
+	AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<!-- Mixitup -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
+
+<!-- fancybox -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js'></script>
+
+<!-- Fancybox js -->
+<script>
+/*Downloaded from https://www.codeseek.co/ezra_siton/mixitup-fancybox3-JydYqm */
+// 1. querySelector
+var containerEl = document.querySelector(".portfolio-item");
+// 2. Passing the configuration object inline
+//https://www.kunkalabs.com/mixitup/docs/configuration-object/
+var mixer = mixitup(containerEl, {
+	animation: {
+	effects: "fade translateZ(-100px)",
+	effectsIn: "fade translateY(-100%)",
+	easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+	}
+});
+// fancybox insilaze & options //
+$("[data-fancybox]").fancybox({
+	loop: true,
+	hash: true,
+	transitionEffect: "slide",
+	/* zoom VS next////////////////////
+	clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
+	clickContent: function(current, event) {
+	return current.type === "image" ? "next" : false;
+	}
+});
+</script>
