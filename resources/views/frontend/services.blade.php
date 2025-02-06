@@ -1,6 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Our Services - JFS Technologies")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Top Digital Services for  Businesses | Data Science Service Providers | JFS Technologies")
+@section('description', "Boost your  business with top digital services! Expert data science service providers delivering innovative solutions tailored to your growth needs.")
+@section('keywords', "End-to-End Digital Transformation Services, Data Science Services Provider, top digital marketing company for all businesses, devsecops software development lifecycle, best mobile app development company, Resource Augmentation to Extend Your Team")
 
 @section('content')
 
@@ -62,7 +63,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="dev-cloud">
-                    <h3 title="DevOps software development lifecycle"><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
+                    <h3 title="devops software development lifecycle"><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
                     <p>Through the implementation of performance testing in the ci/cd pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <p><b>Key Features:</b>
                         <ul>

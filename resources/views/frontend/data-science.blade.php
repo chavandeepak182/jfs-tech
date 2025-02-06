@@ -1,14 +1,13 @@
 @extends('frontend.layouts.header')
-@section('title', "Data Science Services | Turn Your Data into Powerful Insights")
-@section('description', "Discover the power of Data Science with our advanced services, including analytics, data visualization, generative AI, conversational AI, and predictive modeling. We help you turn complex data into actionable insights to boost growth and efficiency.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Expert Data Science Consulting Services | Data Science Services Providers")
+@section('description', "Unlock business potential with expert data science consulting services. Leverage advanced analytics and AI solutions from top data science service providers.")
+@section('keywords', "Data Science Consulting Services, expert Data Science Service Providers, Generative AI & Conversational AI services, Data Science Services Providers")
 
 @section('content')
-
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Unlock the Power of Data Science to Drive Business Success</h1>
+            <h1>Drive Success with Data Science Consulting Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Get Started Today <i class="bx bx-chevron-right"></i></a>
@@ -26,22 +25,22 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Unlock the Power of Data Science to Drive Business Success</h2>
-            <p class="margin-auto">Transform your data into actionable insights with our expert data science services. Leverage advanced analytics, machine learning, and AI to fuel better decision-making and future-proof your business. Our Data Science Services are designed to empower businesses by turning raw data into actionable insights. From identifying key patterns and trends to discovering hidden relationships within your data, we work closely with you to ensure that the insights you gain help in making informed, strategic decisions. With expertise in advanced analytics, machine learning, and data visualization, we help you unlock the true potential of your data.</p>
+            <h2>Unlock Business Success with Expert Data Science Services</h2>
+            <p class="margin-auto">Transform your data into actionable insights with our expert data science services. Leverage advanced analytics, machine learning, and AI to fuel better decision-making and future-proof your business. Our expert Data Science Service Providers  are designed to empower businesses by turning raw data into actionable insights. From identifying key patterns and trends to discovering hidden relationships within your data, we work closely with you to ensure that the insights you gain help in making informed, strategic decisions. With expertise in advanced analytics, machine learning, and data visualization, we help you unlock the true potential of your data.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/adv-analytics.gif" class="brand-logo-one icons-img" alt="Startups">
-                    <h3><a href="#">1.  Advance Analytics:</a></h3>
-                    <p>Utilizing state-of-the-art technology and sophisticated data analysis methods, we assist businesses in obtaining valuable insights and facilitating informed decision-making processes. Our proficient team of data scientists and analysts excel at transforming raw data into practical intelligence. Through our cutting-edge analytics services, you can outperform competitors and propel growth within your organization. Allow us to unleash the complete potential of your data and convert it into a strategic asset.</p>
+                    <h3 title="Advance analytics with expert data science"><a href="#">1.  Advance Analytics</a></h3>
+                    <p>Utilizing state-of-the-art technology and sophisticated data analysis methods, we assist businesses in obtaining valuable insights and facilitating informed decision-making processes. Our proficient team of data scientists and analysts excel at transforming raw data into practical intelligence. Through our cutting-edge Data analytics services, you can outperform competitors and propel growth within your organization. Allow us to unleash the complete potential of your data and convert it into a strategic asset.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/data-view.gif" class="brand-logo-one icons-img" alt="Startups">
-                    <h3><a href="#">2. Data Visualization</a></h3>
+                    <h3 title="Data Visualization services with Data science"><a href="#">2. Data Visualization</a></h3>
                     <p>Our data visualization services are designed to help you turn complex datasets into clear, informative visual representations. Whether you need interactive dashboards, compelling infographics, or detailed charts and graphs, our team of experts can create custom solutions to meet your specific needs. With our services, you can unlock valuable insights, identify trends, and communicate your data in a way that is easy to understand and impactful. Reach out to us today to learn more about how we can help you bring your data to life.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -49,15 +48,15 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/ai-assistant.gif" class="brand-logo-one icons-img" alt="Startups">
-                    <h3><a href="#">3.  Generative AI & Conversational AI</a></h3>
-                    <p>Experience a revolutionary transformation in customer interactions and operational efficiency with our cutting-edge Generative and Conversational AI services. By leveraging the latest advancements in natural language processing and machine learning, our AI solutions enable businesses to effortlessly communicate with customers on a personalized level and provide efficient support on a large scale. Whether you require a chatbot for customer service, virtual assistants for internal processes, or AI-powered voice recognition systems, our bespoke services can enhance your customer experience and streamline operations. Embrace the future of conversational AI with our tailored solutions and revolutionize the way you engage with your target audience.</p>
+                    <h3 title="Generative AI & Conversational AI services"><a href="#">3.  Generative AI & Conversational AI</a></h3>
+                    <p>Experience a revolutionary transformation in customer interactions and operational efficiency with our cutting-edge Generative and Conversational AI services with expert data science. By leveraging the latest advancements in natural language processing and machine learning, our AI solutions enable businesses to effortlessly communicate with customers on a personalized level and provide efficient support on a large scale. Whether you require a chatbot for customer service, virtual assistants for internal processes, or AI-powered voice recognition systems, our bespoke services can enhance your customer experience and streamline operations. Embrace the future of conversational AI with our tailored solutions and revolutionize the way you engage with your target audience.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/pre-mod.gif" class="brand-logo-one icons-img" alt="Startups">
-                    <h3><a href="#">4. Predictive Modelling</a></h3>
+                    <h3 title=""><a href="#">4. Predictive Modelling</a></h3>
                     <p>We use cutting-edge algorithms and data analysis techniques to help businesses anticipate future trends and behaviors. Our predictive modeling services allow companies to make better decisions, improve operations, and increase profitability. By identifying patterns and relationships in data, we can forecast outcomes with a high degree of accuracy. Whether you're looking to optimize your marketing strategy, streamline your supply chain, or reduce risk, our team of experts can help you leverage the power of predictive analytics to drive success. Contact us today to learn more about how our predictive modeling services can benefit your business. Predictive modeling uses data and machine learning to identify patterns and forecast future outcomes.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -75,7 +74,7 @@
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
 							<h2>Why Trust Our Data Science Expertise?</h2>
-                            <p>At JFS Technologies, we take a collaborative approach to deliver the best results for your business. Here’s why you can trust our data science services:</p>
+                            <p>At JFS Technologies, we take a collaborative approach to deliver the best results. Here’s why you can trust our data science services for business:</p>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -125,7 +124,7 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Real-World Impact of Our Data Science Solutions</h2>
+            <h2 title="Data Science Services">Real-World Impact of Our Data Science Solutions</h2>
             <p>Learn how our Data Science services have transformed businesses:</p>
         </div>
         <div class="row pt-45">
@@ -172,7 +171,7 @@
 						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -198,8 +197,8 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Leverage Data Science to Transform Your Data into Actionable Insights?</h2>
-                        <p>Unlock the potential of your data and drive smarter business decisions with our expert Data Science services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
+                        <h2>Ready to Transform Data into Insights with Data Science Consulting Services?</h2>
+                        <p>Unlock the potential of your data and drive smarter business decisions with our expert data science consulting services. We’re here to help you navigate the complexities of data analytics and implement solutions that foster growth and efficiency.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
@@ -224,7 +223,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is Data Science, and how can it benefit my business?
+                                            What are the Benefits of Data Science in Business?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>Data Science involves analyzing complex data to uncover patterns, trends, and insights that can inform better decision-making. It can help your business optimize operations, predict trends, enhance customer experiences, and drive growth through data-driven strategies.</p>
@@ -233,7 +232,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What industries can benefit from Data Science solutions?
+                                            What industries can benefit from Data Science services?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Data Science can benefit a wide range of industries, including:</p>
@@ -271,7 +270,7 @@
                                             How secure is my data during the analysis process?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Data security is a top priority at JFS Technologies. We comply with industry standards and regulations to ensure your data is protected through encryption, secure access controls, and adherence to GDPR and other data protection laws.</p>
+                                            <p>Data security services are a top priority at JFS Technologies. We comply with industry standards and regulations to ensure your data is protected through encryption, secure access controls, and adherence to GDPR and other data protection laws.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">

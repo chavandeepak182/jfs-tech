@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Transformation Company | Digital Transformation consultant")
-@section('description', "JFS Technologies is a leading digital transformation company, empowering businesses with innovative solutions, and seamless digital strategies to drive growth and success. ")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Best Data Driven Digital Transformation | JFS Technologies")
+@section('description', "Transform your business with JFS Technologies' data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.")
+@section('keywords', "Data Driven Digital Transformation , Digital Transformation Company, Data Science Consulting services, Cloud services in Infrastructure management, Digital marketing services company, best mobile app development company, Devsecops cybersecurity services, IT staff augmentation services, Website Development Services")
 
 @section('content')
 <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -14,7 +14,7 @@
 			</video> -->
 			<div class="container-max">
 				<div class="banner-item-content banner-item-ptb" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-					<h1 title="JFS Technologies - Digital Transformation Company">Transforming Businesses Through Digital Excellence</h1>
+					<h1 title="Empowering Businesses with Data-Driven Digital Transformation">Transforming Businesses Through Digital Excellence</h1>
 					<p>Empowering enterprises with innovative Data-Driven Digital Transformation solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
 						<a href="{{ url('/services') }}" class="default-btn btn-bg-two border-radius-50 mr-20">Explore Our Services <i class="fal fa-arrow-right"></i></a>
@@ -34,9 +34,9 @@
 					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
 						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2 title="Digital transformation company for software innovation">Trusted Partner for Digital Transformation & Software Innovation</h2>
-							<div class="mx-auto pt-3">At JFS Technologies, we are a digital transformation company, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From <strong>digital marketing services</strong> to <strong>Cloud services in Infrastructure management</strong> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
-							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <strong>DevOps cybersecurity services</strong>, <strong>CI/CD performance testing</strong>, and <strong>software development company services</strong>, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
+							<h2 title="Digital transformation company for software development">Your Trusted Digital Transformation Company for Software Innovation</h2>
+							<div class="mx-auto pt-3">At JFS Technologies, we are a digital transformation company, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing services to Cloud services in Infrastructure management and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
+							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of DevOps cybersecurity services, CI/CD performance testing, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
 						</div>
 					</div>
 
@@ -69,8 +69,8 @@
 		<div class="container-fluid">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">What We Do?</span>
-				<h2 title="Our Core Digital Transformation Services at JFS Technologies">Our Core Digital Transformation Services</h2>
-				<div class="text-white w-75 mx-auto pt-3">We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential. Our expertise spans a diverse range of services, including <strong>Infrastructure Management Consulting Services</strong>, <strong>Best Application Modernization Services</strong>, and <strong>Infrastructure Management in Cloud Computing</strong> to drive innovation and success.</div>
+				<h2 title="Our Core Digital Transformation Services for all businesses at JFS Technologies">Our Core Digital Transformation Services</h2>
+				<div class="text-white w-75 mx-auto pt-3">We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential. Our expertise spans a diverse range of services, including Infrastructure Management Consulting Services, Best Application Modernization Services, and Infrastructure Management in Cloud Computing to drive innovation and success.</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
@@ -78,7 +78,7 @@
 						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="">
 						<div class="card-content">
 							<h3 title="Digital Transformation Services">Digital Transformation</h3>
-							<p>Empowering businesses with advanced tech for optimization and innovation.</p>
+							<p>Empowering businesses as a leading Digital Transformation Service Company with next-gen technologies.</p>
 							<a href="{{ url('/services/digital-transformation') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
@@ -90,7 +90,7 @@
 						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="">
 						<div class="card-content">
 							<h3 title="Digital Experience Platform">Digital Experience</h3>
-							<p>Creating impactful digital touchpoints to connect your brand effectively.</p>
+							<p>Connect your brand, positioning us among the top digital marketing companies for businesses.</p>
 							<a href="{{ url('/services/digital-experience') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
@@ -102,7 +102,7 @@
 						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="">
 						<div class="card-content">
 							<h3 title="Devops Cybersecurity Services">DevOps Services</h3>
-							<p>Accelerating your development lifecycle with streamlined processes.</p>
+							<p>Accelerating your SDLC with streamlined processes through expert DevOps and cybersecurity services.</p>
 							<a href="{{ url('/services/devops') }}" class="button">Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
@@ -113,7 +113,7 @@
 						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="">
 						<div class="card-content">
 							<h3 title="Resource Augmentation Services">Resource Augmentation</h3>
-							<p>Providing skilled professionals to integrate with your team and scale operations.</p>
+							<p>Offering Resource Augmentation for digital transformation who seamlessly integrate and help scale your operations.</p>
 							<a href="{{ url('/services/resource-augmentation') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
@@ -162,7 +162,7 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color2">Unlock the potential</span>
-				<h2 title="Who We Serve at JFS Technologies">Who We Serve?</h2>
+				<h2 title="Who We Serve for digital transformation services">Who We Serve?</h2>
 				<p>We cater to a wide range of industries, offering customized solutions such as Data Science Services, being among the top digital marketing companies for small businesses, DevSecOps software development lifecycle support, and Resource Augmentation to extend your team and meet unique business needs.</p>
 			</div>
 			<div class="row pt-45">
@@ -178,7 +178,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">02.</div>
 						<p class="title">Startups</p>
-						<p>Scale rapidly with advanced tech solutions for accelerated product development, streamlined operations, and sustainable marketing growth.</p>
+						<p>Scale rapidly with advanced tech solutions for accelerated product development services for startups and marketing growth, ensuring sustainable success</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
 					</div>
 				</div>
@@ -218,7 +218,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">07.</div>
 						<p class="title">Nonprofit Organizations</p>
-						<p>Boost outreach and fundraising efforts with affordable, scalable digital solutions that enhance audience engagement, improve visibility, and drive measurable results.</p>
+						<p>Boost outreach and fundraising with affordable digital solutions services that enhance engagement, driving donor participation and support, leading to increased contributions.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
 					</div>
 				</div>
@@ -226,7 +226,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">08.</div>
 						<p class="title">Tech & Software Companies</p>
-						<p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution, quality results, and accelerated time-to-market.</p>
+						<p>chieve rapid growth with software development company teams tailored to your needs for efficient project execution & quality results, ensuring seamless scalability & innovation.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 					</div>
 				</div>
@@ -350,7 +350,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2 title="why choose JFS Technologies for digital transformation services">Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -492,7 +492,7 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">Recognitions</span>
-				<h2 class="text-white" title="Awards & Achievements of JFS Technologies">Awards & Achievements</h2>
+				<h2 class="text-white" title="Awards & Achievements of Digital transformation company">Awards & Achievements</h2>
 			</div>
 			<div class="row align-items-center justify-content-center pt-5">
 				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
@@ -557,7 +557,7 @@
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
 				<span class="sp-color2">Success Stories</span>
-				<h2 title="Driving Success for Clients of JFS Technologies">Driving Success for Our Clients</h2>
+				<h2 title="Driving Success for clients with Digital Transformation services of JFS Technologies">Driving Success for Our Clients</h2>
 				<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">

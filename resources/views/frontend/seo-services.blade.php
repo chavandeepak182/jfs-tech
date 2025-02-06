@@ -1,14 +1,13 @@
 @extends('frontend.layouts.header')
-@section('title', "Best SEO Service Provider - JFS Technologies")
-@section('description', "Explore best SEO service provider and SEO companies for small business. Enhance your online presence with expert SEO to your needs. Contact us for SEO Services.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Best SEO Agency for All Businesses | Affordable SEO Package for All Businesses")
+@section('description', "Boost your online presence with the best SEO service agency! Get an affordable SEO package for all businesses from the best SEO marketing company today!")
+@section('keywords', "Best SEO Agency for All Businesses, Best SEO Service Agency, Affordable SEO Package for All Businesses, best SEO service provider, Best SEO Marketing Company")
 
 @section('content')
-
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Boost Your Website Traffic with Proven SEO Strategies</h1>
+            <h1>Boost Your Website Traffic with Best SEO Agency for All Businesses</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -26,8 +25,8 @@
 	<div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Dominate Search Rankings Today!</span>
-            <h2>Result-Driven SEO Agency to Increase Your Visibility</h2>
-            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Search Engine Optimization (SEO) is the process of improving your website’s visibility on search engines like Google, Bing, and Yahoo. SEO ensures that yourwebsite appears in front of potential customers when they search for relevant keywords related to your business. A well-optimized website not only ranks higher but also attracts quality traffic, improves user experience, and boosts conversions. At JFS Technologies, we follow a comprehensive approach to SEO that includes both on-page and off-page optimization strategies, ensuring your website ranks well and remains competitive. Our SEO services are customized for your business’s specific needs, industry, and target audience</p>
+            <h2>Best SEO Service Agency to Boost Your Visibility</h2>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Best SEO Agency for All Businesses improving your website’s visibility on search engines like Google, Bing, and Yahoo. SEO ensures that your website appears in front of potential customers when they search for relevant keywords related to your business. A well-optimized website not only ranks higher but also attracts quality traffic, improves user experience, and boosts conversions. At JFS Technologies, we follow a comprehensive approach to SEO that includes both on-page and off-page optimization strategies, ensuring your website ranks well and remains competitive. Our SEO services are customized for your business’s specific needs, industry, and target audience.</p>
         </div>
 		<div class="row pt-45">
 			<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -86,7 +85,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are Best!!</span>
-						<h2>Why Choose Our SEO Services?</h2>
+						<h2>Why Choose Us Among the Best SEO Marketing Companies?</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -139,7 +138,7 @@
 				<div class="col-lg-10">
                     <div class="section-title text-center mx-auto" style="max-width:650px">
                         <span class="sp-color2">Pricing Made Easy</span>
-                        <h2>Get Started with the Right Package</h2>
+                        <h2>Get Started with the Right Affordable SEO Package for All Businesses</h2>
                     </div>
 					<div class="choose-content mt-4">
                         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
@@ -595,7 +594,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to improves your rankings and drives results?</h2>
+                        <h2>Ready to boost rankings with the best SEO service provider?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us</a>
@@ -630,7 +629,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How can SEO services benefit my business?
+                                            How can the best SEO service agency benefit my business?
                                         </a>
                                         <div class="accordion-content">
                                             <p>SEO services can benefit your business by driving targeted traffic to your website, increasing brand awareness, improving search engine rankings, and ultimately boosting conversions and revenue.</p>

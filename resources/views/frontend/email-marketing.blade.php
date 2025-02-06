@@ -1,14 +1,13 @@
 @extends('frontend.layouts.header')
-@section('title', "Email Design & Copywriting Services - JFS Technologies")
-@section('description', "Boost your business with expert PPC Advertising Management from our top-rated PPC Service Agency. Maximize ROI and drive targeted traffic.")
-@section('keywords', "PPC Advertising Management, PPC Service Agency, PPC Agency, PPC agency in US, PPC management for business, PPC services company")
+@section('title', "Email Marketing Services for Business| Best Email Designing Services")
+@section('description', "Boost engagement with expert email marketing services! Get end-to-end email marketing services for business with the best email designing services today!")
+@section('keywords', "Email Marketing Services for Business, end-to-end email marketing services for business, best Email Designing services, Expert Email Marketing Services")
 
 @section('content')
-
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Compelling Email Designs & Copy That Drive Conversions</h1>
+            <h1>Boost Conversions with Email Marketing Services for Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -27,14 +26,14 @@
 	<div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Hit the Inbox, Win the Customer!</span>
-            <h2>Maximize Engagement with Targeted Email Campaigns</h2>
-            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Email marketing remains one of the most effective methods of communicating with your audience. It allows you to deliver personalized messages directly to the inbox, fostering relationships and driving conversions. Whether you’re nurturing leads, engaging current customers, or announcing new products, email marketing plays a critical role in your digital strategy. At JFS Technologies, we offer end-to-end email marketing services, from campaign strategy to execution. Our team designs email campaigns that resonate with your audience, deliver value, and drive results.</p>
+            <h2>Boost Engagement with Expert Email Marketing Services</h2>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Email marketing remains one of the most effective methods of communicating with your audience. It allows you to deliver personalized messages directly to the inbox, fostering relationships and driving conversions. Whether you’re nurturing leads, engaging current customers, or announcing new products, email marketing plays a critical role in your digital strategy. At JFS Technologies, we offer end-to-end email marketing services for business, from campaign strategy to execution. Our team designs email campaigns that resonate with your audience, deliver value, and drive results.</p>
         </div>
 		<div class="row pt-45">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Email Design & Copywriting</h3>
+					<h3 title="best Email Designing services">Email Design & Copywriting</h3>
 					<p>Our team creates visually appealing and engaging emails that align with your brand. From subject lines to call-to-action buttons, we optimize every element for better open rates and conversions.
                         <ul>
                             <li><strong>Personalized Emails:</strong> Tailored messages that speak directly to the recipient.</li>
@@ -85,7 +84,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are Best!!</span>
-						<h2>Why Choose Our Email Marketing Services?</h2>
+						<h2>Why Choose Our Email Marketing Services for Business?</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -136,7 +135,7 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Key Benefits of Email Marketing</span>
-            <h2>Turn Every Email Into a Growth Opportunity</h2>
+            <h2>Turn Emails into Growth with Our Email Marketing Services</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">

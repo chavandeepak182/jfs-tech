@@ -8,20 +8,12 @@
         <div class="inner-title text-center w-75 mx-auto">
             <h1>Top Projects by JFS Technologies: A Portfolio of Excellence</h1>
             <p class="text-white"></p>
-            <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ml-20">Start Your Journey Today <i class="bx bx-chevron-right"></i></a>
-			</div>
         </div>
     </div>
 </div>
 
 <div class="case-study-area pt-100 pb-70 portfolio-section" id="portfolio">
     <div class="container">
-        <div class="section-title text-center">
-            <span class="sp-color2"></span>
-            <h2>Introduce Our Projects and Check Recent Work </h2>
-        </div>
-
         <div class="portfolio-menu mt-2 mb-4">
             <nav class="controls">
             <button type="button" class="control outline" data-filter="all">All</button>
@@ -158,6 +150,66 @@
                         <div class="overlay-content">
                             <p class="category"></p>
                             <a data-fancybox="item" title="click to zoom-in" href="{{ asset('theme') }}/assets/images/portfolio/website/9.jpg">
+                                <div class="magnify-icon">
+                                    <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="mix websites col-xl-4 pd">
+                <div class="case-study-item">
+                    <img src="{{ asset('theme') }}/assets/images/portfolio/website/10.jpg" alt="Images">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <p class="category"></p>
+                            <a data-fancybox="item" title="click to zoom-in" href="{{ asset('theme') }}/assets/images/portfolio/website/10.jpg">
+                                <div class="magnify-icon">
+                                    <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="mix websites col-xl-4 pd">
+                <div class="case-study-item">
+                    <img src="{{ asset('theme') }}/assets/images/portfolio/website/11.jpg" alt="Images">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <p class="category"></p>
+                            <a data-fancybox="item" title="click to zoom-in" href="{{ asset('theme') }}/assets/images/portfolio/website/11.jpg">
+                                <div class="magnify-icon">
+                                    <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="mix websites col-xl-4 pd">
+                <div class="case-study-item">
+                    <img src="{{ asset('theme') }}/assets/images/portfolio/website/12.jpg" alt="Images">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <p class="category"></p>
+                            <a data-fancybox="item" title="click to zoom-in" href="{{ asset('theme') }}/assets/images/portfolio/website/12.jpg">
+                                <div class="magnify-icon">
+                                    <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="mix websites col-xl-4 pd">
+                <div class="case-study-item">
+                    <img src="{{ asset('theme') }}/assets/images/portfolio/website/13.jpg" alt="Images">
+                    <div class="portfolio-overlay">
+                        <div class="overlay-content">
+                            <p class="category"></p>
+                            <a data-fancybox="item" title="click to zoom-in" href="{{ asset('theme') }}/assets/images/portfolio/website/13.jpg">
                                 <div class="magnify-icon">
                                     <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
                                 </div>

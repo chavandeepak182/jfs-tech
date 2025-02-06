@@ -1,14 +1,13 @@
 @extends('frontend.layouts.header')
-@section('title', "Professional Web Design & Development Services | Build Your Online Presence")
-@section('description', "Create a powerful online presence with our expert web design and development services. From responsive designs to scalable web solutions, we deliver customized websites tailored to your business needs.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Affordable Web Development Services for Businesses | Web Development Agency")
+@section('description', "Affordable web development services tailored for  businesses. Partner with our expert web development agency to create a strong online presence today!")
+@section('keywords', "web development services for  businesses, best business website design company, web design for local businesses, business web design development, Web design development for Large enterprises, Web design development for Educational sector")
 
 @section('content')
-
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Innovative Web Development to Elevate Your Online Presence</h1>
+            <h1>Innovative Web Design Services for Businesses to Boost Online</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -27,29 +26,29 @@
 	<div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Seamless Website Solutions: From Concept to Launch</h2>
-            <p class="margin-auto">At <strong>JFS Technologies</strong>, we offer a comprehensive range of <strong>Website Design & Development</strong> services to meet the unique needs of your business. Whether you are looking for a simple static website, a dynamic platform, or a full-fledged e-commerce solution, we have the expertise to deliver scalable, secure, and high-performance websites.</p>
+            <h2>Seamless Websites by the Best Business Web Design Company</h2>
+            <p class="margin-auto">At JFS Technologies, we provide a wide array of services as one of the best business website design companies, tailored to meet the unique needs of your business. Whether you are looking for a simple static website, a dynamic platform, or a full-fledged e-commerce solution, we have the expertise to deliver scalable, secure, and high-performance websites.</p>
         </div>
 		<div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/website.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
                     <h3><a>Static Website Creation</a></h3>
-                    <p>Fast, informative websites that are ideal for small businesses looking to establish their digital presence, enhance brand visibility, connect with their target audience, and drive meaningful online engagement.</p>
+                    <p>Fast, informative <span title="website development for small business and website development for local business">Web design development for small and local businesses</span> looking to establish their digital presence, enhance brand visibility, connect with their target audience, and drive meaningful online engagement.</p>
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/dashboard.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
                     <h3><a>Dynamic Website Creation</a></h3>
-                    <p>Content-rich websites with integrated content management systems (CMS) that allow regular updates, enabling businesses to easily manage & improve their content & keep audience engaged with fresh, relevant information.</p>
+                    <p>Content-rich websites with integrated content management systems (CMS) that allow regular updates, enabling businesses to easily manage & improve their content & keep the audience engaged with fresh, relevant information.</p>
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/e-comm.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
                     <h3><a>Build Ecommerce Platforms</a></h3>
-                    <p>Robust online stores with secure payment integration, inventory management, user-friendly navigation, and customizable features to deliver a seamless shopping experience and drive sales growth.</p>
+                    <p>Robust online stores with secure payment integration, inventory management, user-friendly navigation, and customizable features to deliver a seamless shopping experience, drive sales growth, and foster customer loyalty.</p>
 				</div>
 			</div>
 		</div>
@@ -111,186 +110,186 @@
 </div>
 
 
-    <div class="about-area pt-100 pb-70">
-		<div class="container">
-            <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-10">
-                    <div class="section-title text-center mx-auto" style="max-width:650px">
-                        <span class="sp-color1">Pricing Made Easy</span>
-                        <h2>Website Design & Development Packages</h2>
+<div class="about-area pt-100 pb-70">
+    <div class="container">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-10">
+                <div class="section-title text-center mx-auto" style="max-width:650px">
+                    <span class="sp-color1">Pricing Made Easy</span>
+                    <h2>Affordable website design packages for business</h2>
+                </div>
+                <div class="choose-content mt-4">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <table class="table text-center table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
+                                        <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
+                                        <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span></th>
+                                        <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-group-divider">
+                                    <tr>
+                                        <th>Cost</th>
+                                        <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">₹30,000</strong></td>
+                                        <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">Starting from ₹50,000</strong></td>
+                                        <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">Starting from ₹100,000</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Type of Website</th>
+                                        <td>Static</td>
+                                        <td>Dynamic</td>
+                                        <td>E-Commerce</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pages Included</th>
+                                        <td>10 to 20</td>
+                                        <td>21 to 40</td>
+                                        <td>41 to 70</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Custom Design</th>
+                                        <td>Template-Based Design</td>
+                                        <td>Custom Design with 2 Revisions</td>
+                                        <td>Fully Custom Design with Unlimited Revisions</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Mobile-Responsiveness</th>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>SEO-Friendly</th>
+                                        <td>Basic SEO Setup</td>
+                                        <td>Enhanced SEO Setup</td>
+                                        <td>Full SEO Optimization</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Content Management System (CMS)</th>
+                                        <td>WordPress or Similar</td>
+                                        <td>WordPress, Joomla, or Custom CMS</td>
+                                        <td>Custom CMS or Advanced Platforms</td>
+                                    </tr>
+                                    <tr>
+                                        <th>E-Commerce Capabilities</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td>Basic E-Commerce (Up to 30 Products)</td>
+                                        <td>Advanced E-Commerce (Unlimited Products)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Website Hosting</th>
+                                        <td>1 Year Free Basic Hosting</td>
+                                        <td>1 Year Free Advanced Hosting</td>
+                                        <td>1 Year Free Premium Hosting</td>
+                                    </tr>
+                                    <tr>
+                                        <th>SSL Certificate</th>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>SSL Certificate</th>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Blog Integration</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Contact Form</th>
+                                        <td>Basic Contact Form</td>
+                                        <td>Advanced Form with Multiple Fields</td>
+                                        <td>Dynamic Form with API Integrations</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Social Media Integration</th>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Image Slider/Carousel</th>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Google Analytics Integration</th>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Payment Gateway Integration</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td>Up to 2 Gateways</td>
+                                        <td>Multiple Gateways + Advanced Features</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Website Security Features</th>
+                                        <td>Basic Security Setup</td>
+                                        <td>Advanced Security Setup</td>
+                                        <td>Enterprise-Level Security Features</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Backup & Restore Options</th>
+                                        <td>Weekly Backups</td>
+                                        <td>Daily Backups</td>
+                                        <td>Real-Time Backup & Restore</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Technical Support</th>
+                                        <td>3 Months Free Support</td>
+                                        <td>6 Months Free Support</td>
+                                        <td>12 Months Free Support</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Performance Optimization</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                        <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email Setup</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td>Up to 5 Business Emails</td>
+                                        <td>Unlimited Business Emails</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Custom Features</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td>Limited Custom Features</td>
+                                        <td>Full Custom Features Based on Business Needs</td>
+                                    </tr>
+                                    <tr>
+                                        <th>API Integrations</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td>Limited API Integrations</td>
+                                        <td>Full API Integrations</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Multilingual Support</th>
+                                        <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
+                                        <td>Available Upon Request</td>
+                                        <td>Available Upon Request</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>  
                     </div>
-					<div class="choose-content mt-4">
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <table class="table text-center table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col"><h4 class="sp-color1">Features Comparison</h4></th>
-                                            <th scope="col"><span style="color: #359ded; font-size: 25px;font-weight: 500;">Standard</span></th>
-                                            <th scope="col"><span style="color: #0282c9; font-size: 25px;font-weight: 500;">Professional</span></th>
-                                            <th scope="col"><span style="color: #488872; font-size: 25px;font-weight: 500;">Enterprise</span></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="table-group-divider">
-                                        <tr>
-                                            <th>Cost</th>
-                                            <td><strong style="color: #359ded; font-size: 18px;font-weight: 600;">₹30,000</strong></td>
-                                            <td><strong style="color: #0282c9; font-size: 18px;font-weight: 600;">Starting from ₹50,000</strong></td>
-                                            <td><strong style="color: #488872; font-size: 18px;font-weight: 600;">Starting from ₹100,000</strong></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Type of Website</th>
-                                            <td>Static</td>
-                                            <td>Dynamic</td>
-                                            <td>E-Commerce</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Pages Included</th>
-                                            <td>10 to 20</td>
-                                            <td>21 to 40</td>
-                                            <td>41 to 70</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Custom Design</th>
-                                            <td>Template-Based Design</td>
-                                            <td>Custom Design with 2 Revisions</td>
-                                            <td>Fully Custom Design with Unlimited Revisions</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Mobile-Responsiveness</th>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>SEO-Friendly</th>
-                                            <td>Basic SEO Setup</td>
-                                            <td>Enhanced SEO Setup</td>
-                                            <td>Full SEO Optimization</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Content Management System (CMS)</th>
-                                            <td>WordPress or Similar</td>
-                                            <td>WordPress, Joomla, or Custom CMS</td>
-                                            <td>Custom CMS or Advanced Platforms</td>
-                                        </tr>
-                                        <tr>
-                                            <th>E-Commerce Capabilities</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td>Basic E-Commerce (Up to 30 Products)</td>
-                                            <td>Advanced E-Commerce (Unlimited Products)</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website Hosting</th>
-                                            <td>1 Year Free Basic Hosting</td>
-                                            <td>1 Year Free Advanced Hosting</td>
-                                            <td>1 Year Free Premium Hosting</td>
-                                        </tr>
-                                        <tr>
-                                            <th>SSL Certificate</th>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>SSL Certificate</th>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Blog Integration</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Contact Form</th>
-                                            <td>Basic Contact Form</td>
-                                            <td>Advanced Form with Multiple Fields</td>
-                                            <td>Dynamic Form with API Integrations</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Social Media Integration</th>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Image Slider/Carousel</th>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Google Analytics Integration</th>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Payment Gateway Integration</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td>Up to 2 Gateways</td>
-                                            <td>Multiple Gateways + Advanced Features</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Website Security Features</th>
-                                            <td>Basic Security Setup</td>
-                                            <td>Advanced Security Setup</td>
-                                            <td>Enterprise-Level Security Features</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Backup & Restore Options</th>
-                                            <td>Weekly Backups</td>
-                                            <td>Daily Backups</td>
-                                            <td>Real-Time Backup & Restore</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Technical Support</th>
-                                            <td>3 Months Free Support</td>
-                                            <td>6 Months Free Support</td>
-                                            <td>12 Months Free Support</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Performance Optimization</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                            <td><i class="fal fa-badge-check sp-color2 fa-2x"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Email Setup</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td>Up to 5 Business Emails</td>
-                                            <td>Unlimited Business Emails</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Custom Features</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td>Limited Custom Features</td>
-                                            <td>Full Custom Features Based on Business Needs</td>
-                                        </tr>
-                                        <tr>
-                                            <th>API Integrations</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td>Limited API Integrations</td>
-                                            <td>Full API Integrations</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Multilingual Support</th>
-                                            <td><i class="fad fa-horizontal-rule fa-2x"></i></td>
-                                            <td>Available Upon Request</td>
-                                            <td>Available Upon Request</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>  
-                        </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div class="about-area about-bg2 pt-5">
@@ -305,8 +304,8 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>For Success In The Digital World!</h2>
-                        <p>Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results. From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience exceptional website design for small business with JFS Technologies. Let’s build something extraordinary together.</p>
+                        <h2 title="website development services">For Success In The Digital World!</h2>
+                        <p>Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results. From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience exceptional website design for small business and large enterprises with JFS Technologies. Let’s build something extraordinary together.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get Started Today</a>
                 </div>

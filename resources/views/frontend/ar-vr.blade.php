@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Augmented Reality & Virtual Reality Services | Transform Your Vision into Reality")
-@section('description', "Experience the future with our Augmented Reality and Virtual Reality solutions. From immersive experiences to innovative business applications, we create AR/VR solutions to drive business success.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Application for Augmented reality and Virtual reality services | Best AR/VR Services")
+@section('description', "Find the best Application for Augmented reality and Virtual reality services near you! Explore cutting-edge augmented and virtual reality solutions.")
+@section('keywords', "Application for Augmented reality and Virtual reality services, custom 3D modeling services, 3D Environments Services, Simulations Innovative Services")
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="Immersive Augmented Reality and Virtual Reality Experiences to Transform Your Business">Immersive AR/VR Experiences to Transform Your Business</h1>
+            <h1 title="Application for Augmented reality and Virtual reality services">Immersive AR/VR Experiences to Transform Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your AR/VR Journey Today <i class="bx bx-chevron-right"></i></a>
@@ -26,14 +26,14 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Beyond the Screen: Dive into AR/VR Experiences</h2>
-            <p class="margin-auto">Our AR/VR services provide cutting-edge solutions that transform ideas into immersive experiences. Whether you're looking to create training simulations, virtual walkthroughs, or dynamic interactive experiences, our team of experts is here to make your vision a reality. Using advanced AR/VR technology, we design realistic and engaging virtual environments suitable for training, marketing, education, and more. From custom 3D modeling to fully interactive scenarios, we tailor each solution to your unique requirements, helping you stay ahead in a technology-driven world.</p>
+            <h2 title="Explore Immersive AR/VR Experiences with Our Application for AR/VR Services">Beyond the Screen: Dive into AR/VR Experiences</h2>
+            <p class="margin-auto">Our AR/VR services provide cutting-edge solutions that transform ideas into immersive experiences. Whether you're looking to create training simulations, virtual walkthroughs, or dynamic interactive experiences, our team of experts is here to make your vision a reality. Using advanced AR/VR technology, we design realistic and engaging virtual environments suitable for training, marketing, education, and more. From custom 3D modeling services to fully interactive scenarios, we tailor each solution to your unique requirements, helping you stay ahead in a technology-driven world.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/hologram.gif" class="brand-logo-one icons-img" alt="hologram">
-                    <h3><a href="#">1. 3D Environments</a></h3>
+                    <h3><a href="#">1. 3D Environments Services</a></h3>
                     <p>Our 3D environment services provide photo realistic simulations and visualizations for a wide range of industries, including architecture, urban planning, and interior design. Our cutting-edge technology allows clients to experience spaces in a whole new way, from virtual walkthroughs to detailed interactive models. Let us bring your projects to life in stunning 3D detail. Our 3D environment services deliver photorealistic simulations and immersive visualizations across industries such as architecture, urban planning, real estate, and interior design.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -49,7 +49,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/metaverse.gif" class="brand-logo-one icons-img" alt="metaverse">
-                    <h3><a href="#">3.  Simulations:</a></h3>
+                    <h3><a href="#">3.  Simulations Innovative Services</a></h3>
                     <p>Our Simulation services provide innovative solutions for a wide range of industries, including aerospace, automotive, & manufacturing. With our cutting-edge technology & expert team of engineers, we can simulate complex systems & processes to optimize performance, reduce costs, & minimize risks. Whether you need virtual testing for new product designs or predictive modeling for system analysis, our Simulation services can help you achieve your goals efficiently & effectively. Let us help you bring your ideas to life through simulation.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -130,7 +130,7 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2 title="Real-World Impact of Our Augmented Reality (AR) and Virtual Reality (VR) Solutions">Real-World Impact of Our AR/VR Solutions</h2>
+            <h2 title="Real-World Impact of Our Augmented Reality (AR) and Virtual Reality (VR) Solutions">Real-World Impact of Our Application AR/VR Solutions</h2>
             <p>Discover how our AR/VR solutions have transformed client projects:</p>
         </div>
         <div class="row pt-45">
@@ -203,7 +203,7 @@
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
                         <h2>Ready to Transform Your Vision with AR/VR?</h2>
-                        <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
+                        <p>Our Application for AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
@@ -263,7 +263,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What platforms do you develop AR/VR solutions for?
+                                            What platforms do you develop AR/VR service solutions for?
                                         </a>
                                         <div class="accordion-content">
                                             <p>We create AR/VR solutions for multiple platforms, including iOS, Android, and VR devices like Oculus, HTC Vive, and Microsoft HoloLens. Our team ensures compatibility with your chosen hardware.</p>
@@ -288,7 +288,7 @@
                                         </div>
                                     </li>
                                     <li class="accordion-item">
-                                        <a class="accordion-title" href="javascript:void(0)">
+                                        <a class="accordion-title" href="javascript:void(0)" title="AR and VR services for business">
                                             <i class="bx bx-plus"></i>
                                             How do I start incorporating AR/VR into my business?
                                         </a>
