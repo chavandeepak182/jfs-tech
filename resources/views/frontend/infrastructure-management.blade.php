@@ -1,17 +1,17 @@
 @extends('frontend.layouts.header')
-@section('title', "Reliable Infrastructure Management Services | Ensure Performance & Uptime")
-@section('description', "Optimize your IT infrastructure with expert management services. Ensure reliability, security, and maximum uptime for your business operations.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Expert Infrastructure Management Consulting Services | Cloud Infrastructure Management")
+@section('description', "Optimize your business with expert infrastructure management consulting services. Explore reliable cloud infrastructure solutions tailored to your needs.")
+@section('keywords', "Infratructure management consulting services, Best Infrastructure Management Services, Cloud services in Infrastructure management, managing the cloud infrastructure, infrastructure management in cloud computing, cloud infrastructure management")
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="Smart Infrastructure Management Solutions for Reliable Performance and Maximum Uptime">Smart Infrastructure Solutions for Maximum Uptime</h1>
+            <h1 title="Smart Infrastructure Management Consulting Services for Optimal Uptime">Smart Infrastructure Management for Maximum Uptime</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -22,43 +22,43 @@
     </video>
 </div>
 
-<section class="services-style-area pt-100 pb-70">
+<section class="services-style-area pt-100 pb-70" id="service-sec">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
-            <span class="sp-color2"></span>
-            <h2>Reliable Infrastructure, Resilient Operations</h2>
-            <p class="margin-auto">Maintaining a robust, secure, and efficient IT infrastructure is essential for business success. Our Infrastructure Management services cover all critical aspects, including Network Operations Center (NOC) and Security Operations Center (SOC) monitoring, data center management, and cloud solutions. With an experienced team dedicated to proactive monitoring and management, we handle your infrastructure needs so you can focus on your core business goals. Whether securing your network, optimizing data center operations, or transitioning to cloud technology, we ensure a smooth, scalable solution for your evolving needs.</p>
+            <span class="sp-color2">Stable Platforms, Dynamic Execution</span>
+            <h2 title="Reliable Infrastructure with Resilient Operations through Expert Infrastructure Management Consulting Services">Reliable Infrastructure, Resilient Operations</h2>
+            <p class="margin-auto">Maintaining a robust, secure, and efficient IT infrastructure is essential for business success. Our Infrastructure Management consulting services cover all critical aspects, including Network Operations Center (NOC) and Security Operations Center (SOC) monitoring, data center management, and cloud solutions. With an experienced team dedicated to proactive monitoring and management, we handle your infrastructure needs so you can focus on your core business goals. Whether securing your network, optimizing data center operations, or transitioning to cloud technology, we ensure a smooth, scalable solution for your evolving needs.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/network.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="#">1. NOC</a></h3>
-                    <p>Our dedicated team is here to provide round-the-clock monitoring and support for your network infrastructure. With years of experience, our technicians work proactively to detect and resolve any issues before they disrupt your business operations. Rest easy knowing that your network is well taken care of with our NOC services, ensuring any problems are swiftly and effectively dealt with. We also offer detailed reporting and continuous system optimization. Reach out to us today to discover how our NOC services can elevate your business performance and provide unparalleled peace of mind.</p>
+                    <h3 title="Network Operations center Monitoring Services"><a href="#">1. NOC Monitoring Services</a></h3>
+                    <p>Our dedicated team is here to provide round-the-clock monitoring and support for your network infrastructure. With years of experience, our technicians work proactively to detect and resolve any issues before they disrupt your business operations. Rest easy knowing that your network is well taken care of with our NOC services, ensuring any problems are swiftly and effectively dealt with. We also offer detailed reporting and continuous system optimization. Reach out to us today to discover how our NOC monitoring services can elevate your business performance and provide unparalleled peace of mind.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cyber-security.gif" class="brand-logo-one icons-img" alt="cyber-security">
-                    <h3><a href="#">2. SOC</a></h3>
-                    <p>Our SOC services provide robust, 24/7 monitoring, detection, and response to security incidents, ensuring your organization’s digital assets remain secure. Our team of skilled analysts is adept at identifying, analyzing, and mitigating threats in real-time, delivering proactive defense against evolving risks. By harnessing advanced threat intelligence and cutting-edge tools, our SOC services offer the assurance that your critical data and systems are consistently safeguarded and resilient against cyber threats. Rest easy knowing your valuable assets are protected around the clock.</p>
+                    <h3 title="Security Operation center Monitoring Services"><a href="#">2. SOC Monitoring services</a></h3>
+                    <p>Our SOC services provide robust, 24/7 monitoring, detection, and response to security incidents, ensuring your organization’s digital assets remain secure. Our team of skilled analysts is adept at identifying, analyzing, and mitigating threats in real-time, delivering proactive defense against evolving risks. By harnessing advanced threat intelligence and cutting-edge tools, our SOC Monitoring services offer the assurance that your critical data and systems are consistently safeguarded and resilient against cyber threats. Rest easy knowing your valuable assets are protected around the clock.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/db-center.gif" class="brand-logo-one icons-img" alt="Database Center">
-                    <h3><a href="#">3. Data Centre</a></h3>
-                    <p>Our team of expert technicians has years of experience in seamlessly migrating data centres for companies of all sizes. We provide end-to-end support to ensure a smooth transition with minimal downtime. Our services include assessing current data centre infrastructure, planning the migration process, executing the move, and providing ongoing support post-migration. We also ensure data security and compliance throughout the process. Trust us to handle your data centre migration and support needs with precision, efficiency, and a commitment to operational excellence.</p>
+                    <h3 title="Data Centre Infrastructure services"><a href="#">3. Data Centre Infrastructure</a></h3>
+                    <p>Our team of expert technicians has years of experience in seamlessly migrating data centres for companies of all sizes. We provide end-to-end support to ensure a smooth transition with minimal downtime. Our services include assessing current data centre infrastructure services, planning the migration process, executing the move, and providing ongoing support post-migration. We also ensure data security and compliance throughout the process. Trust us to handle your data centre migration and support needs with precision, efficiency, and a commitment to operational excellence.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="cloud setup">
-                    <h3><a href="#">4. Cloud</a></h3>
-                    <p>Our team of experts is dedicated to providing comprehensive consulting services to help you make informed decisions about utilizing cloud technology in your business. From initial planning to execution, we offer expert guidance every step of the way. Our migration service ensures a smooth transition to the cloud, minimizing disruption and maximizing efficiency. And with our ongoing support, you can count on us to address any issues and keep your cloud services running smoothly. Trust us to be your partner in harnessing the power of the cloud for your business success.</p>
+                    <h3 title="Cloud Infrastructure Management services"><a href="#">4. Cloud Infrastructure Management</a></h3>
+                    <p>Our team of experts is dedicated to providing comprehensive Cloud Infrastructure Management consulting services to help you make informed decisions about utilizing cloud technology in your business. From initial planning to execution, we offer expert guidance every step of the way. Our migration service ensures a smooth transition to the cloud, minimizing disruption and maximizing efficiency. And with our ongoing support, you can count on us to address any issues and keep your cloud services running smoothly. Trust us to be your partner in harnessing the power of the cloud for your business success.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
@@ -74,7 +74,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Trust Us for Your Infrastructure Management?</h2>
+							<h2>Why Trust Us for Your Infrastructure Management Consulting Services?</h2>
                             <p>Our team of experts ensures you receive:</p>
 						</div>
 						<div class="row">
@@ -126,8 +126,8 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Transformative Success in Infra Management</h2>
-            <p>Learn how our Infrastructure Management services have made a difference:</p>
+            <h2 title="Transformative Success in Infrastructure Management Consulting Services">Transformative Success in Infra Management</h2>
+            <p>Learn how our Infrastructure Management Consulting services have made a difference:</p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-md-6">
@@ -173,7 +173,7 @@
 						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Strengthen Your IT Infrastructure?</h2>
+                        <h2>Ready to Strengthen Your IT Infrastructure Services?</h2>
                         <p>Partner with us to manage and secure your infrastructure while you focus on your core business. Get in touch to explore how our services can support your goals.</p>
                     </div>
                     <h3>Over Two Decades of Leading Infrastructure Management Solutions</h3>
@@ -286,7 +286,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do I start with JFS Technologies’ Infrastructure Management services?
+                                            How do I start with JFS Technologies’ Infrastructure Management Consulting services?
                                         </a>
                                         <div class="accordion-content">
                                             <p>You can begin by contacting us for a consultation. We’ll assess your current IT setup, identify areas for improvement, and recommend a tailored infrastructure management plan. <a href="{{ url('/contact-us') }}">Get in Touch <i class="bx bx-chevron-right"></i></a></p>

@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Creative Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Top Creative graphic design service company | Business Logo Design Services")
+@section('description', "Discover top graphic design company near you, offering business logo design services to elevate your brand's identity and make a lasting impression.")
+@section('keywords', "Creative graphic design service company, creative graphic design company, Logo design services for businesses, business logo design services, Graphic designing services for businesses, logo designers for  business")
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Creative Services to Transform Your Digital Experience</h1>
+            <h1>Creative Graphic Design Services to Elevate Your Digital Experience</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -27,39 +27,39 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Unleashing Creativity Across Every Digital Touchpoint</h2>
-            <p class="margin-auto">In a world driven by visuals and digital interactions, a compelling design can set your brand apart. Our Creative Services offer everything you need to deliver memorable and user-friendly experiences that make a lasting impression. We focus on user-centered designs, visual storytelling, and impactful content creation, ensuring that your brand connects with its audience across all digital platforms. Whether it’s crafting a seamless interface, designing powerful brand visuals, or creating engaging multimedia content, we’re here to make every interaction count.</p>
+            <h2 title="Creative graphic design services for business">Creative solution with Expert Graphic Design Services</h2>
+            <p class="margin-auto">In a world driven by visuals and digital interactions, a compelling design can set your brand apart. Our creative Graphic designing services for businesses offer everything you need to deliver memorable and user-friendly experiences that make a lasting impression. We focus on user-centered designs, visual storytelling, and impactful content creation, ensuring that your brand connects with its audience across all digital platforms. Whether it’s crafting a seamless interface, designing powerful brand visuals, or creating engaging multimedia content, we’re here to make every interaction count.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/uiux.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>1. User Experience (UX) and User Interface (UI) Design</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
+                    <h3><a title="User Experience (UX) and User Interface (UI) Design Services for websites">1. User Experience (UX) and User Interface (UI) Design</a></h3>
+                    <p>Good design begins with understanding the user. Our UX/UI services for websites cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
                     <a href="{{ url('/services/uiux-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/graphics.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>2. Graphic Design</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
+                    <h3><a title="Graphic Design Services for social media and websites">2. Graphic Design Services</a></h3>
+                    <p>Our Graphic Design Services for social media and websites are tailored to enhance your online presence and engage your target audience. We design visuals that complement your website's aesthetics.</p>
                     <a href="{{ url('/services/graphics-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/content.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>3. Content Creation</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
+                    <h3 title="content creation services for websites"><a>3. Content Creation Services</a></h3>
+                    <p>Elevate your online presence with our specialized content creation services for websites. We craft engaging, SEO-optimized content tailored to your brand's voice, ensuring your website captivates and converts visitors.</p>
                     <a href="{{ url('/services/content-creation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/3d.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a>4. 3D Services</a></h3>
-                    <p>Good design begins with understanding the user. Our UX/UI services cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
+                    <h3 title="3D graphic designing services"><a>4. 3D Design Services</a></h3>
+                    <p>In today's visually-driven world, 3D graphic designing services have become essential across various industries. These services transform concepts into immersive visual experiences, enhancing engagement and understanding.</p>
                     <a href="{{ url('/services/3d-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
@@ -75,7 +75,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our Creative Services Stand Out?</h2>
+							<h2 title="creative graphic design services">Why Our Creative Services Stand Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -172,7 +172,7 @@
 						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -197,10 +197,10 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Elevate Your Digital Experience?</h2>
+                        <h2 title="Creative design services for business">Ready to Elevate Your Digital Experience?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
-                    <h3>Over Two Decades of Expertise in Creative Branding & User Experience Solutions.</h3>
+                    <h3>With 20+ years of expertise, we are a Creative Graphic Design Service Company specializing in branding and UX solutions.</h3>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
                 </div>
             </div>
@@ -224,7 +224,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What creative services do you offer, and how can they help my business?
+                                            What creative graphic designing services for business do you offer?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>We offer a range of creative services, including UI/UX design, graphic design, content creation, 3D services, and branding. These services help your business stand out, engage customers, and communicate your message effectively.</p>
@@ -251,7 +251,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is the process for creating 3D designs and visuals?
+                                            What is the process for creating 3D designs, modelling and visuals?
                                         </a>
                                         <div class="accordion-content">
                                             <p>We begin with brainstorming and concept development, followed by 3D modeling and rendering. We’ll work closely with you throughout the process to bring your ideas to life with stunning visuals.</p>

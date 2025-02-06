@@ -1,14 +1,13 @@
 @extends('frontend.layouts.header')
-@section('title', "PPC Advertising Management | PPC Service Company - JFS Technologies")
-@section('description', "Boost your business with expert PPC Advertising Management from our top-rated PPC Service Agency. Maximize ROI and drive targeted traffic.")
-@section('keywords', "PPC Advertising Management, PPC Service Agency, PPC Agency, PPC agency in US, PPC management for business, PPC services company")
+@section('title', "Top PPC Management Company for Your Business | Pay-Per-Click advertising company services")
+@section('description', "Boost your business with the best PPC management company! Get expert Google Ads management, social media paid campaigns, and affordable PPC advertising services.")
+@section('keywords', "Top PPC Management Company for Your Business, Pay-Per-Click advertising company services, Google ads Management services, Best Social media paid campaigns services, PPC management for agency services campaigns, Affordable Paid marketing services, PPC advertising management services")
 
 @section('content')
-
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Performance-Driven PPC Solutions for Your Business</h1>
+            <h1 title="Top PPC Management Company for Your Business">Performance-Driven PPC Solutions for Your Business</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -27,14 +26,14 @@
 	<div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Smarter Ads. Bigger Impact. Better PPC!</span>
-            <h2>Optimize Your Paid Ads with Strategic PPC Management</h2>
-            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Pay-Per-Click (PPC) advertising allows you to get immediate visibility by bidding on keywords related to your business. PPC is an effective way to drive targeted traffic to your website by placing ads on search engines and social media platforms. You only pay when someone clicks on your ad, making it a cost-effective solution for businesses looking to drive conversions. At JFS Technologies, we specialize in creating data-driven, cost-effective PPC campaigns. We manage and optimize campaigns on Google Ads, Facebook Ads, LinkedIn Ads, and more to ensure that your advertising budget is spent efficiently and effectively.</p>
+            <h2>Optimize your Paid Ads with PPC Management Company</h2>
+            <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Pay-Per-Click (PPC) advertising company services allows you to get immediate visibility by bidding on keywords related to your business. PPC is an effective way to drive targeted traffic to your website by placing ads on search engines and social media platforms. You only pay when someone clicks on your ad, making it a cost-effective solution for businesses looking to drive conversions. At JFS Technologies, we specialize in creating data-driven, cost-effective PPC campaigns. We manage and optimize campaigns on Google Ads, Facebook Ads, LinkedIn Ads, and more to ensure that your advertising budget is spent efficiently and effectively.</p>
         </div>
 		<div class="row pt-45">
 			<div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Google Ads Management</h3>
+					<h3 title="Google ads Management services">Google Ads Management</h3>
 					<p>Google Ads is a powerful tool for driving traffic and generating leads. Our team creates and manages search ads, display ads, and video ads to ensure maximum visibility.
                         <ul>
                             <li><strong>Keyword Targeting:</strong> We target high-converting keywords that match your business goals.</li>
@@ -48,7 +47,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Social Media Paid Campaigns</h3>
+					<h3 title="Best Social media paid campaigns services">Social Media Paid Campaigns</h3>
 					<p>We create highly targeted ad campaigns on platforms like Facebook, Instagram, and LinkedIn to reach your specific audience.
                         <ul>
                             <li><strong>Audience Segmentation:</strong> We use detailed targeting options to reach users who are most likely to convert.</li>
@@ -62,7 +61,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Landing Page Optimization</h3>
+					<h3 title="Landing page Optimization services">Landing Page Optimization</h3>
 					<p>We design and optimize high-converting, visually engaging, and mobile-friendly landing pages that align seamlessly with your PPC campaigns, ensuring users have a smooth experience, build trust, drive engagement, and are more likely to convert successfully while maximizing ROI, improving ad relevance, and supporting your overall marketing goals effectively.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/lpo.svg" class="brand-logo-one" alt="Landing Page" style="width:22%;">
 				</div>
@@ -87,7 +86,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are Best!!</span>
-						<h2>Why Choose Our PPC Services?</h2>
+						<h2>Why Choose Our Top PPC Management Services?</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -145,7 +144,7 @@
                 <div class="work-process-card-three">
                     <div class="number-title invisible">01.</div>
                     <h3>Immediate Results:</h3>
-                    <p>PPC management for agencies campaigns provide instant visibility on search engines and generate immediate results, making them ideal for new businesses or product launches.</p>
+                    <p>PPC management for agency services campaigns provide instant visibility on search engines and generate immediate results, making them ideal for new businesses or product launches.</p>
                     <i class="fal fa-chart-bar  my-2"></i>
                 </div>
             </div>
@@ -161,7 +160,7 @@
                 <div class="work-process-card-three">
                     <div class="number-title invisible">03.</div>
                     <h3>Cost-Effectiveness:</h3>
-                    <p>Paid marketing services can be a cost-effective advertising method, as businesses only pay when users click on their ads, making it a more efficient way to reach a target audience.</p>
+                    <p>Affordable Paid marketing services can be a cost-effective advertising method, as businesses only pay when users click on their ads, making it a more efficient way to reach a target audience.</p>
                     <i class="fal fa-coins my-2"></i>
                 </div>
             </div>
@@ -265,7 +264,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is PPC advertising management?
+                                            What are PPC advertising management services?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>PPC (Pay-Per-Click) advertising management involves overseeing and optimizing paid search campaigns on platforms like Google Ads and Social Media Platforms to drive targeted traffic to a website and maximize return on investment (ROI).</p>

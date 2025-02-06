@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Mobile App Development Company | Mobile application development")
-@section('description', "Get custom mobile app development services for iOS, Android, and cross-platform apps. Build user-friendly, scalable apps to grow your business and engage customers.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Affordable App Development Services for Businesses | IOS App development services")
+@section('description', "Get affordable app development services for  businesses. Expert IOS app development solutions to turn your ideas into powerful mobile apps.")
+@section('keywords', "Affordable App Development Services for Businesses, Best App development services, IOS App development services, Android App development services, best mobile app development company, top mobile application development company")
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Transform Your Ideas into Cutting-Edge Mobile Applications</h1>
+            <h1>Innovate Solutions with Our Best App Development Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -27,31 +27,31 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Crafting Your Ideas into Next-Gen Mobile Solutions</h2>
-            <p class="margin-auto">At <strong>JFS Technologies</strong>, we specialize in delivering high-performance mobile app development services tailored to businesses of all sizes. With experience across various industries, we create mobile solutions that ensure your app excels in today’s competitive market.</p>
+            <h2 title="Best mobile app development for business">Transforming Ideas with the Best App Development Services</h2>
+            <p class="margin-auto" title="best IOS and android app development services">At JFS Technologies, we specialize in delivering high-performance best mobile app development services tailored to businesses of all sizes. With experience across various industries, we create mobile solutions that ensure your app excels in today’s competitive market.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/native.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
-                    <h3><a href="#">Native App Development</a></h3>
-					<p>Our iOS developers create feature-rich, optimized applications that deliver a premium experience on all Apple devices. From concept to App Store submission, we provide end-to-end iOS development services using the latest technologies like Swift and Objective-C to maximize your app's impact.</p>
+                    <h3><a href="#" title="Native App Development Services for IOS device">Native App Development</a></h3>
+					<p title="best IOS App development services for business">Our iOS developers create feature-rich, optimized applications that deliver a premium experience on all Apple devices. From concept to App Store submission, we provide complete app development services using the latest technologies like Swift & Objective-C to maximize your app's impact.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cross.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
-                    <h3><a href="#">Cross-Platform Development</a></h3>
-					<p>Maximize your reach with our cross-platform development expertise using Flutter, React Native, and Xamarin. We build applications that provide a consistent experience on both iOS and Android, reducing development time and costs while delivering high-quality, native-like performance.</p>
+                    <h3><a href="#" title="Best Cross-Platform Development Services for IOS and Android">Cross-Platform Development</a></h3>
+					<p>Maximize your reach with our cross-platform development services expertise using Flutter, React Native, and Xamarin. We build applications that provide a consistent experience on both iOS and Android, reducing development time and costs while delivering high-quality, native-like performance.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/hybrid.gif" class="brand-logo-one icons-img" alt="Startups" style="width:22%;">
-                    <h3><a href="#">Hybrid App Development</a></h3>
-					<p>Our hybrid app development combines web & native app benefits for a cost-effective, cross-platform solution. Using frameworks like Ionic, Cordova, PhoneGap & NativeScript, we deliver native-like functionality, seamless user experiences & reduced development time.</p>
+                    <h3><a href="#" title="hybrid app development services for business">Hybrid App Development</a></h3>
+					<p>Our hybrid app development services combine web & native app benefits for a cost-effective, cross-platform solution. Using frameworks like Ionic, Cordova, PhoneGap & NativeScript, we deliver native-like functionality, seamless user experiences & reduced development time.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
@@ -118,9 +118,9 @@
 		<div class="container">
             <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
 				<div class="col-lg-10">
-                    <div class="section-title text-center mx-auto" style="max-width:650px">
+                    <div class="section-title text-center mx-auto" style="max-width:750px">
                         <span class="sp-color2">Pricing Made Easy</span>
-                        <h2>Get Started with the Right Package</h2>
+                        <h2 title="Best affordable package for mobile app development service">Get Started with the Affordable Mobile App Development Service</h2>
                     </div>
 					<div class="choose-content mt-4">
                         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
@@ -202,7 +202,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is the website development agency approach largely following these days?
+                                            What is the website development agency for business approach largely following these days?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>In modern website development agencies integrate user-centric design, agile methods, and responsive principles, focusing on mobile-first approaches. Their goal: create robust, visually appealing websites delivering seamless experiences across devices and platforms.</p>
@@ -211,7 +211,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Why is Responsive Web Design important?
+                                            Why is Responsive Web Design for brands important?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Responsive Web Design is vital for effective display on different screens, prioritizing user experience. Our Indian website development firm focuses on the mobile-first approach, ensuring optimal performance and adaptability across devices. This strategy enhances engagement, prolongs stay time, and boosts conversion rates.</p>
@@ -223,7 +223,7 @@
                                             Do you offer content writing services in website design for small business?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Certainly! As a website development agency, we offer content writing services alongside web design and development. Our skilled writers collaborate closely with you to create engaging content that resonates with your audience, aiming to drive user interaction on your website.</p>
+                                            <p title="best website design for small business">Certainly! As a website development agency, we offer content writing services alongside web design and development. Our skilled writers collaborate closely with you to create engaging content that resonates with your audience, aiming to drive user interaction on your website.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
@@ -241,7 +241,7 @@
                                             Will my website be SEO friendly and get ranked once it's completed?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>To rank your website well, ongoing SEO efforts are essential. As a top web design company, we ensure your site is SEO-ready, but achieving a high SERP position requires continuous SEO practices. Consider our SEO services to enhance your site's ranking. Our experts create custom strategies to boost visibility and attract more visitors. We monitor and optimize your site for SEO success.</p>
+                                            <p>To rank your website well, ongoing SEO efforts are essential. As a top web design company for business, we ensure your site is SEO-ready, but achieving a high SERP position requires continuous SEO practices. Consider our SEO services for your business to enhance your site's ranking. Our experts create custom strategies to boost visibility and attract more visitors. We monitor and optimize your site for SEO success.</p>
                                         </div>
                                     </li>
                                 </ul>            

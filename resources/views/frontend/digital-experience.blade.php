@@ -1,7 +1,8 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Experience Services | Digital Experience Platform Solutions")
-@section('description', "Looking for Digital Experience Services? Our Digital Experience Platform Solutions provide customized strategies to transform your business")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Top Digital Marketing Company for Businesses | SEO Service Agency for Businesses | JFS Technologies")
+@section('description', "Find top digital marketing company for businesses of all sizes. Expert SEO services for large businesses to drive growth, visibility, and online success.")
+@section('keywords', "top digital experience company for businesses, best digital marketing agency, top social media advertising company, 
+web design company for businesses, web development services for business, Social media marketing for businesses, SEO service provider agency, Graphic designing services for all businesses, graphic design company")
 
 @section('content')
 
@@ -12,7 +13,7 @@
                 <div class="banner-five-content">
                     <span></span>
                     <h1 class="text-white" title="Digital Marketing services for all businesses">Digital <b><br>Experience</b></h1>
-                    <p class="text-white">Our digital experience services are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, mobile application development, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
+                    <p class="text-white">Our digital experience services to boost your online presence and engage your audience. From website development to digital marketing services, mobile application development services, and creative graphic designing services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -37,8 +38,8 @@
 				<div class="work-process-card-three">
                     <a href="{{ url('/services/digital-marketing-company') }}">
                         <div class="number-title invisible">01.</div>
-                        <h3>Digital Marketing</h3>
-                        <p>Digital marketing leverages online platforms to promote products and engage customers, using strategies like SEO and social media to enhance visibility and drive growth.</p>
+                        <h3 title="digital marketing services for business">Digital Marketing</h3>
+                        <p>Best digital marketing agency for all businesses to promote products and engage customers, using strategies like SEO and social media to enhance visibility.</p>
                         <!-- <i class="fal fa-ad my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/digi-mkt.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -51,8 +52,8 @@
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/website-design-and-development') }}">
                         <div class="number-title invisible">02.</div>
-                        <h3>Website Development</h3>
-                        <p>Website development involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
+                        <h3 title="Website development for business">Website Development</h3>
+                        <p>Web development services for business involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
                         <!-- <i class="fal fa-desktop-alt my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/web-dev.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -65,8 +66,8 @@
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/mobile-app-development') }}">
                         <div class="number-title invisible">03.</div>
-                        <h3>Mobile App Development</h3>
-                        <p>Mobile app development involves creating applications for smartphones and tablets to enhance user experience and drive engagement.</p>
+                        <h3 title="Top mobile application development company">Mobile App Development</h3>
+                        <p>Top mobile application development company creates applications for smartphones and tablets to enhance user experience and drive engagement.</p>
                         <!-- <i class="fas fa-mobile-alt my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/app-dev.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -79,8 +80,8 @@
                 <div class="work-process-card-three">
                     <a href="#">
                         <div class="number-title invisible">04.</div>
-                        <h3>Creative Services</h3>
-                        <p>It provide innovative design, branding & content solutions to enhance brand identity & engagement, including graphic design, copywriting & video production.</p>
+                        <h3 title="creative graphic designing services">Creative Services</h3>
+                        <p>It provides innovative design, branding & content solutions to improve brand identity, including creative graphic designing services, copywriting & video production.</p>
                         <!-- <i class="fal fa-lightbulb-on my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/creative.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -94,71 +95,71 @@
 </section>
 
 
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2 title="Digital services for all business">Why Trust Our Digital Experience Services?</h2>
-                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
-						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Strategies</h3>
-									</div>
-									<p>We work closely with you to create solutions designed around your unique business needs.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
-									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Ongoing Support</h3>
-									</div>
-									<p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
+<div class="choose-area pt-100 pb-70 home">
+    <div class="container">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
+            <div class="col-lg-12">
+                <div class="choose-content mr-20">
+                    <div class="section-title mb-3">
+                        <span class="sp-color1">We Are Best!!</span>
+                        <h2 title="Digital services for all business">Why Trust Our Digital Experience Services?</h2>
+                        <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-pencil-ruler"></i>
+                                    <h3>Tailored Strategies</h3>
+                                </div>
+                                <p>We work closely with you to create solutions designed around your unique business needs.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-users-crown"></i>
+                                    <h3>Technology Prowess</h3>
+                                </div>
+                                <p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-analytics"></i>
+                                    <h3>Proven Track Record</h3>
+                                </div>
+                                <p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-headset"></i>
+                                    <h3>Ongoing Support</h3>
+                                </div>
+                                <p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6">
+                <div class="choose-img">
+                    <img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
 
 
 <div class="security-area pt-100 pb-70">
 	<div class="container" data-aos="fade-up" data-aos-duration="500">
 		<div class="section-title text-center">
 		    <span class="sp-color2">Plan Descriptions</span>
-		    <h2>Choose the Affordable Digital Marketing Plan For Businesss</h2>
+		    <h2>Choose the Affordable Digital Marketing Plan For Business</h2>
 		</div>
 		<div class="row pt-45">
 		    <div class="col-lg-4 col-sm-6">
@@ -200,7 +201,7 @@
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
                         <h2>Ready to Launch Your First Campaign with the Best Digital Marketing Agency?</h2>
-                        <p>Whether you need a new website design or a mobile application to reach your customers on the        go, our services are tailored to meet your unique requirements. Our digital marketing expertise will help you reach and engage with your target audience through various online channels, while our creative services will ensure that your brand identity is reflected consistently across all digital touchpoints.</p>
+                        <p>Whether you need a new website design or a mobile application to reach your customers on the go, our services are tailored to meet your unique requirements. Our digital marketing expertise will help you reach and engage with your target audience through various online channels, while our creative graphic designing services will ensure that your brand identity.</p>
                         <p>Partner with us to take your digital experience to the next level and drive meaningful results for your business. With our comprehensive suite of services and experienced team, we can help you achieve your digital goals and stand out in today's fast-paced digital world.</p>
                     </div>
                     <h3>We Have 24+ Years Of Experience. We Offer Digital Experience with IT Solutions</h3>
@@ -230,7 +231,7 @@
                                             What is Digital Experience?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital Experience refers to the interactions and experiences users have with a business across digital platforms like websites, mobile apps, and other digital touchpoints. It focuses on delivering seamless, engaging, and user-friendly digital interactions.</p>
+                                            <p>Digital Experience Services refers to the interactions and experiences users have with a business across digital platforms like websites, mobile apps, and other digital touchpoints. It focuses on delivering seamless, engaging, and user-friendly digital interactions.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">

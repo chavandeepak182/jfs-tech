@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Marketing Agency | Top Digital Marketing Services")
-@section('description', "JFS Technologies is a top digital marketing company serving businesses in India and the United States. We offer innovative solutions including SEO, SMM, PPC and Email Marketing services to drive business growth.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Best Digital Marketing Agency for all Businesses | Best PPC Advertising company | JFS Technologies")
+@section('description', "Discover the best digital marketing agencies for startups offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
+@section('keywords', "best digital marketing agency for all businesses, best digital marketing agency, best ppc advertising company, SEO Agency for all businesses, Social media marketing services  for business, Email Marketing services for business")
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Unlock Your Brand’s Potential with Powerful Digital Marketing</h1>
+            <h1 title="best digital marketing agency for all business">Unlock Your Brand’s Potential with Powerful Digital Marketing</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -27,39 +27,39 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Digital Marketing Solutions to Boost Online Presence</h2>
-            <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Our digital marketing services are designed to help your business grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO to paid advertising and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
+            <h2 title="Best Digital marketing services agency">Digital Marketing Solutions to Boost Online Presence</h2>
+            <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Best digital marketing agency  is designed to help your business grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO services for all businesses to paid advertising and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="{{ url('/services/seo-services') }}">1. Search Engine Optimization (SEO)</a></h3>
-                    <p>SEO is the foundation of any successful digital marketing strategy. Our SEO services are designed to help your website rank higher on search engines, increase organic traffic, and improve visibility. We focus on both on-page and off-page optimization to ensure that your site performs well on search engines like Google.</p>
+                    <h3><a href="{{ url('/services/seo-services') }}">1.  Search Engine Optimization (SEO) Services</a></h3>
+                    <p>SEO Agency for all businesses is the foundation of any successful digital marketing strategy. Our SEO expert services are designed to help your website rank higher on search engines, increase organic traffic, and improve visibility. We focus on both on-page and off-page optimization to ensure that your site performs well on search engines like Google.</p>
                     <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="{{ url('/services/smo-services') }}">2. Social Media Management</a></h3>
-                    <p>Social media platforms are crucial for connecting with your audience and creating brand awareness. Our social media marketing services help you engage your audience on platforms like Facebook, Instagram, LinkedIn, and more. We develop strategies that build a loyal community around your brand, drive traffic, and encourage customer interaction.</p>
+                    <h3><a href="{{ url('/services/smo-services') }}">2. Social Media Management Services</a></h3>
+                    <p>Social media platforms are crucial for connecting with your audience and creating brand awareness. Our Social media marketing services for business help you engage your audience on platforms like Facebook, Instagram, LinkedIn, and more. We develop strategies that build a loyal community around your brand, drive traffic, and encourage customer interaction.</p>
                     <a href="{{ url('/services/smo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="{{ url('/services/ppc-services') }}">3. Paid Advertising (PPC)</a></h3>
-                    <p>Paid advertising allows businesses to get quick visibility and reach a wider audience. Our PPC services help you run targeted campaigns across platforms like Google Ads, Bing, and social media. We ensure that your ads reach the right people at the right time, driving relevant traffic and delivering measurable ROI.</p>
+                    <h3><a href="{{ url('/services/ppc-services') }}">3. Paid Advertising (PPC) Services</a></h3>
+                    <p>Best PPC advertising company for businesses to get quick visibility and reach a wider audience. Our PPC service provider agency helps you run targeted campaigns across platforms like Google Ads, Bing, and social media. We ensure that your ads reach the right people at the right time, driving relevant traffic and delivering measurable ROI.</p>
                     <a href="{{ url('/services/ppc-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/e-mark.gif" class="brand-logo-one icons-img" alt="network">
-                    <h3><a href="{{ url('/services/email-marketing') }}">4. Email Marketing</a></h3>
-                    <p>Email marketing is a powerful tool for nurturing leads and keeping your audience engaged. Our email marketing services help you create personalized campaigns that deliver the right message to the right people at the right time. From newsletters to automated email sequences, we provide a comprehensive approach to email marketing.</p>
+                    <h3><a href="{{ url('/services/email-marketing') }}">4. Email Marketing Services</a></h3>
+                    <p>Email marketing is a powerful tool for nurturing leads and keeping your audience engaged. Our email marketing services for businesses help you create personalized campaigns that deliver the right message to the right people at the right time. From newsletters to automated email sequences, we provide a comprehensive approach to email marketing.</p>
                     <a href="{{ url('/services/email-marketing') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
@@ -68,72 +68,72 @@
 </section>
 
 
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose Our Digital Marketing Services?</h2>
-                            <p>With years of experience, our digital marketing experts are here to help you navigate the complex world of online marketing. We combine creativity with data-driven strategies to deliver measurable results, allowing your business to stand out in a crowded digital marketplace.</p>
-						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
-									</div>
-									<p>Our team brings extensive experience across multiple sectors, ensuring best practices tailored to your needs.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
-									</div>
-									<p>We stay on the cutting edge of technology trends, utilizing cloud, automation, and modern UI/UX design to enhance application functionality.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
-									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
-								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Dedicated Support</h3>
-									</div>
-									<p>From consulting to post-implementation, we’re with you every step of the way to ensure success.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/s/images/choose-img.jpg" alt="Images">
-					</div>
-				</div> -->
-			</div>
-		</div>
-	</div>
+<div class="choose-area pt-100 pb-70 home">
+    <div class="container">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-12">
+                <div class="choose-content mr-20">
+                    <div class="section-title mb-3">
+                        <span class="sp-color1">We Are Best!!</span>
+                        <h2>Why Choose Our Best Digital Marketing Services?</h2>
+                        <p>With years of experience, our digital marketing experts services are here to help you navigate the complex world of online marketing. We combine creativity with data-driven strategies to deliver measurable results, allowing your business to stand out in a crowded digital marketplace.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-pencil-ruler"></i>
+                                    <h3>Tailored Solutions</h3>
+                                </div>
+                                <p>Our team brings extensive experience across multiple sectors, ensuring best practices tailored to your needs.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-users-crown"></i>
+                                    <h3>Technology Prowess</h3>
+                                </div>
+                                <p>We stay on the cutting edge of technology trends, utilizing cloud, automation, and modern UI/UX design to enhance application functionality.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-analytics"></i>
+                                    <h3>Proven Track Record</h3>
+                                </div>
+                                <p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="choose-content-card">
+                                <div class="content">
+                                    <i class="fal fa-headset"></i>
+                                    <h3>Dedicated Support</h3>
+                                </div>
+                                <p>From consulting to post-implementation, we’re with you every step of the way to ensure success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6">
+                <div class="choose-img">
+                    <img src="{{ asset('theme') }}/assets/s/images/choose-img.jpg" alt="Images">
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
 
 
 <div class="case-study-area pt-80 pb-70">
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Success Stories in Application Modernization</h2>
-            <p>See how our Application Modernization services have helped businesses transform:</p>
+            <h2>Success Stories in Application Modernization Consulting Services</h2>
+            <p>See how our Application modernization consulting services have helped businesses transform:</p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-md-6">
@@ -229,7 +229,7 @@
                             <div class="faq-accordion">
                                 <ul class="accordion">
                                     <li class="accordion-item">
-                                        <a class="accordion-title active" href="javascript:void(0)">
+                                        <a class="accordion-title active" href="javascript:void(0)" title="Digital marketing services for business">
                                             <i class="bx bx-plus"></i>
                                             Why is digital marketing important for my business?
                                         </a>
@@ -243,13 +243,13 @@
                                             How long does it take to see results from digital marketing?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>The timeline depends on the strategy. SEO may take 3-6 months for noticeable results, while PPC and social media campaigns can show immediate impact.</p>
+                                            <p title="seo services agency for your business">The timeline depends on the strategy. SEO may take 3-6 months for noticeable results, while PPC and social media campaigns can show immediate impact.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Which digital marketing services do you offer?
+                                            Which top digital marketing services do you offer?
                                         </a>
                                         <div class="accordion-content">
                                             <p>We provide a range of services, including SEO, PPC, social media marketing, content marketing, email marketing, and web design, tailored to your business goals.</p>
