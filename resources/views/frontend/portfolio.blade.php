@@ -1,6 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Portfolio - JFS Technologies")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Digital Transformation Portfolio Management: Streamlining Your Business Strategy")
+@section('description', "Optimize your business strategy with digital transformation portfolio management. Enhance efficiency, drive innovation, and achieve successful outcomes.")
+@section('keywords', "digital transformation portfolio management, digital transformation portfolio")
 
 @section('content')
 <div class="inner-banner" style="background-image: url(../theme/assets/images/modern-app.webp);">

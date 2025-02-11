@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Best B2B End-to-End Sales | Digital Marketing Company - JFS Technologies")
-@section('keywords', "B2B End-to-End Sales, B2B End-to-End Sales Services, Digital marketing company, Lead generation services, Lead Qualification, Digital marketing services")
-@section('description', "Discover comprehensive B2B End-to-End Sales services with our leading digital marketing company. Contact us for services.")
+@section('title', "About Us: Leading Digital Transformation Services Company")
+@section('description', "Discover how our leading digital transformation services drive innovation and success for businesses. Learn more about our expertise")
+@section('keywords', "digital transformation services company, digital transformation consulting services, digital transformation services")
 
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>About Us</h1>
-            <p class="text-white">Holistic digital solutions meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
+            <p class="text-white">Holistic digital transformation services company meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
         </div>
     </div>
     
@@ -38,8 +38,8 @@
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">24+ Years Leadership Experience</span>
-						<h2>Right Partner for Software Innovation</h2>
-						<p>At JFS Technologies, we are a forward-thinking technology company committed to helping businesses thrive in a constantly evolving digital landscape. With a deep understanding of emerging technologies and industry trends, we design and implement innovative solutions tailored to your specific needs. Whether it&#39;s transforming legacy systems, building interactive experiences, or scaling your operations, we are your trusted partner in achieving sustainable growth. Founded on the principles of collaboration, innovation, and excellence, JFS Technologies brings together a team of experienced professionals dedicated to delivering measurable results. Our goal is to not only solve your current challenges but also prepare your business for the opportunities of tomorrow.</p>
+						<h2 title="Right Partner for Digital Transformation Services">Right Partner for Your Digital Transformation</h2>
+						<p>At JFS Technologies, we are a forward-thinking technology company committed to helping businesses thrive in a constantly evolving Digital Transformation Services. With a deep understanding of emerging technologies and industry trends, we design and implement innovative solutions tailored to your specific needs. Whether it's transforming legacy systems, building interactive experiences, or scaling your operations, we are your trusted partner in achieving sustainable growth. Founded on the principles of collaboration, innovation, and excellence, JFS Technologies brings together a team of experienced professionals dedicated to delivering measurable results. Our goal is to not only solve your current challenges but also prepare your business for the opportunities of tomorrow.</p>
 					</div>
 				</div>
             </div>
@@ -52,8 +52,8 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Our Trusted Labels!</span>
-            <h2>Our Brands</h2>
-            <p class="margin-auto">At JFS Technologies, we are committed to driving innovation, sustainability, and inclusivity across our ventures. Through our diverse portfolio of brands, we work towards building a digital future that empowers both individuals and organizations. Each brand under our umbrella shares a focus on delivering exceptional services and solutions, with a commitment to quality and customer satisfaction.</p>
+            <h2 title="digital transformation consulting services">Our Brands</h2>
+            <p class="margin-auto">At JFS Technologies, we are committed to driving innovation, sustainability, and inclusivity across our ventures. Through our diverse portfolio of brands, we work towards building a digital future that empowers both individuals and organizations. Each brand under our umbrella shares a focus on delivering exceptional digital transformation consulting services and solutions, with a commitment to quality and customer satisfaction.</p>
         </div>
         <div class="row mx-auto justify-content-center custom-card brands">
 			<div class="row pt-45 align-items-center justify-content-center text-center">
@@ -102,7 +102,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2 title="digital transformation services">Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -316,7 +316,7 @@
                     <div class="section-title">
                         <span class="sp-color2">Partner Up With Us</span>
                         <h2 class="text-dark">Unlock Your Project's Potential</h2>
-                        <p class="text-dark">At JFS Technologies, we are more than a service provider—we are your partner in digital transformation. Our commitment to quality, innovation, and client satisfaction drives everything we do, ensuring that your business is equipped to succeed in the digital era. For more details on each service, visit our Services Pages to learn how JFS Technologies can help your business grow.</p>
+                        <p class="text-dark">At JFS Technologies, we are more than a digital transformation services provider—we are your partner in digital transformation. Our commitment to quality, innovation, and client satisfaction drives everything we do, ensuring that your business is equipped to succeed in the digital era. For more details on each service, visit our Services Pages to learn how JFS Technologies can help your business grow.</p>
                     </div>
                     <a href="{{ url('/services') }}" class="default-btn btn-bg-one border-radius-5 py-3">Request a Free Demo</a>
                 </div>

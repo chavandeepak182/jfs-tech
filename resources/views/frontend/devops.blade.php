@@ -1,17 +1,16 @@
 @extends('frontend.layouts.header')
-@section('title', "DevOps services and Solutions - JFS Technologies")
-@section('description', "We are a DevOps services provider dedicated to improving IT performance and delivering continuous, high-quality results through our expert consulting and development services.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "DevOps software development services | Business Process Automation Services")
+@section('description', "Streamline your software development with DevOps lifecycle. Enhance efficiency and accelerate delivery with our business process automation services.")
+@section('keywords', "devops software development services, devsecops cybersecurity services, container based microservices architecture, ci cd performance testing, Business Process Automation Services")
 
 @section('content')
-
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="banner-five-content">
                     <span></span>
-                    <h1 class="text-white">DevOps <b><br>Services</b></h1>
+                    <h1 class="text-white" title="Devops software development services">DevOps<b><br>Services</b></h1>
                     <p class="text-white">At <strong>JFS Technologies</strong>, we help businesses effortlessly close the gap between development and operations with streamlined and effective DevOps practices. Our innovative solutions boost software delivery speed, foster cross-team collaboration, and embed strong security measures, empowering organizations to adapt and excel in a rapidly changing digital world.</p>
                     <!-- <p class="text-white">Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift, reliable, and effective delivery of software updates, enhancements, and new features. Leveraging our deep proficiency in containers, orchestration tools, and microservices architecture, we design adaptable, scalable, and future-ready solutions that seamlessly adjust to evolving business requirements, industry trends, and technological advancements.</p> -->
                     <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -39,8 +38,8 @@
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Future-Ready Platforms</span>
-						<h2>What is DevOps?</h2>
-						<p>DevOps is a culture, practice, and set of tools designed to automate and integrate the processes of software development and IT operations. By fostering collaboration between teams, DevOps shortens development cycles, enhances deployment quality, and ensures operational efficiency.</p>
+						<h2 title="devops software development services">What is DevOps?</h2>
+						<p>DevOps is a culture, practice, and set of tools designed to automate and integrate the processes of devops software development services and IT operations. By fostering collaboration between teams, DevOps shortens development cycles, enhances deployment quality, and ensures operational efficiency.</p>
                         <h3 class="pt-4">Why DevOps?</h3>
 						<p>Modern businesses need to deliver updates and innovations faster than ever before. DevOps enables this by:</p>
                         <ul>

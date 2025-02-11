@@ -1,10 +1,9 @@
 @extends('frontend.layouts.header')
-@section('title', "Resource Augmentation Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Resource Augmentation for Digital Transformation | IT Resource Augmentation Services")
+@section('description', "Enhance your team's capabilities with our Resource Augmentation for Digital Transformation. Expert IT resource augmentation services to drive growth for your business.")
+@section('keywords', "resource augmentation for digital transformation, IT resource augmentation services, software development resource augmentation, Best company for Backend Development, best company for frontend development, IT Support Engineer Services, Best Company for Fullstack Development, resource augmentation for startups, it staff augmentation company")
 
 @section('content')
-
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">
         <div class="row align-items-center">
@@ -12,7 +11,7 @@
                 <div class="banner-five-content">
                     <span></span>
                     <h1 class="text-white">Resource <b>Augmentation</b></h1>
-                    <p class="text-white">Our team comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our resource augmentation services are here to assist you.</p>
+                    <p class="text-white">Our team for resource augmentation for digital transformation comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our IT resource augmentation services are here to assist you.</p>
                     <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
@@ -38,8 +37,8 @@
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Skilled Experts, Anytime</span>
-						<h2>Your Team, Supercharged</h2>
-						<p>In today’s fast-paced digital world, having the right talent on hand is essential for the success of any project. Our <b>Resource Augmentation</b> services provide businesses with highly skilled developers who seamlessly integrate into existing teams to meet project demands. Whether you need additional support for a project or want to enhance your current team, our resource augmentation solutions provide the expertise you require.</p>
+						<h2 title="Resource Augmentation for digital transformation">Your Team, Supercharged</h2>
+						<p>In today’s fast-paced digital world, having the right talent on hand is essential for the success of any project. Our IT resource augmentation services provide businesses with highly skilled developers who seamlessly integrate into existing teams to meet project demands. Whether you need additional support for a project or want to enhance your current team, our resource augmentation solutions provide the expertise you require.</p>
                         <p>Our developers are proficient in a range of technologies, ensuring that we can meet your specific needs for frontend, backend, full-stack, and support engineering roles. Explore our specialized services below to discover how we can assist you in achieving your business goals.</p>
 					</div>
 				</div>
@@ -53,15 +52,15 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Our Resource Augmentation Services Includes</h2>
+            <h2>Our IT Resource Augmentation Services Includes</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/frontend-developers') }}">
                         <div class="number-title invisible">01.</div>
-                        <h3>Frontend Development</h3>
-                        <p>Our frontend developers use HTML, CSS, JavaScript, React, Angular, and Vue.js to build responsive, user-friendly, and high-performance web experiences, from simple sites to complex applications.</p>
+                        <h3 title="Our IT Resource Augmentation Services Includes">Frontend Development</h3>
+                        <p>Our best company for front end development uses HTML, CSS, JavaScript, React, Angular, and Vue.js to build responsive, user-friendly, and high-performance web experiences, from simple sites to complex applications.</p>
                         <!-- <i class="fad fa-bring-front my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -75,7 +74,7 @@
                     <a href="{{ url('/services/backend-developers') }}">
                         <div class="number-title invisible">02.</div>
                         <h3>Backend Development</h3>
-                        <p>Our backend developers are experts in Python, Java, PHP, .NET, Node.js, and more, delivering robust server-side logic, databases, and APIs for scalable, secure, reliable, and highly efficient software solutions.</p>
+                        <p>Our Best company for Backend Development are experts in Python, Java, PHP, .NET, Node.js, and more, delivering robust server-side logic, databases, and APIs for scalable, secure, reliable, and highly efficient software solutions.</p>
                         <!-- <i class="fad fa-send-back my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -88,8 +87,8 @@
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/fullstack-developers') }}">
                         <div class="number-title invisible">03.</div>
-                        <h3>Fullstack Development</h3>
-                        <p>Our full-stack developers bridge the gap between frontend and backend, offering comprehensive, scalable, and innovative end-to-end solutions across various tech stacks such as MERN, MEAN, LAMP, and more.</p>
+                        <h3 title="Best Company for Fullstack Development">Fullstack Development</h3>
+                        <p>Our Best Company for Fullstack Development bridges the gap between frontend and backend, offering comprehensive, scalable, and innovative end-to-end solutions across various tech stacks such as MERN, MEAN, LAMP, and more.</p>
                         <!-- <i class="fad fa-box-full my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -102,8 +101,8 @@
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/support-engineers') }}">
                         <div class="number-title invisible">04.</div>
-                        <h3>Support Engineers</h3>
-                        <p>Our support engineers offer a range of services to maintain system performance, from basic troubleshooting to handling complex issues and ensuring seamless operations across all systems.</p>
+                        <h3 title="IT Support Engineer Services">Support Engineers</h3>
+                        <p>Our IT Support Engineer Services offer a comprehensive range to maintain optimal system performance, from basic troubleshooting to handling complex issues, ensuring seamless operations across all systems and networks.</p>
                         <!-- <i class="fab fa-codepen my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="computer">
                         <div class="text-center mt-4">
@@ -124,7 +123,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are The Best!!</span>
-							<h2>Why Choose Our Resource Augmentation Services?</h2>
+							<h2>Why Choose Our Resource Augmentation for Digital Transformation?</h2>
                             <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
 						</div>
 						<div class="row">
@@ -176,7 +175,7 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 		    <span class="sp-color2">Plan Descriptions</span>
-		    <h2>Choose the Best Plan For Your Business</h2>
+		    <h2>Choose the Best Plan For resource augmentation for startups</h2>
 		</div>
 		<div class="row pt-45">
 		    <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -217,8 +216,8 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Flexible Workforce, Limitless Potential</h2>
-                        <p>At <b>JFS Technologies</b>, we offer flexible and scalable resource augmentation services to help businesses achieve their project goals. Connect with us to discover how our skilled developers can contribute to your success. Our process includes:</p>
+                        <h2 title="software development resource augmentation">Flexible Workforce, Limitless Potential</h2>
+                        <p>At <b>JFS Technologies</b>, we offer flexible and scalable IT resource augmentation services to help businesses achieve their project goals. Connect with us to discover how our skilled developers can contribute to your success. Our process includes:</p>
                         <ul class="text-white pt-3">
                             <li>Identify Requirements: We collaborate with you to understand your project’s needs and the specific skills required.</li>
                             <li>Talent Matching: We match you with the right developers based on their expertise and your project’s scope.</li>
@@ -249,10 +248,10 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is resource augmentation, and how does it work?
+                                            What is resource augmentation for digital transformation, and how does it work?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Resource augmentation allows you to hire skilled developers or engineers to work as an extension of your team. They can handle specific tasks or projects while working from our office, seamlessly collaborating with your in-house team.</p>
+                                            <p>Resource augmentation for digital transformation allows you to hire skilled developers or engineers to work as an extension of your team. They can handle specific tasks or projects while working from our office, seamlessly collaborating with your in-house team.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">

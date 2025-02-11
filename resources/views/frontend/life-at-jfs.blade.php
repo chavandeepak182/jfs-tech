@@ -1,6 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "What It’s Like to Work at JFS Technologies")
-@section('description', "Shape the future you envision with JFS Technologies.")
+@section('title', "Exciting Careers at JFS | Join Our Innovative Team Today")
+@section('description', "Explore exciting career opportunities at JFS! Join our innovative team and contribute to cutting-edge solutions in software development and digital marketing.")
+@section('description', "Careers at JFS")
 
 
 @section('content')
