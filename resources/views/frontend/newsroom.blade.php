@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Welcome to the Newsroom - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Best Corporate Online Newsrooms: Enhance Your Brand’s Digital Presence")
+@section('description', "Discover the best corporate online newsrooms to enhance your brand's digital presence. Streamline communication, share updates, and engage your audience effectively.")
+@section('keywords', "best corporate online newsrooms, best corporate newsrooms, corporate online newsrooms")
 
 @section('content')
 

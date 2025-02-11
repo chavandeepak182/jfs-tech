@@ -1,14 +1,13 @@
 @extends('frontend.layouts.header')
-@section('title', "Process Automation Services | Streamline Business Operations")
-@section('description', "Optimize efficiency and reduce costs with process automation services. Automate repetitive tasks, improve workflows, and drive business growth through intelligent solutions.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Process Automation in Software Project Management | Business Process Automation Services")
+@section('description', "Optimize your software project management with process automation. Enhance efficiency Business Process Automation Services with expert automation solutions.")
+@section('keywords', "process automation in software project management, Intelligent Business Process Automation Services, Business Process Automation Services, business process automation company, software development process automation")
 
 @section('content')
-
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Driving Efficiency with Tailored Process Automation Solutions</h1>
+            <h1 title="Enhancing Efficiency through Process Automation in Software Project Management">Driving Efficiency with Tailored Process Automation Solutions</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -35,9 +34,9 @@
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Maximize Efficiency</span>
-						<h2>Automate for Success</h2>
-						<p>In the fast-paced world of software development, automation is the key to agility and efficiency. At JFS Technologies, our Process Automation services empower organizations to streamline critical workflows, minimize errors, and enhance productivity. By leveraging industry-leading tools and best practices, we help businesses reduce manual overhead, ensuring reliable and consistent outcomes.</p>
-                        <h3 class="pt-4">Why Process Automation?</h3>
+						<h2 title="Process Automation in Software Project Management">Automate for Success</h2>
+						<p>In the fast-paced world of software development process automation, automation is the key to agility and efficiency. At JFS Technologies, our business Process Automation services empower organizations to streamline critical workflows, minimize errors, and enhance productivity. By leveraging industry-leading tools and best practices, we help businesses reduce manual overhead, ensuring reliable and consistent outcomes.</p>
+                        <h3 class="pt-4" title="process automation in software project management">Why Process Automation?</h3>
 						<p>Manual processes can slow down development cycles, introduce inconsistencies, and increase the risk of errors. Process automation:</p>
                         <ul>
                             <li>Ensures consistent and repeatable workflows.</li>
@@ -52,13 +51,12 @@
     </div>
 </div>
 
-
 <section class="services-style-area home_cards pt-80 pb-70" id="service-sec">
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">Boost Productivity Now</span>
-			<h2>Work Smarter, Not Harder with Process Automation</h2>
-			<p class="margin-auto">Our team of experts specializes in CI/CD pipeline services that simplify the process of creating, testing, and rolling out code updates with speed and precision. By automating crucial steps in the development cycle, we enable teams to expedite software delivery without compromising on quality or dependability. Leveraging our knowledge of CI/CD tools and industry standards, we equip businesses to adopt a mindset of ongoing integration and delivery, leading to quicker launches and a greater edge in the market.</p>
+			<h2>Work Efficiently with Business Process Automation Services</h2>
+			<p class="margin-auto">Our team of experts specializes in CI/CD pipeline services (link to CI/CD Page) that simplify the process of creating, testing, and rolling out code updates with speed and precision. By automating crucial steps in the development cycle, we enable teams to expedite software delivery without compromising on quality or dependability. Leveraging our knowledge of CI/CD tools and industry standards, we equip businesses to adopt a mindset of ongoing integration and delivery, leading to quicker launches and a greater edge in the market.</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -97,7 +95,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Incident Response</h3>
-					<p>Simplify incident management with services like <b>PagerDuty</b> and <b>VictorOps</b>, enabling coordinated responses, timely communication, efficient issue resolution, and improved team collaboration.</p>
+					<p>Simplify incident management with Business Process Automation Services <b>PagerDuty</b> and <b>VictorOps</b>, enabling coordinated responses, timely communication, efficient issue resolution, and improved team collab.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/incident-res.svg" class="brand-logo-one" alt="Incident Response" style="width: 25%;">
 				</div>
 			</div>
@@ -121,7 +119,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are The Best!!</span>
-							<h2>Benefits of Process Automation</h2>
+							<h2>Advantages of Business Process Automation Services</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -172,8 +170,8 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
             <span class="sp-color2">Our Impact</span>
-            <h2>Industries We Serve</h2>
-            <p class="pb-5">Our Process Automation solutions cater to diverse industries, including:</p>
+            <h2 title="Industries Benefiting from Our Business Process Automation Service">Industries We Serve</h2>
+            <p class="pb-5">Our Business Process Automation services cater to diverse industries, including:</p>
 			<img src="{{ asset('theme') }}/assets/images/cicd-indus.png" alt="Images">
         </div>
 	</div>
@@ -230,7 +228,7 @@
 						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -243,7 +241,7 @@
 </div>
 
 
-<div class="about-area about-bg2 pt-5">
+<div class="about-area about-bg2 pt-5 pb-2">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
@@ -256,7 +254,7 @@
                     <div class="section-title">
                         <span class="sp-color1">Seamless Workflows</span>
                         <h2>Let’s Automate Together</h2>
-                        <p>Ready to revolutionize your workflows with Process Automation? Partner with JFS Technologies to boost efficiency, reliability, and speed throughout your development lifecycle. Our Process Automation approach includes:</p>
+                        <p>Ready to revolutionize your workflows with process automation in software project management? Partner with JFS Technologies to boost efficiency, reliability, and speed throughout your development lifecycle. Our Process Automation approach includes:</p>
                         <ul class="text-white pt-3">
                             <li>Assessment: Understand current workflows, identify inefficiencies, and define automation goals.</li>
                             <li>Tool Selection: Choose the right automation tools based on project requirements and objectives.</li>
@@ -287,16 +285,16 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is process automation, and why is it important for my business?
+                                            What is process automation in software project management, and why is it important for my business?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Process automation uses tools and technology to streamline repetitive tasks, reduce errors, and improve efficiency. It helps your business save time, cut costs, and focus on what matters most—growth and innovation.</p>
+                                            <p>Process automation in software project management tools and technology to streamline repetitive tasks, reduce errors, and improve efficiency. It helps your business save time, cut costs, and focus on what matters most—growth and innovation.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What services do you provide under process automation?
+                                            What do you provide under business process automation services?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Our process automation services include configuration management, continuous integration, continuous deployment, and monitoring & alerting as code. These solutions optimize your workflows and ensure seamless operations.</p>

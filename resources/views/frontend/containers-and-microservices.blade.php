@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Containers &amp; Microservices Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Building Secure Container-Based Microservices Architecture Applications")
+@section('description', "Discover the benefits of microservices and containers for scalable, efficient development. Enhance flexibility, scalability, and performance in your applications.")
+@section('keywords', "Container-Based Microservices Architecture, Building Secure Container-Based Microservices, container based microservices applications, container and microservice-based applications, Build Your Own Microservices in Flask, Microservices with .net core, Linux Containers for Virtualization, Building Microservices with Node.js, Dockerize Spring Boot Microservices, Microservices Architecture using Docker and Kubernetes, Deploy Microservice Architecture in Docker, Container development using Podman, difference between microservices and containers")
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Efficient, Scalable Solutions with Microservices Architecture</h1>
+            <h1 title="Efficiency and Scalability with Container-Based Microservices Architecture">Efficiency & Scalability with Container-Based Microservices</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -35,9 +35,9 @@
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Microservices in Motion</span>
-						<h2>Scale with Containers</h2>
-						<p>In today’s fast-paced software world, agility & scalability are essential. At <b>JFS Technologies</b>, we leverage Containers and Microservices to transform application development, deployment & management, enabling modularity, flexibility & seamless scaling.</p>
-                        <h3 class="pt-4">Why Containers and Microservices?</h3>
+						<h2 title="Container-Based Microservices Architecture">Scale with Containers</h2>
+						<p>In today’s fast-paced software world, agility & scalability are essential. At JFS Technologies, we leverage Building Secure Container-Based Microservices applications, deployment & management, enabling modularity, flexibility & seamless scaling.</p>
+                        <h3 class="pt-4" title="Why container and microservice-based applications?">Why Containers and Microservices?</h3>
 						<p>Containers package applications and dependencies into portable units that run consistently across environments. Microservices break monolithic apps into modular components, simplifying development, deployment, and maintenance. Together, they empower businesses to:</p>
                         <ul>
                             <li>Enhance scalability and flexibility.</li>
@@ -57,73 +57,73 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">Build Faster, Scale Smarter</span>
-			<h2>Containers + Microservices = Endless Possibilities</h2>
-			<p class="margin-auto">We are specialists in leveraging containers and microservices to enhance your software development and deployment strategies. Containers streamline application packaging and deployment, while microservices architecture simplifies complex applications into manageable components. Together, these technologies offer scalability, flexibility, and resilience for your software projects. Our experienced team has a wealth of knowledge in designing, implementing, and managing containers & microservices for various applications.</p>
+			<h2 title="Building Secure Container-Based Microservices for Limitless Possibilities">Containers + Microservices = Endless Possibilities</h2>
+			<p class="margin-auto">We are specialists in leveraging containers and microservices based applications to enhance your software development and deployment strategies. Containers streamline application packaging and deployment, while microservices architecture simplifies complex applications into manageable components. Together, these technologies offer scalability, flexibility, and resilience for your software projects. Our experienced team has a wealth of knowledge in designing, implementing, and managing containers & microservices for various applications.</p>
 		</div>
 		<div class="row pt-45" data-aos="fade-up" data-aos-duration="750">
-            <h2 class="pb-3">Our Containers Services:</h2>
+            <h2 class="pb-3" title="container based microservices applications">Our Containers Services:</h2>
 			<div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Docker</h3>
-					<p>Package and deploy applications seamlessly with Docker, one of the most popular containerization platforms, ensuring portability and consistency across environments.</p>
+					<h3 title="Deploy Container Architecture in Docker">Docker</h3>
+					<p>Package and Deploy Container Architecture in Docker applications seamlessly with Docker, one of the most popular containerization platforms, ensuring portability and consistency across environments.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/docker.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
                 <div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Podman</h3>
-					<p>Podman is a container engine that provides a secure and fully-featured alternative to Docker, supporting container creation, management, orchestration, and networking.</p>
+					<h3 title="Container development using Podman">Podman</h3>
+					<p>Podman is a container engine that provides a secure & fully-featured alternative to Docker, supporting container development using Podman creation, management, orchestration & networking.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/podman.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Kubernetes</h3>
-					<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications across clusters of nodes.</p>
+					<h3 title="Microservices Architecture using Docker and Kubernetes">Kubernetes</h3>
+					<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and Microservices Architecture using Docker and Kubernetes across clusters of nodes.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/kubernetes.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>LXC/LXD</h3>
-					<p>LXC (Linux Containers) and LXD are system container technologies that enable the secure isolation of applications at the operating system level, providing lightweight virtualization.</p>
+					<h3 title="Linux Containers for Virtualization">LXC/LXD</h3>
+					<p>LXC (Linux Containers) and LXD are system container technologies that enable the secure isolation of Linux Containers for Virtualization applications at the operating system level, providing lightweight virtualization.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/lxc-lxd.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <h2 class="pt-3 pb-3">Our Microservices Services:</h2>
+            <h2 class="pt-3 pb-3" title="container and microservice-based applications">Our Microservices Services:</h2>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Spring Boot</h3>
-					<p>Spring Boot is a Java-based framework that simplifies the development of microservices by providing a robust set of tools and libraries for building, deploying, and scaling applications.</p>
+					<h3 title="Dockerize Spring Boot Microservices">Spring Boot</h3>
+					<p>Dockerize Spring Boot Microservices is a Java-based framework that simplifies the development of microservices by providing a robust set of tools and libraries for building, deploying, and scaling applications.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/spring-boot.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Node.js</h3>
-					<p>Node.js is a powerful JavaScript runtime environment that is commonly used for building lightweight and fast microservices, leveraging a non-blocking, event-driven architecture.</p>
+					<h3 title="Building Microservices with Node.js">Node.js</h3>
+					<p>Building Microservices with Node.js  is a powerful JavaScript runtime environment that is commonly used for building lightweight and fast microservices, leveraging a non-blocking, event-driven architecture.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/node-js.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>.NET Core</h3>
-					<p>.NET Core is a cross-platform framework that supports the creation of microservices using C# and ASP.NET, enabling developers to build scalable and high-performance applications.</p>
+					<h3 title="Microservices with .net core">.NET Core</h3>
+					<p>Microservices with .net core is a cross-platform framework that supports the creation of microservices using C# and ASP.NET, enabling developers to build scalable and high-performance applications.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/dotnet-core.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Flask</h3>
-					<p>Flask is a lightweight Python web framework that is well-suited for developing microservices, offering simplicity and flexibility for building RESTful APIs and web services.</p>
+					<h3 title="Build Your Own Microservices in Flask">Flask</h3>
+					<p>Flask is a lightweight Python web framework that is well-suited for developing microservices, offering Build Your Own Microservices in Flask simplicity and flexibility for building RESTful APIs and web services.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/flask.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
@@ -139,7 +139,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are The Best!!</span>
-						<h2>Key Benefits of Containers &amp; Microservices</h2>
+						<h2 title-="Key Benefits of Container & Microservice-based Applications">Benefits of Containers & Microservices Apps</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -191,7 +191,7 @@
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
             <span class="sp-color2">Our Impact</span>
             <h2>Industries We Serve</h2>
-            <p class="pb-5">Our Process Automation solutions cater to diverse industries, including:</p>
+            <p class="pb-5">Our Business Process Automation Company solutions cater to diverse industries, including:</p>
 			<img src="{{ asset('theme') }}/assets/images/cont-micro-indus.png" alt="Images">
         </div>
 	</div>
@@ -248,7 +248,7 @@
 						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
+                        <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
                         <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
                         <h2>Microservices for Fast, Scalable Applications</h2>
-                        <p>Unlock the potential of modern application development with JFS Technologies’ Containers and Microservices services. Whether you’re modernizing existing systems or building from scratch, we’ll help you achieve faster delivery, improved scalability, and enhanced resilience.</p>
+                        <p>Unlock the potential of modern application development with JFS Technologies’container and microservice-based applications. Whether you’re modernizing existing systems or building from scratch, we’ll help you achieve faster delivery, improved scalability, and enhanced resilience.</p>
                         <ul class="text-white pt-3">
                             <li>Assessment: Evaluate existing systems to identify opportunities for containerization and microservices adoption.</li>
                             <li>Design: Develop a customized architecture tailored to your business needs, ensuring modularity and scalability.</li>
@@ -305,7 +305,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What are containers, and why use them?
+                                            What are Container-Based Microservices Architecture, and why use them?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>Containers are portable packages that include everything needed to run software, ensuring consistency across environments. They streamline development and deployment, making it easier to manage dependencies and scale applications.</p>
@@ -314,7 +314,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do Docker and Podman differ?
+                                            How do Deploy Container Architecture in Docker and Podman differ?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Docker requires a background daemon to run, while Podman is daemonless, making it more secure since it doesn’t need root privileges. Both manage containers, but Docker has a larger community, while Podman integrates well with Kubernetes.</p>
@@ -323,7 +323,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is Kubernetes?
+                                            What is Microservices Architecture using Kubernetes?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Kubernetes is an open-source platform that automates the deployment, scaling, and management of containerized applications. It helps manage multiple containers, ensuring reliability and availability across your application.</p>

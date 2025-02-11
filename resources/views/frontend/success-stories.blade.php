@@ -1,6 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Success Stories - JFS Technologies")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Success Stories of JFS: Transforming Businesses with Digital Excellence")
+@section('description', "Explore the success stories of JFS, where we empower businesses with innovative digital marketing solutions, driving growth and achieving outstanding results.")
+@section('keywords', "Success Stories of JFS")
 
 @section('content')
 <div id="banner" class="inner-banner">
