@@ -1914,6 +1914,10 @@ ul.nav-list li {
   height: 375px;
 }
 
+.ss-page .case-study-item a img {
+  height: 100%;
+}
+
 .case-study-item a img{
   border-radius:0 0 5px 5px;
 }

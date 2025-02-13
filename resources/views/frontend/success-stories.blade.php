@@ -21,7 +21,7 @@
     </video>
 </div>
 
-<div class="case-study-area pt-100 pb-70">
+<div class="case-study-area ss-page pt-100 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>
@@ -30,139 +30,137 @@
         <div class="row pt-45">
             <div class="col-lg-4 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
-                        <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss1.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss1.webp" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">Business Solution</a></h3>
-                        <ul>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">Planing</a> </li>
-                        </ul>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss1.pdf">Baby Diaper Size Recommendation for Consumer Goods Manufacturer</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss1.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
-                        <img src="{{ asset('theme') }}/assets/images/case-study/case-study2.jpg" alt="Images">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss2.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss2.webp" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">Web Development</a></h3>
-                        <ul>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Development</a> </li>
-                        </ul>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss2.pdf">Billing Automation using Face & Object Recognition</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss2.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
-                        <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss3.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss3.webp" alt="Images">
                     </a>
                     <div class="content">
-                        <h3><a href="#">Social Media App</a></h3>
-                        <ul>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Social</a> </li>
-                        </ul>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss3.pdf">Employee Safety Monitoring Solution for a Cast Alloy Company</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss3.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study4.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">UI/UX Research</a></h3>
-<ul>
-<li><a href="#">UI/UX Design</a></li>
-<li><a href="#">Research</a></li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study5.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Business Growth</a></h3>
-<ul>
-<li><a href="#">Business</a></li>
-<li><a href="#">Growth</a></li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study6.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Consulting</a></h3>
-<ul>
-<li><a href="#">Consulting</a></li>
-<li><a href="#">Planing</a></li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study7.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">IT Management</a></h3>
-<ul>
-<li><a href="#">IT</a></li>
-<li><a href="#">Management</a></li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study8.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Data Analysis</a></h3>
-<ul>
-<li><a href="#">Data</a></li>
-<li><a href="#">Analysis</a></li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-<div class="case-study-item">
-<a href="#">
-<img src="{{ asset('theme') }}/assets/images/case-study/case-study9.jpg" alt="Images">
-</a>
-<div class="content">
-<h3><a href="#">Business Reform</a></h3>
-<ul>
-<li><a href="#">Business</a></li>
-<li><a href="#">Reform</a></li>
-</ul>
-<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
-</div>
-</div>
-</div>
-</div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss4.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss4.webp" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss4.pdf">Solid Waste Classification for a European Municipal Corporation</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss4.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss5.pdf">
+                    <img src="{{ asset('theme') }}/assets/images/case-study/ss5.webp" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss5.pdf">Leather Quality Monitoring for a Shoe Manufacturer</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss5.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss6.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss6.webp" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss6.pdf">Enhancing Customer Experience with Alexa Voice Bot for Shipping</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss6.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss7.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss7.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss7.pdf">AI-Powered Waste Management for European Municipality</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss7.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss8.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss8.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss8.pdf">AI-Powered Non-Compliance Monitoring for Remote Workforce</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss8.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss9.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss9.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss9.pdf">AI Powered Document Data Success Story Extractor Platform</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss9.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss10.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss10.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss10.pdf">No-Code AI Platform for Business Success</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss10.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss11.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss11.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss11.pdf">AI Powered Intrusion Detection Platform</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss11.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss12.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss12.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss12.pdf">AI-Powered Demand Forecasting for Water Heater Manufacturer</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss12.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
