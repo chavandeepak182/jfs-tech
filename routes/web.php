@@ -156,8 +156,8 @@ Route::get('/newsroom', function () {
     return view('frontend.newsroom');
 });
 
-Route::get('/xyz-prop', function () {
-    return view('frontend.xyz-prop');
-});
-
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');
+
+Route::get('/thankyou', function () {
+    return view('frontend.thankyou');
+});
