@@ -61,7 +61,8 @@ class ContactController extends Controller
             ],
             'json' => [
                 'sender' => ['email' => 'deepak@jfstechnologies.com', 'name' => 'JFS Technology'], // Admin's sender email
-                'to' => [['email' => 'chavandeepak182@gmail.com', 'name' => 'Admin']],
+                'to' => [['email' => 'irfana@jfstechnologies.com', 'name' => 'Admin']],
+                'cc' => [['email' => 'vaibhav@jfstechnologies.com', 'name' => 'Admin']],
                 'subject' => "New Contact Form Submission: {$data['msg_subject']}",
                 'htmlContent' => "
                     <h2>New Contact Form Submission</h2>
