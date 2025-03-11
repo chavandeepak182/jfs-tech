@@ -1,8 +1,50 @@
 @extends('frontend.layouts.header')
-@section('title', "Resource Augmentation for Digital Transformation | IT Resource Augmentation Services")
-@section('description', "Enhance your team's capabilities with our Resource Augmentation for Digital Transformation. Expert IT resource augmentation services to drive growth for your business.")
-@section('keywords', "resource augmentation for digital transformation, IT resource augmentation services, software development resource augmentation, Best company for Backend Development, best company for frontend development, IT Support Engineer Services, Best Company for Fullstack Development, resource augmentation for startups, it staff augmentation company")
-
+@section('title', "IT Staff Augmentation Services | Resource Augmentation for Digital Transformation")
+@section('description', "Enhance your team's capabilities with our Resource Augmentation for Digital Transformation. Expert IT Staff Augmentation Services to drive growth for your business.")
+@section('keywords', "IT Staff Augmentation Services, resource augmentation for digital transformation, IT Resource Augmentation Services, software development resource augmentation, Best company for Backend Development, best company for frontend development, IT Support Engineer Services, Best Company for Fullstack Development, resource augmentation for startups, it staff augmentation company")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is resource augmentation for digital transformation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Resource augmentation for digital transformation involves integrating skilled IT professionals into your team to accelerate your digital initiatives. JFS Technologies provides experienced developers, engineers, and IT specialists to enhance your projects without long-term hiring commitments."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do IT Staff augmentation services benefit businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "IT resource augmentation services allow businesses to scale their teams efficiently, reduce hiring costs, and gain access to specialized expertise. Whether you need backend, frontend, full-stack development, or IT support engineers, JFS Technologies provides top-tier professionals tailored to your project needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies for software development resource augmentation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies is a trusted IT staff augmentation company that offers highly skilled developers for backend, frontend, and full-stack development. We ensure seamless integration with your existing team, delivering quality, efficiency, and flexibility."
+    }
+  },{
+    "@type": "Question",
+    "name": "What makes JFS Technologies the best company for backend and frontend development?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We specialize in providing backend and frontend developers who excel in cutting-edge technologies like Node.js, Python, React, Angular, and more. Our dedicated teams ensure scalable, high-performance solutions tailored to your business needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does resource augmentation help startups scale efficiently?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For startups, resource augmentation offers cost-effective and on-demand access to skilled IT professionals, allowing them to build and launch their products faster. JFS Technologies provides custom IT resource augmentation services tailored to startups looking to innovate and scale rapidly."
+    }
+  }]
+}
+</script>
 @section('content')
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">
@@ -11,7 +53,7 @@
                 <div class="banner-five-content">
                     <span></span>
                     <h1 class="text-white">Resource <b>Augmentation</b></h1>
-                    <p class="text-white">Our team for resource augmentation for digital transformation comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our IT resource augmentation services are here to assist you.</p>
+                    <p class="text-white">Our team for IT staff augmentation services comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our resource augmentation for digital transformation are here to assist you.</p>
                     <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
@@ -30,15 +72,15 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play p-5">
-                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="IT Staff Augmentation Services">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Skilled Experts, Anytime</span>
-						<h2 title="Resource Augmentation for digital transformation">Your Team, Supercharged</h2>
-						<p>In today’s fast-paced digital world, having the right talent on hand is essential for the success of any project. Our IT resource augmentation services provide businesses with highly skilled developers who seamlessly integrate into existing teams to meet project demands. Whether you need additional support for a project or want to enhance your current team, our resource augmentation solutions provide the expertise you require.</p>
+						<h2>IT Staff Augmentation Services</h2>
+						<p>In today’s fast-paced digital world, having the right talent on hand is essential for the success of any project. Our IT Staff Augmentation Services provide businesses with highly skilled developers who seamlessly integrate into existing teams to meet project demands. Whether you need additional support for a project or want to enhance your current team, our resource augmentation for digital transformation solutions provide the expertise you require.</p>
                         <p>Our developers are proficient in a range of technologies, ensuring that we can meet your specific needs for frontend, backend, full-stack, and support engineering roles. Explore our specialized services below to discover how we can assist you in achieving your business goals.</p>
 					</div>
 				</div>
@@ -52,17 +94,17 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>
-            <h2>Our IT Resource Augmentation Services Includes</h2>
+            <h2>Our IT Staff Augmentation Services Includes</h2>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/frontend-developers') }}">
                         <div class="number-title invisible">01.</div>
-                        <h3 title="Our IT Resource Augmentation Services Includes">Frontend Development</h3>
+                        <h3 title="Our IT Staff Augmentation Services Includes">Frontend Development</h3>
                         <p>Our best company for front end development uses HTML, CSS, JavaScript, React, Angular, and Vue.js to build responsive, user-friendly, and high-performance web experiences, from simple sites to complex applications.</p>
                         <!-- <i class="fad fa-bring-front my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/frontend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -76,7 +118,7 @@
                         <h3>Backend Development</h3>
                         <p>Our Best company for Backend Development are experts in Python, Java, PHP, .NET, Node.js, and more, delivering robust server-side logic, databases, and APIs for scalable, secure, reliable, and highly efficient software solutions.</p>
                         <!-- <i class="fad fa-send-back my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/backend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -90,7 +132,7 @@
                         <h3 title="Best Company for Fullstack Development">Fullstack Development</h3>
                         <p>Our Best Company for Fullstack Development bridges the gap between frontend and backend, offering comprehensive, scalable, and innovative end-to-end solutions across various tech stacks such as MERN, MEAN, LAMP, and more.</p>
                         <!-- <i class="fad fa-box-full my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/fullstack-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -104,7 +146,7 @@
                         <h3 title="IT Support Engineer Services">Support Engineers</h3>
                         <p>Our IT Support Engineer Services offer a comprehensive range to maintain optimal system performance, from basic troubleshooting to handling complex issues, ensuring seamless operations across all systems and networks.</p>
                         <!-- <i class="fab fa-codepen my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/support-engineers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -209,15 +251,15 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="IT Staff Augmentation Services">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2 title="software development resource augmentation">Flexible Workforce, Limitless Potential</h2>
-                        <p>At <b>JFS Technologies</b>, we offer flexible and scalable IT resource augmentation services to help businesses achieve their project goals. Connect with us to discover how our skilled developers can contribute to your success. Our process includes:</p>
+                        <h2 title="software development resource augmentation">IT Staff Augmentation Services</h2>
+                        <p>At <b>JFS Technologies</b>, we offer flexible and scalable IT Staff augmentation services to help businesses achieve their project goals. Connect with us to discover how our skilled developers can contribute to your success. Our process includes:</p>
                         <ul class="text-white pt-3">
                             <li>Identify Requirements: We collaborate with you to understand your project’s needs and the specific skills required.</li>
                             <li>Talent Matching: We match you with the right developers based on their expertise and your project’s scope.</li>
@@ -284,7 +326,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Will the augmented resources work directly with my in-house team?
+                                            Will the IT Staff Augmentation Services work directly with my in-house team?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Yes, our developers and engineers integrate seamlessly into your workflows and communication channels. They’ll collaborate closely with your team to ensure alignment and smooth project execution.</p>
@@ -298,7 +340,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="IT Staff Augmentation Services">
 				</div>
 			</div>
         </div>

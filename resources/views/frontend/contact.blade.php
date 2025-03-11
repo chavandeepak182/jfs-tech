@@ -31,7 +31,7 @@
                             <div class="content">
                                 <i class="bx bx-phone-call"></i>
                                 <h3>Phone Number</h3>
-                                <a href="tel:918329729190">+91 83297 29190</a>
+                                <a href="tel:918788524747">+91 87885 24747</a>
                             </div>
                         </li>
                         <li>

@@ -9,18 +9,6 @@
     <meta name="description" content="@yield('description')">
     <meta name="Keywords" content="@yield('keywords')">
 
-	<link rel="canonical" href="https://jfstechnologies.com/">
-	<link rel="canonical" href="https://www.jfstechnologies.com/services">
-	<link rel="canonical" href="https://jfstechnologies.com/about-us">
-	<link rel="canonical" href="https://jfstechnologies.com/contact-us">
-	<link rel="canonical" href="https://jfstechnologies.com/life-at-jfs">
-	<link rel="canonical" href="https://jfstechnologies.com/newsroom">
-	<link rel="canonical" href="https://jfstechnologies.com/portfolio">
-	<link rel="canonical" href="https://jfstechnologies.com/services/application-modernisation">
-	<link rel="canonical" href="https://jfstechnologies.com/services/ar-vr">
-	<link rel="canonical" href="https://jfstechnologies.com/services/ci-cd-pipelines">
-	<link rel="canonical" href="https://jfstechnologies.com/services/containers-and-microservices">
-
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/fonts/flaticon.css">
@@ -44,6 +32,8 @@
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
 	<!-- magnific-popup -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+	
+	@yield('schema')
 </head>
 
 <body>

@@ -2,6 +2,50 @@
 @section('title', "UI/UX Design - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What makes JFS Technologies a top UI/UX design firm?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies specializes in user-centric UI/UX design that enhances engagement, usability, and conversions. Our team focuses on intuitive designs, seamless navigation, and visually appealing interfaces tailored to your brand."
+    }
+  },{
+    "@type": "Question",
+    "name": "What UI/UX design services does JFS Technologies offer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide a full range of UI/UX design services, including user research, wireframing, prototyping, usability testing, and final UI design to create seamless digital experiences."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can UI/UX consulting services benefit my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our UI/UX consulting services help businesses enhance their digital presence by identifying usability challenges, improving user experience, and optimizing design strategies for better engagement and ROI."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies as your UI/UX design partner?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As a top UI/UX design company, we combine creativity, research, and technology to deliver user-friendly designs that drive business success. We focus on creating engaging, functional, and visually appealing interfaces."
+    }
+  },{
+    "@type": "Question",
+    "name": "How long does a UI/UX design project typically take?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The timeline for a UI/UX design project depends on complexity and requirements. Typically, a small project takes 4-6 weeks, while larger projects may take 2-3 months for complete research, design, and testing."
+    }
+  }]
+}
+</script>
+@endsection
 
 @section('content')
 

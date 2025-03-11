@@ -1,13 +1,56 @@
 @extends('frontend.layouts.header')
-@section('title', "Process Automation in Software Project Management | Business Process Automation Services")
-@section('description', "Optimize your software project management with process automation. Enhance efficiency Business Process Automation Services with expert automation solutions.")
-@section('keywords', "process automation in software project management, Intelligent Business Process Automation Services, Business Process Automation Services, business process automation company, software development process automation")
+@section('title', "Process Automation in Software Project Management | Software Development Process Automation")
+@section('description', "Optimize your Process Automation in Software Project Management. Enhance efficiency Software Development Process Automation with expert automation solutions.")
+@section('keywords', "process automation in software project management, Intelligent Business Process Automation Services,  business process automation service company, software development process automation")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is process automation in software project management?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Process automation in software project management involves using technology to streamline repetitive tasks, improve efficiency, and enhance collaboration. It helps in workflow optimization, task tracking, and reducing manual errors."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can Intelligent Business Process Automation Services benefit my company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Intelligent Business Process Automation (BPA) leverages AI, machine learning, and data analytics to automate complex workflows, enhance decision-making, and improve overall operational efficiency."
+    }
+  },{
+    "@type": "Question",
+    "name": "What industries can benefit from Business Process Automation Services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Industries such as IT, finance, healthcare, manufacturing, and retail can significantly benefit from Business Process Automation by improving efficiency, reducing costs, and enhancing customer experiences."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies as your Business Process Automation Company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies specializes in delivering customized automation solutions that integrate seamlessly with your existing software, ensuring improved productivity, scalability, and cost savings."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does software development process automation enhance productivity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "By automating tasks like code deployment, testing, and debugging, software development process automation reduces manual effort, speeds up development cycles, and ensures higher accuracy in software delivery."
+    }
+  }]
+}
+</script>
 
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="Enhancing Efficiency through Process Automation in Software Project Management">Driving Efficiency with Tailored Process Automation Solutions</h1>
+            <h1>Process Automation in Software Project Management</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -27,7 +70,7 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play p-5">
-                    <img src="{{ asset('theme') }}/assets/images/process-auto-intro.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/process-auto-intro.png" alt="process automation in software project management">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -55,7 +98,7 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">Boost Productivity Now</span>
-			<h2>Work Efficiently with Business Process Automation Services</h2>
+			<h2>Work Efficiently with Process Automation in Software Project Management</h2>
 			<p class="margin-auto">Our team of experts specializes in CI/CD pipeline services (link to CI/CD Page) that simplify the process of creating, testing, and rolling out code updates with speed and precision. By automating crucial steps in the development cycle, we enable teams to expedite software delivery without compromising on quality or dependability. Leveraging our knowledge of CI/CD tools and industry standards, we equip businesses to adopt a mindset of ongoing integration and delivery, leading to quicker launches and a greater edge in the market.</p>
 		</div>
 		<div class="row pt-45">
@@ -64,7 +107,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Configuration Management</h3>
 					<p>Automate provisioning and configuration of infrastructure and applications using tools like <b>Ansible</b>, <b>Puppet</b>, and <b>Chef</b>, ensuring uniformity and repeatability across environments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/config-mgmt.svg" class="brand-logo-one" alt="Configuration Management" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/config-mgmt.svg" class="brand-logo-one" alt="process automation in software project management" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -72,7 +115,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Continuous Integration</h3>
 					<p>Streamline code integration with services like <b>Jenkins</b>, <b>GitLab CI/CD</b>, and <b>TeamCity</b>, enabling developers to merge changes seamlessly, with automated builds and tests triggered upon integration.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/continue-integral.svg" class="brand-logo-one" alt="Continuous Integration" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/continue-integral.svg" class="brand-logo-one" alt="process automation in software project management" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -80,7 +123,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Continuous Deployment</h3>
 					<p>Deploy code changes to staging and production environments with precision using platforms such as <b>AWS CodeDeploy</b>, <b>Azure DevOps</b>, and <b>Jenkins</b>, based on predefined rules and triggers.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/continue-deploye.svg" class="brand-logo-one" alt="Continuous Deployment" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/continue-deploye.svg" class="brand-logo-one" alt="process automation in software project management" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -88,7 +131,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Monitoring & Alerting</h3>
 					<p>Monitor infrastructure and application performance with tools like <b>Prometheus</b>, <b>Grafana</b>, and <b>Nagios</b>, providing real-time insights and automated alerts based on threshold breaches.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/monitor-alert.svg" class="brand-logo-one" alt="Monitoring & Alerting" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/monitor-alert.svg" class="brand-logo-one" alt="process automation in software project management" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -96,7 +139,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Incident Response</h3>
 					<p>Simplify incident management with Business Process Automation Services <b>PagerDuty</b> and <b>VictorOps</b>, enabling coordinated responses, timely communication, efficient issue resolution, and improved team collab.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/incident-res.svg" class="brand-logo-one" alt="Incident Response" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/incident-res.svg" class="brand-logo-one" alt="process automation in software project management" style="width: 25%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
@@ -104,7 +147,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Release Management</h3>
 					<p>Automate the release process, including versioning, deployment approvals & rollbacks, using platforms like <b>Spinnaker</b> & <b>Octopus Deploy</b>, ensuring smooth & controlled software launches.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/release-mgmt.svg" class="brand-logo-one" alt="Release Management" style="width: 25%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/release-mgmt.svg" class="brand-logo-one" alt="process automation in software project management" style="width: 25%;">
 				</div>
 			</div>
 		</div>
@@ -119,7 +162,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are The Best!!</span>
-							<h2>Advantages of Business Process Automation Services</h2>
+							<h2>Advantages of Process Automation in Software Project Management</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -170,9 +213,9 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
             <span class="sp-color2">Our Impact</span>
-            <h2 title="Industries Benefiting from Our Business Process Automation Service">Industries We Serve</h2>
-            <p class="pb-5">Our Business Process Automation services cater to diverse industries, including:</p>
-			<img src="{{ asset('theme') }}/assets/images/cicd-indus.png" alt="Images">
+            <h2 title="Industries Benefiting from Our Process Automation in Software Project Management">Industries We Serve</h2>
+            <p class="pb-5">Our Process Automation in Software Project Management cater to diverse industries, including:</p>
+			<img src="{{ asset('theme') }}/assets/images/cicd-indus.png" alt="process automation in software project management">
         </div>
 	</div>
 </div>
@@ -189,7 +232,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="process automation in software project management">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -201,7 +244,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="process automation in software project management">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -213,7 +256,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="process automation in software project management">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -225,7 +268,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="process automation in software project management">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
@@ -246,7 +289,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="process automation in software project management">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -335,7 +378,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="process automation in software project management">
 				</div>
 			</div>
         </div>

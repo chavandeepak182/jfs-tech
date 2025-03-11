@@ -1,13 +1,55 @@
 @extends('frontend.layouts.header')
-@section('title', "DevSecOps in the Software Development Lifecycle | Development Security Operation Services")
-@section('description', "Integrate DevSecOps into the software development lifecycle for enhanced security and efficiency. Explore our Development Security Operation Services for seamless development.")
+@section('title', "DevSecOps in Software Development Lifecycle | Development Security Operation Services")
+@section('description', "Integrate DevSecOps in software development lifecycle for enhanced security and efficiency. Explore our Development Security Operation Services for seamless development.")
 @section('keywords', "devsecops software development lifecycle, devsecops cybersecurity services, Infrastructure as Code Security in DevSecOps, Automate security testing in Devsecops, Development Security Operation Services")
-
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is DevSecOps in software development lifecycle?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "DevSecOps integrates security practices throughout the software development lifecycle (SDLC) to identify and mitigate vulnerabilities early. It ensures secure coding, continuous monitoring, and compliance without slowing down development."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do DevSecOps cybersecurity services improve application security?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our DevSecOps cybersecurity services provide automated security testing, vulnerability scanning, and compliance checks throughout development. This proactive approach strengthens applications against cyber threats while maintaining agility."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why is Infrastructure as Code (IaC) Security important in DevSecOps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Infrastructure as Code (IaC) Security ensures that cloud and infrastructure configurations follow best security practices from the start. With automated security policies, we prevent misconfigurations, unauthorized access, and compliance issues."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can security testing be automated in DevSecOps?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We implement automated security testing by integrating SAST (Static Application Security Testing), DAST (Dynamic Application Security Testing), and container security tools into CI/CD pipelines. This ensures continuous vulnerability assessment with minimal manual effort."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the key benefits of Development Security Operation (DevSecOps) services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our DevSecOps services enhance security by integrating automated security checks, real-time threat monitoring, and compliance enforcement throughout development. This results in faster deployment, reduced risks, and improved application resilience."
+    }
+  }]
+}
+</script>
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="Integrating Security into the DevSecOps Software Development Lifecycle">Integrating Security into the DevSecOps Software Development</h1>
+            <h1 title="Integrating Security into the DevSecOps Software Development Lifecycle">Integrating the DevSecOps Software Development Lifecycle</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -27,16 +69,16 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play p-5">
-                    <img src="{{ asset('theme') }}/assets/images/devsecops-intro.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/devsecops-intro.png" alt="DevSecOps in Software Development Lifecycle">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Code Secure, Deliver Faster</span>
-						<h2 title="Development Security Operation Services">Security-First DevOps</h2>
-						<p>In the ever-evolving digital landscape, security cannot be an afterthought. At JFS Technologies, our Development Security Operation Services integrate security into every stage of the development and operations lifecycle, ensuring that your applications are protected from potential cyber threats. By embedding security practices into DevOps workflows, we enable you to build and deploy secure software with efficiency and confidence.</p>
-                        <h3 class="pt-4" title="DevSecOps Software Development Lifecycle">Why DevSecOps?</h3>
+						<h2>Development Security Operation Services</h2>
+						<p>In the ever-evolving digital landscape, security cannot be an afterthought. At JFS Technologies, our DevSecOps Software Development Lifecycle integrate security into every stage of the development and operations lifecycle, ensuring that your applications are protected from potential cyber threats. By embedding security practices into DevOps workflows, we enable you to build and deploy secure software with efficiency and confidence.</p>
+                        <h3 class="pt-4" title="DevSecOps Software Development Lifecycle">Why DevSecOps Software Development Lifecycle?</h3>
 						<p>Traditional security methods often slow down DevSecOps Software Development Lifecycle or leave vulnerabilities undetected until later stages. DevSecOps shifts security left—integrating it from the start of development through deployment. This approach helps organizations:</p>
                         <ul>
                             <li>Identify and resolve vulnerabilities early.</li>
@@ -56,7 +98,7 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">DevSecOps: The Future of Security</span>
-			<h2 title="DevSecOps Software Development Lifecycle | Development Security operation Services">Code, Secure, Deploy: Complete DevSecOps Services</h2>
+			<h2>Code, Secure, Deploy: DevSecOps Software Development Lifecycle</h2>
 			<p class="margin-auto">Our DevSecOps services focus on integrating security practices early on in the development process to ensure that your applications are secure from the start. We work closely with your development and operations teams to implement security controls, automate security testing, and continuously monitor and improve the security of your applications. Our goal is to help you build and deploy secure software more efficiently and effectively. With our Development Security operation Services, you can have peace of mind knowing that your applications are protected against cyber threats.</p>
 		</div>
 		<div class="row pt-45 justify-content-center">
@@ -65,7 +107,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Automate Security Testing in DevSecOps">Security Automation</h3>
 					<p>Automate security testing in Devsecops CI/CD pipelines deployment. Continuous testing ensures real-time identification of vulnerabilities without disrupting development.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/secure-auto.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/secure-auto.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -73,7 +115,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Infrastructure as Code Security in DevSecOps">Infrastructure as Code Security</h3>
 					<p>Safeguard your Infrastructure as Code Security in DevSecOps by scanning for vulnerabilities, enforcing configurations & maintaining compliance across cloud resources.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/iac.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/iac.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -81,7 +123,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Compliance Monitoring</h3>
 					<p>Ensure your systems align with evolving regulatory and industry-specific standards through comprehensive automated compliance checks and detailed reporting.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/compliance-monitor.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/compliance-monitor.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -89,7 +131,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Secure Code Review</h3>
 					<p>Equip your development team with effective tools and secure coding best practices to detect and fix security issues during the coding process, thereby reducing risks early.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/secure-code.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/secure-code.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -97,7 +139,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Vulnerability Management</h3>
 					<p>Proactively detect and address vulnerabilities in applications and infrastructure. Our tools and processes help mitigate risks before they can be exploited.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/vulnerabe-mgmt.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/vulnerabe-mgmt.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -105,7 +147,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Container Security</h3>
 					<p>Secure your containerized applications by implementing best practices and utilizing specialized tools to prevent vulnerabilities in environments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/container-secure.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/container-secure.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
@@ -113,7 +155,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Incident Response Planning</h3>
 					<p>Prepare for potential security incidents with comprehensive planning and training. Develop effective response strategies to minimize impact and downtime.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/incident-response.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/incident-response.svg" class="brand-logo-one" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
 		</div>
@@ -128,7 +170,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are The Best!!</span>
-							<h2 title="Benefits of DevSecOps Software Development Lifecycle">Benefits of DevSecOps</h2>
+							<h2 title="Benefits of DevSecOps Software Development Lifecycle">Benefits of DevSecOps Software Development Lifecycle</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -181,7 +223,7 @@
             <span class="sp-color2">Our Impact</span>
             <h2>Industries We Serve</h2>
             <p class="pb-5">Our Process Automation solutions cater to diverse industries, including:</p>
-			<img src="{{ asset('theme') }}/assets/images/devsecops-indus.png" alt="Images">
+			<img src="{{ asset('theme') }}/assets/images/devsecops-indus.png" alt="DevSecOps in Software Development Lifecycle">
         </div>
 	</div>
 </div>
@@ -198,7 +240,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="DevSecOps in Software Development Lifecycle">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -210,7 +252,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="DevSecOps in Software Development Lifecycle">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -222,7 +264,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="DevSecOps in Software Development Lifecycle">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -234,7 +276,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="DevSecOps in Software Development Lifecycle">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -255,7 +297,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="DevSecOps in Software Development Lifecycle">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -263,7 +305,7 @@
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
                         <h2>DevOps Meets DevSecOps Software Development Lifecycle</h2>
-                        <p>At JFS Technologies, we recognize that security is key to your success. With our Development Security Operation services, you can drive innovation while we safeguard your applications, ensuring they are secure, compliant, and resilient to cyber threats. Our approach to DevSecOps includes:</p>
+                        <p>At JFS Technologies, we recognize that security is key to your success. With our Development Security Operation services, you can drive innovation while we safeguard your applications, ensuring they are secure, compliant, and resilient to cyber threats. Our approach to DevSecOps Software Development Lifecycle includes:</p>
                         <ul class="text-white pt-3">
                             <li>Assessment: Analyze existing workflows and security practices to identify gaps and areas for improvement.</li>
                             <li>Implementation: Integrate security tools and processes into CI/CD pipelines and operations workflows, ensuring seamless adoption.</li>
@@ -344,7 +386,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="DevSecOps in Software Development Lifecycle">
 				</div>
 			</div>
         </div>

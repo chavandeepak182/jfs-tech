@@ -2,6 +2,53 @@
 @section('title', "Support Engineers Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('Schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What IT support services does JFS Technologies offer for businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies provides comprehensive IT support, including L0 to L4 support engineers, 24/7 technical support, cloud solutions, and infrastructure management to ensure seamless business operations."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the benefits of hiring a dedicated support engineer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A dedicated support engineer ensures consistent monitoring, rapid issue resolution, and personalized IT support for your business, reducing downtime and improving system performance."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the difference between L1, L2, L3, and L4 support engineers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "L0 Support – Self-service portals, automated responses, FAQs.
+L1 Support – Basic troubleshooting and issue resolution.
+L2 Support – Advanced technical troubleshooting and system fixes.
+L3 Support – In-depth problem resolution, software/hardware debugging.
+L4 Support – Vendor-specific or expert-level issue resolution."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does JFS Technologies provide 24/7 technical support services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! Our 24/7 technical support engineers are available round-the-clock to assist with system monitoring, troubleshooting, and emergency IT support to keep your business running smoothly."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can a Google Cloud Support Engineer help my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our Google Cloud Support Engineers specialize in cloud deployment, security, performance optimization, and troubleshooting to ensure your business maximizes its cloud infrastructure efficiently."
+    }
+  }]
+}
+</script>
 
 @section('content')
 

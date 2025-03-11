@@ -1,8 +1,51 @@
 @extends('frontend.layouts.header')
-@section('title', "Top Digital Marketing Company for Businesses | SEO Service Agency for Businesses | JFS Technologies")
-@section('description', "Find top digital marketing company for businesses of all sizes. Expert SEO services for large businesses to drive growth, visibility, and online success.")
+@section('title', "Top Digital Experience Company for Businesses | Best Digital Marketing Services for Business")
+@section('description', "Find top digital marketing company for businesses of all sizes. Best Digital Marketing Services for Business to drive growth, visibility, and online success.")
 @section('keywords', "top digital experience company for businesses, best digital marketing agency, top social media advertising company, 
 web design company for businesses, web development services for business, Social media marketing for businesses, SEO service provider agency, Graphic designing services for all businesses, graphic design company")
+@section('Schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What makes JFS Technologies a top digital experience company for businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies specializes in creating seamless and engaging digital experiences through innovative web design, development, and marketing solutions. Our expertise helps businesses enhance customer interactions, boost engagement, and drive growth."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies as the best digital marketing agency for your business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer data-driven strategies, including SEO, social media marketing, paid advertising, and content marketing, to maximize online visibility and conversions. Our tailored approach ensures measurable results for businesses of all sizes."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does JFS Technologies help with top social media advertising for businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As a top social media advertising company, we create high-impact ad campaigns across platforms like Facebook, Instagram, LinkedIn, and Twitter. We focus on audience targeting, creative content, and budget optimization to ensure high ROI."
+    }
+  },{
+    "@type": "Question",
+    "name": "What web design and development services does JFS Technologies offer for businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide custom web design and development solutions, ensuring mobile-friendly, fast, and user-centric websites. Whether it’s an e-commerce platform or a corporate website, our team builds high-performance solutions tailored to business needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Does JFS Technologies offer graphic designing services for all businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! As a leading graphic design company, we provide branding, UI/UX design, marketing materials, and creative assets to enhance your brand identity and visual communication across digital and print platforms."
+    }
+  }]
+}
+</script>
 
 @section('content')
 
@@ -12,8 +55,8 @@ web design company for businesses, web development services for business, Social
             <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
                 <div class="banner-five-content">
                     <span></span>
-                    <h1 class="text-white" title="Digital Marketing services for all businesses">Digital <b><br>Experience</b></h1>
-                    <p class="text-white">Our digital experience services to boost your online presence and engage your audience. From website development to digital marketing services, mobile application development services, and creative graphic designing services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
+                    <h1 class="text-white" title="Top Digital Experience Company for Businesses">Digital <b><br>Experience</b></h1>
+                    <p class="text-white">Our top digital marketing company for businesses to boost your online presence and engage your audience. From website development to digital marketing services, mobile application development services, and creative graphic designing services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
                 </div>
             </div>
@@ -31,17 +74,17 @@ web design company for businesses, web development services for business, Social
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Unlock the potential</span>
-            <h2 title="Top Digital Experience Company for Businesses">Our Top Digital Experience Services Includes</h2>
+            <h2 title="Top Digital Experience Company for Businesses">Our Top Digital Experience Company for Businesses</h2>
         </div>
         <div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
                     <a href="{{ url('/services/digital-marketing-company') }}">
                         <div class="number-title invisible">01.</div>
-                        <h3 title="digital marketing services for business">Digital Marketing</h3>
-                        <p>Best digital marketing agency for all businesses to promote products and engage customers, using strategies like SEO and social media to enhance visibility.</p>
+                        <h3 title="Best digital marketing services for business">Digital Marketing</h3>
+                        <p>Best digital marketing services for business to promote products and engage customers, using strategies like SEO and social media to enhance visibility.</p>
                         <!-- <i class="fal fa-ad my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/digi-mkt.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/digi-mkt.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/digital-marketing-company') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -55,7 +98,7 @@ web design company for businesses, web development services for business, Social
                         <h3 title="Website development for business">Website Development</h3>
                         <p>Web development services for business involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
                         <!-- <i class="fal fa-desktop-alt my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/web-dev.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/web-dev.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/website-design-and-development') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -69,7 +112,7 @@ web design company for businesses, web development services for business, Social
                         <h3 title="Top mobile application development company">Mobile App Development</h3>
                         <p>Top mobile application development company creates applications for smartphones and tablets to enhance user experience and drive engagement.</p>
                         <!-- <i class="fas fa-mobile-alt my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/app-dev.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/app-dev.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/mobile-app-development') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -83,7 +126,7 @@ web design company for businesses, web development services for business, Social
                         <h3 title="creative graphic designing services">Creative Services</h3>
                         <p>It provides innovative design, branding & content solutions to improve brand identity, including creative graphic designing services, copywriting & video production.</p>
                         <!-- <i class="fal fa-lightbulb-on my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/creative.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/creative.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/creative-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -102,8 +145,8 @@ web design company for businesses, web development services for business, Social
                 <div class="choose-content mr-20">
                     <div class="section-title mb-3">
                         <span class="sp-color1">We Are Best!!</span>
-                        <h2 title="Digital services for all business">Why Trust Our Digital Experience Services?</h2>
-                        <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
+                        <h2 title="Top Digital Experience Company for Businesses">Why Trust Our Digital Experience Services?</h2>
+                        <p>At JFS Technologies, we Top Digital Experience Company for Businesses work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-6">
@@ -193,7 +236,7 @@ web design company for businesses, web development services for business, Social
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="Top Digital Experience Company for Businesses">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -278,7 +321,7 @@ web design company for businesses, web development services for business, Social
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Top Digital Experience Company for Businesses">
 				</div>
 			</div>
         </div>

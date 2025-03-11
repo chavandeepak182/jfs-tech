@@ -1,2 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /tag/
+Disallow: /thank-you/
+Disallow: /public/
+Sitemap: https://jfstechnologies.com/sitemap.xml

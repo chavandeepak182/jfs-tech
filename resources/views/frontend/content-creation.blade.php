@@ -1,14 +1,56 @@
 @extends('frontend.layouts.header')
-@section('title', "Content Creation Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
-
+@section('title', "Content Creation Marketing Agency | Social Media Content Creation Services")
+@section('description', "Boost your brand with our content creation marketing agency! Expert social media content creation services to engage, grow, and convert your audience.")
+@section('keywords', "content creation marketing agency, social media content creation services, social media content creation packages, video content creation services")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What does your social media content creation service include?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our social media content creation services cover everything from graphic design, copywriting, video production, and post scheduling to audience engagement strategies. We create high-quality, engaging content tailored to your brand’s needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer social media content creation packages?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We provide customizable social media content creation packages to suit different business needs. Whether you require daily posts, weekly videos, or full-scale campaign management, we have a package that fits your budget and goals."
+    }
+  },{
+    "@type": "Question",
+    "name": "What types of video content creation services do you provide?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our video content creation services include promotional videos, explainer animations, product demos, reels, and customer testimonials. We craft high-quality, engaging videos optimized for social media and digital marketing."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can content creation help in marketing my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "As a content creation marketing agency, we develop strategic content that boosts brand awareness, drives engagement, and generates leads. Through compelling visuals, videos, and copywriting, we ensure your message resonates with the right audience."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies for content creation services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies specializes in data-driven content creation services, combining creativity with analytics to deliver impactful social media campaigns. We help businesses grow by crafting content that enhances brand visibility and audience engagement."
+    }
+  }]
+}
+</script>
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Content Crafted to Connect, Enlighten & Empower</h1>
+            <h1>Content Creation Marketing Agency: Engaging & Inspiring</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
@@ -26,8 +68,8 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2"></span>
-			<h2>Content that Engages, Educates & Inspires</h2>
-			<p class="margin-auto">Content is the voice of your brand, and we’re here to help you make it impactful. Our content creation services span from persuasive copywriting to compelling video production, ensuring every piece connects with your audience and amplifies your message. We approach content creation with research, creativity, and precision. By understanding your audience and objectives, we create content that aligns with your brand voice and drives engagement. Our process includes strategy, ideation, and execution, ensuring every piece serves a purpose.</p>
+			<h2>Content Creation Marketing Agency that Engages</h2>
+			<p class="margin-auto">Content is the voice of your brand, and we’re here to help you make it impactful. Our Content Creation Marketing Agency span from persuasive copywriting to compelling video production, ensuring every piece connects with your audience and amplifies your message. We approach content creation with research, creativity, and precision. By understanding your audience and objectives, we create content that aligns with your brand voice and drives engagement. Our process includes strategy, ideation, and execution, ensuring every piece serves a purpose.</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -41,16 +83,16 @@
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Social Media</h3>
-					<p>Creative, on-brand posts for social platforms that foster interaction, build community & enhance audience engagement, brand loyalty & long-term customer relationships.</p>
+					<h3 title="social media content creation services">Social Media</h3>
+					<p>Creative, on-brand posts for social media content creation services, build community & enhance audience engagement, brand loyalty & long-term customer relationships.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/social-media.svg" class="brand-logo-one" alt="social-media">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Video Production</h3>
-					<p>From concept to final cut, we produce high-quality videos that communicate your brand’s story, whether it’s a product explainer, promotional video, or similar content.</p>
+					<h3 title= "video content creation services">Video Production</h3>
+					<p>From concept to final cut, we produce high-quality video content creation services, whether it’s a product explainer, promotional video, or similar content.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/video-production.svg" class="brand-logo-one" alt="video-production">
 				</div>
 			</div>
@@ -74,7 +116,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our Content Creation Services Stands Out?</h2>
+							<h2>Why Our Content Creation Marketing Agency Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
