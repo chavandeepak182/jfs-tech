@@ -1,14 +1,58 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Digital Marketing Agency for all Businesses | Best PPC Advertising company | JFS Technologies")
-@section('description', "Discover the best digital marketing agencies for startups offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
+@section('title', "Best Digital Marketing Agency for all Businesses | Best PPC Advertising company")
+@section('description', "Discover the Best Digital Marketing Agency for all Businesses offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
 @section('keywords', "best digital marketing agency for all businesses, best digital marketing agency, best ppc advertising company, SEO Agency for all businesses, Social media marketing services  for business, Email Marketing services for business")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Why is JFS Technologies considered the best digital marketing agency for all businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies offers tailored digital marketing strategies for businesses of all sizes, ensuring maximum ROI, brand visibility, and lead generation through SEO, PPC, social media, and email marketing."
+    }
+  },{
+    "@type": "Question",
+    "name": "What makes JFS Technologies the best digital marketing agency?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our data-driven approach, expert team, and cutting-edge strategies help businesses achieve online success. We specialize in SEO, paid ads, social media marketing, and content marketing to drive growth."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why should I choose JFS Technologies as the best PPC advertising company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We create highly targeted PPC campaigns that maximize ad spend efficiency, ensuring higher conversions and lower cost per acquisition (CPA) on platforms like Google Ads, Facebook Ads, and LinkedIn Ads."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does JFS Technologies provide SEO services for all businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer custom SEO solutions that improve rankings, organic traffic, and brand visibility for businesses across industries. Our services include keyword research, on-page & technical SEO, content optimization, and link building."
+    }
+  },{
+    "@type": "Question",
+    "name": "What social media and email marketing services does JFS Technologies offer for businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We help businesses build strong brand presence and engagement with social media marketing (Facebook, Instagram, LinkedIn, Twitter) and result-driven email marketing campaigns for lead nurturing, customer retention, and conversions."
+    }
+  }]
+}
+</script>
+<link rel="alternate" href="https://jfstechnologies.com/services/digital-marketing-company" hreflang="en-in" />
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="best digital marketing agency for all business">Unlock Your Brand’s Potential with Powerful Digital Marketing</h1>
+            <h1 title="best digital marketing agency for all business">Best Digital Marketing Agency<br> for all Businesses</h1></br>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -27,13 +71,13 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2 title="Best Digital marketing services agency">Digital Marketing Solutions to Boost Online Presence</h2>
-            <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Best digital marketing agency  is designed to help your business grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO services for all businesses to paid advertising and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
+            <h2 title="Best Digital Marketing Agency for all Businesses">Digital Marketing Agency to Boost Online Presence</h2>
+            <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Best Digital Marketing Agency for all Businesses is designed to help grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO services for all businesses to best PPC advertising companies and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
                     <h3><a href="{{ url('/services/seo-services') }}">1.  Search Engine Optimization (SEO) Services</a></h3>
                     <p>SEO Agency for all businesses is the foundation of any successful digital marketing strategy. Our SEO expert services are designed to help your website rank higher on search engines, increase organic traffic, and improve visibility. We focus on both on-page and off-page optimization to ensure that your site performs well on search engines like Google.</p>
                     <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
@@ -41,7 +85,7 @@
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
                     <h3><a href="{{ url('/services/smo-services') }}">2. Social Media Management Services</a></h3>
                     <p>Social media platforms are crucial for connecting with your audience and creating brand awareness. Our Social media marketing services for business help you engage your audience on platforms like Facebook, Instagram, LinkedIn, and more. We develop strategies that build a loyal community around your brand, drive traffic, and encourage customer interaction.</p>
                     <a href="{{ url('/services/smo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -49,7 +93,7 @@
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
                     <h3><a href="{{ url('/services/ppc-services') }}">3. Paid Advertising (PPC) Services</a></h3>
                     <p>Best PPC advertising company for businesses to get quick visibility and reach a wider audience. Our PPC service provider agency helps you run targeted campaigns across platforms like Google Ads, Bing, and social media. We ensure that your ads reach the right people at the right time, driving relevant traffic and delivering measurable ROI.</p>
                     <a href="{{ url('/services/ppc-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -57,7 +101,7 @@
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/e-mark.gif" class="brand-logo-one icons-img" alt="network">
+                    <img src="{{ asset('theme') }}/assets/images/icons/e-mark.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
                     <h3><a href="{{ url('/services/email-marketing') }}">4. Email Marketing Services</a></h3>
                     <p>Email marketing is a powerful tool for nurturing leads and keeping your audience engaged. Our email marketing services for businesses help you create personalized campaigns that deliver the right message to the right people at the right time. From newsletters to automated email sequences, we provide a comprehensive approach to email marketing.</p>
                     <a href="{{ url('/services/email-marketing') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -75,8 +119,8 @@
                 <div class="choose-content mr-20">
                     <div class="section-title mb-3">
                         <span class="sp-color1">We Are Best!!</span>
-                        <h2>Why Choose Our Best Digital Marketing Services?</h2>
-                        <p>With years of experience, our digital marketing experts services are here to help you navigate the complex world of online marketing. We combine creativity with data-driven strategies to deliver measurable results, allowing your business to stand out in a crowded digital marketplace.</p>
+                        <h2>Why Choose Our Best Digital Marketing <br>Agency for all Businesses?</h2></br>
+                        <p>With years of experience, our best digital marketing agency for all businesses are here to help you navigate the complex world of online marketing. We combine creativity with data-driven strategies to deliver measurable results, allowing your business to stand out in a crowded digital marketplace.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-6">
@@ -132,15 +176,15 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Success Stories in Application Modernization Consulting Services</h2>
-            <p>See how our Application modernization consulting services have helped businesses transform:</p>
+            <h2>Success Stories in Digital Marketing Agency for Business</h2>
+            <p>See how our Best Digital Marketing for Businesses transform:</p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Best Digital Marketing Agency for all Businesses">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -152,7 +196,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Best Digital Marketing Agency for all Businesses">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -164,7 +208,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Best Digital Marketing Agency for all Businesses">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -176,7 +220,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Best Digital Marketing Agency for all Businesses">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -197,15 +241,15 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/arvr-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/arvr-cta.png" alt="Best Digital Marketing Agency for all Businesses">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Transform Your Vision with AR/VR?</h2>
-                        <p>Our AR/VR services are here to help you create memorable, engaging experiences that drive results. Whether you're looking to enhance training, captivate audiences, or visualize complex spaces, we’re ready to support your goals with high-quality AR/VR solutions.</p>
+                        <h2>Boost Your Business with Best Digital Marketing Agency!</h2>
+                        <p>In today’s competitive digital landscape, visibility is everything! At JFS Technologies, we help businesses grow with data-driven digital marketing strategies tailored to your goals.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
@@ -281,7 +325,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Best Digital Marketing Agency for all Businesses">
 				</div>
 			</div>
         </div>

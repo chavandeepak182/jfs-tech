@@ -1,8 +1,50 @@
 @extends('frontend.layouts.header')
-@section('title', "DevOps software development services | Business Process Automation Services")
-@section('description', "Streamline your software development with DevOps lifecycle. Enhance efficiency and accelerate delivery with our business process automation services.")
+@section('title', "DevOps Software Development Services | Business Process Automation Services")
+@section('description', "Streamline your DevOps Software Development Services. Enhance efficiency and accelerate delivery with our business process automation services.")
 @section('keywords', "devops software development services, devsecops cybersecurity services, container based microservices architecture, ci cd performance testing, Business Process Automation Services")
-
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are the benefits of DevOps Software Development Services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "DevOps improves collaboration, accelerates software delivery, enhances scalability, and ensures high reliability through continuous integration and automation."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does DevSecOps enhance cybersecurity in software development?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "DevSecOps integrates security at every stage of the development lifecycle, automating security checks, reducing vulnerabilities, and ensuring compliance without slowing down development."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose a container-based microservices architecture?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It enhances scalability, improves fault isolation, accelerates deployment, and optimizes resource utilization for modern cloud-native applications."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does CI/CD improve software performance testing?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CI/CD automates performance testing, enabling continuous monitoring, faster feedback loops, and early detection of performance bottlenecks."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can JFS Technologies integrate email marketing with my existing CRM or automation tools?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We seamlessly integrate email marketing with CRM platforms like HubSpot, Salesforce, and automation tools like Mailchimp and Active Campaign to streamline your marketing efforts."
+    }
+  }]
+}
+</script>
 @section('content')
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">
@@ -11,7 +53,7 @@
                 <div class="banner-five-content">
                     <span></span>
                     <h1 class="text-white" title="Devops software development services">DevOps<b><br>Services</b></h1>
-                    <p class="text-white">At <strong>JFS Technologies</strong>, we help businesses effortlessly close the gap between development and operations with streamlined and effective DevOps practices. Our innovative solutions boost software delivery speed, foster cross-team collaboration, and embed strong security measures, empowering organizations to adapt and excel in a rapidly changing digital world.</p>
+                    <p class="text-white">At <strong>JFS Technologies</strong>, we help businesses effortlessly close the gap between development and operations with streamlined and effective devOps software development services. Our innovative solutions boost software delivery speed, foster cross-team collaboration, and embed strong security measures, empowering organizations to adapt and excel in a rapidly changing digital world.</p>
                     <!-- <p class="text-white">Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift, reliable, and effective delivery of software updates, enhancements, and new features. Leveraging our deep proficiency in containers, orchestration tools, and microservices architecture, we design adaptable, scalable, and future-ready solutions that seamlessly adjust to evolving business requirements, industry trends, and technological advancements.</p> -->
                     <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -31,14 +73,14 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play">
-                    <img src="{{ asset('theme') }}/assets/images/devops-intro.svg" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/devops-intro.svg" alt="devOps software development services">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Future-Ready Platforms</span>
-						<h2 title="devops software development services">What is DevOps?</h2>
+						<h2 title="devops software development services">What is DevOps Software Development Services?</h2>
 						<p>DevOps is a culture, practice, and set of tools designed to automate and integrate the processes of devops software development services and IT operations. By fostering collaboration between teams, DevOps shortens development cycles, enhances deployment quality, and ensures operational efficiency.</p>
                         <h3 class="pt-4">Why DevOps?</h3>
 						<p>Modern businesses need to deliver updates and innovations faster than ever before. DevOps enables this by:</p>
@@ -61,7 +103,7 @@
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Code Meets Creativity</span>
             <h2>Our DevOps Solutions</h2>
-            <p class="margin-auto">We provide a comprehensive suite of DevOps services tailored to meet your unique needs.</p>
+            <p class="margin-auto">We provide a comprehensive suite of devOps software development services tailored to meet your unique needs.</p>
         </div>
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -71,7 +113,7 @@
                         <h3>CI/CD Pipelines</h3>
                         <p>Streamline the software release process with automated integration and deployment.</p>
                         <!-- <i class="fad fa-infinity my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/ci-cd.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/ci-cd.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('services/ci-cd-pipelines') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -82,10 +124,10 @@
                 <div class="work-process-card-three">
                     <a href="{{ url('services/process-automation') }}">
                         <div class="number-title invisible">02.</div>
-                        <h3>Process Automation</h3>
-                        <p>Enhance operational efficiency by automating routine tasks & workflows.</p>
+                        <h3 title= "Business Process Automation Services">Process Automation</h3>
+                        <p>Enhance efficiency by Business Process Automation Services.</p>
                         <!-- <i class="fad fa-random my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/auto.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/auto.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('services/process-automation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -99,7 +141,7 @@
                         <h3>Containers & Microservices</h3>
                         <p>Build scalable, modular architectures that support agile development.</p>
                         <!-- <i class="fad fa-cloud-upload my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/micro-ser.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/micro-ser.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('services/containers-and-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -113,7 +155,7 @@
                         <h3>DevSecOps</h3>
                         <p>Embed security into every phase of the development lifecycle for robust protection.</p>
                         <!-- <i class="fad fa-cloud-meatball my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/dev-sec.svg" class="brand-logo-one" alt="computer">
+                        <img src="{{ asset('theme') }}/assets/images/icons/dev-sec.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
                             <a href="{{ url('services/devsecops') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -132,7 +174,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are The Best!!</span>
-							<h2>Benefits of Choosing JFS Technologies for DevOps</h2>
+							<h2>Benefits of Choosing DevOps Software Development Services</h2>
                             <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our DevOps services are the right choice:</p>
 						</div>
 						<div class="row">
@@ -223,7 +265,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="DevOps Software Development Services">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -312,7 +354,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="DevOps Software Development Services">
 				</div>
 			</div>
         </div>

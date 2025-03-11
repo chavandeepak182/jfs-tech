@@ -8,7 +8,7 @@
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1>About Us</h1>
-            <p class="text-white">Holistic digital transformation services company meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
+            <p class="text-white">Leading Digital Transformation Services Company meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven insights.</p>
         </div>
     </div>
     
@@ -24,7 +24,7 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="Leading Digital Transformation Services Company">
                     <!-- <div class="about-play-content">
                         <span>Watch Our Intro Video</span>
                         <h2>Perfect Solution for It Services!</h2>
@@ -38,7 +38,7 @@
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">24+ Years Leadership Experience</span>
-						<h2 title="Right Partner for Digital Transformation Services">Right Partner for Your Digital Transformation</h2>
+						<h2 title="Right Partner for Digital Transformation Services">Leading Digital Transformation Services Company</h2>
 						<p>At JFS Technologies, we are a forward-thinking technology company committed to helping businesses thrive in a constantly evolving Digital Transformation Services. With a deep understanding of emerging technologies and industry trends, we design and implement innovative solutions tailored to your specific needs. Whether it's transforming legacy systems, building interactive experiences, or scaling your operations, we are your trusted partner in achieving sustainable growth. Founded on the principles of collaboration, innovation, and excellence, JFS Technologies brings together a team of experienced professionals dedicated to delivering measurable results. Our goal is to not only solve your current challenges but also prepare your business for the opportunities of tomorrow.</p>
 					</div>
 				</div>
@@ -102,7 +102,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
-							<h2 title="digital transformation services">Why Choose JFS Technologies?</h2>
+							<h2 title="digital transformation services">Why Choose JFS Technologies: Leading Digital Transformation Services Company?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -366,22 +366,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/gajananc/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Gajanan Chavan</h3>
-						<span>Marketing Head</span>
-					</div>
-				</div>
-			</div>
+			<!--<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">-->
+			<!--	<div class="team-card">-->
+			<!--		<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">-->
+			<!--		<ul class="social-link">-->
+			<!--			<li>-->
+			<!--				<a href="https://www.linkedin.com/in/gajananc/" target="_blank">-->
+			<!--					<i class="bx bxl-linkedin-square"></i>-->
+			<!--				</a>-->
+			<!--			</li>-->
+			<!--		</ul>-->
+			<!--		<div class="content">-->
+			<!--			<h3>Gajanan Chavan</h3>-->
+			<!--			<span>Marketing Head</span>-->
+			<!--		</div>-->
+			<!--	</div>-->
+			<!--</div>-->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/irfana-s.jpg" alt="Team Images">
@@ -526,22 +526,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/aditya-s.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/aditya-sharma-60ba1a106/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Aditya Sharma</h3>
-						<span>Business Development Executive</span>
-					</div>
-				</div>
-			</div>
+			<!--<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">-->
+			<!--	<div class="team-card">-->
+			<!--		<img src="{{ asset('theme') }}/assets/images/team/aditya-s.jpg" alt="Team Images">-->
+			<!--		<ul class="social-link">-->
+			<!--			<li>-->
+			<!--				<a href="https://www.linkedin.com/in/aditya-sharma-60ba1a106/" target="_blank">-->
+			<!--					<i class="bx bxl-linkedin-square"></i>-->
+			<!--				</a>-->
+			<!--			</li>-->
+			<!--		</ul>-->
+			<!--		<div class="content">-->
+			<!--			<h3>Aditya Sharma</h3>-->
+			<!--			<span>Business Development Executive</span>-->
+			<!--		</div>-->
+			<!--	</div>-->
+			<!--</div>-->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/saayam-s.jpg" alt="Team Images">

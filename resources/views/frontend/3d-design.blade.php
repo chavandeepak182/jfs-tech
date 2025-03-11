@@ -1,14 +1,56 @@
 @extends('frontend.layouts.header')
-@section('title', "3D Design Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
-
+@section('title', "Professional 3D Design Services | 3D Printing Design Service")
+@section('description', "Get expert 3D design services for precision & innovation. From 3D printing designs to custom modeling, we bring your ideas to creativity!")
+@section('keywords', "Professional 3D Design Services, 3D printing design service, 3d drawing interior design, 3d logo printing near me, custom 3d design services")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is included in your 3D printing design service?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our 3D printing design service includes custom modeling, prototyping, and high-quality printing for various applications, from industrial parts to creative designs. We ensure precision and durability in every project."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer 3D drawing for interior design projects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We provide detailed 3D drawings for interior design, including floor plans, furniture layouts, and realistic visualizations to bring your space to life before execution."
+    }
+  },{
+    "@type": "Question",
+    "name": "Where can I find professional 3D logo printing near me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies offers custom 3D logo printing services, helping businesses create unique, high-quality, and durable 3D-printed logos for branding and signage. Contact us to get started!"
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you create custom 3D designs based on my requirements?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely! Our custom 3D design services cater to various industries, including architecture, product design, and branding. Share your ideas, and we’ll bring them to reality with precision and creativity."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies for professional 3D design services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We specialize in high-quality, innovative, and precise 3D designs using cutting-edge technology and expert craftsmanship. Whether for printing, interior design, or branding, our team ensures excellence in every project."
+    }
+  }]
+}
+</script>
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Transform Your Ideas with Professional 3D Services</h1>
+            <h1>Transform Your Ideas with Professional 3D Design Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -26,8 +68,8 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2"></span>
-			<h2>Bringing Concepts to Life with 3D Excellence</h2>
-			<p>3D visualization offers a new perspective, bringing concepts to life with precision and detail. Our 3D services help you showcase products, envision spaces, and create engaging visual experiences that captivate and communicate effectively. Our 3D design process combines technical expertise with creativity, ensuring every project is delivered with precision. From initial concept to final rendering, we work collaboratively with clients to bring their vision to life, creating visuals that are not only accurate but also compelling.</p>
+			<h2>Bringing Professional 3D Design Services to You</h2>
+			<p>Professional 3D Design Services offers a new perspective, bringing concepts to life with precision and detail. Our 3D printing design service help you showcase products, envision spaces, and create engaging visual experiences that captivate and communicate effectively. Our 3D design process combines technical expertise with creativity, ensuring every project is delivered with precision. From initial concept to final rendering, we work collaboratively with clients to bring their vision to life, creating visuals that are not only accurate but also compelling.</p>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -42,15 +84,15 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Exhibition Booth Design</h3>
-					<p>Custom 3D designs for exhibitions and trade shows that grab attention, engage visitors, and create a memorable experience for attendees.</p>
+					<p>Custom 3D design services for exhibitions and trade shows that grab attention, engage visitors, and create a memorable experience for attendees.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/exhibition.svg" class="brand-logo-one" alt="exhibition">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3>Home & Commercial Interiors</h3>
-					<p>3D renderings that allow you to visualize interior spaces accurately, ideal for architects, real estate, and interior designers.</p>
+					<h3>3D Drawing Interior Design</h3>
+					<p>3D drawing interior design that allow you to visualize interior spaces accurately, ideal for architects, real estate, and interior designers.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/interior-design.svg" class="brand-logo-one" alt="interior-design">
 				</div>
 			</div>
@@ -58,7 +100,7 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Strategy</h3>
-					<p>Animations that highlight features, demonstrate functionality, or tell a brand story through engaging 3D visuals, creating a memorable and impactful user experience.</p>
+					<p>Animations that highlight features, demonstrate functionality, or tell a brand story through engaging 3D logo printing near you, visuals, creating a memorable and impactful user experience.</p>
                     <img src="{{ asset('theme') }}/assets/images/icons/content-strategy1.svg" class="brand-logo-one" alt="content-strategy">
 				</div>
 			</div>
@@ -74,7 +116,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Our 3D Design Service Stands Out?</h2>
+							<h2>Why Our Professional 3D Design Services Stands Out?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -196,7 +238,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to deliver a user experience that drives results?</h2>
+                        <h2>Ready to deliver a 3D printing design service that drives results?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Now</a>

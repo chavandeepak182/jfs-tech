@@ -1,67 +1,7 @@
-@extends('frontend.layouts.header')
-@section('title', "Best Data Driven Digital Transformation Services | JFS Technologies")
-@section('description', "Transform your business with JFS Technologies best data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.")
-@section('keywords', "Best Data Driven Digital Transformation Services , Digital Transformation Company, Data Science Consulting services, Cloud services in Infrastructure management, Digital marketing services company, best mobile app development company, Devsecops cybersecurity services, IT staff augmentation services, Website Development Services")
-
-@section('schema')
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG94TD129M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LG94TD129M');
-</script>
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Data Driven Digital Transformation Services">
-<meta property="og:url" content="https://www.jfstechnologies.com/">
-<meta property="og:image" content="https://www.jfstechnologies.com/theme/assets/images/favicon.png">
-<meta property="og:description" content="Transform your business with JFS Technologies' data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.">
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What is Data-Driven Digital Transformation Services, and how can JFS Technologies help?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Data-Driven Digital Transformation involves using data insights to drive business decisions and optimize processes. At JFS Technologies, we implement advanced analytics, AI, and machine learning techniques to help businesses modernize their operations and achieve more efficient and scalable results."
-        }
-      },{
-        "@type": "Question",
-        "name": "How can JFS Technologies assist with software development and digital transformation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "As a leading Digital Transformation Company for Software Development, we offer end-to-end solutions—from custom software development to system integration, helping businesses enhance their digital capabilities. Our team leverages modern technologies like cloud computing and data science to build scalable and secure software that supports your growth."
-        }
-      },{
-        "@type": "Question",
-        "name": "What are your Data Science Consulting services, and how can they benefit my business?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our Data Science Consulting Services provide businesses with insights derived from large datasets to improve decision-making and optimize business processes. From predictive analytics to automation, our experts guide you through leveraging data for innovation and efficiency."
-        }
-      },{
-        "@type": "Question",
-        "name": "Do you provide Cloud Services for Infrastructure Management?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we specialize in Cloud Services in Infrastructure Management, offering reliable cloud solutions that ensure seamless data storage, scalability, and security. Whether it’s optimizing your current infrastructure or migrating to the cloud, we provide tailored solutions for better performance and cost-efficiency."
-        }
-      },{
-        "@type": "Question",
-        "name": "What makes JFS Technologies the best for mobile app development?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "As one of the Best Mobile App Development Companies, we deliver high-quality, custom mobile apps that are user-friendly, scalable, and secure. Whether you're looking to develop apps for iOS, Android, or cross-platform solutions, our team ensures exceptional performance and seamless user experience."
-        }
-      }]
-    }
-</script>
-@endsection
+@extends('frontend.layouts.header-new')
+@section('title', "Digital Transformation Company | Digital Transformation consultant")
+@section('description', "JFS Technologies is a leading digital transformation company, empowering businesses with innovative solutions, and seamless digital strategies to drive growth and success. ")
+@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
 
 @section('content')
 <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -74,8 +14,8 @@
 			</video> -->
 			<div class="container-max">
 				<div class="banner-item-content banner-item-ptb" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-					<h1 title="Empowering Businesses with Best Data Driven Digital Transformation Services">Data-Driven Digital Transformation Services</h1>
-					<p>Empowering enterprises with innovative <a href="{{ url('/services') }}"><font color="#FFFFFF"><strong>Best Data-Driven Digital Transformation Services</a></font></strong>, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
+					<h1 title="JFS Technologies - Digital Transformation Company">Transforming Businesses Through Digital Excellence</h1>
+					<p>Empowering enterprises with innovative technology solutions, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 					<div class="banner-btn">
 						<a href="{{ url('/services') }}" class="default-btn btn-bg-two border-radius-50 mr-20">Explore Our Services <i class="fal fa-arrow-right"></i></a>
 						<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Get a Consultation <i class="bx bx-chevron-right"></i></a>
@@ -94,9 +34,8 @@
 					<div class="about-content ml-25" data-aos="fade-up" data-aos-duration="550">
 						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
-							<h2 title="Digital transformation company for software development">Your Trusted Best Data Driven Digital Transformation Services</h2>
-							<div class="mx-auto pt-3">At JFS Technologies, we are a <a href="{{ url('/services/digital-transformation') }}"><strong>digital transformation company</a></strong>, offering innovative and Digital transformation company for software development to thrive in the digital age. From <a href="{{ url('/services/digital-marketing-company') }}"><strong>digital marketing services</a></strong> to <a href="{{ url('/services/infrastructure-management') }}"><strong>Cloud services in Infrastructure management</a></strong> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
-							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <a href="{{ url('/services/devops') }}"><strong>DevOps cybersecurity services</a></strong>, <a href="{{ url('/services/ci-cd-pipelines') }}"><strong>CI/CD performance testing</a></strong>, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
+							<h2 title="JFS Technologies - Right Partner for Digital Transformation">Right Partner for Digital Transformation</h2>
+							<div class="mx-auto pt-3">At JFS Technologies, we are leaders in digital transformation, offering innovative and customized digital solutions that empower businesses to thrive in the digital age. From digital marketing to cloud services and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions. We pride ourselves on staying ahead of industry trends, delivering future-ready strategies tailored to meet the unique challenges of your business.</div>
 						</div>
 					</div>
 
@@ -129,16 +68,16 @@
 		<div class="container-fluid">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">What We Do?</span>
-				<h2 title="Our Core Digital Transformation Services for all businesses at JFS Technologies">Our Best Data Driven Digital Transformation Services</h2>
-				<div class="text-white w-75 mx-auto pt-3">We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential. Our expertise spans a diverse range of services, including <a href="{{ url('/services/ar-vr') }}" ><font color="#FFFFFF"><strong>AR/VR Services</a></font></strong>, <a href="{{ url('/services/application-modernisation') }}"><font color="#FFFFFF"><strong>Best Application Modernization Services</a></font></strong>, and <a href="{{ url('/services/process-automation') }}"><font color="#FFFFFF"><strong>Business Process Automation</a></font></strong> to <a href="{{ url('/services/containers-and-microservices') }}"><font color="#FFFFFF"><strong>Containers and Microservices.</a></font></strong></div>
+				<h2 title="Our Core Digital Transformation Services at JFS Technologies">Our Core Digital Transformation Services</h2>
+				<div class="text-white w-75 mx-auto pt-3">We create immersive, user-centric experiences with a focus to help your business thrive, using technology to its fullest potential. We specialise in a diverse range of services, excelling in:</div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
-					<div class="card">
-						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="Data Driven Digital Transformation Services">
+					<div class = "card">
+						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="">
 						<div class="card-content">
-							<h3 title="Digital Transformation Services">Digital Transformation</h3>
-							<p>Empowering businesses as a Digital transformation company for software development with next-gen technologies.</p>
+							<h3>Digital Transformation</h3>
+							<p>Empowering businesses with advanced tech for optimization and innovation.</p>
 							<a href="{{ url('/services/digital-transformation') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
@@ -146,11 +85,11 @@
 					</div>
 				</div>
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="750">
-					<div class="card">
-						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="Data Driven Digital Transformation Services">
+					<div class = "card">
+						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="">
 						<div class="card-content">
-							<h3 title="Digital Experience Platform">Digital Experience</h3>
-							<p>Connect your brand, positioning us among the top digital marketing companies for businesses.</p>
+							<h3>Digital Experience</h3>
+							<p>Creating impactful digital touchpoints to connect your brand effectively.</p>
 							<a href="{{ url('/services/digital-experience') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
@@ -158,22 +97,22 @@
 					</div>
 				</div>
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
-					<div class="card">
-						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="Data Driven Digital Transformation Services">
+					<div class = "card">
+						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="">
 						<div class="card-content">
-							<h3 title="Devops Cybersecurity Services">DevOps Services</h3>
-							<p>Accelerating your SDLC with streamlined processes through expert DevOps and cybersecurity services.</p>
+							<h3>DevOps Services</h3>
+							<p>Accelerating your development lifecycle with streamlined processes.</p>
 							<a href="{{ url('/services/devops') }}" class="button">Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1250">
-					<div class="card">
-						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="Data Driven Digital Transformation Services">
+					<div class = "card">
+						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="">
 						<div class="card-content">
-							<h3 title="Resource Augmentation Services">Resource Augmentation</h3>
-							<p>Offering Resource Augmentation for digital transformation who integrate to scale your operations.</p>
+							<h3>Resource Augmentation</h3>
+							<p>Providing skilled professionals to integrate with your team and scale operations.</p>
 							<a href="{{ url('/services/resource-augmentation') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
@@ -184,7 +123,7 @@
 			<div class="row pt-45 mx-auto justify-content-between custom-card mobile-view">
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="">
 						<h3><a href="{{ url('/services/digital-transformation') }}">Digital Transformation</a></h3>
 						<p>Empowering businesses with next-gen technologies to optimize processes, enhance efficiency & foster innovation.</p>
 						<a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -192,7 +131,7 @@
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/experience.png" alt="">
 						<h3><a href="{{ url('/services/digital-experience') }}">Digital Experience</a></h3>
 						<p>Creating impactful digital touchpoints to connect your brand with its audience effectively.</p>
 						<a href="{{ url('/services/digital-experience') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -200,7 +139,7 @@
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="">
 						<h3><a href="{{ url('/services/devops') }}">DevOps</a></h3>
 						<p>Accelerating your development lifecycle with streamlined processes and robust practices.</p>
 						<a href="{{ url('/services/devops') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -208,9 +147,9 @@
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
-						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="">
 						<h3><a href="{{ url('/services/resource-augmentation') }}">Resource Augmentation</a></h3>
-						<p>Providing skilled professionals to integrate with your team and scale your operations.</p>
+						<p>Providing skilled professionals to seamlessly integrate with your team and scale your operations.</p>
 						<a href="{{ url('/services/resource-augmentation') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
@@ -222,15 +161,15 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color2">Unlock the potential</span>
-				<h2 title="Who We Serve for digital transformation services">Who We Serve?</h2>
-				<p>We cater to a wide range of industries, offering customized solutions such as <a href="{{ url('/services/data-science') }}"><strong>Data Science Services</a></strong>, being among the top digital marketing companies for small businesses, <a href="{{ url('/services/devsecops') }}"><strong>DevSecOps software development</a></strong> lifecycle support, and Resource Augmentation to extend your team and meet unique business needs.</p>
+				<h2 title="Who We Serve at JFS Technologies">Who We Serve?</h2>
+				<p>We cater to a broad spectrum of industries, offering customized solutions to meet their unique needs:</p>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">01.</div>
 						<p class="title">Small and Medium-Sized Enterprises (SMEs)</p>
-						<p>Achieve growth with tailored websites and digital marketing services for small businesses.</p>
+						<p>Achieve sustainable growth with tailored websites and innovative digital marketing strategies.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/SMEs.svg" class="brand-logo-one" alt="SMEs">
 					</div>
 				</div>
@@ -238,7 +177,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">02.</div>
 						<p class="title">Startups</p>
-						<p>Scale rapidly with advanced tech solutions for accelerated product development services for startups and marketing growth, ensuring sustainable success</p>
+						<p>Scale rapidly with advanced tech solutions for accelerated product development, streamlined operations, and sustainable marketing growth.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
 					</div>
 				</div>
@@ -278,7 +217,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">07.</div>
 						<p class="title">Nonprofit Organizations</p>
-						<p>Boost outreach and fundraising with affordable digital solutions services that enhance engagement, driving donor participation and support, leading to increased contributions.</p>
+						<p>Boost outreach and fundraising efforts with affordable, scalable digital solutions that enhance audience engagement, improve visibility, and drive measurable results.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
 					</div>
 				</div>
@@ -286,7 +225,7 @@
 					<div class="work-process-card-three">
 						<div class="number-title invisible ">08.</div>
 						<p class="title">Tech & Software Companies</p>
-						<p>chieve rapid growth with software development company teams tailored to your needs for efficient project execution & quality results, ensuring seamless scalability & innovation.</p>
+						<p>Achieve rapid growth with specialized development teams tailored to your needs for efficient project execution, quality results, and accelerated time-to-market.</p>
 						<img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 					</div>
 				</div>
@@ -303,94 +242,94 @@
 					<div class="about-content ml-25">
 						<div class="section-title">
 							<span class="sp-color2">Our Expertise</span>
-							<h2 class="w-50 mx-auto" title="Digital transformation Technologies to Power Your Next Big Move at JFS Technologies">Technologies to Power Your Next Big Move</h2>
+							<h2 class="w-50 mx-auto" title="Technologies to Power Your Next Big Move at JFS Technologies">Technologies to Power Your Next Big Move</h2>
 						</div>
 
 						<div class="slider">
 							<div class="slide-track">
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Data Driven Digital Transformation Services">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
 									</div>
 								</div>
 							</div>
@@ -410,7 +349,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
-							<h2 title="why choose JFS Technologies for digital transformation services">Why Choose JFS Technologies: Best Data-Driven Digital Transformation Services?</h2>
+							<h2>Why Choose JFS Technologies?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -497,10 +436,10 @@
 		</div>
 		<div class="counter-shape">
 			<div class="shape1">
-				<img src="{{ asset('theme') }}/assets/images/shape/shape1.png" alt="Data Driven Digital Transformation Services">
+				<img src="{{ asset('theme') }}/assets/images/shape/shape1.png" alt="Images">
 			</div>
 			<div class="shape2">
-				<img src="{{ asset('theme') }}/assets/images/shape/shape2.png" alt="Data Driven Digital Transformation Services">
+				<img src="{{ asset('theme') }}/assets/images/shape/shape2.png" alt="Images">
 			</div>
 		</div>
 	</div>
@@ -552,22 +491,22 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">Recognitions</span>
-				<h2 class="text-white" title="Awards & Achievements of Digital transformation company">Awards & Achievements</h2>
+				<h2 class="text-white" title="Awards & Achievements of JFS Technologies">Awards & Achievements</h2>
 			</div>
 			<div class="row align-items-center justify-content-center pt-5">
 				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Data Driven Digital Transformation Services">
+                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
 					</div>
 				</div>
 				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Data Driven Digital Transformation Services">
+                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
 					</div>
 				</div>
                 <div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Data Driven Digital Transformation Services">
+                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
 					</div>
 				</div>
 				<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
@@ -617,14 +556,14 @@
 		<div class="container-fluid p-0">
 			<div class="section-title text-center">
 				<span class="sp-color2">Success Stories</span>
-				<h2 title="Driving Success for clients with Digital Transformation services of JFS Technologies">Driving Success for Our Clients</h2>
+				<h2 title="Driving Success for Clients of JFS Technologies">Driving Success for Our Clients</h2>
 				<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
 				<div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Data Driven Digital Transformation Services">
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
                     </a>
                     <div class="content">
                         <a href="#">E-Commerce Platform UI/UX Redesign</a>
@@ -634,7 +573,7 @@
 				<div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Data Driven Digital Transformation Services">
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
                     </a>
                     <div class="content">
                         <a href="#">Mobile App UX Optimization</a>
@@ -644,7 +583,7 @@
 				<div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Data Driven Digital Transformation Services">
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
                     </a>
                     <div class="content">
                         <a href="#">3D Visualization for a Product Launch</a>
@@ -654,7 +593,7 @@
 				<div class="case-study-item">
 					<a href="#">
 						<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Data Driven Digital Transformation Services">
+						<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Images">
 					</a>
 					<div class="content">
 						<a href="#">Secure Cloud Migration</a>
@@ -676,7 +615,7 @@
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<p class="title">Thomas Paul</p>
 						<span>Sr. Developer @ APISDOR</span>
@@ -687,7 +626,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<p class="title">Dan Fitzpatrick</p>
 						<span>President @ KRIXI</span>
@@ -698,7 +637,7 @@
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Data Driven Digital Transformation Services">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 						<i class="bx bxs-quote-alt-left"></i>
 						<p class="title">Anand Katti</p>
 						<span>COO @ Shyena Techyarns</span>
@@ -709,6 +648,29 @@
 				</div>
 			</div>
 		</div>
+		<!-- <div class="client-circle">
+			<div class="client-circle-1">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-2">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-3">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-4">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-5">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-6">
+				<div class="circle"></div>
+			</div>
+			<div class="client-circle-7">
+				<div class="circle"></div>
+			</div>
+		</div> -->
 	</section>
 
 
@@ -722,8 +684,8 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="#">
-								<img src="{{ asset('theme') }}/assets/images/blog-1.png" alt="Data Driven Digital Transformation Services">
+							<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/">
+								<img src="https://jfstechnologies.com/wp-content/uploads/2024/09/Colorful-Playful-SEO-Informational-Presentation-2560-x-1025-px.png" alt="Blog Images">
 							</a>
 							<div class="blog-tag">
 								<h3>18</h3>
@@ -731,17 +693,22 @@
 							</div>
 						</div>
 						<div class="content">
+							<ul>
+								<li>
+									<a><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
+								</li>
+							</ul>
 							<a class="blog-title">Top SEO Tools to Boost Your Website Visibility in 2024</a>
 							<p>Digital marketing is an area that changes all the time, so it’s important for businesses to stay ahead of the curve. Search Engine Optimization (SEO) is still a key part of doing...</p>
-							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<a href="https://jfstechnologies.com/top-seo-tools-to-boost-your-website-visibility-in-2024/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="#">
-								<img src="{{ asset('theme') }}/assets/images/blog-2.png" alt="Data Driven Digital Transformation Services">
+							<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/">
+								<img src="https://jfstechnologies.com/wp-content/uploads/2024/08/How-to-Choose-the-Best-Free-Client-Management-Software-for-Your-Needs.png" alt="Blog Images">
 							</a>
 							<div class="blog-tag">
 								<h3>21</h3>
@@ -749,17 +716,22 @@
 								</div>
 							</div>
 							<div class="content">
+								<ul>
+									<li>
+										<a href="#"><i class="bx bx-purchase-tag-alt"></i>Accounting Services, Business</a>
+									</li>
+								</ul>
 								<a class="blog-title">How to Choose the Best Free Client Management Software for Your Needs</a>
 								<p>In today’s competitive business landscape, managing client relationships effectively is crucial for success.</p>
-								<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+								<a href="https://jfstechnologies.com/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 						<div class="blog-card">
 							<div class="blog-img">
-								<a href="#">
-									<img src="{{ asset('theme') }}/assets/images/blog-3.png" alt="Data Driven Digital Transformation Services">
+								<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/">
+									<img src="https://jfstechnologies.com/wp-content/uploads/2024/07/ban1.png" alt="Blog Images">
 								</a>
 								<div class="blog-tag">
 									<h3>31</h3>
@@ -767,15 +739,84 @@
 								</div>
 							</div>
 							<div class="content">
+							<ul>
+								<li>
+									<a href="#"><i class="bx bx-purchase-tag-alt"></i>Achive</a>
+								</li>
+							</ul>
 							<a class="blog-title">Why Every Business Needs a Digital Marketing Agency</a>
 							<p>In today’s fast-paced digital landscape Why Every Business Needs a Digital Marketing Agency, staying ahead of the competition requires more than just a great product.</p>
-							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<a href="https://jfstechnologies.com/why-every-business-needs-a-digital-marketing-agency/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+	<!-- Call Us Area -->
+	<!-- <div class="call-us-area">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6">
+					<div class="call-contact">
+						<h3>Call Us 24/7</h3>
+						<a href="tel:+918329729190" class="call-btn">Ready to Take Your Business to the Next Level?</a>
+						<p>Partner with JFS Technologies today and unlock the full potential of your digital strategy. From cloud solutions to data analytics and mobile app development, we’ll help you create custom solutions that drive results.</p>
+						<a href="/contact-us" class="default-btn btn-bg-two border-radius-5">Contact Us</a>
+					</div>
+				</div>
+				<div class="col-lg-5 pt-5 pb-3">
+                    <div class="contact-form">
+					<form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+					@csrf
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control rounded" required data-error="Please Enter Your Name" placeholder="Name*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control rounded" placeholder="Phone Number*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="form-control rounded" required data-error="Please Enter Your Email" placeholder="Email*">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                        <textarea name="message" class="form-control" id="message" cols="20" rows="4" required data-error="Write your message" placeholder="Your Message*"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="agree-label">
+                                        <input type="checkbox" id="chb1">
+                                        <label for="chb1" class="text-white">
+                                            Accept <a href="#">Terms & Conditions</a> And <a href="/privacy-policy">Privacy Policy.</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 text-center">
+                                    <button type="submit" class="default-btn btn-bg-one border-radius-50">
+										Schedule a Free Consultation<i class="bx bx-chevron-right"></i>
+                                    </button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div> -->
 
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

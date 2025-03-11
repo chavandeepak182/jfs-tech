@@ -110,9 +110,9 @@
 								</a>
 							</li>
 							<li>
-								<a href="tel:918329729190">
+								<a href="tel:918788524747">
 									<i class="fal fa-phone-alt"></i>
-									+91 83297 29190
+									+91 87885 24747
 								</a>
 							</li>
 							<li class="d-flex justify-content-between px-3">

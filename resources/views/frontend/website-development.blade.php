@@ -1,13 +1,59 @@
 @extends('frontend.layouts.header')
-@section('title', "Affordable Web Development Services for Businesses | Web Development Agency")
-@section('description', "Affordable web development services tailored for  businesses. Partner with our expert web development agency to create a strong online presence today!")
-@section('keywords', "web development services for  businesses, best business website design company, web design for local businesses, business web design development, Web design development for Large enterprises, Web design development for Educational sector")
+@section('title', "Best Web Design Services for Businesses | Best Business Web Development Company")
+@section('description', "Affordable Best Web Design Services for Businesses. Partner with our best business web design company to create a strong online presence today!")
+@section('keywords', "Best Web Design Services for Businesses, Affordable Web Design Services for Businesses, web development services for  businesses, best business website design company, web design for local businesses, business web design development, Web design development for Large enterprises, Web design development for Educational sector")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What web design services for businesses does JFS Technologies offer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies provides custom website development, e-commerce solutions, CMS integration, UI/UX design, and web application development to help businesses establish a strong online presence."
+    }
+  },{
+    "@type": "Question",
+    "name": "Why choose JFS Technologies as the best business website design company?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With a team of experienced designers and developers, we create visually appealing, high-performance, and SEO-friendly websites tailored to your business needs, ensuring maximum engagement and conversions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can web design benefit local businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A well-designed website enhances local visibility, improves customer trust, and drives foot traffic by integrating features like Google Maps, mobile optimization, and local SEO strategies."
+    }
+  },{
+    "@type": "Question",
+    "name": "What web design and development solutions do you offer for large enterprises?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We specialize in scalable, secure, and high-performance enterprise websites with features like API integrations, cloud solutions, and advanced security protocols to support business growth."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide web design development services for the educational sector?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We build interactive, student-friendly, and secure education websites with features like LMS (Learning Management Systems), student portals, and e-learning integrations to enhance digital learning experiences."
+    }
+  }]
+}
+</script>
+@endsection
+<link rel="alternate" href="https://jfstechnologies.com/services/website-design-and-development" hreflang="en-in" />
+
 
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Innovative Web Design Services for Businesses to Boost Online</h1>
+            <h1>Best Web Design Services for Businesses to Boost Online</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Let’s Start Today! <i class="bx bx-chevron-right"></i></a>
@@ -26,27 +72,27 @@
 	<div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Seamless Websites by the Best Business Web Design Company</h2>
-            <p class="margin-auto">At JFS Technologies, we provide a wide array of services as one of the best business website design companies, tailored to meet the unique needs of your business. Whether you are looking for a simple static website, a dynamic platform, or a full-fledged e-commerce solution, we have the expertise to deliver scalable, secure, and high-performance websites.</p>
+            <h2>Explore Best Web Design Services for Businesses</h2>
+            <p class="margin-auto">At JFS Technologies, we provide a wide array of services as one of the best web design services for businesses, tailored to meet the unique needs of your business. Whether you are looking for a simple static website, a dynamic platform, or a full-fledged e-commerce solution, we have the expertise to deliver scalable, secure, and high-performance websites.</p>
         </div>
 		<div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/website.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/website.gif" class="brand-logo-one icons-img" alt="Best Web Design Services for Businesses" style="width:22%;">
                     <h3><a>Static Website Creation</a></h3>
-                    <p>Fast, informative <span title="website development for small business and website development for local business">Web design development for small and local businesses</span> looking to establish their digital presence, enhance brand visibility, connect with their target audience, and drive meaningful online engagement.</p>
+                    <p>Fast, informative <span title="website development for small business and website development for local business">Best web design services for businesses development for small and local businesses</span> looking to establish their digital presence, enhance brand visibility, connect with their target audience, and drive meaningful online engagement.</p>
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/dashboard.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/dashboard.gif" class="brand-logo-one icons-img" alt="Best Web Design Services for Businesses" style="width:22%;">
                     <h3><a>Dynamic Website Creation</a></h3>
                     <p>Content-rich websites with integrated content management systems (CMS) that allow regular updates, enabling businesses to easily manage & improve their content & keep the audience engaged with fresh, relevant information.</p>
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/e-comm.gif" class="brand-logo-one icons-img" alt="computer" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/e-comm.gif" class="brand-logo-one icons-img" alt="Best Web Design Services for Businesses" style="width:22%;">
                     <h3><a>Build Ecommerce Platforms</a></h3>
                     <p>Robust online stores with secure payment integration, inventory management, user-friendly navigation, and customizable features to deliver a seamless shopping experience, drive sales growth, and foster customer loyalty.</p>
 				</div>
@@ -63,7 +109,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are Best!!</span>
-						<h2>Why Choose JFS Technologies?</h2>
+						<h2 title="Best web design services for businesses"> Why Choose JFS Technologies?</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -116,7 +162,7 @@
             <div class="col-lg-10">
                 <div class="section-title text-center mx-auto" style="max-width:650px">
                     <span class="sp-color1">Pricing Made Easy</span>
-                    <h2>Affordable website design packages for business</h2>
+                    <h2>Affordable Best Web Design Services for Businesses</h2>
                 </div>
                 <div class="choose-content mt-4">
                     <div class="tab-content" id="pills-tabContent">
@@ -297,15 +343,15 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="../theme/assets/images/about/web-dev.png" alt="About Images">
+                    <img src="../theme/assets/images/about/web-dev.png" alt="Best web design services for businesses">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2 title="website development services">For Success In The Digital World!</h2>
-                        <p>Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results. From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience exceptional website design for small business and large enterprises with JFS Technologies. Let’s build something extraordinary together.</p>
+                        <h2 title="Best Web Design Services for Businesses">For Success In The Best Business Web Development Company!</h2>
+                        <p>Our team combines cutting-edge technologies with proven methodologies to deliver stunning, user-friendly websites that drive results. From responsive design to custom applications, we offer a comprehensive suite of services to meet your digital needs. With expert guidance and ongoing support, we’re committed to helping your business thrive online. Experience best web design services for businesses with JFS Technologies. Let’s build something extraordinary together.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get Started Today</a>
                 </div>
@@ -380,7 +426,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Best Web Design Services for Businesses">
 				</div>
 			</div>
         </div>

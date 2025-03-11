@@ -2,7 +2,49 @@
 @section('title', "Graphics Design - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
-
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of graphic design services does JFS Technologies offer?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide a full range of graphic design services, including logo design, branding, social media creatives, marketing materials, UI/UX design, and more for businesses of all sizes."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I find the best graphic design company near me?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies is a trusted graphic design company near you, offering professional and creative design solutions tailored to your brand’s needs. Contact us for a consultation!"
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer online graphic design services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! Our graphic design services are available online, allowing businesses worldwide to get high-quality, custom designs with seamless communication and delivery."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can JFS Technologies design a logo for my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely! Our logo graphic designers near you specialize in crafting unique, impactful, and professional logos that represent your brand identity effectively."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide graphic design services for all types of businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we cater to startups, small businesses, enterprises, and e-commerce brands, ensuring that each design aligns perfectly with your industry and vision."
+    }
+  }]
+}
+</script>
 @section('content')
 
 <div id="banner" class="inner-banner">

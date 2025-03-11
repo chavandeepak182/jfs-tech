@@ -1,17 +1,61 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Application Modernization Consulting Services | API Integration services")
-@section('description', "Unlock the power of the best application modernization consulting services and seamless API integration. Enhance your business with cutting-edge solutions")
-@section('keywords', "Best Application Modernization Services, application modernization consulting services, API Integration services, benefits of api integration")
-
+@section('title', "Best Application Modernisation Consulting Services | Best Application Modernisation Services")
+@section('description', "Unlock the power of the best application modernisation consulting services and seamless API integration. Enhance your business with cutting-edge solutions")
+@section('keywords', "Best Application Modernisation Services, application modernisation consulting services, API Integration services, benefits of api integration")
+@section('Schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is Application Modernisation Consulting, and why is it important?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Application modernisation consulting involves upgrading legacy systems to modern technologies, improving performance, scalability, and security. It helps businesses stay competitive, reduce maintenance costs, and enhance user experience."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are API Integration Services, and how do they benefit my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "API integration services connect different software applications, enabling seamless data exchange and automation. This enhances operational efficiency, reduces manual efforts, and ensures real-time data synchronization across platforms."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are the key benefits of API integration?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Improved Efficiency – Automates workflows and reduces manual data entry. Seamless Connectivity – Integrates multiple software systems effortlessly. Scalability – Adapts to growing business needs with ease. Enhanced User Experience – Ensures smooth interactions between applications."
+    }
+  },{
+    "@type": "Question",
+"name": "How do I choose the best Application Modernisation Services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Look for a provider with expertise in cloud migration, microservices, DevOps, and AI-driven solutions. JFS Technologies offers tailored modernisation strategies to enhance performance, security, and cost efficiency."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can JFS Technologies help with API integration and application modernisation?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JFS Technologies provides end-to-end API integration and application modernisation consulting, helping businesses enhance system compatibility, streamline operations, and achieve digital transformation."
+    }
+  }]
+}
+</script>
+@endsection
+<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation" hreflang="en-in" />
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="Transform Your Applications for the Digital Era with the Best Application Modernization Services">Transform & Modernise Your Applications for the Digital Age</h1>
+            <h1 title="Applications for the Best Application Modernisation Consulting Services">Transform your Best Application Modernisation Consulting Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your Modernization Journey Today <i class="bx bx-chevron-right"></i></a>
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your Modernisation Journey Today <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -26,29 +70,29 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Revitalize Your Applications Today</span>
-            <h2 title="Reimagine Your Applications with Expert API Integration Services">Reimagine Your Applications for a Digital-First Future</h2>
-            <p class="margin-auto">Our Application Modernisation consulting services are designed to help your business stay competitive in an evolving digital landscape. Whether you’re upgrading legacy systems, migrating to the cloud, or enhancing user experience, our expert team is here to guide you every step of the way. Leveraging the latest technologies, we ensure that your applications are secure, efficient, and future-ready. Let us help you bring your applications into the modern era and drive business growth.</p>
+            <h2 title="Reimagine Your Applications with Expert API Integration Services">Reimagine Your Best Application Modernisation Consulting Services</h2>
+            <p class="margin-auto">Our best application modernisation consulting services are designed to help your business stay competitive in an evolving digital landscape. Whether you’re upgrading legacy systems, migrating to the cloud, or enhancing user experience, our expert team is here to guide you every step of the way. Leveraging the latest technologies, we ensure that your applications are secure, efficient, and future-ready. Let us help you bring your applications into the modern era and drive business growth.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/applications.gif" class="brand-logo-one icons-img" alt="applications">
-                    <h3 title="application modernisation consulting services"><a href="#">1. Application Modernisation Consulting</a></h3>
-                    <p>We specialize in assisting organizations in enhancing and modernizing their software applications to align with the latest technology trends and boost overall efficiency. Utilizing cutting-edge technologies such as cloud computing and automation tools, we strive to simplify operations, lower expenses, and elevate user satisfaction. Our team of skilled professionals will collaborate closely with your organization to evaluate your current applications, pinpoint areas in need of enhancement, and formulate a personalized modernization strategy for a seamless transition. Whether you seek to shift to a new platform, optimize code, or introduce innovative features, our application modernization solutions will ensure you remain competitive in today's rapidly evolving digital environment.</p>
+                    <img src="{{ asset('theme') }}/assets/images/icons/applications.gif" class="brand-logo-one icons-img" alt="Best Application Modernisation Consulting Services">
+                    <h3 title="best application modernisation consulting services"><a href="#">1. Application Modernisation Consulting</a></h3>
+                    <p>We specialize in best application modernisation consulting services assisting organizations in enhancing and modernising their software applications to align with the latest technology trends and boost overall efficiency. Utilizing cutting-edge technologies such as cloud computing and automation tools, we strive to simplify operations, lower expenses, and elevate user satisfaction. Our team of skilled professionals will collaborate closely with your organization to evaluate your current applications, pinpoint areas in need of enhancement, and formulate a personalized modernisation strategy for a seamless transition. Whether you seek to shift to a new platform, optimize code, or introduce innovative features, our application modernisation solutions will ensure you remain competitive in today's rapidly evolving digital environment.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/responsive.gif" class="brand-logo-one icons-img" alt="responsive">
-                    <h3 title=""><a href="#">2. UI/UX Modernisation Services</a></h3>
+                    <img src="{{ asset('theme') }}/assets/images/icons/responsive.gif" class="brand-logo-one icons-img" alt="Best Application Modernisation Consulting Services">
+                    <h3 title="UI/UX Application Mordenisation Services"><a href="#">2. UI/UX Modernisation Services</a></h3>
                     <p>In today's fast-paced digital landscape, where user expectations are constantly evolving, businesses need innovative and engaging interfaces to stay competitive. Our UI/UX modernisation consulting services are crafted to help you excel and stand out. We start by thoroughly analyzing your current user interface and experience to identify opportunities for enhancement, optimization, and innovation. Our skilled team of designers and developers then collaborates to create a visually stunning, intuitive interface that not only enhances user experience but also drives engagement and conversion rates. Whether you need a complete overhaul or targeted updates, our experts are ready to elevate your UI/UX to new heights, setting your business apart in a crowded market.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/database.gif" class="brand-logo-one icons-img" alt="database">
+                    <img src="{{ asset('theme') }}/assets/images/icons/database.gif" class="brand-logo-one icons-img" alt="Best Application Modernisation Consulting Services">
                     <h3><a href="#">3. API Integration Services</a></h3>
                     <p>Our API integration services streamline the process of connecting different applications and systems, allowing for seamless data exchange and communication. With our experienced team of developers, we can ensure that your APIs are implemented efficiently and effectively. Whether you are looking to integrate third-party services or build custom APIs for your own platform, we have the expertise to meet your needs. Trust us to handle the complexities of API integration so you can focus on growing your business.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -56,7 +100,7 @@
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
-                    <img src="{{ asset('theme') }}/assets/images/icons/api.gif" class="brand-logo-one icons-img" alt="API">
+                    <img src="{{ asset('theme') }}/assets/images/icons/api.gif" class="brand-logo-one icons-img" alt="Best Application Modernisation Consulting Services">
                     <h3><a href="#">4. API Integration</a></h3>
                     <p>Our API integration services streamline the process of connecting different applications and systems, allowing for seamless data exchange and communication. With our experienced team of developers, we can ensure that your APIs are implemented efficiently and effectively. Whether you are looking to integrate third-party services or build custom APIs for your own platform, we have the expertise to meet your needs. Trust us to handle the complexities of API integration so you can focus on growing your business.</p>
                     <a href="#" class="learn-btn mb-3 invisible">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -139,7 +183,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Best Application Modernisation Consulting Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -151,7 +195,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Best Application Modernisation Consulting Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -163,7 +207,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Best Application Modernisation Consulting Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -175,7 +219,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Best Application Modernisation Consulting Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
@@ -196,17 +240,17 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="Best Application Modernisation Consulting Services">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Modernize Your Applications?</h2>
-                        <p>Don’t let outdated applications hold your business back. Our Application Modernisation consulting services can bring new life to your software, helping you improve efficiency, enhance security, and deliver better experiences to your users.</p>
+                        <h2>Ready to Modernise Your Applications?</h2>
+                        <p>Don’t let outdated applications hold your business back. Our Best Application Modernisation consulting services can bring new life to your software, helping you improve efficiency, enhance security, and deliver better experiences to your users.</p>
                     </div>
-                    <h3>With 24+ years of expertise, we deliver cutting-edge Application Modernization solutions.</h3>
+                    <h3>With 24+ years of expertise, we deliver cutting-edge Application Modernisation solutions.</h3>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Get in Touch Today</a>
                 </div>
             </div>
@@ -222,7 +266,7 @@
                 <div class="faq-area ">
                     <div class="container">
                         <div class="section-title">
-                            <h2 title="Frequently Asked Questions for Application Modernisation service">Frequently Asked Questions</h2>
+                            <h2 title="Frequently Asked Questions for Best Application Modernisation Consulting Services">Frequently Asked Questions</h2>
                         </div>
                         <div class="faq-content mt-4">
                             <div class="faq-accordion">
@@ -230,28 +274,28 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is Application Modernization?
+                                            What is Application Modernisation?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Application Modernization involves upgrading or transforming existing legacy applications to align with modern technology standards, improving performance, scalability, and user experience.</p>
+                                            <p>Application Modernisation involves upgrading or transforming existing legacy applications to align with modern technology standards, improving performance, scalability, and user experience.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Why should I modernize my legacy applications?
+                                            Why should I modernise my legacy applications?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Modernizing your applications enhances their performance, reduces maintenance costs, ensures compatibility with current technologies, and prepares your business for future growth and innovation.</p>
+                                            <p>Modernising your applications enhances their performance, reduces maintenance costs, ensures compatibility with current technologies, and prepares your business for future growth and innovation.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What services are included in your Application Modernization offering?
+                                            What services are included in your Application Modernisation offering?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Our Application Modernization services include:</p>
+                                            <p>Our Application Modernisation services include:</p>
                                             <ul>
                                                 <li>Code refactoring and optimization</li>
                                                 <li>Migrating to cloud-native architectures</li>
@@ -264,10 +308,10 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you assess if my application needs modernization?
+                                            How do you assess if my application needs modernisation?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>We conduct a thorough assessment of your current application’s architecture, performance, and alignment with business goals. This helps identify areas for improvement and the best modernization approach.</p>
+                                            <p>We conduct a thorough assessment of your current application’s architecture, performance, and alignment with business goals. This helps identify areas for improvement and the best modernisation approach.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
@@ -282,7 +326,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Will my business operations be interrupted during modernization?
+                                            Will my business operations be interrupted during modernisation?
                                         </a>
                                         <div class="accordion-content">
                                             <p>Our team follows a phased and agile approach to ensure minimal disruption. We carefully plan updates and migrations around your operational schedule.</p>
@@ -291,10 +335,10 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What are the costs involved in Application Modernization Consulting services?
+                                            What are the costs involved in Best Application Modernisation Consulting services?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Costs depend on the scope of the project, including factors like application size, technology stack, and the desired level of modernization. Contact us for a tailored cost estimate. <a href="{{ url('/contact-us') }}">Request a Quote <i class="bx bx-chevron-right"></i></a></p>
+                                            <p>Costs depend on the scope of the project, including factors like application size, technology stack, and the desired level of modernisation. Contact us for a tailored cost estimate. <a href="{{ url('/contact-us') }}">Request a Quote <i class="bx bx-chevron-right"></i></a></p>
                                         </div>
                                     </li>
                                 </ul>            
@@ -305,7 +349,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Best Application Modernisation Consulting Services">
 				</div>
 			</div>
         </div>

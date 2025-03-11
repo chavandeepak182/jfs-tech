@@ -2,13 +2,56 @@
 @section('title', "Building Secure Container-Based Microservices Architecture Applications")
 @section('description', "Discover the benefits of microservices and containers for scalable, efficient development. Enhance flexibility, scalability, and performance in your applications.")
 @section('keywords', "Container-Based Microservices Architecture, Building Secure Container-Based Microservices, container based microservices applications, container and microservice-based applications, Build Your Own Microservices in Flask, Microservices with .net core, Linux Containers for Virtualization, Building Microservices with Node.js, Dockerize Spring Boot Microservices, Microservices Architecture using Docker and Kubernetes, Deploy Microservice Architecture in Docker, Container development using Podman, difference between microservices and containers")
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is Container-Based Microservices Architecture, and how does it work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Container-based microservices architecture involves breaking down applications into smaller, independently deployable services, each running in its own container. This approach enhances scalability, flexibility, and efficiency in software development."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I build secure container-based microservices applications?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To ensure security in container-based microservices, follow best practices such as using minimal base images, implementing role-based access control (RBAC), scanning containers for vulnerabilities, encrypting data in transit, and leveraging Kubernetes security policies."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is the difference between microservices and containers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Microservices refer to an architectural approach where an application is divided into small, independent services, while containers are lightweight, standalone environments that encapsulate microservices along with their dependencies for seamless deployment."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I deploy microservices using Docker and Kubernetes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "To deploy microservices, containerize each service using Docker, create Kubernetes YAML configurations, define deployments and services, and use Kubernetes orchestration for automated scaling, load balancing, and management."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which technologies can be used to build microservices applications?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Popular frameworks for building microservices include Flask (Python), .NET Core, Node.js, and Spring Boot (Java). These can be containerized using Docker, Podman, or other containerization tools for seamless deployment and scalability."
+    }
+  }]
+}
+</script>
 
 @section('content')
 
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="Efficiency and Scalability with Container-Based Microservices Architecture">Efficiency & Scalability with Container-Based Microservices</h1>
+            <h1 title="Efficiency and Scalability with Container-Based Microservices Architecture">Building Secure Container-Based Microservices Architecture</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -28,7 +71,7 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play p-3">
-                    <img src="{{ asset('theme') }}/assets/images/cam-intro.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/cam-intro.png" alt="Container-Based Microservices Architecture">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -37,7 +80,7 @@
 						<span class="sp-color2">Microservices in Motion</span>
 						<h2 title="Container-Based Microservices Architecture">Scale with Containers</h2>
 						<p>In today’s fast-paced software world, agility & scalability are essential. At JFS Technologies, we leverage Building Secure Container-Based Microservices applications, deployment & management, enabling modularity, flexibility & seamless scaling.</p>
-                        <h3 class="pt-4" title="Why container and microservice-based applications?">Why Containers and Microservices?</h3>
+                        <h3 class="pt-4" title="Why container and microservice-based applications?">Why Container-Based Microservices Architecture?</h3>
 						<p>Containers package applications and dependencies into portable units that run consistently across environments. Microservices break monolithic apps into modular components, simplifying development, deployment, and maintenance. Together, they empower businesses to:</p>
                         <ul>
                             <li>Enhance scalability and flexibility.</li>
@@ -57,7 +100,7 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">Build Faster, Scale Smarter</span>
-			<h2 title="Building Secure Container-Based Microservices for Limitless Possibilities">Containers + Microservices = Endless Possibilities</h2>
+			<h2 title="Building Secure Container-Based Microservices for Limitless Possibilities">Container-Based Microservices Architecture</h2>
 			<p class="margin-auto">We are specialists in leveraging containers and microservices based applications to enhance your software development and deployment strategies. Containers streamline application packaging and deployment, while microservices architecture simplifies complex applications into manageable components. Together, these technologies offer scalability, flexibility, and resilience for your software projects. Our experienced team has a wealth of knowledge in designing, implementing, and managing containers & microservices for various applications.</p>
 		</div>
 		<div class="row pt-45" data-aos="fade-up" data-aos-duration="750">
@@ -67,7 +110,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Deploy Container Architecture in Docker">Docker</h3>
 					<p>Package and Deploy Container Architecture in Docker applications seamlessly with Docker, one of the most popular containerization platforms, ensuring portability and consistency across environments.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/docker.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/docker.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -75,7 +118,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Container development using Podman">Podman</h3>
 					<p>Podman is a container engine that provides a secure & fully-featured alternative to Docker, supporting container development using Podman creation, management, orchestration & networking.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/podman.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/podman.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -83,7 +126,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Microservices Architecture using Docker and Kubernetes">Kubernetes</h3>
 					<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and Microservices Architecture using Docker and Kubernetes across clusters of nodes.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/kubernetes.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/kubernetes.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -91,7 +134,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Linux Containers for Virtualization">LXC/LXD</h3>
 					<p>LXC (Linux Containers) and LXD are system container technologies that enable the secure isolation of Linux Containers for Virtualization applications at the operating system level, providing lightweight virtualization.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/lxc-lxd.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/lxc-lxd.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <h2 class="pt-3 pb-3" title="container and microservice-based applications">Our Microservices Services:</h2>
@@ -100,7 +143,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Dockerize Spring Boot Microservices">Spring Boot</h3>
 					<p>Dockerize Spring Boot Microservices is a Java-based framework that simplifies the development of microservices by providing a robust set of tools and libraries for building, deploying, and scaling applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/spring-boot.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/spring-boot.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -108,7 +151,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Building Microservices with Node.js">Node.js</h3>
 					<p>Building Microservices with Node.js  is a powerful JavaScript runtime environment that is commonly used for building lightweight and fast microservices, leveraging a non-blocking, event-driven architecture.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/node-js.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/node-js.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -116,7 +159,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Microservices with .net core">.NET Core</h3>
 					<p>Microservices with .net core is a cross-platform framework that supports the creation of microservices using C# and ASP.NET, enabling developers to build scalable and high-performance applications.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/dotnet-core.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/dotnet-core.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -124,7 +167,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Build Your Own Microservices in Flask">Flask</h3>
 					<p>Flask is a lightweight Python web framework that is well-suited for developing microservices, offering Build Your Own Microservices in Flask simplicity and flexibility for building RESTful APIs and web services.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/flask.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/flask.svg" class="brand-logo-one" alt="Container-Based Microservices Architecture">
 				</div>
 			</div>
 		</div>
@@ -139,7 +182,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are The Best!!</span>
-						<h2 title-="Key Benefits of Container & Microservice-based Applications">Benefits of Containers & Microservices Apps</h2>
+						<h2 title-="Key Benefits of Container & Microservice-based Applications">Benefits of Container-Based Microservices Architecture</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -191,8 +234,8 @@
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
             <span class="sp-color2">Our Impact</span>
             <h2>Industries We Serve</h2>
-            <p class="pb-5">Our Business Process Automation Company solutions cater to diverse industries, including:</p>
-			<img src="{{ asset('theme') }}/assets/images/cont-micro-indus.png" alt="Images">
+            <p class="pb-5">Our Container-Based Microservices Architecture solutions cater to diverse industries, including:</p>
+			<img src="{{ asset('theme') }}/assets/images/cont-micro-indus.png" alt="Container-Based Microservices Architecture">
         </div>
 	</div>
 </div>
@@ -209,7 +252,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Container-Based Microservices Architecture">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -221,7 +264,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Container-Based Microservices Architecture">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -233,7 +276,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Container-Based Microservices Architecture">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -245,7 +288,7 @@
                 <div class="case-study-item">
                     <a href="#">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Container-Based Microservices Architecture">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Product Displays for Advertising Efforts</a></h3>
@@ -266,7 +309,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="Container-Based Microservices Architecture">
                 </div>
             </div>
             <div class="col-lg-6">
