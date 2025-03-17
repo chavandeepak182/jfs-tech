@@ -2,7 +2,9 @@
 @section('title', "Best Application Modernisation Consulting Services | Best Application Modernisation Services")
 @section('description', "Unlock the power of the best application modernisation consulting services and seamless API integration. Enhance your business with cutting-edge solutions")
 @section('keywords', "Best Application Modernisation Services, application modernisation consulting services, API Integration services, benefits of api integration")
+
 @section('Schema')
+<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation" hreflang="en-in" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -46,9 +48,8 @@
 }
 </script>
 @endsection
-<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation" hreflang="en-in" />
-@section('content')
 
+@section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">

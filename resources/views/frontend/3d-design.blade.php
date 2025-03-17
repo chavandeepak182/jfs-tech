@@ -4,49 +4,50 @@
 @section('keywords', "Professional 3D Design Services, 3D printing design service, 3d drawing interior design, 3d logo printing near me, custom 3d design services")
 @section('schema')
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is included in your 3D printing design service?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Our 3D printing design service includes custom modeling, prototyping, and high-quality printing for various applications, from industrial parts to creative designs. We ensure precision and durability in every project."
+    {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+        "@type": "Question",
+        "name": "What is included in your 3D printing design service?",
+        "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our 3D printing design service includes custom modeling, prototyping, and high-quality printing for various applications, from industrial parts to creative designs. We ensure precision and durability in every project."
+        }
+    },{
+        "@type": "Question",
+        "name": "Do you offer 3D drawing for interior design projects?",
+        "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We provide detailed 3D drawings for interior design, including floor plans, furniture layouts, and realistic visualizations to bring your space to life before execution."
+        }
+    },{
+        "@type": "Question",
+        "name": "Where can I find professional 3D logo printing near me?",
+        "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JFS Technologies offers custom 3D logo printing services, helping businesses create unique, high-quality, and durable 3D-printed logos for branding and signage. Contact us to get started!"
+        }
+    },{
+        "@type": "Question",
+        "name": "Can you create custom 3D designs based on my requirements?",
+        "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our custom 3D design services cater to various industries, including architecture, product design, and branding. Share your ideas, and we’ll bring them to reality with precision and creativity."
+        }
+    },{
+        "@type": "Question",
+        "name": "Why choose JFS Technologies for professional 3D design services?",
+        "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in high-quality, innovative, and precise 3D designs using cutting-edge technology and expert craftsmanship. Whether for printing, interior design, or branding, our team ensures excellence in every project."
+        }
+    }]
     }
-  },{
-    "@type": "Question",
-    "name": "Do you offer 3D drawing for interior design projects?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Yes! We provide detailed 3D drawings for interior design, including floor plans, furniture layouts, and realistic visualizations to bring your space to life before execution."
-    }
-  },{
-    "@type": "Question",
-    "name": "Where can I find professional 3D logo printing near me?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "JFS Technologies offers custom 3D logo printing services, helping businesses create unique, high-quality, and durable 3D-printed logos for branding and signage. Contact us to get started!"
-    }
-  },{
-    "@type": "Question",
-    "name": "Can you create custom 3D designs based on my requirements?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Absolutely! Our custom 3D design services cater to various industries, including architecture, product design, and branding. Share your ideas, and we’ll bring them to reality with precision and creativity."
-    }
-  },{
-    "@type": "Question",
-    "name": "Why choose JFS Technologies for professional 3D design services?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We specialize in high-quality, innovative, and precise 3D designs using cutting-edge technology and expert craftsmanship. Whether for printing, interior design, or branding, our team ensures excellence in every project."
-    }
-  }]
-}
 </script>
-@section('content')
+@endsection
 
+@section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
@@ -107,7 +108,6 @@
 		</div>
 	</div>
 </section>
-
 
 <div class="choose-area pt-100 pb-70 home">
 		<div class="container">

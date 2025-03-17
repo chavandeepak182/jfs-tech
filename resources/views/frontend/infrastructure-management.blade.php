@@ -46,6 +46,7 @@
 }
 </script>
 <link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management" hreflang="en-in" />
+@endsection
 
 @section('content')
 

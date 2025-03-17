@@ -2,6 +2,7 @@
 @section('title', "DevOps Software Development Services | Business Process Automation Services")
 @section('description', "Streamline your DevOps Software Development Services. Enhance efficiency and accelerate delivery with our business process automation services.")
 @section('keywords', "devops software development services, devsecops cybersecurity services, container based microservices architecture, ci cd performance testing, Business Process Automation Services")
+
 @section('schema')
 <script type="application/ld+json">
 {
@@ -45,6 +46,8 @@
   }]
 }
 </script>
+@endsection
+
 @section('content')
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">

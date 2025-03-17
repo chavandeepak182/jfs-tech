@@ -46,6 +46,8 @@
 }
 </script>
 <link rel="alternate" href="https://jfstechnologies.com/services/digital-transformation" hreflang="en-in" />
+@endsection
+
 @section('content')
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">

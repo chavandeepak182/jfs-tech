@@ -49,6 +49,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
   }]
 }
 </script>
+@endsection
 
 @section('content')
 
