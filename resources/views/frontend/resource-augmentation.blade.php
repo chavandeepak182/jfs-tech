@@ -45,6 +45,8 @@
   }]
 }
 </script>
+@endsection
+
 @section('content')
 <div id="service_banner" class="banner-five-area">
     <div class="container-fluid">

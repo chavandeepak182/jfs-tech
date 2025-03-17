@@ -45,6 +45,8 @@
   }]
 }
 </script>
+@endsection
+
 @section('content')
 
 <div id="banner" class="inner-banner">

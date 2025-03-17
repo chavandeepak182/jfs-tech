@@ -2,6 +2,7 @@
 @section('title', "Data Science Consulting Services | Expert  Data Science Services Providers")
 @section('description', "Unlock business potential with expert data science consulting services. Leverage advanced analytics and AI solutions from expert data science service providers.")
 @section('keywords', "Data Science Consulting Services, expert Data Science Service Providers, Generative AI & Conversational AI services, Data Science Services Provider, Data Visualization services with Data science")
+
 @section('schema')
 <script type="application/ld+json">
 {
@@ -46,6 +47,7 @@
 }
 </script>
 <link rel="alternate" href="https://jfstechnologies.com/services/data-science" hreflang="en-in" />
+@endsection
 
 @section('content')
 <div id="banner" class="inner-banner">

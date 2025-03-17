@@ -46,7 +46,7 @@
   }]
 }
 </script>
-@endsection('schema')
+@endsection
 
 @section('content')
 

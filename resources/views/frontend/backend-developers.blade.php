@@ -2,6 +2,7 @@
 @section('title', "Backend Developers Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+
 @section('schema')
 <script type="application/ld+json">
 {
@@ -45,6 +46,7 @@
   }]
 }
 </script>
+@endsection
 
 @section('content')
 

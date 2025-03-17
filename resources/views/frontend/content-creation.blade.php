@@ -2,6 +2,7 @@
 @section('title', "Content Creation Marketing Agency | Social Media Content Creation Services")
 @section('description', "Boost your brand with our content creation marketing agency! Expert social media content creation services to engage, grow, and convert your audience.")
 @section('keywords', "content creation marketing agency, social media content creation services, social media content creation packages, video content creation services")
+
 @section('schema')
 <script type="application/ld+json">
 {
@@ -45,6 +46,8 @@
   }]
 }
 </script>
+@endsection
+
 @section('content')
 
 <div id="banner" class="inner-banner">

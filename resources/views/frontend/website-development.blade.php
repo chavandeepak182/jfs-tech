@@ -45,9 +45,8 @@
   }]
 }
 </script>
-@endsection
 <link rel="alternate" href="https://jfstechnologies.com/services/website-design-and-development" hreflang="en-in" />
-
+@endsection
 
 @section('content')
 <div id="banner" class="inner-banner">

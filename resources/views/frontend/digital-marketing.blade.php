@@ -46,6 +46,7 @@
 }
 </script>
 <link rel="alternate" href="https://jfstechnologies.com/services/digital-marketing-company" hreflang="en-in" />
+@endsection
 
 @section('content')
 

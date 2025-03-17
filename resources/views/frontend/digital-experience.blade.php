@@ -46,6 +46,7 @@ web design company for businesses, web development services for business, Social
   }]
 }
 </script>
+@endsection
 
 @section('content')
 
