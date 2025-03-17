@@ -107,6 +107,17 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss14.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss14.png" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss14.pdf">Deployment of Deep Learning Model of Edge Device for Autonomous...</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss14.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="case-study-item">
                     <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss1.pdf">
                         <img src="{{ asset('theme') }}/assets/images/case-study/ss1.webp" alt="Images">
                     </a>
