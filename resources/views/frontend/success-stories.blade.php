@@ -160,6 +160,17 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div class="case-study-item">
+                    <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss13.pdf">
+                        <img src="{{ asset('theme') }}/assets/images/case-study/ss13.jpg" alt="Images">
+                    </a>
+                    <div class="content">
+                        <h3><a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss13.pdf">Agent AI Powered Sales Tasks Automation Using LangGraph and LLM</a></h3>
+                        <a target="_blank" href="{{ url('/') }}/theme/assets/images/case-study/ss13.pdf" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
