@@ -61,10 +61,10 @@
         </div>
     </div>
 
-    <video id="videobcg" preload="auto" autoplay loop muted playsinline>
-        <source src="https://jfstechnologies.com/theme/assets/images/modern-app.mp4" type="video/mp4">
-        <source src="https://jfstechnologies.com/services/movie.webm" type="video/webm">
-        Your browser does not support HTML5 video.
+    <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="../theme/assets/images/backend-dev.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">
+        Sorry, your browser does not support HTML5 video.
     </video>
 </div>
 
