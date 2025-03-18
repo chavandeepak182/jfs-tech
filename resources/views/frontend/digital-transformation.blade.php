@@ -45,7 +45,7 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/digital-transformation" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/digital-transformation-services" hreflang="en-in" />
 @endsection
 
 @section('content')
@@ -79,56 +79,56 @@
 		<div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
-                    <a href="{{ url('/services/data-science') }}">
+                    <a href="{{ url('/services/data-science-services') }}">
                         <div class="number-title invisible">01.</div>
                         <h3 title="Data Science Consulting services">Data Science</h3>
                         <p>Digital science utilizes data science consulting services and data analytics services to enhance research and innovation and fostering collaboration</p>
                         <img src="{{ asset('theme') }}/assets/images/icons/data-sci.svg" class="brand-logo-one" alt="Digital Transformation Services for Business">
                         <!-- <i class="fal fa-file-chart-line my-2"></i> -->
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/data-science') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/data-science-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
-                    <a href="{{ url('/services/ar-vr') }}">
+                    <a href="{{ url('/services/ar-vr-services') }}">
                         <div class="number-title invisible">02.</div>
                         <h3 title="application for AR and VR services">AR/VR</h3>
                         <p>AR/VR practice involves application for AR and VR services using immersive technologies to inform decisions and drive business growth.</p>
                         <!-- <i class="fal fa-head-vr my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/ar-vr.svg" class="brand-logo-one" alt="Digital Transformation Services for Business">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/ar-vr') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/ar-vr-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
 				<div class="work-process-card-three">
-                    <a href="{{ url('/services/infrastructure-management') }}">
+                    <a href="{{ url('/services/infrastructure-management-services') }}">
                         <div class="number-title invisible">03.</div>
                         <h3 title="Infrastructure management consulting services">Infrastructure Management</h3>
                         <p>Infrastructure management consulting services ensures efficient operation of IT systems to support business goals.</p>
                         <!-- <i class="fal fa-network-wired my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/infra-mgmt.svg" class="brand-logo-one" alt="Digital Transformation Services for Business">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/infrastructure-management') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/infrastructure-management-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
-                    <a href="{{ url('/services/application-modernisation') }}">
+                    <a href="{{ url('/services/application-modernisation-services') }}">
                         <div class="number-title invisible">04.</div>
                         <h3 title="Best Application Modernization Services">Application Modernization</h3>
                         <p>Best application modernization services updates legacy software for improved performance with modern technologies.</p>
                         <!-- <i class="fal fa-network-wired my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/modern-app.svg" class="brand-logo-one" alt="Digital Transformation Services for Business">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/application-modernisation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/application-modernisation-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
 				</div>

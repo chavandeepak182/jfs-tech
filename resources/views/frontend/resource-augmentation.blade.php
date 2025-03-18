@@ -101,56 +101,56 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/services/frontend-developers') }}">
+                    <a href="{{ url('/services/frontend-development-company') }}">
                         <div class="number-title invisible">01.</div>
                         <h3 title="Our IT Staff Augmentation Services Includes">Frontend Development</h3>
                         <p>Our best company for front end development uses HTML, CSS, JavaScript, React, Angular, and Vue.js to build responsive, user-friendly, and high-performance web experiences, from simple sites to complex applications.</p>
                         <!-- <i class="fad fa-bring-front my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/frontend.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/frontend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/frontend-development-company') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/services/backend-developers') }}">
+                    <a href="{{ url('/services/backend-development-services') }}">
                         <div class="number-title invisible">02.</div>
                         <h3>Backend Development</h3>
                         <p>Our Best company for Backend Development are experts in Python, Java, PHP, .NET, Node.js, and more, delivering robust server-side logic, databases, and APIs for scalable, secure, reliable, and highly efficient software solutions.</p>
                         <!-- <i class="fad fa-send-back my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/backend.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/backend-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/backend-development-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/services/fullstack-developers') }}">
+                    <a href="{{ url('/services/fullstack-development-services') }}">
                         <div class="number-title invisible">03.</div>
                         <h3 title="Best Company for Fullstack Development">Fullstack Development</h3>
                         <p>Our Best Company for Fullstack Development bridges the gap between frontend and backend, offering comprehensive, scalable, and innovative end-to-end solutions across various tech stacks such as MERN, MEAN, LAMP, and more.</p>
                         <!-- <i class="fad fa-box-full my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/fullstack.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/fullstack-developers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/fullstack-development-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/services/support-engineers') }}">
+                    <a href="{{ url('/services/it-support-engineers') }}">
                         <div class="number-title invisible">04.</div>
                         <h3 title="IT Support Engineer Services">Support Engineers</h3>
                         <p>Our IT Support Engineer Services offer a comprehensive range to maintain optimal system performance, from basic troubleshooting to handling complex issues, ensuring seamless operations across all systems and networks.</p>
                         <!-- <i class="fab fa-codepen my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/support.svg" class="brand-logo-one" alt="IT Staff Augmentation Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/support-engineers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/it-support-engineers') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>

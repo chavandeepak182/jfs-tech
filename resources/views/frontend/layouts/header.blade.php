@@ -58,39 +58,39 @@
 					<div class="mega-box">
 						<div class="content">
 							<div class="row">
-								<a href="{{ url('/services/digital-transformation') }}"><img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" class="brand-logo-one" alt="digitalization"> Digital Transformation</a>
+								<a href="{{ url('/services/digital-transformation-services') }}"><img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" class="brand-logo-one" alt="digitalization"> Digital Transformation</a>
 								<ul class="mega-links">
-									<li><a href="{{ url('/services/data-science') }}"><i class="bx bx-chevron-right"></i> Data Science</a></li>
-									<li><a href="{{ url('/services/ar-vr') }}"><i class="bx bx-chevron-right"></i> AR/VR</a></li>
-									<li><a href="{{ url('/services/application-modernisation') }}"><i class="bx bx-chevron-right"></i> Application Modernization</a></li>
-									<li><a href="{{ url('/services/infrastructure-management') }}"><i class="bx bx-chevron-right"></i> Infrastructure Management</a></li>
+									<li><a href="{{ url('/services/data-science-services') }}"><i class="bx bx-chevron-right"></i> Data Science</a></li>
+									<li><a href="{{ url('/services/ar-vr-services') }}"><i class="bx bx-chevron-right"></i> AR/VR</a></li>
+									<li><a href="{{ url('/services/application-modernisation-services') }}"><i class="bx bx-chevron-right"></i> Application Modernization</a></li>
+									<li><a href="{{ url('/services/infrastructure-management-services') }}"><i class="bx bx-chevron-right"></i> Infrastructure Management</a></li>
 								</ul>
 							</div>
 							<div class="row">
 								<a href="{{ url('/services/digital-experience') }}"><img src="{{ asset('theme') }}/assets/images/icons/digital-exp-y.gif" class="brand-logo-one" alt="digitalization"> Digital Experience</a>
 								<ul class="mega-links">
-									<li><a href="{{ url('/services/digital-marketing-company') }}"><i class="bx bx-chevron-right"></i> Digital Marketing</a></li>
-									<li><a href="{{ url('/services/website-design-and-development') }}"><i class="bx bx-chevron-right"></i> Website Development</a></li>
+									<li><a href="{{ url('/services/best-digital-marketing-agency') }}"><i class="bx bx-chevron-right"></i> Digital Marketing</a></li>
+									<li><a href="{{ url('/services/website-development-company') }}"><i class="bx bx-chevron-right"></i> Website Development</a></li>
 									<li><a href="{{ url('/services/mobile-app-development') }}"><i class="bx bx-chevron-right"></i> Mobile App Development</a></li>
-									<li><a href="{{ url('/services/creative-services') }}"><i class="bx bx-chevron-right"></i> Creative Services</a></li>
+									<li><a href="{{ url('/services/creative-service-agency') }}"><i class="bx bx-chevron-right"></i> Creative Services</a></li>
 								</ul>
 							</div>
 							<div class="row">
-								<a href="{{ url('/services/devops') }}"><img src="{{ asset('theme') }}/assets/images/icons/cloud-y.gif" class="brand-logo-one" alt="digitalization"> DevOps</a>
+								<a href="{{ url('/services/devops-software-development') }}"><img src="{{ asset('theme') }}/assets/images/icons/cloud-y.gif" class="brand-logo-one" alt="digitalization"> DevOps</a>
 								<ul class="mega-links">
-									<li><a href="{{ url('/services/ci-cd-pipelines') }}"><i class="bx bx-chevron-right"></i> CI/CD Pipelines</a></li>
-									<li><a href="{{ url('/services/process-automation') }}"><i class="bx bx-chevron-right"></i> Process Automation</a></li>
-									<li><a href="{{ url('/services/containers-and-microservices') }}"><i class="bx bx-chevron-right"></i> Containers & Microservices</a></li>
-									<li><a href="{{ url('/services/devsecops') }}"><i class="bx bx-chevron-right"></i> DevSecOps</a></li>
+									<li><a href="{{ url('/services/ci-cd-pipeline-deployment') }}"><i class="bx bx-chevron-right"></i> CI/CD Pipelines</a></li>
+									<li><a href="{{ url('/services/process-automation-services') }}"><i class="bx bx-chevron-right"></i> Process Automation</a></li>
+									<li><a href="{{ url('/services/container-based-microservices') }}"><i class="bx bx-chevron-right"></i> Containers & Microservices</a></li>
+									<li><a href="{{ url('/services/devsecops-software-development') }}"><i class="bx bx-chevron-right"></i> DevSecOps</a></li>
 								</ul>
 							</div>
 							<div class="row">
-								<a href="{{ url('services/resource-augmentation') }}"><img src="{{ asset('theme') }}/assets/images/icons/select-y.gif" class="brand-logo-one" alt="digitalization"> Resource Augmentation</a>
+								<a href="{{ url('services/resource-augmentation-services') }}"><img src="{{ asset('theme') }}/assets/images/icons/select-y.gif" class="brand-logo-one" alt="digitalization"> Resource Augmentation</a>
 								<ul class="mega-links">
-									<li><a href="{{ url('services/frontend-developers') }}"><i class="bx bx-chevron-right"></i> Frontend Developers</a></li>
-									<li><a href="{{ url('services/backend-developers') }}"><i class="bx bx-chevron-right"></i> Backend Developers</a></li>
-									<li><a href="{{ url('services/fullstack-developers') }}"><i class="bx bx-chevron-right"></i> Fullstack Developers</a></li>
-									<li><a href="{{ url('services/support-engineers') }}"><i class="bx bx-chevron-right"></i> Support Engineers</a></li>
+									<li><a href="{{ url('services/frontend-development-company') }}"><i class="bx bx-chevron-right"></i> Frontend Developers</a></li>
+									<li><a href="{{ url('services/backend-development-services') }}"><i class="bx bx-chevron-right"></i> Backend Developers</a></li>
+									<li><a href="{{ url('services/fullstack-development-services') }}"><i class="bx bx-chevron-right"></i> Fullstack Developers</a></li>
+									<li><a href="{{ url('services/it-support-engineers') }}"><i class="bx bx-chevron-right"></i> Support Engineers</a></li>
 								</ul>
 							</div>
 						</div>

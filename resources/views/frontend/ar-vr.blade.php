@@ -4,7 +4,7 @@
 @section('keywords', "Application for Augmented reality and Virtual reality services, custom 3D modeling services, 3D Environments Services, Simulations Innovative Services")
 
 @section('schema')
-<link rel="alternate" href="https://jfstechnologies.com/services/ar-vr" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/ar-vr-services" hreflang="en-in" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

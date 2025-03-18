@@ -45,7 +45,7 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/digital-marketing-company" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/best-digital-marketing-agency" hreflang="en-in" />
 @endsection
 
 @section('content')
@@ -79,33 +79,33 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/seo.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
-                    <h3><a href="{{ url('/services/seo-services') }}">1.  Search Engine Optimization (SEO) Services</a></h3>
+                    <h3><a href="{{ url('/services/best-seo-service-agency') }}">1.  Search Engine Optimization (SEO) Services</a></h3>
                     <p>SEO Agency for all businesses is the foundation of any successful digital marketing strategy. Our SEO expert services are designed to help your website rank higher on search engines, increase organic traffic, and improve visibility. We focus on both on-page and off-page optimization to ensure that your site performs well on search engines like Google.</p>
-                    <a href="{{ url('/services/seo-services') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/best-seo-service-agency') }}" class="learn-btn mb-3">Learn More About SEO <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/smo.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
-                    <h3><a href="{{ url('/services/smo-services') }}">2. Social Media Management Services</a></h3>
+                    <h3><a href="{{ url('/services/social-media-advertising') }}">2. Social Media Management Services</a></h3>
                     <p>Social media platforms are crucial for connecting with your audience and creating brand awareness. Our Social media marketing services for business help you engage your audience on platforms like Facebook, Instagram, LinkedIn, and more. We develop strategies that build a loyal community around your brand, drive traffic, and encourage customer interaction.</p>
-                    <a href="{{ url('/services/smo-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/social-media-advertising') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/ppc.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
-                    <h3><a href="{{ url('/services/ppc-services') }}">3. Paid Advertising (PPC) Services</a></h3>
+                    <h3><a href="{{ url('/services/ppc-management-company') }}">3. Paid Advertising (PPC) Services</a></h3>
                     <p>Best PPC advertising company for businesses to get quick visibility and reach a wider audience. Our PPC service provider agency helps you run targeted campaigns across platforms like Google Ads, Bing, and social media. We ensure that your ads reach the right people at the right time, driving relevant traffic and delivering measurable ROI.</p>
-                    <a href="{{ url('/services/ppc-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/ppc-management-company') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/e-mark.gif" class="brand-logo-one icons-img" alt="Best Digital Marketing Agency for all Businesses">
-                    <h3><a href="{{ url('/services/email-marketing') }}">4. Email Marketing Services</a></h3>
+                    <h3><a href="{{ url('/services/email-marketing-services') }}">4. Email Marketing Services</a></h3>
                     <p>Email marketing is a powerful tool for nurturing leads and keeping your audience engaged. Our email marketing services for businesses help you create personalized campaigns that deliver the right message to the right people at the right time. From newsletters to automated email sequences, we provide a comprehensive approach to email marketing.</p>
-                    <a href="{{ url('/services/email-marketing') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/email-marketing-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>

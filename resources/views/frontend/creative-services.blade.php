@@ -86,7 +86,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/uiux.gif" class="brand-logo-one icons-img" alt="top creative graphic design service company">
                     <h3><a title="User Experience (UX) and User Interface (UI) Design Services for websites">1. User Experience (UX) and User Interface (UI) Design</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services for websites cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
-                    <a href="{{ url('/services/uiux-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/ui-ux-design-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -94,7 +94,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/graphics.gif" class="brand-logo-one icons-img" alt="top creative graphic design service company">
                     <h3><a title="Graphic Design Services for social media and websites">2. Graphic Design Services</a></h3>
                     <p>Our Graphic Design Services for social media and websites are tailored to enhance your online presence and engage your target audience. We design visuals that complement your website's aesthetics.</p>
-                    <a href="{{ url('/services/graphics-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/graphics-design-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -102,7 +102,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/content.gif" class="brand-logo-one icons-img" alt="top creative graphic design service company">
                     <h3 title="content creation services for websites"><a>3. Content Creation Services</a></h3>
                     <p>Elevate your online presence with our specialized content creation services for websites. We craft engaging, SEO-optimized content tailored to your brand's voice, ensuring your website captivates and converts visitors.</p>
-                    <a href="{{ url('/services/content-creation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/content-creation-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -110,7 +110,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/3d.gif" class="brand-logo-one icons-img" alt="top creative graphic design service company">
                     <h3 title="3D graphic designing services"><a>4. 3D Design Services</a></h3>
                     <p>In today's visually-driven world, 3D graphic designing services have become essential across various industries. These services transform concepts into immersive visual experiences, enhancing engagement and understanding.</p>
-                    <a href="{{ url('/services/3d-design') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/professional-3d-design-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>

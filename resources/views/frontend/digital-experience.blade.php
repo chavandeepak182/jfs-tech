@@ -80,28 +80,28 @@ web design company for businesses, web development services for business, Social
         <div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
-                    <a href="{{ url('/services/digital-marketing-company') }}">
+                    <a href="{{ url('/services/best-digital-marketing-agency') }}">
                         <div class="number-title invisible">01.</div>
                         <h3 title="Best digital marketing services for business">Digital Marketing</h3>
                         <p>Best digital marketing services for business to promote products and engage customers, using strategies like SEO and social media to enhance visibility.</p>
                         <!-- <i class="fal fa-ad my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/digi-mkt.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/digital-marketing-company') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/best-digital-marketing-agency') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
-                    <a href="{{ url('/services/website-design-and-development') }}">
+                    <a href="{{ url('/services/website-development-company') }}">
                         <div class="number-title invisible">02.</div>
                         <h3 title="Website development for business">Website Development</h3>
                         <p>Web development services for business involves creating and maintaining websites to enhance user experience and drive online engagement.</p>
                         <!-- <i class="fal fa-desktop-alt my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/web-dev.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/website-design-and-development') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/website-development-company') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
@@ -129,7 +129,7 @@ web design company for businesses, web development services for business, Social
                         <!-- <i class="fal fa-lightbulb-on my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/creative.svg" class="brand-logo-one" alt="Top Digital Experience Company for Businesses">
                         <div class="text-center mt-4">
-                            <a href="{{ url('/services/creative-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('/services/creative-service-agency') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>

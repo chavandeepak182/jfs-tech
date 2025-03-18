@@ -95,8 +95,8 @@
 						<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 							<span class="sp-color2">24+ Years Leadership Experience</span>
 							<h2 title="Digital transformation company for software development">Your Trusted Best Data Driven Digital Transformation Services</h2>
-							<div class="mx-auto pt-3">At JFS Technologies, we are a <a href="{{ url('/services/digital-transformation') }}"><strong>digital transformation company</a></strong>, offering innovative and Digital transformation company for software development to thrive in the digital age. From <a href="{{ url('/services/digital-marketing-company') }}"><strong>digital marketing services</a></strong> to <a href="{{ url('/services/infrastructure-management') }}"><strong>Cloud services in Infrastructure management</a></strong> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
-							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <a href="{{ url('/services/devops') }}"><strong>DevOps cybersecurity services</a></strong>, <a href="{{ url('/services/ci-cd-pipelines') }}"><strong>CI/CD performance testing</a></strong>, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
+							<div class="mx-auto pt-3">At JFS Technologies, we are a <a href="{{ url('/services/digital-transformation-services') }}"><strong>digital transformation company</a></strong>, offering innovative and Digital transformation company for software development to thrive in the digital age. From <a href="{{ url('/services/best-digital-marketing-agency') }}"><strong>digital marketing services</a></strong> to <a href="{{ url('/services/infrastructure-management-services') }}"><strong>Cloud services in Infrastructure management</a></strong> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</div>
+							<div class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <a href="{{ url('/services/devops-software-development') }}"><strong>DevOps cybersecurity services</a></strong>, <a href="{{ url('/services/ci-cd-pipeline-deployment') }}"><strong>CI/CD performance testing</a></strong>, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</div>
 						</div>
 					</div>
 
@@ -130,7 +130,7 @@
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color1">What We Do?</span>
 				<h2 title="Our Core Digital Transformation Services for all businesses at JFS Technologies">Our Best Data Driven Digital Transformation Services</h2>
-				<div class="text-white w-75 mx-auto pt-3">We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential. Our expertise spans a diverse range of services, including <a href="{{ url('/services/ar-vr') }}" ><font color="#FFFFFF"><strong>AR/VR Services</a></font></strong>, <a href="{{ url('/services/application-modernisation') }}"><font color="#FFFFFF"><strong>Best Application Modernization Services</a></font></strong>, and <a href="{{ url('/services/process-automation') }}"><font color="#FFFFFF"><strong>Business Process Automation</a></font></strong> to <a href="{{ url('/services/containers-and-microservices') }}"><font color="#FFFFFF"><strong>Containers and Microservices.</a></font></strong></div>
+				<div class="text-white w-75 mx-auto pt-3">We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential. Our expertise spans a diverse range of services, including <a href="{{ url('/services/ar-vr-services') }}" ><font color="#FFFFFF"><strong>AR/VR Services</a></font></strong>, <a href="{{ url('/services/application-modernisation-services') }}"><font color="#FFFFFF"><strong>Best Application Modernization Services</a></font></strong>, and <a href="{{ url('/services/process-automation-services') }}"><font color="#FFFFFF"><strong>Business Process Automation</a></font></strong> to <a href="{{ url('/services/container-based-microservices') }}"><font color="#FFFFFF"><strong>Containers and Microservices.</a></font></strong></div>
 			</div>
 			<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
 				<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
@@ -139,7 +139,7 @@
 						<div class="card-content">
 							<h3 title="Digital Transformation Services">Digital Transformation</h3>
 							<p>Empowering businesses as a Digital transformation company for software development with next-gen technologies.</p>
-							<a href="{{ url('/services/digital-transformation') }}" class="button">
+							<a href="{{ url('/services/digital-transformation-services') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
@@ -163,7 +163,7 @@
 						<div class="card-content">
 							<h3 title="Devops Cybersecurity Services">DevOps Services</h3>
 							<p>Accelerating your SDLC with streamlined processes through expert DevOps and cybersecurity services.</p>
-							<a href="{{ url('/services/devops') }}" class="button">Know More <i class="far fa-long-arrow-right"></i>
+							<a href="{{ url('/services/devops-software-development') }}" class="button">Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
 					</div>
@@ -174,7 +174,7 @@
 						<div class="card-content">
 							<h3 title="Resource Augmentation Services">Resource Augmentation</h3>
 							<p>Offering Resource Augmentation for digital transformation who integrate to scale your operations.</p>
-							<a href="{{ url('/services/resource-augmentation') }}" class="button">
+							<a href="{{ url('/services/resource-augmentation-services') }}" class="button">
 								Know More <i class="far fa-long-arrow-right"></i>
 							</a>
 						</div>
@@ -185,9 +185,9 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/transform.png" alt="Data Driven Digital Transformation Services">
-						<h3><a href="{{ url('/services/digital-transformation') }}">Digital Transformation</a></h3>
+						<h3><a href="{{ url('/sservices/digital-transformation-services') }}">Digital Transformation</a></h3>
 						<p>Empowering businesses with next-gen technologies to optimize processes, enhance efficiency & foster innovation.</p>
-						<a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="{{ url('/services/digital-transformation-services') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -201,17 +201,17 @@
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/devops.png" alt="Data Driven Digital Transformation Services">
-						<h3><a href="{{ url('/services/devops') }}">DevOps</a></h3>
+						<h3><a href="{{ url('/services/devops-software-development') }}">DevOps</a></h3>
 						<p>Accelerating your development lifecycle with streamlined processes and robust practices.</p>
-						<a href="{{ url('/services/devops') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="{{ url('/services/devops-software-development') }}" class="learn-btn mb-2">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 					<div class="services-card services-style-bg p-0">
 						<img src="{{ asset('theme') }}/assets/images/resource.png" alt="Data Driven Digital Transformation Services">
-						<h3><a href="{{ url('/services/resource-augmentation') }}">Resource Augmentation</a></h3>
+						<h3><a href="{{ url('/services/resource-augmentation-services') }}">Resource Augmentation</a></h3>
 						<p>Providing skilled professionals to integrate with your team and scale your operations.</p>
-						<a href="{{ url('/services/resource-augmentation') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+						<a href="{{ url('/services/resource-augmentation-services') }}" class="learn-btn">Learn More <i class="bx bx-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -223,7 +223,7 @@
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color2">Unlock the potential</span>
 				<h2 title="Who We Serve for digital transformation services">Who We Serve?</h2>
-				<p>We cater to a wide range of industries, offering customized solutions such as <a href="{{ url('/services/data-science') }}"><strong>Data Science Services</a></strong>, being among the top digital marketing companies for small businesses, <a href="{{ url('/services/devsecops') }}"><strong>DevSecOps software development</a></strong> lifecycle support, and Resource Augmentation to extend your team and meet unique business needs.</p>
+				<p>We cater to a wide range of industries, offering customized solutions such as <a href="{{ url('/services/data-science-services') }}"><strong>Data Science Services</a></strong>, being among the top digital marketing companies for small businesses, <a href="{{ url('/services/devsecops-software-developmentdevsecops') }}"><strong>DevSecOps software development</a></strong> lifecycle support, and Resource Augmentation to extend your team and meet unique business needs.</p>
 			</div>
 			<div class="row pt-45">
 				<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">

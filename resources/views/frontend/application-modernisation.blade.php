@@ -4,7 +4,7 @@
 @section('keywords', "Best Application Modernisation Services, application modernisation consulting services, API Integration services, benefits of api integration")
 
 @section('Schema')
-<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation-services" hreflang="en-in" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

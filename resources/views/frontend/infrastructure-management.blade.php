@@ -45,7 +45,7 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
 @endsection
 
 @section('content')

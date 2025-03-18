@@ -75,7 +75,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="End-to-End Digital Transformation Services">
-                    <h3 title="End-to-End Digital Transformation Services"><a href="{{ url('/services/digital-transformation') }}">1. Digital Transformation</a></h3>
+                    <h3 title="End-to-End Digital Transformation Services"><a href="{{ url('/services/digital-transformation-services') }}">1. Digital Transformation</a></h3>
                     <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation Consulting and best Infrastructure Management services, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -85,7 +85,7 @@
                             <li>Infrastructure Management</li>
                         </ul>
                     </p>
-                    <a href="{{ url('/services/digital-transformation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/digital-transformation-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -107,7 +107,7 @@
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/cloud.gif" class="brand-logo-one icons-img" alt="End-to-End Digital Transformation Services">
-                    <h3 title="devops software development lifecycle"><a href="{{ url('/services/devops') }}">3. DevOps</a></h3>
+                    <h3 title="devops software development lifecycle"><a href="{{ url('/services/devops-software-development') }}">3. DevOps</a></h3>
                     <p>Through the implementation of performance testing in the ci/cd pipelines, we optimize the development process, guaranteeing the swift and effective delivery of software updates. Leveraging our proficiency in containers and microservices, we design adaptable and scalable solutions that seamlessly adjust to evolving business requirements.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -117,13 +117,13 @@
                             <li>DevSecOps</li>
                         </ul>
                     </p>
-                    <a href="{{ url('/services/devops') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/devops-software-development') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/select.gif" class="brand-logo-one icons-img" alt="End-to-End Digital Transformation Services">
-                    <h3 title="Resource Augmentation to Extend Your Team"><a href="{{ url('/services/resource-augmentation') }}">4. Resource Augmentation</a></h3>
+                    <h3 title="Resource Augmentation to Extend Your Team"><a href="{{ url('/services/resource-augmentation-services') }}">4. Resource Augmentation</a></h3>
                     <p>We have a team of highly skilled and experienced developers who are experts in these technologies. Whether you need additional support for a project or want to augment your existing team, our resource augmentation services to Extend your team can provide you with the talent you need to achieve your goals.</p>
                     <p><b>Key Features:</b>
                         <ul>
@@ -133,7 +133,7 @@
                             <li title="support engineer for business">Support Engineers</li>
                         </ul>
                     </p>
-                    <a href="{{ url('/services/resource-augmentation') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
+                    <a href="{{ url('/services/resource-augmentation-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
             </div>
         </div>
