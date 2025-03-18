@@ -111,56 +111,56 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="work-process-card-three">
-                    <a href="{{ url('services/ci-cd-pipelines') }}">
+                    <a href="{{ url('services/ci-cd-pipeline-deployment') }}">
                         <div class="number-title invisible">01.</div>
                         <h3>CI/CD Pipelines</h3>
                         <p>Streamline the software release process with automated integration and deployment.</p>
                         <!-- <i class="fad fa-infinity my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/ci-cd.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('services/ci-cd-pipelines') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/ci-cd-pipeline-deployment') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
-                    <a href="{{ url('services/process-automation') }}">
+                    <a href="{{ url('services/process-automation-services') }}">
                         <div class="number-title invisible">02.</div>
                         <h3 title= "Business Process Automation Services">Process Automation</h3>
                         <p>Enhance efficiency by Business Process Automation Services.</p>
                         <!-- <i class="fad fa-random my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/auto.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('services/process-automation') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/process-automation-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="work-process-card-three">
-                    <a href="{{ url('services/containers-and-microservices') }}">
+                    <a href="{{ url('services/container-based-microservices') }}">
                         <div class="number-title invisible">03.</div>
                         <h3>Containers & Microservices</h3>
                         <p>Build scalable, modular architectures that support agile development.</p>
                         <!-- <i class="fad fa-cloud-upload my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/micro-ser.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('services/containers-and-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/container-based-microservices') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
-                    <a href="{{ url('services/devsecops') }}">
+                    <a href="{{ url('services/devsecops-software-development') }}">
                         <div class="number-title invisible">04.</div>
                         <h3>DevSecOps</h3>
                         <p>Embed security into every phase of the development lifecycle for robust protection.</p>
                         <!-- <i class="fad fa-cloud-meatball my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/dev-sec.svg" class="brand-logo-one" alt="DevOps Software Development Services">
                         <div class="text-center mt-4">
-                            <a href="{{ url('services/devsecops') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
+                            <a href="{{ url('services/devsecops-software-development') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
                     </a>
                 </div>

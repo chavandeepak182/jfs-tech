@@ -45,7 +45,7 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/website-design-and-development" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/website-development-company" hreflang="en-in" />
 @endsection
 
 @section('content')

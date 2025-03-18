@@ -121,13 +121,13 @@
 											<a href="/digital-marketing-company" class="nav-link">Digital Marketing <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="/seo-services" class="nav-link">SEO Services</a>
+													<a href="/best-seo-service-agency" class="nav-link">SEO Services</a>
 												</li>
 												<li class="nav-item">
-													<a href="/smo-services" class="nav-link">SMO Services</a>
+													<a href="/social-media-advertising" class="nav-link">SMO Services</a>
 												</li>
 												<li class="nav-item">
-													<a href="/ppc-services" class="nav-link">PPC Services</a>
+													<a href="/ppc-management-company" class="nav-link">PPC Services</a>
 												</li>
 											</ul>
 										</li>
@@ -278,33 +278,33 @@
 											<a href="{{ url('/services/digital-experience') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-experience' ? 'active' : '' }}">Digital Experience <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="{{ url('/services/digital-marketing-company') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-marketing-company' ? 'active' : '' }}">Digital Marketing</a>
+													<a href="{{ url('/services/best-digital-marketing-agency') }}" class="nav-link {{ Route::currentRouteName() === 'services.digital-marketing-company' ? 'active' : '' }}">Digital Marketing</a>
 												</li>
 												<li class="nav-item">
-													<a href="{{ url('/services/website-design-and-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.website-design-and-development' ? 'active' : '' }}">Website Development</a>
+													<a href="{{ url('/services/website-development-company') }}" class="nav-link {{ Route::currentRouteName() === 'services.website-design-and-development' ? 'active' : '' }}">Website Development</a>
 												</li>
 												<li class="nav-item">
 													<a href="{{ url('/services/mobile-app-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.mobile-app-development' ? 'active' : '' }}">Mobile App Development</a>
 												</li>
 												<li class="nav-item">
-													<a href="{{ url('/services/creative-services') }}" class="nav-link">Creative Services</a>
+													<a href="{{ url('/services/creative-service-agency') }}" class="nav-link">Creative Services</a>
 												</li>
 											</ul>
 										</li>
 										<li class="nav-item">
-											<a href="{{ url('/services/devops') }}" class="nav-link {{ Route::currentRouteName() === 'services.devops' ? 'active' : '' }}">DevOps <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
+											<a href="{{ url('/services/devops-software-development') }}" class="nav-link {{ Route::currentRouteName() === 'services.devops' ? 'active' : '' }}">DevOps <i class="bx bx-caret-down" style="transform: rotate(-90deg);"></i></a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="{{ url('/services/ci-cd-pipelines') }}" class="nav-link">CI/CD Pipelines</a>
+													<a href="{{ url('/services/ci-cd-pipeline-deployment') }}" class="nav-link">CI/CD Pipelines</a>
 												</li>
 												<li class="nav-item">
-													<a href="{{ url('/services/process-automation') }}" class="nav-link">Process Automation</a>
+													<a href="{{ url('/services/process-automation-services') }}" class="nav-link">Process Automation</a>
 												</li>
 												<li class="nav-item">
-													<a href="{{ url('/services/containers-and-microservices') }}" class="nav-link">Containers & Microservices</a>
+													<a href="{{ url('/services/container-based-microservices') }}" class="nav-link">Containers & Microservices</a>
 												</li>
 												<li class="nav-item">
-													<a href="{{ url('/services/devsecops') }}" class="nav-link">DevSecOps</a>
+													<a href="{{ url('/services/devsecops-software-development') }}" class="nav-link">DevSecOps</a>
 												</li>
 											</ul>
 										</li>

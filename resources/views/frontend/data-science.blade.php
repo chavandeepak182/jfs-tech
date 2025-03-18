@@ -46,7 +46,7 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/data-science" hreflang="en-in" />
+<link rel="alternate" href="https://jfstechnologies.com/services/data-science-services" hreflang="en-in" />
 @endsection
 
 @section('content')
