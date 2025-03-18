@@ -62,8 +62,8 @@
     </div>
 
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-        <source src="../theme/assets/images/backend-dev.mp4" type="video/mp4">
-        <source src="../theme/assets/images/services.mp4" type="video/webm">
+        <source src="https://jfstechnologies.com/theme/assets/images/backend-dev.mp4" type="video/mp4">
+        <source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">
         Sorry, your browser does not support HTML5 video.
     </video>
 </div>
