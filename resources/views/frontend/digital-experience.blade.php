@@ -3,6 +3,10 @@
 @section('description', "Find top digital marketing company for businesses of all sizes. Best Digital Marketing Services for Business to drive growth, visibility, and online success.")
 @section('keywords', "top digital experience company for businesses, best digital marketing agency, top social media advertising company, 
 web design company for businesses, web development services for business, Social media marketing for businesses, SEO service provider agency, Graphic designing services for all businesses, graphic design company")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/digital-experience" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('Schema')
 <script type="application/ld+json">
 {

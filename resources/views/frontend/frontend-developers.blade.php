@@ -46,6 +46,8 @@
 }
 </script>
 @endsection
+<link rel="canonical" href="https://jfstechnologies.com/services/frontend-development-company" />
+<meta name="robots" content="index, follow">
 
 @section('content')
 

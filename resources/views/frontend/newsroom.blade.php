@@ -2,7 +2,11 @@
 @section('title', "Best Corporate Online Newsrooms: Enhance Your Brand’s Digital Presence")
 @section('description', "Discover the best corporate online newsrooms to enhance your brand's digital presence. Streamline communication, share updates, and engage your audience effectively.")
 @section('keywords', "best corporate online newsrooms, best corporate newsrooms, corporate online newsrooms")
-
+@section('canonical')
+<link rel="alternate" href="https://jfstechnologies.com/newsroom" hreflang="en-in" />
+<link rel="canonical" href="https://jfstechnologies.com/newsroom" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('content')
 
 <div id="banner" class="inner-banner">

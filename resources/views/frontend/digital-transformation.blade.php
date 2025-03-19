@@ -2,6 +2,12 @@
 @section('title', "Digital Transformation Services for Business | Digital Transformation Management Consulting")
 @section('description', "JFS Technologies provides Digital Transformation Services for Business, empowering businesses with innovative solutions, and seamless digital strategies to drive growth and success. ")
 @section('keywords', "Digital Transformation Services for Business, digital transformation services for industries, Digital Transformation Management Consulting, Infratructure management consulting services, Application Modernisation consulting services, Data Science Consulting services")
+@section('canonical')
+<link rel="alternate" href="https://jfstechnologies.com/services/digital-transformation-services" hreflang="en-in" />
+
+<link rel="canonical" href="https://jfstechnologies.com/services/digital-transformation-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {
@@ -45,7 +51,6 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/digital-transformation-services" hreflang="en-in" />
 @endsection
 
 @section('content')

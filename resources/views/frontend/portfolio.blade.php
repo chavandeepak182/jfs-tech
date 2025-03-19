@@ -2,6 +2,10 @@
 @section('title', "Digital Transformation Portfolio Management: Streamlining Your Business Strategy")
 @section('description', "Optimize your business strategy with digital transformation portfolio management. Enhance efficiency, drive innovation, and achieve successful outcomes.")
 @section('keywords', "digital transformation portfolio management, digital transformation portfolio")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/portfolio" />
+<meta name="robots" content="index, follow">
+@endsection
 
 @section('content')
 <div class="inner-banner" style="background-image: url(../theme/assets/images/modern-app.webp);">

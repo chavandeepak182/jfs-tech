@@ -2,6 +2,11 @@
 @section('title', "Expert Infrastructure Management Consulting Services | Cloud Infrastructure Management")
 @section('description', "Optimize your business with expert infrastructure management consulting services. Explore reliable cloud infrastructure solutions tailored to your needs.")
 @section('keywords', "Infratructure management consulting services, Best Infrastructure Management Services, Cloud services in Infrastructure management, managing the cloud infrastructure, infrastructure management in cloud computing, cloud infrastructure management")
+@section('canonical')
+<link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
+<link rel="canonical" href="https://jfstechnologies.com/services/infrastructure-management-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {
@@ -45,7 +50,7 @@
   }]
 }
 </script>
-<link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
+
 @endsection
 
 @section('content')

@@ -1,7 +1,10 @@
 @extends('frontend.layouts.header')
 @section('title', "Contact Us - JFS Technologies")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/contact-us" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('content')
 <div class="inner-banner" style="background-image: url(../theme/assets/images/infra-mgmt.jpg);">
     <div class="container">

@@ -2,6 +2,10 @@
 @section('title', "Top Creative Graphic Design Service Company | Business Logo Design Services")
 @section('description', "Discover top creative graphic design service company, offering business logo design services to elevate your brand's identity and make a lasting impression.")
 @section('keywords', "Top Creative graphic design service company, creative graphic design company, Logo design services for businesses, business logo design services, Graphic designing services for businesses, logo designers for  business")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/creative-service-agency" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {
@@ -52,7 +56,6 @@
 }
 </script>
 @endsection
-
 @section('content')
 
 <div id="banner" class="inner-banner">

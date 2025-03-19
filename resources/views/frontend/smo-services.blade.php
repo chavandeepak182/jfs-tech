@@ -46,6 +46,8 @@
 }
 </script>
 @endsection
+<link rel="canonical" href="https://jfstechnologies.com/services/social-media-advertising" />
+<meta name="robots" content="index, follow">
 
 @section('content')
 <div id="banner" class="inner-banner">

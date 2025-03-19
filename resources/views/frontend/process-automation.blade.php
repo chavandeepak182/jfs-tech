@@ -2,6 +2,10 @@
 @section('title', "Process Automation in Software Project Management | Software Development Process Automation")
 @section('description', "Optimize your Process Automation in Software Project Management. Enhance efficiency Software Development Process Automation with expert automation solutions.")
 @section('keywords', "process automation in software project management, Intelligent Business Process Automation Services,  business process automation service company, software development process automation")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/process-automation-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

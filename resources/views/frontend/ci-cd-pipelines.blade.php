@@ -2,7 +2,10 @@
 @section('title', "CI/CD Pipeline Deployment Services | CI/CD Performance Testing Services")
 @section('description', "Enhance your software development with CI/CD pipeline deployment services and CI/CD Performance Testing Services, efficient, and reliable delivery.")
 @section('keywords', "ci cd pipeline deployment services, performance testing in ci cd pipeline, ci cd performance testing services")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/ci-cd-pipeline-deployment" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

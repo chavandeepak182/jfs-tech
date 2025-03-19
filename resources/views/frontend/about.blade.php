@@ -2,7 +2,10 @@
 @section('title', "About Us: Leading Digital Transformation Services Company")
 @section('description', "Discover how our leading digital transformation services drive innovation and success for businesses. Learn more about our expertise")
 @section('keywords', "digital transformation services company, digital transformation consulting services, digital transformation services")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/about-us" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
