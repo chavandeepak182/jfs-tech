@@ -2,6 +2,10 @@
 @section('title', "Top PPC Management Company for Your Business | PPC Advertising Management Services")
 @section('description', "Optimize with Top PPC Management Company for Your Business! Get expert Google Ads management, social media paid campaigns, and affordable PPC Advertising Management Services.")
 @section('keywords', "Top PPC Management Company for Your Business, Pay-Per-Click advertising company services, Google ads Management services, Best Social media paid campaigns services, PPC management for agency services campaigns, Affordable Paid marketing services, PPC advertising management services")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/ppc-management-company" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

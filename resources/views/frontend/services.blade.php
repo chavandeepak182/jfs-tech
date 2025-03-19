@@ -2,6 +2,10 @@
 @section('title', "End-to-End Digital Transformation Services | Top Digital Marketing Company for all Businesses")
 @section('description', "Boost your business with End-to-End Digital Transformation Services! Top Digital Marketing Company for all Businesses giving solutions for your growth needs.")
 @section('keywords', "End-to-End Digital Transformation Services, Data Science Services Provider, top digital marketing company for all businesses, devsecops software development lifecycle, best mobile app development company, Resource Augmentation to Extend Your Team")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

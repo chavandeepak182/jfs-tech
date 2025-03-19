@@ -2,7 +2,10 @@
 @section('title', "Content Creation Marketing Agency | Social Media Content Creation Services")
 @section('description', "Boost your brand with our content creation marketing agency! Expert social media content creation services to engage, grow, and convert your audience.")
 @section('keywords', "content creation marketing agency, social media content creation services, social media content creation packages, video content creation services")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/content-creation-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

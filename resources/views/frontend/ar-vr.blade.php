@@ -2,7 +2,10 @@
 @section('title', "Application for Augmented reality and Virtual reality services | Best AR/VR Services")
 @section('description', "Find the best Application for Augmented reality and Virtual reality services near you! Explore cutting-edge augmented and virtual reality solutions.")
 @section('keywords', "Application for Augmented reality and Virtual reality services, custom 3D modeling services, 3D Environments Services, Simulations Innovative Services")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/ar-vr-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <link rel="alternate" href="https://jfstechnologies.com/services/ar-vr-services" hreflang="en-in" />
 <script type="application/ld+json">

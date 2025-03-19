@@ -2,6 +2,10 @@
 @section('title', "Professional 3D Design Services | 3D Printing Design Service")
 @section('description', "Get expert 3D design services for precision & innovation. From 3D printing designs to custom modeling, we bring your ideas to creativity!")
 @section('keywords', "Professional 3D Design Services, 3D printing design service, 3d drawing interior design, 3d logo printing near me, custom 3d design services")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/professional-3d-design-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
     {

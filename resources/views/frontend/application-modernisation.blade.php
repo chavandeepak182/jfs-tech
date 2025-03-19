@@ -2,7 +2,10 @@
 @section('title', "Best Application Modernisation Consulting Services | Best Application Modernisation Services")
 @section('description', "Unlock the power of the best application modernisation consulting services and seamless API integration. Enhance your business with cutting-edge solutions")
 @section('keywords', "Best Application Modernisation Services, application modernisation consulting services, API Integration services, benefits of api integration")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/application-modernisation-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('Schema')
 <link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation-services" hreflang="en-in" />
 <script type="application/ld+json">

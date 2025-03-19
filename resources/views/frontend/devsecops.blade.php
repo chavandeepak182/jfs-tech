@@ -2,6 +2,10 @@
 @section('title', "DevSecOps in Software Development Lifecycle | Development Security Operation Services")
 @section('description', "Integrate DevSecOps in software development lifecycle for enhanced security and efficiency. Explore our Development Security Operation Services for seamless development.")
 @section('keywords', "devsecops software development lifecycle, devsecops cybersecurity services, Infrastructure as Code Security in DevSecOps, Automate security testing in Devsecops, Development Security Operation Services")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/devsecops-software-development" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

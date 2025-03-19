@@ -8,6 +8,7 @@
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
     <meta name="Keywords" content="@yield('keywords')">
+	@yield('canonical')
 
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">

@@ -2,6 +2,10 @@
 @section('title', "Best Web Design Services for Businesses | Best Business Web Development Company")
 @section('description', "Affordable Best Web Design Services for Businesses. Partner with our best business web design company to create a strong online presence today!")
 @section('keywords', "Best Web Design Services for Businesses, Affordable Web Design Services for Businesses, web development services for  businesses, best business website design company, web design for local businesses, business web design development, Web design development for Large enterprises, Web design development for Educational sector")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/website-development-company" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {

@@ -2,6 +2,11 @@
 @section('title', "Support Engineers Services - JFS Technologies")
 @section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
 @section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/it-support-engineers" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('Schema')
 <script type="application/ld+json">
 {

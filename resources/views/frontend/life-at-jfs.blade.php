@@ -2,7 +2,11 @@
 @section('title', "Exciting Careers at JFS | Join Our Innovative Team Today")
 @section('description', "Explore exciting career opportunities at JFS! Join our innovative team and contribute to cutting-edge solutions in software development and digital marketing.")
 @section('description', "Careers at JFS")
-
+@section('canonical')
+<link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
+<link rel="canonical" href="https://jfstechnologies.com/services/infrastructure-management-services" />
+<meta name="robots" content="index, follow">
+@endsection
 
 @section('content')
 <div class="inner-banner" style="background-image: url(../theme/assets/images/group-pic.jpg);">

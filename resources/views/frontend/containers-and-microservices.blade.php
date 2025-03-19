@@ -2,6 +2,10 @@
 @section('title', "Building Secure Container-Based Microservices Architecture Applications")
 @section('description', "Discover the benefits of microservices and containers for scalable, efficient development. Enhance flexibility, scalability, and performance in your applications.")
 @section('keywords', "Container-Based Microservices Architecture, Building Secure Container-Based Microservices, container based microservices applications, container and microservice-based applications, Build Your Own Microservices in Flask, Microservices with .net core, Linux Containers for Virtualization, Building Microservices with Node.js, Dockerize Spring Boot Microservices, Microservices Architecture using Docker and Kubernetes, Deploy Microservice Architecture in Docker, Container development using Podman, difference between microservices and containers")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/container-based-microservices" />
+<meta name="robots" content="index, follow">
+@endsection
 
 @section('schema')
 <script type="application/ld+json">

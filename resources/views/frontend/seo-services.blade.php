@@ -2,6 +2,10 @@
 @section('title', "Best SEO Agency for All Businesses | Affordable SEO Package for All Businesses")
 @section('description', "Boost your online presence with the best SEO service agency! Get an affordable SEO package for all businesses from the best SEO marketing company today!")
 @section('keywords', "Best SEO Agency for All Businesses, Best SEO Service Agency, Affordable SEO Package for All Businesses, best SEO service provider, Best SEO Marketing Company")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/best-seo-service-agency" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {
