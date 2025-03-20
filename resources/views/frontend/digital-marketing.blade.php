@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Digital Marketing Agency for all Businesses | Best PPC Advertising company")
+@section('title', "Best Digital Marketing Agency for all Businesses")
 @section('description', "Discover the Best Digital Marketing Agency for all Businesses offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
 @section('keywords', "best digital marketing agency for all businesses, best digital marketing agency, best ppc advertising company, SEO Agency for all businesses, Social media marketing services  for business, Email Marketing services for business")
 @section('canonical')
@@ -77,8 +77,8 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2 title="Best Digital Marketing Agency for all Businesses">Digital Marketing Agency to Boost Online Presence</h2>
-            <p class="margin-auto">In the competitive digital landscape, having a well-rounded digital marketing strategy is essential for building brand awareness, driving traffic, and generating leads. Best Digital Marketing Agency for all Businesses is designed to help grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO services for all businesses to best PPC advertising companies and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
+            <h2>Best Digital Marketing Agency for all Businesses</h2>
+            <p class="margin-auto">In the competitive digital landscape, having a best digital marketing agency for all businesses is essential for building brand awareness, driving traffic, and generating leads. Best Digital Marketing Agency for all Businesses is designed to help grow online, ensuring that your brand connects with the right audience and achieves measurable results. We offer a comprehensive suite of services, from SEO services for all businesses to best PPC advertising companies and email marketing, all tailored to meet your specific business objectives. Explore our range of services below and discover how we can help you create a more effective and impactful digital marketing strategy.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -182,7 +182,7 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Success Stories in Digital Marketing Agency for Business</h2>
+            <h2>Success Stories in Best Digital Marketing Agency for all Businesses</h2>
             <p>See how our Best Digital Marketing for Businesses transform:</p>
         </div>
         <div class="row pt-45">
@@ -254,7 +254,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Boost Your Business with Best Digital Marketing Agency!</h2>
+                        <h2>Boost Your Business with Best Digital Marketing Agency</h2>
                         <p>In today’s competitive digital landscape, visibility is everything! At JFS Technologies, we help businesses grow with data-driven digital marketing strategies tailored to your goals.</p>
                     </div>
                     <h3>Leveraging over 24 years of expertise, we deliver top AR/VR solutions.</h3>

@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "About Us: Leading Digital Transformation Services Company")
-@section('description', "Discover how our leading digital transformation services drive innovation and success for businesses. Learn more about our expertise")
+@section('title', "Leading Digital Transformation Services Company")
+@section('description', "Discover how our leading digital transformation services company drive innovation and success for businesses. Learn more about our expertise")
 @section('keywords', "digital transformation services company, digital transformation consulting services, digital transformation services")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/about-us" />
@@ -27,7 +27,8 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="Leading Digital Transformation Services Company">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-2.png" alt="
+					Digital Transformation Services Company">
                     <!-- <div class="about-play-content">
                         <span>Watch Our Intro Video</span>
                         <h2>Perfect Solution for It Services!</h2>
@@ -62,35 +63,36 @@
 			<div class="row pt-45 align-items-center justify-content-center text-center">
 				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="" alt="Digital Transformation Services Company">
 						<hr>
 						<p>Providing strategic financial solutions with a customer-centric approach to loans and investments.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="" alt="Digital Transformation Services Company">
 						<hr>
 						<p>Offering stylish, functional furniture for home and office spaces, ensuring quality and comfort.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="" alt="Digital Transformation Services Company">
 						<hr>
 						<p>Supplying high-quality hospital equipment, supporting healthcare institutions with essential tools for patient care.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6" data-aos="fade-up" data-aos-duration="750">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="" alt="Digital Transformation Services Company">
 						<hr>
 						<p>Leaders in real estate development, focused on creating sustainable and innovative living spaces.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-12 text-center pt-5" data-aos="zoom-in" data-aos-duration="750">
-				<img src="{{ asset('theme') }}/assets/images/vmv.png" alt="Our Core Values" style="width:85%;">
+				<img src="{{ asset('theme') }}/assets/images/vmv.png" alt="Digital Transformation Services Company
+				" style="width:85%;">
 			</div>
         </div>
     </div>
@@ -161,28 +163,28 @@
 			<div class="row pt-45">
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="experience">
+						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
 						<p class="title">150+</p>
 						<span>Projects Delivered</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="experts">
+						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
 						<p class="title">25+</p>
 						<span>Industries Served</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Customer Base">
+						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
 						<p class="title">10+</p>
 						<span>Years of Excellence</span>
 					</div>
 				</div>
 				<div class="col-lg-3 col-6 col-md-3">
 					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="locations">
+						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
 						<p class="title">100%</p>
 						<span>Client Satisfaction</span>
 					</div>
@@ -191,10 +193,10 @@
 		</div>
 		<div class="counter-shape">
 			<div class="shape1">
-				<img src="{{ asset('theme') }}/assets/images/shape/shape1.png" alt="Images">
+				<img src="{{ asset('theme') }}/assets/images/shape/shape1.png" alt="Digital Transformation Services Company">
 			</div>
 			<div class="shape2">
-				<img src="{{ asset('theme') }}/assets/images/shape/shape2.png" alt="Images">
+				<img src="{{ asset('theme') }}/assets/images/shape/shape2.png" alt="Digital Transformation Services Company">
 			</div>
 		</div>
 	</div>
@@ -251,17 +253,17 @@
 			<div class="row align-items-center justify-content-center pt-5">
 				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Digital Transformation Services Company">
 					</div>
 				</div>
 				<div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Digital Transformation Services Company">
 					</div>
 				</div>
                 <div class="col-lg-2 col-6">
 					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Images">
+                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Digital Transformation Services Company">
 					</div>
 				</div>
 				<div class="col-lg-2 col-6">
@@ -311,7 +313,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="Digital Transformation Services Company">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -339,7 +341,7 @@
 		<div class="row pt-45 justify-content-center">
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/dilip-y.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/dilip-y.jpg" alt="Digital Transformation Services Company">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/dilip-kumar-83a65722/" target="_blank">
@@ -355,7 +357,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/sandy-p.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/sandy-p.jpg" alt="Digital Transformation Services Company">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/sandeep-pawar-0949561a/" target="_blank">
@@ -387,7 +389,7 @@
 			<!--</div>-->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/irfana-s.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/irfana-s.jpg" alt="Digital Transformation Services Company">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/irfana-shaikh-bbb7b7a7/" target="_blank">
