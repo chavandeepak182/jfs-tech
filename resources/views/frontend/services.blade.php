@@ -203,7 +203,7 @@
 	<div class="container-fluid p-0">
 		<div class="section-title text-center">
 			<span class="sp-color2">Success Stories</span>
-			<h2>Driving Success with End-to-End Digital Transformation Services</h2>
+			<h2>End-to-End Digital Transformation Services</h2>
 			<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 		</div>
 		<div class="case-study-slider owl-carousel owl-theme pt-45">
@@ -290,7 +290,7 @@
 						<span>COO @ Shyena Techyarns</span>
 					</div>
 					<p>
-					“Because of JFS Technologies' End-to-End Digital Transformation Services, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
+					“Because of JFS Technologies' Digital Transformation , our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
 					</p>
 				</div>
 			</div>
