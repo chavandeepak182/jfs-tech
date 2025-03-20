@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "End-to-End Digital Transformation Services | Top Digital Marketing Company for all Businesses")
-@section('description', "Boost your business with End-to-End Digital Transformation Services! Top Digital Marketing Company for all Businesses giving solutions for your growth needs.")
-@section('keywords', "End-to-End Digital Transformation Services, Data Science Services Provider, top digital marketing company for all businesses, devsecops software development lifecycle, best mobile app development company, Resource Augmentation to Extend Your Team")
+@section('title', "End-to-End Digital Transformation Services | Data Science Services")
+@section('description', "Boost your  business with End-to-End Digital Transformation Services! Expert data science service providers delivering innovative solutions.")
+@section('keywords', "End-to-End Digital Transformation Services, Data Science Services, top digital marketing company for all businesses, devsecops software development lifecycle, best mobile app development company, Resource Augmentation to Extend Your Team")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services" />
 <meta name="robots" content="index, follow">
@@ -20,7 +20,7 @@
     }
   },{
     "@type": "Question",
-    "name": "How does JFS Technologies use Data Science to drive business success?",
+    "name": "How does JFS Technologies use Data Science Services to drive business success?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "As a Data Science Services Provider, we leverage AI, machine learning, and big data analytics to extract valuable insights, optimize decision-making, and improve business performance with data-driven digital transformation strategies."
@@ -152,7 +152,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
-							<h2>Why Choose JFS Technologies?</h2>
+							<h2>Why Choose End-to-End Digital Transformation Services?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -203,7 +203,7 @@
 	<div class="container-fluid p-0">
 		<div class="section-title text-center">
 			<span class="sp-color2">Success Stories</span>
-			<h2>Driving Success for Our Clients</h2>
+			<h2>Driving Success with End-to-End Digital Transformation Services</h2>
 			<p class="w-50 mx-auto">See how we’ve helped businesses achieve their digital goals:</p>
 		</div>
 		<div class="case-study-slider owl-carousel owl-theme pt-45">
@@ -290,7 +290,7 @@
 						<span>COO @ Shyena Techyarns</span>
 					</div>
 					<p>
-					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
+					“Because of JFS Technologies' End-to-End Digital Transformation Services, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
 					</p>
 				</div>
 			</div>

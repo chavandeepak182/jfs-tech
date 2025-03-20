@@ -2,7 +2,10 @@
 @section('title', "Best Data Driven Digital Transformation Services | JFS Technologies")
 @section('description', "Transform your business with JFS Technologies best data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.")
 @section('keywords', "Best Data Driven Digital Transformation Services , Digital Transformation Company, Data Science Consulting services, Cloud services in Infrastructure management, Digital marketing services company, best mobile app development company, Devsecops cybersecurity services, IT staff augmentation services, Website Development Services")
-
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG94TD129M"></script>
@@ -13,8 +16,6 @@
 
   gtag('config', 'G-LG94TD129M');
 </script>
-<link rel="canonical" href="https://jfstechnologies.com/" />
-<meta name="robots" content="index, follow">
 
 
 <meta property="og:type" content="website">
@@ -225,7 +226,7 @@
 		<div class="container">
 			<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 				<span class="sp-color2">Unlock the potential</span>
-				<h2 title="Who We Serve for digital transformation services">Who We Serve?</h2>
+				<h2 title="Who We Serve for digital transformation services">Who We Serve as a Best Data-Driven Digital Transformation Services?</h2>
 				<p>We cater to a wide range of industries, offering customized solutions such as <a href="{{ url('/services/data-science-services') }}"><strong>Data Science Services</a></strong>, being among the top digital marketing companies for small businesses, <a href="{{ url('/services/devsecops-software-developmentdevsecops') }}"><strong>DevSecOps software development</a></strong> lifecycle support, and Resource Augmentation to extend your team and meet unique business needs.</p>
 			</div>
 			<div class="row pt-45">
@@ -413,7 +414,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1"></span>
-							<h2 title="why choose JFS Technologies for digital transformation services">Why Choose JFS Technologies: Best Data-Driven Digital Transformation Services?</h2>
+							<h2>Why Choose JFS Technologies: Best Data-Driven Digital Transformation Services?</h2>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -707,7 +708,7 @@
 						<span>COO @ Shyena Techyarns</span>
 					</div>
 					<p>
-					“Because of JFS Technologies' end-to-end sales service, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
+					“Because of JFS Technologies' best data-driven digital transformation services, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
 					</p>
 				</div>
 			</div>
