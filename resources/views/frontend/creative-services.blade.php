@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "Top Creative Graphic Design Service Company | Business Logo Design Services")
+@section('title', "Top Creative Graphic Design Service Company & Logo design")
 @section('description', "Discover top creative graphic design service company, offering business logo design services to elevate your brand's identity and make a lasting impression.")
 @section('keywords', "Top Creative graphic design service company, creative graphic design company, Logo design services for businesses, business logo design services, Graphic designing services for businesses, logo designers for  business")
 @section('canonical')
@@ -81,13 +81,13 @@
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
             <h2 title="Top Creative Graphic Design Service Company">Top Creative Design Company for Impactful Visuals</h2>
-            <p class="margin-auto">In a world driven by visuals and digital interactions, a compelling design can set your brand apart. Our top creative graphic design service company for businesses offer everything you need to deliver memorable and user-friendly experiences that make a lasting impression. We focus on user-centered designs, visual storytelling, and impactful content creation, ensuring that your brand connects with its audience across all digital platforms. Whether it’s crafting a seamless interface, designing powerful brand visuals, or creating engaging multimedia content, we’re here to make every interaction count.</p>
+            <p class="margin-auto">In a world driven by top creative graphic design service company visuals and digital interactions, a compelling design can set your brand apart. Our top creative graphic design service company for businesses offer everything you need to deliver memorable and user-friendly experiences that make a lasting impression. We focus on user-centered designs, visual storytelling, and impactful content creation, ensuring that your brand connects with its audience across all digital platforms. Whether it’s crafting a seamless interface, designing powerful brand visuals, or creating engaging multimedia content, we’re here to make every interaction count.</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/uiux.gif" class="brand-logo-one icons-img" alt="top creative graphic design service company">
-                    <h3><a title="User Experience (UX) and User Interface (UI) Design Services for websites">1. User Experience (UX) and User Interface (UI) Design</a></h3>
+                    <h3><a title="User Experience (UX) and User Interface (UI) Design Services for websites">1. UI/UX Design Services</a></h3>
                     <p>Good design begins with understanding the user. Our UX/UI services for websites cover every step from research to design, creating digital experiences that are both functional and aesthetically pleasing.</p>
                     <a href="{{ url('/services/ui-ux-design-services') }}" class="learn-btn mb-3">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
@@ -128,7 +128,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2 title="creative graphic design services">Why JFS Technologies is Top Creative<br>Graphic Design Service Company?</h2></br>
+							<h2>Why JFS Technologies is Top Creative<br>Graphic Design Service Company?</h2></br>
 						</div>
 						<div class="row">
 							<div class="col-lg-3 col-6">
@@ -250,7 +250,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2 title="Top creative graphic design service company">Ready to Elevate Your Digital Experience?</h2>
+                        <h2>Ready for Top Creative Graphic Design Service Company?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
                     <h3>With 20+ years of expertise, we are a top creative graphic design service company specializing in branding and UX solutions.</h3>
@@ -277,10 +277,10 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What creative graphic designing services for business do you offer?
+                                            Do you offer top creative graphic design service company?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>We offer a range of creative services, including UI/UX design, graphic design, content creation, 3D services, and branding. These services help your business stand out, engage customers, and communicate your message effectively.</p>
+                                            <p>Yes, We offer a range of creative services, including UI/UX design, graphic design, content creation, 3D services, and branding. These services help your business stand out, engage customers, and communicate your message effectively.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "End-to-End Digital Transformation Services | Data Science Services")
+@section('title', "End-to-End Digital Transformation Services for Business")
 @section('description', "Boost your  business with End-to-End Digital Transformation Services! Expert data science service providers delivering innovative solutions.")
 @section('keywords', "End-to-End Digital Transformation Services, Data Science Services, top digital marketing company for all businesses, devsecops software development lifecycle, best mobile app development company, Resource Augmentation to Extend Your Team")
 @section('canonical')
@@ -56,7 +56,7 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1 title="End-to-End Digital Transformation Services for Business">End-to-End Digital Transformation Services for Business</h1>
+            <h1>End-to-End Digital Transformation Services for Business</h1>
             <p class="text-white">Holistic End-to-End Digital Transformation Services meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven digital transformation insights.</p>
         </div>
     </div>
@@ -72,15 +72,15 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2 title="Digital services for businesses">Crafting End-to-End Digital Transformation Services</h2>
-            <p class="margin-auto">Comprehensive digital solutions End-to-End Digital Transformation Services for your business, streamline operations, enhance customer experiences, and drive sustainable growth through innovative strategies and cutting-edge technologies. At JFS Technologies, we offer a range of innovative digital solutions to help your business thrive in a competitive digital landscape. Explore our key services below:</p>
+            <h2>Crafting End-to-End Digital Transformation Services</h2>
+            <p class="margin-auto">Comprehensive digital solutions End-to-End Digital Transformation Services for business, streamline operations, enhance customer experiences, and drive sustainable growth through innovative strategies and cutting-edge technologies. At JFS Technologies, we offer a range of innovative digital solutions to help your business thrive in a competitive digital landscape. Explore our key services below:</p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digitalization.gif" class="brand-logo-one icons-img" alt="End-to-End Digital Transformation Services">
                     <h3 title="End-to-End Digital Transformation Services"><a href="{{ url('/services/digital-transformation-services') }}">1. Digital Transformation</a></h3>
-                    <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation Consulting and best Infrastructure Management services, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
+                    <p>Through the integration of cutting-edge End-to-End Digital Transformation Services, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science and Data Practice, to streamlining Application Modernisation Consulting and best Infrastructure Management services, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     <p><b>Key Features:</b>
                         <ul>
                             <li>Data Science</li>
@@ -96,7 +96,7 @@
                 <div class="services-card services-style-bg p-0">
                     <img src="{{ asset('theme') }}/assets/images/icons/digital-exp.gif" class="brand-logo-one icons-img" alt="End-to-End Digital Transformation Services">
                     <h3 title="Top Digital Marketing Company for all Businesses"><a href="{{ url('/services/digital-experience') }}">2. Digital Experience</a></h3>
-                    <p>Our top digital marketing company for all businesses are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, best mobile app development company, and creative services, we provide a comprehensive suite of solutions to help you succeed in the digital realm. Partner with us to take your digital experience to the next level.</p>
+                    <p>Our top digital marketing company for all businesses are designed to enhance your online presence and drive engagement with your target audience. From website development to digital marketing, best mobile app development company, and creative services, solutions to help you succeed in the digital. Partner with us to take your digital experience to the next level.</p>
                     <p><b>Key Features:</b>
                         <ul>
                             <li>Digital Marketing</li>
