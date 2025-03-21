@@ -176,7 +176,7 @@
     <div class="container" data-aos="fade-up" data-aos-duration="750">
         <div class="section-title text-center">
             <span class="sp-color2">Success Stories</span>
-            <h2>Transformative Infrastructure Management Consulting Services</h2>
+            <h2>Transformative Cloud Infrastructure Management Consulting</h2>
             <p>Learn how our infrastructure management consulting services have made a difference:</p>
         </div>
         <div class="row pt-45">
