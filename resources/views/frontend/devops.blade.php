@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "DevOps Software Development Services | Business Process Automation Services")
+@section('title', "DevOps Software Development Services & Process Automation")
 @section('description', "Streamline your DevOps Software Development Services. Enhance efficiency and accelerate delivery with our business process automation services.")
-@section('keywords', "devops software development services, devsecops cybersecurity services, container based microservices architecture, ci cd performance testing, Business Process Automation Services")
+@section('keywords', "devops software development services, Business Process Automation Services, devsecops cybersecurity services, container based microservices architecture, ci cd performance testing, Business Process Automation Services")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/devops-software-development" />
 <meta name="robots" content="index, follow">
@@ -109,7 +109,7 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Code Meets Creativity</span>
-            <h2>Our DevOps Solutions</h2>
+            <h2>Our DevOps Software Development Services</h2>
             <p class="margin-auto">We provide a comprehensive suite of devOps software development services tailored to meet your unique needs.</p>
         </div>
         <div class="row pt-45">
@@ -131,7 +131,7 @@
                 <div class="work-process-card-three">
                     <a href="{{ url('services/process-automation-services') }}">
                         <div class="number-title invisible">02.</div>
-                        <h3 title= "Business Process Automation Services">Process Automation</h3>
+                        <h3 title= "Business Process Automation Services">Process Automation Services</h3>
                         <p>Enhance efficiency by Business Process Automation Services.</p>
                         <!-- <i class="fad fa-random my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/auto.svg" class="brand-logo-one" alt="DevOps Software Development Services">
@@ -226,7 +226,7 @@
 				</div>
 				<!-- <div class="col-lg-6">
 					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
+						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="DevOps Software Development Services">
 					</div>
 				</div> -->
 			</div>
@@ -238,7 +238,7 @@
 	<div class="container" data-aos="fade-up" data-aos-duration="750">
 		<div class="section-title text-center">
 		    <span class="sp-color2">Plan Descriptions</span>
-		    <h2>Choose the Best Plan For Your Business</h2>
+		    <h2>Choose Your DevOps Software Development Services Plan</h2>
 		</div>
 		<div class="row pt-45">
 		    <div class="col-lg-4 col-sm-6">
@@ -279,7 +279,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Let’s Build the Future Together</h2>
+                        <h2>Build the Future with DevOps Software Development Services</h2>
                         <p>JFS Technologies is your trusted partner for transforming the way you develop, deploy & secure software. Our DevOps methodologies are:</p>
                         <ul class="text-white pt-3">
                             <li>Assess: Evaluate existing workflows and identify improvement opportunities.</li>
@@ -311,7 +311,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What are DevOps services, and how can they benefit my business?
+                                            What are DevOps Software Development Services, and how can they benefit my business?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>DevOps services streamline your development and operations processes, helping your team deliver software faster, improve collaboration, and reduce downtime. They’re designed to make your workflows more efficient and reliable.</p>
