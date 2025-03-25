@@ -1,7 +1,11 @@
 @extends('frontend.layouts.header')
-@section('title', "End-to-End Email Marketing Services for Business | Best Email Designing Services")
+@section('title', "End-to-End Email Marketing Services for Business")
 @section('description', "Boost End-to-End Email Marketing Services for Business! Get email marketing services for business with the best email designing services today!")
-@section('keywords', "Email Marketing Services for Business, end-to-end email marketing services for business, best Email Designing services, Expert Email Marketing Services")
+@section('keywords', "Email Marketing Services, End-to-End Email Marketing Services, Email Marketing Services for Business, end-to-end email marketing services for business, best Email Designing services, Expert Email Marketing Services")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/email-marketing-services" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {
@@ -46,8 +50,6 @@
 }
 </script>
 @endsection
-<link rel="canonical" href="https://jfstechnologies.com/services/email-marketing-services" />
-<meta name="robots" content="index, follow">
 
 @section('content')
 <div id="banner" class="inner-banner">
@@ -72,7 +74,7 @@
 	<div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Hit the Inbox, Win the Customer!</span>
-            <h2>Optimize End-to-End Email Marketing Services for Business</h2>
+            <h2>Optimize End-to-End Email Marketing Services</h2>
             <p class="margin-auto" data-aos="fade-up" data-aos-duration="500">Email marketing remains one of the most effective methods of communicating with your audience. It allows you to deliver personalized messages directly to the inbox, fostering relationships and driving conversions. Whether you’re nurturing leads, engaging current customers, or announcing new products, email marketing plays a critical role in your digital strategy. At JFS Technologies, we offer end-to-end email marketing services for business, from campaign strategy to execution. Our team designs email campaigns that resonate with your audience, deliver value, and drive results.</p>
         </div>
 		<div class="row pt-45">
@@ -86,7 +88,7 @@
                             <li><strong>Responsive Design:</strong> Ensuring emails look great on both desktop and mobile devices.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/email-design.svg" class="brand-logo-one" alt="End-to-End Email Marketing Services for Business" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-design.svg" class="brand-logo-one" alt="Email Marketing Services" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -99,7 +101,7 @@
                             <li><strong>Triggered Emails:</strong> Sending emails based on specific triggers like sign-ups or purchases.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/email-automation.svg" class="brand-logo-one" alt="End-to-End Email Marketing Services for Business" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-automation.svg" class="brand-logo-one" alt="Email Marketing Services" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -107,7 +109,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Email Campaign Strategy</h3>
 					<p>We begin by understanding your business goals and target audience to create a comprehensive email marketing strategy. This includes segmenting your email list, designing a tailored content plan, defining clear KPIs, and crafting personalized campaigns to maximize engagement, boost open rates, increase click-through rates, nurture leads, and drive higher conversions effectively.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/email-campaign.svg" class="brand-logo-one" alt="End-to-End Email Marketing Services for Business" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-campaign.svg" class="brand-logo-one" alt="Email Marketing Services" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -115,7 +117,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Analytics & Reporting</h3>
 					<p>We measure the performance of each email campaign by tracking open rates, click-through rates, and conversions, providing detailed analytics, actionable insights, and tailored recommendations for continuous optimization, enhanced targeting, higher deliverability, improved engagement, better return on investment (ROI), increased customer retention, and long-term business growth.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/email-analytics.svg" class="brand-logo-one" alt="End-to-End Email Marketing Services for Business" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/email-analytics.svg" class="brand-logo-one" alt="Email Marketing Services" style="width:20%;">
 				</div>
 			</div>
 		</div>
@@ -181,7 +183,7 @@
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Key Benefits of Email Marketing</span>
-            <h2>Grow with End-to-End Email Marketing Services for Business!</h2>
+            <h2>Grow with End-to-End Email Marketing Services!</h2>
         </div>
         <div class="row pt-45 justify-content-center mx-auto">
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -226,14 +228,14 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="../theme/assets/images/modern-cta.png" alt="End-to-End Email Marketing Services for Business">
+                    <img src="../theme/assets/images/modern-cta.png" alt="Email Marketing Services">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready for  End-to-End Email Marketing Services for Business?</h2>
+                        <h2>Ready for End-to-End Email Marketing Services?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us</a>
@@ -309,7 +311,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="End-to-End Email Marketing Services for Business">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Email Marketing Services">
 				</div>
 			</div>
         </div>

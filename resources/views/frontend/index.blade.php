@@ -17,11 +17,23 @@
   gtag('config', 'G-LG94TD129M');
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  }]
+}
+</script>
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Best Data Driven Digital Transformation Services">
-<meta property="og:url" content="https://www.jfstechnologies.com/">
-<meta property="og:image" content="https://www.jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:url" content="https://jfstechnologies.com/">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
 <meta property="og:description" content="Transform your business with JFS Technologies' data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.">
 <script type="application/ld+json">
     {
