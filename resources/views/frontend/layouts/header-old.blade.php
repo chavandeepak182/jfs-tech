@@ -135,7 +135,7 @@
 											<a href="/mobile-app-development" class="nav-link">Mobile Application Development</a>
 										</li>
 										<li class="nav-item">
-											<a href="#" class="nav-link">Application Maintenacne & Support</a>
+											<a href="#" class="nav-link">Application maintenance & Support</a>
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link">Hire Dedicated Developers</a>

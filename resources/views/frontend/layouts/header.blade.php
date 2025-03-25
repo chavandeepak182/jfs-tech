@@ -112,7 +112,7 @@
 					<input type="checkbox"  id="showdrop2">
 					<label for="showdrop2" class="mobile-item"><a>Resources</a> <span><i class='bx bx-caret-down'></i></span></label>
 					<ul class="drop-menu2">
-						<li><a href="#">Blogs</a></li>
+						<li><a href="https://jfstechnologies.com/blog/">Blogs</a></li>
 						<li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
 						<li><a href="{{ url('/success-stories') }}">Success Stories</a></li>
 					</ul>

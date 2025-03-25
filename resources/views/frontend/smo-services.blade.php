@@ -1,7 +1,11 @@
 @extends('frontend.layouts.header')
-@section('title', "Top Social Media Advertising Company | Best Social Media Marketing for all Business")
+@section('title', "Top Social Media Advertising Company for all Business")
 @section('description', "Boost your brand with Top Social Media Advertising Company. Get the best social media marketing for all businesses, paid advertising, and affordable packages!")
-@section('keywords', "Top Social Media Advertising Company, best Social media marketing for all business, Social media strategy development agency, Paid Social Media Advertising Services, Affordable Social Media Marketing Package, Best Social Media Marketing Services")
+@section('keywords', "Top Social Media Advertising, Top Social Media Advertising Company, best Social media marketing for all business, Social media strategy development agency, Paid Social Media Advertising Services, Affordable Social Media Marketing Package, Best Social Media Marketing Services")
+@section('canonical')
+<link rel="canonical" href="https://jfstechnologies.com/services/social-media-advertising" />
+<meta name="robots" content="index, follow">
+@endsection
 @section('schema')
 <script type="application/ld+json">
 {
@@ -46,14 +50,13 @@
 }
 </script>
 @endsection
-<link rel="canonical" href="https://jfstechnologies.com/services/social-media-advertising" />
-<meta name="robots" content="index, follow">
+
 
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Elevate Your Brand with Top Social Media Advertising Company</h1>
+            <h1>Elevate Your Brand with Top Social Media Advertising</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -72,16 +75,16 @@
 	<div class="container">
         <div class="section-title text-center">
             <span class="sp-color2">Your Market, Our Social Media Mastery</span>
-            <h2>Top Social Media Advertising Companies to Dominate Your Market</h2>
+            <h2>Top Social Media Advertising to Dominate Your Market</h2>
             <p class="margin-auto" data-aos="fade-up" data-aos-duration="750" title="best Social media marketing for all business">Top social media advertising company using platforms like Facebook, Instagram, Twitter, LinkedIn, and others to promote your products or services. It’s an effective way to increase brand awareness, engage with customers, and drive traffic to your website. With millions of users on these platforms, social media marketing offers a vast opportunity to grow your business. At JFS Technologies, we help businesses create an impactful presence on social media. We focus on crafting engaging content, growing your community, and leveraging social platforms for increased brand recognition and customer engagement.</p>
         </div>
 		<div class="row pt-45">
 			<div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
-					<h3 title="Social media strategy development agency">Top Social Media Advertising Company</h3>
+					<h3 title="Social media strategy development agency">Top Social Media Advertising</h3>
 					<p>We begin by understanding your business goals, target audience, and competitors to develop a tailored social media strategy that aligns with your brand and objectives. This includes choosing the right platforms, defining KPIs, and setting measurable goals.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/smm-strategy.svg" class="brand-logo-one" alt="Top Social Media Advertising Company" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/smm-strategy.svg" class="brand-logo-one" alt="Top Social Media Advertising" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -89,7 +92,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Community Management</h3>
 					<p>We help build a loyal community around your brand by engaging with followers, responding to queries, and fostering a positive environment. This leads to increased trust, brand loyalty, and higher conversion rates.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/comm-mgmt.svg" class="brand-logo-one" alt="Top Social Media Advertising Company" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/comm-mgmt.svg" class="brand-logo-one" alt="Top Social Media Advertising" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -102,7 +105,7 @@
                             <li><strong>Content Calendar:</strong> We plan content around key dates, industry events, and promotions to maintain consistency.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/content-creation.svg" class="brand-logo-one" alt="Top Social Media Advertising Company" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/content-creation.svg" class="brand-logo-one" alt="Top Social Media Advertising" style="width:20%;">
 				</div>
 			</div>
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -116,7 +119,7 @@
                             <li><strong>Analytics & Reporting:</strong> Tracking key metrics like click-through rates, impressions, and conversions to continuously improve performance.</li>
                         </ul>
                     </p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/paid-media.svg" class="brand-logo-one" alt="Top Social Media Advertising Company" style="width:20%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/paid-media.svg" class="brand-logo-one" alt="Top Social Media Advertising" style="width:20%;">
 				</div>
 			</div>
 		</div>
@@ -131,7 +134,7 @@
 				<div class="choose-content mr-20">
 					<div class="section-title mb-3">
 						<span class="sp-color1">We Are Best!!</span>
-						<h2>Why Choose Our Top Social Media Advertising Company?</h2>
+						<h2>Why Choose Our Top Social Media Advertising?</h2>
 					</div>
 					<div class="row">
 						<div class="col-lg-3 col-6">
@@ -928,7 +931,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready for Best Social Media Marketing for all Business?</h2>
+                        <h2>Ready for Top Social Media Advertising for all Business?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
                     <a href="http://127.0.0.1:8000/contact-us" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us</a>
@@ -957,7 +960,7 @@
                                             What does your Top Social Media Advertising Company offer?
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Our social media marketing company offers a comprehensive range of services including social media strategy development, content creation, community management, paid advertising, and analytics tracking.</p>
+                                            <p>Our Top social media marketing company offers a comprehensive range of services including social media strategy development, content creation, community management, paid advertising, and analytics tracking.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
