@@ -1,5 +1,5 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Company for Backend Development Services")
+@section('title', "Best Company for Backend Development Services for Businesses")
 @section('description', "Discover the best company for backend development services for seamless, secure, and scalable website solutions. Hire the best backend development team to enhance your Business.")
 @section('keywords', "backend development services, Best Company for Backend Development Services, best backend for web development, Hire dedicated PHP developers for web applications, Hire dedicated .NET developers for web applications, Experienced DevOps engineers for hire, Hire dedicated Python developers, Hire dedicated Node.js Developers, Hire dedicated Ruby on Rails Developers, Hire dedicated Database Developers, Best backend development company services, Hire the best backend development team, best backend services for website")
 @section('canonical')
@@ -76,7 +76,7 @@
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play p-5">
-                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="Backend Development Services">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -106,7 +106,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Java Developers</h3>
 					<p>Java developers specialize in building backend applications with Java, using frameworks like Spring and Hibernate to create scalable, robust solutions.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/java.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/java.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -114,7 +114,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>PHP Developers</h3>
 					<p>PHP developers specialize in backend development, building web applications, CMS, and e-commerce platforms using PHP frameworks like Laravel and Symfony.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/php.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/php.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -122,7 +122,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>.NET Developers</h3>
 					<p>.NET developers specialize in backend development using the .NET framework, C#, and F#, building enterprise applications, APIs, and services with ASP.NET and .NET Core.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/dot-net.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/dot-net.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6">
@@ -130,7 +130,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>DevOps Engineers</h3>
 					<p>DevOps engineers streamline development & operations, automating processes, setting up CI/CD pipelines & monitoring backend application performance & infra.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/devops-eng.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/devops-eng.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -138,7 +138,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Python Developers</h3>
 					<p>Python developers specialize in backend development, building web apps, data pipelines, and services using frameworks like Django and Flask.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/python-dev.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/python-dev.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -146,7 +146,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Node.js Developers</h3>
 					<p>Node.js developers build backend applications using JavaScript, specializing in scalable, event-driven apps and APIs with frameworks like Express.js.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/node.js.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/node.js.svg" class="brand-logo-one" Backend Development Services="Backend Development Services">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -154,7 +154,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Ruby on Rails Developers</h3>
 					<p>Ruby on Rails developers build backend apps using Ruby & the Rails framework, emphasizing convention over configuration & rapid development.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/ruby-code.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/ruby-code.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
@@ -162,7 +162,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Database Developers</h3>
 					<p>Database developers specialize in designing, optimizing, and managing SQL/NoSQL databases while ensuring data integrity and security.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/database.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/database.svg" class="brand-logo-one" alt="Backend Development Services">
 				</div>
 			</div>
 		</div>
@@ -185,42 +185,42 @@
 							<div class="slide-track">
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Backend Development Services">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Backend Development Services">
 									</div>
 								</div>
 							</div>
@@ -257,7 +257,7 @@
 										<i class="fal fa-users-crown"></i>
 										<h3>Project Flexibility</h3>
 									</div>
-									<p>Scale your backend development team based on project demands.</p>
+									<p>Scale your backend development services team based on project demands.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">

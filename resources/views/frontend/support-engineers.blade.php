@@ -1,8 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Support Engineers Services - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
-
+@section('title', "24/7 IT Support Engineers Services for Business")
+@section('description', "Get reliable 24/7 IT Support Engineer Support Engineer Services, including expert cloud support, to ensure smooth operations.")
+@section('keywords', "IT support engineers, 24/7 IT Support Engineer Services, IT Support Engineers Services for Business, Resource Augmentation for Full-Stack Development Services, 24/7 technical support engineer services, Hire a Dedicated Support Engineer, L4 Support Engineers Services, L3 Support Engineers Services, L2 Support Engineers Services, L1 Support Engineers Services, L0 Support Engineers Services, Google cloud support engineer")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/it-support-engineers" />
 <meta name="robots" content="index, follow">
@@ -14,10 +13,10 @@
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "What IT support services does JFS Technologies offer for businesses?",
+    "name": "What IT support engineers services does JFS Technologies offer for businesses?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "JFS Technologies provides comprehensive IT support, including L0 to L4 support engineers, 24/7 technical support, cloud solutions, and infrastructure management to ensure seamless business operations."
+      "text": "JFS Technologies provides comprehensive IT support engineers, including L0 to L4 support engineers, 24/7 technical support, cloud solutions, and infrastructure management to ensure seamless business operations."
     }
   },{
     "@type": "Question",
@@ -61,7 +60,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Professional Support Engineers for Your Business</h1>                 
+            <h1>24/7 IT Support Engineers Services for Business</h1>                 
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
@@ -81,15 +80,15 @@ L4 Support – Vendor-specific or expert-level issue resolution."
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-play p-5">
-                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/resource-aug-intro.png" alt="IT Support Engineers">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content ml-25">
                 	<div class="section-title">
 						<span class="sp-color2">Problem Solvers, Not Just Supporters</span>
-						<h2>Support Engineers – Resource Augmentation Services</h2>
-						<p>Support engineers play a vital role in ensuring the smooth operation of systems, applications, and IT infrastructure. Our resource augmentation services provide access to skilled support engineers at various levels of expertise to address technical challenges effectively. From basic troubleshooting to resolving complex issues, our support engineers ensure minimal downtime and optimal performance for your systems and applications.</p>
+						<h2>IT Support Engineers Services – Resource Augmentation Services</h2>
+						<p>IT support engineers services play a vital role in ensuring the smooth operation of systems, applications, and IT infrastructure. Our resource augmentation services provide access to skilled support engineers at various levels of expertise to address technical challenges effectively. From basic troubleshooting to resolving complex issues, our support engineers ensure minimal downtime and optimal performance for your systems and applications.</p>
 					</div>
 				</div>
             </div>
@@ -105,7 +104,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 				<div class="choose-content mr-20">
 					<div class="section-title text-center margin-auto" style="width: 650px;" data-aos="fade-up" data-aos-duration="500">
 						<span class="sp-color2">Tailored Support Expertise</span>
-						<h2 class="text-dark">Support Architects: Building Resolutions</h2>
+						<h2 class="text-dark">IT Support Engineers Services: Solutions That Work</h2>
 					</div>
 					<div class="row pt-4 justify-content-between">
 						<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="500">
@@ -165,7 +164,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">Types of Support Engineers</span>
-			<h2>Dedicated Support Engineers for Seamless Operations</h2>
+			<h2>Dedicated IT Support Engineers Services</h2>
 			<p class="margin-auto">Our team of support engineers is structured to provide specialized assistance for a wide range of technical issues. Beginning with our L0 engineers, who offer basic troubleshooting and ticket routing, clients can escalate to L1 engineers with more experience when needed. Our L2 engineers are the experts in their field, equipped to handle complex problems that require a deep understanding. For the most challenging issues, our L3 engineers, senior specialists, collaborate directly with vendors to find solutions. Finally, our L4 engineers, the pinnacle of support, bring the highest level of expertise and are often instrumental in developing innovative solutions and technologies.</p>
 		</div>
 		<div class="row pt-45 justify-content-center">
@@ -174,7 +173,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 					<div class="number-title invisible ">01.</div>
 					<h3>Technical Support Engineer</h3>
 					<p>Provide technical support for software via phone, email, or chat, using product expertise to troubleshoot issues and ensure a seamless user experience.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/tech-sup-eng.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/tech-sup-eng.svg" class="brand-logo-one" alt="IT Support Engineers">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -182,7 +181,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 					<div class="number-title invisible ">01.</div>
 					<h3>Application Support Engineer</h3>
 					<p>They focus on providing technical support for specific software applications, managing incidents & ensuring the availability & performance of the application.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/app-sup-eng.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/app-sup-eng.svg" class="brand-logo-one" alt="IT Support Engineers">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -190,7 +189,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 					<div class="number-title invisible ">01.</div>
 					<h3>System Support Engineer</h3>
 					<p>System Support Engineers are responsible for maintaining and supporting IT infrastructure, including servers, networks, and hardware components.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/sys-sup-eng.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/sys-sup-eng.svg" class="brand-logo-one" alt="IT Support Engineers">
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -198,7 +197,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 					<div class="number-title invisible ">01.</div>
 					<h3>Helpdesk Support Engineer</h3>
 					<p>They provide front-line support to end-users, addressing technical issues, providing guidance on system usage & escalating complex problems to teams.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/cust-sup-eng.svg" class="brand-logo-one" alt="computer">
+                    <img src="{{ asset('theme') }}/assets/images/icons/cust-sup-eng.svg" class="brand-logo-one" alt="IT Support Engineers">
 				</div>
 			</div>
 		</div>
@@ -221,87 +220,87 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 							<div class="slide-track">
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/html.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/css.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/js.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/php.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/react_js.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/angular_js.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/dot-net.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/java.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/node_js.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/vue_js.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/cpp.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/python.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/next_js.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/flutter.png" alt="IT Support Engineers">
 									</div>
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="Images">
-									</div>
+										<img src="{{ asset('theme') }}/assets/technologies/ror.png" alt="IT Support Engineers">
+									</div>IT Support Engineers
 								</div>
 								<div class="slide">
 									<div class="work-process-cards">
-										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="Images">
+										<img src="{{ asset('theme') }}/assets/technologies/laravel.png" alt="IT Support Engineers">
 									</div>
 								</div>
 							</div>
@@ -377,8 +376,8 @@ L4 Support – Vendor-specific or expert-level issue resolution."
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="IT Support Engineers"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="IT Support Engineers">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -389,8 +388,8 @@ L4 Support – Vendor-specific or expert-level issue resolution."
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="IT Support Engineers"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="IT Support Engineers">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -401,8 +400,8 @@ L4 Support – Vendor-specific or expert-level issue resolution."
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="IT Support Engineers"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="IT Support Engineers">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -413,8 +412,8 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 			<div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="IT Support Engineers"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="IT Support Engineers">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -440,7 +439,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 			<div class="clients-slider owl-carousel owl-theme pt-45">
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="IT Support Engineers">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Thomas Paul</h3>
 						<span>Sr. Developer @ APISDOR</span>
@@ -451,7 +450,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="IT Support Engineers">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Dan Fitzpatrick</h3>
 						<span>President @ KRIXI</span>
@@ -462,7 +461,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
 				</div>
 				<div class="clients-content">
 					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
+						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="IT Support Engineers">
 						<i class="bx bxs-quote-alt-left"></i>
 						<h3>Anand Katti</h3>
 						<span>COO @ Shyena Techyarns</span>
@@ -504,7 +503,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
             <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
                 <span class="sp-color2">Steps for Hiring </span>
                 <h2 class="pb-5">Hire a Dedicated Support Engineer in Few Steps</h2>
-				<img class="hire_steps" alt="Steps for Hiring">
+				<img class="hire_steps" alt="IT Support Engineers">
             </div>
 		</div>
 	</div>
@@ -638,7 +637,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="IT Support Engineers">
 				</div>
 			</div>
         </div>
