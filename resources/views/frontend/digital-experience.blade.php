@@ -10,6 +10,28 @@ web design company for businesses, web development services for business, Social
 @section('Schema')
 <script type="application/ld+json">
 {
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://jfstechnologies.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Digital Experience",
+    "item": "https://jfstechnologies.com/services/digital-experience"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{

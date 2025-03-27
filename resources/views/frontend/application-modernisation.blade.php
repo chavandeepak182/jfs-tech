@@ -3,11 +3,38 @@
 @section('description', "Unlock the power of the best application modernisation services and seamless API integration. Enhance your business with cutting-edge solutions")
 @section('keywords', "Best Application Modernisation Services, API Integration services, application modernisation consulting services, benefits of api integration")
 @section('canonical')
+<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation-services" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/application-modernisation-services" />
 <meta name="robots" content="index, follow">
 @endsection
 @section('Schema')
-<link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation-services" hreflang="en-in" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://jfstechnologies.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Digital Transformation Services",
+    "item": "https://jfstechnologies.com/services/digital-transformation-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Application Modernisation Services",
+    "item": "https://jfstechnologies.com/services/application-modernisation-services"  
+  }]
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
