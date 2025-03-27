@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
 @section('title', "Professional Graphic Design Services for all Businesses")
 @section('description', "Get professional Social Media graphic design services or all businesses. Find top graphic design companies near you for logos, branding, and marketing materials.")
-@section('keywords', "Graphic Design Services, Professional Graphic Design Services, Social Media Graphic Design Services, graphic design services for all businesses, professional Social Media graphic design services, graphic design companies near me, logo graphic designer near me, graphic design services online')
+@section('keywords', "Graphic Design Services, Professional Graphic Design Services, Social Media Graphic Design Services, graphic design services for all businesses, professional Social Media graphic design services, graphic design companies near me, logo graphic designer near me, graphic design services online")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/graphics-design-services" />
 <meta name="robots" content="index, follow">
