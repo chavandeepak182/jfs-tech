@@ -9,6 +9,38 @@
 @section('schema')
 <script type="application/ld+json">
 {
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://jfstechnologies.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Digital Experience",
+    "item": "https://jfstechnologies.com/services/digital-experience"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Best Digital Marketing Agency",
+    "item": "https://jfstechnologies.com/services/best-digital-marketing-agency"  
+  },{
+    "@type": "ListItem", 
+    "position": 5, 
+    "name": "PPC Management Company",
+    "item": "https://jfstechnologies.com/services/ppc-management-company"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{

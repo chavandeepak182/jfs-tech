@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Digital Transformation Management Consulting for Business")
-@section('description', "JFS Technologies provides Digital Transformation Management Consulting, empowering businesses with innovative solutions, and seamless digital strategies to drive growth and success. ")
-@section('keywords', "Digital Transformation Services for Business, digital transformation services for industries, Digital Transformation Management Consulting, Infratructure management consulting services, Application Modernisation consulting services, Data Science Consulting services")
+@section('title', "Digital Transformation Services Management Consulting for Business")
+@section('description', "JFS Technologies provides Digital Transformation Services Management Consulting, empowering businesses with innovative solutions, and seamless digital strategies to drive growth and success. ")
+@section('keywords', "Digital Transformation Services Management Consulting, Digital Transformation Services for Business, digital transformation services for industries, Digital Transformation Management Consulting, Infratructure management consulting services, Application Modernisation consulting services, Data Science Consulting services")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/digital-transformation-services" hreflang="en-in" />
 
@@ -37,7 +37,7 @@
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "What are Digital Transformation Management Consulting for Businesses?",
+    "name": "What are Digital Transformation Services Management Consulting for Businesses?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "At JFS Technologies, we help businesses leverage technology to streamline operations, enhance customer experiences, and drive growth. Our digital transformation services include automation, cloud migration, AI integration, and cybersecurity solutions tailored to your business needs."
@@ -101,7 +101,7 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2">Unlock the potential</span>
-			<h2>Our Digital Transformation Management Consulting</h2>
+			<h2>Our Digital Transformation Services Management Consulting</h2>
 		</div>
 		<div class="row pt-45">
 			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -110,7 +110,7 @@
                         <div class="number-title invisible">01.</div>
                         <h3 title="Data Science Consulting services">Data Science</h3>
                         <p>Digital science utilizes data science consulting services and data analytics services to enhance research and innovation and fostering collaboration</p>
-                        <img src="{{ asset('theme') }}/assets/images/icons/data-sci.svg" class="brand-logo-one" alt="Digital Transformation Management Consulting">
+                        <img src="{{ asset('theme') }}/assets/images/icons/data-sci.svg" class="brand-logo-one" alt="Digital Transformation Services Management Consulting">
                         <!-- <i class="fal fa-file-chart-line my-2"></i> -->
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/data-science-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
@@ -125,7 +125,7 @@
                         <h3 title="application for AR and VR services">AR/VR</h3>
                         <p>AR/VR practice involves application for AR and VR services using immersive technologies to inform decisions and drive business growth.</p>
                         <!-- <i class="fal fa-head-vr my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/ar-vr.svg" class="brand-logo-one" alt="Digital Transformation Management Consulting">
+                        <img src="{{ asset('theme') }}/assets/images/icons/ar-vr.svg" class="brand-logo-one" alt="Digital Transformation Services Management Consulting">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/ar-vr-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -139,7 +139,7 @@
                         <h3 title="Infrastructure management consulting services">Infrastructure Management</h3>
                         <p>Infrastructure management consulting services ensures efficient operation of IT systems to support business goals.</p>
                         <!-- <i class="fal fa-network-wired my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/infra-mgmt.svg" class="brand-logo-one" alt="Digital Transformation Management Consulting">
+                        <img src="{{ asset('theme') }}/assets/images/icons/infra-mgmt.svg" class="brand-logo-one" alt="Digital Transformation Services Management Consulting">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/infrastructure-management-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -153,7 +153,7 @@
                         <h3 title="Best Application Modernization Services">Application Modernization</h3>
                         <p>Best application modernization services updates legacy software for improved performance with modern technologies.</p>
                         <!-- <i class="fal fa-network-wired my-2"></i> -->
-                        <img src="{{ asset('theme') }}/assets/images/icons/modern-app.svg" class="brand-logo-one" alt="Digital Transformation Management Consulting">
+                        <img src="{{ asset('theme') }}/assets/images/icons/modern-app.svg" class="brand-logo-one" alt="Digital Transformation Services Management Consulting">
                         <div class="text-center mt-4">
                             <a href="{{ url('/services/application-modernisation-services') }}" class="default-btn btn-bg-two border-radius-50 text-center">Explore Now</a>
                         </div>
@@ -172,7 +172,7 @@
 					<div class="choose-content mr-20">
 						<div class="section-title mb-3">
 							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Trust Our Digital Transformation Management Consulting?</h2>
+							<h2>Why Trust Our Digital Transformation <br>Services Management Consulting?</br></h2>
                             <p>At JFS Technologies, we take a collaborative approach to deliver the best results for your business. Here’s why you can choose our digital transformation management consulting:</p>
 						</div>
 						<div class="row">
@@ -258,14 +258,14 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="Digital Transformation Management Consulting">
+                    <img src="{{ asset('theme') }}/assets/images/about/about-img4.png" alt="Digital Transformation Services Management Consulting">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Are You Ready for the Digital Transformation Management Consulting?</h2>
+                        <h2>Are You Ready for the Digital Transformation Services Management Consulting?</h2>
                         <p>Through the integration of cutting-edge digital technology, our solutions have the potential to revolutionize your business processes. From harnessing the capabilities of Data Science Services and Data Practice, to streamlining Application Modernisation consulting services and perfecting Infrastructure Management, we are your trusted partner in facilitating a seamless transition towards a digital future.</p>
                     </div>
                     <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us Today</a>
@@ -291,7 +291,7 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is Digital Transformation Management Consultingn?
+                                            What is Digital Transformation Services Management Consultingn?
                                         </a>
                                         <div class="accordion-content show">
                                             <p>Digital transformation involves leveraging digital technologies to modernize business processes, enhance customer experiences, and improve operational efficiency. It is a holistic approach to integrating technology into every aspect of your business.</p>
@@ -359,7 +359,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Digital Transformation Management Consulting">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Digital Transformation Services Management Consulting">
 				</div>
 			</div>
         </div>
