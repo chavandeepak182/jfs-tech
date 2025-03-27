@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
 @section('title', "Professional 3D Design Services | 3D Printing Design Service")
-@section('description', "Get expert 3D design services for precision & innovation. From 3D printing designs to custom modeling, we bring your ideas to creativity!")
+@section('description', "Get Professional 3D design services for precision & innovation. From 3D printing designs to custom modeling, we bring your ideas to creativity!")
 @section('keywords', "Professional 3D Design Services, 3D printing design service, 3d drawing interior design, 3d logo printing near me, custom 3d design services")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/professional-3d-design-services" />
@@ -82,7 +82,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Product Design</h3>
 					<p>Realistic 3D models for showcasing product features, suitable for both prototyping, marketing purposes, and enhancing customer engagement and decision-making.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/product-design.svg" class="brand-logo-one" alt="product-design">
+                    <img src="{{ asset('theme') }}/assets/images/icons/product-design.svg" class="brand-logo-one" alt="Professional 3D Design Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -90,7 +90,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Exhibition Booth Design</h3>
 					<p>Custom 3D design services for exhibitions and trade shows that grab attention, engage visitors, and create a memorable experience for attendees.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/exhibition.svg" class="brand-logo-one" alt="exhibition">
+                    <img src="{{ asset('theme') }}/assets/images/icons/exhibition.svg" class="brand-logo-one" alt="Professional 3D Design Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -98,7 +98,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>3D Drawing Interior Design</h3>
 					<p>3D drawing interior design that allow you to visualize interior spaces accurately, ideal for architects, real estate, and interior designers.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/interior-design.svg" class="brand-logo-one" alt="interior-design">
+                    <img src="{{ asset('theme') }}/assets/images/icons/interior-design.svg" class="brand-logo-one" alt="Professional 3D Design Services">
 				</div>
 			</div>
             <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
@@ -106,7 +106,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Strategy</h3>
 					<p>Animations that highlight features, demonstrate functionality, or tell a brand story through engaging 3D logo printing near you, visuals, creating a memorable and impactful user experience.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/content-strategy1.svg" class="brand-logo-one" alt="content-strategy">
+                    <img src="{{ asset('theme') }}/assets/images/icons/content-strategy1.svg" class="brand-logo-one" alt="Professional 3D Design Services">
 				</div>
 			</div>
 		</div>
@@ -147,7 +147,7 @@
 										<i class="fal fa-analytics"></i>
 										<h3>Holistic Approach</h3>
 									</div>
-									<p>We consider every aspect of the user journey to create cohesive, engaging digital experiences.</p>
+									<p>We consider every aspect of the user journey to create professional 3D design services cohesive, engaging digital experiences.</p>
 								</div>
 							</div>
 							<div class="col-lg-3 col-6">
@@ -177,8 +177,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Professional 3D Design Services"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Professional 3D Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -189,8 +189,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Professional 3D Design Services"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Professional 3D Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -201,8 +201,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Professional 3D Design Services"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Professional 3D Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -213,8 +213,8 @@
 			<div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Professional 3D Design Services"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Professional 3D Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -235,7 +235,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="Professional 3D Design Services">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -268,47 +268,47 @@
                                     <li class="accordion-item">
                                         <a class="accordion-title active" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What is digital marketing?
+                                            What is included in your 3D printing design service? 
                                         </a>
                                         <div class="accordion-content show">
-                                            <p>Digital marketing promotes businesses online, targeting specific audiences through SEO, social media, email marketing, website development, and customer engagement tools.</p>
+                                            <p>Our 3D printing design service includes custom modeling, prototyping, and high-quality printing for various applications, from industrial parts to creative designs. We ensure precision and durability in every project.</p>
                                             <p class="pt-3">Branding agencies shape your brand identity and market position, creating a cohesive experience across logos, websites, messaging, and visual design.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            What does a digital marketer do?
+                                            Do you offer 3D drawing for interior design projects?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>A digital marketer is a marketing professional proficient in crafting and implementing successful online marketing strategies. They comprehend the intricacies of engaging with an online audience, ensuring your brand maintains consumer interaction from initial contact to post-sales support.</p>
+                                            <p>Yes! We provide detailed 3D drawings for interior design, including floor plans, furniture layouts, and realistic visualizations to bring your space to life before execution.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            Would my business benefit from digital marketing services?
+                                            Where can I find professional 3D logo printing near me?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Having an online presence is essential, but effective marketing is key. At JFS Technologies, our expert team delivers comprehensive digital marketing services, using the latest tools to optimize your online presence and maximize ROI.</p>
+                                            <p>JFS Technologies offers custom 3D logo printing services, helping businesses create unique, high-quality, and durable 3D-printed logos for branding and signage. Contact us to get started!</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How cost effective is digital marketing compared to traditional marketing?
+                                            Can you create custom 3D designs based on my requirements?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Digital marketing is cost-effective, targeting specific audiences with tailored messages and easy performance tracking. Partnering with top digital, advertising, and branding agencies helps maximize your online presence and drive lasting growth.</p>
+                                            <p>Absolutely! Our custom 3D design services cater to various industries, including architecture, product design, and branding. Share your ideas, and we’ll bring them to reality with precision and creativity.</p>
                                         </div>
                                     </li>
                                     <li class="accordion-item">
                                         <a class="accordion-title" href="javascript:void(0)">
                                             <i class="bx bx-plus"></i>
-                                            How do you identify a successful digital marketing company?
+                                            Why choose JFS Technologies for professional 3D design services?
                                         </a>
                                         <div class="accordion-content">
-                                            <p>Select a digital marketing agency that assesses your needs without promising instant results. Look for a team that identifies strategic gaps, collaborates on goals, and provides transparent reporting. As a leading digital marketing company in India, we offer tailored solutions to enhance your website and boost brand visibility, helping you achieve success.</p>
+                                            <p>We specialize in high-quality, innovative, and precise 3D designs using cutting-edge technology and expert craftsmanship. Whether for printing, interior design, or branding, our team ensures excellence in every project.</p>
                                         </div>
                                     </li>
                                 </ul>            
@@ -319,7 +319,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Professional 3D Design Services">
 				</div>
 			</div>
         </div>
