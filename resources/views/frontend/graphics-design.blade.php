@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Graphics Design - JFS Technologies")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "IT Services, Account Management services, Digital marketing services, Website Design company, Website design services, End to end sales, outsourcing, Affordable digital marketing services, Website marketing services, SEO service agency, Social media marketing, SEO company for business")
+@section('title', "Professional Graphic Design Services for all Businesses")
+@section('description', "Get professional Social Media graphic design services or all businesses. Find top graphic design companies near you for logos, branding, and marketing materials.")
+@section('keywords', "Graphic Design Services, Professional Graphic Design Services, Social Media Graphic Design Services, graphic design services for all businesses, professional Social Media graphic design services, graphic design companies near me, logo graphic designer near me, graphic design services online')
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/graphics-design-services" />
 <meta name="robots" content="index, follow">
@@ -13,7 +13,7 @@
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "What types of graphic design services does JFS Technologies offer?",
+    "name": "What types of Professional Graphic Design Services does JFS Technologies offer?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "We provide a full range of graphic design services, including logo design, branding, social media creatives, marketing materials, UI/UX design, and more for businesses of all sizes."
@@ -56,7 +56,7 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>Graphic Design that Communicates & Connects</h1>
+            <h1>Professional Graphic Design Services for all Businesses</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
 				<a href="url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Graphic Design Services <i class="bx bx-chevron-right"></i></a>
@@ -74,7 +74,7 @@
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color2"></span>
-			<h2>Crafting Visuals That Resonate & Communicate</h2>
+			<h2>Crafting Visuals: Professional Graphic Design Services</h2>
 			<p class="margin-auto">Graphic design is more than aesthetics; it’s a means to communicate your brand’s personality, values, and story. Our design team delivers eye-catching, consistent visuals across all media, ensuring your brand remains memorable and distinct. Our graphic design process begins with an in-depth understanding of your brand and audience, followed by a collaborative design phase to create visuals that align with your vision and goals. Whether it’s a new logo or a full brand refresh, we ensure every detail reflects your identity.</p>
 		</div>
 		<div class="row pt-45 justify-content-center">
@@ -83,7 +83,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Print Design</h3>
 					<p>Professional designs for brochures, posters, business cards, packaging, and more to leave a lasting impression in the physical and digital space, enhancing brand identity and engagement.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/print-design.svg" class="brand-logo-one" alt="print-design" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/print-design.svg" class="brand-logo-one" alt="Graphic Design Services" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -91,7 +91,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Digital Design</h3>
 					<p>Dynamic visuals for websites, social media, email templates, and digital ads tailored to engage, captivate, and inspire your digital audience, driving brand awareness and boosting conversions effectively.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/digital-design.svg" class="brand-logo-one" alt="digital-design" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/digital-design.svg" class="brand-logo-one" alt="Graphic Design Services" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -99,7 +99,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Illustration</h3>
 					<p>Custom illustrations that add a unique touch to your brand, making your storytelling visually impactful, engaging, and truly memorable for your audience, enhancing brand identity and connection.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/illustration.svg" class="brand-logo-one" alt="illustration" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/illustration.svg" class="brand-logo-one" alt="Graphic Design Services" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="750">
@@ -107,7 +107,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Brand Strategy & Visual Identity</h3>
 					<p>We define your brand’s purpose, mission, and vision, then create logos, color palettes, and typographic styles that are consistent, distinctive, and resonate with your target audience.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/brand-visibility.svg" class="brand-logo-one" alt="brand-visibility" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/brand-visibility.svg" class="brand-logo-one" alt="Graphic Design Services" style="width:22%;">
 				</div>
 			</div>
             <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
@@ -115,7 +115,7 @@
 					<div class="number-title invisible ">01.</div>
 					<h3>Brand Guidelines</h3>
 					<p>A comprehensive guide to maintain brand consistency across all platforms, ensuring every representation is on-brand, aligns with your company's core values and identity, and strengthens brand recognition.</p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/brand-guidelines.svg" class="brand-logo-one" alt="brand-guidelines" style="width:22%;">
+                    <img src="{{ asset('theme') }}/assets/images/icons/brand-guidelines.svg" class="brand-logo-one" alt="Graphic Design Services" style="width:22%;">
 				</div>
 			</div>
 		</div>
@@ -187,8 +187,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Graphic Design Services"> -->
+						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Graphic Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
@@ -199,8 +199,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Graphic Design Services"> -->
+						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Graphic Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">Mobile App UX Optimization</a></h3>
@@ -211,8 +211,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Graphic Design Services"> -->
+						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Graphic Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -223,8 +223,8 @@
 			<div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
                     <a href="#">
-                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Images">
+                        <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Graphic Design Services"> -->
+						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Graphic Design Services">
                     </a>
                     <div class="content">
                         <h3><a href="#">3D Visualization for a Product Launch</a></h3>
@@ -245,7 +245,7 @@
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
                 <div class="about-img-4">
-                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="About Images">
+                    <img src="{{ asset('theme') }}/assets/images/modern-cta.png" alt="Graphic Design Services">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -329,7 +329,7 @@
             </div>
             <div class="col-lg-5">
 				<div class="choose-img">
-				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+				    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Graphic Design Services">
 				</div>
 			</div>
         </div>
