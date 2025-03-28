@@ -8,6 +8,38 @@
 @endsection
 @section('schema')
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Digital Transformation Services",
+    "item": "https://jfstechnologies.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Digital Experience",
+    "item": "https://jfstechnologies.com/services/digital-experience"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Creative Service Agency",
+    "item": "https://jfstechnologies.com/services/creative-service-agency"  
+  },{
+    "@type": "ListItem", 
+    "position": 5, 
+    "name": "3D Design Services",
+    "item": "https://jfstechnologies.com/services/professional-3d-design-services"  
+  }]
+}
+</script>
+<script type="application/ld+json">
     {
     "@context": "https://schema.org",
     "@type": "FAQPage",
