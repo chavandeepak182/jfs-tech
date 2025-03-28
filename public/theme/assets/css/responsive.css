@@ -412,6 +412,7 @@
     .mobile-item span {
         float: inline-end;
         margin: -35px 0px;
+        padding: 0 0 0 100px;
     }
 
     .mobile-item span i {
