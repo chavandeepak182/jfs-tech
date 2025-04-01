@@ -355,22 +355,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/sandy-p.jpg" alt="Digital Transformation Services Company">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/sandeep-pawar-0949561a/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Sandeep Pawar</h3>
-						<span>Co-Founder & CEO</span>
-					</div>
-				</div>
-			</div>
 			<!--<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">-->
 			<!--	<div class="team-card">-->
 			<!--		<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">-->
