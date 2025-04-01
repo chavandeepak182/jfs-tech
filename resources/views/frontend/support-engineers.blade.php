@@ -9,6 +9,33 @@
 @section('Schema')
 <script type="application/ld+json">
 {
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Digital Transformation Services",
+    "item": "https://jfstechnologies.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Resource Augmentation Services",
+    "item": "https://jfstechnologies.com/services/resource-augmentation-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "IT Support Engineers",
+    "item": "https://jfstechnologies.com/services/it-support-engineers"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
@@ -38,10 +65,10 @@ L4 Support – Vendor-specific or expert-level issue resolution."
     }
   },{
     "@type": "Question",
-    "name": "Does JFS Technologies provide 24/7 technical support services?",
+    "name": "Does JFS Technologies provide 24/7 technical IT support engineers?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes! Our 24/7 technical support engineers are available round-the-clock to assist with system monitoring, troubleshooting, and emergency IT support to keep your business running smoothly."
+      "text": "Yes! Our 24/7 technical IT support engineers are available round-the-clock to assist with system monitoring, troubleshooting, and emergency IT support to keep your business running smoothly."
     }
   },{
     "@type": "Question",

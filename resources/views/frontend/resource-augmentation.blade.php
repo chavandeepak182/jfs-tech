@@ -9,6 +9,28 @@
 @section('schema')
 <script type="application/ld+json">
 {
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "JFS Technologies",
+    "item": "https://jfstechnologies.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Digital Transformation Services",
+    "item": "https://jfstechnologies.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Resource Augmentation Services",
+    "item": "https://jfstechnologies.com/services/resource-augmentation-services"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
