@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Mobile App Development Services for Businesses")
+@section('title', "IOS App & Best Mobile App Development Services for Businesses")
 @section('description', "Get best mobile app development services for businesses. Expert IOS app development services to turn your ideas into powerful mobile apps.")
-@section('keywords', "Best Mobile App Development Services for Businesses, Best Mobile App Development services, Affordable App Development Services for Businesses, Best App development services, IOS App development services, Android App development services, best mobile app development company, top mobile application development company, best website design for small business, best IOS and android app development services, Native App Development Services for IOS device, best IOS App development services for business, Best Cross-Platform Development Services for IOS and Android, hybrid app development services for business, Best affordable package for mobile app development service")
+@section('keywords', "Best Mobile App Development Services for Businesses, IOS App Development Services for BusinessesBest Mobile App Development services, Affordable App Development Services for Businesses, Best App development services, IOS App development services, Android App development services, best mobile app development company, top mobile application development company, best website design for small business, best IOS and android app development services, Native App Development Services for IOS device, best IOS App development services for business, Best Cross-Platform Development Services for IOS and Android, hybrid app development services for business, Best affordable package for mobile app development service")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/mobile-app-development" />
 <meta name="robots" content="index, follow">

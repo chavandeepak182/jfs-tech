@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Top UI UX Design Services for all Businesses")
-@section('description', "Discover top UI/UX design services for all businesses offering expert UI/UX design services. Elevate user experience with intuitive, high-quality designs for web & mobile apps.")
+@section('title', "Top UI UX Design Services | UI UX Design Company")
+@section('description', "Discover top UI/UX design services for all businesses offering expert UI/UX design company. Elevate user experience with intuitive, high-quality designs for web & mobile apps.")
 @section('keywords', "UI UX Design Services, Top UI UX Design Services, Top UI UX Design Services for all Businesses, ui ux design firm, UI UX Design Services, ui ux consulting services")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/ui-ux-design-services" />
