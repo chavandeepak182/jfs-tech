@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Digital Marketing Agency for all Businesses")
-@section('description', "Discover the Best Digital Marketing Agency for all Businesses offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
-@section('keywords', "best digital marketing agency for all businesses, best digital marketing agency, best ppc advertising company, SEO Agency for all businesses, Social media marketing services  for business, Email Marketing services for business")
+@section('title', "Best Digital Marketing Agency for Small and Large Businesses")
+@section('description', "Discover the Best Digital Marketing Agency for Small and Large Businesses offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
+@section('keywords', "best digital marketing agency, best digital marketing agency for small businesses, Best Digital Marketing Agency for Large Businesses, best ppc advertising company, SEO Agency for all businesses, Social media marketing services  for business, Email Marketing services for business")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/best-digital-marketing-agency" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/best-digital-marketing-agency" />
