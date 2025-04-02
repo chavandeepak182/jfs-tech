@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
 @section('title', "Resource Augmentation Services for Digital Transformation")
-@section('description', "Enhance your team's capabilities with our Resource Augmentation for Digital Transformation. Expert IT Staff Augmentation Services to drive growth for your business.")
-@section('keywords', "IT Staff Augmentation Services, resource augmentation for digital transformation, IT Resource Augmentation Services, software development resource augmentation, Best company for Backend Development, best company for frontend development, IT Support Engineer Services, Best Company for Fullstack Development, resource augmentation for startups, it staff augmentation company")
+@section('description', "Enhance your team's capabilities with our Resource Augmentation Services for Digital Transformation. Expert IT Staff Augmentation Services to drive growth for your business.")
+@section('keywords', "Resource Augmentation Services, Resource Augmentation Services for Digital Transformation, IT Staff Augmentation Services, resource augmentation for digital transformation, IT Resource Augmentation Services, software development resource augmentation, Best company for Backend Development, best company for frontend development, IT Support Engineer Services, Best Company for Fullstack Development, resource augmentation for startups, it staff augmentation company")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/resource-augmentation-services" />
 <meta name="robots" content="index, follow">
