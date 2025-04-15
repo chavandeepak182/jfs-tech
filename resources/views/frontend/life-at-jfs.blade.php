@@ -1,10 +1,10 @@
 @extends('frontend.layouts.header')
 @section('title', "Exciting Careers at JFS | Join Our Innovative Team Today")
 @section('description', "Explore exciting career opportunities at JFS! Join our innovative team and contribute to cutting-edge solutions in software development and digital marketing.")
-@section('description', "Careers at JFS")
+@section('keywords', "Careers at JFS")
 @section('canonical')
-<link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
-<link rel="canonical" href="https://jfstechnologies.com/services/infrastructure-management-services" />
+<link rel="alternate" href="https://jfstechnologies.com/life-at-jfs" hreflang="en-in" />
+<link rel="canonical" href="https://jfstechnologies.com/slife-at-jfs" />
 <meta name="robots" content="index, follow">
 @endsection
 

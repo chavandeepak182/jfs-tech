@@ -7,7 +7,7 @@
 
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
-    <meta name="Keywords" content="@yield('keywords')">
+    <meta name="keywords" content="@yield('keywords')">
 	@yield('canonical')
 
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
@@ -107,6 +107,7 @@
 						<li><a href="{{ url('/newsroom') }}">Newsroom</a></li>
 					</ul>
 				</li>
+				<li><a href="{{ url('/careers') }}">Careers</a></li>
 				<li>
 					<a class="desktop-item">Resources <span><i class='bx bx-caret-down'></i></span></a>
 					<input type="checkbox"  id="showdrop2">
