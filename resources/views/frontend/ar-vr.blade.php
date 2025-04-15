@@ -211,49 +211,49 @@
         <div class="row pt-45">
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Best Application for AR VR services"> -->
 						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Best Application for AR VR services">
                     </a>
                     <div class="content">
-                        <h3><a href="#">E-Commerce Platform UI/UX Redesign</a></h3>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a href="{{ url('/success-stories') }}">E-Commerce Platform UI/UX Redesign</a></h3>
+                        <a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Best Application for AR VR services"> -->
 						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Best Application for AR VR services">
                     </a>
                     <div class="content">
-                        <h3><a href="#">Mobile App UX Optimization</a></h3>
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a href="{{ url('/success-stories') }}">Mobile App UX Optimization</a></h3>
+						<a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Best Application for AR VR services"> -->
 						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Best Application for AR VR services">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a href="{{ url('/success-stories') }}">3D Visualization for a Product Launch</a></h3>
+                        <a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
 			<div class="col-lg-3 col-md-6">
                 <div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Best Application for AR VR services"> -->
 						<img src="https://img.freepik.com/free-photo/online-shopping-concept_23-2151896852.jpg?t=st=1733395434~exp=1733399034~hmac=a8aca7bbd7f4511c0db661d0526f3422d7c5f3653ef53822a6dbcc4349d98db0" alt="Best Application for AR VR services">
                     </a>
                     <div class="content">
-                        <h3><a href="#">3D Visualization for a Product Launch</a></h3>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <h3><a href="{{ url('/success-stories') }}">3D Visualization for a Product Launch</a></h3>
+                        <a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
             </div>
