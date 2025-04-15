@@ -104,10 +104,11 @@
 					<ul class="drop-menu1">
 						<li><a href="{{ url('/about-us#team') }}">Our Team</a></li>
 						<li><a href="{{ url('/life-at-jfs') }}">Life At JFS</a></li>
+						<li><a href="{{ url('/careers') }}">Careers</a></li>
 						<li><a href="{{ url('/newsroom') }}">Newsroom</a></li>
 					</ul>
 				</li>
-				<li><a href="{{ url('/careers') }}">Careers</a></li>
+				
 				<li>
 					<a class="desktop-item">Resources <span><i class='bx bx-caret-down'></i></span></a>
 					<input type="checkbox"  id="showdrop2">
