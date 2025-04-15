@@ -28,21 +28,8 @@
             <h2>A Place to Grow and Thrive</h2>
             <p class="margin-auto">At JFS Technologies, we believe in creating a workplace that goes beyond the ordinary. Our culture is built on collaboration, innovation, and respect, offering every team member the opportunity to learn, contribute, and succeed. Whether you&#39;re a seasoned professional or just starting your career, you'll find an environment that nurtures talent and encourages new ideas.</p>
         </div>
-        <div class="row pt-45 justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500">
-				<div class="work-process-card-three">
-					<div class="number-title invisible ">01.</div>
-					<h3>Job Title</h3>
-					<p>Experience: 2+</p>
-                    <p>Openings: 4</p>
-                    <p>Location: Pune</p>
-                    <p class="text-center mt-3"><a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Upload Resume</a></p>
-                    <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
-				</div>
-			</div>
-        </div>
 
-        <div class="row"> 
+        <div class="row pt-45 justify-content-center" data-aos="fade-up" data-aos-duration="1000"> 
             @if(isset($careers) && $careers->count() > 0) 
                 @foreach($careers as $career) 
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500"> 
@@ -53,13 +40,45 @@
                             <p>Openings: {{ $career->openings ?? 'N/A' }}</p> 
                             <p>Location: {{ $career->location ?? 'N/A' }}</p> 
                             <p class="text-center mt-3"> 
-                                <a href="#" class="default-btn btn-bg-two border-radius-50 text-center">Upload Resume</a> 
+                                <a href="javascript:void(0);" class="default-btn btn-bg-two border-radius-50 text-center" data-bs-toggle="modal" data-bs-target="#resumeModal-{{ $career->id }}"> Upload Resume </a>
                             </p> 
                             <img src="{{ asset('theme/assets/images/icons/computer.svg') }}" class="brand-logo-one" alt="computer"> 
                         </div> 
                     </div> 
+
+                    <!-- Modal --> 
+                    <div class="modal" id="resumeModal-{{ $career->id }}" tabindex="-1" aria-labelledby="resumeModalLabel-{{ $career->id }}" aria-hidden="true"> 
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content"> 
+                                <form action="{{ route('careers.resume.upload') }}" method="POST" enctype="multipart/form-data"> 
+                                    @csrf 
+                                    <div class="modal-header"> 
+                                        <h5 class="modal-title" id="resumeModalLabel-{{ $career->id }}">Apply for: {{ ucwords(strtolower($career->title)) }}</h5> 
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                                    </div> 
+                                    <div class="modal-body"> 
+                                        <input type="hidden" name="job_id" value="{{ $career->id }}"> 
+                                        <div class="mb-3"> 
+                                            <label for="applicant_name_{{ $career->id }}" class="form-label">Your Name</label> 
+                                            <input type="text" class="form-control" id="applicant_name_{{ $career->id }}" name="name" required> 
+                                        </div> <div class="mb-3"> 
+                                            <label for="email_{{ $career->id }}" class="form-label">Email address</label> 
+                                            <input type="email" class="form-control" id="email_{{ $career->id }}" name="email" required> 
+                                        </div> 
+                                        <div class="mb-3"> 
+                                            <label for="resume_{{ $career->id }}" class="form-label">Upload Resume (PDF/DOC)</label> 
+                                            <input type="file" class="form-control" id="resume_{{ $career->id }}" name="resume" accept=".pdf,.doc,.docx" required> 
+                                        </div> 
+                                    </div> 
+                                    <div class="modal-footer"> 
+                                        <button type="submit" class="btn btn-primary">Submit Application</button> 
+                                    </div> 
+                                </form> 
+                            </div> 
+                        </div> 
+                    </div>
                 @endforeach 
-                
+
                 @else 
                 <div class="col-12"> 
                     <p class="text-center">No job openings available.</p> 
