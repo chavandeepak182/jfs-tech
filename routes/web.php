@@ -7,6 +7,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogCategoryController;
+use App\Http\Controllers\CareerController;
 
 
 Route::get('/', function () {
@@ -178,9 +179,8 @@ Route::get('/life-at-jfs', function () {
     return view('frontend.life-at-jfs');
 });
 
-Route::get('/careers', function () {
-    return view('frontend.careers');
-});
+Route::get('/careers', [BlogController::class, 'bloglist']);
+Route::post('/careers/upload-resume', [CareerController::class, 'uploadResume'])->name('careers.resume.upload');
 
 Route::get('/services/email-marketing-services', function () {
     return view('frontend.email-marketing');
