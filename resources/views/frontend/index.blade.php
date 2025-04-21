@@ -30,11 +30,16 @@
 }
 </script>
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="business.business">
 <meta property="og:title" content="Best Data Driven Digital Transformation Services">
 <meta property="og:url" content="https://jfstechnologies.com/">
 <meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
-<meta property="og:description" content="Transform your business with JFS Technologies' data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.">
+<meta property="og:description" content="JFS Technologies logo">
+<meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
+<meta property="business:contact_data:locality" content="Pune">
+<meta property="business:contact_data:region" content="Maharashtra">
+<meta property="business:contact_data:postal_code" content="411014">
+<meta property="business:contact_data:country_name" content="India">
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",

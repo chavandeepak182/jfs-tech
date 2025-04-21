@@ -1,11 +1,21 @@
 @extends('frontend.layouts.header')
-@section('title', "Expert Cloud Infrastructure Management Consulting Services")
+@section('title', "Best Infrastructure Management Services & Cloud Management")
 @section('description', "Optimize your business with expert cloud infrastructure management consulting services. Explore reliable cloud infrastructure solutions tailored to your needs.")
-@section('keywords', "Infratructure management consulting services, Cloud Infrastructure Management Consulting, Expert Cloud services in Infrastructure management, managing the cloud infrastructure, infrastructure management in cloud computing, cloud infrastructure management")
+@section('keywords', "Best Infrastructure Management Services, Cloud Infrastructure Management Consulting, Expert Cloud services in Infrastructure management, managing the cloud infrastructure, infrastructure management in cloud computing, cloud infrastructure management")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/infrastructure-management-services" />
 <meta name="robots" content="index, follow">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Best infrastructure management services">
+<meta property="og:url" content="https://jfstechnologies.com/services/infrastructure-management-services">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:description" content="Best infrastructure management services">
+<meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
+<meta property="business:contact_data:locality" content="Pune">
+<meta property="business:contact_data:region" content="Maharashtra">
+<meta property="business:contact_data:postal_code" content="411014">
+<meta property="business:contact_data:country_name" content="India">
 @endsection
 @section('schema')
 <script type="application/ld+json">
