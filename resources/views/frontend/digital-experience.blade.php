@@ -6,6 +6,16 @@ web design company for businesses, web development services for business, Social
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/digital-experience" />
 <meta name="robots" content="index, follow">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Top Digital Experience Service Company for Businesses">
+<meta property="og:url" content="https://jfstechnologies.com/services/digital-experience">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:description" content="Top Digital Experience Service Company">
+<meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
+<meta property="business:contact_data:locality" content="Pune">
+<meta property="business:contact_data:region" content="Maharashtra">
+<meta property="business:contact_data:postal_code" content="411014">
+<meta property="business:contact_data:country_name" content="India">
 @endsection
 @section('Schema')
 <script type="application/ld+json">
