@@ -182,9 +182,14 @@ Route::get('/life-at-jfs', function () {
 Route::get('/careers', [BlogController::class, 'bloglist']);
 Route::post('/careers/upload-resume', [App\Http\Controllers\CareerController::class, 'uploadResume'])->name('careers.resume.upload');
 
+Route::get('/job-description', function () {
+    return view('frontend.career-details');
+});
+
 Route::get('/services/email-marketing-services', function () {
     return view('frontend.email-marketing');
 });
+
 Route::redirect('/services/email-marketing', '/services/email-marketing-services', 301);
 
 Route::get('/portfolio', function () {
@@ -265,3 +270,4 @@ Route::post('/admin/blog-comments/{id}/approve', [BlogController::class, 'approv
 Route::delete('/admin/blog-comments/{id}', [BlogController::class, 'deleteComment'])->name('admin.blog-comments.delete');
 
 Route::delete('/admin/blogs/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
+

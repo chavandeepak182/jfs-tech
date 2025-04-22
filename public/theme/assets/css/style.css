@@ -4069,15 +4069,3 @@ ul.nav-list li {
 .portfolio-overlay .magnify-icon:hover p span i {
   color: #ffffff;
 }
-
-.modal-backdrop {
-  z-index: 1040 !important;
-}
-
-.modal {
-  z-index: 1050 !important;
-}
-
-.modal-dialog {
-  z-index: 1060 !important;
-}
