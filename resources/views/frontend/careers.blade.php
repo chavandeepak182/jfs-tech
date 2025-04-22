@@ -48,8 +48,8 @@
                         </div> 
                     </div> 
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="resumeModal-{{ $career->id }}" tabindex="-1" aria-labelledby="resumeModalLabel-{{ $career->id }}" aria-hidden="true"> 
+                    <!-- Modal --> 
+                    <div class="modal fade" id="resumeModal-{{ $career->id }}" tabindex="-1" aria-labelledby="resumeModalLabel-{{ $career->id }}" aria-hidden="true" data-bs-backdrop="false">
                         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content"> 
                                 <form action="{{ route('careers.resume.upload') }}" method="POST" enctype="multipart/form-data"> 

@@ -30,11 +30,16 @@
 }
 </script>
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="business.business">
 <meta property="og:title" content="Best Data Driven Digital Transformation Services">
 <meta property="og:url" content="https://jfstechnologies.com/">
 <meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
-<meta property="og:description" content="Transform your business with JFS Technologies' data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.">
+<meta property="og:description" content="JFS Technologies logo">
+<meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
+<meta property="business:contact_data:locality" content="Pune">
+<meta property="business:contact_data:region" content="Maharashtra">
+<meta property="business:contact_data:postal_code" content="411014">
+<meta property="business:contact_data:country_name" content="India">
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -638,43 +643,43 @@
 			</div>
 			<div class="case-study-slider owl-carousel owl-theme pt-45">
 				<div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
 						<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Best Data Driven Digital Transformation Services">
                     </a>
                     <div class="content">
-                        <a href="#">E-Commerce Platform UI/UX Redesign</a>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <a href="{{ url('/success-stories') }}">E-Commerce Platform UI/UX Redesign</a>
+                        <a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
 				<div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
 						<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Best Data Driven Digital Transformation Services">
                     </a>
                     <div class="content">
-                        <a href="#">Mobile App UX Optimization</a>
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <a href="{{ url('/success-stories') }}">Mobile App UX Optimization</a>
+						<a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
 				<div class="case-study-item">
-                    <a href="#">
+                    <a href="{{ url('/success-stories') }}">
                         <!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
 						<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Best Data Driven Digital Transformation Services">
                     </a>
                     <div class="content">
-                        <a href="#">3D Visualization for a Product Launch</a>
-                        <a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+                        <a href="{{ url('/success-stories') }}">3D Visualization for a Product Launch</a>
+                        <a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
                     </div>
                 </div>
 				<div class="case-study-item">
-					<a href="#">
+					<a href="{{ url('/success-stories') }}">
 						<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images"> -->
 						<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Best Data Driven Digital Transformation Services">
 					</a>
 					<div class="content">
-						<a href="#">Secure Cloud Migration</a>
-						<a href="#" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
+						<a href="{{ url('/success-stories') }}">Secure Cloud Migration</a>
+						<a href="{{ url('/success-stories') }}" class="more-btn"><i class="bx bx-right-arrow-alt"></i></a>
 					</div>
 				</div>
 			</div>
@@ -738,7 +743,7 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="#">
+							<a href="https://jfstechnologies.com/blog/top-seo-tools-to-boost-your-website-visibility-in-2024/">
 								<img src="{{ asset('theme') }}/assets/images/blog-1.png" alt="Best Data Driven Digital Transformation Services">
 							</a>
 							<div class="blog-tag">
@@ -749,14 +754,14 @@
 						<div class="content">
 							<a class="blog-title">Top SEO Tools to Boost Your Website Visibility in 2024</a>
 							<p>Digital marketing is an area that changes all the time, so it’s important for businesses to stay ahead of the curve. Search Engine Optimization (SEO) is still a key part of doing...</p>
-							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<a href="https://jfstechnologies.com/blog/top-seo-tools-to-boost-your-website-visibility-in-2024/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="blog-card">
 						<div class="blog-img">
-							<a href="#">
+							<a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/">
 								<img src="{{ asset('theme') }}/assets/images/blog-2.png" alt="Best Data Driven Digital Transformation Services">
 							</a>
 							<div class="blog-tag">
@@ -767,14 +772,14 @@
 							<div class="content">
 								<a class="blog-title">How to Choose the Best Free Client Management Software for Your Needs</a>
 								<p>In today’s competitive business landscape, managing client relationships effectively is crucial for success.</p>
-								<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+								<a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 						<div class="blog-card">
 							<div class="blog-img">
-								<a href="#">
+								<a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/">
 									<img src="{{ asset('theme') }}/assets/images/blog-3.png" alt="Best Data Driven Digital Transformation Services">
 								</a>
 								<div class="blog-tag">
@@ -785,7 +790,7 @@
 							<div class="content">
 							<a class="blog-title">Why Every Business Needs a Digital Marketing Agency</a>
 							<p>In today’s fast-paced digital landscape Why Every Business Needs a Digital Marketing Agency, staying ahead of the competition requires more than just a great product.</p>
-							<a href="#" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
+							<a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
