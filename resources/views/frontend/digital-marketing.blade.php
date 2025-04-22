@@ -9,7 +9,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Best Digital Marketing Agency for Small and Large Businesses">
 <meta property="og:url" content="https://jfstechnologies.com/services/best-digital-marketing-agency">
-<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/digital-marketing.mp4">
 <meta property="og:description" content="Best Digital Marketing Agency">
 <meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
 <meta property="business:contact_data:locality" content="Pune">

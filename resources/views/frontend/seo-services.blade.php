@@ -8,7 +8,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Best SEO Service Agency for All Businesses">
 <meta property="og:url" content="https://jfstechnologies.com/services/best-seo-service-agency">
-<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/icons/off-page-seo.svg">
 <meta property="og:description" content="Best SEO Service Agency">
 <meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
 <meta property="business:contact_data:locality" content="Pune">

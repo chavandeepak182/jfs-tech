@@ -8,7 +8,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Top Creative Service Agency for Graphic Design ">
 <meta property="og:url" content="https://jfstechnologies.com/services/creative-service-agency">
-<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/infra-cta.png">
 <meta property="og:description" content="Top Creative Service Agency ">
 <meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
 <meta property="business:contact_data:locality" content="Pune">

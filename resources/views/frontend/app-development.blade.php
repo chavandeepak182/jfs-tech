@@ -8,7 +8,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Best Mobile App Development Services for Businesses">
 <meta property="og:url" content="https://jfstechnologies.com/services/mobile-app-development">
-<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/about/web-dev.png">
 <meta property="og:description" content="Best Mobile App Development Services">
 <meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
 <meta property="business:contact_data:locality" content="Pune">

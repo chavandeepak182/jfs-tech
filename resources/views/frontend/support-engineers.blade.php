@@ -5,6 +5,16 @@
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/it-support-engineers" />
 <meta name="robots" content="index, follow">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="24/7 IT Support Engineers Services for Business">
+<meta property="og:url" content="https://jfstechnologies.com/services/it-support-engineers">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/resource-aug-intro.png">
+<meta property="og:description" content="IT Support Engineers">
+<meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
+<meta property="business:contact_data:locality" content="Pune">
+<meta property="business:contact_data:region" content="Maharashtra">
+<meta property="business:contact_data:postal_code" content="411014">
+<meta property="business:contact_data:country_name" content="India">
 @endsection
 @section('Schema')
 <script type="application/ld+json">
