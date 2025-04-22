@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
 @section('title', "Best Infrastructure Management Services & Cloud Management")
-@section('description', "Optimize your business with expert cloud infrastructure management consulting services. Explore reliable cloud infrastructure solutions tailored to your needs.")
+@section('description', "Optimize your business with expert cloud best infrastructure management services. Explore reliable cloud infrastructure solutions tailored to your needs.")
 @section('keywords', "Best Infrastructure Management Services, Cloud Infrastructure Management Consulting, Expert Cloud services in Infrastructure management, managing the cloud infrastructure, infrastructure management in cloud computing, cloud infrastructure management")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
