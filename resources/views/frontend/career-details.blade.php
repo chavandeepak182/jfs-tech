@@ -11,7 +11,7 @@
 @endsection
 
 @section('content')
-<div class="inner-banner" style="background-image: url(../theme/assets/images/careers.jpg);">
+<div class="inner-banner" style="background-image: url(../theme/assets/images/career-details.webp);">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
             <h1 class="invisible">Experience Work-Life Balance & Growth at JFS Technologies</h1>
@@ -23,40 +23,6 @@
     </div>
 </div>
 
-<section class="services-style-area bg-light home_cards pt-80 pb-70">
-    <div class="container">
-        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
-            <span class="sp-color2">Join Us to Dream Big</span>
-            <h2>A Place to Grow and Thrive</h2>
-            <p class="margin-auto">At JFS Technologies, we believe in creating a workplace that goes beyond the ordinary...</p>
-        </div>
-
-        <div class="row pt-45 justify-content-center" data-aos="fade-up" data-aos-duration="1000"> 
-            @if(isset($careers) && $careers->count() > 0) 
-                @foreach($careers as $career) 
-                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500"> 
-                        <div class="work-process-card-three"> 
-                            <div class="number-title invisible">01.</div> 
-                            <h3>{{ $career->title }}</h3> 
-                            <p>Experience: {{ $career->experience ?? 'N/A' }}</p> 
-                            <p>Openings: {{ $career->openings ?? 'N/A' }}</p> 
-                            <p>Location: {{ $career->location ?? 'N/A' }}</p> 
-                            <p class="text-center mt-3"> 
-                                <a href="" class="default-btn btn-bg-two border-radius-50 text-center"> Upload Resume </a>
-                            </p> 
-                            <img src="{{ asset('theme/assets/images/icons/computer.svg') }}" class="brand-logo-one" alt="computer"> 
-                        </div> 
-                    </div> 
-                @endforeach 
-            @else 
-                <div class="col-12"> 
-                    <p class="text-center">No job openings available.</p> 
-                </div> 
-            @endif 
-        </div>
-    </div>
-</section>
-
 
 <div class="brand-area pt-100 pb-70">
     <div class="container">
@@ -65,7 +31,8 @@
                 <div class="faq-area">
                     <div class="container">
                         <div class="section-title mb-5">
-                            <h2>Start Your Journey with Us</h2>
+                            <h3>Apply for {Job Title}</h3>
+                            <p><em>Experience: <strong>2+ Years</strong> &nbsp;&nbsp;|&nbsp;&nbsp; Openings: <strong>2</strong> &nbsp;&nbsp;|&nbsp;&nbsp; Location: <strong>Pune, IN</strong></em></p>
                         </div>
                         <div class="contact-form">
                             <form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
@@ -108,7 +75,7 @@
                                      </div>
                                      <div class="col-lg-12 col-md-12">
                                          <button type="submit" class="default-btn btn-bg-two border-radius-50">
-                                             Upload <i class="bx bx-chevron-right"></i>
+                                             Submit Application <i class="bx bx-chevron-right"></i>
                                          </button>
                                          <div id="msgSubmit" class="h3 text-center hidden"></div>
                                          <div class="clearfix"></div>
