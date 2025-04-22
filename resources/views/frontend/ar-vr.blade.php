@@ -9,7 +9,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Application for AR VR services ">
 <meta property="og:url" content="https://jfstechnologies.com/services/ar-vr-services">
-<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/arvr-cta.png">
 <meta property="og:description" content="AR VR services ">
 <meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
 <meta property="business:contact_data:locality" content="Pune">

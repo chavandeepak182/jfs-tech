@@ -10,7 +10,7 @@
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Digital Transformation Services Management Consulting ">
 <meta property="og:url" content="https://jfstechnologies.com/services/digital-transformation-services">
-<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/favicon.png">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/icons/data-sci.svg">
 <meta property="og:description" content="Digital Transformation Services">
 <meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
 <meta property="business:contact_data:locality" content="Pune">

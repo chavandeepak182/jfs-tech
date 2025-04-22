@@ -5,6 +5,16 @@
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/social-media-advertising" />
 <meta name="robots" content="index, follow">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Top Social Media Advertising Company ">
+<meta property="og:url" content="https://jfstechnologies.com/services/social-media-advertising">
+<meta property="og:image" content="https://jfstechnologies.com/theme/assets/images/modern-cta.png">
+<meta property="og:description" content="Top Social Media Advertising Company ">
+<meta property="business:contact_data:street_address" content="416, Platinum Square, Sakore Nagar, Viman Nagar">
+<meta property="business:contact_data:locality" content="Pune">
+<meta property="business:contact_data:region" content="Maharashtra">
+<meta property="business:contact_data:postal_code" content="411014">
+<meta property="business:contact_data:country_name" content="India">
 @endsection
 @section('schema')
 <script type="application/ld+json">
