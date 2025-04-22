@@ -1,7 +1,9 @@
 @extends('frontend.layouts.header')
+
 @section('title', "Exciting Careers at JFS | Join Our Innovative Team Today")
 @section('description', "Explore exciting career opportunities at JFS! Join our innovative team and contribute to cutting-edge solutions in software development and digital marketing.")
 @section('keywords', "Careers at JFS")
+
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/careers" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/careers" />
@@ -15,8 +17,8 @@
             <h1 class="invisible">Experience Work-Life Balance & Growth at JFS Technologies</h1>
             <p class="text-white"></p>
             <div class="banner-btn invisible">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Current Openings <i class="bx bx-chevron-right"></i></a>
-			</div>
+                <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Current Openings <i class="bx bx-chevron-right"></i></a>
+            </div>
         </div>
     </div>
 </div>
@@ -26,7 +28,7 @@
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Join Us to Dream Big</span>
             <h2>A Place to Grow and Thrive</h2>
-            <p class="margin-auto">At JFS Technologies, we believe in creating a workplace that goes beyond the ordinary. Our culture is built on collaboration, innovation, and respect, offering every team member the opportunity to learn, contribute, and succeed. Whether you&#39;re a seasoned professional or just starting your career, you'll find an environment that nurtures talent and encourages new ideas.</p>
+            <p class="margin-auto">At JFS Technologies, we believe in creating a workplace that goes beyond the ordinary...</p>
         </div>
 
         <div class="row pt-45 justify-content-center" data-aos="fade-up" data-aos-duration="1000"> 
@@ -61,7 +63,8 @@
                                         <div class="mb-3"> 
                                             <label for="applicant_name_{{ $career->id }}" class="form-label">Your Name</label> 
                                             <input type="text" class="form-control" id="applicant_name_{{ $career->id }}" name="name" required> 
-                                        </div> <div class="mb-3"> 
+                                        </div> 
+                                        <div class="mb-3"> 
                                             <label for="email_{{ $career->id }}" class="form-label">Email address</label> 
                                             <input type="email" class="form-control" id="email_{{ $career->id }}" name="email" required> 
                                         </div> 
@@ -78,72 +81,51 @@
                         </div> 
                     </div>
                 @endforeach 
-
-                @else 
+            @else 
                 <div class="col-12"> 
                     <p class="text-center">No job openings available.</p> 
                 </div> 
             @endif 
         </div>
     </div>
-</div>
+</section>
 
 
 <div class="brand-area pt-100 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
-                <div class="faq-area ">
+                <div class="faq-area">
                     <div class="container">
                         <div class="section-title mb-5">
                             <h2>Start Your Journey with Us</h2>
                         </div>
                         <div class="contact-form">
-                            <form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+                            <form action="{{ route('careers.resume.upload') }}" method="POST" enctype="multipart/form-data">
                                 @csrf
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label>Your Name <span>*</span></label>
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Name">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label>Phone Number <span>*</span></label>
-                                            <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label>Your Email <span>*</span></label>
-                                            <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Email">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label>Upload Resume <span>*</span></label>
-                                            <input type="file" name="resume" id="resume" class="form-control" required data-error="Please Drop Your Resume">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="agree-label">
-                                            <label for="chb1" class="m-0 small text-muted">
-                                                <em><strong><u>NOTE:</u></strong> Your resume will be used only to recommend the relevant job openings based on your job profile. Kindly be informed that JFS Technologies does not store your resume for any future purpose.</em>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="default-btn btn-bg-two border-radius-50">
-                                            Upload <i class="bx bx-chevron-right"></i>
-                                        </button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
+                                
+                                <div>
+                                    <label>Name:</label>
+                                    <input type="text" name="name" required>
+                                </div>
+
+                                <div>
+                                    <label>Email:</label>
+                                    <input type="email" name="email" required>
+                                </div>
+
+                                <div>
+                                    <label>Phone:</label>
+                                    <input type="text" name="phone_number">
+                                </div>
+
+                                <div>
+                                    <label>Resume:</label>
+                                    <input type="file" name="resume" required>
+                                </div>
+
+                                <div>
+                                    <button type="submit">Upload Resume</button>
                                 </div>
                             </form>
                         </div>
@@ -152,10 +134,24 @@
             </div>
             <div class="col-lg-5">
                 <div class="choose-img">
-                    <img src="{{ asset('theme') }}/assets/images/faq-1.png" alt="Images">
+                    <img src="{{ asset('theme/assets/images/faq-1.png') }}" alt="Images">
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+{{-- Bootstrap JS for modals --}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+{{-- Optional: Fix for AOS modals z-index issue --}}
+<style>
+    .modal-backdrop.show {
+        z-index: 1040;
+    }
+
+    .modal.show {
+        z-index: 1050;
+    }
+</style>
 @endsection

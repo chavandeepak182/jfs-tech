@@ -180,7 +180,7 @@ Route::get('/life-at-jfs', function () {
 });
 
 Route::get('/careers', [BlogController::class, 'bloglist']);
-Route::post('/careers/upload-resume', [CareerController::class, 'uploadResume'])->name('careers.resume.upload');
+Route::post('/careers/upload-resume', [App\Http\Controllers\CareerController::class, 'uploadResume'])->name('careers.resume.upload');
 
 Route::get('/services/email-marketing-services', function () {
     return view('frontend.email-marketing');

@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css">
 	<link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet"/>
 
 	<link rel="icon" type="image/png" href="{{ asset('theme') }}/assets/images/favicon.png">
@@ -161,6 +161,7 @@
 			s0.parentNode.insertBefore(s1,s0);
 		})();
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	<!--End of Tawk.to Script-->
 </body>
 </html>
