@@ -36,25 +36,93 @@
                 @foreach($careers as $career) 
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="500"> 
                         <div class="work-process-card-three"> 
-                            <div class="number-title invisible">01.</div> 
+                            <div class="number-title invisible">01.</div>
                             <h3>{{ $career->title }}</h3> 
                             <p>Experience: {{ $career->experience ?? 'N/A' }}</p> 
                             <p>Openings: {{ $career->openings ?? 'N/A' }}</p> 
                             <p>Location: {{ $career->location ?? 'N/A' }}</p> 
                             <p class="text-center mt-3"> 
-                                <a href="" class="default-btn btn-bg-two border-radius-50 text-center"> Upload Resume </a>
+                                <a href="#" class="default-btn btn-bg-two border-radius-50 text-center open-resume-modal" data-bs-toggle="modal" data-bs-target="#resumeModal" data-id="{{ $career->id }}" data-title="{{ $career->title }}">
+                                    Upload Resume
+                                </a>
                             </p> 
                             <img src="{{ asset('theme/assets/images/icons/computer.svg') }}" class="brand-logo-one" alt="computer"> 
                         </div> 
                     </div> 
-                @endforeach 
-            @else 
+                @endforeach
+                @else 
                 <div class="col-12"> 
                     <p class="text-center">No job openings available.</p> 
                 </div> 
             @endif 
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title job-title">Upload Resume</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{ route('careers.resume.upload') }}" method="POST" enctype="multipart/form-data">
+                        @csrf
+                        <div class="row">
+                            <div class="col-lg-12 mb-3">
+                                <input type="hidden" name="job_id" id="modal-job-id">
+                                <div class="form-group">
+                                    <label>Your Name <span>*</span></label>
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label>Your Email <span>*</span></label>
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label>Upload Resume <span>*</span></label>
+                                    <input type="file" name="resume" id="resume" class="form-control" required data-error="Please Drop Your Resume">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 mt-3">
+                                <button type="submit" class="btn btn-primary border-radius-50">
+                                    Submit Resume
+                                </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modal = document.getElementById('resumeModal');
+            const titleEl = modal.querySelector('.job-title');
+            const jobIdInput = document.getElementById('modal-job-id');
+
+            document.querySelectorAll('.open-resume-modal').forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const jobId = this.getAttribute('data-id');
+                    const jobTitle = this.getAttribute('data-title');
+                    
+                    titleEl.textContent = `${jobTitle}`;
+                    jobIdInput.value = jobId;
+                });
+            });
+        });
+    </script>
 </section>
 
 
@@ -68,52 +136,52 @@
                             <h2>Start Your Journey with Us</h2>
                         </div>
                         <div class="contact-form">
-                            <form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
-                                 @csrf
-                                 <div class="row">
-                                     <div class="col-lg-6">
-                                         <div class="form-group">
-                                             <label>Your Name <span>*</span></label>
-                                             <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Name">
-                                             <div class="help-block with-errors"></div>
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-6">
-                                         <div class="form-group">
-                                             <label>Phone Number <span>*</span></label>
-                                             <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number">
-                                             <div class="help-block with-errors"></div>
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-12">
-                                         <div class="form-group">
-                                             <label>Your Email <span>*</span></label>
-                                             <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Email">
-                                             <div class="help-block with-errors"></div>
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-12">
-                                         <div class="form-group">
-                                             <label>Upload Resume <span>*</span></label>
-                                             <input type="file" name="resume" id="resume" class="form-control" required data-error="Please Drop Your Resume">
-                                             <div class="help-block with-errors"></div>
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-12 col-md-12">
-                                         <div class="agree-label">
-                                             <label for="chb1" class="m-0 small text-muted">
-                                                 <em><strong><u>NOTE:</u></strong> Your resume will be used only to recommend the relevant job openings based on your job profile. Kindly be informed that JFS Technologies does not store your resume for any future purpose.</em>
-                                             </label>
-                                         </div>
-                                     </div>
-                                     <div class="col-lg-12 col-md-12">
-                                         <button type="submit" class="default-btn btn-bg-two border-radius-50">
-                                             Upload <i class="bx bx-chevron-right"></i>
-                                         </button>
-                                         <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                         <div class="clearfix"></div>
-                                     </div>
-                                 </div>
+                            <form action="{{ route('careers.resume.upload') }}" method="POST" enctype="multipart/form-data">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Your Name <span>*</span></label>
+                                            <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Phone Number <span>*</span></label>
+                                            <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label>Your Email <span>*</span></label>
+                                            <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label>Upload Resume <span>*</span></label>
+                                            <input type="file" name="resume" id="resume" class="form-control" required data-error="Please Drop Your Resume">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="agree-label">
+                                            <label for="chb1" class="m-0 small text-muted">
+                                                <em><strong><u>NOTE:</u></strong> Your resume will be used only to recommend the relevant job openings based on your job profile. Kindly be informed that JFS Technologies does not store your resume for any future purpose.</em>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12">
+                                        <button type="submit" class="default-btn btn-bg-two border-radius-50">
+                                            Upload <i class="bx bx-chevron-right"></i>
+                                        </button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>
