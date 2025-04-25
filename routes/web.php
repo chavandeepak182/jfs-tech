@@ -183,10 +183,6 @@ Route::get('/careers', [BlogController::class, 'bloglist']);
 Route::post('/careers/upload-resume', [App\Http\Controllers\CareerController::class, 'uploadResume'])->name('careers.resume.upload');
 Route::get('/admin/career-applications', [CareerController::class, 'showApplications'])->name('admin.career_applications.index');
 
-Route::get('/job-description', function () {
-    return view('frontend.career-details');
-});
-
 Route::get('/services/email-marketing-services', function () {
     return view('frontend.email-marketing');
 });
