@@ -60,4 +60,72 @@ class CareerController extends Controller
     
         return redirect()->back()->with('success', 'Your application has been submitted successfully!');
     }
+
+    public function showApplications(Request $request)
+    {
+        $query = DB::table('career_applications')
+        ->leftJoin('blogs', 'career_applications.job_id', '=', 'blogs.id')
+        ->select(
+            'career_applications.id',
+            'career_applications.name',
+            'career_applications.email',
+            'career_applications.phone_number',
+            'career_applications.resume',
+            'career_applications.created_at',
+            'blogs.title as job_title'
+        );
+
+    // Apply filters
+    if ($request->filled('job_title')) {
+        $query->where('blogs.title', 'like', '%' . $request->job_title . '%');
+    }
+
+    if ($request->filled('name')) {
+        $query->where('career_applications.name', 'like', '%' . $request->name . '%');
+    }
+
+    if ($request->filled('email')) {
+        $query->where('career_applications.email', 'like', '%' . $request->email . '%');
+    }
+
+    // Export functionality
+    if ($request->has('export')) {
+        $applications = $query->orderBy('career_applications.created_at', 'desc')->get();
+
+        $csvData = [];
+        $csvData[] = ['ID', 'Job Title', 'Name', 'Email', 'Phone Number', 'Resume', 'Applied At'];
+
+        foreach ($applications as $app) {
+            $csvData[] = [
+                $app->id,
+                $app->job_title,
+                $app->name,
+                $app->email,
+                $app->phone_number,
+                $app->resume,
+                $app->created_at,
+            ];
+        }
+
+        $filename = 'career_applications_' . now()->format('Ymd_His') . '.csv';
+        $handle = fopen('php://temp', 'r+');
+        foreach ($csvData as $line) {
+            fputcsv($handle, $line);
+        }
+        rewind($handle);
+        $headers = [
+            'Content-Type' => 'text/csv',
+            'Content-Disposition' => "attachment; filename=\"$filename\"",
+        ];
+
+        return Response::stream(function () use ($handle) {
+            fpassthru($handle);
+        }, 200, $headers);
+    }
+
+    // Pagination
+    $applications = $query->orderBy('career_applications.created_at', 'desc')->paginate(10);
+
+    return view('frontend.career_applications', compact('applications'));
+    }
 }
