@@ -105,6 +105,28 @@
             </div>
         </div>
     </div>
+    <!-- Thank you modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-4">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Your resume has been submitted successfully. We will get back to you soon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+@if(session('success'))
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
+            thankYouModal.show();
+        });
+    </script>
+@endif
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
