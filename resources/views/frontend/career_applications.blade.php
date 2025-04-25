@@ -13,11 +13,11 @@ Career Applications
         <nav aria-label="breadcrumb" class="d-flex align-items-center">
             <ol class="breadcrumb m-0 bg-transparent">
                 <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Career Applications</li>
+                <li class="breadcrumb-item active" aria-current="page">All Applications</li>
             </ol>
         </nav>
 
-        <a href="{{ route('admin.blogs.create') }}" class="btn btn-primary ms-3"><i class="far fa-edit"></i> Add Job</a>
+        <a href="{{ url('/admin/blogs') }}" class="btn btn-primary ms-3"><i class="fas fa-arrow-left"></i> Back</a>
     </div>
 </div>
 
@@ -38,9 +38,9 @@ Career Applications
                             <input type="email" name="email" class="form-control" placeholder="Email" value="{{ request('email') }}">
                         </div>
                         <div class="col-md-3">
-                            <button type="submit" class="btn btn-primary">Filter</button>
-                            <a href="{{ route('admin.career_applications.index') }}" class="btn btn-secondary">Reset</a>
-                            <button type="submit" name="export" value="1" class="btn btn-success">Export</button>
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-filter"></i> Filter</button>
+                            <a href="{{ route('admin.career_applications.index') }}" class="btn btn-danger"><i class="fas fa-undo"></i> Reset</a>
+                            <button type="submit" name="export" value="1" class="btn btn-warning"><i class="fas fa-file-download"></i> Export</button>
                         </div>
                     </div>
                 </form>
@@ -49,7 +49,7 @@ Career Applications
                 <div class="table-responsive" id="applications_table_container">
                     <table class="table">
                         <thead>
-                            <tr>
+                            <tr class="text-center">
                                 <th>#</th>
                                 <th>Job Title</th>
                                 <th>Name</th>
@@ -61,13 +61,13 @@ Career Applications
                         </thead>
                         <tbody>
                             @foreach ($applications as $index => $app)
-                            <tr>
+                            <tr class="text-center">
                                 <td>{{ $applications->firstItem() + $index }}.</td>
                                 <td>{{ $app->job_title ?? 'N/A' }}</td>
                                 <td>{{ $app->name }}</td>
                                 <td>{{ $app->email }}</td>
                                 <td>{{ $app->phone_number }}</td>
-                                <td><a href="{{ asset('storage/' . $app->resume) }}" target="_blank">View</a></td>
+                                <td class="text-center"><a href="{{ asset('storage/' . $app->resume) }}" class="bg-warning text-dark px-2 py-1 rounded" target="_blank"><i class="far fa-eye"></i></a></td>
                                 <td>{{ $app->created_at }}</td>
                             </tr>
                             @endforeach

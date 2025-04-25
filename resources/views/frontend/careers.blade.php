@@ -70,18 +70,25 @@
                     <form action="{{ route('careers.resume.upload') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="row">
-                            <div class="col-lg-12 mb-3">
+                            <div class="col-lg-6 mb-3">
                                 <input type="hidden" name="job_id" id="modal-job-id">
                                 <div class="form-group">
-                                    <label>Your Name <span>*</span></label>
-                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Name">
+                                    <label>Full Name <span>*</span></label>
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Mobile No. <span>*</span></label>
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-12 mb-3">
                                 <div class="form-group">
                                     <label>Your Email <span>*</span></label>
-                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Email">
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -119,14 +126,15 @@
             </div>
         </div>
     </div>
-@if(session('success'))
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
-            thankYouModal.show();
-        });
-    </script>
-@endif
+
+    @if(session('success'))
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                let thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
+                thankYouModal.show();
+            });
+        </script>
+    @endif
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
