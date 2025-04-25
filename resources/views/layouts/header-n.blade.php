@@ -34,10 +34,10 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('dashboard')}}">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/') }}">
                 <div class="sidebar-brand-icon">
                     {{-- <i class="fas fa-laugh-wink"></i> --}}
-                    <img width="100%" height="50px" src="{{ asset('theme/assets/images/logo-w.svg') }}">
+                    <img width="100%" src="{{ asset('theme/assets/images/logos/logo-w.png') }}">
                 </div>
                 <!-- <div class="sidebar-brand-text mx-3">{{ Session::get('username')}}</div> -->
             </a>
@@ -83,7 +83,7 @@
                         <div class="bg-white py-2 collapse-inner rounded">
                             <a class="collapse-item" href="{{ route('admin.blogs.index') }}">All Careers</a>
                             <a class="collapse-item" href="{{ route('admin.blogs.create') }}">Add Job</a>
-                            <!-- <a class="collapse-item" href="{{ route('admin.blog-comments') }}">Blog Comments</a> -->
+                            <a class="collapse-item" href="{{ route('admin.career_applications.index') }}">All Applications</a>
                         </div>
                     </div>
                 </li>
