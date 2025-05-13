@@ -26,6 +26,8 @@ Route::get('/contact-us', function () {
     return view('frontend.contact');
 });
 
+Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');
+
 Route::get('/privacy-policy', function () {
     return view('frontend.privacy-policy');
 });
@@ -197,8 +199,6 @@ Route::get('/newsroom', function () {
     return view('frontend.newsroom');
 });
 
-Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');
-
 Route::get('/thankyou', function () {
     return view('frontend.thankyou');
 });
@@ -267,4 +267,3 @@ Route::post('/admin/blog-comments/{id}/approve', [BlogController::class, 'approv
 Route::delete('/admin/blog-comments/{id}', [BlogController::class, 'deleteComment'])->name('admin.blog-comments.delete');
 
 Route::delete('/admin/blogs/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
-

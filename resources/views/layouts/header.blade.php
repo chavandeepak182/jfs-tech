@@ -141,7 +141,7 @@
                             <li><a href="{{ url('/products') }}">Products</a></li>
                             <li><a href="{{ url('/blog') }}">Blogs</a></li>
                             <div class="donate-btn-header">
-                                <a class="dtbtn" href="{{ url('/contactus') }}">Let's Connect</a>
+                                <a class="dtbtn" href="{{ url('/contactus') }}">Let's Talk</a>
                             </div>
                         </ul>
                     </div>

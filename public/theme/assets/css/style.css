@@ -72,6 +72,8 @@ img{max-width:100%;}
 
 .pb-100{padding-bottom:100px;}
 
+.pb-80{padding-bottom:80px;}
+
 .pb-70{padding-bottom:70px;}
 
 .pt-50{padding-top:50px;}
@@ -166,15 +168,15 @@ img{max-width:100%;}
 
 .choose-content .choose-content-card .title {
   margin-bottom: 20px;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
 }
 
 .card {
   width: 100%;
-  height: 400px;
+  height: 300px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -200,7 +202,7 @@ img{max-width:100%;}
   margin: 0;
   transition: inset .3s .3s ease-out;
   color: #fff;
-  font-size: 22px;
+  font-size: 18px;
 }
   
 .card p, .card a {
@@ -212,17 +214,24 @@ img{max-width:100%;}
 }
   
 .card p {
-  inset: auto auto 30px 30px;
+  inset: auto auto 70px 30px;
 }
   
 .card a {
-  inset: auto auto 15px 30px;
-  color: inherit;
+  inset: auto auto 30px 30px;
+  color: #fff;
   text-decoration: none;
+  margin: 0 20%;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 2px 25px;
+  background-color: #0071dc;
+  text-transform: uppercase;
+  font-weight: 600;
 }
   
 .card:hover h3 {
-  inset: auto auto 150px 30px;
+  inset: auto auto 200px 30px;
   transition: inset .3s ease-out;
 }
   
@@ -234,6 +243,18 @@ img{max-width:100%;}
 .card:hover img {
   transition: opacity .3s ease-in;
   opacity: 1;
+}
+
+.card:hover .card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  box-sizing: border-box;
+  height: 300px;
+  transition: all .3s;
 }
 
 /* =========== Navigation ============ */
@@ -397,7 +418,7 @@ ul.nav-list li {
 }
 
 .services-area-two .section-title h2{
-  max-width:600px;
+  max-width:650px;
   color:#fff;
   margin-left:auto;
   margin-right:auto;
@@ -427,6 +448,18 @@ ul.nav-list li {
 .sp-color1{color:#ffc221;}
 
 .sp-color2{color:#0071dc;}
+
+.nav-side-item .get-btn .default-btn {
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.nav-side-item .get-btn .default-btn:hover {
+  color: #ffc222 !important;
+  transform: translateY(-4px);
+  background-color: #ffc221;
+  box-shadow: 0px 5px 20px #FFEE58;
+}
 
 .default-btn {
   display: inline-block;
@@ -1383,12 +1416,9 @@ ul.nav-list li {
 .work-process-left .default-btn{margin:0 auto;}
 
 .work-process-card{
-  background-color:#fff;
-  box-shadow:0 0 15px rgba(0,0,0,.1);
-  padding:10px 20px;
-  margin-bottom:30px;
   position:relative;
   z-index:1;
+  padding: 10px;
 }
 
 .work-process-card::before{
@@ -1493,13 +1523,29 @@ ul.nav-list li {
 }
   
 .home_cards .work-process-card-three{
-  background-color:#fff;
-  box-shadow:0 0 15px rgba(0,0,0,.1);
+  background-color: transparent;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, .1);
   padding:35px 23px;
   margin-bottom:30px;
   position:relative;
   z-index:1;
   min-height: 325px;
+  border-bottom: 3px solid #ffc221;
+}
+
+/* Target only the image inside the card */
+.home_cards .work-process-card-three .brand-logo-one {
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+
+/* Bounce keyframes */
+@keyframes bounce {
+  0% {
+    transform: translateY(5);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
 }
 
 .work-process-card-three::before{
@@ -1576,14 +1622,25 @@ ul.nav-list li {
   
 .choose-content .section-title p{color:#fff;}
   
-.choose-content .choose-content-card{margin-top:15px;}
+.choose-content .choose-content-card {
+  background-color: #fff;
+  padding: 30px 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 25px rgb(0 0 0 / 50%);
+  transition: all .3s;
+}
+
+.choose-content .choose-content-card:hover {
+  transform: translateY(-10px);
+}
   
 .choose-content .choose-content-card .content{padding-top:20px;position:relative;padding-left:75px;}
 
 .home .choose-content .choose-content-card .content {
   padding-top: 0px;
   position: relative;
-  padding-left: 75px;
+  padding-left: 0;
 }
   
 .choose-content .choose-content-card .content i{
@@ -1596,7 +1653,7 @@ ul.nav-list li {
 }
 
 .home .choose-content .choose-content-card .content i {
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0;
   font-size: 50px;
@@ -1604,9 +1661,17 @@ ul.nav-list li {
   line-height: 1;
 }
   
-.choose-content .choose-content-card .content h3{margin-top:10px;margin-bottom:30px;color:#fff;}
+.choose-content .choose-content-card .content h3{
+  margin-top:10px;
+  margin-bottom:30px;
+  color:#fff;
+}
   
-.choose-content .choose-content-card p{margin-top:5px;margin-bottom:0;color:#fff;}
+.choose-content .choose-content-card p{
+  margin-top:5px;
+  margin-bottom:0;
+  color:#000;
+}
   
 .choose-img{margin-bottom:30px}.choose-img img{border-radius:15px;}
   
@@ -2298,7 +2363,7 @@ ul.nav-list li {
   border-radius:10px;
 }
   
-.clients-content .content{padding-left:110px;position:relative;margin-bottom:30px;}
+.clients-content .content{padding-left: 20px;position:relative;margin-top: 10px;}
   
 .clients-content .content img{
   position:absolute;
@@ -2311,15 +2376,12 @@ ul.nav-list li {
 }
   
 .clients-content .content i{
-  position:absolute;bottom:-10px;
+  position:absolute;
+  bottom: 35px;-10px; */
   left:60px;
-  border-radius:50px;
-  width:35px;
-  height:35px;
-  line-height:35px;
-  background-color:#ffc221;
-  color:#fff;
-  text-align:center;
+  color: #ffc221;
+  left: -10px;
+  font-size: 25px;
 }
 
 .clients-content .content .title{
@@ -2328,12 +2390,12 @@ ul.nav-list li {
   font-weight: 600;
   color: #252525;
   font-family: "Poppins", sans-serif !important;
-  text-transform: uppercase;
-  font-size: 22px;
+  text-transform: capitalize;
+  font-size: 20px;
   line-height: 1.2;
 }
 
-.clients-content .content span{margin-bottom:0;}
+.clients-content .content span{margin-bottom:0;font-style: italic;font-size: 15px;}
 
 .clients-content p{margin-bottom:0;}
 
@@ -3869,7 +3931,8 @@ ul.nav-list li {
 }
 
 .video video {
-  margin: 0 0 -15px 0;
+  width: 100%;
+  height: 90vh;
 }
 
 #videobcg {
@@ -4068,4 +4131,15 @@ ul.nav-list li {
 
 .portfolio-overlay .magnify-icon:hover p span i {
   color: #ffffff;
+}
+
+.expert-tech ul li{
+  list-style: none;
+}
+
+.expert-tech ul li img {
+  width: 50%;
+  border-radius: 25px;
+  padding: 15px;
+  box-shadow: 0 5px 20px #e8e8e8;
 }
