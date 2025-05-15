@@ -156,7 +156,7 @@
 		<div class="row pt-45 mx-auto justify-content-between custom-card desk-view">
 			<div class="col-lg-3" data-aos="fade-up" data-aos-duration="500">
 				<div class="card">
-					<img src="{{ asset('theme') }}/assets/images/transform.png" alt="Best Data Driven Digital Transformation Services">
+					<img src="{{ asset('theme') }}/assets/images/transform-1.jpg" alt="Best Data Driven Digital Transformation Services">
 					<div class="card-content">
 						<h3 title="Digital Transformation Services">Digital Transformation</h3>
 						<p>Empowering businesses with next-gen digital transformation and software solutions.</p>
@@ -168,7 +168,7 @@
 			</div>
 			<div class="col-lg-3" data-aos="fade-up" data-aos-duration="750">
 				<div class="card">
-					<img src="{{ asset('theme') }}/assets/images/experience.png" alt="Best Data-Driven Digital Transformation Services">
+					<img src="{{ asset('theme') }}/assets/images/experience-1.jpg" alt="Best Data-Driven Digital Transformation Services">
 					<div class="card-content">
 						<h3 title="Digital Experience Platform">Digital Experience</h3>
 						<p>Connect your brand, positioning us among the top digital marketing companies for businesses.</p>
@@ -180,7 +180,7 @@
 			</div>
 			<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
 				<div class="card">
-					<img src="{{ asset('theme') }}/assets/images/devops.png" alt="Best Data Driven Digital Transformation Services">
+					<img src="{{ asset('theme') }}/assets/images/devops-1.jpg" alt="Best Data Driven Digital Transformation Services">
 					<div class="card-content">
 						<h3 title="Devops Cybersecurity Services">DevOps Services</h3>
 						<p>Accelerating your SDLC with streamlined processes through expert DevOps & cybersecurity services.</p>
@@ -191,7 +191,7 @@
 			</div>
 			<div class="col-lg-3" data-aos="fade-up" data-aos-duration="1250">
 				<div class="card">
-					<img src="{{ asset('theme') }}/assets/images/resource.png" alt="Best Data Driven Digital Transformation Services">
+					<img src="{{ asset('theme') }}/assets/images/resource-1.jpg" alt="Best Data Driven Digital Transformation Services">
 					<div class="card-content">
 						<h3 title="Resource Augmentation Services">Resource Augmentation</h3>
 						<p>Offering Resource Augmentation for digital transformation who integrate to scale your operations.</p>
@@ -246,8 +246,8 @@
 			<h2 title="Who We Serve for digital transformation services">Industries We Cater</h2>
 			<p>We cater to a wide range of industries, offering customized solutions such as <a href="{{ url('/services/data-science-services') }}"><strong>Data Science Services</a></strong>, being among the top digital marketing companies for small businesses, <a href="{{ url('/services/devsecops-software-developmentdevsecops') }}"><strong>DevSecOps software development</a></strong> lifecycle support, and Resource Augmentation to extend your team and meet unique business needs.</p>
 		</div>
-		<div class="row pt-45">
-			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+		<div class="row pt-45 justify-content-center">
+			<div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<p class="title">Small and Medium-Sized Enterprises (SMEs)</p>
@@ -263,7 +263,7 @@
 					<img src="{{ asset('theme') }}/assets/images/icons/rocket.svg" class="brand-logo-one" alt="Startups">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
+			<div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">03.</div>
 					<p class="title">Digital Agencies</p>
@@ -287,7 +287,7 @@
 					<img src="{{ asset('theme') }}/assets/images/icons/cart.svg" class="brand-logo-one" alt="cart">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="2000">
+			<div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="2000">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">06.</div>
 					<p class="title">Educational Institutions</p>
@@ -303,13 +303,16 @@
 					<img src="{{ asset('theme') }}/assets/images/icons/care.svg" class="brand-logo-one" alt="engagement">
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="2500">
+			<div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="2500">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">08.</div>
 					<p class="title">Tech & Software Companies</p>
 					<p>chieve rapid growth with software development company teams tailored to your needs for efficient project execution & quality results, ensuring seamless scalability & innovation.</p>
 					<img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
+			</div>
+			<div class="col-md-4 mt-4 text-center" data-aos="fade-up" data-aos-duration="2750">
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-two border-radius-50">Contact Our Experts</a>
 			</div>
 		</div>
 	</div>
