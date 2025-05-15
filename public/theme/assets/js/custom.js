@@ -1,6 +1,25 @@
 (function($){'use strict';jQuery('.mean-menu').meanmenu({meanScreenWidth:"991"});$(window).on('scroll',function(){if($(this).scrollTop()>150){$('.navbar-area').addClass("sticky-nav");}
 else{$('.navbar-area').removeClass("sticky-nav");}});$(".nav-side .search-box i").on("click",function(){$(".search-overlay").toggleClass("search-overlay-active");});$(".search-close").on("click",function(){$(".search-overlay").removeClass("search-overlay-active");});$(".side-nav-responsive .dot-menu").on("click",function(){$(".side-nav-responsive .container-max .container").toggleClass("active");});$('.banner-slider').owlCarousel({loop:true,margin:30,nav:false,items:1,dots:true,autoplay:true,autoHeight:true,autoplayHoverPause:true,})
-$('.case-study-slider').owlCarousel({loop:true,margin:30,nav:false,dots:false,center:true,autoplay:true,autoplayHoverPause:true,responsive:{0:{items:1},600:{items:2},1024:{items:3},1200:{items:4},},})
+
+$('.case-study-slider').owlCarousel({
+    loop: true,
+    margin:30,
+    nav: true,
+    dots: false,
+    dotsEach: 1,
+    center: true,
+    autoplay: true,
+    autoplayHoverPause: false,
+    autoplayTimeout: 1800,
+    responsive:{
+        0:{ items: 1 },
+        600:{ items: 2 },
+        1024:{ items: 3 },
+        1200:{ items: 4 },
+    },
+})
+
+
 $('.brand-slider').owlCarousel({loop:true,margin:60,nav:false,dots:false,autoplay:true,autoplayHoverPause:true,responsive:{0:{items:2},600:{items:2},700:{items:3},1024:{items:5}},})
 $('.banner-seven-slide').owlCarousel({loop:true,margin:0,items:1,nav:true,dots:false,autoplay:true,autoHeight:true,autoplayHoverPause:true,})
 $('.clients-slider').owlCarousel({loop:true,margin:30,nav:true,dots:false,autoplay:true,autoplayHoverPause:true,responsive:{0:{items:1},992:{items:2}},navText:["<i class='bx bx-chevron-left'></i>","<i class='bx bx-chevron-right'></i>"],})
