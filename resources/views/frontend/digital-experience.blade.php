@@ -85,21 +85,17 @@ web design company for businesses, web development services for business, Social
 @endsection
 
 @section('content')
-
-<div id="service_banner" class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-                <div class="banner-five-content">
-                    <span></span>
-                    <h1 class="text-white" title="Top Digital Experience Service Company">Digital <b><br>Experience</b></h1>
-                    <p class="text-white">Our top digital experience service company to boost your online presence and engage your audience. From website development to digital marketing services, mobile application development services, and creative graphic designing services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
-                    <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
-                </div>
-            </div>
+<div id="banner" class="inner-banner">
+    <div class="container">
+        <div class="inner-title w-75">
+            <h1>Digital Experience</h1>
+            <p class="text-white">Our top digital experience service company to boost your online presence and engage your audience. From website development to digital marketing services, mobile application development services, and creative graphic designing services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
+            <div class="banner-btn">
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
+			</div>
         </div>
     </div>
-
+    
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
         <source src="https://jfstechnologies.com/theme/assets/images/digital-exp.mp4" type="video/mp4">
         <source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">Sorry, your browser does not support HTML5 video.
@@ -128,7 +124,7 @@ web design company for businesses, web development services for business, Social
                     </a>
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/website-development-company') }}">
                         <div class="number-title invisible">02.</div>
@@ -156,7 +152,7 @@ web design company for businesses, web development services for business, Social
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/creative-service-agency') }}">
                         <div class="number-title invisible">04.</div>
@@ -174,66 +170,59 @@ web design company for businesses, web development services for business, Social
     </div>
 </section>
 
-
-<div class="choose-area pt-100 pb-70 home">
-    <div class="container">
-        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
-            <div class="col-lg-12">
-                <div class="choose-content mr-20">
-                    <div class="section-title mb-3">
-                        <span class="sp-color1">We Are Best!!</span>
-                        <h2>Why Trust Our Top Digital Experience Service Company?</h2>
-                        <p>At JFS Technologies, we  Top Digital Experience Service Company work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-6">
-                            <div class="choose-content-card">
-                                <div class="content">
-                                    <i class="fal fa-pencil-ruler"></i>
-                                    <h3>Tailored Strategies</h3>
-                                </div>
-                                <p>We work closely with you to create solutions designed around your unique business needs.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="choose-content-card">
-                                <div class="content">
-                                    <i class="fal fa-users-crown"></i>
-                                    <h3>Technology Prowess</h3>
-                                </div>
-                                <p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, and scalable solutions.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="choose-content-card">
-                                <div class="content">
-                                    <i class="fal fa-analytics"></i>
-                                    <h3>Proven Track Record</h3>
-                                </div>
-                                <p>We’ve helped numerous businesses transform their digital strategies &amp; achieving measurable growth.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="choose-content-card">
-                                <div class="content">
-                                    <i class="fal fa-headset"></i>
-                                    <h3>Ongoing Support</h3>
-                                </div>
-                                <p>We’re here to guide you through every step of your data journey and help you get the most out of your data.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-lg-6">
-                <div class="choose-img">
-                    <img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="Images">
-                </div>
-            </div> -->
-        </div>
-    </div>
+<!-- Trust Us Area -->	
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Solutions</p>
+								</div>
+								<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
+									<p class="title pt-3">Technology Prowess</p>
+								</div>
+								<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
+									<p class="title pt-3">Proven Track Record</p>
+								</div>
+								<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
+									<p class="title pt-3">Global Client Base</p>
+								</div>
+								<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-
 
 <div class="security-area pt-100 pb-70">
 	<div class="container" data-aos="fade-up" data-aos-duration="500">
@@ -268,7 +257,7 @@ web design company for businesses, web development services for business, Social
 </div>
 
 
-<div class="about-area about-bg2 pt-100 pb-70">
+<div class="about-area about-bg2 pt-80 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-lg-6">
@@ -280,7 +269,7 @@ web design company for businesses, web development services for business, Social
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready to Launch Your First Campaign with the Top Digital Experience Service Company?</h2>
+                        <h2>Ready to Launch Your First Campaign?</h2>
                         <p>Whether you need a new website design or a mobile application to reach your customers on the go, our services are tailored to meet your unique requirements. Our digital marketing expertise will help you reach and engage with your target audience through various online channels, while our creative graphic designing services will ensure that your brand identity.</p>
                         <p>Partner with us to take your digital experience to the next level and drive meaningful results for your business. With our comprehensive suite of services and experienced team, we can help you achieve your digital goals and stand out in today's fast-paced digital world.</p>
                     </div>
@@ -293,7 +282,7 @@ web design company for businesses, web development services for business, Social
 </div>
 
 
-<div class="brand-area ptb-100">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
             <div class="col-md-7">

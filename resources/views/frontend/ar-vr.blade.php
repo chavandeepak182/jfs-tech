@@ -92,7 +92,7 @@
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+        <div class="inner-title w-75">
             <h1 title="Best AR/VR Services">Best Application for AR VR services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -107,7 +107,7 @@
     </video>
 </div>
 
-<section class="services-style-area pt-100 pb-70">
+<section class="services-style-area pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
@@ -151,65 +151,59 @@
     </div>
 </section>
 
-
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why JFS Technologies is Best Application for AR VR services?</h2>
+<!-- Trust Us Area -->	
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Solutions</p>
+								</div>
+								<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
-									</div>
-									<p>Each project is carefully customized to fit your unique needs, delivering innovative and scalable solutions perfect for your business growth.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
+									<p class="title pt-3">Technology Prowess</p>
 								</div>
+								<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
-									</div>
-									<p>We have experience best application for AR VR services across manufacturing, real estate, and education.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
+									<p class="title pt-3">Proven Track Record</p>
 								</div>
+								<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
-									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
+									<p class="title pt-3">Global Client Base</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Dedicated Support</h3>
-									</div>
-									<p>Our dedicated team provides ongoing support and expert guidance, from initial concept through seamless execution and long-term growth.</p>
-								</div>
+								<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Best Application for AR VR services">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
-    
+</div>    
 
 <div class="case-study-area pt-80 pb-70">
     <div class="container" data-aos="fade-up" data-aos-duration="750">
@@ -274,7 +268,6 @@
     </div>
 </div>
 
-
 <div class="about-area about-bg2 pt-5 pb-3">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
@@ -298,8 +291,7 @@
     </div>
 </div>
 
-
-<div class="brand-area ptb-100">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">

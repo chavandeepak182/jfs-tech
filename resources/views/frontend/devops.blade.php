@@ -85,27 +85,22 @@
 
 
 @section('content')
-<div id="service_banner" class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-                <div class="banner-five-content">
-                    <span></span>
-                    <h1 class="text-white" title="Devops software development services">DevOps<b><br>Services</b></h1>
-                    <p class="text-white">At <strong>JFS Technologies</strong>, we help businesses effortlessly close the gap between development and operations with streamlined and effective devOps software development services. Our innovative solutions boost software delivery speed, foster cross-team collaboration, and embed strong security measures, empowering organizations to adapt and excel in a rapidly changing digital world.</p>
-                    <!-- <p class="text-white">Through the implementation of CI/CD pipelines, we optimize the development process, guaranteeing the swift, reliable, and effective delivery of software updates, enhancements, and new features. Leveraging our deep proficiency in containers, orchestration tools, and microservices architecture, we design adaptable, scalable, and future-ready solutions that seamlessly adjust to evolving business requirements, industry trends, and technological advancements.</p> -->
-                    <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
+<div id="banner" class="inner-banner">
+    <div class="container">
+        <div class="inner-title w-75">
+            <h1>DevOps Services</h1>
+            <p class="text-white">Our innovative solutions boost software delivery speed, foster cross-team collaboration, and embed strong security measures, empowering organizations to adapt and excel in a rapidly changing digital world.</p>
+            <div class="banner-btn">
+				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
+			</div>
         </div>
     </div>
-
+    
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
         <source src="https://jfstechnologies.com/theme/assets/images/devops.mp4" type="video/mp4">
         <source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
-
 
 <div class="about-area pt-5">
     <div class="container">
@@ -159,11 +154,11 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <a href="{{ url('services/process-automation-services') }}">
                         <div class="number-title invisible">02.</div>
-                        <h3 title= "Business Process Automation Services">Process Automation Services</h3>
+                        <h3 title= "Business Process Automation Services">Process Automation</h3>
                         <p>Enhance efficiency by Business Process Automation Services.</p>
                         <!-- <i class="fad fa-random my-2"></i> -->
                         <img src="{{ asset('theme') }}/assets/images/icons/auto.svg" class="brand-logo-one" alt="DevOps Software Development Services">
@@ -187,7 +182,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <a href="{{ url('services/devsecops-software-development') }}">
                         <div class="number-title invisible">04.</div>
@@ -205,68 +200,61 @@
     </div>
 </section>
 
-
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">We Are The Best!!</span>
-							<h2>Benefits of Choosing DevOps Software Development Services</h2>
-                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our DevOps services are the right choice:</p>
+<!-- Trust Us Area -->	
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Solutions</p>
+								</div>
+								<p>Tailored innovative technology solutions designed to align seamlessly with your business goals.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Strategies</h3>
-									</div>
-									<p>Tailored solutions designed to align seamlessly with your business goals.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/cyber-security.png" alt="" width="90">
+									<p class="title pt-3">Integrated Security</p>
 								</div>
+								<p>Proactive measures to identify and prevent potential vulnerabilities effectively.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-shield-check"></i>
-										<h3>Integrated Security</h3>
-									</div>
-									<p>Proactive measures to identify and prevent potential vulnerabilities effectively.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/fast.png" alt="" width="90">
+									<p class="title pt-3">Faster Time-to-Market</p>
 								</div>
+								<p>Reduced delays with optimized pipelines, streamlined workflows, and efficient processes.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-tachometer-alt-fastest"></i>
-										<h3>Faster Time-to-Market</h3>
-									</div>
-									<p>Reduced delays with optimized pipelines, streamlined workflows, and efficient processes.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/automation.png" alt="" width="90">
+									<p class="title pt-3">End-to-End Automation</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-exchange-alt"></i>
-										<h3>End-to-End Automation:</h3>
-									</div>
-									<p>From development to deployment, we simplify the entire process.</p>
-								</div>
+								<p>From development to deployment, we simplify the entire process.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="http://127.0.0.1:8000/theme/assets/images/choose-img.jpg" alt="DevOps Software Development Services">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
+</div>
 
-
-<div class="security-area pt-100 pb-70">
+<div class="security-area pt-80 pb-70">
 	<div class="container" data-aos="fade-up" data-aos-duration="750">
 		<div class="section-title text-center">
 		    <span class="sp-color2">Plan Descriptions</span>
@@ -299,7 +287,7 @@
 </div>
 
 
-<div class="about-area about-bg2 pt-100 pb-70">
+<div class="about-area about-bg2 pt-80 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
@@ -328,7 +316,7 @@
 </div>   
 
 
-<div class="brand-area ptb-100">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">

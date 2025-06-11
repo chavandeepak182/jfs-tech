@@ -37,7 +37,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="750">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Learning Opportunities</h3>
@@ -53,7 +53,7 @@
                     <img src="{{ asset('theme') }}/assets/images/icons/computer.svg" class="brand-logo-one" alt="computer">
 				</div>
 			</div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="1250">
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Recognition & Growth</h3>
@@ -67,37 +67,43 @@
 
 
 <!-- Testimonials Area -->
-<section class="clients-area pt-100 pb-70">
-	<div class="container" data-aos="fade-up" data-aos-duration="750">
+<section class="clients-area pt-80 pb-70" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
 		<div class="section-title text-center">
 			<span class="sp-color1">Testimonials</span>
-			<h2 style="max-width: 650px;">Stories from the Heart of JFS</h2>
+			<h2 titles="What Our Clients Say about JFS Technologies">What Our Clients Say</h2>
 		</div>
 		<div class="clients-slider owl-carousel owl-theme pt-45">
 			<div class="clients-content">
+				<p>“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”</p>
 				<div class="content">
-					<img src="{{ asset('theme') }}/assets/images/clients-img/woman.png" alt="Images">
 					<i class="bx bxs-quote-alt-left"></i>
-					<h3>Shalaka Nakhate</h3>
-					<span>SEO Specialist</span>
+					<p class="title">Thomas Paul</p>
+					<span>Sr. Developer @ APISDOR</span>
 				</div>
-				<p>“At JFS Technologies, I’ve had the opportunity to work on challenging projects while being supported by a fantastic team. It’s a place where your ideas truly matter.”</p>
 			</div>
 			<div class="clients-content">
+				<p>“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”</p>
 				<div class="content">
-					<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="Images">
 					<i class="bx bxs-quote-alt-left"></i>
-					<h3>Amol Dagale</h3>
-					<span>Business Development Manager</span>
+					<p class="title">Dan Fitzpatrick</p>
+					<span>President @ KRIXI</span>
 				</div>
-				<p>“Joining JFS was the best decision of my career. The learning opportunities here are endless, and the work culture is inspiring.”</p>
+			</div>
+			<div class="clients-content">
+				<p>“Because of JFS Technologies' best data-driven digital transformation services, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”</p>
+				<div class="content">
+					<i class="bx bxs-quote-alt-left"></i>
+					<p class="title">Anand Katti</p>
+					<span>COO @ Shyena Techyarns</span>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
 
-<div class="brand-area pt-100 pb-70">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
