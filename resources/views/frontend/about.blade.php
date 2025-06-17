@@ -285,6 +285,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/swapnil.jpg" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/swapnil-dhamale-5423381a/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Swapnil Dhamale</h3>
+						<span>AVP</span>
+					</div>
+				</div>
+			</div>
 			<!--<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">-->
 			<!--	<div class="team-card">-->
 			<!--		<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">-->
@@ -397,22 +413,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/vaibhav-s.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/shubhav97/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Vaibhav Saxena</h3>
-						<span>Sr. Frontend Developer</span>
-					</div>
-				</div>
-			</div>
+			
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
@@ -479,17 +480,17 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/rahul-s.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/srushti.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.linkedin.com/in/rahul-sonawane-189045182/" target="_blank">
+							<a href="https://www.linkedin.com/in/srushti-wadne-2b4081241/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Rahul Sonewane</h3>
-						<span>Business Development Executive</span>
+						<h3>Srushti Wadne</h3>
+						<span>Content Developer</span>
 					</div>
 				</div>
 			</div>
