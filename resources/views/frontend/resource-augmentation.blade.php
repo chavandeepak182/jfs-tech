@@ -84,26 +84,22 @@
 @endsection
 
 @section('content')
-<div id="service_banner" class="banner-five-area">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-                <div class="banner-five-content">
-                    <span></span>
-                    <h1 class="text-white">Resource <b>Augmentation</b></h1>
-                    <p class="text-white">Our team for resource augmentation services for digital transformation comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results. Whether you need extra support for a specific project, want to strengthen your existing team, or require specialized expertise to address complex challenges, our resource augmentation for digital transformation are here to assist you.</p>
-                    <a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
-                </div>
-            </div>
+<div id="banner" class="inner-banner">
+    <div class="container">
+        <div class="inner-title w-75">
+            <h1>Resource Augmentation</h1>
+            <p class="text-white">Our team for resource augmentation services for digital transformation comprises highly skilled and experienced developers who excel in cutting-edge technologies and are dedicated to delivering exceptional results.</p>
+            <div class="banner-btn">
+				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+			</div>
         </div>
     </div>
-
+    
     <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
         <source src="https://jfstechnologies.com/theme/assets/images/resource-aug.mp4" type="video/mp4">
         <source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
-
 
 <div class="about-area pt-3">
     <div class="container">
@@ -127,7 +123,6 @@
     </div>
 </div>
 
-
 <section class="services-style-area home_cards pt-80 pb-70" id="service-sec">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
@@ -149,7 +144,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="750">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="750">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/backend-development-services') }}">
                         <div class="number-title invisible">02.</div>
@@ -177,7 +172,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1250">
+            <div class="col-lg-3 col-sm-6 bg-blue" data-aos="fade-up" data-aos-duration="1250">
                 <div class="work-process-card-three">
                     <a href="{{ url('/services/it-support-engineers') }}">
                         <div class="number-title invisible">04.</div>
@@ -195,53 +190,51 @@
     </div>
 </section>
 
-
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">We Are The Best!!</span>
-							<h2>Why Choose Our Resource Augmentation Services for Digital Transformation?</h2>
-                            <p>At JFS Technologies, we work closely with you to deliver optimal results for your business. Here’s why our Digital Experience services are the right choice:</p>
+<!-- Trust Us Area -->	
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Expertise</p>
+								</div>
+								<p>Access specialized skills for frontend, backend, full-stack, and support roles to enhance your team's capabilities.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Expertise</h3>
-									</div>
-									<p>Access specialized skills for frontend, backend, full-stack, and support roles to enhance your team's capabilities.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
+									<p class="title pt-3">Scalable Solutions</p>
 								</div>
+								<p>Whether you need short-term or long-term assistance, we provide flexibility to match your project needs.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-balance-scale"></i>
-										<h3>Scalable Solutions</h3>
-									</div>
-									<p>Whether you need short-term or long-term assistance, we provide flexibility to match your project needs.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/fast.png" alt="" width="90">
+									<p class="title pt-3">Faster Time-to-Market</p>
 								</div>
+								<p>With highly experienced developers ready to seamlessly integrate into your team, you can quickly accelerate project timelines.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-tachometer-alt-fastest"></i>
-										<h3>Faster Time-to-Market</h3>
-									</div>
-									<p>With experienced developers ready to integrate into your team, you can quickly accelerate project timelines.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/efficiency.png" alt="" width="90">
+									<p class="title pt-3">Budget Efficiency</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-badge-percent"></i>
-										<h3>Budget Efficiency</h3>
-									</div>
-									<p>Minimize overhead costs associated with hiring and training, while accessing top-tier talent.</p>
-								</div>
+								<p>Minimize overhead costs associated with hiring and training efforts, while accessing top-tier global talent.</p>
 							</div>
 						</div>
 					</div>
@@ -249,9 +242,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 
-<div class="security-area pt-100 pb-70">
+<div class="security-area pt-80 pb-70">
 	<div class="container">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 		    <span class="sp-color2">Plan Descriptions</span>
@@ -284,7 +278,7 @@
 </div>
 
 
-<div class="about-area about-bg2 pt-100 pb-70">
+<div class="about-area about-bg2 pt-80 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
@@ -313,7 +307,7 @@
 </div>
 
 
-<div class="brand-area ptb-100">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">

@@ -25,7 +25,7 @@
     </video>
 </div>
 
-<div class="case-study-area ss-page pt-100 pb-70">
+<div class="case-study-area ss-page pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center">
             <span class="sp-color2"></span>

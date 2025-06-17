@@ -95,7 +95,7 @@
 </div>
 
 
-<section class="services-style-area pt-100 pb-70">
+<section class="services-style-area pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
@@ -172,51 +172,50 @@
 </section>
 
 
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="500">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1"></span>
-							<h2>Why Choose End-to-End Digital Transformation Services?</h2>
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Solutions</p>
+								</div>
+								<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
-									</div>
-									<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
+									<p class="title pt-3">Technology Prowess</p>
 								</div>
+								<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
+									<p class="title pt-3">Proven Track Record</p>
 								</div>
+								<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
-									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
+									<p class="title pt-3">Global Client Base</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-globe-asia"></i>
-										<h3>Global Client Base</h3>
-									</div>
-									<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
-								</div>
+								<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 							</div>
 						</div>
 					</div>
@@ -224,9 +223,10 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 
-<div class="case-study-area pt-100 pb-70" data-aos="fade-up" data-aos-duration="750">
+<div class="case-study-area pt-80 pb-60" data-aos="fade-up" data-aos-duration="750">
 	<div class="container-fluid p-0">
 		<div class="section-title text-center">
 			<span class="sp-color2">Success Stories</span>
@@ -279,53 +279,44 @@
 </div>
 
 
-	<!-- Testimonials Area -->
-	<section class="clients-area pt-100 pb-70">
-		<div class="container" data-aos="fade-up" data-aos-duration="750">
-			<div class="section-title text-center">
-				<span class="sp-color1">Testimonials</span>
-				<h2>What Our Clients Say</h2>
+<!-- Testimonials Area -->
+<section class="clients-area pt-80 pb-70" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="section-title text-center">
+			<span class="sp-color1">Testimonials</span>
+			<h2 titles="What Our Clients Say about JFS Technologies">What Our Clients Say</h2>
+		</div>
+		<div class="clients-slider owl-carousel owl-theme pt-45">
+			<div class="clients-content">
+				<p>“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”</p>
+				<div class="content">
+					<i class="bx bxs-quote-alt-left"></i>
+					<p class="title">Thomas Paul</p>
+					<span>Sr. Developer @ APISDOR</span>
+				</div>
 			</div>
-			<div class="clients-slider owl-carousel owl-theme pt-45">
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="End-to-End Digital Transformation Services">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Thomas Paul</h3>
-						<span>Sr. Developer @ APISDOR</span>
-					</div>
-					<p>
-					“Through JFS Technologies' account management service, our business has thrived. Their expertise & commitment have made a remarkable difference. Their holistic approach & unwavering commitment have been instrumental. I highly recommend their services!”
-					</p>
+			<div class="clients-content">
+				<p>“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”</p>
+				<div class="content">
+					<i class="bx bxs-quote-alt-left"></i>
+					<p class="title">Dan Fitzpatrick</p>
+					<span>President @ KRIXI</span>
 				</div>
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="End-to-End Digital Transformation Services">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Dan Fitzpatrick</h3>
-						<span>President @ KRIXI</span>
-					</div>
-					<p>
-					“Partnering with JFS Technologies has revolutionized our business. Their strategic insight and unwavering dedication have driven a significant surge in our sales. They possess a deep understanding of our needs, consistently deliver results, and truly invest in our success.”
-					</p>
-				</div>
-				<div class="clients-content">
-					<div class="content">
-						<img src="{{ asset('theme') }}/assets/images/clients-img/clients-img2.png" alt="End-to-End Digital Transformation Services">
-						<i class="bx bxs-quote-alt-left"></i>
-						<h3>Anand Katti</h3>
-						<span>COO @ Shyena Techyarns</span>
-					</div>
-					<p>
-					“Because of JFS Technologies' Digital Transformation , our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”
-					</p>
+			</div>
+			<div class="clients-content">
+				<p>“Because of JFS Technologies' best data-driven digital transformation services, our business has experienced tremendous growth and expanded its reach. Their holistic approach and unwavering commitment have been truly instrumental. I highly recommend their outstanding services!”</p>
+				<div class="content">
+					<i class="bx bxs-quote-alt-left"></i>
+					<p class="title">Anand Katti</p>
+					<span>COO @ Shyena Techyarns</span>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
 
-<div class="brand-area ptb-100">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">

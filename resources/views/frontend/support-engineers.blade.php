@@ -100,7 +100,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
             <h1>24/7 IT Support Engineers Services for Business</h1>                 
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
+				<a href="#service-sec" class="default-btn btn-bg-one border-radius-50">Explore Our Solutions <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -133,8 +133,7 @@ L4 Support – Vendor-specific or expert-level issue resolution."
     </div>
 </div>
 
-
-<div class="pt-80 pb-5 about-area about-bg2 home"  style="background: #fff;">
+<div class="pt-80 pb-5 about-area about-bg2 home" id="service-sec" style="background: #fff;">
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-12">

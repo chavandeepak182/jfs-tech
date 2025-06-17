@@ -91,52 +91,51 @@
 	</div>
 </section>
 
-
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1"></span>
-							<h2>Why Follow Our Newsroom?</h2>
+<!-- Trust Us Area -->	
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Follow Our Newsroom?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Stay Informed & Engaged</p>
+								</div>
+								<p>Be the first to know about our latest innovations, projects, and exclusive updates.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Stay Informed & Engaged</h3>
-									</div>
-									<p>Be the first to know about our latest innovations, projects, and exclusive updates.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
+									<p class="title pt-3">Industry Insights</p>
 								</div>
+								<p>Gain valuable perspectives from our events, expert opinions, and insightful discussions.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Industry Insights</h3>
-									</div>
-									<p>Gain valuable perspectives from our events, expert opinions, and insightful discussions.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/group-discussion.png" alt="" width="90">
+									<p class="title pt-3">Join the Conversation</p>
 								</div>
+								<p>Connect with our team at events and workshops to explore collaboration opportunities.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Join the Conversation</h3>
-									</div>
-									<p>Connect with our team at events and workshops to explore collaboration opportunities.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
+									<p class="title pt-3">Inspirational Stories</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Inspirational Stories</h3>
-									</div>
-									<p>Learn how JFS Technologies makes an impact through our news and initiatives.</p>
-								</div>
+								<p>Learn how JFS Technologies consistently makes a meaningful impact through our news and initiatives.</p>
 							</div>
 						</div>
 					</div>
@@ -144,6 +143,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 
 
 <div class="about-area about-bg2 pt-100 pb-70" style="background: #fff;">

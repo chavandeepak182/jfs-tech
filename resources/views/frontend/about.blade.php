@@ -22,7 +22,7 @@
 </div>
 
 
-<div class="about-area pt-100">
+<div class="about-area pt-80">
     <div class="container">
         <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
@@ -99,52 +99,50 @@
 </section>
 
 
-<!-- Trust Us Area -->	
-	<div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1"></span>
-							<h2 title="digital transformation services">Why Choose JFS Technologies: Leading Digital Transformation Services Company?</h2>
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Solutions</p>
+								</div>
+								<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
-									</div>
-									<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
+									<p class="title pt-3">Technology Prowess</p>
 								</div>
+								<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
-									</div>
-									<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
+									<p class="title pt-3">Proven Track Record</p>
 								</div>
+								<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
-									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
+									<p class="title pt-3">Global Client Base</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-globe-asia"></i>
-										<h3>Global Client Base</h3>
-									</div>
-									<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
-								</div>
+								<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 							</div>
 						</div>
 					</div>
@@ -152,163 +150,95 @@
 			</div>
 		</div>
 	</div>
-
-
-	<div class="counter-area pt-100" data-aos="fade-up" data-aos-duration="750">
-		<div class="container">
-			<div class="section-title text-center">
-				<span class="sp-color2">Clientele</span>
-				<h2 title="JFS Technologies - Impact in Numbers">Our Impact in Numbers</h2>
-			</div>
-			<div class="row pt-45">
-				<div class="col-lg-3 col-6 col-md-3">
-					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/projects.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
-						<p class="title">150+</p>
-						<span>Projects Delivered</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6 col-md-3">
-					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/experts.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
-						<p class="title">25+</p>
-						<span>Industries Served</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6 col-md-3">
-					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/exp.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
-						<p class="title">10+</p>
-						<span>Years of Excellence</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-6 col-md-3">
-					<div class="counter-another-content">
-						<img src="{{ asset('theme') }}/assets/images/icons/clients.svg" class="brand-logo-one" alt="Digital Transformation Services Company">
-						<p class="title">100%</p>
-						<span>Client Satisfaction</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="counter-shape">
-			<div class="shape1">
-				<img src="{{ asset('theme') }}/assets/images/shape/shape1.png" alt="Digital Transformation Services Company">
-			</div>
-			<div class="shape2">
-				<img src="{{ asset('theme') }}/assets/images/shape/shape2.png" alt="Digital Transformation Services Company">
-			</div>
-		</div>
-	</div>
-
+</div>
 
 <!-- Clientele Area -->
-	<div class="brand-area ptb-100">
-		<div class="container-fluid" data-aos="fade-up" data-aos-duration="750">
-			<div class="brand-slider owl-carousel owl-theme">
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/kc.png" class="brand-logo-one" alt="KC Overseas">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
-				</div>
-				<div class="brand-item">
-					<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
-				</div>
+<div class="brand-area bg-light pt-80 pb-80" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="section-title text-center">
+			<span class="sp-color2"></span>
+			<p>Trusted by 1500+ happy clients, including some top fortune 500 companies</p>
+		</div>
+		<div class="brand-slider owl-carousel owl-theme pt-4">
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/hb.png" class="brand-logo-one" alt="HealthBee">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/kc.png" class="brand-logo-one" alt="KC Overseas">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/apisdor.png" class="brand-logo-one" alt="apisdor">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/lido.png" class="brand-logo-one" alt="LIDO Cabs">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/krixi.png" class="brand-logo-one" alt="krixi">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/krixic.png" class="brand-logo-one" alt="krixi care">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/shyena-tech.png" class="brand-logo-one" alt="shyena-tech">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/dev.png" class="brand-logo-one" alt="Dev Constructions">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/hno.png" class="brand-logo-one" alt="HnO">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/protowell.png" class="brand-logo-one" alt="protowell">
+			</div>
+			<div class="brand-item">
+				<img src="{{ asset('theme') }}/assets/images/brand-logo/jfin.png" class="brand-logo-one" alt="jfinserv">
 			</div>
 		</div>
 	</div>
-
+</div>
 	
-	<div class="call-us-area pt-100 pb-70">
-		<div class="container" data-aos="fade-up" data-aos-duration="750">
-			<div class="section-title text-center">
-				<span class="sp-color1">Recognitions</span>
-				<h2 class="text-white">Awards & Achievements</h2>
-			</div>
-			<div class="row align-items-center justify-content-center pt-5">
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Digital Transformation Services Company">
-					</div>
-				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Digital Transformation Services Company">
-					</div>
-				</div>
-                <div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Digital Transformation Services Company">
-					</div>
-				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
-					</div>
-				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/app-dev.png" class="" alt="Technimply - Top Mobile App Dev Company">
-					</div>
+<div class="call-us-area pt-80 pb-80">
+	<div class="container">
+		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
+			<span class="sp-color1">Recognitions</span>
+			<h2 class="text-white" title="Awards & Achievements of Digital transformation company">Awards & Achievements</h2>
+		</div>
+		<div class="row align-items-center justify-content-center pt-2">
+			<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="work-process-card rounded">
+					<img src="{{ asset('theme') }}/assets/images/it-firms.png" class="" alt="Best Data Driven Digital Transformation Services">
 				</div>
 			</div>
-			<div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/g-partner.png" class="" alt="Google Partner">
-					</div>
+			<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="work-process-card rounded">
+					<img src="{{ asset('theme') }}/assets/images/top-dev.png" class="" alt="Best Data Driven Digital Transformation Services">
 				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/top-dmc.png" class="" alt="Top Digital Marketing Company">
-					</div>
+			</div>
+			<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="work-process-card rounded">
+					<img src="{{ asset('theme') }}/assets/images/soft-sug.png" class="" alt="Best Data Driven Digital Transformation Services">
 				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/clutch.png" class="" alt="Top SEO Company">
-					</div>
+			</div>
+			<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="work-process-card rounded">
+					<img src="{{ asset('theme') }}/assets/images/top-seo.png" class="" alt="Top Seo Company">
 				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/bcs.png" class="" alt="Software World - Best Customer Support">
-					</div>
+			</div>
+			<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="work-process-card rounded">
+					<img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
 				</div>
-				<div class="col-lg-2 col-6">
-					<div class="work-process-card rounded">
-                        <img src="{{ asset('theme') }}/assets/images/clutch1.png" class="" alt="TOP SMM Company">
-					</div>
+			</div>
+			<div class="col-lg-2 col-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="work-process-card rounded">
+					<img src="{{ asset('theme') }}/assets/images/bcs.png" class="" alt="Software World - Best Customer Support">
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
-
-<div class="about-area about-bg2 pt-100 pb-2" style="background: #fff;">
+<div class="about-area about-bg2 pt-80 pb-70" style="background: #fff;">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
@@ -331,7 +261,7 @@
 </div>
 
 
-<div class="team-area pt-100 pb-70" id="team">
+<div class="team-area pt-80 pb-70" id="team">
 	<div class="container">
 		<div class="section-title text-center w-75 mx-auto">
 			<span class="sp-color2">Our Team</span>
@@ -355,6 +285,22 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/swapnil.jpg" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/swapnil-dhamale-5423381a/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Swapnil Dhamale</h3>
+						<span>AVP</span>
+					</div>
+				</div>
+			</div>
 			<!--<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">-->
 			<!--	<div class="team-card">-->
 			<!--		<img src="{{ asset('theme') }}/assets/images/team/gajanan-c.jpg" alt="Team Images">-->
@@ -371,7 +317,7 @@
 			<!--		</div>-->
 			<!--	</div>-->
 			<!--</div>-->
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+			<!-- <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/irfana-s.jpg" alt="Digital Transformation Services Company">
 					<ul class="social-link">
@@ -402,7 +348,7 @@
 						<span>HR-Operations</span>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/vineet-n.jpg" alt="Team Images">
@@ -467,22 +413,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/vaibhav-s.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/shubhav97/" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Vaibhav Saxena</h3>
-						<span>Sr. Frontend Developer</span>
-					</div>
-				</div>
-			</div>
+			
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
@@ -549,17 +480,17 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/rahul-s.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/srushti.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.linkedin.com/in/rahul-sonawane-189045182/" target="_blank">
+							<a href="https://www.linkedin.com/in/srushti-wadne-2b4081241/" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Rahul Sonewane</h3>
-						<span>Business Development Executive</span>
+						<h3>Srushti Wadne</h3>
+						<span>Content Developer</span>
 					</div>
 				</div>
 			</div>

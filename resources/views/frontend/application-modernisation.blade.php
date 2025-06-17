@@ -92,7 +92,7 @@
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">
-        <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+        <div class="inner-title w-75">
             <h1>Solutions for the Best Application Modernisation Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
@@ -108,7 +108,7 @@
     </video>
 </div>
 
-<section class="services-style-area pt-100 pb-70">
+<section class="services-style-area pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2">Revitalize Your Applications Today</span>
@@ -152,66 +152,59 @@
     </div>
 </section>
 
-
-    <div class="choose-area pt-100 pb-70 home">
-		<div class="container">
-			<div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
-				<div class="col-lg-12">
-					<div class="choose-content mr-20">
-						<div class="section-title mb-3">
-							<span class="sp-color1">We Are Best!!</span>
-							<h2>Why Choose us for the Best Application Modernisation Services?</h2>
-                            <p>Partnering with us for your Best Application Modernisation Services needs means gaining access to:</p>
+<!-- Trust Us Area -->	
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-12">
+				<div class="choose-content mr-20">
+					<div class="section-title mb-5 text-center">
+						<span class="sp-color1"></span>
+						<h2>Why Choose JFS Technologies?</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
+									<p class="title pt-3">Tailored Solutions</p>
+								</div>
+								<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
+							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-pencil-ruler"></i>
-										<h3>Tailored Solutions</h3>
-									</div>
-									<p>Our team brings extensive experience across multiple sectors, ensuring best practices tailored to your needs.</p>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
+									<p class="title pt-3">Technology Prowess</p>
 								</div>
+								<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-users-crown"></i>
-										<h3>Technology Prowess</h3>
-									</div>
-									<p>We stay on the cutting edge of technology trends, utilizing cloud, automation, and modern UI/UX design to enhance application functionality.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
+									<p class="title pt-3">Proven Track Record</p>
 								</div>
+								<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
 							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-										<i class="fal fa-analytics"></i>
-										<h3>Proven Track Record</h3>
-									</div>
-									<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
+						</div>
+						<div class="col-lg-3 col-6">
+							<div class="choose-content-card">
+								<div class="content">
+									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
+									<p class="title pt-3">Global Client Base</p>
 								</div>
-							</div>
-							<div class="col-lg-3 col-6">
-								<div class="choose-content-card">
-									<div class="content">
-                                        <i class="fal fa-headset"></i>
-										<h3>Dedicated Support</h3>
-									</div>
-									<p>From consulting to post-implementation, we’re with you every step of the way to ensure success.</p>
-								</div>
+								<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
-					<div class="choose-img">
-						<img src="{{ asset('theme') }}/assets/images/choose-img.jpg" alt="Best Application Modernisation Services">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
-
+</div>
 
 <div class="case-study-area pt-80 pb-70">
     <div class="container" data-aos="fade-up" data-aos-duration="750">
@@ -277,7 +270,7 @@
 </div>
 
 
-<div class="about-area about-bg2 pt-5 pb-1">
+<div class="about-area about-bg2 pt-80 pb-70">
     <div class="container-fluid">
         <div class="row align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-lg-6">
@@ -289,7 +282,7 @@
                 <div class="about-content-3 ml-20">
                     <div class="section-title">
                         <span class="sp-color1">Partner Up With Us</span>
-                        <h2>Ready for the best application modernisation services?</h2>
+                        <h2>Ready the modernize application?</h2>
                         <p>Don’t let outdated applications hold your business back. Our best application modernisation services can bring new life to your software, helping you improve efficiency, enhance security, and deliver better experiences to your users.</p>
                     </div>
                     <h3>With 24+ years of expertise, we deliver best application modernisation services.</h3>
@@ -300,8 +293,7 @@
     </div>
 </div>
 
-
-<div class="brand-area ptb-100">
+<div class="brand-area pt-80 pb-70">
     <div class="container">
         <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="750">
             <div class="col-md-7">
