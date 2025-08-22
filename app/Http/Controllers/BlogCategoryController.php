@@ -1,24 +1,58 @@
 <?php
+
 namespace App\Http\Controllers;
 
-use App\Models\BlogCategory;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
-class BlogCategoryController extends Controller {
-    public function index() {
-        $categories = BlogCategory::all();
-        return view('admin.categories.index', compact('categories'));
+class BlogCategoryController extends Controller
+{
+    // Show all categories
+    public function index()
+    {
+        $categories = DB::table('blog_category')->get();
+        return view('blogcategories.index', compact('categories'));
     }
 
-    public function create() {
-        return view('admin.categories.create');
+    // Store new category
+    public function store(Request $request)
+    {
+        $request->validate([
+            'category_name' => 'required|string|max:45',
+        ]);
+
+        DB::table('blog_category')->insert([
+            'category_name' => $request->category_name,
+        ]);
+
+        return redirect()->route('blog.categories.index')->with('success', 'Category added successfully.');
     }
 
-    public function store(Request $request) {
-        $request->validate(['name' => 'required|unique:blog_categories']);
-        BlogCategory::create(['name' => $request->name, 'slug' => Str::slug($request->name)]);
-        return redirect()->route('admin.categories.index')->with('success', 'Category created.');
+    // Edit category
+    public function edit($pid)
+    {
+        $category = DB::table('blog_category')->where('pid', $pid)->first();
+        return view('blogcategories.edit', compact('category'));
+    }
+
+    // Update category
+    public function update(Request $request, $pid)
+    {
+        $request->validate([
+            'category_name' => 'required|string|max:45',
+        ]);
+
+        DB::table('blog_category')->where('pid', $pid)->update([
+            'category_name' => $request->category_name,
+        ]);
+
+        return redirect()->route('blog.categories.index')->with('success', 'Category updated successfully.');
+    }
+
+    // Delete category
+    public function destroy($pid)
+    {
+        DB::table('blog_category')->where('pid', $pid)->delete();
+        return redirect()->route('blog.categories.index')->with('success', 'Category deleted successfully.');
     }
 }
-

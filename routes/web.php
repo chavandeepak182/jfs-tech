@@ -8,6 +8,8 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogCategoryController;
 use App\Http\Controllers\CareerController;
+use App\Http\Controllers\IndustriesCategoryController;
+use App\Http\Controllers\IndustriesController;
 
 
 Route::get('/', function () {
@@ -31,6 +33,58 @@ Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('
 Route::get('/privacy-policy', function () {
     return view('frontend.privacy-policy');
 });
+
+
+
+// Single blog details page
+Route::get('/blog/{id}', [FrontendController::class, 'showBlog'])->name('blog.show');
+
+Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');
+//industries
+Route::get('admin/industries', [IndustriesController::class, 'index'])->name('industries.index');
+Route::post('/industries/store', [IndustriesController::class, 'storeService'])->name('industries.store');
+Route::get('/industries/edit/{id}', [IndustriesController::class, 'edit'])->name('industries.edit');
+Route::put('/industries/update/{id}', [IndustriesController::class, 'update'])->name('industries.update');
+Route::get('/industries/create', [IndustriesController::class, 'create'])->name('industries.create');
+Route::get('/industries/{slug}', [IndustriesController::class, 'show'])->name('industries.details');
+Route::get('/get-industries', [IndustriesController::class, 'getIndustries']);
+Route::middleware('isAdmin')->group(function () {
+    Route::post('/industries/delete/{id}', [IndustriesController::class, 'deleteService'])->name('industries.delete');
+});
+
+//industries category & subcategory
+Route::get('/industries-categories', [IndustriesCategoryController::class, 'index'])->name('industries.categories.index');
+Route::post('/industries-categories/store', [IndustriesCategoryController::class, 'store'])->name('industries.categories.store');
+Route::get('/industries-categories/edit/{id}', [IndustriesCategoryController::class, 'edit'])->name('industries.categories.edit');
+Route::post('/industries-categories/update/{id}', [IndustriesCategoryController::class, 'update'])->name('industries.categories.update');
+Route::middleware('isAdmin')->group(function () {
+    Route::post('/industries-categories/delete/{id}', [IndustriesCategoryController::class, 'destroy'])
+        ->name('industries.categories.delete');
+});
+
+
+// blog
+
+
+Route::get('admin/blog', [BlogController::class, 'index'])->name('blog.index');          // List blogs
+   Route::get('admin/blog/create', [BlogController::class, 'create'])->name('blog.create'); // Add blog form
+    Route::post('blog/store', [BlogController::class, 'storeService'])->name('blog.store'); // Save blog
+    Route::get('blog/edit/{id}', [BlogController::class, 'edit'])->name('blog.edit');  // Edit blog form
+    Route::put('blog/update/{id}', [BlogController::class, 'update'])->name('blog.update'); // Update blog
+    Route::post('blog/delete/{id}', [BlogController::class, 'deleteService'])->name('blog.delete'); // Delete blog
+
+
+    // blog category
+    Route::get('/blog-categories', [BlogCategoryController::class, 'index'])->name('blog.categories.index');
+Route::post('/blog-categories/store', [BlogCategoryController::class, 'store'])->name('blog.categories.store');
+Route::get('/blog-categories/edit/{pid}', [BlogCategoryController::class, 'edit'])->name('blog.categories.edit');
+Route::post('/blog-categories/update/{pid}', [BlogCategoryController::class, 'update'])->name('blog.categories.update');
+
+Route::middleware('isAdmin')->group(function () {
+    Route::post('/blog-categories/delete/{pid}', [BlogCategoryController::class, 'destroy'])
+        ->name('blog.categories.delete');
+});
+
 
 Route::get('/services/infrastructure-management-services', function () {
     return view('frontend.infrastructure-management');
@@ -219,20 +273,24 @@ require __DIR__.'/auth.php';
     Route::get('users/{UserId}/delete', [App\Http\Controllers\UsersController::class, 'destroy']);
 });
 
-//blog crud
-Route::get('/blogs', [BlogController::class, 'index'])->name('blogs.index');
-Route::get('/blogs/{slug}', [BlogController::class, 'show'])->name('blogs.show');
-Route::prefix('admin')->name('admin.')->group(function () {
-    Route::resource('categories', BlogCategoryController::class);
-    Route::resource('blogs', BlogController::class);
-});
+
 
 //user routes
+// Login page दाखवण्यासाठी (GET)
 Route::get('login', [AdminController::class, 'loginView'])->name('login');
-Route::post('userLogin', [FrontendController::class, 'userLogin'])->name('userLogin');
+
+// Login form submit करण्यासाठी (POST)
+Route::post('login', [FrontendController::class, 'userLogin'])->name('userLogin');
+
+// Logout
 Route::get('logout', [FrontendController::class, 'logout'])->name('logout');
+
+// Forgot password
 Route::get('forgot', [FrontendController::class, 'forgot'])->name('forgot');
+
+// Email/Account Activation
 Route::get('userAuth/{user_id}/{auth_code}', [FrontendController::class, 'activate'])->name('activate');
+
 
 //reset password
 Route::post('reset_password_link', [FrontendController::class, 'reset_password_link'])->name('reset_password_link');
@@ -259,11 +317,3 @@ Route::middleware('isAdmin')->group(function () {
     Route::post('admin/profile/update', [ProfileController::class, 'updateProfile'])->name('admin.profile.update');
 });
 
-Route::post('/blogs/comment', [BlogController::class, 'storeComment'])->name('blogs.comment');
-Route::get('/blogs/id/{id}', [BlogController::class, 'showById'])->name('blogs.showById');
-Route::patch('/admin/blogs/{id}/toggle-status', [BlogController::class, 'toggleStatus'])->name('admin.blogs.toggleStatus');
-Route::get('/admin/blog-comments', [BlogController::class, 'pendingComments'])->name('admin.blog-comments');
-Route::post('/admin/blog-comments/{id}/approve', [BlogController::class, 'approveComment'])->name('admin.blog-comments.approve');
-Route::delete('/admin/blog-comments/{id}', [BlogController::class, 'deleteComment'])->name('admin.blog-comments.delete');
-
-Route::delete('/admin/blogs/{id}', [BlogController::class, 'destroy'])->name('admin.blogs.destroy');
