@@ -1,306 +1,330 @@
-@extends('layouts.header-n')
-@section('title')
-    @parent
-    JFS | Dashboard
-@endsection
+@extends('admin.layouts.header')
+@section('title', "Welcome to JFinMate")
+
 @section('content')
-    @parent
-    <div id="content-wrapper" class="d-flex flex-column">
-        <!-- Main Content -->
-        <div id="content">
-            <div class="container-fluid mt-4">
-                <!-- Content Row for Cards -->
-                <div class="row">
-                    <!-- Card 1: Total Loans -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card classy-card total-loans">
-                            <div class="card-body-admin text-center">
-                                <h6 class="card-title">Total Loans</h6>
-                                <h3 class="card-count">{{ $totalLoans }}</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 2: Disbursed Loans -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card classy-card disbursed-loans">
-                            <div class="card-body-admin text-center">
-                                <h6 class="card-title">Disbursed Loans</h6>
-                                <h3 class="card-count">{{ $disbursedLoans }}</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 3: Approved Loans -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card classy-card approved-loans">
-                            <div class="card-body-admin text-center">
-                                <h6 class="card-title">Approved Loans</h6>
-                                <h3 class="card-count">{{ $approvedLoans }}</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 4: Rejected Loans -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card classy-card rejected-loans">
-                            <div class="card-body-admin text-center">
-                                <h6 class="card-title">Rejected Loans</h6>
-                                <h3 class="card-count">{{ $rejectedLoans }}</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 mb-4">
-                        <div class="card classy-card total-users">
-                            <div class="card-body-admin text-center">
-                                <h6 class="card-title">Total Loans</h6>
-                                <h3 class="card-count">{{ $totalLoans }}</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 2: Disbursed Loans -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card classy-card total-agents">
-                            <div class="card-body-admin text-center">
-                                <h6 class="card-title">Disbursed Loans</h6>
-                                <h3 class="card-count">{{ $disbursedLoans }}</h3>
+<div class="dashboard-body">
+    <div class="row gy-4">
+        <div class="col-lg-9">
+            <!-- Widgets Start -->
+            <div class="row gy-4">
+                <div class="col-xxl-3 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            
+                             <h4 class="mb-2">10</h4>
+                            <span class="text-gray-600">Total Reports</span>
+                            <div class="flex-between gap-8 mt-16">
+                                <span class="flex-shrink-0 w-48 h-48 flex-center rounded-circle bg-main-600 text-white text-2xl"><i class="ph-fill ph-book-open"></i></span>
+                                <div id="complete-course" class="remove-tooltip-title rounded-tooltip-value"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Content Row with three charts in a single row -->
-                <div class="row">
-                    <!-- donut chart -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card shadow h-100 py-2">
-                            <div class="card-body">
-                                <h5 class="text-center font-weight-bold text-dark">Loan Status Distribution</h5>
-                                <canvas id="loanStatusChart" height="200"></canvas>
+                <div class="col-xxl-3 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                           
+                             <h4 class="mb-2">20</h4>
+                            <span class="text-gray-600">Total Industries</span>
+                            <div class="flex-between gap-8 mt-16">
+                                <span class="flex-shrink-0 w-48 h-48 flex-center rounded-circle bg-main-two-600 text-white text-2xl"><i class="ph-fill ph-certificate"></i></span>
+                                <div id="earned-certificate" class="remove-tooltip-title rounded-tooltip-value"></div>
                             </div>
                         </div>
                     </div>
-                    <!-- graph Loan Status Distribution -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card shadow h-100 py-2">
-                            <div class="card-body">
-                                <h5 class="text-center font-weight-bold text-dark">Monthly Disbursed Loans</h5>
-                                <canvas id="monthlyDisbursedChart" height="200"></canvas>
+                </div>
+                <div class="col-xxl-3 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="mb-2">{{ $servicesCount }}</h4>
+                            <span class="text-gray-600">Total Capabilities</span>
+                            <div class="flex-between gap-8 mt-16">
+                                <span class="flex-shrink-0 w-48 h-48 flex-center rounded-circle bg-purple-600 text-white text-2xl"> <i class="ph-fill ph-graduation-cap"></i></span>
+                                <div id="course-progress" class="remove-tooltip-title rounded-tooltip-value"></div>
                             </div>
                         </div>
                     </div>
-                    <!-- To-do tasks -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card shadow h-100 py-2">
-                            <div class="card-body">
-                                <h5 class="text-center font-weight-bold text-dark">To-Do Tasks</h5>
-                                <!-- Task Input -->
-                                <div class="input-group mb-3">
-                                    <input 
-                                        type="text" 
-                                        id="taskInput" 
-                                        class="form-control" 
-                                        placeholder="Enter a new task" 
-                                        aria-label="New Task"
-                                    >
-                                    <button 
-                                        class="btn btn-primary" 
-                                        type="button" 
-                                        id="addTaskButton"
-                                    >
-                                        Add
-                                    </button>
+                </div>
+                <div class="col-xxl-3 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="mb-2">{{ $enquiriesCount }}</h4>
+                            <span class="text-gray-600">Total Enquiries</span>
+                            <div class="flex-between gap-8 mt-16">
+                                <span class="flex-shrink-0 w-48 h-48 flex-center rounded-circle bg-warning-600 text-white text-2xl"><i class="ph-fill ph-users-three"></i></span>
+                                <div id="community-support" class="remove-tooltip-title rounded-tooltip-value"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Widgets End -->
+
+            <!-- Top Course Start -->
+            <div class="card mt-24">
+                <div class="card-body">
+                    <div class="mb-20 flex-between flex-wrap gap-8">
+                        <h4 class="mb-0">Study Statistics</h4>
+                        <div class="flex-align gap-16 flex-wrap">
+                            <div class="flex-align flex-wrap gap-16">
+                                <div class="flex-align flex-wrap gap-8">
+                                    <span class="w-8 h-8 rounded-circle bg-main-600"></span>
+                                    <span class="text-13 text-gray-600">Study</span>
                                 </div>
-                                <!-- Task List -->
-                                <ul id="taskList" class="list-group">
-                                    <!-- Tasks will be dynamically added here -->
-                                </ul>
+                                <div class="flex-align flex-wrap gap-8">
+                                    <span class="w-8 h-8 rounded-circle bg-main-two-600"></span>
+                                    <span class="text-13 text-gray-600">Test</span>
+                                </div>
                             </div>
+                            <select class="form-select form-control text-13 px-8 pe-24 py-8 rounded-8 w-auto">
+                                <option value="1">Yearly</option>
+                                <option value="1">Monthly</option>
+                                <option value="1">Weekly</option>
+                                <option value="1">Today</option>
+                            </select>
                         </div>
                     </div>
                     
+                    <div id="doubleLineChart" class="tooltip-style y-value-left"></div>
+                    
                 </div>
+            </div>
+            <!-- Top Course End -->
 
-                <!-- Section: Recent Loans -->
-                <div class="row mt-4">
-                    <div class="col-12 grid-margin">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="text-dark">Recent Loans</h3>
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                
-                                                <th> Reference ID </th>
-                                                <th> Name </th>
-                                                <th> Amount </th>
-                                                <th> Category </th>
-                                                <th> Status </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            @forelse ($recentLoans as $loan)
-                                                <tr>
-                                                    
-                                                    <td>{{ $loan->loan_reference_id }}</td>
-                                                    <td>{{ $loan->user_name }}</td>
-                                                    <td>{{ $loan->amount }}</td>
-                                                    <td>{{ $loan->loan_category_name }}</td>
-                                                    <td>
-                                                        <div class="status-box {{ strtolower(str_replace(' ', '-', $loan->status)) }}">
-                                                            {{ ucfirst($loan->status) }}
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            @empty
-                                                <tr>
-                                                    <td colspan="6" class="text-center">No recent loans available</td>
-                                                </tr>
-                                            @endforelse
-                                        </tbody>
-                                    </table>
+            <!-- Top Course Start -->
+            <div class="card mt-24">
+                <div class="card-body">
+                    <div class="mb-20 flex-between flex-wrap gap-8">
+                        <h4 class="mb-0">Top Courses Pick for You</h4>
+                        <a href="student-courses.html" class="text-13 fw-medium text-main-600 hover-text-decoration-underline">See All</a>
+                    </div>
+                    
+                    <div class="row g-20">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="card border border-gray-100">
+                                <div class="card-body p-8">
+                                    <a href="course-details.html" class="bg-main-100 rounded-8 overflow-hidden text-center mb-8 h-164 flex-center p-8">
+                                        <img src="{{ asset('dashboard') }}/assets/images/thumbs/course-img1.png" alt="Course Image">
+                                    </a>
+                                    <div class="p-8">
+                                        <span class="text-13 py-2 px-10 rounded-pill bg-success-50 text-success-600 mb-16">Development</span>
+                                        <h5 class="mb-0"><a href="course-details.html" class="hover-text-main-600">Full Stack Web Development</a></h5>
+
+                                        <div class="flex-align gap-8 flex-wrap mt-16">
+                                            <img src="{{ asset('dashboard') }}/assets/images/thumbs/user-img1.png" class="w-28 h-28 rounded-circle object-fit-cover" alt="User Image">
+                                            <div>
+                                                <span class="text-gray-600 text-13">Created by <a href="profile.html" class="fw-semibold text-gray-700 hover-text-main-600 hover-text-decoration-underline">Albert James</a> </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex-align gap-8 mt-12 pt-12 border-top border-gray-100">
+                                            <div class="flex-align gap-4">
+                                                <span class="text-sm text-main-600 d-flex"><i class="ph ph-video-camera"></i></span>
+                                                <span class="text-13 text-gray-600">24 Lesson</span>
+                                            </div>
+                                            <div class="flex-align gap-4">
+                                                <span class="text-sm text-main-600 d-flex"><i class="ph ph-clock"></i></span>
+                                                <span class="text-13 text-gray-600">40 Hours</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="flex-between gap-4 flex-wrap mt-24">
+                                            <div class="flex-align gap-4">
+                                                <span class="text-15 fw-bold text-warning-600 d-flex"><i class="ph-fill ph-star"></i></span>
+                                                <span class="text-13 fw-bold text-gray-600">4.9</span>
+                                                <span class="text-13 fw-bold text-gray-600">(12k)</span>
+                                            </div>
+                                            <a href="course-details.html" class="btn btn-outline-main rounded-pill py-9">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="card border border-gray-100">
+                                <div class="card-body p-8">
+                                    <a href="course-details.html" class="bg-main-100 rounded-8 overflow-hidden text-center mb-8 h-164 flex-center p-8">
+                                        <img src="{{ asset('dashboard') }}/assets/images/thumbs/course-img5.png" alt="Course Image">
+                                    </a>
+                                    <div class="p-8">
+                                        <span class="text-13 py-2 px-10 rounded-pill bg-warning-50 text-warning-600 mb-16">Design</span>
+                                        <h5 class="mb-0"><a href="course-details.html" class="hover-text-main-600">Design System</a></h5>
+
+                                        <div class="flex-align gap-8 flex-wrap mt-16">
+                                            <img src="{{ asset('dashboard') }}/assets/images/thumbs/user-img5.png" class="w-28 h-28 rounded-circle object-fit-cover" alt="User Image">
+                                            <div>
+                                                <span class="text-gray-600 text-13">Created by <a href="profile.html" class="fw-semibold text-gray-700 hover-text-main-600 hover-text-decoration-underline">Albert James</a> </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex-align gap-8 mt-12 pt-12 border-top border-gray-100">
+                                            <div class="flex-align gap-4">
+                                                <span class="text-sm text-main-600 d-flex"><i class="ph ph-video-camera"></i></span>
+                                                <span class="text-13 text-gray-600">24 Lesson</span>
+                                            </div>
+                                            <div class="flex-align gap-4">
+                                                <span class="text-sm text-main-600 d-flex"><i class="ph ph-clock"></i></span>
+                                                <span class="text-13 text-gray-600">40 Hours</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="flex-between gap-4 flex-wrap mt-24">
+                                            <div class="flex-align gap-4">
+                                                <span class="text-15 fw-bold text-warning-600 d-flex"><i class="ph-fill ph-star"></i></span>
+                                                <span class="text-13 fw-bold text-gray-600">4.9</span>
+                                                <span class="text-13 fw-bold text-gray-600">(12k)</span>
+                                            </div>
+                                            <a href="course-details.html" class="btn btn-outline-main rounded-pill py-9">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="card border border-gray-100">
+                                <div class="card-body p-8">
+                                    <a href="course-details.html" class="bg-main-100 rounded-8 overflow-hidden text-center mb-8 h-164 flex-center p-8">
+                                        <img src="{{ asset('dashboard') }}/assets/images/thumbs/course-img6.png" alt="Course Image">
+                                    </a>
+                                    <div class="p-8">
+                                        <span class="text-13 py-2 px-10 rounded-pill bg-danger-50 text-danger-600 mb-16">Frontend</span>
+                                        <h5 class="mb-0"><a href="course-details.html" class="hover-text-main-600">React Native Courese</a></h5>
+
+                                        <div class="flex-align gap-8 flex-wrap mt-16">
+                                            <img src="{{ asset('dashboard') }}/assets/images/thumbs/user-img6.png" class="w-28 h-28 rounded-circle object-fit-cover" alt="User Image">
+                                            <div>
+                                                <span class="text-gray-600 text-13">Created by <a href="profile.html" class="fw-semibold text-gray-700 hover-text-main-600 hover-text-decoration-underline">Albert James</a> </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex-align gap-8 mt-12 pt-12 border-top border-gray-100">
+                                            <div class="flex-align gap-4">
+                                                <span class="text-sm text-main-600 d-flex"><i class="ph ph-video-camera"></i></span>
+                                                <span class="text-13 text-gray-600">24 Lesson</span>
+                                            </div>
+                                            <div class="flex-align gap-4">
+                                                <span class="text-sm text-main-600 d-flex"><i class="ph ph-clock"></i></span>
+                                                <span class="text-13 text-gray-600">40 Hours</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="flex-between gap-4 flex-wrap mt-24">
+                                            <div class="flex-align gap-4">
+                                                <span class="text-15 fw-bold text-warning-600 d-flex"><i class="ph-fill ph-star"></i></span>
+                                                <span class="text-13 fw-bold text-gray-600">4.9</span>
+                                                <span class="text-13 fw-bold text-gray-600">(12k)</span>
+                                            </div>
+                                            <a href="course-details.html" class="btn btn-outline-main rounded-pill py-9">View Details</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Top Course End -->
         </div>
-        <input type="hidden" id="servertime" value="">
+
+        <div class="col-lg-3">
+            <!-- Calendar Start -->
+            <div class="card">
+                <div class="card-body">
+                    <div class="calendar">
+                        <div class="calendar__header">
+                            <button type="button" class="calendar__arrow left"><i class="ph ph-caret-left"></i></button>
+                            <p class="display h6 mb-0">""</p>
+                            <button type="button" class="calendar__arrow right"><i class="ph ph-caret-right"></i></button>
+                        </div>
+                    
+                        <div class="calendar__week week">
+                            <div class="calendar__week-text">Su</div>
+                            <div class="calendar__week-text">Mo</div>
+                            <div class="calendar__week-text">Tu</div>
+                            <div class="calendar__week-text">We</div>
+                            <div class="calendar__week-text">Th</div>
+                            <div class="calendar__week-text">Fr</div>
+                            <div class="calendar__week-text">Sa</div>
+                        </div>
+                        <div class="days"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Calendar End -->
+            
+            <!-- Assignment Start -->
+            <div class="card mt-24">
+                <div class="card-body">
+                    <div class="mb-20 flex-between flex-wrap gap-8">
+                        <h4 class="mb-0">Assignments</h4>
+                        <a href="assignment.html" class="text-13 fw-medium text-main-600 hover-text-decoration-underline">See All</a>
+                    </div>
+                    <div class="p-xl-4 py-16 px-12 flex-between gap-8 rounded-8 border border-gray-100 hover-border-gray-200 transition-1 mb-16">
+                        <div class="flex-align flex-wrap gap-8">
+                            <span class="text-main-600 bg-main-50 w-44 h-44 rounded-circle flex-center text-2xl flex-shrink-0"><i class="ph-fill ph-graduation-cap"></i></span>
+                            <div>
+                                <h6 class="mb-0">Do The Research</h6>
+                                <span class="text-13 text-gray-400">Due in 9 days</span>
+                            </div>
+                        </div>
+                        <a href="assignment.html" class="text-gray-900 hover-text-main-600"><i class="ph ph-caret-right"></i></a>
+                    </div>
+                    <div class="p-xl-4 py-16 px-12 flex-between gap-8 rounded-8 border border-gray-100 hover-border-gray-200 transition-1 mb-16">
+                        <div class="flex-align flex-wrap gap-8">
+                            <span class="text-main-600 bg-main-50 w-44 h-44 rounded-circle flex-center text-2xl flex-shrink-0"><i class="ph ph-code"></i></span>
+                            <div>
+                                <h6 class="mb-0">PHP Dvelopment</h6>
+                                <span class="text-13 text-gray-400">Due in 2 days</span>
+                            </div>
+                        </div>
+                        <a href="assignment.html" class="text-gray-900 hover-text-main-600"><i class="ph ph-caret-right"></i></a>
+                    </div>
+                    <div class="p-xl-4 py-16 px-12 flex-between gap-8 rounded-8 border border-gray-100 hover-border-gray-200 transition-1">
+                        <div class="flex-align flex-wrap gap-8">
+                            <span class="text-main-600 bg-main-50 w-44 h-44 rounded-circle flex-center text-2xl flex-shrink-0"><i class="ph ph-bezier-curve"></i></span>
+                            <div>
+                                <h6 class="mb-0">Graphic Design</h6>
+                                <span class="text-13 text-gray-400">Due in 5 days</span>
+                            </div>
+                        </div>
+                        <a href="assignment.html" class="text-gray-900 hover-text-main-600"><i class="ph ph-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Assignment End -->
+            
+            <!-- Progress Bar Start -->
+            <div class="card mt-24">
+                <div class="card-header border-bottom border-gray-100">
+                    <h5 class="mb-0">My Progress</h5>
+                </div>
+                <div class="card-body">
+                <div id="radialMultipleBar"></div>
+
+                <div class="">
+                        <h6 class="text-lg mb-16 text-center"> <span class="text-gray-400">Total hour:</span> 6h 32 min</h6>
+                        <div class="flex-between gap-8 flex-wrap">
+                            <div class="flex-align flex-column">
+                                <h6 class="mb-6">60/60</h6>
+                                <span class="w-30 h-3 rounded-pill bg-main-600"></span>
+                                <span class="text-13 mt-6 text-gray-600">Completed</span>
+                            </div>
+                            <div class="flex-align flex-column">
+                                <h6 class="mb-6">60/60</h6>
+                                <span class="w-30 h-3 rounded-pill bg-main-two-600"></span>
+                                <span class="text-13 mt-6 text-gray-600">Completed</span>
+                            </div>
+                            <div class="flex-align flex-column">
+                                <h6 class="mb-6">60/60</h6>
+                                <span class="w-30 h-3 rounded-pill bg-gray-500"></span>
+                                <span class="text-13 mt-6 text-gray-600">Completed</span>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+            <!-- Progress bar end -->
+        </div>
     </div>
-@endsection
-
-@section('script')
-    @parent
-    <!-- Page level plugins -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-    // Loan Status Distribution Chart (Donut Chart)
-    var ctx1 = document.getElementById('loanStatusChart').getContext('2d');
-    var loanStatusChart = new Chart(ctx1, {
-        type: 'doughnut', // Change to doughnut for donut chart
-        data: {
-            labels: ['In Process', 'Approved', 'Disbursed', 'Rejected'],
-            datasets: [{
-                data: [{{$loanStatuses['In Process']}}, {{$loanStatuses['Approved']}}, {{$loanStatuses['Disbursed']}}, {{$loanStatuses['Rejected']}}],
-                backgroundColor: ['#D49B54', '#1E5128', '#1E3E62', '#C74B50'], // Colors for each status
-                borderColor: '#ffffff',
-                borderWidth: 2 // Border width for each segment
-            }]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: {
-                    position: 'top', // Legend position
-                    labels: {
-                        font: {
-                            size: 12
-                        }
-                    }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            let label = context.label || '';
-                            let value = context.raw || 0;
-                            return label + ': ' + value;
-                        }
-                    }
-                }
-            },
-            cutout: '70%', // Inner cutout for donut chart
-        }
-    });
-</script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const ctx = document.getElementById('monthlyDisbursedChart').getContext('2d');
-        const monthlyData = @json($monthlyDisbursedData);
-
-        const months = monthlyData.map(item => item.month);
-        const totalLoans = monthlyData.map(item => item.total_loans);
-        const totalAmount = monthlyData.map(item => item.total_amount);
-
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: months,
-                datasets: [
-                    {
-                        label: 'Total Loans',
-                        data: totalLoans,
-                        backgroundColor: '#C74B50',
-                        borderRadius: 10, // Rounds the bar corners
-                        borderWidth: 1,
-                    },
-                    {
-                        label: 'Total Amount',
-                        data: totalAmount,
-                        backgroundColor: '#1E3E62',
-                        borderRadius: 10, // Rounds the bar corners
-                        borderWidth: 1,
-                    },
-                ],
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: {
-                        position: 'top',
-                    },
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                    },
-                },
-            },
-        });
-    });
-</script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const taskInput = document.getElementById('taskInput');
-        const addTaskButton = document.getElementById('addTaskButton');
-        const taskList = document.getElementById('taskList');
-
-        // Add Task
-        addTaskButton.addEventListener('click', function () {
-            const taskValue = taskInput.value.trim();
-
-            if (taskValue) {
-                const listItem = document.createElement('li');
-                listItem.className = 'list-group-item d-flex justify-content-between align-items-center';
-                listItem.textContent = taskValue;
-
-                // Add cross mark to task
-                const removeButton = document.createElement('span');
-                removeButton.className = 'text-danger ms-2';
-                removeButton.style.cursor = 'pointer';
-                removeButton.innerHTML = '&times;';
-                removeButton.addEventListener('click', function () {
-                    taskList.removeChild(listItem);
-                });
-
-                listItem.appendChild(removeButton);
-                taskList.appendChild(listItem);
-
-                // Clear input after adding task
-                taskInput.value = '';
-            } else {
-                alert('Please enter a task.');
-            }
-        });
-
-        // Optional: Allow pressing Enter to add tasks
-        taskInput.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-                addTaskButton.click();
-            }
-        });
-    });
-</script>
+</div>
 @endsection

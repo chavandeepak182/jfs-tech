@@ -1,64 +1,28 @@
 <?php
 
 namespace App\Http\Controllers;
-use GuzzleHttp\Client;
+
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
-use Session;
-use Validator;
 use Illuminate\Support\Facades\DB;
-use Carbon\Carbon;
-use Illuminate\Support\Facades\File;
-use App\Models\PasswordResets;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Session;
 
 class FrontendController extends Controller
 {
-    public function WebDevView(Request $request)
+    // Homepage
+    public function index()
     {
-    $ipAddress = $request->ip();
-    
-    // Check if the IP is local
-    if ($ipAddress === '127.0.0.1') {
-        $countryCode = 'IN'; // or whatever default you prefer for testing
-    } else {
-        $countryCode = $this->getCountryCodeFromIP($ipAddress); // Fetch the country code
+        return view('frontend.home-citizenship');
+    }
+     public function testing()
+    {
+        return view('frontend.testing');
     }
 
-    return $countryCode === 'IN' 
-        ? view('frontend.website-development', compact('countryCode')) 
-        : view('frontend.website-development-other', compact('countryCode'));
-}
-// public function WebDevView(Request $request)
-// {
-//     $ipAddress = $request->ip();
-    
-//     // Check if the IP is local or in the predefined list of external IPs
-//     $externalIPs = ['203.0.113.5', '198.51.100.10']; // Add more IPs as needed for testing
 
-//     // Check if the request is from a local or specified external IP
-//     if ($ipAddress === '127.0.0.1' || in_array($ipAddress, $externalIPs)) {
-//         $countryCode = 'OUT'; // Set a specific code for out of India or use an API
-//     } else {
-//         $countryCode = $this->getCountryCodeFromIP($ipAddress); // Fetch the country code
-//     }
-
-//     return $countryCode === 'IN' 
-//         ? view('frontend.website-development', compact('countryCode')) 
-//         : view('frontend.website-development-other', compact('countryCode'));
-// }
-    private function getCountryCodeFromIP($ip)
-    {
-        $response = file_get_contents("http://ip-api.com/json/{$ip}");
-        $data = json_decode($response);
-        
-        \Log::info('Country Code Response:', (array) $data); // Log the full response for debugging
-
-        return $data->countryCode ?? 'US'; // Default to US if not found
-    }   
-    
+    // User Login
     public function userLogin(Request $req)
     {
-        // Validate the input
         $req->validate([
             'email' => 'required|email',
             'password' => 'required|min:6',
@@ -70,183 +34,224 @@ class FrontendController extends Controller
         ]);
 
         $email = $req->input('email');
-        $p = md5($req->input('password'));
+        $password = md5($req->input('password'));
 
-        // Fetch user data including the password
         $users = DB::select('
-            SELECT u.id, u.name, u.email_id, u.password, p.mobile_no, r.id as role_id, r.name as role_name, u.is_email_verify
+            SELECT u.id, u.name, u.email_id, u.password, r.id as role_id, r.name as role_name, u.is_email_verify
             FROM users u
-            JOIN profile p ON u.id = p.user_id
             JOIN roles r ON r.id = u.role_id
             WHERE u.email_id = ?
         ', [$email]);
 
         if (count($users) === 0) {
-            // Username (email) not found
             return redirect()->back()->with('error', 'Incorrect username.');
         }
 
-        $user = $users[0]; // Assuming there is only one matching user
+        $user = $users[0];
 
-        // Check password and email verification
-        if ($user->password !== $p) {
-            // Password does not match
+        if ($user->password !== $password) {
             return redirect()->back()->with('error', 'Incorrect password.');
         }
 
         if (!$user->is_email_verify) {
-            // Email not verified
             return redirect()->back()->with('error', 'Email not verified.');
         }
 
-        // Set session variables
         Session::put('username', $user->name);
         Session::put('role_name', $user->role_name);
         Session::put('user_id', $user->id);
         Session::put('role_id', $user->role_id);
         Session::put('email', $user->email_id);
 
-        // Redirect based on role_id
-        switch ($user->role_id) {
-            case 5:
-                return redirect('broker/allLoansApplications');
-            case 4:
-                return redirect('admin/dashboard');
-            case 2:
-                return redirect('agent/agentDashboard');
-            case 3:
-                return redirect('partner/partnerDashboard');
-            case 1:
-                return redirect('/');
-            default:
-                return redirect('/');
-        }
-}
-
-    public function activate($user_id, $auth_code)
-    {
-        $userAuth = DB::table('users')
-            ->where('id', $user_id)
-            ->where('email_otp', $auth_code)
-            ->get();
-
-
-        $is_active = $userAuth[0]->is_email_verify;
-
-        if ($is_active == 0) {
-            $update = DB::table('users')
-                ->where('id', $user_id)
-                ->update(['is_email_verify' => 1, 'updated_at' => Carbon::now()]);
-            $result =  array('status' => 'success', 'message' => "Congratulation! Your account is activated successfully...!!!");
-        } else {
-            $result =  array('status' => 'failed', 'message' => "Your account is already activated...!");
-        }
-
-        return view('frontend/account_activation', compact('result'));
-        // print json_encode($result);
+        return match ($user->role_id) {
+            4 => redirect('admin/dashboard'),
+            1 => redirect('/'),
+            default => redirect('/'),
+        };
     }
 
-
-    function reset_password_link(Request $request){
-
-        $validator = Validator::make($request->all(), ['email' => 'required',]);
-
-        if (!$validator->passes()) {
-            return redirect('forgot')->with('error', 'The Email Address field is empty.');
-        } else {
-            $user = DB::table('users')
-            ->where('email_id', $request->email)
-            ->first();
-            if($user){
-
-                $permitted_chars = '0123456789abcdefghijklmnopqrstuvwxyz';
-                $auth_id = substr(str_shuffle($permitted_chars), 0, 10);
-                $expFormat = mktime(date("H"), date("i"), date("s"), date("m"), date("d") + 1, date("Y"));
-                $expDate = date("Y-m-d H:i:s", $expFormat);
-
-                $email = $request->email;
-                $name = $user->name;
-                $msg = env('baseURL') . "/reset_password/".$auth_id;
-                $temp_id = 2;
-
-                $values = [
-                    'email' => $email,
-                    'token' => $auth_id,
-                    'exp_date' => $expDate,
-                    'user_id' => $user->id
-                ];
-
-                // die;
-                $addExp = PasswordResets::create($values);
-
-                //calling UsersController temail function from FrontendController
-                app(UsersController::class)->temail($email, $name, $msg, $temp_id);
-
-                return redirect('forgot')->with('status', 'We sent an email to your registered email-id to help you recover your account. Please login into your email account and click on the link we sent to reset your password');
-            }else{
-                return redirect('forgot')->with('error', 'Sorry, no user exists on our system with that email');
-            }
-        }
-    }
-
-    
-    function reset_password($auth_id){
-        $curDate = date("Y-m-d H:i:s");
-        $user = DB::table('password_resets')->where('token', $auth_id)->first();
-        if ($user) {
-            if ($user->exp_date >= $curDate) {
-                if ($user->is_verified == 1) {
-                    return redirect('forgot')->with('error', 'The link is expired. You have already used this link to reset your password. Please enter Email ID again to generate to reset link.');
-                } else {
-                    session()->put('email_id', $user->email);
-                    session()->put('user_id', $user->user_id);
-                    session()->put('auth_id', $auth_id);
-                    return view('frontend.reset_password');
-                }
-            } else {
-                return redirect('forgot')->with('error', 'The link is expired. You are trying to use the expired link which as valid only 24 hours (1 days after request).');
-            }
-        } else {
-            return redirect('forgot')->with('error', 'Authentication failed!');
-        }
-
-    }
-
-    function update_password(Request $req){
-
-        $validator = Validator::make($req->all(), [
-            'password' => 'required',
-        ]);
-
-        if (!$validator->passes()) {
-            return redirect('reset_password/'.$req->auth_id)->with('error', 'The Password field is empty.');
-        } else {
-            $first_password = $req->input('password');
-            $second_password = $req->input('cpassword');
-            $email = $req->input('email');
-            $user_id = $req->input('user_id');
-
-            $check = strcmp($first_password, $second_password);
-            if ($check == 0) {
-                // $pwd = Hash::make($second_password);
-                $users = DB::table('users')->where('email_id', $email)->where('id', $user_id)->first();
-                if ($users) {
-                    DB::table('users')->where('email_id', $email)->where('id', $user_id)->update(['password' => md5($first_password)]);
-                    $update = PasswordResets::where('token', $req->auth_id)->update(['is_verified' =>  1]);
-                    return redirect('/')->with('status', 'Password updated.');
-
-                }
-            } else {
-                return redirect('reset_password/'.$req->auth_id)->with('error', 'Password and Confirmed Password do not match');
-            }
-        }
-    }
-
-    
-
+    // Logout
     public function logout()
     {
-        session()->flush();
+        Session::flush();
         return redirect('/');
     }
+
+    // Search Reports
+    // public function search(Request $request)
+    // {
+    //     $query = $request->input('query');
+    //     Log::info('Search method hit with query:', ['query' => $query]);
+
+    //     $reports = DB::table('reports')
+    //         ->where('report_title', 'like', '%' . $query . '%')
+    //         ->orWhere('report_name', 'like', '%' . $query . '%')
+    //         ->orderBy('publish_date', 'desc')
+    //         ->paginate(10);
+
+    //     Log::info('Reports fetched:', ['count' => $reports->total()]);
+
+    //     return view('frontend.reports.list', compact('reports', 'query'));
+    // }
+
+
+    // frontnd blog
+public function industries(Request $request)
+{
+    $query = DB::table('industries')
+        ->select(
+            'industries.id',
+            'industries.image',
+            'industries.industries_name',
+            'industries.description',
+            'industries.slug',
+            'industries.meta_title',
+            'industries.meta_keywords',
+            'industries.meta_description',
+            'industries.created_at',
+            'industries.updated_at',
+            'industries.schema_markup',
+            'industries.publish_date',
+            'industries.tag',
+            'industries.status',
+            'industries.author_name',
+            'industries.category_id',
+            'industries_category.category_name'
+        )
+        ->leftJoin('industries_category', 'industries.category_id', '=', 'industries_category.pid')
+        ->where('industries.status', 'active'); // ✅ Only active blogs
+
+    // 🔍 Search filter
+    if ($request->filled('search')) {
+        $query->where(function ($q) use ($request) {
+            $q->where('industries.industries_name', 'LIKE', '%' . $request->search . '%')
+              ->orWhere('industries.description', 'LIKE', '%' . $request->search . '%')
+              ->orWhere('industries_category.category_name', 'LIKE', '%' . $request->search . '%');
+        });
+    }
+
+    // 🏷 Category filter
+    if ($request->filled('category')) {
+        $query->where('industries.category_id', $request->category);
+    }
+
+    $data['allIndustries'] = $query->paginate(12)->appends($request->all());
+
+    // Fetch categories
+    $data['categories'] = DB::table('industries_category')
+        ->select('pid', 'category_name')
+        ->get();
+
+    return view('frontend.industries', $data);
+}
+
+
+
+public function blog(Request $request)
+{
+    $query = DB::table('blog')
+        ->select(
+            'blog.id',
+            'blog.image',
+            'blog.blog_name',
+            'blog.description',
+            'blog.slug',
+            'blog.meta_title',
+            'blog.meta_keywords',
+            'blog.meta_description',
+            'blog.created_at',
+            'blog.updated_at',
+            'blog.schema_markup',
+            'blog.publish_date',
+            'blog.tag',
+            'blog.status',
+            'blog.author_name',
+            'blog.category_id',
+            'blog_category.category_name'
+        )
+        ->leftJoin('blog_category', 'blog.category_id', '=', 'blog_category.pid')
+        ->where('blog.status', 'active'); // Only active blogs
+
+    // 🔍 Search filter
+    if ($request->filled('search')) {
+        $query->where(function ($q) use ($request) {
+            $q->where('blog.blog_name', 'LIKE', '%' . $request->search . '%')
+              ->orWhere('blog.description', 'LIKE', '%' . $request->search . '%')
+              ->orWhere('blog_category.category_name', 'LIKE', '%' . $request->search . '%');
+        });
+    }
+
+    // 🏷 Category filter
+    if ($request->filled('category')) {
+        $query->where('blog.category_id', $request->category);
+    }
+
+    $data['allIndustries'] = $query->paginate(12)->appends($request->all());
+
+    // Fetch categories
+    $data['categories'] = DB::table('blog_category')
+        ->select('pid', 'category_name')
+        ->get();
+
+    return view('frontend.blog', $data);
+}
+
+
+
+
+
+
+
+
+
+
+public function showBlog($id)
+{
+    // Get blog with category
+    $blog = DB::table('blog')
+        ->join('blog_category', 'blog.category_id', '=', 'blog_category.pid')
+        ->select('blog.*', 'blog_category.category_name as category_name')
+        ->where('blog.id', $id)
+        ->first();
+
+    if (!$blog) {
+        abort(404);
+    }
+
+    // Related blogs: same category
+    $relatedBlogs = DB::table('blog')
+        ->where('id', '!=', $id)
+        ->where('category_id', $blog->category_id)
+        ->latest()
+        ->take(3)
+        ->get();
+
+    if ($relatedBlogs->isEmpty()) {
+        $relatedBlogs = DB::table('blog')
+            ->where('id', '!=', $id)
+            ->latest()
+            ->take(3)
+            ->get();
+    }
+
+    // Latest blogs
+    $latestBlogs = DB::table('blog')
+        ->where('id', '!=', $id)
+        ->latest()
+        ->take(3)
+        ->get();
+
+    return view('frontend.blog-details', compact('blog', 'relatedBlogs', 'latestBlogs'));
+}
+
+
+
+
+
+
+
+
+
+
+
 }

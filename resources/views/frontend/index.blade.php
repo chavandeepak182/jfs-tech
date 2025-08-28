@@ -91,7 +91,7 @@
 <div class="banner-area">
 	<div class="container">
 		<div class="banner-item-content banner-item-ptb">
-			<h1>Best Data-Driven Digital Transformation Services</h1>
+			<h1>From Legacy to Leading Edge – End-to-End Digital Transformation Services</h1>
 			<p>Empowering enterprises with innovative <a href="{{ url('/services') }}" style="color:#FFF;"><strong>Best Data-Driven Digital Transformation Services</strong></a>, seamless digital experiences, and tailored strategies that drive growth and innovation.</p>
 			<div class="banner-btn">
 				<!-- <a href="{{ url('/services') }}" class="default-btn btn-bg-two border-radius-50 mr-20">Explore Our Services <i class="fal fa-arrow-right"></i></a> -->

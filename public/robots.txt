@@ -1,17 +1,2 @@
 User-agent: *
-Disallow: 
-Disallow: /theme/assets/images/case-study/ss13.pdf
-Disallow: /theme/assets/images/case-study/ss7.pdf
-Disallow: /theme/assets/images/case-study/ss8.pdf
-Disallow: /theme/assets/images/case-study/ss9.pdf
-Disallow: /theme/assets/images/case-study/ss10.pdf
-Disallow: /theme/assets/images/case-study/ss11.pdf
-Disallow: /theme/assets/images/case-study/ss12.pdf
-Disallow: /theme/assets/images/case-study/ss14.pdf
-Disallow: /theme/assets/images/case-study/ss1.pdf
-Disallow: /theme/assets/images/case-study/ss2.pdf
-Disallow: /theme/assets/images/case-study/ss3.pdf
-Disallow: /theme/assets/images/case-study/ss4.pdf
-Disallow: /theme/assets/images/case-study/ss5.pdf
-Disallow: /theme/assets/images/case-study/ss6.pdf
-Sitemap: https://jfstechnologies.com/sitemap.xml
+Disallow:

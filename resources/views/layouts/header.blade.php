@@ -65,6 +65,35 @@
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
         <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/salesforceservice/help', text: 'Let&rsquo;s Connect Today', color: '#0069ff', textColor: '#ffffff' }); }</script>
         <!-- Calendly badge widget end -->
+              <title>@yield('title')</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{{ asset('dashboard') }}/assets/images/logo/favicon.png">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/bootstrap.min.css">
+        <!-- file upload -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/file-upload.css">
+        <!-- file upload -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/plyr.css">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+        <!-- full calendar -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/full-calendar.css">
+        <!-- jquery Ui -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/jquery-ui.css">
+        <!-- editor quill Ui -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/editor-quill.css">
+        <!-- apex charts Css -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/apexcharts.css">
+        <!-- calendar Css -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/calendar.css">
+        <!-- jvector map Css -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/jquery-jvectormap-2.0.5.css">
+        <!-- Main css -->
+        <link rel="stylesheet" href="{{ asset('dashboard') }}/assets/css/main.css">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+        <!-- Summernote CSS -->
     </head>
 
     <body>
