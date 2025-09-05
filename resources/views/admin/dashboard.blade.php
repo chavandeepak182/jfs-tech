@@ -48,7 +48,7 @@
                 <div class="col-xxl-3 col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="mb-2">{{ $enquiriesCount }}</h4>
+                            <h4 class="mb-2">233</h4>
                             <span class="text-gray-600">Total Enquiries</span>
                             <div class="flex-between gap-8 mt-16">
                                 <span class="flex-shrink-0 w-48 h-48 flex-center rounded-circle bg-warning-600 text-white text-2xl"><i class="ph-fill ph-users-three"></i></span>
