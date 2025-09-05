@@ -128,7 +128,7 @@ class BlogController extends Controller
         }
 
         $categories = DB::table('blog_category')->get();
-        return view('blogs.edit', compact('blog', 'categories'));
+        return view('blog.edit', compact('blog', 'categories'));
     }
 
     // Update blog
