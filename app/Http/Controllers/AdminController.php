@@ -24,10 +24,10 @@ class AdminController extends Controller
 		if (!empty(Session::get('role_id'))) {
 			// $reportsCount = DB::table('reports')->count();
 			// $industriesCount = DB::table('industries')->count();
-			$servicesCount = DB::table('services')->count();
+			
 			$enquiriesCount = DB::table('enquiries')->count();
 
-			return view('admin.dashboard', compact('servicesCount', 'enquiriesCount'));
+			return view('admin.dashboard', compact( 'enquiriesCount'));
 		} else {
 			return redirect('/');
 		}

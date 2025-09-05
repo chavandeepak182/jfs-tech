@@ -36,7 +36,7 @@
                 <div class="col-xxl-3 col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="mb-2">{{ $servicesCount }}</h4>
+                            <h4 class="mb-2">23</h4>
                             <span class="text-gray-600">Total Capabilities</span>
                             <div class="flex-between gap-8 mt-16">
                                 <span class="flex-shrink-0 w-48 h-48 flex-center rounded-circle bg-purple-600 text-white text-2xl"> <i class="ph-fill ph-graduation-cap"></i></span>

@@ -30,7 +30,7 @@
             @if(session('success'))
                 <div class="alert alert-success">{{ session('success') }}</div>
             @endif
-            <form action="{{ route('blog.store') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('blogs.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
                 <div class="row gy-20">
                     <label class="h5 fw-semibold font-heading mt-15 mb-0">Add Blog <span class="text-13 text-gray-400 fw-medium"></span> </label>

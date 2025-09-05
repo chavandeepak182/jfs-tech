@@ -17,7 +17,7 @@
         <!-- Breadcrumb Right Start -->
         <div class="flex-align gap-8 flex-wrap">
             <div class="flex-align text-gray-500 text-13 border-gray-100 focus-border-main-600">
-                <a href="{{ route('blog.create') }}" class="btn btn-primary"><i class="fa fa-plus"></i> Add Blog</a>
+                <a href="{{ route('blogs.create') }}" class="btn btn-primary"><i class="fa fa-plus"></i> Add Blog</a>
             </div>
         </div>
         <!-- Breadcrumb Right End -->
@@ -50,8 +50,8 @@
                         <td><span class="h6 mb-0 fw-medium text-gray-300">{{ Str::limit($blog->publish_date, 30) }}</span></td>
                         <td><span class="h6 mb-0 fw-medium text-gray-300">{{ Str::limit($blog->status, 50) }}</span></td>
                         <td>
-                            <a href="{{ route('blog.edit', $blog->id) }}" class="btn btn-warning btn-xs edit"><i class="far fa-edit"></i></a>
-                            <form action="{{ route('blog.delete', $blog->id) }}" method="POST" style="display:inline;">
+                            <a href="{{ route('blogs.edit', $blog->id) }}" class="btn btn-warning btn-xs edit"><i class="far fa-edit"></i></a>
+                            <form action="{{ route('blogs.delete', $blog->id) }}" method="POST" style="display:inline;">
                                 @csrf
                                 <button type="submit" class="btn btn-danger btn-xs delete" onclick="return confirm('Are you sure?');">
                                     <i class="far fa-trash-alt"></i>

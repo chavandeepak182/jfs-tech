@@ -8,6 +8,7 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogCategoryController;
 use App\Http\Controllers\CareerController;
+
 use App\Http\Controllers\IndustriesCategoryController;
 use App\Http\Controllers\IndustriesController;
 
@@ -39,39 +40,19 @@ Route::get('/privacy-policy', function () {
 // Single blog details page
 Route::get('/blog/{id}', [FrontendController::class, 'showBlog'])->name('blog.show');
 
-Route::get('/blog', [FrontendController::class, 'blog'])->name('blog');
-//industries
-Route::get('admin/industries', [IndustriesController::class, 'index'])->name('industries.index');
-Route::post('/industries/store', [IndustriesController::class, 'storeService'])->name('industries.store');
-Route::get('/industries/edit/{id}', [IndustriesController::class, 'edit'])->name('industries.edit');
-Route::put('/industries/update/{id}', [IndustriesController::class, 'update'])->name('industries.update');
-Route::get('/industries/create', [IndustriesController::class, 'create'])->name('industries.create');
-Route::get('/industries/{slug}', [IndustriesController::class, 'show'])->name('industries.details');
-Route::get('/get-industries', [IndustriesController::class, 'getIndustries']);
-Route::middleware('isAdmin')->group(function () {
-    Route::post('/industries/delete/{id}', [IndustriesController::class, 'deleteService'])->name('industries.delete');
-});
+Route::get('/blogs', [FrontendController::class, 'blog'])->name('blog');
 
-//industries category & subcategory
-Route::get('/industries-categories', [IndustriesCategoryController::class, 'index'])->name('industries.categories.index');
-Route::post('/industries-categories/store', [IndustriesCategoryController::class, 'store'])->name('industries.categories.store');
-Route::get('/industries-categories/edit/{id}', [IndustriesCategoryController::class, 'edit'])->name('industries.categories.edit');
-Route::post('/industries-categories/update/{id}', [IndustriesCategoryController::class, 'update'])->name('industries.categories.update');
-Route::middleware('isAdmin')->group(function () {
-    Route::post('/industries-categories/delete/{id}', [IndustriesCategoryController::class, 'destroy'])
-        ->name('industries.categories.delete');
-});
 
 
 // blog
 
 
 Route::get('admin/blog', [BlogController::class, 'index'])->name('blog.index');          // List blogs
-   Route::get('admin/blog/create', [BlogController::class, 'create'])->name('blog.create'); // Add blog form
-    Route::post('blog/store', [BlogController::class, 'storeService'])->name('blog.store'); // Save blog
-    Route::get('blog/edit/{id}', [BlogController::class, 'edit'])->name('blog.edit');  // Edit blog form
-    Route::put('blog/update/{id}', [BlogController::class, 'update'])->name('blog.update'); // Update blog
-    Route::post('blog/delete/{id}', [BlogController::class, 'deleteService'])->name('blog.delete'); // Delete blog
+   Route::get('admin/blog/create', [BlogController::class, 'create'])->name('blogs.create'); // Add blog form
+    Route::post('blogs/store', [BlogController::class, 'storeService'])->name('blogs.store'); // Save blog
+    Route::get('blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');  // Edit blog form
+    Route::put('blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update'); // Update blog
+    Route::post('blogs/delete/{id}', [BlogController::class, 'deleteService'])->name('blogs.delete'); // Delete blog
 
 
     // blog category

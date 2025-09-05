@@ -35,7 +35,7 @@
                 <div class="alert alert-success">{{ session('success') }}</div>
             @endif
 
-            <form action="{{ route('blog.update', $blog->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('blogS.update', $blog->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
