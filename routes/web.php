@@ -38,7 +38,7 @@ Route::get('/privacy-policy', function () {
 
 
 // Single blog details page
-Route::get('/blog/{id}', [FrontendController::class, 'showBlog'])->name('blog.show');
+Route::get('/blogs/{id}', [FrontendController::class, 'showBlog'])->name('blog.show');
 
 Route::get('/blogs', [FrontendController::class, 'blog'])->name('blog');
 
