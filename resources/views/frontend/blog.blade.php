@@ -98,7 +98,7 @@
     <div class="row gy-4 gx-4">
     @foreach($allIndustries as $blog)
         <div class="col-md-4">
-            <a href="{{ route('blog.show', $blog->id) }}" style="text-decoration: none; color: inherit;">
+            <a href="{{ route('blog.show', $blog->slug) }}" style="text-decoration: none; color: inherit;">
                 <div class="blog-box">
                     <img src="{{ asset($blog->image) }}" alt="{{ $blog->blog_name }}">
                     <div class="content">

@@ -60,17 +60,17 @@
             <h5 class="latest-title mb-3">Latest Blogs</h5>
             @foreach($latestBlogs as $latest)
                 <div class="latest-item mb-3">
-                    <a href="{{ route('blog.show', $latest->id) }}" class="latest-img-link">
+                    <a href="{{ route('blog.show', $latest->slug) }}" class="latest-img-link">
                         <img src="{{ asset($latest->image) }}" alt="{{ $latest->blog_name }}" class="latest-img img-fluid">
                     </a>
                     <div class="latest-content">
-                        <a href="{{ route('blog.show', $latest->id) }}" class="latest-title-link">
+                        <a href="{{ route('blog.show', $latest->slug) }}" class="latest-title-link">
                             <h6 class="latest-title-text">{{ $latest->blog_name }}</h6>
                         </a>
                         <p class="latest-desc">
                             {{ Str::limit(strip_tags($latest->description), 60) }}
                         </p>
-                        <a href="{{ route('blog.show', $latest->id) }}" class="btn btn-sm btn-primary mt-2">Read More</a>
+                        <a href="{{ route('blog.show', $latest->slug) }}" class="btn btn-sm btn-primary mt-2">Read More</a>
                         <p class="latest-date mt-2 text-muted" style="font-size: 13px;">
                             {{ \Carbon\Carbon::parse($latest->created_at)->format('F d, Y') }}
                         </p>
@@ -88,11 +88,11 @@
             @foreach($relatedBlogs as $related)
                 <div class="col-md-4 mb-3">
                     <div class="related-item border rounded overflow-hidden">
-                        <a href="{{ route('blog.show', $related->id) }}">
+                        <a href="{{ route('blog.show', $related->slug) }}">
                             <img src="{{ asset($related->image) }}" alt="{{ $related->blog_name }}" class="img-fluid">
                         </a>
                         <div class="p-2">
-                            <a href="{{ route('blog.show', $related->id) }}" class="text-dark text-decoration-none">
+                            <a href="{{ route('blog.show', $related->slug) }}" class="text-dark text-decoration-none">
                                 <h6>{{ $related->blog_name }}</h6>
                             </a>
                             <p class="text-muted mb-1" style="font-size: 13px;">
@@ -101,7 +101,7 @@
                             <p class="text-muted mb-0" style="font-size: 12px;">
                                 {{ \Carbon\Carbon::parse($related->created_at)->format('F d, Y') }}
                             </p>
-                            <a href="{{ route('blog.show', $related->id) }}" class="btn btn-sm btn-primary mt-2">Read More</a>
+                            <a href="{{ route('blog.show', $related->slug) }}" class="btn btn-sm btn-primary mt-2">Read More</a>
                         </div>
                     </div>
                 </div>
