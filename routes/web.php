@@ -217,10 +217,12 @@ Route::get('/life-at-jfs', function () {
     return view('frontend.life-at-jfs');
 });
 
-Route::get('/careers', [BlogController::class, 'bloglist']);
+// Route::get('/careers', [BlogController::class, 'bloglist']);
 Route::post('/careers/upload-resume', [App\Http\Controllers\CareerController::class, 'uploadResume'])->name('careers.resume.upload');
 Route::get('/admin/career-applications', [CareerController::class, 'showApplications'])->name('admin.career_applications.index');
-
+Route::get('/careers', function () {
+    return view('frontend.careers');
+});
 Route::get('/services/email-marketing-services', function () {
     return view('frontend.email-marketing');
 });
