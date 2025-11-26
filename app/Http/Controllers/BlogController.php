@@ -131,6 +131,8 @@ class BlogController extends Controller
         return view('blog.edit', compact('blog', 'categories'));
     }
 
+    
+
     // Update blog
     public function update(Request $request, $id)
     {

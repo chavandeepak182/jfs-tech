@@ -367,6 +367,22 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/deepak-chavan-970a40193" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Deepak Chavan</h3>
+						<span>Technical Lead</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/amol-d.jpg" alt="Team Images">
 					<ul class="social-link">
 						<li>
@@ -378,6 +394,22 @@
 					<div class="content">
 						<h3>Amol Dagale</h3>
 						<span>Business Development Manager</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/mubeen_mahat.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/mubeen-mahat-00148541/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Mubeen Mahat</h3>
+						<span>Digital Marketing Manager</span>
 					</div>
 				</div>
 			</div>
@@ -397,7 +429,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+			<!-- <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/maulik-t.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -412,24 +444,9 @@
 						<span>Sr. Graphic Designer</span>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
-				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
-					<ul class="social-link">
-						<li>
-							<a href="https://www.linkedin.com/in/deepak-chavan-970a40193" target="_blank">
-								<i class="bx bxl-linkedin-square"></i>
-							</a>
-						</li>
-					</ul>
-					<div class="content">
-						<h3>Deepak Chavan</h3>
-						<span>Sr. Backend Developer</span>
-					</div>
-				</div>
-			</div>
+			
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/shalaka-n.jpg" alt="Team Images">
@@ -464,23 +481,39 @@
 			<!--</div>-->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/saayam-s.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/yakub_fakir.webp" alt="Team Images">
 					<ul class="social-link">
 						<li>
-							<a href="https://www.linkedin.com/in/saayam-sharma-6573a5284/" target="_blank">
+							<a href="#" target="_blank">
 								<i class="bx bxl-linkedin-square"></i>
 							</a>
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Saayam Sharma</h3>
-						<span>Business Development Executive</span>
+						<h3>Yakub Fakir</h3>
+						<span>Human Resources</span>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/srushti.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/amit_saroj.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/amit-saroj-56520744/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Amit Saroj </h3>
+						<span>Graphic Designer</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/srushti_wadne.webp" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/srushti-wadne-2b4081241/" target="_blank">
@@ -491,6 +524,86 @@
 					<div class="content">
 						<h3>Srushti Wadne</h3>
 						<span>Content Developer</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/monali_chaudhari.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/monali-chaudhari-ba6766305/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Monali Chaudhari</h3>
+						<span>Web Developer</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/omkar_gunjal.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="https://www.linkedin.com/in/omkar-gunjal-3806942a0/" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Omkar Gunjal</h3>
+						<span>Assistant Manager</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/khushboo_singh.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="#" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Khushboo Singh</h3>
+						<span>QA Tester</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/siddhi_thorat.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="#" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Siddhi Thorat</h3>
+						<span>Business Development Executive</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+				<div class="team-card">
+					<img src="{{ asset('theme') }}/assets/images/team/tanishq.webp" alt="Team Images">
+					<ul class="social-link">
+						<li>
+							<a href="#" target="_blank">
+								<i class="bx bxl-linkedin-square"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="content">
+						<h3>Tanishq Purohit</h3>
+						<span>Jr.Developer</span>
 					</div>
 				</div>
 			</div>

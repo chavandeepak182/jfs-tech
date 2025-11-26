@@ -8,7 +8,14 @@
 
 
 <section class="hero-wrap">
-<div class="hero-bg" style="background: url('{{ asset('assets/img/blog/img_02.jpg') }}') no-repeat center center; background-size: cover;"></div>
+<div class="hero-bg">
+  <video autoplay muted loop playsinline 
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+    <source src="{{ asset('assets/img/blog/Blog Banner.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 
   <div class="hero-overlay"></div>
 
@@ -23,7 +30,7 @@
         </div>
 
         <!-- main heading + subtext -->
-        <h1 class="hero-title display-5 mb-2">Explore Blogs</h1>
+        <!-- <h1 class="hero-title display-5 mb-2">Explore Blogs</h1> -->
         <p class="hero-sub lead mb-0">
           Insights, tutorials, and stories from our team — browse the latest posts across AI, Technology, Travel & more.
         </p>
@@ -122,6 +129,151 @@
         {{ $allIndustries->links() }}
     </div>
 </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options for every organization</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f5f0;
+      margin: 0;
+      padding: 0;
+      color: #0a2e2f;
+    }
+
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section p.sub-heading {
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #0a2e2f;
+    }
+
+    .section .desc {
+      max-width: 800px;
+      margin: 0 auto 50px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Card section */
+    .card-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 60px;
+    }
+
+    .card-image {
+      flex: 1 1 50%;
+      min-height: 280px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .card-content {
+      flex: 1 1 50%;
+      background: #fff;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: -40px;
+      text-align: left;
+    }
+
+    .card-content h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .card-content p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ffb400;
+      color: #000;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .card-row {
+        flex-direction: column;
+      }
+      .card-content {
+        margin: 20px 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section">
+    <p class="sub-heading">enterprise offerings</p>
+    <h2>Options for every organization</h2>
+    <p class="desc">
+      You deserve a learning partner that takes your goals seriously. With credential-granting courses and programs from the world’s best institutions, edX gives learners of all levels the in-demand skills they need to succeed.
+    </p>
+
+    <!-- Card 1 -->
+    <div class="card-row">
+      <div class="card-content">
+        <h3>Drive business</h3>
+        <p>
+          Cultivate the capabilities and skills your business needs, and empower your employees to advance within your organization.
+        </p>
+        <a href="#" class="btn">Explore edX For Business</a>
+      </div>
+      <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1593642634367-d91a135587b5');">
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card-row">
+      <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e');">
+      </div>
+      <div class="card-content"> 
+        <h3>Empower students</h3>
+        <p>
+          Prepare your students for a competitive job market, develop faculty leaders, and engage alumni with powerful lifelong learning opportunities.
+        </p>
+        <a href="#" class="btn">Explore edX For Campus</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
 
 
 
