@@ -3,7 +3,104 @@
 @section('title', $blog->blog_name)
 @section('description', Str::limit(strip_tags($blog->description), 160))
 @section('keywords', $blog->blog_name)
+@section('og_tags')
+    {{-- Canonical --}}
+    <link rel="canonical" href="{{ url()->current() }}">
 
+    {{-- Open Graph --}}
+    <meta property="og:title" content="{{ $blog->blog_name }}">
+    <meta property="og:description" content="{{ Str::limit(strip_tags($blog->description), 150) }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ url()->current() }}">
+    @if(!empty($blog->image))
+        <meta property="og:image" content="{{ url('storage/blogs/'.$blog->image) }}">
+    @else
+        <meta property="og:image" content="{{ url('images/default-og.jpg') }}">
+    @endif
+
+    {{-- Twitter --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $blog->blog_name }}">
+    <meta name="twitter:description" content="{{ Str::limit(strip_tags($blog->description), 150) }}">
+    <meta name="twitter:image" content="{{ !empty($blog->image) ? url('storage/blogs/'.$blog->image) : url('images/default-og.jpg') }}">
+
+   {{-- Schema Markup --}}
+@if(!empty($blog->schema_markup))
+    <script type="application/ld+json">
+        {!! $blog->schema_markup !!}
+    </script>    
+@endif
+{{-- BreadcrumbList Schema --}}
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "WebPage",
+                    "@id": "https://jfstechnologies.com/",
+                    "name": "Home"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "WebPage",
+                    "@id": "https://jfstechnologies.com/blogs",
+                    "name": "Blogs"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "WebPage",
+                    "@id": "{{ url()->current() }}",
+                    "name": "{{ ($blog->blog_name) }}"
+                }
+            }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ url()->current() }}"
+    },
+    "headline": "{{ $blog->blog_name }}",
+    "description": "{{ $blog->meta_description }}",
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ !empty($blog->image) ? url('storage/blogs/'.$blog->image) : url('images/default-og.jpg') }}",
+        "width": "795",
+        "height": "331"
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "JFS Technologies"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "JFS Technologies",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://jfstechnologies.com/theme/assets/images/logos/logo-w.png",
+            "width": "129",
+            "height": "48"
+        }
+    },
+    "datePublished": "{{ $blog->created_at }}",
+    "dateModified": "{{ $blog->updated_at }}"
+}
+</script>
+@endsection
 @section('content')
 
 <!-- Hero Section -->

@@ -10,6 +10,7 @@
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="@yield('keywords')">
 	@yield('canonical')
+	@yield('og_tags') 
 
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">
