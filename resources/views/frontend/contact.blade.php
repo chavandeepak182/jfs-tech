@@ -49,61 +49,52 @@
             </div>
             <div class="col-lg-8">
                 <div class="contact-form">
-                    <form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+                    <form action="{{ route('contact.submit') }}" method="POST">
                         @csrf
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label>Your Name <span>*</span></label>
-                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please Enter Your Name" placeholder="Name">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="name" class="form-control" required placeholder="Name" pattern="[A-Za-z\s]+" title="Name should contain only letters and spaces">
                                 </div>
                             </div>
+
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label>Your Email <span>*</span></label>
-                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please Enter Your Email" placeholder="Email">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="email" name="email" class="form-control" required placeholder="Email">
                                 </div>
                             </div>
+
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label>Phone Number <span>*</span></label>
-                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please Enter Your number" class="form-control" placeholder="Phone Number">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="phone_number" class="form-control" required placeholder="Phone Number">
                                 </div>
                             </div>
+
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label>Your Subject <span>*</span></label>
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please Enter Your Subject" placeholder="Your Subject">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="msg_subject" class="form-control" required placeholder="Your Subject">
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12">
+
+                            <div class="col-lg-12">
                                 <div class="form-group">
                                     <label>Your Message <span>*</span></label>
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8" required data-error="Write your message" placeholder="Your Message"></textarea>
-                                    <div class="help-block with-errors"></div>
+                                    <textarea name="message" class="form-control" rows="8" required placeholder="Your Message"></textarea>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12">
-                                <div class="agree-label">
-                                    <input type="checkbox" id="chb1" required>
-                                    <label for="chb1">
-                                        Accept <a href="terms-condition.html">Terms & Conditions</a> And <a href="privacy-policy.html">Privacy Policy.</a>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 text-center">
+
+                            <div class="col-lg-12 text-center">
                                 <button type="submit" class="default-btn btn-bg-two border-radius-50">
                                     Send Message <i class="bx bx-chevron-right"></i>
                                 </button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
                             </div>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -116,38 +107,4 @@
     </div>
 </div>
 
-<meta name="csrf-token" content="{{ csrf_token() }}">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('#contactForm').on('submit', function(e) {
-            e.preventDefault(); // Prevent default form submission
-
-            var formData = {
-                name: $('#name').val(),
-                email: $('#email').val(),
-                phone_number: $('#phone_number').val(),
-                msg_subject: $('#msg_subject').val(),
-                message: $('#message').val(),
-            };
-
-            $.ajax({
-                type: "POST",
-                url: "{{ route('contact.submit') }}", // Use Laravel route
-                data: JSON.stringify(formData),
-                contentType: "application/json",
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') // CSRF Token
-                },
-                success: function(response) {
-                    $('#msgSubmit').removeClass('hidden').text(response.message);
-                    $('#contactForm')[0].reset(); // Reset form fields
-                },
-                error: function(error) {
-                    $('#msgSubmit').removeClass('hidden').text('Error sending message: ' + error.responseJSON.message);
-                }
-            });
-        });
-    });
-</script>
 @endsection
