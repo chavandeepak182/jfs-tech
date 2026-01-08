@@ -100,6 +100,22 @@
     "dateModified": "{{ $blog->updated_at }}"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "JFS Technologies",
+  "alternateName": "{{$blog->slug}}",
+  "url": "https://jfstechnologies.com/",
+  "logo": "https://jfstechnologies.com/blog/wp-content/uploads/2024/05/JFS-big-logo.jpg",
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61563351610594",
+    "https://www.instagram.com/jfs_technologies_services/",
+    "https://www.linkedin.com/company/jfs-technologies-pvt-ltd",
+    "https://www.youtube.com/@JFSTechnologies"
+  ]
+}
+</script>
 @endsection
 @section('content')
 

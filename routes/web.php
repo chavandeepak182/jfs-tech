@@ -31,6 +31,10 @@ Route::get('/contact-us', function () {
 
 Route::post('/contact', [ContactController::class, 'handleContactForm'])->name('contact.submit');
 
+Route::get('/thankyou', function () {
+    return view('frontend.thankyou');
+});
+
 Route::get('/privacy-policy', function () {
     return view('frontend.privacy-policy');
 });
@@ -237,9 +241,7 @@ Route::get('/newsroom', function () {
     return view('frontend.newsroom');
 });
 
-Route::get('/thankyou', function () {
-    return view('frontend.thankyou');
-});
+
 
 // Jfinmate k addresses
 require __DIR__.'/auth.php';
