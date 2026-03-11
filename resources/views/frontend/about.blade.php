@@ -577,7 +577,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/siddhi_thorat.webp" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/ankita_k.png" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -586,8 +586,8 @@
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Siddhi Thorat</h3>
-						<span>Business Development Executive</span>
+						<h3>Ankita Kaushik</h3>
+						<span>Business Analyst</span>
 					</div>
 				</div>
 			</div>

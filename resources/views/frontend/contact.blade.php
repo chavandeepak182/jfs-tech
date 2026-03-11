@@ -27,7 +27,7 @@
                             <div class="content">
                                 <i class="bx bxs-map"></i>
                                 <h3>Address</h3>
-                                <span>#416 Platinum Square, Viman Nagar, Pune, Maharashtra 411014.</span>
+                                <span>Office no. 710, 7th Floor, DNK SQUARE, Airport road, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014.</span>
                             </div>
                         </li>
                         <li>
@@ -103,7 +103,7 @@
 
 <div class="map-area" data-aos="zoom-in" data-aos-duration="750">
     <div class="container-fluid m-0 p-0">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.294956854627!2d73.9111051!3d18.5607364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1aefea87bd1%3A0x5256090f743aa340!2sJFS%20Technologies!5e0!3m2!1sen!2sin!4v1729607646744!5m2!1sen!2sin"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.362958242603!2d73.90418487496392!3d18.55766828254308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1aefea87bd1%3A0x5256090f743aa340!2sJFS%20Technologies!5e0!3m2!1sen!2sin!4v1773233073167!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
 
