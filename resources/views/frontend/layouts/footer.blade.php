@@ -102,7 +102,14 @@
 					<div class="footer-widget">
 						<p class="footer-title">Reach Us</p>
 						<ul class="footer-list">
-							<li><p>#416 Platinum Square,<br>Viman Nagar, Pune,<br>Maharashtra 411014.</p></li>
+							<li>
+									<p>
+										Office No. 710, 7th Floor,<br>
+										DNK SQUARE, Airport Road,<br>
+										Sakore Nagar, Viman Nagar,<br>
+										Pune, Maharashtra 411014.
+									</p>
+								</li>
 							<li>
 								<a href="mailto:info@jfstechnologies.com">
 									<i class="fal fa-paper-plane"></i>
