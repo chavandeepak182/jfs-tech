@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "End-to-End Digital Transformation Services for Business")
-@section('description', "Boost your  business with End-to-End Digital Transformation Services! Expert data science service providers delivering innovative solutions.")
-@section('keywords', "End-to-End Digital Transformation Services, Data Science Services, top digital marketing company for all businesses, devsecops software development lifecycle, best mobile app development company, Resource Augmentation to Extend Your Team")
+@section('title', "Technology Services | AI, Software & Digital Solutions | JFS Technologies")
+@section('description', "Explore AI, software development, digital transformation, DevOps, digital experience, and resource augmentation services from JFS Technologies.")
+@section('keywords', "Technology Services, Digital Transformation Services, AI Solutions, Software Development Services, Digital Experience Services, DevOps Services, Resource Augmentation Services, Application Modernization, Data Science Services, Infrastructure Management Services, Digital Marketing Services")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services" />
 <meta name="robots" content="index, follow">

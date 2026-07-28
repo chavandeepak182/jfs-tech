@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Digital Marketing Agency for Small and Large Businesses")
-@section('description', "Discover the Best Digital Marketing Agency for Small and Large Businesses offering expert PPC advertising, SEO, and social media strategies to fuel your business growth.")
-@section('keywords', "best digital marketing agency, best digital marketing agency for small businesses, Best Digital Marketing Agency for Large Businesses, best ppc advertising company, SEO Agency for all businesses, Social media marketing services  for business, Email Marketing services for business")
+@section('title', "Digital Marketing Services | SEO, PPC & AI Marketing | JFS Technologies")
+@section('description', "Grow your business with digital marketing services including SEO, PPC, social media, email marketing, and AI search optimization from JFS Technologies.")
+@section('keywords', "Digital Marketing Services,Digital Marketing Services, Digital Marketing Agency, SEO Services, AI SEO Services, AI Overview Optimization, Answer Engine Optimization, Generative Engine Optimization, PPC Management Services, Social Media Marketing Services, Email Marketing Services, Content Marketing, Performance Marketing, Lead Generation, JFS Technologies")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/best-digital-marketing-agency" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/best-digital-marketing-agency" />

@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Data Driven Digital Transformation Services | JFS Technologies")
-@section('description', "Transform your business with JFS Technologies best data-driven digital transformation services. Leverage insights and innovation to stay ahead in the digital era.")
-@section('keywords', "Best Data Driven Digital Transformation Services , Digital Transformation Company, Data Science Consulting services, Cloud services in Infrastructure management, Digital marketing services company, best mobile app development company, Devsecops cybersecurity services, IT staff augmentation services, Website Development Services")
+@section('title', "Digital Transformation Services & AI Solutions | JFS Technologies")
+@section('description',"Transform your business with AI-powered digital transformation, software development, DevOps, digital marketing, and technology solutions from JFS Technologies.")
+@section('keywords', "Digital Transformation Services,Digital Transformation Company, AI Development Services, Software Development Company, Digital Marketing Services, Application Modernization Services, DevOps Services, Resource Augmentation Services, Data Science Services")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/" />
 <meta name="robots" content="index, follow">
@@ -19,14 +19,16 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "JFS Technologies",
-    "item": "https://jfstechnologies.com/"  
-  }]
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://jfstechnologies.com/"
+    }
+  ]
 }
 </script>
 
@@ -41,46 +43,60 @@
 <meta property="business:contact_data:postal_code" content="411014">
 <meta property="business:contact_data:country_name" content="India">
 <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What is Data-Driven Digital Transformation Services, and how can JFS Technologies help?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Best Data-Driven Digital Transformation involves using data insights to drive business decisions and optimize processes. At JFS Technologies, we implement advanced analytics, AI, and machine learning techniques to help businesses modernize their operations and achieve more efficient and scalable results."
-        }
-      },{
-        "@type": "Question",
-        "name": "How can JFS Technologies assist with software development and digital transformation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "As a leading Digital Transformation Company for Software Development, we offer end-to-end solutions—from custom software development to system integration, helping businesses enhance their digital capabilities. Our team leverages modern technologies like cloud computing and data science to build scalable and secure software that supports your growth."
-        }
-      },{
-        "@type": "Question",
-        "name": "What are your Data Science Consulting services, and how can they benefit my business?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our Data Science Consulting Services provide businesses with insights derived from large datasets to improve decision-making and optimize business processes. From predictive analytics to automation, our experts guide you through leveraging data for innovation and efficiency."
-        }
-      },{
-        "@type": "Question",
-        "name": "Do you provide Cloud Services for Infrastructure Management?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we specialize in Cloud Services in Infrastructure Management, offering reliable cloud solutions that ensure seamless data storage, scalability, and security. Whether it’s optimizing your current infrastructure or migrating to the cloud, we provide tailored solutions for better performance and cost-efficiency."
-        }
-      },{
-        "@type": "Question",
-        "name": "What makes JFS Technologies the best for mobile app development?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "As one of the Best Mobile App Development Companies, we deliver high-quality, custom mobile apps that are user-friendly, scalable, and secure. Whether you're looking to develop apps for iOS, Android, or cross-platform solutions, our team ensures exceptional performance and seamless user experience."
-        }
-      }]
+      "@type":"Question",
+      "name":"What services does JFS Technologies provide?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"JFS Technologies provides Digital Transformation, Digital Experience, Resource Augmentation, Custom Software Development, Web Development, Mobile App Development, Cloud Solutions, DevOps, UI/UX Design, and technology consulting services. Our solutions help businesses improve operational efficiency, accelerate innovation, and achieve sustainable digital growth."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Which industries does JFS Technologies serve?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"JFS Technologies delivers technology solutions for startups, SMEs, and enterprises across healthcare, finance, logistics, manufacturing, retail, education, real estate, travel, and SaaS industries. Every solution is customized to meet industry-specific business challenges and digital transformation goals."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Why should businesses choose JFS Technologies?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Businesses choose JFS Technologies for its expertise in modern software development, cloud technologies, AI-driven solutions, agile methodologies, and user-centric design. Our team focuses on building scalable, secure, and future-ready digital solutions that deliver measurable business value."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Does JFS Technologies develop custom software?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. JFS Technologies designs and develops custom software solutions, enterprise applications, SaaS platforms, customer portals, mobile applications, and business automation systems tailored to unique business requirements."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Can I hire dedicated developers from JFS Technologies?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Yes. JFS Technologies offers flexible Resource Augmentation services, allowing businesses to hire dedicated Frontend Developers, Backend Developers, Full Stack Developers, Mobile App Developers, UI/UX Designers, QA Engineers, DevOps Engineers, and cloud specialists."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"How do I start a project with JFS Technologies?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"You can contact JFS Technologies through our website to schedule a consultation. Our experts will understand your business objectives, recommend the right technology solution, define the project scope, and provide a tailored implementation roadmap."
+      }
     }
+  ]
+}
 </script>
 @endsection
 
@@ -111,7 +127,9 @@
 					<div class="section-title">
 						<span class="sp-color2">24+ Years Leadership Experience</span>
 						<h2>Your Transformation Partner</h2>
-						<p class="mx-auto pt-3">At JFS Technologies, we are a <a href="{{ url('/services/digital-transformation-services') }}">digital transformation company</a>, offering innovative and Digital transformation company for software development to thrive in the digital age. From <a href="{{ url('/services/best-digital-marketing-agency') }}">digital marketing services</a> to <a href="{{ url('/services/infrastructure-management-services') }}">Cloud services in Infrastructure management</a> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
+						<p class="mx-auto pt-3">JFS Technologies is a leading <a href="{{ url('/services/digital-transformation-services') }}">digital transformation company</a>, providing end-to-end technology solutions for startups, SMEs, enterprises, and digital agencies. Our expertise includes AI development, custom software development, website development, mobile app development, cloud solutions, DevOps services, UI/UX design, digital marketing, and dedicated development teams. We help businesses automate processes, modernize systems, improve customer experiences, and scale with secure, innovative, and future-ready digital solutions. 
+
+                       <a href="{{ url('/services/infrastructure-management-services') }}">Cloud services in Infrastructure management</a> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
 						<p class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <a href="{{ url('/services/devops-software-development') }}">DevOps cybersecurity services</a>, <a href="{{ url('/services/ci-cd-pipeline-deployment') }}">CI/CD performance testing</a>, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</p>
 					</div>
 				</div>
@@ -146,7 +164,7 @@
 </div>
 
 <!-- Service Area -->
-<section class="services-area-two pt-80 pb-80">
+<!-- <section class="services-area-two pt-80 pb-80">
 	<div class="container-fluid">
 		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
 			<span class="sp-color1">What We Do?</span>
@@ -237,7 +255,299 @@
 			</div>
 		</div>
 	</div>
+</section> -->
+
+<section class="services-process py-5">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <span class="sp-color1">What We Do?</span>
+
+            <h2>Our Best Data Driven Digital Transformation Services</h2>
+
+            <p class="mt-3">
+                We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential.
+            </p>
+        </div>
+
+       <div class="row gx-5 gy-5 justify-content-center">
+
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="service-box blue">
+
+                    <div class="service-card">
+
+                        <img src="{{ asset('theme/assets/images/transform-1.jpg') }}" alt="Digital Transformation">
+
+                        <h3>Digital Transformation</h3>
+
+                        <p>
+                            Empowering businesses with next-gen digital transformation and software solutions.
+                        </p>
+
+                        <a href="{{ url('/services/digital-transformation-services') }}">
+                            Know More
+                        </a>
+
+                    </div>
+
+                    <span class="number">01</span>
+
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="service-box cyan">
+
+                    <div class="service-card">
+
+                        <img src="{{ asset('theme/assets/images/experience-1.jpg') }}" alt="Digital Experience">
+
+                        <h3>Digital Experience</h3>
+
+                        <p>
+                            Connect your brand, positioning us among the top digital marketing companies for businesses.
+                        </p>
+
+                        <a href="{{ url('/services/digital-experience') }}">
+                            Know More
+                        </a>
+
+                    </div>
+
+                    <span class="number">02</span>
+
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="service-box purple">
+
+                    <div class="service-card">
+
+                        <img src="{{ asset('theme/assets/images/devops-1.jpg') }}" alt="DevOps">
+
+                        <h3>DevOps Services</h3>
+
+                        <p>
+                            Accelerating your SDLC with streamlined processes through expert DevOps & Cybersecurity services.
+                        </p>
+
+                        <a href="{{ url('/services/devops-software-development') }}">
+                            Know More
+                        </a>
+
+                    </div>
+
+                    <span class="number">03</span>
+
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="service-box pink">
+
+                    <div class="service-card">
+
+                        <img src="{{ asset('theme/assets/images/resource-1.jpg') }}" alt="Resource Augmentation">
+
+                        <h3>Resource Augmentation</h3>
+
+                        <p>
+                            Offering Resource Augmentation for digital transformation who integrate to scale your operations.
+                        </p>
+
+                        <a href="{{ url('/services/resource-augmentation-services') }}">
+                            Know More
+                        </a>
+
+                    </div>
+
+                    <span class="number">04</span>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </section>
+<style>
+.services-process{
+    background:#f7f7f7;
+    padding:80px 0;
+}
+
+.services-process .row{
+    row-gap:40px;
+}
+
+/* Card Space */
+.services-process .col-lg-3{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.service-box{
+    position:relative;
+    height:520px;
+}
+
+/* Colored Background */
+.service-box:before{
+    content:"";
+    position:absolute;
+    top:18px;
+    left:18px;
+    right:-8px;
+    bottom:-18px;
+    border-radius:22px;
+    z-index:1;
+    transition:.4s;
+}
+
+.blue:before{
+    background:#3d63d7;
+}
+
+.cyan:before{
+    background:#39b8dc;
+}
+
+.purple:before{
+    background:#8755ca;
+}
+
+.pink:before{
+    background:#e23ba5;
+}
+
+/* White Card */
+.service-card{
+    position:absolute;
+    top:0;
+    left:0;
+    width:92%;
+    height:470px;
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 20px 35px rgba(0,0,0,.18);
+    z-index:2;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.service-box:hover .service-card{
+    transform:translateY(-12px);
+}
+
+.service-box:hover:before{
+    transform:translateY(6px);
+}
+
+/* Image */
+.service-card img{
+    width:100%;
+    height:210px;
+    object-fit:cover;
+}
+
+/* Title */
+.service-card h3{
+    font-size:24px;
+    font-weight:700;
+    color:#222;
+    padding:20px 18px 10px;
+    margin:0;
+}
+
+/* Description */
+.service-card p{
+    padding:0 22px;
+    font-size:15px;
+    line-height:28px;
+    color:#666;
+    min-height:115px;
+}
+
+/* Button */
+.service-card a{
+    display:inline-block;
+    margin-top:10px;
+    font-size:16px;
+    font-weight:600;
+    color:#111;
+    text-decoration:none;
+}
+
+.service-card a:hover{
+    color:#0d6efd;
+}
+
+/* Number Circle */
+.number{
+    position:absolute;
+    left:50%;
+    bottom:-22px;
+    transform:translateX(-50%);
+    width:68px;
+    height:68px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:24px;
+    font-weight:700;
+    z-index:3;
+    border:5px solid #fff;
+}
+
+.blue .number{
+    background:#3d63d7;
+}
+
+.cyan .number{
+    background:#39b8dc;
+}
+
+.purple .number{
+    background:#8755ca;
+}
+
+.pink .number{
+    background:#e23ba5;
+}
+
+/* Responsive */
+@media (max-width:991px){
+
+.services-process .row{
+    row-gap:70px;
+}
+
+.service-box{
+    height:auto;
+}
+
+.service-box:before{
+    display:none;
+}
+
+.service-card{
+    position:relative;
+    height:auto;
+}
+
+.number{
+    bottom:-35px;
+}
+
+}</style>
 
 <section class="work-process-area home_cards pt-80">
 	<div class="container">

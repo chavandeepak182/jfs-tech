@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Web Design &  Best Website Development Company for Businesses")
-@section('description', "Best Website Development Company for Businesses. Partner with our best business web design company to create a strong online presence today!")
-@section('keywords', "Best Website Development Company for Businesses, Web Design for Businesses, Affordable Website Development Company, Best Web Design Services for Businesses, Affordable Web Design Services for Businesses, web development services for  businesses, best business website design company, web design for local businesses, business web design development, Web design development for Large enterprises, Web design development for Educational sector")
+@section('title', "Website Development Company | Custom Web Solutions | JFS Technologies")
+@section('description', "Build fast, secure, SEO-friendly websites with JFS Technologies. We deliver custom website development, eCommerce solutions, and responsive web design.")
+@section('keywords', "Website Development Company,Website Development Company, Website Development Services, Web Development Company, Custom Website Development, Responsive Website Development, E-commerce Website Development, SEO-Friendly Website Development, Business Website Development, Web Design Company, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/website-development-company" />
 <meta name="robots" content="index, follow">

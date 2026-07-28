@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Company for Backend Development Services for Businesses")
-@section('description', "Discover the best company for backend development services for seamless, secure, and scalable website solutions. Hire the best backend development team to enhance your Business.")
-@section('keywords', "backend development services, Best Company for Backend Development Services, best backend for web development, Hire dedicated PHP developers for web applications, Hire dedicated .NET developers for web applications, Experienced DevOps engineers for hire, Hire dedicated Python developers, Hire dedicated Node.js Developers, Hire dedicated Ruby on Rails Developers, Hire dedicated Database Developers, Best backend development company services, Hire the best backend development team, best backend services for website")
+@section('title', "Backend Development Services | APIs & Scalable Solutions | JFS Technologies")
+@section('description', "Develop high-performance backend applications with expert backend developers specializing in APIs, databases, cloud platforms, and microservices.")
+@section('keywords', "Backend Development Services,Backend Development Services, Backend Development Company, Backend Developers, API Development Services, Custom Backend Development, Server-Side Development, Database Development Services, Cloud Backend Development, Enterprise Backend Development, Hire Backend Developers, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/backend-development-services" />
 <meta name="robots" content="index, follow">

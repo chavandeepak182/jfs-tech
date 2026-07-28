@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Logo design & Top Creative Service Agency for Graphic Design ")
-@section('description', "Discover top creative service agency for graphic design & logo design, offering business to elevate your brand's identity and make a lasting impression.")
-@section('keywords', "Top Creative Service Agency, Top Creative Service Agency for Graphic Design, Logo Design Service Agency for Graphic Design, Top Creative Service Agency for Logo design, Top Creative graphic design service company, creative graphic design company, Logo design services for businesses, business logo design services, Graphic designing services for businesses, logo designers for  business")
+@section('title', "Creative Agency | Branding & UI UX Design | JFS Technologies")
+@section('description', "Strengthen your brand with creative design services, UI/UX, graphic design, branding, content creation, and 3D design from JFS Technologies.")
+@section('keywords', "Creative Design Services,Creative Design Services, Creative Agency, Branding Services, Graphic Design Services, UI UX Design Services, Content Creation Services, 3D Design Services, Brand Identity Design, Visual Design Services, Marketing Creative Services, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/creative-service-agency" />
 <meta name="robots" content="index, follow">

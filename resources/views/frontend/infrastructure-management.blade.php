@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Infrastructure Management Services & Cloud Management")
-@section('description', "Optimize your business with expert cloud best infrastructure management services. Explore reliable cloud infrastructure solutions tailored to your needs.")
-@section('keywords', "Best Infrastructure Management Services, Cloud Infrastructure Management Consulting, Expert Cloud services in Infrastructure management, managing the cloud infrastructure, infrastructure management in cloud computing, cloud infrastructure management")
+@section('title', "Infrastructure Management Services | Cloud & IT Solutions | JFS Technologies")
+@section('description', "Optimize your IT with infrastructure management services, cloud solutions, NOC & SOC monitoring, and data center management from JFS Technologies.")
+@section('keywords', "Infrastructure Management Services,Infrastructure Management Services, IT Infrastructure Management Services, Cloud Infrastructure Management, Managed Infrastructure Services, Infrastructure Management Consulting, NOC Monitoring Services, SOC Monitoring Services, Data Center Management, Cloud Infrastructure Solutions, Infrastructure Monitoring, JFS Technologies")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/infrastructure-management-services" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/infrastructure-management-services" />

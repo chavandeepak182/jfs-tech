@@ -6,7 +6,28 @@
 <link rel="canonical" href="https://jfstechnologies.com/success-stories" />
 <meta name="robots" content="index, follow">
 @endsection
-
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {
+      "@type":"ListItem",
+      "position":1,
+      "name":"Home",
+      "item":"https://jfstechnologies.com/"
+    },
+    {
+      "@type":"ListItem",
+      "position":2,
+      "name":"Success Stories",
+      "item":"https://jfstechnologies.com/success-stories"
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 <div id="banner" class="inner-banner">
     <div class="container">

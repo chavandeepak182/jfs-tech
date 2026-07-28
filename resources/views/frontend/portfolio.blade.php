@@ -6,7 +6,28 @@
 <link rel="canonical" href="https://jfstechnologies.com/portfolio" />
 <meta name="robots" content="index, follow">
 @endsection
-
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {
+      "@type":"ListItem",
+      "position":1,
+      "name":"Home",
+      "item":"https://jfstechnologies.com/"
+    },
+    {
+      "@type":"ListItem",
+      "position":2,
+      "name":"Portfolio",
+      "item":"https://jfstechnologies.com/portfolio"
+    }
+  ]
+}
+</script>
+@endsection
 @section('content')
 <div class="inner-banner" style="background-image: url(../theme/assets/images/modern-app.webp);">
     <div class="container">

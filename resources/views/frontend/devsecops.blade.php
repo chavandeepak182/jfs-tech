@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "DevSecOps Software Development Lifecycle Services")
-@section('description', "Integrate devSecOps software development lifecycle services for enhanced security and efficiency. Explore our Development Security Operation Services for seamless development.")
-@section('keywords', "devsecops software development lifecycle services, devsecops cybersecurity services, Infrastructure as Code Security in DevSecOps, Automate security testing in Devsecops, Development Security Operation Services")
+@section('title', "DevSecOps Services | Secure CI/CD & Application Security | JFS Technologies")
+@section('description', "Secure your software lifecycle with DevSecOps services, security automation, vulnerability management, secure CI/CD, and compliance solutions from JFS Technologies.")
+@section('keywords', "DevSecOps Services,DevSecOps Services, DevSecOps Consulting Services, Secure Software Development, Security Automation Services, Secure CI/CD Pipelines, Application Security Testing, Infrastructure as Code Security, Container Security, Vulnerability Management, Compliance Monitoring, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/devsecops-software-development" />
 <meta name="robots" content="index, follow">

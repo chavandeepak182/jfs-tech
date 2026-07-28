@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "End-to-End Fullstack Development Services for all Industries")
-@section('description', "Elevate your online presence with our Digital marketing company services. Drive growth and engagement with tailored strategies.")
-@section('keywords', "Fullstack Development Services, End-to-End Fullstack Development Services, Fullstack Development Services for all Industries, Fullstack Development Services Resource Augmentation, Hire a Dedicated Fullstack Development Services, Full stack development company")
+@section('title', "Full Stack Development Services | End-to-End Solutions | JFS Technologies")
+@section('description', "Build scalable web and mobile applications with full stack development services, covering frontend, backend, APIs, cloud integration, and modern frameworks from JFS Technologies.")
+@section('keywords', "Full Stack Development Services,Full Stack Development Services, Full Stack Development Company, Full Stack Developers, Hire Full Stack Developers, MERN Stack Development, MEAN Stack Development, Custom Full Stack Development, Enterprise Full Stack Development, Full Stack Web Development, End-to-End Software Development, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/fullstack-development-services" />
 <meta name="robots" content="index, follow">

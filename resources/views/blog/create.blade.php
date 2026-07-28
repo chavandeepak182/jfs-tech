@@ -63,10 +63,19 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-7">
-                        <div class="position-relative pb-15 form-group">
-                            <label for="image">Blog  Image</label>
-                            <input type="file" name="image" class="form-control">
-                        </div>
+                      <div class="position-relative pb-15 form-group">
+    <label for="image">Blog Image</label>
+    <input type="file" name="image" class="form-control">
+</div>
+
+<div class="position-relative pb-15 form-group">
+    <label for="image_alt">Image Alt Text</label>
+    <input type="text"
+           name="image_alt"
+           class="form-control"
+           value="{{ old('image_alt') }}"
+           placeholder="Enter image alt text">
+</div>
 
                         <div class="position-relative pb-15 form-group">
                             <label for="slug">Slug URL</label>
@@ -122,5 +131,7 @@
         </div>
     </div>
 </div>
+
+
 
 @endsection

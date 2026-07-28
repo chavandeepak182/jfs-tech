@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Process Automation Services in Software Project Management")
-@section('description', "Optimize your Process Automation Services in Software Project Management. Enhance efficiency Software Development Process Automation.")
-@section('keywords', "process automation services, Process Automation Services in software project management, Intelligent Business Process Automation Services,  business process automation service company, software development process automation")
+@section('title', "Business Process Automation Services | JFS Technologies")
+@section('description', "Automate workflows with business process automation services, CI/CD, configuration management, monitoring, and release automation from JFS Technologies.")
+@section('keywords', "Business Process Automation Services,Business Process Automation Services, Process Automation Services, Workflow Automation Services, Business Workflow Automation, DevOps Automation Services, Intelligent Process Automation, Configuration Management, Release Automation, CI/CD Automation, Enterprise Process Automation, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/process-automation-services" />
 <meta name="robots" content="index, follow">

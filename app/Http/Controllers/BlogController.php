@@ -61,6 +61,7 @@ class BlogController extends Controller
             'tag' => 'nullable|string',
             'schema_markup' => 'nullable|string',
             'meta_description' => 'nullable|string',
+            'image_alt' => 'nullable|string|max:255',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,webp,gif|max:2048',
         ]);
 
@@ -97,6 +98,7 @@ class BlogController extends Controller
             'tag' => $request->tag,
             'author_name' => $request->author_name,
             'image' => $imagePath,
+'image_alt' => $request->image_alt,
             'created_at' => now(),
             'updated_at' => now(),
         ];
@@ -148,6 +150,7 @@ class BlogController extends Controller
             'tag' => 'nullable|string',
             'schema_markup' => 'nullable|string',
             'meta_description' => 'nullable|string',
+            'image_alt' => 'nullable|string|max:255',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,webp,gif|max:2048',
         ]);
 
@@ -183,7 +186,8 @@ class BlogController extends Controller
             'schema_markup' => $request->schema_markup,
             'tag' => $request->tag,
             'author_name' => $request->author_name,
-            'image' => $imagePath,
+           'image' => $imagePath,
+           'image_alt' => $request->image_alt,
             'updated_at' => now(),
         ]);
 
