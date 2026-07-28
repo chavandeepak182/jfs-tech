@@ -3,7 +3,28 @@
 @section('title', "Industries")
 @section('description', "")
 @section('keywords', "")
-
+@section('schema')
+<script type="application/ld+json">
+{
+@context:"https://schema.org",
+@type:"BreadcrumbList",
+itemListElement:[
+{
+@type:"ListItem",
+position:1,
+name:"Home",
+item:"https://jfstechnologies.com/"
+},
+{
+@type:"ListItem",
+position:2,
+name:"Blogs",
+item:"https://jfstechnologies.com/blogs"
+}
+]
+}
+</script>
+@endsection
 @section('content')
 
 
@@ -105,9 +126,13 @@
     <div class="row gy-4 gx-4">
     @foreach($allIndustries as $blog)
         <div class="col-md-4">
-            <a href="{{ route('blog.show', $blog->slug) }}" style="text-decoration: none; color: inherit;">
+           <a href="{{ route('blog.show', $blog->slug) }}"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration: none; color: inherit;">
                 <div class="blog-box">
-                    <img src="{{ asset($blog->image) }}" alt="{{ $blog->blog_name }}">
+                    <img src="{{ asset($blog->image) }}"
+     alt="{{ $blog->image_alt ?? $blog->blog_name }}">
                     <div class="content">
                         <h5 class="title">{{ $blog->blog_name }}</h5>
                         <p class="text">{{ Str::limit(strip_tags($blog->description), 120, '...') }}</p>
@@ -123,164 +148,20 @@
         </div>
     @endforeach
 </div>
+<div class="d-flex justify-content-center mt-5">
+    {{ $allIndustries->links('pagination::bootstrap-5') }}
+</div>
 
     <!-- Pagination -->
-    <div class="mt-4">
-        {{ $allIndustries->links() }}
-    </div>
+    
 </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Options for every organization</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f5f0;
-      margin: 0;
-      padding: 0;
-      color: #0a2e2f;
-    }
-
-    .section {
-      max-width: 1200px;
-      margin: auto;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .section p.sub-heading {
-      text-transform: uppercase;
-      font-size: 14px;
-      margin-bottom: 8px;
-      color: #555;
-    }
-
-    .section h2 {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      color: #0a2e2f;
-    }
-
-    .section .desc {
-      max-width: 800px;
-      margin: 0 auto 50px;
-      font-size: 16px;
-      line-height: 1.6;
-      color: #333;
-    }
-
-    /* Card section */
-    .card-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 60px;
-    }
-
-    .card-image {
-      flex: 1 1 50%;
-      min-height: 280px;
-      background-size: cover;
-      background-position: center;
-    }
-
-    .card-content {
-      flex: 1 1 50%;
-      background: #fff;
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-      padding: 30px;
-      border-radius: 8px;
-      max-width: 500px;
-      margin: -40px;
-      text-align: left;
-    }
-
-    .card-content h3 {
-      font-size: 22px;
-      margin-bottom: 15px;
-    }
-
-    .card-content p {
-      font-size: 15px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      background: #ffb400;
-      color: #000;
-      padding: 10px 20px;
-      font-size: 14px;
-      border-radius: 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* Responsive */
-    @media(max-width: 768px) {
-      .card-row {
-        flex-direction: column;
-      }
-      .card-content {
-        margin: 20px 0;
-        max-width: 100%;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <section class="section">
-    <p class="sub-heading">enterprise offerings</p>
-    <h2>Options for every organization</h2>
-    <p class="desc">
-      You deserve a learning partner that takes your goals seriously. With credential-granting courses and programs from the world’s best institutions, edX gives learners of all levels the in-demand skills they need to succeed.
-    </p>
-
-    <!-- Card 1 -->
-    <div class="card-row">
-      <div class="card-content">
-        <h3>Drive business</h3>
-        <p>
-          Cultivate the capabilities and skills your business needs, and empower your employees to advance within your organization.
-        </p>
-        <a href="#" class="btn">Explore edX For Business</a>
-      </div>
-      <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1593642634367-d91a135587b5');">
-      </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="card-row">
-      <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e');">
-      </div>
-      <div class="card-content"> 
-        <h3>Empower students</h3>
-        <p>
-          Prepare your students for a competitive job market, develop faculty leaders, and engage alumni with powerful lifelong learning opportunities.
-        </p>
-        <a href="#" class="btn">Explore edX For Campus</a>
-      </div>
-    </div>
-  </section>
-
-</body>
-</html>
 
 
 
 
-{{-- Laravel Pagination --}}
-<div class="mt-4">
-    {{ $allIndustries->links() }}
-</div>
+
+
 
 
 

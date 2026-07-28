@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Application Modernisation Services & API Integration")
-@section('description', "Unlock the power of the best application modernisation services and seamless API integration. Enhance your business with cutting-edge solutions")
-@section('keywords', "Best Application Modernisation Services, API Integration services, application modernisation consulting services, benefits of api integration")
+@section('title', "Legacy Application Modernization Services | JFS Technologies")
+@section('description', "Modernize legacy applications with cloud migration, API integration, software modernization, and scalable solutions from JFS Technologies")
+@section('keywords', "Application Modernization Services,Application Modernization Services, Legacy Application Modernization, Application Modernization Consulting, Software Modernization Services, Legacy System Modernization, Cloud Migration Services, API Integration Services, Enterprise Application Modernization, Cloud-Native Applications, JFS Technologies")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/application-modernisation-services" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/application-modernisation-services" />

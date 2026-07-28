@@ -107,7 +107,7 @@ class IndustriesController extends Controller
         // Get all categories
         $categories = DB::table('industries_category')->get();
 
-        // सबकॅटेगरी लॉजिक काढलं
+        
         $subcategory = null;
         $subcategories = [];
 

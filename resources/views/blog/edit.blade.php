@@ -65,15 +65,28 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="mb-3">
-                            <label for="image" class="form-label">Blog Image:</label>
-                            @if($blog->image)
-                                <div class="mb-2">
-                                    <img src="{{ asset($blog->image) }}" alt="Blog Image" width="120">
-                                </div>
-                            @endif
-                            <input type="file" name="image" class="form-control">
-                        </div>
+                       <div class="mb-3">
+    <label for="image" class="form-label">Blog Image:</label>
+
+    @if($blog->image)
+        <div class="mb-2">
+            <img src="{{ asset($blog->image) }}"
+                 alt="{{ $blog->image_alt ?? 'Blog Image' }}"
+                 width="120">
+        </div>
+    @endif
+
+    <input type="file" name="image" class="form-control">
+</div>
+
+<div class="mb-3">
+    <label for="image_alt" class="form-label">Image Alt Text:</label>
+    <input type="text"
+           name="image_alt"
+           class="form-control"
+           value="{{ old('image_alt', $blog->image_alt) }}"
+           placeholder="Enter image alt text">
+</div>
 
                         <div class="mb-3">
                             <label for="slug" class="form-label">Slug URL:</label>

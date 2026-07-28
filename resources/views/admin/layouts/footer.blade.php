@@ -486,10 +486,32 @@
 
 <!-- Summernote Initialization -->
 <script>
-$(document).ready(function() {
+$(document).ready(function () {
     $('#summernote').summernote({
-    placeholder: 'Write something here...',
-    height: 200
+        placeholder: 'Write something here...',
+        height: 350,
+
+        callbacks: {
+            onImageUpload: function(files) {
+
+                alert('Image Upload Triggered');
+
+                let altText = prompt("Enter Image Alt Text");
+
+                let reader = new FileReader();
+
+                reader.onload = (e) => {
+
+                    let img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.alt = altText;
+
+                    $('#summernote').summernote('insertNode', img);
+                };
+
+                reader.readAsDataURL(files[0]);
+            }
+        }
     });
 });
 </script>

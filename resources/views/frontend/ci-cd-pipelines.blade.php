@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "CI/CD Pipeline Deployment Services & Testing Services")
-@section('description', "Enhance your software development with CI/CD pipeline deployment services and CI/CD Performance Testing Services, efficient, and reliable delivery.")
-@section('keywords', "ci cd pipeline deployment, ci cd pipeline deployment services, CI/CD Performance Testing Services, performance testing in ci cd pipeline, ci cd performance testing services")
+@section('title', "CI/CD Pipeline Services & Deployment Automation | JFS Technologies")
+@section('description', "Enhance your software development with CI/CD pipeline deployment services and CI/CD Performance Testing Services, efficient, and reliable delivery.Automate software delivery with CI/CD pipeline services, build automation, continuous testing, deployment automation, and DevOps solutions from JFS Technologies.")
+@section('keywords', "CI/CD Pipeline Services,CI/CD Pipeline Services, CI/CD Pipeline Deployment, Continuous Integration Services, Continuous Delivery Services, CI/CD Automation Services, Build Automation, Deployment Automation, Continuous Testing, DevOps CI/CD Solutions, Infrastructure as Code, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/ci-cd-pipeline-deployment" />
 <meta name="robots" content="index, follow">

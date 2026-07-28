@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Frontend Development Company for Businesses")
-@section('description', "Looking for the best frontend development company for all businesses? Our Best Frontend Development for Businesses deliver stunning, user-friendly websites and apps tailored to your needs.")
-@section('keywords', "Frontend Development Company, Best Frontend Development Company for Businesses, top front end development company, Best Frontend Development for Businesses, Expert UI/UX Design Services, Top React.JS Development Companies, Top Angular Development Companies, Resource Augmentation for Frontend Development, Vue.JS Development Company in India, best frontend developer services")
+@section('title', "Frontend Development Services | React & Angular Experts | JFS Technologies")
+@section('description', "Build fast, responsive web applications with frontend development services, React, Angular, Vue.js, UI development, and responsive design from JFS Technologies.")
+@section('keywords', "Frontend Development Services,Frontend Development Services, Frontend Development Company, React Development Services, Angular Development Services, Vue.js Development Services, Frontend Developers, UI Development Services, Responsive Web Development, JavaScript Development Services, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/frontend-development-company" />
 <meta name="robots" content="index, follow">

@@ -120,25 +120,17 @@
 @section('content')
 
 <!-- Hero Section -->
-<section class="hero-wrap">
+<section class="hero-wrap" style="height:497px;">
     <div class="blog-featured-image" style="background-image: url('{{ asset($blog->image) }}');"></div>
     <div class="blog-featured-image-overlay"></div>
 
     <div class="container hero-content py-5">
         <div class="row">
             <div class="col-lg-9">
-                <!-- Breadcrumb -->
-                <div class="breadcrumb-mini mb-2">
-                    <a href="{{ url('/') }}">Home</a>
-                    <span class="sep">/</span>
-                    <span>Blogs</span>
-                </div>
+                
 
-                <!-- Title + Short Description -->
-                <h1 class="hero-title display-7 mb-2" style="color:#fff;">{{ $blog->blog_name }}</h1>
-                <p class="hero-sub lead mb-0">
-                    {{ Str::limit(strip_tags($blog->description), 120, '...') }}
-                </p>
+                <!-- <h1 class="hero-title display-7 mb-2" style="color:#fff;">{{ $blog->blog_name }}</h1> -->
+                
             </div>
         </div>
     </div>
@@ -151,7 +143,9 @@
     <div class="row">
         <!-- Main Blog Content -->
         <div class="col-lg-8">
-            <img src="{{ asset($blog->image) }}" alt="{{ $blog->blog_name }}" class="img-fluid mb-4">
+            <!-- <img src="{{ asset($blog->image) }}"
+     alt="{{ $blog->image_alt ?: $blog->blog_name }}"
+     class="img-fluid mb-4"> -->
 
             <h1 class="mb-3">{{ $blog->blog_name }}</h1>
 

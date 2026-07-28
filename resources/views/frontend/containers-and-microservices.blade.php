@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Container-Based Microservices Architecture Applications")
-@section('description', "Discover the benefits of Container-Based Microservices Architecture Applications for scalable, efficient development. Enhance performance in your applications.")
-@section('keywords', "Container-Based Microservices Architecture Applications, Container-Based Microservices, container based microservices applications, container and microservice-based applications, Build Your Own Microservices in Flask, Microservices with .net core, Linux Containers for Virtualization, Building Microservices with Node.js, Dockerize Spring Boot Microservices, Microservices Architecture using Docker and Kubernetes, Deploy Microservice Architecture in Docker, Container development using Podman, difference between microservices and containers")
+@section('title', " Container & Microservices Services")
+@section('description', "Build scalable cloud-native applications with containerization, Docker, Kubernetes, and microservices development services from JFS Technologies.")
+@section('keywords', " Container & Microservices Services,Container & Microservices Services, Microservices Development Services, Containerization Services, Docker Services, Kubernetes Consulting, Cloud-Native Application Development, Container Orchestration, Microservices Architecture, Enterprise Microservices Solutions, JFS Technologies")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/container-based-microservices" />
 <meta name="robots" content="index, follow">

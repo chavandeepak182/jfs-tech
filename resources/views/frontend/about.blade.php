@@ -1,10 +1,33 @@
 @extends('frontend.layouts.header')
-@section('title', "Leading Digital Transformation Services Company")
-@section('description', "Discover how our leading digital transformation services company drive innovation and success for businesses. Learn more about our expertise")
-@section('keywords', "digital transformation services company, digital transformation consulting services, digital transformation services")
+@section('title', "Leading Digital Transformation Company | JFS Technologies")
+@section('description', "A leading digital transformation company delivering AI solutions, software development, DevOps, application modernization, digital marketing, and cloud services.")
+@section('keywords', "Digital Transformation Company,Digital Transformation Company, Digital Transformation Services, About JFS Technologies, Software Development Company, AI Solutions, AI Development Services, Application Modernization, DevOps Services, Cloud Services, Resource Augmentation Services, Digital Marketing Services, Data Science Services, Infrastructure Management Services, Technology Company Pune, IT Consulting Company")
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/about-us" />
 <meta name="robots" content="index, follow">
+
+@endsection
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {
+      "@type":"ListItem",
+      "position":1,
+      "name":"Home",
+      "item":"https://jfstechnologies.com/"
+    },
+    {
+      "@type":"ListItem",
+      "position":2,
+      "name":"About Us",
+      "item":"https://jfstechnologies.com/about-us"
+    }
+  ]
+}
+</script>
 @endsection
 @section('content')
 <div id="banner" class="inner-banner">
@@ -449,7 +472,7 @@
 			
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/shalaka-n.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/shital.webp" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/shalaka-nakhate-68783a160-seo" target="_blank">
@@ -458,8 +481,8 @@
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Shalaka Nakhate</h3>
-						<span>SEO Specialist</span>
+						<h3>Shital Chopade</h3>
+						<span>Digital Marketing Specialist</span>
 					</div>
 				</div>
 			</div>
@@ -593,7 +616,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/tanishq.webp" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/mahima.png" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -602,8 +625,8 @@
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Tanishq Purohit</h3>
-						<span>Jr.Developer</span>
+						<h3>Mahima Chaudhri</h3>
+						<span>Software.Developer</span>
 					</div>
 				</div>
 			</div>

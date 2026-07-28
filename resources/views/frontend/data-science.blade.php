@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Expert Data Science Consulting Services & Service Providers")
-@section('description', "Unlock business potential with expert data science consulting services. Leverage advanced analytics and AI solutions from expert data science service providers.")
-@section('keywords', "Data Science Consulting Services, expert Data Science Service Providers, Generative AI & Conversational AI services, Data Science Services Provider, Data Visualization services with Data science")
+@section('title', "Data Science Services & AI Analytics Solutions | JFS Technologies")
+@section('description', "Turn data into business insights with data science services, AI analytics, machine learning, predictive modeling, and visualization solutions from JFS Technologies.")
+@section('keywords', "Data Science Services, Data Science Consulting Services, Data Analytics Services, Machine Learning Services, AI & Data Science Solutions, Predictive Analytics Services, Data Visualization Services, Generative AI Solutions, Business Intelligence Solutions, Data Science Company")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/data-science-services" hreflang="en-in" />
 

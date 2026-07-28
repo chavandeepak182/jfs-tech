@@ -153,6 +153,7 @@ public function blog(Request $request)
         ->select(
             'blog.id',
             'blog.image',
+              'blog.image_alt',   // <-- ADD THIS
             'blog.blog_name',
             'blog.description',
             'blog.slug',
@@ -186,8 +187,10 @@ public function blog(Request $request)
         $query->where('blog.category_id', $request->category);
     }
 
-    $data['allIndustries'] = $query->paginate(12)->appends($request->all());
-
+$data['allIndustries'] = $query
+    ->orderBy('id', 'desc')
+    ->paginate(12)
+    ->appends($request->all());
     // Fetch categories
     $data['categories'] = DB::table('blog_category')
         ->select('pid', 'category_name')
@@ -220,7 +223,16 @@ public function showBlog($slug)
 
     // Related blogs
     $relatedBlogs = DB::table('blog')
-        ->select('id','blog_name','slug','image','description','created_at','category_id')
+        ->select(
+    'id',
+    'blog_name',
+    'slug',
+    'image',
+    'image_alt',
+    'description',
+    'created_at',
+    'category_id'
+)
         ->where('slug', '!=', $slug)
         ->where('category_id', $blog->category_id)
         ->latest()

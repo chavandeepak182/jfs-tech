@@ -1,7 +1,7 @@
 @extends('frontend.layouts.header')
-@section('title', "Best Application for AR VR Services | 3D Environments Services")
-@section('description', "Find the Best Application for AR VR services near you! Explore cutting-edge 3D Environments Services.")
-@section('keywords', "Best Application for AR VR services, 3D Environments Services, Application for Augmented reality & Virtual reality services, custom 3D modeling services, 3D Environments Services, Simulations Innovative Services")
+@section('title', "AR VR Development Services | Immersive Solutions | JFS Technologies")
+@section('description', "Build immersive AR VR solutions with JFS Technologies. We develop augmented reality, virtual reality, 3D visualization, and enterprise XR applications.")
+@section('keywords', "AR VR Development Services,AR VR Development Services, Augmented Reality Development Services, Virtual Reality Development Services, AR VR App Development, Mixed Reality Solutions, 3D Visualization Services, Enterprise AR VR Solutions, XR Development, Immersive Technology Solutions, JFS Technologies")
 @section('canonical')
 <link rel="alternate" href="https://jfstechnologies.com/services/ar-vr-services" hreflang="en-in" />
 <link rel="canonical" href="https://jfstechnologies.com/services/ar-vr-services" />
