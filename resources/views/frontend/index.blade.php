@@ -154,14 +154,33 @@
 </section>
 
 <div class="case-study-area pt-80 pb-80">
-	<div class="container">
-		<div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
-			<span class="sp-color2">Our Approach</span>
-			<h2 class="pb-5">How We Work</h2>
-			<img src="{{ asset('theme') }}/assets/images/home-steps.webp" alt="How we Work">
-		</div>
-	</div>
+    <div class="container">
+        <div class="section-title text-center" data-aos="fade-up" data-aos-duration="750">
+            <span class="sp-color2">Our Approach</span>
+            <h2 class="pb-5">How We Work</h2>
+
+            <picture>
+                <!-- Mobile Image -->
+                <source media="(max-width: 767px)" srcset="{{ asset('theme') }}/assets/images/team/home_step_final_2.webp">
+
+                <!-- Desktop Image -->
+                <img src="{{ asset('theme') }}/assets/images/team/home_step_final_1.webp"
+                     alt="How We Work"
+                     class="img-fluid">
+            </picture>
+
+        </div>
+    </div>
 </div>
+<style>
+	.section-title picture img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+</style>
 
 <!-- Service Area -->
 <!-- <section class="services-area-two pt-80 pb-80">
@@ -260,12 +279,12 @@
 <section class="services-process py-5">
     <div class="container">
 
-        <div class="section-title text-center mb-5">
-            <span class="sp-color1">What We Do?</span>
-
-            <h2>Our Best Data Driven Digital Transformation Services</h2>
-
-            <p class="mt-3">
+         <div class="section-title text-center mb-5">
+            <span class="sp-color2">What We Do</span>
+            <h2 title="Latest Articles from JFS Technologies">
+                Our Best Data Driven Digital Transformation Services
+            </h2>
+			<p class="mt-3">
                 We deliver immersive, user-centric experiences designed to help your business thrive by leveraging technology to its fullest potential.
             </p>
         </div>
@@ -280,15 +299,17 @@
 
                         <img src="{{ asset('theme/assets/images/transform-1.jpg') }}" alt="Digital Transformation">
 
-                        <h3>Digital Transformation</h3>
+                        <div class="card-content">
+                            <h3>Digital Transformation</h3>
 
-                        <p>
-                            Empowering businesses with next-gen digital transformation and software solutions.
-                        </p>
+                            <p>
+                                Empowering businesses with next-gen digital transformation and software solutions.
+                            </p>
 
-                        <a href="{{ url('/services/digital-transformation-services') }}">
-                            Know More
-                        </a>
+                            <a href="{{ url('/services/digital-transformation-services') }}" class="know-more-btn">
+                                Know More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
 
                     </div>
 
@@ -305,15 +326,17 @@
 
                         <img src="{{ asset('theme/assets/images/experience-1.jpg') }}" alt="Digital Experience">
 
-                        <h3>Digital Experience</h3>
+                        <div class="card-content">
+                            <h3>Digital Experience</h3>
 
-                        <p>
-                            Connect your brand, positioning us among the top digital marketing companies for businesses.
-                        </p>
+                            <p>
+                                Connect your brand, positioning us among the top digital marketing companies for businesses.
+                            </p>
 
-                        <a href="{{ url('/services/digital-experience') }}">
-                            Know More
-                        </a>
+                            <a href="{{ url('/services/digital-experience') }}" class="know-more-btn">
+                                Know More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
 
                     </div>
 
@@ -330,15 +353,17 @@
 
                         <img src="{{ asset('theme/assets/images/devops-1.jpg') }}" alt="DevOps">
 
-                        <h3>DevOps Services</h3>
+                        <div class="card-content">
+                            <h3>DevOps Services</h3>
 
-                        <p>
-                            Accelerating your SDLC with streamlined processes through expert DevOps & Cybersecurity services.
-                        </p>
+                            <p>
+                                Accelerating your SDLC with streamlined processes through expert DevOps & Cybersecurity services.
+                            </p>
 
-                        <a href="{{ url('/services/devops-software-development') }}">
-                            Know More
-                        </a>
+                            <a href="{{ url('/services/devops-software-development') }}" class="know-more-btn">
+                                Know More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
 
                     </div>
 
@@ -355,15 +380,17 @@
 
                         <img src="{{ asset('theme/assets/images/resource-1.jpg') }}" alt="Resource Augmentation">
 
-                        <h3>Resource Augmentation</h3>
+                        <div class="card-content">
+                            <h3>Resource Augmentation</h3>
 
-                        <p>
-                            Offering Resource Augmentation for digital transformation who integrate to scale your operations.
-                        </p>
+                            <p>
+                                Offering Resource Augmentation for digital transformation who integrate.
+                            </p>
 
-                        <a href="{{ url('/services/resource-augmentation-services') }}">
-                            Know More
-                        </a>
+                            <a href="{{ url('/services/resource-augmentation-services') }}" class="know-more-btn">
+                                Know More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
 
                     </div>
 
@@ -376,7 +403,14 @@
 
     </div>
 </section>
+
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .services-process{
     background:#f7f7f7;
     padding:80px 0;
@@ -394,10 +428,10 @@
 
 .service-box{
     position:relative;
-    height:520px;
+    height:540px;
 }
 
-/* Colored Background */
+/* Colored Background - All cards now #0a2155 */
 .service-box:before{
     content:"";
     position:absolute;
@@ -408,22 +442,14 @@
     border-radius:22px;
     z-index:1;
     transition:.4s;
+    background:#0a2155;
 }
 
-.blue:before{
-    background:#3d63d7;
-}
-
-.cyan:before{
-    background:#39b8dc;
-}
-
-.purple:before{
-    background:#8755ca;
-}
-
+.blue:before,
+.cyan:before,
+.purple:before,
 .pink:before{
-    background:#e23ba5;
+    background:#0a2155;
 }
 
 /* White Card */
@@ -432,95 +458,132 @@
     top:0;
     left:0;
     width:92%;
-    height:470px;
+    height:490px;
     background:#fff;
     border-radius:18px;
     box-shadow:0 20px 35px rgba(0,0,0,.18);
     z-index:2;
     overflow:hidden;
     transition:.4s;
+    display:flex;
+    flex-direction:column;
 }
 
 .service-box:hover .service-card{
-    transform:translateY(-12px);
+    transform:translateY(-10px);
 }
 
 .service-box:hover:before{
-    transform:translateY(6px);
+    transform:skewY(-6deg) translateY(5px);
 }
 
 /* Image */
 .service-card img{
     width:100%;
-    height:210px;
+    height:200px;
     object-fit:cover;
+    flex-shrink:0;
+}
+
+/* Card Content */
+.card-content{
+    padding:18px 22px 25px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
 }
 
 /* Title */
 .service-card h3{
-    font-size:24px;
+    font-size:22px;
     font-weight:700;
     color:#222;
-    padding:20px 18px 10px;
-    margin:0;
+    margin:0 0 10px 0;
+    line-height:1.3;
+    font-family: 'Poppins', sans-serif;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 /* Description */
 .service-card p{
-    padding:0 22px;
-    font-size:15px;
-    line-height:28px;
+    font-size:14px;
+    line-height:26px;
     color:#666;
-    min-height:115px;
+    margin:0 0 15px 0;
+    flex:1;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
-/* Button */
-.service-card a{
-    display:inline-block;
-    margin-top:10px;
-    font-size:16px;
+/* Know More Button */
+.know-more-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    padding:10px 28px;
+    font-size:14px;
     font-weight:600;
-    color:#111;
+    color:#fff;
+    background:#0a2155;
     text-decoration:none;
+    border-radius:30px;
+    transition:all 0.3s ease;
+    border:2px solid transparent;
+    letter-spacing:0.5px;
+    width:fit-content;
+    min-width:130px;
+    white-space:nowrap;
+    margin-top:auto;
+    font-family: 'Poppins', sans-serif;
+    flex-shrink:0;
 }
 
-.service-card a:hover{
-    color:#0d6efd;
+.know-more-btn i{
+    font-size:12px;
+    transition:transform 0.3s ease;
 }
 
-/* Number Circle */
+.know-more-btn:hover{
+    background:#0d2a6e;
+    color:#fff;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(10,33,85,0.3);
+}
+
+.know-more-btn:hover i{
+    transform:translateX(5px);
+}
+
+/* Number Circle - Changed to #0071dc */
 .number{
     position:absolute;
     left:50%;
-    bottom:-22px;
+    bottom:3px;
     transform:translateX(-50%);
-    width:68px;
-    height:68px;
+    width:70px;
+    height:70px;
     border-radius:50%;
+    background:#0071dc;
+    color:#ffffff !important;
     display:flex;
     align-items:center;
     justify-content:center;
-    color:#fff;
-    font-size:24px;
+    font-size:28px;
     font-weight:700;
-    z-index:3;
-    border:5px solid #fff;
+    z-index:999;
 }
 
-.blue .number{
-    background:#3d63d7;
-}
-
-.cyan .number{
-    background:#39b8dc;
-}
-
-.purple .number{
-    background:#8755ca;
-}
-
+.blue .number,
+.cyan .number,
+.purple .number,
 .pink .number{
-    background:#e23ba5;
+    background:#0071dc;
 }
 
 /* Responsive */
@@ -541,13 +604,50 @@
 .service-card{
     position:relative;
     height:auto;
+    width:100%;
 }
 
 .number{
-    bottom:-35px;
+    bottom:-44px;
 }
 
-}</style>
+.card-content{
+    padding:18px 22px 30px;
+}
+
+.know-more-btn{
+    margin-top:10px;
+    padding:10px 25px;
+    min-width:120px;
+}
+
+.service-card h3{
+    min-height: auto;
+}
+
+.service-card p{
+    display: block;
+}
+
+}
+
+@media (max-width:767px){
+.service-card p{
+    margin-bottom:10px;
+}
+
+.know-more-btn{
+    padding:8px 20px;
+    font-size:13px;
+    min-width:110px;
+}
+
+.service-card h3{
+    font-size:20px;
+    min-height: auto;
+}
+}
+</style>
 
 <section class="work-process-area home_cards pt-80">
 	<div class="container">
@@ -683,7 +783,7 @@
 
 
 <!-- Trust Us Area -->	
-<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+<!-- <div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-12">
@@ -734,8 +834,153 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
+<section class="jfs-choose-section pt-80 pb-80">
+    <div class="container">
 
+         <div class="section-title text-center mb-5">
+            <span class="sp-color2">Why Choose Us</span>
+            <h2 title="Latest Articles from JFS Technologies">
+                Why Businesses Choose JFS Technologies
+            </h2>
+        </div>
+
+        <div class="row align-items-center">
+
+            <!-- Left Image -->
+            <div class="col-lg-5">
+                <div class="choose-image">
+                    <img src="{{ asset('theme') }}/assets/images/team/why_choose.jpeg" alt="">
+                </div>
+            </div>
+
+            <!-- Right Features -->
+            <div class="col-lg-7">
+
+                <div class="feature-grid">
+
+                    <div class="feature-item">
+                        <!-- <div class="number">01</div> -->
+                        <div>
+                            <h4>Custom-built Solutions</h4>
+                            <p>Tailored software crafted around your business goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <!-- <div class="number">02</div> -->
+                        <div>
+                            <h4>Agile Delivery</h4>
+                            <p>Rapid development with continuous improvements.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <!-- <div class="number">03</div> -->
+                        <div>
+                            <h4>AI-first Approach</h4>
+                            <p>Smart automation powered by Artificial Intelligence.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <!-- <div class="number">04</div> -->
+                        <div>
+                            <h4>Transparent Communication</h4>
+                            <p>Complete project visibility and regular updates.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <!-- <div class="number">05</div> -->
+                        <div>
+                            <h4>Enterprise-grade Security</h4>
+                            <p>Secure, scalable and reliable digital solutions.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <!-- <div class="number">06</div> -->
+                        <div>
+                            <h4>Dedicated Support</h4>
+                            <p>Reliable support before, during and after delivery.</p>
+                        </div>
+                    </div>
+					
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<style>
+	.jfs-choose-section{
+    background:#fff;
+}
+
+.choose-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.feature-item{
+    display:flex;
+    gap:20px;
+    padding:25px;
+    border-left:4px solid #0d6efd;
+    background:#f8fbff;
+    transition:.4s;
+}
+
+.feature-item:hover{
+    background:#0d6efd;
+    transform:translateY(-8px);
+}
+
+.feature-item:hover h4,
+.feature-item:hover p,
+.feature-item:hover .number{
+    color:#fff;
+}
+
+.number{
+    font-size:34px;
+    font-weight:800;
+    color:#0d6efd;
+    min-width:60px;
+}
+
+.feature-item h4{
+    font-size:20px;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.feature-item p{
+    margin:0;
+    color:#666;
+    line-height:1.7;
+}
+
+@media(max-width:991px){
+
+.feature-grid{
+    grid-template-columns:1fr;
+    margin-top:40px;
+}
+
+}
+</style>
 <!-- Clientele Area -->
 <div class="brand-area bg-light pt-80 pb-80" data-aos="fade-up" data-aos-duration="750">
 	<div class="container">
@@ -914,70 +1159,139 @@
 </section>
 
 
-<div class="blog-area pt-80 pb-80" data-aos="fade-up" data-aos-duration="750">
-	<div class="container">
-		<div class="section-title text-center">
-			<span class="sp-color2">Latest Blog</span>
-			<h2 title="Latest blog from JFS Technologies">Let’s Check Some Latest Blog</h2>
-		</div>
-		<div class="row pt-45">
-			<div class="col-lg-4 col-md-6">
-				<div class="blog-card">
-					<div class="blog-img">
-						<a href="https://jfstechnologies.com/blog/top-seo-tools-to-boost-your-website-visibility-in-2024/">
-							<img src="{{ asset('theme') }}/assets/images/blog-1.png" alt="Best Data Driven Digital Transformation Services">
-						</a>
-						<div class="blog-tag">
-							<h3>18</h3>
-							<span>Sept</span>
-						</div>
-					</div>
-					<div class="content">
-						<a class="blog-title">Top SEO Tools to Boost Your Website Visibility in 2024</a>
-						<p>Digital marketing is an area that changes all the time, so it’s important for businesses to stay ahead of the curve. Search Engine Optimization (SEO) is still a key part of doing...</p>
-						<a href="https://jfstechnologies.com/blog/top-seo-tools-to-boost-your-website-visibility-in-2024/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="blog-card">
-					<div class="blog-img">
-						<a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/">
-							<img src="{{ asset('theme') }}/assets/images/blog-2.png" alt="Best Data Driven Digital Transformation Services">
-						</a>
-						<div class="blog-tag">
-							<h3>21</h3>
-							<span>Aug</span>
-							</div>
-						</div>
-						<div class="content">
-							<a class="blog-title">How to Choose the Best Free Client Management Software for Your Needs</a>
-							<p>In today’s competitive business landscape, managing client relationships effectively is crucial for success.</p>
-							<a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-					<div class="blog-card">
-						<div class="blog-img">
-							<a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/">
-								<img src="{{ asset('theme') }}/assets/images/blog-3.png" alt="Best Data Driven Digital Transformation Services">
-							</a>
-							<div class="blog-tag">
-								<h3>31</h3>
-								<span>Jul</span>
-							</div>
-						</div>
-						<div class="content">
-						<a class="blog-title">Why Every Business Needs a Digital Marketing Agency</a>
-						<p>In today’s fast-paced digital landscape Why Every Business Needs a Digital Marketing Agency, staying ahead of the competition requires more than just a great product.</p>
-						<a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" class="read-btn">Read More <i class="bx bx-chevron-right"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<section class="blog-area pt-80 pb-80" data-aos="fade-up" data-aos-duration="750">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <span class="sp-color2">Latest Blog</span>
+            <h2 title="Latest Articles from JFS Technologies">
+                Latest Articles from Our Engineering Team
+            </h2>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Blog 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-card h-100">
+
+                    <div class="blog-img">
+                        <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" target="_blank">
+                           <img src="{{ asset('theme') }}/assets/images/blog-3.png"
+                                alt="Custom Software Development vs SaaS">
+                        </a>
+
+                        <div class="blog-tag">
+                            <h3>31</h3>
+                            <span>Jul</span>
+                        </div>
+                    </div>
+
+                    <div class="content">
+
+                        <h3 class="blog-title">
+                            <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" target="_blank">
+                                Why Every Business Needs a Digital Marketing Agency
+                            </a>
+                        </h3>
+
+                        <p>
+                            Discover why partnering with a digital marketing agency helps businesses
+                            improve online visibility, generate quality leads.
+                        </p>
+
+                        <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" class="read-btn" target="_blank">
+                            Read More
+                            <i class="bx bx-chevron-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-card h-100">
+
+                    <div class="blog-img">
+                        <a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" target="_blank">
+                            <img src="{{ asset('theme') }}/assets/images/blog-2.png"
+                                alt="How to Choose the Best Free Client Management Software">
+                        </a>
+
+                        <div class="blog-tag">
+                            <h3>21</h3>
+                            <span>Aug</span>
+                        </div>
+                    </div>
+
+                    <div class="content">
+
+                        <h3 class="blog-title">
+                            <a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" target="_blank">
+                                How to Choose the Best Free Client Management Software
+                            </a>
+                        </h3>
+
+                        <p>
+                            Learn how to select the right client management software that improves
+                            customer relationships, productivity, and business growth.
+                        </p>
+
+                        <a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn" target="_blank">
+                            Read More
+                            <i class="bx bx-chevron-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Blog 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-card h-100">
+
+                    <div class="blog-img">
+                        <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" target="_blank">
+                            <img src="{{ asset('theme') }}/assets/images/blog-4.png"
+                                alt="Custom Software Development vs SaaS">
+                        </a>
+
+                        <div class="blog-tag">
+                            <h3>29</h3>
+                            <span>Jul</span>
+                        </div>
+                    </div>
+
+                    <div class="content">
+
+                        <h3 class="blog-title">
+                            <a href="https://jfstechnologies.com/blogs/custom-software-development-vs-saas" target="_blank">
+                                Custom Software Development vs SaaS: Which One is Right for Your Business?
+                            </a>
+                        </h3>
+
+                        <p>
+                            Compare custom software development and SaaS solutions to determine
+                            
+                        </p>
+
+                        <a href="https://jfstechnologies.com/blogs/custom-software-development-vs-saas" class="read-btn" target="_blank">
+                            Read More
+                            <i class="bx bx-chevron-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
