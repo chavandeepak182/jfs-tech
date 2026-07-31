@@ -148,7 +148,7 @@
 
 <section class="video bg-dark" data-aos="zoom-in-right" data-aos-duration="700">
 	<video preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-		<source src="https://jfstechnologies.com/theme/assets/images/intro.mp4" type="video/mp4">
+		<source src="{{ asset('theme/assets/images/intro-1.mp4') }}" type="video/mp4">
 		<source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">Sorry, your browser does not support HTML5 video.
 	</video>
 </section>
@@ -1080,7 +1080,7 @@
 			<div class="case-study-item">
 				<a href="{{ url('/success-stories') }}">
 					<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-					<img src="https://img.freepik.com/premium-photo/ecommerce-market-shopping-online-vector-illustration_1121250-166764.jpg" alt="Best Data Driven Digital Transformation Services">
+					<img src="{{ asset('theme/assets/images/case-study/e-commerce-platform.avif') }}" alt="E-Commerce Platform UI/UX Redesign">
 				</a>
 				<div class="content">
 					<a href="{{ url('/success-stories') }}">E-Commerce Platform UI/UX Redesign</a>
@@ -1090,7 +1090,7 @@
 			<div class="case-study-item">
 				<a href="{{ url('/success-stories') }}">
 					<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-					<img src="https://img.freepik.com/free-photo/man-designing-websites-high-angle_23-2149930945.jpg?t=st=1733395227~exp=1733398827~hmac=58abe747fe9042ef67ce04b577ededb45f4d93fa689081079ed2a842bd37b700" alt="Best Data Driven Digital Transformation Services">
+					<img src="{{ asset('theme/assets/images/case-study/mobile-app.avif') }}" alt="Mobile App UX Optimization">
 				</a>
 				<div class="content">
 					<a href="{{ url('/success-stories') }}">Mobile App UX Optimization</a>
@@ -1099,8 +1099,7 @@
 			</div>
 			<div class="case-study-item">
 				<a href="{{ url('/success-stories') }}">
-					<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study1.jpg" alt="Images"> -->
-					<img src="https://img.freepik.com/free-photo/neon-hologram-tiger_23-2151558738.jpg?t=st=1733395368~exp=1733398968~hmac=4b5fb495db5f47616159f02bc9725ea07a4f9ebd14fa0df005030a92e916e1cd" alt="Best Data Driven Digital Transformation Services">
+                    <img src="{{ asset('theme/assets/images/case-study/3d-vis.avif') }}" alt="3D Visualization for a Product Launch">
 				</a>
 				<div class="content">
 					<a href="{{ url('/success-stories') }}">3D Visualization for a Product Launch</a>
@@ -1109,8 +1108,7 @@
 			</div>
 			<div class="case-study-item">
 				<a href="{{ url('/success-stories') }}">
-					<!-- <img src="{{ asset('theme') }}/assets/images/case-study/case-study3.jpg" alt="Images"> -->
-					<img src="https://img.freepik.com/free-vector/cloud-storage-realistic-composition-with-digital-elements-bright-lights-city_1284-26975.jpg?t=st=1733398978~exp=1733402578~hmac=fe1634140eb1b7b4fb612119759994de86cad40c5c362a872ec8521ae6dada4a" alt="Best Data Driven Digital Transformation Services">
+                    <img src="{{ asset('theme/assets/images/case-study/secure-cloud.avif') }}" alt="Secure Cloud Migration">
 				</a>
 				<div class="content">
 					<a href="{{ url('/success-stories') }}">Secure Cloud Migration</a>
