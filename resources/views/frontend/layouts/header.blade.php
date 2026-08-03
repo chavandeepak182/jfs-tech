@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	 <!-- Preconnect for critical third-party domains -->
+    <link rel="preconnect" href="https://consent.cookiebot.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://consent.cookiebot.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" ...></script>
 	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="YOUR-COOKIEBOT-ID" type="text/javascript" async></script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,8 +43,7 @@
 	
 	<!-- fancybox -->
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
-	<!-- magnific-popup -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+	
 	<!-- Google Tag Manager -->
 
 
@@ -78,12 +87,6 @@ style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Google Tag Manager (noscript) -->
 
 
-<noscript><iframe
-src="https://www.googletagmanager.com/ns.html?id=GTM-TBK8PBWM"
-
-
-height="0" width="0"
-style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- End Google Tag Manager (noscript) -->
@@ -198,20 +201,6 @@ style="display:none;visibility:hidden"></iframe></noscript>
     {{-- end main content --}}
 
     @include('frontend.layouts.footer')  
-	
-	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
-		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-		(function(){
-			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-			s1.async=true;
-			s1.src='https://embed.tawk.to/66a25e5ebecc2fed692b09dd/1i3l418j6';
-			s1.charset='UTF-8';
-			s1.setAttribute('crossorigin','*');
-			s0.parentNode.insertBefore(s1,s0);
-		})();
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-	<!--End of Tawk.to Script-->
+
 </body>
 </html>
