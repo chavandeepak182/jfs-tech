@@ -4343,4 +4343,257 @@ pert-tech ul li img {
   box-shadow: 0 5px 20px #e8e8e8;
 }
 
+/* =============================================
+   CUSTOM STYLES - SERVICES PROCESS SECTION
+   ============================================= */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Apply Poppins font globally to services sections */
+.services-process * {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== SERVICES PROCESS SECTION ===== */
+.services-process {
+    background: #f7f7f7;
+    padding: 80px 0;
+}
+
+.services-process .row {
+    row-gap: 40px;
+}
+
+/* Card Space */
+.services-process .col-lg-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ===== SERVICE BOX ===== */
+.service-box {
+    position: relative;
+    height: 540px;
+}
+
+/* Colored Background - All cards #0a2155 */
+.service-box:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    right: -8px;
+    bottom: -18px;
+    border-radius: 22px;
+    z-index: 1;
+    transition: .4s;
+    background: #0a2155;
+}
+
+.blue:before,
+.cyan:before,
+.purple:before,
+.pink:before {
+    background: #0a2155;
+}
+
+/* ===== SERVICE CARD ===== */
+.service-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92%;
+    height: 490px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .18);
+    z-index: 2;
+    overflow: hidden;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-box:hover .service-card {
+    transform: translateY(-10px);
+}
+
+.service-box:hover:before {
+    transform: skewY(-6deg) translateY(5px);
+}
+
+/* ===== IMAGE ===== */
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* ===== CARD CONTENT ===== */
+.card-content {
+    padding: 18px 22px 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ===== TITLE ===== */
+.service-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+/* ===== DESCRIPTION ===== */
+.service-card p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    margin: 0 0 15px 0;
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+/* ===== KNOW MORE BUTTON ===== */
+.know-more-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #0a2155;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    letter-spacing: 0.5px;
+    width: fit-content;
+    min-width: 130px;
+    white-space: nowrap;
+    margin-top: auto;
+    font-family: 'Poppins', sans-serif;
+    flex-shrink: 0;
+}
+
+.know-more-btn i {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.know-more-btn:hover {
+    background: #0d2a6e;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(10, 33, 85, 0.3);
+}
+
+.know-more-btn:hover i {
+    transform: translateX(5px);
+}
+
+/* ===== NUMBER CIRCLE ===== */
+.number {
+    position: absolute;
+    left: 50%;
+    bottom: 3px;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #0071dc;
+    color: #ffffff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    z-index: 999;
+}
+
+.blue .number,
+.cyan .number,
+.purple .number,
+.pink .number {
+    background: #0071dc;
+}
+
+/* =============================================
+   RESPONSIVE DESIGN
+   ============================================= */
+
+/* Tablets */
+@media (max-width: 991px) {
+    .services-process .row {
+        row-gap: 70px;
+    }
+
+    .service-box {
+        height: auto;
+    }
+
+    .service-box:before {
+        display: none;
+    }
+
+    .service-card {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .number {
+        bottom: -44px;
+    }
+
+    .card-content {
+        padding: 18px 22px 30px;
+    }
+
+    .know-more-btn {
+        margin-top: 10px;
+        padding: 10px 25px;
+        min-width: 120px;
+    }
+
+    .service-card h3 {
+        min-height: auto;
+    }
+
+    .service-card p {
+        display: block;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .service-card p {
+        margin-bottom: 10px;
+    }
+
+    .know-more-btn {
+        padding: 8px 20px;
+        font-size: 13px;
+        min-width: 110px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+        min-height: auto;
+    }
+}
 

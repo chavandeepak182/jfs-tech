@@ -7,15 +7,6 @@
 <meta name="robots" content="index, follow">
 @endsection
 @section('schema')
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG94TD129M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LG94TD129M');
-</script>
 
 <script type="application/ld+json">
 {
@@ -137,7 +128,7 @@
 			<div class="col-lg-6">
 				<div class="about-content ml-25" data-aos="fade-down" data-aos-duration="700">
 					<div class="section-title text-center">
-						<img src="{{ asset('theme') }}/assets/images/stats.webp" alt="Impact in numbers">
+						<img src="{{ asset('theme') }}/assets/images/stats.webp" loading="lazy" width="800" height="600" alt="Impact in numbers">
 					</div>
 				</div>
 			</div>
@@ -146,11 +137,10 @@
 </div>
 
 
-<section class="video bg-dark" data-aos="zoom-in-right" data-aos-duration="700">
-	<video preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-		<source src="{{ asset('theme/assets/images/intro-1.mp4') }}" type="video/mp4">
-		<source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">Sorry, your browser does not support HTML5 video.
-	</video>
+<section class="video bg-dark">
+    <video preload="metadata" autoplay muted loop playsinline poster="{{ asset('theme/assets/images/video-poster.webp') }}">
+        <source src="{{ asset('theme/assets/images/intro-1.mp4') }}" type="video/mp4">
+    </video>
 </section>
 
 <div class="case-study-area pt-80 pb-80">
@@ -404,250 +394,6 @@
     </div>
 </section>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
-* {
-    font-family: 'Poppins', sans-serif;
-}
-
-.services-process{
-    background:#f7f7f7;
-    padding:80px 0;
-}
-
-.services-process .row{
-    row-gap:40px;
-}
-
-/* Card Space */
-.services-process .col-lg-3{
-    padding-left:15px;
-    padding-right:15px;
-}
-
-.service-box{
-    position:relative;
-    height:540px;
-}
-
-/* Colored Background - All cards now #0a2155 */
-.service-box:before{
-    content:"";
-    position:absolute;
-    top:18px;
-    left:18px;
-    right:-8px;
-    bottom:-18px;
-    border-radius:22px;
-    z-index:1;
-    transition:.4s;
-    background:#0a2155;
-}
-
-.blue:before,
-.cyan:before,
-.purple:before,
-.pink:before{
-    background:#0a2155;
-}
-
-/* White Card */
-.service-card{
-    position:absolute;
-    top:0;
-    left:0;
-    width:92%;
-    height:490px;
-    background:#fff;
-    border-radius:18px;
-    box-shadow:0 20px 35px rgba(0,0,0,.18);
-    z-index:2;
-    overflow:hidden;
-    transition:.4s;
-    display:flex;
-    flex-direction:column;
-}
-
-.service-box:hover .service-card{
-    transform:translateY(-10px);
-}
-
-.service-box:hover:before{
-    transform:skewY(-6deg) translateY(5px);
-}
-
-/* Image */
-.service-card img{
-    width:100%;
-    height:200px;
-    object-fit:cover;
-    flex-shrink:0;
-}
-
-/* Card Content */
-.card-content{
-    padding:18px 22px 25px;
-    flex:1;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-}
-
-/* Title */
-.service-card h3{
-    font-size:22px;
-    font-weight:700;
-    color:#222;
-    margin:0 0 10px 0;
-    line-height:1.3;
-    font-family: 'Poppins', sans-serif;
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-}
-
-/* Description */
-.service-card p{
-    font-size:14px;
-    line-height:26px;
-    color:#666;
-    margin:0 0 15px 0;
-    flex:1;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-}
-
-/* Know More Button */
-.know-more-btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    gap:8px;
-    padding:10px 28px;
-    font-size:14px;
-    font-weight:600;
-    color:#fff;
-    background:#0a2155;
-    text-decoration:none;
-    border-radius:30px;
-    transition:all 0.3s ease;
-    border:2px solid transparent;
-    letter-spacing:0.5px;
-    width:fit-content;
-    min-width:130px;
-    white-space:nowrap;
-    margin-top:auto;
-    font-family: 'Poppins', sans-serif;
-    flex-shrink:0;
-}
-
-.know-more-btn i{
-    font-size:12px;
-    transition:transform 0.3s ease;
-}
-
-.know-more-btn:hover{
-    background:#0d2a6e;
-    color:#fff;
-    transform:translateY(-2px);
-    box-shadow:0 8px 20px rgba(10,33,85,0.3);
-}
-
-.know-more-btn:hover i{
-    transform:translateX(5px);
-}
-
-/* Number Circle - Changed to #0071dc */
-.number{
-    position:absolute;
-    left:50%;
-    bottom:3px;
-    transform:translateX(-50%);
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    background:#0071dc;
-    color:#ffffff !important;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:28px;
-    font-weight:700;
-    z-index:999;
-}
-
-.blue .number,
-.cyan .number,
-.purple .number,
-.pink .number{
-    background:#0071dc;
-}
-
-/* Responsive */
-@media (max-width:991px){
-
-.services-process .row{
-    row-gap:70px;
-}
-
-.service-box{
-    height:auto;
-}
-
-.service-box:before{
-    display:none;
-}
-
-.service-card{
-    position:relative;
-    height:auto;
-    width:100%;
-}
-
-.number{
-    bottom:-44px;
-}
-
-.card-content{
-    padding:18px 22px 30px;
-}
-
-.know-more-btn{
-    margin-top:10px;
-    padding:10px 25px;
-    min-width:120px;
-}
-
-.service-card h3{
-    min-height: auto;
-}
-
-.service-card p{
-    display: block;
-}
-
-}
-
-@media (max-width:767px){
-.service-card p{
-    margin-bottom:10px;
-}
-
-.know-more-btn{
-    padding:8px 20px;
-    font-size:13px;
-    min-width:110px;
-}
-
-.service-card h3{
-    font-size:20px;
-    min-height: auto;
-}
-}
-</style>
 
 <section class="work-process-area home_cards pt-80">
 	<div class="container">
@@ -782,59 +528,6 @@
 </div>
 
 
-<!-- Trust Us Area -->	
-<!-- <div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
-	<div class="container">
-		<div class="row justify-content-center align-items-center">
-			<div class="col-lg-12">
-				<div class="choose-content mr-20">
-					<div class="section-title mb-5 text-center">
-						<span class="sp-color1"></span>
-						<h2>Why Choose JFS Technologies?</h2>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 col-6">
-							<div class="choose-content-card">
-								<div class="content">
-									<img src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" alt="" width="90">
-									<p class="title pt-3">Tailored Solutions</p>
-								</div>
-								<p>Each service is expertly tailored to meet your unique business challenges, objectives, and long-term growth and success goals.</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-6">
-							<div class="choose-content-card">
-								<div class="content">
-									<img src="{{ asset('theme') }}/assets/images/icons/nano.png" alt="" width="90">
-									<p class="title pt-3">Technology Prowess</p>
-								</div>
-								<p>Our team brings deep expertise across diverse technologies, ensuring innovative, secure, scalable, and future-proof solutions.</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-6">
-							<div class="choose-content-card">
-								<div class="content">
-									<img src="{{ asset('theme') }}/assets/images/icons/market-share.png" alt="" width="90">
-									<p class="title pt-3">Proven Track Record</p>
-								</div>
-								<p>We’ve helped numerous businesses transform their digital strategies, achieving significant and measurable growth.</p>
-							</div>
-						</div>
-						<div class="col-lg-3 col-6">
-							<div class="choose-content-card">
-								<div class="content">
-									<img src="{{ asset('theme') }}/assets/images/icons/gdp.png" alt="" width="90">
-									<p class="title pt-3">Global Client Base</p>
-								</div>
-								<p>With experience serving businesses globally, we ensure seamless execution and world-class service no matter where you are.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> -->
 <section class="jfs-choose-section pt-80 pb-80">
     <div class="container">
 
@@ -850,7 +543,7 @@
             <!-- Left Image -->
             <div class="col-lg-5">
                 <div class="choose-image">
-                    <img src="{{ asset('theme') }}/assets/images/team/why_choose.jpeg" alt="">
+                    <img src="{{ asset('theme') }}/assets/images/team/why_choose.jpeg" loading="lazy" width="800" height="600" alt="why choose">
                 </div>
             </div>
 
@@ -1291,7 +984,6 @@
     </div>
 </section>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 	$(document).ready(function() {
 		$('#contactForm').on('submit', function(e) {
