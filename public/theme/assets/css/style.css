@@ -767,16 +767,17 @@ ul.nav-list li {
   background-image:url('../images/hero.webp');
 }
 
-.banner-area::before{
-  content:"";
-  position:absolute;
-  z-index:-1;
-  top:0;
-  left:0;
-  right:0;
-  width:100%;
-  height:100%;
-  /* background-image:linear-gradient(to right,rgba(37,37,37,0.7490196078),rgba(37,37,37,0)); */
+.banner-area::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0a2155;
+    opacity: 0.4;  /* Changed from 0.7 to 0.4 - makes overlay lighter */
 }
   
 .banner-item-ptb {

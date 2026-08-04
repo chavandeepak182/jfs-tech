@@ -63,13 +63,99 @@
             max-height: 50px;
             width: auto;
         }
+        
+        /* ⬇️ IMPROVED BANNER STYLES ⬇️ */
         .banner-area {
             min-height: 400px;
             display: flex;
             align-items: center;
             background: #0a2155;
             color: #fff;
+            position: relative;
+            z-index: 1;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
+        
+        .banner-area::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0a2155;
+            opacity: 0.7;
+        }
+        
+        .banner-item-content {
+            position: relative;
+            z-index: 2;
+            padding-top: 125px;
+            padding-bottom: 125px;
+        }
+        
+        .banner-item-content h1 {
+            margin-top: 0;
+            font-size: 50px;
+            color: #fff;
+            font-weight: 700;
+            max-width: 780px;
+            margin-bottom: 20px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+        
+        .banner-item-content p {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 400;
+            max-width: 660px;
+            margin-bottom: 35px;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+        }
+        
+        .banner-item-content p a {
+            color: #FFF;
+            text-decoration: underline;
+        }
+        
+        .banner-btn a {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ffc221;
+            color: #0a2155;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .banner-btn a:hover {
+            background: #e6a800;
+            transform: scale(1.05);
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .banner-item-content {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+            .banner-item-content h1 {
+                font-size: 28px;
+            }
+            .banner-item-content p {
+                font-size: 14px;
+            }
+        }
+        /* ⬆️ END BANNER STYLES ⬆️ */
         
         /* ===== FIX: Prevent FOUC for carousels ===== */
         .brand-slider,
@@ -100,6 +186,7 @@
     <link rel="preload" href="{{ asset('theme') }}/assets/css/bootstrap.min.css" as="style">
     <link rel="preload" href="{{ asset('theme') }}/assets/css/style.css" as="style">
     <link rel="preload" href="{{ asset('theme') }}/assets/css/boxicons.min.css" as="style">
+    <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero.webp" fetchpriority="high">
 
     <!-- ============================================
     CRITICAL CSS (Loaded normally)
@@ -126,6 +213,17 @@
     ============================================ -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <style>
+        /* Fallback font while Poppins loads */
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+        }
+        /* Add font-display: swap to ensure text is visible */
+        @font-face {
+            font-family: 'Poppins';
+            font-display: swap;
+        }
+    </style>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" media="print" onload="this.media='all'">
 
