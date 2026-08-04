@@ -32,153 +32,178 @@
     @yield('canonical')
     @yield('og_tags')
 
-    <!-- ============================================
-    CRITICAL CSS (Inline)
-    ============================================ -->
-    <style>
-        /* Critical styles for fast initial render */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-        }
-        .nav {
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: relative;
-            z-index: 1000;
-        }
-        .nav .wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .logo img {
-            max-height: 50px;
-            width: auto;
-        }
-        
-        /* ⬇️ IMPROVED BANNER STYLES ⬇️ */
-        .banner-area {
-            min-height: 400px;
-            display: flex;
-            align-items: center;
-            background: #0a2155;
-            color: #fff;
-            position: relative;
-            z-index: 1;
-            background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        
-        .banner-area::before {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            top: 0;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #0a2155;
-            opacity: 0.7;
-        }
-        
+   <style>
+    /* Critical styles for fast initial render */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        position: relative;
+        z-index: 1000;
+    }
+    .nav .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .logo img {
+        max-height: 50px;
+        width: auto;
+    }
+    
+    /* ⬇️ IMPROVED BANNER STYLES ⬇️ */
+    .banner-area {
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        background: #0a2155;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('{{ asset('theme') }}/assets/images/hero.webp');
+    }
+    
+    .banner-area::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0a2155;
+        opacity: 0.3;
+    }
+    
+    .banner-item-content {
+        position: relative;
+        z-index: 2;
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    
+    .banner-item-content h1 {
+        margin-top: 0;
+        font-size: 50px;
+        color: #fff;
+        font-weight: 700;
+        max-width: 780px;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+    
+    .banner-item-content p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        max-width: 660px;
+        margin-bottom: 35px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+    }
+    
+    .banner-item-content p a {
+        color: #FFF;
+        text-decoration: underline;
+    }
+    
+    .banner-btn a {
+        display: inline-block;
+        padding: 12px 30px;
+        background: #ffc221;
+        color: #0a2155;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.3s;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .banner-btn a:hover {
+        background: #e6a800;
+        transform: scale(1.05);
+    }
+    
+    /* Mobile responsive */
+    @media (max-width: 768px) {
         .banner-item-content {
-            position: relative;
-            z-index: 2;
-            padding-top: 125px;
-            padding-bottom: 125px;
+            padding-top: 80px;
+            padding-bottom: 80px;
         }
-        
         .banner-item-content h1 {
-            margin-top: 0;
-            font-size: 50px;
-            color: #fff;
-            font-weight: 700;
-            max-width: 780px;
-            margin-bottom: 20px;
-            font-family: 'Poppins', sans-serif;
-            text-transform: uppercase;
-            line-height: 1.2;
+            font-size: 28px;
         }
-        
         .banner-item-content p {
-            font-size: 18px;
-            color: #fff;
-            font-weight: 400;
-            max-width: 660px;
-            margin-bottom: 35px;
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.6;
+            font-size: 14px;
         }
-        
-        .banner-item-content p a {
-            color: #FFF;
-            text-decoration: underline;
+        .banner-area {
+            background-image: url('{{ asset('theme') }}/assets/images/hero-mobile.webp');
+            min-height: 350px;
         }
-        
+    }
+    
+    @media (max-width: 576px) {
+        .banner-item-content {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .banner-item-content h1 {
+            font-size: 24px;
+        }
         .banner-btn a {
-            display: inline-block;
-            padding: 12px 30px;
-            background: #ffc221;
-            color: #0a2155;
-            border-radius: 50px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: 0.3s;
-            font-family: 'Poppins', sans-serif;
+            padding: 10px 20px;
+            font-size: 14px;
         }
-        
-        .banner-btn a:hover {
-            background: #e6a800;
-            transform: scale(1.05);
+        .banner-area {
+            min-height: 300px;
         }
-        
-        /* Mobile responsive */
-        @media (max-width: 768px) {
-            .banner-item-content {
-                padding-top: 80px;
-                padding-bottom: 80px;
-            }
-            .banner-item-content h1 {
-                font-size: 28px;
-            }
-            .banner-item-content p {
-                font-size: 14px;
-            }
+    }
+    
+    @media (max-width: 1024px) and (min-width: 769px) {
+        .banner-area {
+            background-image: url('{{ asset('theme') }}/assets/images/hero-tablet.webp');
         }
-        /* ⬆️ END BANNER STYLES ⬆️ */
-        
-        /* ===== FIX: Prevent FOUC for carousels ===== */
-        .brand-slider,
-        .case-study-slider,
-        .clients-slider {
-            visibility: hidden;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        .brand-slider.owl-loaded,
-        .case-study-slider.owl-loaded,
-        .clients-slider.owl-loaded {
-            visibility: visible;
-            opacity: 1;
-        }
-        /* Ensure carousel items don't stack */
-        .owl-carousel .owl-stage-outer {
-            overflow: hidden;
-        }
-        .owl-carousel .owl-item {
-            float: left;
-        }
-    </style>
+    }
+    /* ⬆️ END BANNER STYLES ⬆️ */
+    
+    /* ===== FIX: Prevent FOUC for carousels ===== */
+    .brand-slider,
+    .case-study-slider,
+    .clients-slider {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .brand-slider.owl-loaded,
+    .case-study-slider.owl-loaded,
+    .clients-slider.owl-loaded {
+        visibility: visible;
+        opacity: 1;
+    }
+    /* Ensure carousel items don't stack */
+    .owl-carousel .owl-stage-outer {
+        overflow: hidden;
+    }
+    .owl-carousel .owl-item {
+        float: left;
+    }
+</style>
 
     <!-- ============================================
     PRELOAD CRITICAL CSS
@@ -187,12 +212,16 @@
     <link rel="preload" href="{{ asset('theme') }}/assets/css/style.css" as="style">
     <link rel="preload" href="{{ asset('theme') }}/assets/css/boxicons.min.css" as="style">
     <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero.webp" fetchpriority="high">
+    <link rel="preload" as="font" href="{{ asset('theme') }}/assets/fonts/boxicons.woff2" type="font/woff2" crossorigin="anonymous">
 
     <!-- ============================================
     CRITICAL CSS (Loaded normally)
     ============================================ -->
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css">
+    </noscript>
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/fonts/flaticon.css">
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/style.css">
 
@@ -208,19 +237,28 @@
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css" media="print" onload="this.media='all'">
 
-    <!-- ============================================
-    EXTERNAL FONTS & LIBRARIES
+   <!-- ============================================
+    EXTERNAL FONTS & LIBRARIES (Optimized with font-display)
     ============================================ -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </noscript>
+
     <style>
-        /* Fallback font while Poppins loads */
-        body {
-            font-family: 'Poppins', Arial, sans-serif;
-        }
-        /* Add font-display: swap to ensure text is visible */
+        /* Force font-display: swap for all fonts */
         @font-face {
             font-family: 'Poppins';
+            font-display: swap;
+        }
+        /* Fallback font while Poppins loads */
+        body {
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        }
+        /* Apply to all elements */
+        * {
             font-display: swap;
         }
     </style>
