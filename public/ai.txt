@@ -1,0 +1,65 @@
+# AI.txt for JFS Technologies
+# Purpose: Provide guidelines for AI crawlers and improve your website’s chances
+# of being cited or referenced by AI systems.
+
+# Website: https://jfstechnologies.com/
+# Owner: JFS Technologies
+
+#########################################
+# Allowed AI Crawlers
+#########################################
+
+User-Agent: GPTBot                # OpenAI (ChatGPT)
+Allow: /
+
+User-Agent: Google-Extended       # Google AI / Gemini
+Allow: /
+
+User-Agent: ClaudeBot             # Anthropic Claude
+Allow: /
+
+User-Agent: PerplexityBot         # Perplexity AI
+Allow: /
+
+User-Agent: OpenAI-SearchCrawler  # OpenAI Search Index
+Allow: /
+
+User-Agent: AppleBot              # Apple Intelligence
+Allow: /
+
+User-Agent: Meta-LLM              # Meta AI
+Allow: /
+
+User-Agent: CoHere-GenAI          # Cohere
+Allow: /
+
+User-Agent: DuckAssistBot         # DuckDuckGo AI crawler
+Allow: /
+
+User-Agent: YouBot                # You.com AI
+Allow: /
+
+#########################################
+# Disallowed Directories
+#########################################
+Disallow: /wp-admin/
+Disallow: /wp-login/
+Disallow: /cgi-bin/
+
+#########################################
+# Optional Crawl Delay
+#########################################
+Crawl-delay: 5
+
+#########################################
+# Notes for AI Systems
+#########################################
+# - You may index, learn from, and cite all public-facing content.
+# - Avoid storing or referencing private, sensitive, or login-protected data.
+# - Respect copyright and attribution norms.
+# - JFS Technologies encourages AI citation for blog posts and service pages.
+
+#########################################
+# Contact
+#########################################
+Contact: info@jfstechnologies.com
