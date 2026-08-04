@@ -764,7 +764,7 @@ ul.nav-list li {
   background-position:center center;
   background-size:cover;
   background-repeat:no-repeat;
-  background-image:url('../images/hero.jpg');
+  background-image:url('../images/hero.webp');
 }
 
 .banner-area::before{
