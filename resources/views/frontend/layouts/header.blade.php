@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- ============================================
-    RESOURCE HINTS
+    RESOURCE HINTS - EARLY CONNECTIONS
     ============================================ -->
     <link rel="preconnect" href="https://consent.cookiebot.com">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -13,6 +13,7 @@
     <link rel="dns-prefetch" href="https://consent.cookiebot.com">
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     
     <!-- ============================================
     COOKIE CONSENT
@@ -32,201 +33,237 @@
     @yield('canonical')
     @yield('og_tags')
 
-   <style>
-    /* Critical styles for fast initial render */
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Poppins', sans-serif;
-    }
-    .nav {
-        display: flex;
-        align-items: center;
-        padding: 0 20px;
-        background: #fff;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        position: relative;
-        z-index: 1000;
-    }
-    .nav .wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    .logo img {
-        max-height: 50px;
-        width: auto;
-    }
-    
-    /* ⬇️ IMPROVED BANNER STYLES ⬇️ */
-    .banner-area {
-        min-height: 400px;
-        display: flex;
-        align-items: center;
-        background: #0a2155;
-        color: #fff;
-        position: relative;
-        z-index: 1;
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url('{{ asset('theme') }}/assets/images/hero.webp');
-    }
-    
-    .banner-area::before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #0a2155;
-        opacity: 0.3;
-    }
-    
-    .banner-item-content {
-        position: relative;
-        z-index: 2;
-        padding-top: 125px;
-        padding-bottom: 125px;
-    }
-    
-    .banner-item-content h1 {
-        margin-top: 0;
-        font-size: 50px;
-        color: #fff;
-        font-weight: 700;
-        max-width: 780px;
-        margin-bottom: 20px;
-        font-family: 'Poppins', sans-serif;
-        text-transform: uppercase;
-        line-height: 1.2;
-    }
-    
-    .banner-item-content p {
-        font-size: 18px;
-        color: #fff;
-        font-weight: 400;
-        max-width: 660px;
-        margin-bottom: 35px;
-        font-family: 'Poppins', sans-serif;
-        line-height: 1.6;
-    }
-    
-    .banner-item-content p a {
-        color: #FFF;
-        text-decoration: underline;
-    }
-    
-    .banner-btn a {
-        display: inline-block;
-        padding: 12px 30px;
-        background: #ffc221;
-        color: #0a2155;
-        border-radius: 50px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: 0.3s;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    .banner-btn a:hover {
-        background: #e6a800;
-        transform: scale(1.05);
-    }
-    
-    /* Mobile responsive */
-    @media (max-width: 768px) {
+    <!-- ============================================
+    CRITICAL CSS (Inline - Loads with HTML)
+    ============================================ -->
+    <style>
+        /* ===== RESET & BASE ===== */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: #fff;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* ===== NAVIGATION ===== */
+        .nav {
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 1000;
+        }
+        .nav .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo img {
+            max-height: 50px;
+            width: auto;
+        }
+        
+        /* ===== BANNER - LCP CRITICAL ===== */
+        .banner-area {
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            background: #0a2155;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url('{{ asset('theme') }}/assets/images/hero-desktop.webp');
+            will-change: transform;
+            contain: layout style paint;
+        }
+        
+        .banner-area::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0a2155;
+            opacity: 0.3;
+        }
+        
         .banner-item-content {
-            padding-top: 80px;
-            padding-bottom: 80px;
+            position: relative;
+            z-index: 2;
+            padding-top: 125px;
+            padding-bottom: 125px;
+            contain: layout style paint;
         }
+        
         .banner-item-content h1 {
-            font-size: 28px;
+            margin-top: 0;
+            font-size: clamp(28px, 5vw, 50px);
+            color: #fff;
+            font-weight: 700;
+            max-width: 780px;
+            margin-bottom: 20px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            line-height: 1.2;
         }
+        
         .banner-item-content p {
-            font-size: 14px;
+            font-size: clamp(14px, 2vw, 18px);
+            color: #fff;
+            font-weight: 400;
+            max-width: 660px;
+            margin-bottom: 35px;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
         }
-        .banner-area {
-            background-image: url('{{ asset('theme') }}/assets/images/hero-mobile.webp');
-            min-height: 350px;
+        
+        .banner-item-content p a {
+            color: #FFF;
+            text-decoration: underline;
         }
-    }
-    
-    @media (max-width: 576px) {
-        .banner-item-content {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-        .banner-item-content h1 {
-            font-size: 24px;
-        }
+        
         .banner-btn a {
-            padding: 10px 20px;
-            font-size: 14px;
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ffc221;
+            color: #0a2155;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s;
+            font-family: 'Poppins', sans-serif;
         }
-        .banner-area {
-            min-height: 300px;
+        
+        .banner-btn a:hover {
+            background: #e6a800;
+            transform: scale(1.05);
         }
-    }
-    
-    @media (max-width: 1024px) and (min-width: 769px) {
-        .banner-area {
-            background-image: url('{{ asset('theme') }}/assets/images/hero-tablet.webp');
+        
+        /* ===== RESPONSIVE IMAGES ===== */
+        /* Desktop (1025px+) - Already set above */
+        
+        /* Tablet (769px - 1024px) */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            .banner-area {
+                background-image: url('{{ asset('theme') }}/assets/images/hero-tablet.webp');
+                min-height: 450px;
+            }
         }
-    }
-    /* ⬆️ END BANNER STYLES ⬆️ */
-    
-    /* ===== FIX: Prevent FOUC for carousels ===== */
-    .brand-slider,
-    .case-study-slider,
-    .clients-slider {
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-    .brand-slider.owl-loaded,
-    .case-study-slider.owl-loaded,
-    .clients-slider.owl-loaded {
-        visibility: visible;
-        opacity: 1;
-    }
-    /* Ensure carousel items don't stack */
-    .owl-carousel .owl-stage-outer {
-        overflow: hidden;
-    }
-    .owl-carousel .owl-item {
-        float: left;
-    }
-</style>
+        
+        /* Mobile (576px - 768px) */
+        @media (max-width: 768px) {
+            .banner-area {
+                background-image: url('{{ asset('theme') }}/assets/images/hero-mobile.webp');
+                min-height: 380px;
+            }
+            .banner-item-content {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+            .banner-item-content h1 {
+                font-size: 28px;
+            }
+            .banner-item-content p {
+                font-size: 14px;
+            }
+        }
+        
+        /* Small Mobile (below 576px) */
+        @media (max-width: 576px) {
+            .banner-area {
+                min-height: 320px;
+            }
+            .banner-item-content {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            .banner-item-content h1 {
+                font-size: 24px;
+            }
+            .banner-btn a {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+        
+        /* ===== FOUC FIX FOR CAROUSELS ===== */
+        .brand-slider,
+        .case-study-slider,
+        .clients-slider {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .brand-slider.owl-loaded,
+        .case-study-slider.owl-loaded,
+        .clients-slider.owl-loaded {
+            visibility: visible;
+            opacity: 1;
+        }
+        .owl-carousel .owl-stage-outer {
+            overflow: hidden;
+        }
+        .owl-carousel .owl-item {
+            float: left;
+        }
+        
+        /* ===== FONT DISPLAY ===== */
+        @font-face {
+            font-family: 'Poppins';
+            font-display: swap;
+        }
+        * {
+            font-display: swap;
+        }
+    </style>
 
     <!-- ============================================
-    PRELOAD CRITICAL CSS
+    PRELOAD CRITICAL RESOURCES
     ============================================ -->
+    <!-- Preload CSS -->
     <link rel="preload" href="{{ asset('theme') }}/assets/css/bootstrap.min.css" as="style">
     <link rel="preload" href="{{ asset('theme') }}/assets/css/style.css" as="style">
     <link rel="preload" href="{{ asset('theme') }}/assets/css/boxicons.min.css" as="style">
-    <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero.webp" fetchpriority="high">
+    
+    <!-- Preload Hero Images with Media Queries -->
+    <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-desktop.webp" fetchpriority="high" media="(min-width: 1025px)">
+    <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-tablet.webp" fetchpriority="high" media="(min-width: 769px) and (max-width: 1024px)">
+    <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-mobile.webp" fetchpriority="high" media="(max-width: 768px)">
+    
+    <!-- Preload Boxicons Font -->
     <link rel="preload" as="font" href="{{ asset('theme') }}/assets/fonts/boxicons.woff2" type="font/woff2" crossorigin="anonymous">
+    
+    <!-- Preload Google Fonts -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
 
     <!-- ============================================
-    CRITICAL CSS (Loaded normally)
+    CRITICAL CSS (Load immediately - No FOUC)
     ============================================ -->
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css" media="print" onload="this.media='all'">
-    <noscript>
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css">
-    </noscript>
-    <link rel="stylesheet" href="{{ asset('theme') }}/assets/fonts/flaticon.css">
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/fonts/flaticon.css">
 
     <!-- ============================================
-    DEFERRED CSS (Load after page)
+    GOOGLE FONTS (Optimized - Only 3 weights)
+    ============================================ -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ============================================
+    DEFERRED CSS (Load after page renders)
     ============================================ -->
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css" media="print" onload="this.media='all'">
@@ -237,31 +274,20 @@
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css" media="print" onload="this.media='all'">
 
-   <!-- ============================================
-    EXTERNAL FONTS & LIBRARIES (Optimized with font-display)
-    ============================================ -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" as="style">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-
     <noscript>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/magnific-popup.min.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/nice-select.min.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/meanmenu.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css">
+        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css">
     </noscript>
 
-    <style>
-        /* Force font-display: swap for all fonts */
-        @font-face {
-            font-family: 'Poppins';
-            font-display: swap;
-        }
-        /* Fallback font while Poppins loads */
-        body {
-            font-family: 'Poppins', Arial, Helvetica, sans-serif;
-        }
-        /* Apply to all elements */
-        * {
-            font-display: swap;
-        }
-    </style>
+    <!-- ============================================
+    EXTERNAL LIBRARIES (Deferred)
+    ============================================ -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" media="print" onload="this.media='all'">
 
@@ -447,29 +473,22 @@
     @include('frontend.layouts.footer')
 
     <!-- ============================================
-    SCRIPTS - LOADED IN CORRECT ORDER
+    SCRIPTS - OPTIMIZED LOADING
     ============================================ -->
 
-    <!-- 1. jQuery (Required for Owl Carousel) -->
+    <!-- 1. jQuery (Critical - Load immediately) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- 2. Bootstrap Bundle -->
+    <!-- 2. All other scripts (Deferred) -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- 3. Owl Carousel -->
     <script defer src="{{ asset('theme') }}/assets/js/owl.carousel.min.js"></script>
-
-    <!-- 4. AOS -->
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- 5. Main JS -->
     <script defer src="{{ asset('theme') }}/assets/js/main.js"></script>
 
     <!-- ============================================
     INITIALIZE ALL PLUGINS
     ============================================ -->
     <script>
-        // Wait for jQuery to be ready
         document.addEventListener("DOMContentLoaded", function() {
             
             // ============================================
@@ -493,18 +512,11 @@
             // 2. INITIALIZE OWL CAROUSEL
             // ============================================
             function initCarousels() {
-                // Check if jQuery and OwlCarousel are loaded
-                if (typeof $ === 'undefined') {
-                    setTimeout(initCarousels, 200);
-                    return;
-                }
-                
-                if (typeof $.fn.owlCarousel === 'undefined') {
+                if (typeof $ === 'undefined' || typeof $.fn.owlCarousel === 'undefined') {
                     setTimeout(initCarousels, 200);
                     return;
                 }
 
-                // Brand Slider
                 if ($('.brand-slider').length) {
                     $('.brand-slider').owlCarousel({
                         loop: true,
@@ -524,7 +536,6 @@
                     });
                 }
 
-                // Case Study Slider
                 if ($('.case-study-slider').length) {
                     $('.case-study-slider').owlCarousel({
                         loop: true,
@@ -547,7 +558,6 @@
                     });
                 }
 
-                // Clients Slider
                 if ($('.clients-slider').length) {
                     $('.clients-slider').owlCarousel({
                         loop: true,
@@ -566,11 +576,10 @@
                 }
             }
 
-            // Start carousel initialization after a small delay
             setTimeout(initCarousels, 300);
 
             // ============================================
-            // 3. TAWK.TO (Deferred with delay)
+            // 3. TAWK.TO (Load after page)
             // ============================================
             window.addEventListener('load', function() {
                 setTimeout(function() {
