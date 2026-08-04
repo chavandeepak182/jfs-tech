@@ -11,11 +11,7 @@
 							</a>
 						</div>
 						<p>At JFS Technologies, we combine innovation & expertise to provide world-class services in Digital Transformation, Experience Design, DevOps & Resource Augmentation, helping businesses achieve their goals.</p>
-						<!-- <div class="footer-call-content">
-							<h3>Talk to Our Support</h3>
-							<span><a href="tel:918421216367">+91 84212 16367</a></span>
-							<i class="bx bx-headphone"></i>
-						</div> -->
+						
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -140,15 +136,7 @@
 								</a>
 							</li>
 						</ul>
-						<!-- <div class="newsletter-area mt-3">
-							<form class="newsletter-form" data-toggle="validator" method="POST">
-								<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
-								<button class="subscribe-btn" type="submit">
-									<i class="bx bxs-paper-plane"></i>
-								</button>
-								<div id="validator-newsletter" class="form-result"></div>
-							</form>
-						</div> -->
+						
 					</div>
 				</div>
 			</div>
@@ -170,20 +158,36 @@
 </div>
 
 
+<!-- ============================================
+CRITICAL SCRIPTS (Load immediately)
+============================================ -->
 <script src="{{ asset('theme') }}/assets/js/jquery.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/owl.carousel.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/jquery.magnific-popup.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/jquery.nice-select.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/wow.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/meanmenu.js"></script>
-<script src="{{ asset('theme') }}/assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/form-validator.min.js"></script>
-<script src="{{ asset('theme') }}/assets/js/contact-form-script.js"></script>
-<script src="{{ asset('theme') }}/assets/js/custom.js"></script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- ============================================
+DEFERRED SCRIPTS (Load after page render)
+============================================ -->
+<script src="{{ asset('theme') }}/assets/js/bootstrap.bundle.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/owl.carousel.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.magnific-popup.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.nice-select.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/wow.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/meanmenu.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/jquery.ajaxchimp.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/form-validator.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/contact-form-script.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/custom.js" defer></script>
 
+<!-- ============================================
+EXTERNAL SCRIPTS (Load after page)
+============================================ -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js' defer></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js' defer></script>
+
+<!-- ============================================
+INLINE SCRIPTS (Keep these here)
+============================================ -->
 <script>
 	/* =========== Toggle Menu ============ */
 	const openNav = document.querySelector(".open-btn");
@@ -200,48 +204,41 @@
 </script>
 
 <script>
-	AOS.init();
+	// Initialize AOS after page loads
+	document.addEventListener('DOMContentLoaded', function() {
+		if (typeof AOS !== 'undefined') {
+			AOS.init();
+		}
+	});
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-<!-- Mixitup -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
-
-<!-- fancybox -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js'></script>
-
-<!-- Fancybox js -->
-
+<!-- ============================================
+MIXITUP & FANCYBOX (Initialize after load)
+============================================ -->
 <script>
-/* Downloaded from https://www.codeseek.co/ezra_siton/mixitup-fancybox3-JydYqm */
-// 1. querySelector
-document.addEventListener("DOMContentLoaded", function () {
-    var containerEl = document.querySelector(".portfolio-item");
+	document.addEventListener("DOMContentLoaded", function () {
+		// Mixitup
+		var containerEl = document.querySelector(".portfolio-item");
+		if (containerEl && typeof mixitup !== 'undefined') {
+			var mixer = mixitup(containerEl, {
+				animation: {
+					effects: "fade translateZ(-100px)",
+					effectsIn: "fade translateY(-100%)",
+					easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+				}
+			});
+		}
 
-    if (containerEl) {
-        // 2. Passing the configuration object inline
-        // https://www.kunkalabs.com/mixitup/docs/configuration-object/
-        var mixer = mixitup(containerEl, {
-            animation: {
-                effects: "fade translateZ(-100px)",
-                effectsIn: "fade translateY(-100%)",
-                easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
-            }
-        });
-    }
-
-    // Fancybox initialize & options
-    $("[data-fancybox]").fancybox({
-        loop: true,
-        hash: true,
-        transitionEffect: "slide",
-        /* Zoom VS Next ////////////////////
-        clickContent - I modify the default - now when you click on the image, you go to the next image.
-        This idea was in the classic/first lightbox */
-        clickContent: function (current, event) {
-            return current.type === "image" ? "next" : false;
-        }
-    });
-});
+		// Fancybox
+		if (typeof $.fn.fancybox !== 'undefined') {
+			$("[data-fancybox]").fancybox({
+				loop: true,
+				hash: true,
+				transitionEffect: "slide",
+				clickContent: function (current, event) {
+					return current.type === "image" ? "next" : false;
+				}
+			});
+		}
+	});
 </script>
