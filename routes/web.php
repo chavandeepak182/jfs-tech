@@ -13,9 +13,10 @@ use App\Http\Controllers\IndustriesCategoryController;
 use App\Http\Controllers\IndustriesController;
 
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
+// Route::get('/', function () {
+//     return view('frontend.index');
+// });
+Route::get('/', [FrontendController::class, 'index'])->name('home');
 
 Route::get('/services', function () {
     return view('frontend.services');
@@ -148,9 +149,9 @@ Route::get('/services/content-creation-services', function () {
 });
 Route::redirect('/services/content-creation', '/services/content-creation-services', 301);
 
-// Route::get('/services/professional-3d-design-services', function () {
-//     return view('frontend.3d-design');
-// });
+Route::get('/services/professional-3d-design-services', function () {
+    return view('frontend.3d-design');
+});
 Route::redirect('/services/3d-design', '/services/professional-3d-design-services', 301);
 
 Route::get('/services/digital-transformation-services', function () {

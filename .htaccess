@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Redirect to public folder
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Deny access to sensitive directories
+<IfModule mod_authz_core.c>
+    <FilesMatch "(\.env|\.git|composer\.json|composer\.lock|package\.json|package-lock\.json|webpack\.mix\.js|artisan$)">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes
+
+# Protect .htaccess files
+<Files .htaccess>
+    Require all denied
+</Files>

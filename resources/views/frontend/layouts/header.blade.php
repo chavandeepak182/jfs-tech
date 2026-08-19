@@ -15,6 +15,13 @@
     <link rel="dns-prefetch" href="https://unpkg.com">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     
+    <!-- ===== ADD THESE 5 LINES ONLY ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
     <!-- ============================================
     COOKIE CONSENT
     ============================================ -->
@@ -66,10 +73,12 @@
             margin: 0 auto;
         }
         .logo img {
-            max-height: 50px;
-            width: auto;
-        }
-        
+    max-height: 50px;
+    width: auto;
+    max-width: 100%;      /* Prevents overflow on mobile */
+    object-fit: contain;  /* Force the image to keep its proportions */
+    display: block;       /* Removes unwanted spacing */
+}
         /* ===== BANNER - LCP CRITICAL ===== */
         .banner-area {
             min-height: 500px;
@@ -241,7 +250,7 @@
     <!-- Preload Hero Images with Media Queries -->
     <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-desktop.webp" fetchpriority="high" media="(min-width: 1025px)">
     <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-tablet.webp" fetchpriority="high" media="(min-width: 769px) and (max-width: 1024px)">
-    <link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-mobile.webp" fetchpriority="high" media="(max-width: 768px)">
+<link rel="preload" as="image" href="{{ asset('theme') }}/assets/images/hero-mobile.webp" fetchpriority="high" importance="high" media="(max-width: 768px)">
     
     <!-- Preload Boxicons Font -->
     <link rel="preload" as="font" href="{{ asset('theme') }}/assets/fonts/boxicons.woff2" type="font/woff2" crossorigin="anonymous">
@@ -252,15 +261,34 @@
     <!-- ============================================
     CRITICAL CSS (Load immediately - No FOUC)
     ============================================ -->
+<!-- Load grid system immediately (Only ~20 KB, Very Fast) -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap-grid.min.css">
+
+<!-- Load full Bootstrap later (The 227 KB file gets deferred) -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css" media="print" onload="this.media='all'">
+<noscript>
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/bootstrap.min.css">
+</noscript>
+    <!-- Load Custom CSS in the background -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/style.css" media="print" onload="this.media='all'">
+<noscript>
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/style.css">
+</noscript>
+    <!-- Load Boxicons in the background (Doesn't block render) -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css" media="print" onload="this.media='all'">
+<noscript>
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/boxicons.min.css">
+</noscript>
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/fonts/flaticon.css">
 
     <!-- ============================================
     GOOGLE FONTS (Optimized - Only 3 weights)
     ============================================ -->
+    <!-- Google Fonts - Non-blocking -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</noscript>
 
     <!-- ============================================
     DEFERRED CSS (Load after page renders)
@@ -275,15 +303,52 @@
     <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css" media="print" onload="this.media='all'">
 
     <noscript>
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/magnific-popup.min.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/nice-select.min.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/meanmenu.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css">
-        <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css">
-    </noscript>
+        <!-- Non-critical CSS - Load after page renders -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.theme.default.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/magnific-popup.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/nice-select.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/meanmenu.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css" media="print" onload="this.media='all'">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+<noscript>
+    <!-- Non-critical CSS - Load after page renders -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.theme.default.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/magnific-popup.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/nice-select.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/meanmenu.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css" media="print" onload="this.media='all'">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+<noscript>
+    <!-- Non-critical CSS - Load after page renders -->
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.theme.default.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/magnific-popup.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/nice-select.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/meanmenu.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css" media="print" onload="this.media='all'">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+<noscript>
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/animate.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/assets/css/theme-dark.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet
+</noscript>
 
     <!-- ============================================
     EXTERNAL LIBRARIES (Deferred)
@@ -348,7 +413,7 @@
                         <div class="content">
                             <div class="row">
                                 <a href="{{ url('/services/digital-transformation-services') }}">
-                                    <img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" 
+                                    <img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.webp" 
                                          class="brand-logo-one" 
                                          alt="digitalization"
                                          loading="lazy"
@@ -484,6 +549,10 @@
     <script defer src="{{ asset('theme') }}/assets/js/owl.carousel.min.js"></script>
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script defer src="{{ asset('theme') }}/assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/owl.carousel.min.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="{{ asset('theme') }}/assets/js/main.js" defer></script>
 
     <!-- ============================================
     INITIALIZE ALL PLUGINS
