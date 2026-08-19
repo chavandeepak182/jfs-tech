@@ -10,10 +10,34 @@ use Illuminate\Support\Facades\Session;
 class FrontendController extends Controller
 {
     // Homepage
+    // public function index()
+    // {
+    //     return view('frontend.home-citizenship');
+    // }
     public function index()
-    {
-        return view('frontend.home-citizenship');
-    }
+{
+    // Fetch latest 3 active blogs
+    $latestBlogs = DB::table('blog')
+        ->leftJoin('blog_category', 'blog.category_id', '=', 'blog_category.pid')
+        ->select(
+            'blog.id',
+            'blog.image',
+            'blog.image_alt',
+            'blog.blog_name',
+            'blog.description',
+            'blog.slug',
+            'blog.publish_date',
+            'blog.created_at',
+            'blog.category_id',
+            'blog_category.category_name'
+        )
+        ->where('blog.status', 'active')
+        ->orderByRaw('COALESCE(blog.publish_date, blog.created_at) DESC')
+        ->take(3)
+        ->get();
+
+    return view('frontend.index', compact('latestBlogs'));
+}
      public function testing()
     {
         return view('frontend.testing');

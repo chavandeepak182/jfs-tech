@@ -420,7 +420,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+			<!-- <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/mubeen_mahat.webp" alt="Team Images">
 					<ul class="social-link">
@@ -435,7 +435,7 @@
 						<span>Digital Marketing Manager</span>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/tarun-p.jpg" alt="Team Images">
@@ -502,7 +502,7 @@
 			<!--		</div>-->
 			<!--	</div>-->
 			<!--</div>-->
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+			<!-- <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/yakub_fakir.webp" alt="Team Images">
 					<ul class="social-link">
@@ -517,7 +517,7 @@
 						<span>Human Resources</span>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/amit_saroj.webp" alt="Team Images">
@@ -626,7 +626,7 @@
 					</ul>
 					<div class="content">
 						<h3>Mahima Chaudhri</h3>
-						<span>Software.Developer</span>
+						<span>Software Developer</span>
 					</div>
 				</div>
 			</div>

@@ -117,10 +117,21 @@
 					<div class="section-title">
 						<span class="sp-color2">24+ Years Leadership Experience</span>
 						<h2>Your Transformation Partner</h2>
-						<p class="mx-auto pt-3">JFS Technologies is a leading <a href="{{ url('/services/digital-transformation-services') }}">digital transformation company</a>, providing end-to-end technology solutions for startups, SMEs, enterprises, and digital agencies. Our expertise includes AI development, custom software development, website development, mobile app development, cloud solutions, DevOps services, UI/UX design, digital marketing, and dedicated development teams. We help businesses automate processes, modernize systems, improve customer experiences, and scale with secure, innovative, and future-ready digital solutions. 
+					
+<p class="mx-auto pt-3">
+    JFS Technologies is a leading
+    <a href="{{ url('/services/digital-transformation-services') }}">digital transformation company</a>,
+    providing end-to-end technology solutions for startups, SMEs, enterprises, and digital agencies.
+    Our expertise includes <strong>AI development</strong>, <strong>custom software development</strong>,
+    <strong>website development</strong>, <strong>mobile app development</strong>,
+    <strong>cloud solutions</strong>, <strong>DevOps services</strong>, <strong>UI/UX design</strong>,
+    <strong>digital marketing</strong>, and <strong>dedicated development teams</strong>.
+    We help businesses automate processes, modernize systems, improve customer experiences, and scale
+    with secure, innovative, and future-ready digital solutions.
+</p>
 
-                       <a href="{{ url('/services/infrastructure-management-services') }}">Cloud services in Infrastructure management</a> and AI-driven data analytics, we help organizations streamline operations, boost engagement, and scale efficiently. Our global team of experts works alongside you to unlock your business’s true potential, driving growth with secure, scalable, and high-performing solutions.</p>
-						<p class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <a href="{{ url('/services/devops-software-development') }}">DevOps cybersecurity services</a>, <a href="{{ url('/services/ci-cd-pipeline-deployment') }}">CI/CD performance testing</a>, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</p>
+
+						<!-- <p class="mx-auto pt-3">Our global team of experts collaborates with you to unlock your business’s true potential by driving growth through secure, scalable, and high-performing solutions. As a leading provider of <a href="{{ url('/services/devops-software-development') }}">DevOps cybersecurity services</a>, <a href="{{ url('/services/ci-cd-pipeline-deployment') }}">CI/CD performance testing</a>, and software development company services, we stay ahead of industry trends to deliver future-ready strategies tailored to your business's unique challenges.</p> -->
 					</div>
 				</div>
 			</div>
@@ -610,68 +621,83 @@
 </section>
 <style>
 	.jfs-choose-section{
-    background:#fff;
-}
+        background:#fff;
+    }
 
-.choose-image img{
-    width:100%;
-    border-radius:20px;
-    box-shadow:0 20px 60px rgba(0,0,0,.12);
-}
+    /* --- FIX FOR THE IMAGE --- */
+    .choose-image {
+        height: 100%;          /* Forces the container to match the height of the right column */
+        display: flex;
+        align-items: center;   /* Vertically center the image */
+    }
 
-.feature-grid{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:25px;
-}
+    .choose-image img{
+        width: 100%;
+        height: 100%;          /* FORCES the image to fill the container */
+        object-fit: cover;     /* THE KEY FIX: This crops the image slightly to prevent stretching */
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0,0,0,.12);
+    }
 
-.feature-item{
-    display:flex;
-    gap:20px;
-    padding:25px;
-    border-left:4px solid #0d6efd;
-    background:#f8fbff;
-    transition:.4s;
-}
+    /* --- FIX FOR THE TEXT GRID --- */
+    .feature-grid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+        height: 100%;          /* Force the grid to take full height */
+    }
 
-.feature-item:hover{
-    background:#0d6efd;
-    transform:translateY(-8px);
-}
+    .feature-item{
+        display:flex;
+        gap:20px;
+        padding:25px;
+        border-left:4px solid #0d6efd;
+        background:#f8fbff;
+        transition:.4s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centers the text inside the box vertically */
+    }
 
-.feature-item:hover h4,
-.feature-item:hover p,
-.feature-item:hover .number{
-    color:#fff;
-}
+    .feature-item:hover{
+        background:#0d6efd;
+        transform:translateY(-8px);
+    }
 
-.number{
-    font-size:34px;
-    font-weight:800;
-    color:#0d6efd;
-    min-width:60px;
-}
+    .feature-item:hover h4,
+    .feature-item:hover p,
+    .feature-item:hover .number{
+        color:#fff;
+    }
 
-.feature-item h4{
-    font-size:20px;
-    margin-bottom:10px;
-    font-weight:700;
-}
+    .number{
+        font-size:34px;
+        font-weight:800;
+        color:#0d6efd;
+        min-width:60px;
+    }
 
-.feature-item p{
-    margin:0;
-    color:#666;
-    line-height:1.7;
-}
+    .feature-item h4{
+        font-size:20px;
+        margin-bottom:10px;
+        font-weight:700;
+    }
 
-@media(max-width:991px){
+    .feature-item p{
+        margin:0;
+        color:#666;
+        line-height:1.7;
+    }
 
-.feature-grid{
-    grid-template-columns:1fr;
-    margin-top:40px;
-}
-
-}
+    @media(max-width:991px){
+        .feature-grid{
+            grid-template-columns:1fr;
+            margin-top:40px;
+        }
+        .choose-image {
+            height: auto; /* Reset height on mobile so it just flows naturally */
+        }
+    }
 </style>
 <!-- Clientele Area -->
 <div class="brand-area bg-light pt-80 pb-80" data-aos="fade-up" data-aos-duration="750">
@@ -849,140 +875,622 @@
 </section>
 
 
-<section class="blog-area pt-80 pb-80" data-aos="fade-up" data-aos-duration="750">
+<style>
+	/* =========================================================
+   JFS BLOG SECTION
+========================================================= */
+
+.blog-area {
+    background: #ffffff;
+    position: relative;
+}
+
+
+/* =========================================================
+   SECTION TITLE
+========================================================= */
+
+.blog-subtitle {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.blog-area .section-title h2 {
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #17233c;
+    margin-bottom: 15px;
+}
+
+.blog-section-desc {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #6b7280;
+}
+
+
+/* =========================================================
+   BLOG CARD
+========================================================= */
+
+.jfs-blog-card {
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.jfs-blog-card:hover {
+    transform: translateY(-8px);
+    border-color: transparent;
+    box-shadow: 0 18px 45px rgba(23, 35, 60, 0.12);
+}
+
+
+/* =========================================================
+   BLOG IMAGE
+========================================================= */
+
+.jfs-blog-image {
+    height: 245px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #f3f5f8;
+}
+
+.jfs-blog-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.jfs-blog-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+
+    transition: transform 0.55s ease;
+}
+
+.jfs-blog-card:hover .jfs-blog-image img {
+    transform: scale(1.07);
+}
+
+
+/* =========================================================
+   IMAGE OVERLAY
+========================================================= */
+
+.jfs-blog-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 55%,
+        rgba(0, 0, 0, 0.12)
+    );
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   DATE BADGE
+========================================================= */
+
+.jfs-blog-date {
+    position: absolute;
+
+    left: 18px;
+    bottom: 18px;
+
+    min-width: 62px;
+    height: 68px;
+
+    background: #ffffff;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.13);
+
+    z-index: 2;
+
+    overflow: hidden;
+}
+
+.jfs-date-day {
+    display: block;
+
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: 700;
+
+    color: #17233c;
+}
+
+.jfs-date-month {
+    display: block;
+
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    color: #295cab;
+}
+
+
+/* =========================================================
+   BLOG CONTENT
+========================================================= */
+
+.jfs-blog-content {
+    padding: 26px 25px 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+
+/* =========================================================
+   BLOG TITLE
+========================================================= */
+
+.jfs-blog-title {
+    margin: 0 0 13px;
+    min-height: 58px;
+
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.jfs-blog-title a {
+    color: #17233c;
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+.jfs-blog-title a:hover {
+    color: #295cab;
+}
+
+
+/* =========================================================
+   BLOG DESCRIPTION
+========================================================= */
+
+.jfs-blog-description {
+    margin-bottom: 20px;
+}
+
+.jfs-blog-description p {
+    margin: 0;
+
+    color: #6b7280;
+
+    font-size: 14px;
+    line-height: 1.8;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   BLOG FOOTER
+========================================================= */
+
+.jfs-blog-footer {
+    margin-top: auto;
+    padding-top: 4px;
+}
+
+
+/* =========================================================
+   READ MORE
+========================================================= */
+
+.jfs-read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+
+    color: #295cab;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition:
+        color 0.3s ease,
+        gap 0.3s ease;
+}
+
+.jfs-read-more i {
+    font-size: 20px;
+    line-height: 1;
+
+    transition: transform 0.3s ease;
+}
+
+.jfs-read-more:hover {
+    color: #17233c;
+    gap: 10px;
+}
+
+.jfs-read-more:hover i {
+    transform: translateX(3px);
+}
+
+
+/* =========================================================
+   NO BLOG
+========================================================= */
+
+.jfs-no-blog {
+    max-width: 500px;
+    margin: 0 auto;
+
+    padding: 50px 30px;
+
+    text-align: center;
+
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+
+    background: #ffffff;
+}
+
+.jfs-no-blog-icon {
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 15px;
+
+    border-radius: 50%;
+
+    background: #f1f5fb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jfs-no-blog-icon i {
+    font-size: 30px;
+    color: #295cab;
+}
+
+.jfs-no-blog h4 {
+    margin-bottom: 8px;
+
+    font-size: 21px;
+    font-weight: 700;
+
+    color: #17233c;
+}
+
+.jfs-no-blog p {
+    margin: 0;
+
+    font-size: 14px;
+    color: #6b7280;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .blog-area .section-title h2 {
+        font-size: 32px;
+    }
+
+    .jfs-blog-image {
+        height: 225px;
+    }
+
+    .jfs-blog-content {
+        padding: 23px 21px 22px;
+    }
+
+    .jfs-blog-title {
+        font-size: 19px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .blog-area {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .blog-area .section-title {
+        margin-bottom: 30px !important;
+    }
+
+    .blog-area .section-title h2 {
+        font-size: 28px;
+        line-height: 1.35;
+    }
+
+    .blog-section-desc {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .jfs-blog-image {
+        height: 220px;
+    }
+
+    .jfs-blog-content {
+        padding: 22px 20px 21px;
+    }
+
+    .jfs-blog-title {
+        min-height: auto;
+        font-size: 19px;
+    }
+
+    .jfs-blog-description p {
+        font-size: 14px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 575px) {
+
+    .blog-area .section-title h2 {
+        font-size: 25px;
+    }
+
+    .blog-subtitle {
+        font-size: 14px;
+    }
+
+    .jfs-blog-image {
+        height: 210px;
+    }
+
+    .jfs-blog-date {
+        left: 15px;
+        bottom: 15px;
+
+        min-width: 58px;
+        height: 63px;
+    }
+
+    .jfs-date-day {
+        font-size: 21px;
+    }
+
+    .jfs-date-month {
+        font-size: 11px;
+    }
+
+    .jfs-blog-content {
+        padding: 20px 18px;
+    }
+
+    .jfs-blog-title {
+        font-size: 18px;
+        line-height: 1.45;
+    }
+
+}
+</style>
+<section class="blog-area pt-80 pb-80">
     <div class="container">
 
+        {{-- Section Heading --}}
         <div class="section-title text-center mb-5">
-            <span class="sp-color2">Latest Blog</span>
+
+            <span class="sp-color2 blog-subtitle">
+                Latest Blog
+            </span>
+
             <h2 title="Latest Articles from JFS Technologies">
                 Latest Articles from Our Engineering Team
             </h2>
+
+            <p class="blog-section-desc">
+                Explore our latest insights, technical knowledge, industry trends,
+                and technology updates from the JFS Technologies engineering team.
+            </p>
+
         </div>
 
+
+        {{-- Blog Grid --}}
         <div class="row g-4">
 
-            <!-- Blog 1 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-card h-100">
+            @forelse($latestBlogs as $blog)
 
-                    <div class="blog-img">
-                        <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" target="_blank">
-                           <img src="{{ asset('theme') }}/assets/images/blog-3.png"
-                                alt="Custom Software Development vs SaaS">
-                        </a>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
 
-                        <div class="blog-tag">
-                            <h3>31</h3>
-                            <span>Jul</span>
-                        </div>
-                    </div>
+                    <article class="jfs-blog-card">
 
-                    <div class="content">
+                        {{-- Blog Image --}}
+                        <div class="jfs-blog-image">
 
-                        <h3 class="blog-title">
-                            <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" target="_blank">
-                                Why Every Business Needs a Digital Marketing Agency
+                            <a href="{{ route('blog.show', ['slug' => $blog->slug]) }}">
+
+                                @if(!empty($blog->image))
+
+                                    <img
+                                        src="{{ asset($blog->image) }}"
+                                        alt="{{ $blog->image_alt ?? $blog->blog_name }}"
+                                        loading="lazy"
+                                    >
+
+                                @else
+
+                                    <img
+                                        src="{{ asset('theme/assets/images/blog-default.png') }}"
+                                        alt="{{ $blog->blog_name }}"
+                                        loading="lazy"
+                                    >
+
+                                @endif
+
                             </a>
-                        </h3>
+
+
+                            {{-- Blog Date --}}
+                            @php
+                                $blogDate = $blog->publish_date ?? $blog->created_at;
+                            @endphp
+
+                            @if($blogDate)
+
+                                <div class="jfs-blog-date">
+
+                                    <span class="jfs-date-day">
+                                        {{ \Carbon\Carbon::parse($blogDate)->format('d') }}
+                                    </span>
+
+                                    <span class="jfs-date-month">
+                                        {{ \Carbon\Carbon::parse($blogDate)->format('M') }}
+                                    </span>
+
+                                </div>
+
+                            @endif
+
+                        </div>
+
+
+                        {{-- Blog Content --}}
+                        <div class="jfs-blog-content">
+
+                            {{-- Blog Title --}}
+                            <h3 class="jfs-blog-title">
+
+                                <a href="{{ route('blog.show', ['slug' => $blog->slug]) }}">
+                                    {{ $blog->blog_name }}
+                                </a>
+
+                            </h3>
+
+
+                            {{-- Blog Description --}}
+                            <div class="jfs-blog-description">
+
+                                @if(!empty($blog->description))
+
+                                    <p>
+                                        {{ \Illuminate\Support\Str::limit(strip_tags($blog->description), 130) }}
+                                    </p>
+
+                                @else
+
+                                    <p>
+                                        Read the latest insights, trends, and technology
+                                        updates from JFS Technologies.
+                                    </p>
+
+                                @endif
+
+                            </div>
+
+
+                            {{-- Read More --}}
+                            <div class="jfs-blog-footer">
+
+                                <a
+                                    href="{{ route('blog.show', ['slug' => $blog->slug]) }}"
+                                    class="jfs-read-more"
+                                >
+                                    <span>Read More</span>
+
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            @empty
+
+                {{-- No Blog --}}
+                <div class="col-12">
+
+                    <div class="jfs-no-blog">
+
+                        <div class="jfs-no-blog-icon">
+                            <i class="bx bx-news"></i>
+                        </div>
+
+                        <h4>No Blogs Available</h4>
 
                         <p>
-                            Discover why partnering with a digital marketing agency helps businesses
-                            improve online visibility, generate quality leads.
+                            No blogs are available at the moment.
+                            Please check back soon.
                         </p>
-
-                        <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" class="read-btn" target="_blank">
-                            Read More
-                            <i class="bx bx-chevron-right"></i>
-                        </a>
 
                     </div>
 
                 </div>
-            </div>
 
-            <!-- Blog 2 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-card h-100">
-
-                    <div class="blog-img">
-                        <a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" target="_blank">
-                            <img src="{{ asset('theme') }}/assets/images/blog-2.png"
-                                alt="How to Choose the Best Free Client Management Software">
-                        </a>
-
-                        <div class="blog-tag">
-                            <h3>21</h3>
-                            <span>Aug</span>
-                        </div>
-                    </div>
-
-                    <div class="content">
-
-                        <h3 class="blog-title">
-                            <a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" target="_blank">
-                                How to Choose the Best Free Client Management Software
-                            </a>
-                        </h3>
-
-                        <p>
-                            Learn how to select the right client management software that improves
-                            customer relationships, productivity, and business growth.
-                        </p>
-
-                        <a href="https://jfstechnologies.com/blog/how-to-choose-the-best-free-client-management-software-for-your-needs/" class="read-btn" target="_blank">
-                            Read More
-                            <i class="bx bx-chevron-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Blog 3 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-card h-100">
-
-                    <div class="blog-img">
-                        <a href="https://jfstechnologies.com/blog/why-every-business-needs-a-digital-marketing-agency/" target="_blank">
-                            <img src="{{ asset('theme') }}/assets/images/blog-4.png"
-                                alt="Custom Software Development vs SaaS">
-                        </a>
-
-                        <div class="blog-tag">
-                            <h3>29</h3>
-                            <span>Jul</span>
-                        </div>
-                    </div>
-
-                    <div class="content">
-
-                        <h3 class="blog-title">
-                            <a href="https://jfstechnologies.com/blogs/custom-software-development-vs-saas" target="_blank">
-                                Custom Software Development vs SaaS: Which One is Right for Your Business?
-                            </a>
-                        </h3>
-
-                        <p>
-                            Compare custom software development and SaaS solutions to determine
-                            
-                        </p>
-
-                        <a href="https://jfstechnologies.com/blogs/custom-software-development-vs-saas" class="read-btn" target="_blank">
-                            Read More
-                            <i class="bx bx-chevron-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-            </div>
+            @endforelse
 
         </div>
 
     </div>
 </section>
-
 <script>
 	$(document).ready(function() {
 		$('#contactForm').on('submit', function(e) {
