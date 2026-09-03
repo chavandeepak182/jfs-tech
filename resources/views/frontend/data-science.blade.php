@@ -93,8 +93,8 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75">
-            <h1>Succeed with Expert Data Science Consulting Services</h1>
-            <p class="text-white"></p>
+            <h1>Data Science Services</h1>
+            <p class="text-white">Turn raw data into actionable insights with advanced analytics, machine learning, and AI-powered solutions.</p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Get Started Today <i class="bx bx-chevron-right"></i></a>
 			</div>
@@ -152,7 +152,7 @@
 </section>
 
 <!-- Trust Us Area -->	
-<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+<!-- <div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-12">
@@ -203,6 +203,159 @@
 			</div>
 		</div>
 	</div>
+</div> -->
+<!-- Data Science Business Value Area -->
+<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750"> 
+    <div class="container"> 
+
+        <div class="row justify-content-center align-items-center"> 
+
+            <div class="col-lg-12"> 
+
+                <div class="choose-content mr-20"> 
+
+                    <div class="section-title mb-5 text-center"> 
+
+                        <span class="sp-color1"></span> 
+
+                        <h2>
+                            How JFS Technologies Delivers Business Value with Data Science
+                        </h2>
+
+                    </div> 
+
+
+                    <div class="row"> 
+
+
+                        <!-- Business Intelligence -->
+                        <div class="col-lg-3 col-6"> 
+
+                            <div class="choose-content-card"> 
+
+                                <div class="content"> 
+
+                                    <img 
+                                        src="{{ asset('theme') }}/assets/images/icons/tailored-sol.png" 
+                                        alt="Business Intelligence & Advanced Analytics" 
+                                        width="90"
+                                    > 
+
+                                    <p class="title pt-3">
+                                        Business Intelligence & Advanced Analytics
+                                    </p>
+
+                                </div> 
+
+                                <p>
+                                    Turn complex datasets into meaningful business insights
+                                    through interactive dashboards, reporting, and predictive
+                                    analytics.
+                                </p>
+
+                            </div> 
+
+                        </div> 
+
+
+                        <!-- AI & Machine Learning -->
+                        <div class="col-lg-3 col-6"> 
+
+                            <div class="choose-content-card"> 
+
+                                <div class="content"> 
+
+                                    <img 
+                                        src="{{ asset('theme') }}/assets/images/icons/nano.png" 
+                                        alt="AI & Machine Learning Solutions" 
+                                        width="90"
+                                    > 
+
+                                    <p class="title pt-3">
+                                        AI & Machine Learning Solutions
+                                    </p>
+
+                                </div> 
+
+                                <p>
+                                    Develop intelligent models that automate decision-making,
+                                    detect patterns, and continuously improve business processes.
+                                </p>
+
+                            </div> 
+
+                        </div> 
+
+
+                        <!-- Customer Analytics -->
+                        <div class="col-lg-3 col-6"> 
+
+                            <div class="choose-content-card"> 
+
+                                <div class="content"> 
+
+                                    <img 
+                                        src="{{ asset('theme') }}/assets/images/icons/market-share.png" 
+                                        alt="Customer Analytics & Personalization" 
+                                        width="90"
+                                    > 
+
+                                    <p class="title pt-3">
+                                        Customer Analytics & Personalization
+                                    </p>
+
+                                </div> 
+
+                                <p>
+                                    Understand customer behavior, improve engagement, and
+                                    deliver personalized recommendations using AI-powered
+                                    analytics.
+                                </p>
+
+                            </div> 
+
+                        </div> 
+
+
+                        <!-- Data Automation -->
+                        <div class="col-lg-3 col-6"> 
+
+                            <div class="choose-content-card"> 
+
+                                <div class="content"> 
+
+                                    <img 
+                                        src="{{ asset('theme') }}/assets/images/icons/gdp.png" 
+                                        alt="Data Automation & Process Optimization" 
+                                        width="90"
+                                    > 
+
+                                    <p class="title pt-3">
+                                        Data Automation & Process Optimization
+                                    </p>
+
+                                </div> 
+
+                                <p>
+                                    Reduce manual effort, improve operational efficiency,
+                                    and accelerate business growth with intelligent automation
+                                    and data-driven workflows.
+                                </p>
+
+                            </div> 
+
+                        </div> 
+
+
+                    </div> 
+
+                </div> 
+
+            </div> 
+
+        </div> 
+
+    </div> 
 </div>
 
 <div class="case-study-area pt-80 pb-70">

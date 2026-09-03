@@ -83,8 +83,10 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-            <h1>End-to-End Digital Transformation Services for Business</h1>
-            <p class="text-white">Holistic End-to-End Digital Transformation Services meticulously crafted to transform your business, optimize processes, elevate customer experiences & foster sustainable growth through innovation, advanced technology, strategic automation, and data-driven digital transformation insights.</p>
+            <h1>Technology & Software Development Services</h1>
+            <p class="text-white">Custom Software, AI, Cloud, Web, Mobile & Digital Solutions for Modern Businesses
+Build scalable software, automate operations, create exceptional digital experiences, and accelerate business growth with JFS Technologies.
+</p>
         </div>
     </div>
     
@@ -93,6 +95,563 @@
         <source src="https://jfstechnologies.com/theme/assets/images/services.mp4" type="video/webm">Sorry, your browser does not support HTML5 video.
     </video>
 </div>
+<!-- =========================================================
+     TRUST STRIP - ADD BELOW EXISTING BANNER
+========================================================= -->
+
+<section class="trust-section">
+
+    <div class="container">
+
+        <div class="trust-strip">
+
+            <!-- 1500+ Clients -->
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+
+                <div class="trust-content">
+                    <h4>1500+</h4>
+                    <p>Clients</p>
+                </div>
+            </div>
+
+
+            <!-- 24+ Years Leadership -->
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+
+                <div class="trust-content">
+                    <h4>24+</h4>
+                    <p>Years Leadership</p>
+                </div>
+            </div>
+
+
+            <!-- 100+ Experts -->
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+
+                <div class="trust-content">
+                    <h4>100+</h4>
+                    <p>Experts</p>
+                </div>
+            </div>
+
+
+            <!-- Global Delivery -->
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+
+                <div class="trust-content">
+                    <h4>Global</h4>
+                    <p>Delivery</p>
+                </div>
+            </div>
+
+
+            <!-- Custom Solutions -->
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+
+                <div class="trust-content">
+                    <h4>Custom</h4>
+                    <p>Solutions</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     YOUR SECOND SECTION STARTS HERE
+========================================================= -->
+
+<section class="technology-content-section">
+
+    <div class="container">
+
+        <div class="technology-content">
+
+            <span class="section-tag">
+                TECHNOLOGY SOLUTIONS
+            </span>
+
+            <h2>
+                Transforming Ideas Into Powerful Digital Solutions
+            </h2>
+
+            <p>
+                We help businesses leverage modern technology to simplify
+                operations, improve customer experiences, and accelerate
+                sustainable business growth.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TRUST STRIP CSS
+========================================================= -->
+
+<style>
+
+/* =========================================================
+   TRUST SECTION
+========================================================= */
+
+.trust-section {
+    position: relative;
+    z-index: 10;
+
+    margin-top: -65px;
+
+    padding-bottom: 0;
+}
+
+
+/* =========================================================
+   TRUST STRIP
+========================================================= */
+
+.trust-strip {
+    width: 100%;
+
+    min-height: 125px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #ffffff;
+
+    border-radius: 14px;
+
+    padding: 20px 25px;
+
+    border: 1px solid #e8eef5;
+
+    box-shadow: 0 18px 45px rgba(15, 52, 86, 0.14);
+}
+
+
+/* =========================================================
+   TRUST ITEM
+========================================================= */
+
+.trust-item {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 14px;
+
+    min-height: 65px;
+
+    position: relative;
+
+    padding: 5px 20px;
+}
+
+
+/* =========================================================
+   VERTICAL DIVIDER
+========================================================= */
+
+.trust-item:not(:last-child)::after {
+    content: "";
+
+    position: absolute;
+
+    right: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 1px;
+    height: 55px;
+
+    background: #e2e8ef;
+}
+
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.trust-icon {
+    width: 48px;
+    height: 48px;
+
+    min-width: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: #eef7ff;
+
+    color: #087bea;
+
+    font-size: 19px;
+
+    transition: all 0.3s ease;
+}
+
+
+.trust-item:hover .trust-icon {
+    background: #087bea;
+
+    color: #ffffff;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.trust-content {
+    text-align: left;
+}
+
+
+/* NUMBER / TITLE */
+
+.trust-content h4 {
+    margin: 0;
+
+    color: #092f55;
+
+    font-size: 21px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+}
+
+
+/* DESCRIPTION */
+
+.trust-content p {
+    margin: 5px 0 0;
+
+    color: #718096;
+
+    font-size: 13px;
+
+    line-height: 1.3;
+
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   SECOND SECTION
+========================================================= */
+
+.technology-content-section {
+
+    position: relative;
+
+    background: #f7faff;
+
+    padding-top: 90px;
+
+    padding-bottom: 90px;
+}
+
+
+.technology-content {
+
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+.section-tag {
+
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #087bea;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+.technology-content h2 {
+
+    margin: 0 0 18px;
+
+    color: #092f55;
+
+    font-size: 38px;
+
+    line-height: 1.25;
+
+    font-weight: 700;
+}
+
+
+.technology-content p {
+
+    max-width: 720px;
+
+    margin: 0 auto;
+
+    color: #66788a;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .trust-section {
+        margin-top: -50px;
+    }
+
+    .trust-strip {
+
+        flex-wrap: wrap;
+
+        padding: 15px;
+    }
+
+    .trust-item {
+
+        flex: 0 0 50%;
+
+        padding: 15px;
+    }
+
+    .trust-item:nth-child(2)::after,
+    .trust-item:nth-child(4)::after {
+        display: none;
+    }
+
+    .technology-content-section {
+        padding-top: 100px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .trust-section {
+
+        margin-top: -45px;
+
+        padding-left: 15px;
+
+        padding-right: 15px;
+    }
+
+
+    .trust-strip {
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        padding: 10px;
+
+        border-radius: 12px;
+    }
+
+
+    .trust-item {
+
+        min-height: 75px;
+
+        justify-content: flex-start;
+
+        padding: 10px;
+
+        gap: 10px;
+    }
+
+
+    .trust-item:not(:last-child)::after {
+
+        height: 45px;
+    }
+
+
+    .trust-item:nth-child(2)::after,
+    .trust-item:nth-child(4)::after {
+
+        display: none;
+    }
+
+
+    .trust-item:last-child {
+
+        grid-column: 1 / -1;
+
+        justify-content: center;
+    }
+
+
+    .trust-item:last-child::after {
+
+        display: none;
+    }
+
+
+    .trust-icon {
+
+        width: 40px;
+
+        height: 40px;
+
+        min-width: 40px;
+
+        font-size: 16px;
+
+        border-radius: 10px;
+    }
+
+
+    .trust-content h4 {
+
+        font-size: 17px;
+    }
+
+
+    .trust-content p {
+
+        font-size: 11px;
+
+        margin-top: 3px;
+    }
+
+
+    .technology-content-section {
+
+        padding-top: 70px;
+
+        padding-bottom: 60px;
+    }
+
+
+    .technology-content h2 {
+
+        font-size: 28px;
+    }
+
+
+    .technology-content p {
+
+        font-size: 15px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .trust-section {
+
+        margin-top: -40px;
+    }
+
+
+    .trust-strip {
+
+        padding: 8px;
+    }
+
+
+    .trust-item {
+
+        padding: 8px 5px;
+    }
+
+
+    .trust-icon {
+
+        width: 36px;
+
+        height: 36px;
+
+        min-width: 36px;
+
+        font-size: 14px;
+    }
+
+
+    .trust-content h4 {
+
+        font-size: 15px;
+    }
+
+
+    .trust-content p {
+
+        font-size: 10px;
+    }
+
+}
+
+
+
+</style>
+
+
+<!-- =========================================================
+     FONT AWESOME
+     Add only if Font Awesome is not already included
+========================================================= -->
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 
 <section class="services-style-area pt-80 pb-70">

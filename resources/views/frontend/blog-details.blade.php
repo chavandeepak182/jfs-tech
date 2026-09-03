@@ -120,23 +120,7 @@
 @section('content')
 
 <!-- Hero Section -->
-<section class="hero-wrap" style="height:497px;">
-    <div class="blog-featured-image" style="background-image: url('{{ asset($blog->image) }}');"></div>
-    <div class="blog-featured-image-overlay"></div>
 
-    <div class="container hero-content py-5">
-        <div class="row">
-            <div class="col-lg-9">
-                
-
-                <!-- <h1 class="hero-title display-7 mb-2" style="color:#fff;">{{ $blog->blog_name }}</h1> -->
-                
-            </div>
-        </div>
-    </div>
-
-    <div class="hero-wave"></div>
-</section>
 
 
 <div class="container py-5">

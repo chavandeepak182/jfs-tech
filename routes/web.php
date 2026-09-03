@@ -8,14 +8,26 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BlogCategoryController;
 use App\Http\Controllers\CareerController;
-
+use App\Http\Controllers\JobController;
+use App\Http\Controllers\CareerApplicationController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\IndustriesCategoryController;
 use App\Http\Controllers\IndustriesController;
+use App\Http\Controllers\PermissionController;
+use App\Http\Controllers\RoleController;
 
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+*/
 
-// Route::get('/', function () {
-//     return view('frontend.index');
-// });
+require __DIR__.'/auth.php';
+
+// ==========================================
+// PUBLIC FRONTEND ROUTES
+// ==========================================
+
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 
 Route::get('/services', function () {
@@ -40,38 +52,24 @@ Route::get('/privacy-policy', function () {
     return view('frontend.privacy-policy');
 });
 
+// ==========================================
+// BLOG ROUTES
+// ==========================================
 
-
-// Single blog details page
-// Route::get('/blogs/{id}', [FrontendController::class, 'showBlog'])->name('blog.show');
 Route::get('/blogs/{slug}', [FrontendController::class, 'showBlog'])->name('blog.show');
-
 Route::get('/blogs', [FrontendController::class, 'blog'])->name('blog');
 
+// ==========================================
+// CAREERS (Frontend)
+// ==========================================
 
-
-// blog
-
-
-Route::get('admin/blog', [BlogController::class, 'index'])->name('blog.index');          // List blogs
-   Route::get('admin/blog/create', [BlogController::class, 'create'])->name('blogs.create'); // Add blog form
-    Route::post('blogs/store', [BlogController::class, 'storeService'])->name('blogs.store'); // Save blog
-    Route::get('blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');  // Edit blog form
-    Route::put('blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update'); // Update blog
-    Route::post('blogs/delete/{id}', [BlogController::class, 'deleteService'])->name('blogs.delete'); // Delete blog
-
-
-    // blog category
-    Route::get('/blog-categories', [BlogCategoryController::class, 'index'])->name('blog.categories.index');
-Route::post('/blog-categories/store', [BlogCategoryController::class, 'store'])->name('blog.categories.store');
-Route::get('/blog-categories/edit/{pid}', [BlogCategoryController::class, 'edit'])->name('blog.categories.edit');
-Route::post('/blog-categories/update/{pid}', [BlogCategoryController::class, 'update'])->name('blog.categories.update');
-
-Route::middleware('isAdmin')->group(function () {
-    Route::post('/blog-categories/delete/{pid}', [BlogCategoryController::class, 'destroy'])
-        ->name('blog.categories.delete');
-});
-
+Route::get('/careers', [JobController::class, 'careers'])->name('careers');
+Route::post('/careers/upload-resume', [JobController::class, 'uploadResume'])->name('careers.resume.upload');
+Route::patch('/jobs/{id}/toggle-status', [JobController::class, 'toggleStatus'])
+    ->name('admin.jobs.toggle-status');
+// ==========================================
+// SERVICE PAGES (Static)
+// ==========================================
 
 Route::get('/services/infrastructure-management-services', function () {
     return view('frontend.infrastructure-management');
@@ -108,12 +106,10 @@ Route::get('/services/social-media-advertising', function () {
 });
 Route::redirect('/services/smo-services', '/services/social-media-advertising', 301);
 
-
 Route::get('/services/ppc-management-company', function () {
     return view('frontend.ppc-services');
 });
 Route::redirect('/services/ppc-services', '/services/ppc-management-company', 301);
-
 
 Route::get('/services/website-development-company', function () {
     return view('frontend.website-development');
@@ -143,7 +139,6 @@ Route::get('/services/graphics-design-services', function () {
 });
 Route::redirect('/services/graphics-design', '/services/graphics-design-services', 301);
 
-
 Route::get('/services/content-creation-services', function () {
     return view('frontend.content-creation');
 });
@@ -167,7 +162,6 @@ Route::get('/services/devops-software-development', function () {
     return view('frontend.devops');
 });
 Route::redirect('/services/devops', '/services/devops-software-development', 301);
-
 
 Route::get('/services/resource-augmentation-services', function () {
     return view('frontend.resource-augmentation');
@@ -214,24 +208,9 @@ Route::get('/services/ci-cd-pipeline-deployment', function () {
 });
 Route::redirect('/services/ci-cd-pipelines', '/services/ci-cd-pipeline-deployment', 301);
 
-// Route::get('/services/infrastructure-management', function () {
-//     return view('frontend.infrastructure-management');
-// });
-
-Route::get('/life-at-jfs', function () {
-    return view('frontend.life-at-jfs');
-});
-
-// Route::get('/careers', [BlogController::class, 'bloglist']);
-Route::post('/careers/upload-resume', [App\Http\Controllers\CareerController::class, 'uploadResume'])->name('careers.resume.upload');
-Route::get('/admin/career-applications', [CareerController::class, 'showApplications'])->name('admin.career_applications.index');
-Route::get('/careers', function () {
-    return view('frontend.careers');
-});
 Route::get('/services/email-marketing-services', function () {
     return view('frontend.email-marketing');
 });
-
 Route::redirect('/services/email-marketing', '/services/email-marketing-services', 301);
 
 Route::get('/portfolio', function () {
@@ -242,65 +221,97 @@ Route::get('/newsroom', function () {
     return view('frontend.newsroom');
 });
 
+// ==========================================
+// AUTHENTICATION ROUTES
+// ==========================================
 
-
-// Jfinmate k addresses
-require __DIR__.'/auth.php';
-
-//permission
-    Route::prefix('admin')->group(function () {
-    Route::resource('permissions', App\Http\Controllers\PermissionController::class);
-    Route::get('permissions/{permissionId}/delete', [App\Http\Controllers\PermissionController::class, 'destroy']);
-//roles
-    Route::resource('roles', App\Http\Controllers\RoleController::class);
-    Route::get('roles/{roleId}/give-permissions', [App\Http\Controllers\RoleController::class,'addPermissionToRole']);
-    Route::put('roles/{roleId}/give-permissions', [App\Http\Controllers\RoleController::class,'givePermissionToRole']);
-//users
-    Route::resource('users', App\Http\Controllers\UsersController::class);
-    Route::get('users/{UserId}/delete', [App\Http\Controllers\UsersController::class, 'destroy']);
-});
-
-
-
-//user routes
-// Login page दाखवण्यासाठी (GET)
 Route::get('login', [AdminController::class, 'loginView'])->name('login');
-
-// Login form submit करण्यासाठी (POST)
 Route::post('login', [FrontendController::class, 'userLogin'])->name('userLogin');
-
-// Logout
 Route::get('logout', [FrontendController::class, 'logout'])->name('logout');
-
-// Forgot password
 Route::get('forgot', [FrontendController::class, 'forgot'])->name('forgot');
-
-// Email/Account Activation
 Route::get('userAuth/{user_id}/{auth_code}', [FrontendController::class, 'activate'])->name('activate');
-
-
-//reset password
 Route::post('reset_password_link', [FrontendController::class, 'reset_password_link'])->name('reset_password_link');
 Route::get('reset_password/{auth_id}', [FrontendController::class, 'reset_password'])->name('reset_password');
 Route::post('update_password', [FrontendController::class, 'update_password'])->name('update_password');
-
-
-Route::middleware('isAdmin')->group(function () {
-    Route::get('admin/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
-    Route::get('admin/admindashboard', [AdminController::class, 'adminDashboard'])->name('adminDashboard');
-});
-
-//admin user profile
-
-Route::get('admin/profile/edit', [ProfileController::class, 'editProfile'])->name('admin.profile.edit');
-Route::post('admin/profile/update', [ProfileController::class, 'updateProfile'])->name('admin.profile.update');
-Route::get('admin/profile', [ProfileController::class, 'showProfile'])->name('admin.profile');
-//customer register
 Route::post('/register', [UsersController::class, 'registerUser'])->name('registerUser');
 
+// ==========================================
+// ADMIN ROUTES (Protected)
+// ==========================================
 
-Route::middleware('isAdmin')->group(function () {
-    Route::get('admin/profile/edit', [ProfileController::class, 'editProfile'])->name('admin.profile.edit');
-    Route::post('admin/profile/update', [ProfileController::class, 'updateProfile'])->name('admin.profile.update');
+Route::middleware('isAdmin')->prefix('admin')->name('admin.')->group(function () {
+    
+    // Dashboard
+    Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    Route::get('/admindashboard', [AdminController::class, 'adminDashboard'])->name('adminDashboard');
+    
+    // Profile
+    Route::get('/profile/edit', [ProfileController::class, 'editProfile'])->name('profile.edit');
+    Route::post('/profile/update', [ProfileController::class, 'updateProfile'])->name('profile.update');
+    Route::get('/profile', [ProfileController::class, 'showProfile'])->name('profile');
+    
+    // ==========================================
+    // BLOG MANAGEMENT
+    // ==========================================
+    Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+    Route::get('/blog/create', [BlogController::class, 'create'])->name('blogs.create');
+    Route::post('/blogs/store', [BlogController::class, 'storeService'])->name('blogs.store');
+    Route::get('/blogs/edit/{id}', [BlogController::class, 'edit'])->name('blogs.edit');
+    Route::put('/blogs/update/{id}', [BlogController::class, 'update'])->name('blogs.update');
+    Route::post('/blogs/delete/{id}', [BlogController::class, 'deleteService'])->name('blogs.delete');
+    
+    // Blog Categories
+    Route::get('/blog-categories', [BlogCategoryController::class, 'index'])->name('blog.categories.index');
+    Route::post('/blog-categories/store', [BlogCategoryController::class, 'store'])->name('blog.categories.store');
+    Route::get('/blog-categories/edit/{pid}', [BlogCategoryController::class, 'edit'])->name('blog.categories.edit');
+    Route::post('/blog-categories/update/{pid}', [BlogCategoryController::class, 'update'])->name('blog.categories.update');
+    Route::post('/blog-categories/delete/{pid}', [BlogCategoryController::class, 'destroy'])->name('blog.categories.delete');
+    
+    // ==========================================
+    // JOB MANAGEMENT
+    // ==========================================
+    Route::get('/jobs', [JobController::class, 'index'])->name('jobs.index');
+    Route::get('/jobs/create', [JobController::class, 'create'])->name('jobs.create');
+    Route::post('/jobs', [JobController::class, 'store'])->name('jobs.store');
+    Route::get('/jobs/{id}/edit', [JobController::class, 'edit'])->name('jobs.edit');
+    Route::put('/jobs/{id}', [JobController::class, 'update'])->name('jobs.update');
+    Route::delete('/jobs/{id}', [JobController::class, 'destroy'])->name('jobs.destroy');
+    
+    // ==========================================
+    // CAREER MANAGEMENT
+    // ==========================================
+    Route::resource('careers', CareerController::class)->except(['show']);
+    Route::get('careers/{career}', [CareerController::class, 'show'])->name('careers.show');
+    
+    // ==========================================
+    // CAREER APPLICATIONS (FIXED WITH ALL ROUTES)
+    // ==========================================
+    Route::get('/career-applications', [CareerApplicationController::class, 'index'])->name('career-applications.index');
+    Route::get('/career-applications/{id}', [CareerApplicationController::class, 'show'])->name('career-applications.show');
+    Route::get('/career-applications/{id}/resume', [CareerApplicationController::class, 'previewResume'])->name('career-applications.resume');
+    Route::get('/career-applications/{id}/resume/download', [CareerApplicationController::class, 'downloadResume'])->name('career-applications.resume.download');
+    Route::post('/career-applications/{id}/status', [CareerApplicationController::class, 'updateStatus'])->name('career-applications.status');
+    Route::delete('/career-applications/{id}', [CareerApplicationController::class, 'destroy'])->name('career-applications.destroy');
+    
+    // ==========================================
+    // PERMISSIONS & ROLES
+    // ==========================================
+    Route::resource('permissions', PermissionController::class);
+    Route::get('permissions/{permissionId}/delete', [PermissionController::class, 'destroy']);
+    
+    Route::resource('roles', RoleController::class);
+    Route::get('roles/{roleId}/give-permissions', [RoleController::class, 'addPermissionToRole']);
+    Route::put('roles/{roleId}/give-permissions', [RoleController::class, 'givePermissionToRole']);
+    
+    // Users
+    Route::resource('users', UsersController::class);
+    Route::get('users/{UserId}/delete', [UsersController::class, 'destroy']);
 });
 
+// ==========================================
+// 404 FALLBACK
+// ==========================================
+
+Route::fallback(function () {
+    return view('errors.404');
+});
