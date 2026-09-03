@@ -127,12 +127,12 @@
     <div class="row">
         <!-- Main Blog Content -->
         <div class="col-lg-8">
-            <!-- <img src="{{ asset($blog->image) }}"
-     alt="{{ $blog->image_alt ?: $blog->blog_name }}"
-     class="img-fluid mb-4"> -->
+  
 
             <h1 class="mb-3">{{ $blog->blog_name }}</h1>
-
+          <img src="{{ asset($blog->image) }}"
+     alt="{{ $blog->image_alt ?: $blog->blog_name }}"
+     class="img-fluid mb-4">
             <!-- Blog Meta -->
             <p class="text-muted">
                 Published on {{ \Carbon\Carbon::parse($blog->created_at)->format('F d, Y') }}
