@@ -148,13 +148,15 @@
         Unlock the potential
     </span>
 
-    <h2>
-        Digital Transformation Services
-        <br>
-        End-to-End Consulting and Technology
-        <br>
-        Solutions for Future-Ready Businesses.
-    </h2>
+   
+<div class="section-title text-center">
+    <h1 class="main-title">Digital Transformation Services</h1>
+
+    <p class="main-description">
+        End-to-End Consulting and Technology Solutions for Future-Ready Businesses.
+    </p>
+</div>
+
 
 </div>
 		<div class="row pt-45">
@@ -225,139 +227,15 @@
         Unlock the potential
     </span>
 
-    <h2>
+    <!-- <h2>
         Digital Transformation Services
         End-to-End Consulting and Technology
         Solutions for Future-Ready Businesses.
-    </h2>
+    </h2> -->
 
 </div>
 
-<style>
 
-.section-title {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.section-title .sp-color2 {
-    display: inline-block;
-    margin-bottom: 15px;
-    color: #0875c9;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.section-title h2 {
-    max-width: 1000px;
-    margin: 0 auto;
-
-    color: #252525;
-
-    font-size: 44px;
-    line-height: 1.22;
-    font-weight: 700;
-
-    letter-spacing: -0.5px;
-
-    text-transform: uppercase;
-}
-
-
-/* =========================
-   LAPTOP
-========================= */
-
-@media (max-width: 1199px) {
-
-    .section-title {
-        max-width: 900px;
-    }
-
-    .section-title h2 {
-        max-width: 900px;
-        font-size: 40px;
-        line-height: 1.22;
-    }
-
-}
-
-
-/* =========================
-   TABLET
-========================= */
-
-@media (max-width: 991px) {
-
-    .section-title {
-        max-width: 750px;
-    }
-
-    .section-title h2 {
-        max-width: 750px;
-        font-size: 34px;
-        line-height: 1.25;
-    }
-
-    .section-title .sp-color2 {
-        font-size: 16px;
-    }
-
-}
-
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 767px) {
-
-    .section-title {
-        width: 100%;
-        padding: 0 15px;
-    }
-
-    .section-title .sp-color2 {
-        margin-bottom: 12px;
-        font-size: 15px;
-    }
-
-    .section-title h2 {
-        width: 100%;
-        max-width: 100%;
-
-        font-size: 28px;
-        line-height: 1.25;
-
-        letter-spacing: -0.2px;
-    }
-
-}
-
-
-/* =========================
-   SMALL MOBILE
-========================= */
-
-@media (max-width: 480px) {
-
-    .section-title {
-        padding: 0 12px;
-    }
-
-    .section-title h2 {
-        font-size: 24px;
-        line-height: 1.3;
-    }
-
-    .section-title .sp-color2 {
-        font-size: 14px;
-    }
-
-}
-
-</style>
 <!-- =========================================
      DIGITAL TRANSFORMATION SECTION START
 ========================================= -->
@@ -379,7 +257,7 @@
                 </div>
 
                 <h2 class="dt-title">
-                    Common Digital Transformation Challenges We Observe
+                     Digital Transformation Challenges We Observe
                 </h2>
 
                 <div class="dt-challenge-list">
@@ -645,1235 +523,115 @@
 </section>
 
 
-<style>
 
-/* =========================================================
-   JFS TECHNOLOGIES LIGHT BACKGROUND THEME
-========================================================= */
-
-.digital-transformation-section {
-
-    position: relative;
-
-    padding: 90px 0 85px;
-
-    /*
-     * JFS LOGO THEME
-     * Navy + Blue + Light Blue + Gold
-     */
-
-    background:
-
-        radial-gradient(
-            circle at 8% 20%,
-            rgba(8, 117, 201, 0.10),
-            transparent 32%
-        ),
-
-        radial-gradient(
-            circle at 92% 70%,
-            rgba(255, 176, 0, 0.09),
-            transparent 30%
-        ),
-
-        linear-gradient(
-            135deg,
-            #f7fbff 0%,
-            #ffffff 50%,
-            #f8fbff 100%
-        );
-
-    color: #102f53;
-
-    overflow: hidden;
-}
-
-
-/* =========================================================
-   BACKGROUND DECORATION
-========================================================= */
-
-.digital-transformation-section::before {
-
-    content: "";
-
-    position: absolute;
-
-    width: 450px;
-
-    height: 450px;
-
-    top: -250px;
-
-    left: -200px;
-
-    background: rgba(8, 117, 201, 0.035);
-
-    border-radius: 50%;
-
-    pointer-events: none;
-}
-
-
-.digital-transformation-section::after {
-
-    content: "";
-
-    position: absolute;
-
-    width: 350px;
-
-    height: 350px;
-
-    right: -170px;
-
-    bottom: -180px;
-
-    background: rgba(255, 176, 0, 0.045);
-
-    border-radius: 50%;
-
-    pointer-events: none;
-}
-
-
-/* =========================================================
-   CONTAINER
-========================================================= */
-
-.digital-transformation-section .container {
-
-    position: relative;
-
-    z-index: 2;
-
-}
-
-
-/* =========================================================
-   TWO COLUMN LAYOUT
-========================================================= */
-
-.dt-grid {
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 52px;
-
-    align-items: start;
-
-}
-
-
-.dt-column {
-
-    min-width: 0;
-
-}
-
-
-/* =========================================================
-   SECTION LABEL
-========================================================= */
-
-.dt-section-label {
-
-    display: inline-block;
-
-    margin-bottom: 14px;
-
-    color: #0875c9;
-
-    font-size: 12px;
-
-    font-weight: 800;
-
-    letter-spacing: 1.4px;
-
-    text-transform: uppercase;
-
-}
-
-
-/* =========================================================
-   MAIN TITLE
-========================================================= */
-
-.dt-title {
-
-    margin: 0 0 28px;
-
-    max-width: 570px;
-
-    color: #102f53;
-
-    font-size: 34px;
-
-    line-height: 1.15;
-
-    font-weight: 800;
-
-    letter-spacing: -0.8px;
-
-}
-
-
-/* =========================================================
-   LEFT SIDE - CHALLENGE LIST
-========================================================= */
-
-.dt-challenge-list {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 14px;
-
-}
-
-
-/* =========================================================
-   CHALLENGE CARD
-========================================================= */
-
-.dt-challenge-card {
-
-    position: relative;
-
-    display: flex;
-
-    align-items: flex-start;
-
-    gap: 18px;
-
-    min-height: 100px;
-
-    padding: 22px 24px;
-
-    background:
-
-        linear-gradient(
-            145deg,
-            #ffffff,
-            #f6faff
-        );
-
-    border: 1px solid #dfeaf3;
-
-    border-radius: 13px;
-
-    box-shadow:
-
-        0 8px 25px rgba(16, 47, 83, 0.055);
-
-    transition: all 0.3s ease;
-
-}
-
-
-/* =========================================================
-   BLUE SIDE INDICATOR
-========================================================= */
-
-.dt-challenge-card::before {
-
-    content: "";
-
-    position: absolute;
-
-    left: -1px;
-
-    top: 18px;
-
-    bottom: 18px;
-
-    width: 3px;
-
-    background: #0875c9;
-
-    opacity: 0;
-
-    border-radius: 5px;
-
-    transition: 0.3s ease;
-
-}
-
-
-/* =========================================================
-   CHALLENGE HOVER
-========================================================= */
-
-.dt-challenge-card:hover {
-
-    transform: translateX(4px);
-
-    border-color: rgba(8, 117, 201, 0.30);
-
-    box-shadow:
-
-        0 12px 30px rgba(8, 117, 201, 0.09);
-
-}
-
-
-.dt-challenge-card:hover::before {
-
-    opacity: 1;
-
-}
-
-
-/* =========================================================
-   INFORMATION ICON
-========================================================= */
-
-.dt-icon {
-
-    flex: 0 0 30px;
-
-    width: 30px;
-
-    height: 30px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    margin-top: 2px;
-
-    color: #0875c9;
-
-    font-size: 14px;
-
-    font-weight: 700;
-
-    background: #edf7ff;
-
-    border: 1px solid #c9e4f7;
-
-    border-radius: 8px;
-
-}
-
-
-/* =========================================================
-   CHALLENGE TEXT
-========================================================= */
-
-.dt-challenge-card p {
-
-    margin: 0;
-
-    color: #52677d;
-
-    font-size: 15px;
-
-    line-height: 1.7;
-
-}
-
-
-/* =========================================================
-   RIGHT SIDE - BENEFITS GRID
-========================================================= */
-
-.dt-benefits-grid {
-
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
-    gap: 14px;
-
-}
-
-
-/* =========================================================
-   BENEFIT CARD
-========================================================= */
-
-.dt-benefit-card {
-
-    position: relative;
-
-    min-height: 175px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: flex-start;
-
-    padding: 25px 22px 20px;
-
-    background:
-
-        linear-gradient(
-            145deg,
-            #ffffff,
-            #f7fbff
-        );
-
-    border: 1px solid #dfe8f0;
-
-    border-radius: 13px;
-
-    box-shadow:
-
-        0 8px 25px rgba(16, 47, 83, 0.055);
-
-    overflow: hidden;
-
-    transition: all 0.3s ease;
-
-}
-
-
-/* =========================================================
-   TOP COLOR LINE
-========================================================= */
-
-.dt-benefit-card::before {
-
-    content: "";
-
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    height: 4px;
-
-    opacity: 1;
-
-}
-
-
-/* =========================================================
-   BENEFIT HEADER
-========================================================= */
-
-.dt-benefit-header {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    margin-bottom: 10px;
-
-}
-
-
-/* =========================================================
-   BENEFIT NUMBER
-========================================================= */
-
-.dt-benefit-number {
-
-    display: block;
-
-    margin-bottom: 10px;
-
-    color: #102f53;
-
-    font-size: 38px;
-
-    line-height: 1;
-
-    font-weight: 800;
-
-    letter-spacing: -1px;
-
-}
-
-
-/* =========================================================
-   BENEFIT TEXT
-========================================================= */
-
-.dt-benefit-text {
-
-    display: block;
-
-    min-height: 42px;
-
-    color: #60758a;
-
-    font-size: 14px;
-
-    line-height: 1.5;
-
-    font-weight: 600;
-
-}
-
-
-/* =========================================================
-   PROGRESS AREA
-========================================================= */
-
-.dt-benefit-progress {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 12px;
-
-    margin-top: auto;
-
-    padding-top: 18px;
-
-}
-
-
-/* =========================================================
-   PROGRESS TRACK
-========================================================= */
-
-.dt-progress-track {
-
-    flex: 1;
-
-    height: 6px;
-
-    background: #dce6ef;
-
-    border-radius: 10px;
-
-    overflow: hidden;
-
-}
-
-
-/* =========================================================
-   PROGRESS BAR
-========================================================= */
-
-.dt-progress-bar {
-
-    height: 100%;
-
-    border-radius: 10px;
-
-}
-
-
-/* =========================================================
-   PROGRESS VALUE
-========================================================= */
-
-.dt-progress-value {
-
-    min-width: 42px;
-
-    color: #102f53;
-
-    font-size: 13px;
-
-    font-weight: 800;
-
-    text-align: right;
-
-}
-
-
-/* =========================================================
-   50% - JFS GOLD
-========================================================= */
-
-.dt-benefit-yellow::before {
-
-    background: #ffb000;
-
-}
-
-
-.dt-benefit-yellow .dt-progress-bar {
-
-    background: #ffb000;
-
-    box-shadow:
-
-        0 0 8px rgba(255, 176, 0, 0.30);
-
-}
-
-
-.dt-benefit-yellow:hover {
-
-    border-color: rgba(255, 176, 0, 0.45);
-
-    box-shadow:
-
-        0 12px 30px rgba(255, 176, 0, 0.10);
-
-}
-
-
-/* =========================================================
-   99.9% - JFS BLUE
-========================================================= */
-
-.dt-benefit-green::before {
-
-    background: #0875c9;
-
-}
-
-
-.dt-benefit-green .dt-progress-bar {
-
-    background: #0875c9;
-
-    box-shadow:
-
-        0 0 8px rgba(8, 117, 201, 0.30);
-
-}
-
-
-.dt-benefit-green:hover {
-
-    border-color: rgba(8, 117, 201, 0.40);
-
-    box-shadow:
-
-        0 12px 30px rgba(8, 117, 201, 0.10);
-
-}
-
-
-/* =========================================================
-   3X - LIGHT BLUE
-========================================================= */
-
-.dt-benefit-blue::before {
-
-    background: #3a9be8;
-
-}
-
-
-.dt-benefit-blue .dt-progress-bar {
-
-    background: #3a9be8;
-
-    box-shadow:
-
-        0 0 8px rgba(58, 155, 232, 0.25);
-
-}
-
-
-.dt-benefit-blue:hover {
-
-    border-color: rgba(58, 155, 232, 0.40);
-
-    box-shadow:
-
-        0 12px 30px rgba(58, 155, 232, 0.10);
-
-}
-
-
-/* =========================================================
-   24X7 - NAVY
-========================================================= */
-
-.dt-benefit-purple::before {
-
-    background: #102f53;
-
-}
-
-
-.dt-benefit-purple .dt-progress-bar {
-
-    background: #102f53;
-
-    box-shadow:
-
-        0 0 8px rgba(16, 47, 83, 0.25);
-
-}
-
-
-.dt-benefit-purple:hover {
-
-    border-color: rgba(16, 47, 83, 0.35);
-
-    box-shadow:
-
-        0 12px 30px rgba(16, 47, 83, 0.10);
-
-}
-
-
-/* =========================================================
-   SUPPORTING BENEFIT CARD
-========================================================= */
-
-.dt-benefit-highlight {
-
-    position: relative;
-
-    margin-top: 16px;
-
-    padding: 21px 24px;
-
-    background:
-
-        linear-gradient(
-            135deg,
-            #fffaf0,
-            #fffdf8
-        );
-
-    border: 1px solid rgba(255, 176, 0, 0.35);
-
-    border-radius: 13px;
-
-    box-shadow:
-
-        0 6px 20px rgba(255, 176, 0, 0.05);
-
-}
-
-
-/* =========================================================
-   GOLD VERTICAL LINE
-========================================================= */
-
-.dt-benefit-highlight::before {
-
-    content: "";
-
-    position: absolute;
-
-    left: 0;
-
-    top: 20px;
-
-    bottom: 20px;
-
-    width: 3px;
-
-    background: #ffb000;
-
-    border-radius: 0 4px 4px 0;
-
-}
-
-
-/* =========================================================
-   HIGHLIGHT TEXT
-========================================================= */
-
-.dt-benefit-highlight span {
-
-    display: block;
-
-    padding-left: 3px;
-
-    color: #b27600;
-
-    font-size: 15px;
-
-    line-height: 1.6;
-
-    font-weight: 700;
-
-}
-
-
-/* =========================================================
-   BOTTOM MESSAGE
-========================================================= */
-
-.dt-bottom-message {
-
-    position: relative;
-
-    margin-top: 58px;
-
-    padding: 28px 35px;
-
-    background:
-
-        linear-gradient(
-            135deg,
-            #fffaf0,
-            #f8fbff
-        );
-
-    border: 1px solid rgba(255, 176, 0, 0.30);
-
-    border-radius: 14px;
-
-    box-shadow:
-
-        0 8px 25px rgba(16, 47, 83, 0.045);
-
-    overflow: hidden;
-
-}
-
-
-/* =========================================================
-   BOTTOM BLUE/GOLD LINE
-========================================================= */
-
-.dt-bottom-line {
-
-    position: absolute;
-
-    left: 0;
-
-    top: 0;
-
-    bottom: 0;
-
-    width: 4px;
-
-    background: #ffb000;
-
-}
-
-
-/* =========================================================
-   BOTTOM TEXT
-========================================================= */
-
-.dt-bottom-message p {
-
-    margin: 0;
-
-    color: #102f53;
-
-    font-size: 18px;
-
-    line-height: 1.65;
-
-    font-weight: 600;
-
-    font-style: italic;
-
-}
-
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 991px) {
-
-    .digital-transformation-section {
-
-        padding: 70px 0;
-
-    }
-
-
-    .dt-grid {
-
-        grid-template-columns: 1fr;
-
-        gap: 55px;
-
-    }
-
-
-    .dt-title {
-
-        font-size: 30px;
-
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 767px) {
-
-    .digital-transformation-section {
-
-        padding: 55px 0 60px;
-
-    }
-
-
-    .dt-grid {
-
-        gap: 45px;
-
-    }
-
-
-    .dt-title {
-
-        font-size: 27px;
-
-        line-height: 1.2;
-
-        margin-bottom: 22px;
-
-    }
-
-
-    /* Challenge */
-
-    .dt-challenge-card {
-
-        padding: 18px;
-
-        gap: 13px;
-
-    }
-
-
-    .dt-challenge-card p {
-
-        font-size: 14px;
-
-        line-height: 1.6;
-
-    }
-
-
-    /* Benefits */
-
-    .dt-benefits-grid {
-
-        grid-template-columns: 1fr 1fr;
-
-        gap: 10px;
-
-    }
-
-
-    .dt-benefit-card {
-
-        min-height: 155px;
-
-        padding: 20px 16px 17px;
-
-    }
-
-
-    .dt-benefit-number {
-
-        font-size: 30px;
-
-    }
-
-
-    .dt-benefit-text {
-
-        font-size: 13px;
-
-    }
-
-
-    .dt-benefit-progress {
-
-        gap: 8px;
-
-        padding-top: 14px;
-
-    }
-
-
-    .dt-progress-value {
-
-        min-width: 35px;
-
-        font-size: 11px;
-
-    }
-
-
-    /* Highlight */
-
-    .dt-benefit-highlight {
-
-        padding: 18px 20px;
-
-    }
-
-
-    /* Bottom */
-
-    .dt-bottom-message {
-
-        margin-top: 45px;
-
-        padding: 22px 24px;
-
-    }
-
-
-    .dt-bottom-message p {
-
-        font-size: 15px;
-
-        line-height: 1.6;
-
-    }
-
-}
-
-
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
-
-@media (max-width: 480px) {
-
-    .dt-benefits-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-    .dt-benefit-card {
-
-        min-height: 150px;
-
-    }
-
-
-    .dt-benefit-number {
-
-        font-size: 34px;
-
-    }
-
-
-    .dt-section-label {
-
-        font-size: 11px;
-
-    }
-
-}
-
-</style>
 
 <section class="business-challenges-section">
-
     <div class="container">
 
         <!-- Section Heading -->
         <div class="bc-section-heading">
-
-            <span class="bc-label">
-                BUSINESS CHALLENGES
-            </span>
-
-            <h2>
-                Business Challenges We Help You Overcome
-            </h2>
-
+            <span class="bc-label">BUSINESS CHALLENGES</span>
+            <h2>Business Challenges We Help You Overcome</h2>
             <p>
                 Every organization faces unique challenges as technology evolves.
                 Our <strong>digital transformation solutions</strong> are designed
                 to solve real business problems and create measurable outcomes.
             </p>
-
         </div>
-
 
         <!-- Challenges Grid -->
         <div class="bc-grid">
 
-
             <!-- CARD 1 -->
             <div class="bc-card">
-
                 <div class="bc-card-top">
-
-                    <div class="bc-number">
-                        01
-                    </div>
-
-                    <div class="bc-arrow">
-                        →
-                    </div>
-
+                    <div class="bc-number">01</div>
+                    <div class="bc-arrow">→</div>
                 </div>
-
-                <div class="bc-icon">
-                    <i class="bx bx-layer"></i>
+                <!-- icon + heading in ONE ROW (side by side) -->
+                <div class="bc-icon-heading-row">
+                    <i class="bx bx-layer bc-icon"></i>
+                    <h3>Legacy Systems Holding You Back</h3>
                 </div>
-
-                <h3>
-                    Legacy Systems Holding You Back
-                </h3>
-
                 <p>
                     Outdated applications are expensive to maintain and difficult
                     to scale. We modernize legacy software using modern architectures
                     and cloud technologies.
                 </p>
-
                 <div class="bc-card-line"></div>
-
             </div>
-
 
             <!-- CARD 2 -->
             <div class="bc-card">
-
                 <div class="bc-card-top">
-
-                    <div class="bc-number">
-                        02
-                    </div>
-
-                    <div class="bc-arrow">
-                        →
-                    </div>
-
+                    <div class="bc-number">02</div>
+                    <div class="bc-arrow">→</div>
                 </div>
-
-                <div class="bc-icon">
-                    <i class="bx bx-cog"></i>
+                <div class="bc-icon-heading-row">
+                    <i class="bx bx-cog bc-icon"></i>
+                    <h3>Manual Processes Reducing Productivity</h3>
                 </div>
-
-                <h3>
-                    Manual Processes Reducing Productivity
-                </h3>
-
                 <p>
                     We automate repetitive tasks using workflow automation, AI,
                     and intelligent business applications to improve efficiency.
                 </p>
-
                 <div class="bc-card-line"></div>
-
             </div>
-
 
             <!-- CARD 3 -->
             <div class="bc-card">
-
                 <div class="bc-card-top">
-
-                    <div class="bc-number">
-                        03
-                    </div>
-
-                    <div class="bc-arrow">
-                        →
-                    </div>
-
+                    <div class="bc-number">03</div>
+                    <div class="bc-arrow">→</div>
                 </div>
-
-                <div class="bc-icon">
-                    <i class="bx bx-user-check"></i>
+                <div class="bc-icon-heading-row">
+                    <i class="bx bx-user-check bc-icon"></i>
+                    <h3>Poor Customer Experience</h3>
                 </div>
-
-                <h3>
-                    Poor Customer Experience
-                </h3>
-
                 <p>
                     We build responsive web platforms, mobile applications,
                     and digital customer experiences that increase engagement
                     and satisfaction.
                 </p>
-
                 <div class="bc-card-line"></div>
-
             </div>
-
 
             <!-- CARD 4 -->
             <div class="bc-card">
-
                 <div class="bc-card-top">
-
-                    <div class="bc-number">
-                        04
-                    </div>
-
-                    <div class="bc-arrow">
-                        →
-                    </div>
-
+                    <div class="bc-number">04</div>
+                    <div class="bc-arrow">→</div>
                 </div>
-
-                <div class="bc-icon">
-                    <i class="bx bx-bar-chart-alt-2"></i>
+                <div class="bc-icon-heading-row">
+                    <i class="bx bx-bar-chart-alt-2 bc-icon"></i>
+                    <h3>Lack of Data Visibility</h3>
                 </div>
-
-                <h3>
-                    Lack of Data Visibility
-                </h3>
-
                 <p>
                     Our data analytics and business intelligence solutions help
                     organizations make informed, data-driven decisions.
                 </p>
-
                 <div class="bc-card-line"></div>
-
             </div>
-
 
             <!-- CARD 5 -->
             <div class="bc-card">
-
                 <div class="bc-card-top">
-
-                    <div class="bc-number">
-                        05
-                    </div>
-
-                    <div class="bc-arrow">
-                        →
-                    </div>
-
+                    <div class="bc-number">05</div>
+                    <div class="bc-arrow">→</div>
                 </div>
-
-                <div class="bc-icon">
-                    <i class="bx bx-rocket"></i>
+                <div class="bc-icon-heading-row">
+                    <i class="bx bx-rocket bc-icon"></i>
+                    <h3>Slow Software Delivery</h3>
                 </div>
-
-                <h3>
-                    Slow Software Delivery
-                </h3>
-
                 <p>
                     Through DevOps implementation and CI/CD pipelines, we reduce
                     deployment times and improve software reliability.
                 </p>
-
                 <div class="bc-card-line"></div>
-
             </div>
 
-
         </div>
-
     </div>
-
 </section>
 
 
@@ -1882,559 +640,7 @@
 ===================================================== -->
 
 
-<style>
 
-/* =====================================================
-   BUSINESS CHALLENGES SECTION
-===================================================== */
-
-.business-challenges-section {
-
-    position: relative;
-
-    padding: 90px 0 100px;
-
-    background: #ffffff;
-
-    overflow: hidden;
-
-}
-
-
-.business-challenges-section::before {
-
-    content: "";
-
-    position: absolute;
-
-    width: 420px;
-
-    height: 420px;
-
-    top: -180px;
-
-    right: -150px;
-
-    background: rgba(10, 77, 142, 0.035);
-
-    border-radius: 50%;
-
-    pointer-events: none;
-
-}
-
-
-.business-challenges-section .container {
-
-    position: relative;
-
-    z-index: 2;
-
-}
-
-
-/* =====================================================
-   SECTION HEADING
-===================================================== */
-
-.bc-section-heading {
-
-    max-width: 850px;
-
-    margin: 0 auto 55px;
-
-    text-align: center;
-
-}
-
-
-.bc-label {
-
-    display: inline-block;
-
-    margin-bottom: 12px;
-
-    color: #0875c9;
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-    letter-spacing: 1.5px;
-
-    text-transform: uppercase;
-
-}
-
-
-.bc-section-heading h2 {
-
-    margin: 0 0 18px;
-
-    color: #092c55;
-
-    font-size: 42px;
-
-    line-height: 1.18;
-
-    font-weight: 700;
-
-    letter-spacing: -0.8px;
-
-}
-
-
-.bc-section-heading p {
-
-    max-width: 760px;
-
-    margin: 0 auto;
-
-    color: #64748b;
-
-    font-size: 16px;
-
-    line-height: 1.75;
-
-}
-
-
-.bc-section-heading strong {
-
-    color: #0875c9;
-
-    font-weight: 600;
-
-}
-
-
-/* =====================================================
-   CARDS GRID
-===================================================== */
-
-.bc-grid {
-
-    display: grid;
-
-    grid-template-columns: repeat(6, 1fr);
-
-    gap: 20px;
-
-}
-
-
-/* First 3 cards */
-
-.bc-card:nth-child(1),
-.bc-card:nth-child(2),
-.bc-card:nth-child(3) {
-
-    grid-column: span 2;
-
-}
-
-
-/* Last 2 cards */
-
-.bc-card:nth-child(4) {
-
-    grid-column: 2 / span 2;
-
-}
-
-
-.bc-card:nth-child(5) {
-
-    grid-column: 4 / span 2;
-
-}
-
-
-/* =====================================================
-   CARD
-===================================================== */
-
-.bc-card {
-
-    position: relative;
-
-    min-height: 365px;
-
-    padding: 28px 27px 30px;
-
-    background: #ffffff;
-
-    border: 1px solid #e6ebf1;
-
-    border-radius: 8px;
-
-    box-shadow:
-        0 8px 30px rgba(15, 48, 80, 0.055);
-
-    overflow: hidden;
-
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border-color 0.3s ease;
-
-}
-
-
-.bc-card:hover {
-
-    transform: translateY(-7px);
-
-    border-color: rgba(8, 117, 201, 0.25);
-
-    box-shadow:
-        0 18px 45px rgba(15, 48, 80, 0.12);
-
-}
-
-
-/* =====================================================
-   CARD TOP
-===================================================== */
-
-.bc-card-top {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    margin-bottom: 27px;
-
-}
-
-
-.bc-number {
-
-    color: #b8c5d2;
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-    letter-spacing: 1px;
-
-}
-
-
-.bc-arrow {
-
-    width: 34px;
-
-    height: 34px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    border: 1px solid #e2e8ef;
-
-    border-radius: 50%;
-
-    color: #0875c9;
-
-    font-size: 17px;
-
-    transition: all 0.3s ease;
-
-}
-
-
-.bc-card:hover .bc-arrow {
-
-    color: #ffffff;
-
-    background: #0875c9;
-
-    border-color: #0875c9;
-
-    transform: rotate(-45deg);
-
-}
-
-
-/* =====================================================
-   ICON
-===================================================== */
-
-.bc-icon {
-
-    width: 52px;
-
-    height: 52px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    margin-bottom: 22px;
-
-    color: #0875c9;
-
-    background: rgba(8, 117, 201, 0.07);
-
-    border: 1px solid rgba(8, 117, 201, 0.12);
-
-    border-radius: 10px;
-
-}
-
-
-.bc-icon i {
-
-    font-size: 25px;
-
-}
-
-
-/* =====================================================
-   CARD TITLE
-===================================================== */
-
-.bc-card h3 {
-
-    margin: 0 0 15px;
-
-    color: #073b67;
-
-    font-size: 21px;
-
-    line-height: 1.35;
-
-    font-weight: 600;
-
-}
-
-
-/* =====================================================
-   CARD DESCRIPTION
-===================================================== */
-
-.bc-card p {
-
-    margin: 0;
-
-    color: #667789;
-
-    font-size: 14px;
-
-    line-height: 1.75;
-
-}
-
-
-/* =====================================================
-   CARD BOTTOM LINE
-===================================================== */
-
-.bc-card-line {
-
-    position: absolute;
-
-    left: 0;
-
-    right: 0;
-
-    bottom: 0;
-
-    height: 3px;
-
-    background: #0875c9;
-
-    transform: scaleX(0);
-
-    transform-origin: left;
-
-    transition: transform 0.35s ease;
-
-}
-
-
-.bc-card:hover .bc-card-line {
-
-    transform: scaleX(1);
-
-}
-
-
-/* =====================================================
-   TABLET
-===================================================== */
-
-@media (max-width: 991px) {
-
-    .business-challenges-section {
-
-        padding: 70px 0 80px;
-
-    }
-
-
-    .bc-section-heading h2 {
-
-        font-size: 36px;
-
-    }
-
-
-    .bc-grid {
-
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-
-
-    .bc-card:nth-child(1),
-    .bc-card:nth-child(2),
-    .bc-card:nth-child(3),
-    .bc-card:nth-child(4),
-    .bc-card:nth-child(5) {
-
-        grid-column: auto;
-
-    }
-
-
-    .bc-card {
-
-        min-height: 340px;
-
-    }
-
-}
-
-
-/* =====================================================
-   MOBILE
-===================================================== */
-
-@media (max-width: 767px) {
-
-    .business-challenges-section {
-
-        padding: 55px 0 65px;
-
-    }
-
-
-    .bc-section-heading {
-
-        margin-bottom: 35px;
-
-    }
-
-
-    .bc-section-heading h2 {
-
-        font-size: 29px;
-
-        line-height: 1.25;
-
-    }
-
-
-    .bc-section-heading p {
-
-        font-size: 14px;
-
-        line-height: 1.65;
-
-    }
-
-
-    .bc-grid {
-
-        grid-template-columns: 1fr;
-
-        gap: 15px;
-
-    }
-
-
-    .bc-card:nth-child(1),
-    .bc-card:nth-child(2),
-    .bc-card:nth-child(3),
-    .bc-card:nth-child(4),
-    .bc-card:nth-child(5) {
-
-        grid-column: auto;
-
-    }
-
-
-    .bc-card {
-
-        min-height: auto;
-
-        padding: 23px;
-
-    }
-
-
-    .bc-card h3 {
-
-        font-size: 19px;
-
-    }
-
-
-    .bc-card p {
-
-        font-size: 14px;
-
-    }
-
-}
-
-
-/* =====================================================
-   SMALL MOBILE
-===================================================== */
-
-@media (max-width: 480px) {
-
-    .bc-section-heading h2 {
-
-        font-size: 26px;
-
-    }
-
-
-    .bc-label {
-
-        font-size: 11px;
-
-    }
-
-
-    .bc-card {
-
-        padding: 21px;
-
-    }
-
-
-    .bc-icon {
-
-        width: 46px;
-
-        height: 46px;
-
-    }
-
-}
-
-</style>
 
 <!-- =========================================================
      WHY CHOOSE JFS TECHNOLOGIES
@@ -2499,8 +705,8 @@
 
                     </div>
 
-                    <div class="jfs-side-number">
-                        01
+                    <div class="jfs-side-icon">
+                        <i class="bx bx-group"></i>
                     </div>
 
                 </div>
@@ -2523,8 +729,8 @@
 
                     </div>
 
-                    <div class="jfs-side-number">
-                        07
+                    <div class="jfs-side-icon">
+                        <i class="bx bx-support"></i>
                     </div>
 
                 </div>
@@ -2547,8 +753,8 @@
 
                     </div>
 
-                    <div class="jfs-side-number">
-                        06
+                    <div class="jfs-side-icon">
+                        <i class="bx bx-chat"></i>
                     </div>
 
                 </div>
@@ -2571,8 +777,8 @@
 
                     </div>
 
-                    <div class="jfs-side-number">
-                        05
+                    <div class="jfs-side-icon">
+                        <i class="bx bx-shield"></i>
                     </div>
 
                 </div>
@@ -2629,8 +835,8 @@
 
                 <div class="jfs-side-item jfs-right-item-02">
 
-                    <div class="jfs-side-number">
-                        02
+                    <div class="jfs-side-icon">
+                        <i class="bx bx-code-alt"></i>
                     </div>
 
                     <div class="jfs-side-text">
@@ -2653,8 +859,8 @@
 
                 <div class="jfs-side-item jfs-right-item-03">
 
-                    <div class="jfs-side-number">
-                        03
+                    <div class="jfs-side-icon">
+                       <i class="bx bx-refresh"></i>
                     </div>
 
                     <div class="jfs-side-text">
@@ -2677,8 +883,8 @@
 
                 <div class="jfs-side-item jfs-right-item-04">
 
-                    <div class="jfs-side-number">
-                        04
+                    <div class="jfs-side-icon">
+                        <i class="bx bx-expand"></i>
                     </div>
 
                     <div class="jfs-side-text">
@@ -2700,1383 +906,13 @@
 
         </div>
 
-
-        <!-- =====================================================
-             BOTTOM MESSAGE
-        ====================================================== -->
-
-      
-
     </div>
 
 </section>
 
 
-<style>
 
-/* =========================================================
-   MAIN SECTION
-========================================================= */
 
-.jfs-why-section {
-
-    position: relative;
-
-    padding: 95px 0 90px;
-
-    background: #ffffff;
-
-    overflow: hidden;
-
-}
-
-
-/* =========================================================
-   BACKGROUND DECORATION
-========================================================= */
-
-.jfs-why-section::before {
-
-    content: "";
-
-    position: absolute;
-
-    width: 500px;
-
-    height: 500px;
-
-    top: -260px;
-
-    left: -220px;
-
-    background: rgba(8, 117, 201, 0.035);
-
-    border-radius: 50%;
-
-    pointer-events: none;
-
-}
-
-
-.jfs-why-section::after {
-
-    content: "";
-
-    position: absolute;
-
-    width: 400px;
-
-    height: 400px;
-
-    right: -220px;
-
-    bottom: -220px;
-
-    background: rgba(255, 184, 0, 0.035);
-
-    border-radius: 50%;
-
-    pointer-events: none;
-
-}
-
-
-.jfs-why-section .container {
-
-    position: relative;
-
-    z-index: 2;
-
-}
-
-
-/* =========================================================
-   HEADING
-========================================================= */
-
-.jfs-why-heading {
-
-    max-width: 900px;
-
-    margin: 0 auto 65px;
-
-    text-align: center;
-
-}
-
-
-.jfs-why-label {
-
-    display: inline-block;
-
-    margin-bottom: 12px;
-
-    color: #0875c9;
-
-    font-size: 13px;
-
-    line-height: 1;
-
-    font-weight: 800;
-
-    letter-spacing: 1.8px;
-
-    text-transform: uppercase;
-
-}
-
-
-.jfs-why-heading h2 {
-
-    margin: 0 0 18px;
-
-    color: #102f53;
-
-    font-size: 46px;
-
-    line-height: 1.15;
-
-    font-weight: 800;
-
-    letter-spacing: -1px;
-
-}
-
-
-.jfs-why-heading p {
-
-    max-width: 790px;
-
-    margin: 0 auto;
-
-    color: #64748b;
-
-    font-size: 16px;
-
-    line-height: 1.75;
-
-}
-
-
-/* =========================================================
-   MAIN 3 COLUMN LAYOUT
-
-   LEFT       CENTER       RIGHT
-   4 ITEMS     CIRCLE       3 ITEMS
-========================================================= */
-
-.jfs-why-layout {
-
-    position: relative;
-
-    display: grid;
-
-    grid-template-columns: 1fr 310px 1fr;
-
-    column-gap: 65px;
-
-    align-items: center;
-
-    max-width: 1200px;
-
-    min-height: 590px;
-
-    margin: 0 auto;
-
-}
-
-
-/* =========================================================
-   LEFT / RIGHT SIDES
-========================================================= */
-
-.jfs-side {
-
-    position: relative;
-
-    height: 590px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: space-between;
-
-}
-
-
-/* =========================================================
-   SIDE ITEM
-========================================================= */
-
-.jfs-side-item {
-
-    position: relative;
-
-    width: 100%;
-
-    min-height: 105px;
-
-    display: flex;
-
-    align-items: center;
-
-}
-
-
-/* =========================================================
-   LEFT SIDE
-========================================================= */
-
-.jfs-side-left {
-
-    text-align: right;
-
-}
-
-
-.jfs-side-left .jfs-side-item {
-
-    justify-content: flex-end;
-
-}
-
-
-.jfs-side-left .jfs-side-text {
-
-    padding-right: 20px;
-
-}
-
-
-.jfs-side-text {
-
-    flex: 1;
-
-}
-
-
-.jfs-side-text h3 {
-
-    margin: 0 0 8px;
-
-    color: #102f53;
-
-    font-size: 20px;
-
-    line-height: 1.3;
-
-    font-weight: 750;
-
-}
-
-
-.jfs-side-text p {
-
-    max-width: 330px;
-
-    margin: 0;
-
-    color: #708196;
-
-    font-size: 14px;
-
-    line-height: 1.7;
-
-}
-
-
-/* =========================================================
-   NUMBER CIRCLE
-========================================================= */
-
-.jfs-side-number {
-
-    position: relative;
-
-    z-index: 5;
-
-    flex: 0 0 52px;
-
-    width: 52px;
-
-    height: 52px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: #ffffff;
-
-    background: #0875c9;
-
-    border: 4px solid #ffffff;
-
-    border-radius: 50%;
-
-    box-shadow:
-
-        0 6px 18px rgba(8, 117, 201, 0.22);
-
-    font-size: 12px;
-
-    font-weight: 800;
-
-    transition: all 0.3s ease;
-
-}
-
-
-/* Yellow dot */
-
-.jfs-side-number::after {
-
-    content: "";
-
-    position: absolute;
-
-    right: -2px;
-
-    bottom: -2px;
-
-    width: 12px;
-
-    height: 12px;
-
-    background: #ffb800;
-
-    border: 2px solid #ffffff;
-
-    border-radius: 50%;
-
-}
-
-
-/* =========================================================
-   RIGHT SIDE
-========================================================= */
-
-.jfs-side-right {
-
-    text-align: left;
-
-}
-
-
-.jfs-side-right .jfs-side-item {
-
-    justify-content: flex-start;
-
-}
-
-
-.jfs-side-right .jfs-side-text {
-
-    padding-left: 20px;
-
-}
-
-
-/* =========================================================
-   CONNECTING LINES
-========================================================= */
-
-
-/* LEFT LINE */
-
-.jfs-side-left .jfs-side-item::after {
-
-    content: "";
-
-    position: absolute;
-
-    right: -68px;
-
-    top: 50%;
-
-    width: 68px;
-
-    height: 1px;
-
-    background: #cbd9e5;
-
-    transform-origin: right center;
-
-}
-
-
-/* RIGHT LINE */
-
-.jfs-side-right .jfs-side-item::before {
-
-    content: "";
-
-    position: absolute;
-
-    left: -68px;
-
-    top: 50%;
-
-    width: 68px;
-
-    height: 1px;
-
-    background: #cbd9e5;
-
-    transform-origin: left center;
-
-}
-
-
-/* Different line angles */
-
-.jfs-left-item-01::after {
-
-    transform: rotate(13deg);
-
-}
-
-
-.jfs-left-item-07::after {
-
-    transform: rotate(4deg);
-
-}
-
-
-.jfs-left-item-06::after {
-
-    transform: rotate(-4deg);
-
-}
-
-
-.jfs-left-item-05::after {
-
-    transform: rotate(-13deg);
-
-}
-
-
-.jfs-right-item-02::before {
-
-    transform: rotate(-13deg);
-
-}
-
-
-.jfs-right-item-03::before {
-
-    transform: rotate(-4deg);
-
-}
-
-
-.jfs-right-item-04::before {
-
-    transform: rotate(4deg);
-
-}
-
-
-/* =========================================================
-   CENTER AREA
-========================================================= */
-
-.jfs-why-center {
-
-    position: relative;
-
-    width: 310px;
-
-    height: 310px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-}
-
-
-/* =========================================================
-   OUTER RINGS
-========================================================= */
-
-.jfs-center-ring {
-
-    position: absolute;
-
-    border-radius: 50%;
-
-}
-
-
-.jfs-ring-one {
-
-    width: 310px;
-
-    height: 310px;
-
-    border: 1px dashed #c6d8e6;
-
-    animation: jfsRotate 30s linear infinite;
-
-}
-
-
-.jfs-ring-two {
-
-    width: 275px;
-
-    height: 275px;
-
-    border: 2px solid rgba(255, 184, 0, 0.20);
-
-}
-
-
-/* =========================================================
-   CENTER CIRCLE
-========================================================= */
-
-.jfs-center-main {
-
-    position: relative;
-
-    z-index: 5;
-
-    width: 235px;
-
-    height: 235px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: #ffffff;
-
-    background:
-
-        linear-gradient(
-
-            145deg,
-
-            #102f5c 0%,
-
-            #0875c9 100%
-
-        );
-
-    border-radius: 50%;
-
-    box-shadow:
-
-        0 25px 55px rgba(8, 73, 125, 0.24);
-
-}
-
-
-/* =========================================================
-   CENTER ICON
-========================================================= */
-
-.jfs-center-icon {
-
-    width: 48px;
-
-    height: 48px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    margin-bottom: 12px;
-
-    color: #102f53;
-
-    background: #ffb800;
-
-    border-radius: 50%;
-
-}
-
-
-.jfs-center-icon i {
-
-    font-size: 24px;
-
-}
-
-
-/* =========================================================
-   CENTER TEXT
-========================================================= */
-
-.jfs-center-main strong {
-
-    font-size: 32px;
-
-    line-height: 1;
-
-    font-weight: 800;
-
-    letter-spacing: 1px;
-
-}
-
-
-.jfs-center-main span {
-
-    margin-top: 7px;
-
-    color: rgba(255,255,255,0.9);
-
-    font-size: 10px;
-
-    font-weight: 600;
-
-    letter-spacing: 2.5px;
-
-}
-
-
-.jfs-center-main small {
-
-    margin-top: 15px;
-
-    padding: 6px 14px;
-
-    color: #ffffff;
-
-    background: rgba(255,255,255,0.10);
-
-    border: 1px solid rgba(255,255,255,0.22);
-
-    border-radius: 20px;
-
-    font-size: 8px;
-
-    font-weight: 700;
-
-    letter-spacing: 1.2px;
-
-}
-
-
-/* =========================================================
-   HOVER EFFECT
-========================================================= */
-
-.jfs-side-item:hover .jfs-side-number {
-
-    color: #102f53;
-
-    background: #ffb800;
-
-    transform: scale(1.1);
-
-}
-
-
-.jfs-side-item:hover .jfs-side-text h3 {
-
-    color: #0875c9;
-
-}
-
-
-.jfs-side-number {
-
-    transition: all 0.3s ease;
-
-}
-
-
-.jfs-side-text h3 {
-
-    transition: color 0.3s ease;
-
-}
-
-
-/* =========================================================
-   CENTER ANIMATION
-========================================================= */
-
-@keyframes jfsRotate {
-
-    from {
-
-        transform: rotate(0deg);
-
-    }
-
-    to {
-
-        transform: rotate(360deg);
-
-    }
-
-}
-
-
-/* =========================================================
-   BOTTOM COMMITMENT
-========================================================= */
-
-.jfs-why-bottom {
-
-    max-width: 950px;
-
-    min-height: 82px;
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 20px;
-
-    margin: 35px auto 0;
-
-    padding: 18px 25px;
-
-    background: #f3f9fd;
-
-    border: 1px solid #d9eaf5;
-
-    border-radius: 9px;
-
-}
-
-
-/* Bottom icon */
-
-.jfs-bottom-icon {
-
-    flex: 0 0 48px;
-
-    width: 48px;
-
-    height: 48px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: #ffffff;
-
-    background: #0875c9;
-
-    border-radius: 50%;
-
-}
-
-
-.jfs-bottom-icon i {
-
-    font-size: 24px;
-
-}
-
-
-/* Bottom text */
-
-.jfs-bottom-text {
-
-    flex: 1;
-
-}
-
-
-.jfs-bottom-text span {
-
-    display: block;
-
-    margin-bottom: 5px;
-
-    color: #0875c9;
-
-    font-size: 10px;
-
-    font-weight: 800;
-
-    letter-spacing: 1.5px;
-
-}
-
-
-.jfs-bottom-text h3 {
-
-    margin: 0;
-
-    color: #102f53;
-
-    font-size: 19px;
-
-    line-height: 1.4;
-
-    font-weight: 700;
-
-}
-
-
-/* =========================================================
-   LARGE DESKTOP
-========================================================= */
-
-@media (min-width: 1400px) {
-
-    .jfs-why-layout {
-
-        max-width: 1250px;
-
-        grid-template-columns: 1fr 330px 1fr;
-
-        column-gap: 80px;
-
-    }
-
-
-    .jfs-side-text h3 {
-
-        font-size: 21px;
-
-    }
-
-
-    .jfs-side-text p {
-
-        font-size: 14px;
-
-    }
-
-}
-
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 1100px) {
-
-    .jfs-why-heading h2 {
-
-        font-size: 40px;
-
-    }
-
-
-    .jfs-why-layout {
-
-        grid-template-columns: 1fr 270px 1fr;
-
-        column-gap: 40px;
-
-        max-width: 100%;
-
-    }
-
-
-    .jfs-why-center {
-
-        width: 270px;
-
-        height: 270px;
-
-    }
-
-
-    .jfs-ring-one {
-
-        width: 270px;
-
-        height: 270px;
-
-    }
-
-
-    .jfs-ring-two {
-
-        width: 240px;
-
-        height: 240px;
-
-    }
-
-
-    .jfs-center-main {
-
-        width: 205px;
-
-        height: 205px;
-
-    }
-
-
-    .jfs-side-text h3 {
-
-        font-size: 17px;
-
-    }
-
-
-    .jfs-side-text p {
-
-        font-size: 12px;
-
-    }
-
-
-    .jfs-side-number {
-
-        flex-basis: 47px;
-
-        width: 47px;
-
-        height: 47px;
-
-    }
-
-
-    .jfs-side-left .jfs-side-item::after {
-
-        right: -40px;
-
-        width: 40px;
-
-    }
-
-
-    .jfs-side-right .jfs-side-item::before {
-
-        left: -40px;
-
-        width: 40px;
-
-    }
-
-}
-
-
-/* =========================================================
-   TABLET / SMALL SCREEN
-========================================================= */
-
-@media (max-width: 850px) {
-
-    .jfs-why-layout {
-
-        display: grid;
-
-        grid-template-columns: 1fr;
-
-        gap: 25px;
-
-        min-height: auto;
-
-    }
-
-
-    .jfs-why-center {
-
-        grid-row: 1;
-
-        width: 260px;
-
-        height: 260px;
-
-        margin: 0 auto 20px;
-
-    }
-
-
-    .jfs-side-left {
-
-        grid-row: 2;
-
-    }
-
-
-    .jfs-side-right {
-
-        grid-row: 3;
-
-    }
-
-
-    .jfs-side {
-
-        height: auto;
-
-        gap: 14px;
-
-    }
-
-
-    .jfs-side-item {
-
-        min-height: 90px;
-
-        padding: 16px 18px;
-
-        background: #ffffff;
-
-        border: 1px solid #e4ebf1;
-
-        border-radius: 9px;
-
-        box-shadow: 0 5px 20px rgba(15,48,80,0.05);
-
-    }
-
-
-    .jfs-side-left {
-
-        text-align: left;
-
-    }
-
-
-    .jfs-side-left .jfs-side-item {
-
-        justify-content: flex-start;
-
-    }
-
-
-    .jfs-side-left .jfs-side-text {
-
-        order: 2;
-
-        padding-right: 0;
-
-        padding-left: 16px;
-
-    }
-
-
-    .jfs-side-left .jfs-side-number {
-
-        order: 1;
-
-    }
-
-
-    .jfs-side-right .jfs-side-text {
-
-        padding-left: 16px;
-
-    }
-
-
-    .jfs-side-left .jfs-side-item::after,
-
-    .jfs-side-right .jfs-side-item::before {
-
-        display: none;
-
-    }
-
-
-    .jfs-ring-one {
-
-        width: 260px;
-
-        height: 260px;
-
-    }
-
-
-    .jfs-ring-two {
-
-        width: 230px;
-
-        height: 230px;
-
-    }
-
-
-    .jfs-center-main {
-
-        width: 200px;
-
-        height: 200px;
-
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 600px) {
-
-    .jfs-why-section {
-
-        padding: 60px 0 65px;
-
-    }
-
-
-    .jfs-why-heading {
-
-        margin-bottom: 40px;
-
-    }
-
-
-    .jfs-why-label {
-
-        font-size: 11px;
-
-        letter-spacing: 1.3px;
-
-    }
-
-
-    .jfs-why-heading h2 {
-
-        font-size: 30px;
-
-        line-height: 1.2;
-
-    }
-
-
-    .jfs-why-heading p {
-
-        font-size: 14px;
-
-        line-height: 1.7;
-
-    }
-
-
-    .jfs-why-center {
-
-        width: 225px;
-
-        height: 225px;
-
-    }
-
-
-    .jfs-ring-one {
-
-        width: 225px;
-
-        height: 225px;
-
-    }
-
-
-    .jfs-ring-two {
-
-        width: 200px;
-
-        height: 200px;
-
-    }
-
-
-    .jfs-center-main {
-
-        width: 175px;
-
-        height: 175px;
-
-    }
-
-
-    .jfs-center-icon {
-
-        width: 40px;
-
-        height: 40px;
-
-        margin-bottom: 9px;
-
-    }
-
-
-    .jfs-center-icon i {
-
-        font-size: 19px;
-
-    }
-
-
-    .jfs-center-main strong {
-
-        font-size: 25px;
-
-    }
-
-
-    .jfs-center-main span {
-
-        font-size: 8px;
-
-        letter-spacing: 2px;
-
-    }
-
-
-    .jfs-center-main small {
-
-        margin-top: 10px;
-
-        padding: 5px 10px;
-
-        font-size: 7px;
-
-    }
-
-
-    .jfs-side-item {
-
-        min-height: 88px;
-
-        padding: 15px;
-
-    }
-
-
-    .jfs-side-number {
-
-        flex-basis: 43px;
-
-        width: 43px;
-
-        height: 43px;
-
-        font-size: 10px;
-
-    }
-
-
-    .jfs-side-text h3 {
-
-        font-size: 17px;
-
-        margin-bottom: 5px;
-
-    }
-
-
-    .jfs-side-text p {
-
-        font-size: 12px;
-
-        line-height: 1.6;
-
-    }
-
-
-    .jfs-why-bottom {
-
-        align-items: flex-start;
-
-        gap: 13px;
-
-        margin-top: 25px;
-
-        padding: 18px;
-
-    }
-
-
-    .jfs-bottom-icon {
-
-        flex-basis: 42px;
-
-        width: 42px;
-
-        height: 42px;
-
-    }
-
-
-    .jfs-bottom-icon i {
-
-        font-size: 20px;
-
-    }
-
-
-    .jfs-bottom-text h3 {
-
-        font-size: 16px;
-
-    }
-
-}
-
-
-/* =========================================================
-   VERY SMALL MOBILE
-========================================================= */
-
-@media (max-width: 400px) {
-
-    .jfs-why-heading h2 {
-
-        font-size: 27px;
-
-    }
-
-
-    .jfs-why-heading p {
-
-        font-size: 13px;
-
-    }
-
-
-    .jfs-side-text h3 {
-
-        font-size: 16px;
-
-    }
-
-
-    .jfs-side-text p {
-
-        font-size: 11px;
-
-    }
-
-
-    .jfs-why-bottom {
-
-        padding: 15px;
-
-    }
-
-
-    .jfs-bottom-text h3 {
-
-        font-size: 15px;
-
-    }
-
-}
-
-</style>
 <!-- =========================================================
      DIGITAL MARKETING PLANS SECTION
 ========================================================= -->
@@ -4393,970 +1229,457 @@
 </section>
 
 
-<style>
 
-/* =========================================================
-   MAIN SECTION
-========================================================= */
 
-.jfs-plans-section {
 
-    position: relative;
 
-    padding: 90px 0 95px;
 
-    background:
-        linear-gradient(
-            180deg,
-            #f7f9ff 0%,
-            #ffffff 100%
-        );
+<section class="security-section">
 
-    overflow: hidden;
+  <div class="container">
 
-}
+    <!-- =====================================
+         HEADER
+    ====================================== -->
 
+    <div class="security-header">
 
-/* Background decoration */
+      <span class="security-badge">
+        — COMPLIANCE & SECURITY —
+      </span>
 
-.jfs-plans-section::before {
+      <h2>
+        Security Built into Every Phase of Change
+      </h2>
 
-    content: "";
+      <p>
+        Security is integrated into every stage of your digital transformation
+        journey, ensuring your applications, infrastructure, and business data
+        remain protected while meeting industry compliance standards.
+      </p>
 
-    position: absolute;
+    </div>
 
-    width: 500px;
 
-    height: 500px;
+    <!-- =====================================
+         TWO COLUMN CONTENT
+    ====================================== -->
 
-    top: -300px;
+    <div class="security-content">
 
-    left: -180px;
 
-    background: rgba(8, 117, 201, 0.045);
+      <!-- =================================
+           LEFT ACCORDION
+      ================================== -->
 
-    border-radius: 50%;
+      <div class="security-left">
 
-}
 
+        <!-- 01 -->
+        <div class="accordion-item active">
 
-.jfs-plans-section::after {
+          <div
+            class="accordion-header"
+            onclick="toggleSecurityAccordion(this)"
+          >
 
-    content: "";
+            <div class="accordion-title">
 
-    position: absolute;
+              <span class="accordion-icon">
+                🔒
+              </span>
 
-    width: 400px;
+              <span>
+                Complete Code Ownership
+              </span>
 
-    height: 400px;
+            </div>
 
-    right: -200px;
+            <span class="chevron">
+              ▼
+            </span>
 
-    bottom: -250px;
+          </div>
 
-    background: rgba(255, 184, 0, 0.035);
+          <div
+            class="accordion-content"
+            style="max-height: 100px;"
+          >
 
-    border-radius: 50%;
+            <p>
+              Your source code, intellectual property, and project assets
+              remain completely secure with strict access controls and
+              complete ownership.
+            </p>
 
-}
+          </div>
 
+        </div>
 
-.jfs-plans-section .container {
 
-    position: relative;
+        <!-- 02 -->
+        <div class="accordion-item">
 
-    z-index: 2;
+          <div
+            class="accordion-header"
+            onclick="toggleSecurityAccordion(this)"
+          >
 
-}
+            <div class="accordion-title">
 
+              <span class="accordion-icon">
+                🛡️
+              </span>
 
-/* =========================================================
-   HEADING
-========================================================= */
+              <span>
+                Zero Data Retention
+              </span>
 
-.jfs-plans-heading {
+            </div>
 
-    max-width: 780px;
+            <span class="chevron">
+              ▼
+            </span>
 
-    margin: 0 auto 55px;
+          </div>
 
-    text-align: center;
+          <div class="accordion-content">
 
-}
+            <p>
+              Business and customer information is handled through secure
+              processes with controlled access and privacy-focused practices.
+            </p>
 
+          </div>
 
-.jfs-plans-label {
+        </div>
 
-    display: inline-block;
 
-    margin-bottom: 12px;
+        <!-- 03 -->
+        <div class="accordion-item">
 
-    color: #0875c9;
+          <div
+            class="accordion-header"
+            onclick="toggleSecurityAccordion(this)"
+          >
 
-    font-size: 12px;
+            <div class="accordion-title">
 
-    font-weight: 700;
+              <span class="accordion-icon">
+                🔐
+              </span>
 
-    letter-spacing: 1.5px;
+              <span>
+                Secure Access Controls
+              </span>
 
-    text-transform: uppercase;
+            </div>
 
-}
+            <span class="chevron">
+              ▼
+            </span>
 
+          </div>
 
-.jfs-plans-heading h2 {
+          <div class="accordion-content">
 
-    margin: 0 0 15px;
+            <p>
+              Role-based permissions and controlled environments help protect
+              applications, infrastructure, and sensitive information.
+            </p>
 
-    color: #17233d;
+          </div>
 
-    font-size: 42px;
+        </div>
 
-    line-height: 1.2;
 
-    font-weight: 800;
+        <!-- 04 -->
+        <div class="accordion-item">
 
-    letter-spacing: -0.8px;
+          <div
+            class="accordion-header"
+            onclick="toggleSecurityAccordion(this)"
+          >
 
-}
+            <div class="accordion-title">
 
+              <span class="accordion-icon">
+                📋
+              </span>
 
-.jfs-plans-heading p {
+              <span>
+                Enterprise Compliance Readiness
+              </span>
 
-    max-width: 700px;
+            </div>
 
-    margin: 0 auto;
+            <span class="chevron">
+              ▼
+            </span>
 
-    color: #718096;
+          </div>
 
-    font-size: 15px;
+          <div class="accordion-content">
 
-    line-height: 1.7;
+            <p>
+              Our solutions are designed with security standards and
+              compliance requirements in mind for enterprise environments.
+            </p>
 
-}
+          </div>
 
+        </div>
 
-/* =========================================================
-   PLANS GRID
-========================================================= */
 
-.jfs-plans-grid {
+        <!-- Highlight -->
+        <div class="bottom-highlight">
 
-    display: grid;
+          NDA before Day 1, plus a clear IP clause in every contract.
+          Zero data retention. 24/7 available. Security written into
+          the Scope of Work.
 
-    grid-template-columns: repeat(3, 1fr);
+        </div>
 
-    gap: 18px;
+      </div>
 
-    align-items: stretch;
 
-}
+      <!-- =================================
+           RIGHT FEATURE CARDS
+      ================================== -->
 
+      <div class="security-right">
 
-/* =========================================================
-   PLAN CARD
-========================================================= */
+        <div class="cards-grid">
 
-.jfs-plan-card {
 
-    position: relative;
+          <!-- Card 01 -->
+          <div class="feature-card">
 
-    display: flex;
+            <span class="card-icon">
+              🔐
+            </span>
 
-    flex-direction: column;
+            <span class="card-title">
+              RBAC
+            </span>
 
-    min-height: 535px;
+          </div>
 
-    padding: 32px 28px 25px;
 
-    background: #ffffff;
+          <!-- Card 02 -->
+          <div class="feature-card">
 
-    border: 1px solid #e5eaf0;
+            <span class="card-icon">
+              ⚙️
+            </span>
 
-    border-radius: 12px;
+            <span class="card-title">
+              Process Alignment
+            </span>
 
-    box-shadow:
-        0 8px 30px rgba(15, 45, 80, 0.07);
+          </div>
 
-    transition:
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border-color 0.3s ease;
 
-}
+          <!-- Card 03 -->
+          <div class="feature-card">
 
+            <span class="card-icon">
+              💳
+            </span>
 
-/* Hover */
+            <span class="card-title">
+              Payment Security
+            </span>
 
-.jfs-plan-card:hover {
+          </div>
 
-    transform: translateY(-7px);
 
-    border-color: #c6dff1;
+          <!-- Card 04 -->
+          <div class="feature-card">
 
-    box-shadow:
-        0 18px 40px rgba(15, 55, 90, 0.12);
+            <span class="card-icon">
+              🏥
+            </span>
 
-}
+            <span class="card-title">
+              HIPAA
+            </span>
 
+          </div>
 
-/* =========================================================
-   PLAN ICON
-========================================================= */
 
-.jfs-plan-icon {
+          <!-- Card 05 -->
+          <div class="feature-card">
 
-    width: 50px;
+            <span class="card-icon">
+              🛡️
+            </span>
 
-    height: 50px;
+            <span class="card-title">
+              GDPR
+            </span>
 
-    display: flex;
+          </div>
 
-    align-items: center;
 
-    justify-content: center;
+          <!-- Card 06 -->
+          <div class="feature-card">
 
-    margin-bottom: 20px;
+            <span class="card-icon">
+              ♾️
+            </span>
 
-    color: #0875c9;
+            <span class="card-title">
+              Zero Data Retention
+            </span>
 
-    background: #e9f4fc;
+          </div>
 
-    border: 1px solid #d7eaf8;
 
-    border-radius: 10px;
+          <!-- Card 07 -->
+          <div class="feature-card">
 
-}
+            <span class="card-icon">
+              📄
+            </span>
 
+            <span class="card-title">
+              FERPA
+            </span>
 
-.jfs-plan-icon i {
+          </div>
 
-    font-size: 25px;
 
-}
+          <!-- Card 08 -->
+          <div class="feature-card">
 
+            <span class="card-icon">
+              🏢
+            </span>
 
-/* =========================================================
-   PLAN TITLE
-========================================================= */
+            <span class="card-title">
+              CMMI Level 3
+            </span>
 
-.jfs-plan-card h3 {
+          </div>
 
-    margin: 0 0 10px;
 
-    color: #102f53;
+          <!-- Card 09 -->
+          <div class="feature-card">
 
-    font-size: 22px;
+            <span class="card-icon">
+              🌐
+            </span>
 
-    line-height: 1.3;
+            <span class="card-title">
+              WCAG 2.1
+            </span>
 
-    font-weight: 700;
+          </div>
 
-}
 
+          <!-- Card 10 -->
+          <div class="feature-card">
 
-/* =========================================================
-   DESCRIPTION
-========================================================= */
+            <span class="card-icon">
+              🔍
+            </span>
 
-.jfs-plan-description {
+            <span class="card-title">
+              Security Testing
+            </span>
 
-    min-height: 55px;
+          </div>
 
-    margin: 0;
 
-    color: #748397;
+          <!-- Card 11 -->
+          <div class="feature-card">
 
-    font-size: 13px;
+            <span class="card-icon">
+              ☁️
+            </span>
 
-    line-height: 1.65;
+            <span class="card-title">
+              Cloud Security
+            </span>
 
-}
+          </div>
 
 
-/* =========================================================
-   DIVIDER
-========================================================= */
+          <!-- Card 12 -->
+          <div class="feature-card">
 
-.jfs-plan-divider {
+            <span class="card-icon">
+              🔄
+            </span>
 
-    width: 100%;
+            <span class="card-title">
+              Secure CI/CD
+            </span>
 
-    height: 1px;
+          </div>
 
-    margin: 20px 0;
 
-    background: #e9edf2;
+        </div>
 
-}
+      </div>
 
+    </div>
 
-/* =========================================================
-   SUBTITLE
-========================================================= */
+  </div>
 
-.jfs-plan-subtitle {
+</section>
 
-    margin-bottom: 15px;
 
-    color: #102f53;
+<script>
 
-    font-size: 13px;
+  function toggleSecurityAccordion(header) {
 
-    font-weight: 700;
+    const item = header.parentElement;
+    const content = header.nextElementSibling;
 
-}
+    const isActive =
+      item.classList.contains("active");
 
 
-/* =========================================================
-   FEATURES
-========================================================= */
+    /*
+     * Close all accordion items
+     */
 
-.jfs-plan-features {
+    document
+      .querySelectorAll(
+        ".security-section .accordion-item"
+      )
+      .forEach(function (accordion) {
 
-    display: flex;
+        accordion.classList.remove("active");
 
-    flex-direction: column;
+        const accordionContent =
+          accordion.querySelector(
+            ".accordion-content"
+          );
 
-    gap: 11px;
+        accordionContent.style.maxHeight = null;
 
-    margin: 0;
+      });
 
-    padding: 0;
 
-    list-style: none;
+    /*
+     * Open selected accordion
+     */
 
-}
+    if (!isActive) {
 
+      item.classList.add("active");
 
-.jfs-plan-features li {
-
-    display: flex;
-
-    align-items: flex-start;
-
-    gap: 9px;
-
-    color: #596d80;
-
-    font-size: 13px;
-
-    line-height: 1.45;
-
-}
-
-
-/* Check */
-
-.jfs-check {
-
-    flex: 0 0 18px;
-
-    width: 18px;
-
-    height: 18px;
-
-    display: inline-flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    margin-top: -1px;
-
-    color: #0875c9;
-
-    background: #e9f5fd;
-
-    border-radius: 5px;
-
-}
-
-
-.jfs-check i {
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-}
-
-
-/* =========================================================
-   BUTTON
-========================================================= */
-
-.jfs-plan-btn {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    gap: 7px;
-
-    width: 100%;
-
-    margin-top: auto;
-
-    padding: 12px 18px;
-
-    color: #ffffff;
-
-    background: #0875c9;
-
-    border: 1px solid #0875c9;
-
-    border-radius: 25px;
-
-    font-size: 13px;
-
-    font-weight: 600;
-
-    text-decoration: none;
-
-    transition: all 0.3s ease;
-
-}
-
-
-.jfs-plan-btn i {
-
-    font-size: 17px;
-
-}
-
-
-.jfs-plan-btn:hover {
-
-    color: #ffffff;
-
-    background: #075f9f;
-
-    border-color: #075f9f;
-
-}
-
-
-/* =========================================================
-   NOTE
-========================================================= */
-
-.jfs-plan-note {
-
-    margin-top: 10px;
-
-    color: #9aa6b2;
-
-    font-size: 11px;
-
-    text-align: center;
-
-}
-
-
-/* =========================================================
-   PROFESSIONAL - FEATURED CARD
-========================================================= */
-
-.jfs-plan-featured {
-
-    margin-top: -18px;
-
-    padding-top: 45px;
-
-    color: #ffffff;
-
-    background:
-        linear-gradient(
-            145deg,
-            #145fe5,
-            #3150e8
-        );
-
-    border-color: #3150e8;
-
-    box-shadow:
-        0 18px 45px rgba(30, 80, 220, 0.25);
-
-}
-
-
-/* Featured hover */
-
-.jfs-plan-featured:hover {
-
-    transform: translateY(-10px);
-
-    box-shadow:
-        0 25px 55px rgba(30, 80, 220, 0.30);
-
-}
-
-
-/* Featured icon */
-
-.jfs-plan-featured .jfs-plan-icon {
-
-    color: #3150e8;
-
-    background: #ffffff;
-
-    border-color: #ffffff;
-
-}
-
-
-/* Featured title */
-
-.jfs-plan-featured h3 {
-
-    color: #ffffff;
-
-}
-
-
-/* Featured description */
-
-.jfs-plan-featured .jfs-plan-description {
-
-    color: rgba(255, 255, 255, 0.80);
-
-}
-
-
-/* Featured divider */
-
-.jfs-plan-featured .jfs-plan-divider {
-
-    background: rgba(255, 255, 255, 0.20);
-
-}
-
-
-/* Featured subtitle */
-
-.jfs-plan-featured .jfs-plan-subtitle {
-
-    color: #ffffff;
-
-}
-
-
-/* Featured feature text */
-
-.jfs-plan-featured .jfs-plan-features li {
-
-    color: rgba(255, 255, 255, 0.90);
-
-}
-
-
-/* Featured check */
-
-.jfs-plan-featured .jfs-check {
-
-    color: #3150e8;
-
-    background: #ffffff;
-
-}
-
-
-/* Featured button */
-
-.jfs-plan-featured .jfs-plan-btn {
-
-    color: #3150e8;
-
-    background: #ffffff;
-
-    border-color: #ffffff;
-
-}
-
-
-.jfs-plan-featured .jfs-plan-btn:hover {
-
-    color: #ffffff;
-
-    background: #ffb800;
-
-    border-color: #ffb800;
-
-}
-
-
-/* Featured note */
-
-.jfs-plan-featured .jfs-plan-note {
-
-    color: rgba(255, 255, 255, 0.65);
-
-}
-
-
-/* =========================================================
-   POPULAR BADGE
-========================================================= */
-
-.jfs-popular-badge {
-
-    position: absolute;
-
-    top: 0;
-
-    left: 50%;
-
-    transform: translateX(-50%);
-
-    padding: 6px 18px;
-
-    color: #132f55;
-
-    background: #ffb800;
-
-    border-radius: 0 0 8px 8px;
-
-    font-size: 10px;
-
-    font-weight: 800;
-
-    letter-spacing: 0.8px;
-
-    white-space: nowrap;
-
-}
-
-
-/* =========================================================
-   BOTTOM CTA
-========================================================= */
-
-.jfs-plans-bottom {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 20px;
-
-    margin-top: 28px;
-
-    padding: 23px 27px;
-
-    background: #eef7fd;
-
-    border: 1px solid #d7eaf6;
-
-    border-radius: 10px;
-
-}
-
-
-/* Icon */
-
-.jfs-plans-bottom-icon {
-
-    flex: 0 0 48px;
-
-    width: 48px;
-
-    height: 48px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: #ffffff;
-
-    background: #0875c9;
-
-    border-radius: 10px;
-
-}
-
-
-.jfs-plans-bottom-icon i {
-
-    font-size: 24px;
-
-}
-
-
-/* Content */
-
-.jfs-plans-bottom-content {
-
-    flex: 1;
-
-}
-
-
-.jfs-plans-bottom-content span {
-
-    display: block;
-
-    margin-bottom: 4px;
-
-    color: #0875c9;
-
-    font-size: 10px;
-
-    font-weight: 800;
-
-    letter-spacing: 1.3px;
-
-}
-
-
-.jfs-plans-bottom-content h4 {
-
-    margin: 0;
-
-    color: #102f53;
-
-    font-size: 18px;
-
-    font-weight: 700;
-
-}
-
-
-/* Button */
-
-.jfs-plans-bottom-btn {
-
-    display: inline-flex;
-
-    align-items: center;
-
-    gap: 5px;
-
-    padding: 11px 20px;
-
-    color: #ffffff;
-
-    background: #0875c9;
-
-    border-radius: 22px;
-
-    font-size: 12px;
-
-    font-weight: 600;
-
-    text-decoration: none;
-
-    white-space: nowrap;
-
-    transition: all 0.3s ease;
-
-}
-
-
-.jfs-plans-bottom-btn:hover {
-
-    color: #132f55;
-
-    background: #ffb800;
-
-}
-
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 991px) {
-
-    .jfs-plans-section {
-
-        padding: 70px 0 80px;
+      content.style.maxHeight =
+        content.scrollHeight + "px";
 
     }
 
+  }
 
-    .jfs-plans-heading h2 {
-
-        font-size: 36px;
-
-    }
-
-
-    .jfs-plans-grid {
-
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-
-    .jfs-plan-featured {
-
-        margin-top: 0;
-
-    }
-
-
-    .jfs-plan-card:last-child {
-
-        grid-column: 1 / -1;
-
-        max-width: 50%;
-
-        margin: 0 auto;
-
-        width: 100%;
-
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 767px) {
-
-    .jfs-plans-section {
-
-        padding: 55px 0 65px;
-
-    }
-
-
-    .jfs-plans-heading {
-
-        margin-bottom: 35px;
-
-    }
-
-
-    .jfs-plans-heading h2 {
-
-        font-size: 29px;
-
-        line-height: 1.25;
-
-    }
-
-
-    .jfs-plans-heading p {
-
-        font-size: 14px;
-
-        line-height: 1.65;
-
-    }
-
-
-    .jfs-plans-grid {
-
-        grid-template-columns: 1fr;
-
-        gap: 18px;
-
-    }
-
-
-    .jfs-plan-card {
-
-        min-height: auto;
-
-        padding: 28px 23px 24px;
-
-    }
-
-
-    .jfs-plan-featured {
-
-        margin-top: 5px;
-
-        padding-top: 40px;
-
-    }
-
-
-    .jfs-plan-card:last-child {
-
-        grid-column: auto;
-
-        max-width: none;
-
-    }
-
-
-    .jfs-plan-description {
-
-        min-height: auto;
-
-    }
-
-
-    .jfs-plans-bottom {
-
-        align-items: flex-start;
-
-        padding: 20px;
-
-    }
-
-
-    .jfs-plans-bottom-btn {
-
-        display: none;
-
-    }
-
-}
-
-
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
-
-@media (max-width: 480px) {
-
-    .jfs-plans-heading h2 {
-
-        font-size: 26px;
-
-    }
-
-
-    .jfs-plans-label {
-
-        font-size: 11px;
-
-    }
-
-
-    .jfs-plan-card h3 {
-
-        font-size: 20px;
-
-    }
-
-
-    .jfs-plan-features li {
-
-        font-size: 12px;
-
-    }
-
-
-    .jfs-plans-bottom-content h4 {
-
-        font-size: 16px;
-
-    }
-
-}
-
-</style>
+</script>
 
 <!-- Trust Us Area -->	
 <!-- <div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">

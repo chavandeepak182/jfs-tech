@@ -38,6 +38,64 @@ class FrontendController extends Controller
 
     return view('frontend.index', compact('latestBlogs'));
 }
+
+
+
+
+
+    // ... other methods ...
+
+    public function careers()
+    {
+        // Fetch all active jobs from the database
+        $careers = DB::table('jobs')
+            ->where('status', 'Active')
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        // Debug: Check if data is being fetched
+        // Uncomment the line below to test
+        // dd($careers);
+
+        return view('frontend.careers', compact('careers'));
+    }
+
+    public function careersResumeUpload(Request $request)
+    {
+        // Validate the request
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'phone_number' => 'required|string|max:20',
+            'email' => 'required|email|max:255',
+            'resume' => 'required|file|mimes:pdf,doc,docx|max:5120', // 5MB max
+            'job_id' => 'nullable|exists:jobs,id'
+        ]);
+
+        // Store the resume
+        if ($request->hasFile('resume')) {
+            $file = $request->file('resume');
+            $fileName = time() . '_' . $file->getClientOriginalName();
+            $filePath = $file->storeAs('resumes', $fileName, 'public');
+
+            // Save to database (assuming you have a table for applications)
+            DB::table('job_applications')->insert([
+                'job_id' => $request->job_id,
+                'name' => $request->name,
+                'phone_number' => $request->phone_number,
+                'email' => $request->email,
+                'resume_path' => $filePath,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+
+            return redirect()->back()->with('success', 'Your application has been submitted successfully!');
+        }
+
+        return redirect()->back()->with('error', 'Failed to upload resume. Please try again.');
+    }
+
+    // ... other methods ...
+
      public function testing()
     {
         return view('frontend.testing');

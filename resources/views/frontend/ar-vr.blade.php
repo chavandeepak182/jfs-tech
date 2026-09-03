@@ -107,12 +107,12 @@
     </video>
 </div>
 
-<section class="services-style-area pt-80 pb-70">
+<!-- <section class="services-style-area pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
             <span class="sp-color2"></span>
-            <h2>Experience our Best Application for AR VR Services</h2>
-            <p class="margin-auto">Our Best Application for AR VR services provide cutting-edge solutions that transform ideas into immersive experiences. Whether you're looking to create training simulations, virtual walkthroughs, or dynamic interactive experiences, our team of experts is here to make your vision a reality. Using advanced AR/VR technology, we design realistic and engaging virtual environments suitable for training, marketing, education, and more. From custom 3D modeling services to fully interactive scenarios, we tailor each solution to your unique requirements, helping you stay ahead in a technology-driven world.</p>
+            <h2>Is Your Business Ready to Leverage AR & VR Solutions?</h2>
+            <p class="margin-auto">Our AR/VR application development services help businesses transform ideas into immersive digital experiences. Whether you're building virtual training programs, product visualizations, interactive marketing campaigns, or virtual walkthroughs, we create scalable AR and VR solutions tailored to your business goals. Using advanced 3D technologies, real-time rendering, and user-centric design, we deliver engaging experiences that improve learning, customer engagement, and operational efficiency across industries. </p>
         </div>
         <div class="row pt-45 mx-auto justify-content-center custom-card">
             <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="500">
@@ -149,7 +149,738 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+<style>
+
+/* =========================================================
+   AR / VR SERVICES SECTION
+========================================================= */
+
+.services-style-area {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 20px 70px;
+    background: #ffffff;
+    border-radius: 2.5rem;
+    box-shadow: 0 20px 50px rgba(0, 20, 40, 0.08);
+}
+
+.services-style-area .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   SECTION TITLE
+========================================================= */
+
+.section-title {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+/* Decorative line */
+
+.section-title .sp-color2 {
+    display: block;
+    width: 55px;
+    height: 4px;
+    margin: 0 auto 18px;
+    background: linear-gradient(
+        90deg,
+        #2a7de1,
+        #6c5ce7
+    );
+    border-radius: 10px;
+}
+
+
+/* Main heading */
+
+.section-title h2 {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto 18px;
+    padding: 0;
+
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+
+    color: #252525;
+    text-align: center;
+}
+
+
+/* Description */
+
+.section-title p {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+
+    color: #555555;
+    text-align: center;
+}
+
+
+/* =========================================================
+   CARDS GRID
+========================================================= */
+
+.custom-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Remove Bootstrap column spacing */
+
+.custom-card > .col-lg-4,
+.custom-card > .col-sm-6 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* =========================================================
+   SERVICE CARD
+========================================================= */
+
+.services-card {
+    position: relative;
+
+    width: 100%;
+    min-height: 400px;
+    height: 400px;
+
+    overflow: hidden;
+
+    border-radius: 24px;
+
+    background: #0b1e33;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* Hover */
+
+.services-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 24px 48px rgba(0, 20, 40, 0.18);
+}
+
+
+/* =========================================================
+   CARD IMAGE
+========================================================= */
+
+.services-card .card-img {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 1;
+
+    transition: transform 0.5s ease;
+}
+
+
+/* Image zoom on hover */
+
+.services-card:hover .card-img {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   IMAGE DARK OVERLAY
+========================================================= */
+
+.services-card::after {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.02) 0%,
+        rgba(0, 0, 0, 0.10) 35%,
+        rgba(8, 20, 40, 0.85) 100%
+    );
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.card-content {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    z-index: 3;
+
+    width: 100%;
+
+    padding: 80px 28px 28px;
+
+    color: #ffffff;
+
+    text-align: left;
+
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(8, 20, 40, 0.20) 20%,
+        rgba(8, 20, 40, 0.85) 100%
+    );
+}
+
+
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+.card-content h3 {
+    margin: 0 0 10px;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.25;
+
+    letter-spacing: -0.3px;
+
+    color: #ffffff;
+}
+
+
+.card-content h3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* =========================================================
+   CARD DESCRIPTION
+========================================================= */
+
+.card-content p {
+    max-width: 100%;
+
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    color: rgba(255, 255, 255, 0.92);
+}
+
+
+/* =========================================================
+   LEARN MORE
+========================================================= */
+
+.learn-btn {
+    display: none !important;
+}
+
+
+/* =========================================================
+   REMOVE EXTRA BOOTSTRAP SPACING
+========================================================= */
+
+.custom-card.pt-45 {
+    padding-top: 0 !important;
+}
+
+.custom-card.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .services-style-area {
+        padding: 70px 25px 60px;
+    }
+
+    .section-title {
+        max-width: 900px;
+        margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+        max-width: 800px;
+        font-size: 40px;
+    }
+
+    .section-title p {
+        max-width: 780px;
+        font-size: 17px;
+    }
+
+    .custom-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .services-card {
+        height: 390px;
+        min-height: 390px;
+    }
+}
+
+
+/* =========================================================
+   SMALL TABLET
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .services-style-area {
+        padding: 60px 20px 50px;
+        border-radius: 1.5rem;
+    }
+
+    .section-title {
+        max-width: 100%;
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+
+    .section-title .sp-color2 {
+        width: 50px;
+        height: 3px;
+        margin-bottom: 16px;
+    }
+
+    .section-title h2 {
+        max-width: 700px;
+
+        font-size: 34px;
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+
+        margin-bottom: 16px;
+    }
+
+    .section-title p {
+        max-width: 680px;
+
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .custom-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .services-card {
+        height: 370px;
+        min-height: 370px;
+    }
+
+    .card-content {
+        padding: 70px 22px 22px;
+    }
+
+    .card-content h3 {
+        font-size: 22px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 576px) {
+
+    .services-style-area {
+        width: 100%;
+        padding: 50px 15px 45px;
+
+        border-radius: 0;
+
+        box-shadow: none;
+    }
+
+    .services-style-area .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+
+    /* -------------------------
+       Mobile heading
+    ------------------------- */
+
+    .section-title {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 0 10px;
+
+        margin: 0 auto 35px;
+
+        text-align: center;
+    }
+
+
+    .section-title .sp-color2 {
+        width: 45px;
+        height: 3px;
+
+        margin: 0 auto 15px;
+    }
+
+
+    .section-title h2 {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto 15px;
+
+        font-size: 28px;
+        line-height: 1.2;
+
+        letter-spacing: -0.3px;
+
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       Mobile paragraph
+    ------------------------- */
+
+    .section-title p {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto;
+
+        font-size: 15px;
+        line-height: 1.65;
+
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       Mobile cards
+    ------------------------- */
+
+    .custom-card {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 22px;
+
+        width: 100%;
+    }
+
+
+    .services-card {
+        width: 100%;
+
+        height: 380px;
+        min-height: 380px;
+
+        border-radius: 20px;
+    }
+
+
+    .card-content {
+        padding: 80px 20px 22px;
+    }
+
+
+    .card-content h3 {
+        font-size: 21px;
+        line-height: 1.3;
+
+        margin-bottom: 8px;
+    }
+
+
+    .card-content p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+========================================================= */
+
+@media (max-width: 400px) {
+
+    .services-style-area {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .section-title {
+        padding: 0 5px;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .services-card {
+        height: 350px;
+        min-height: 350px;
+
+        border-radius: 18px;
+    }
+
+    .card-content {
+        padding: 70px 18px 18px;
+    }
+
+    .card-content h3 {
+        font-size: 19px;
+    }
+
+    .card-content p {
+        font-size: 13.5px;
+    }
+}
+
+</style>
+
+
+<!-- =========================================================
+     AR / VR SERVICES SECTION
+========================================================= -->
+
+<div class="services-style-area">
+
+    <div class="container">
+
+        <!-- =================================================
+             CENTERED HEADING + DESCRIPTION
+        ================================================== -->
+
+        <div class="section-title"
+             data-aos="fade-up"
+             data-aos-duration="500">
+
+            <span class="sp-color2"></span>
+
+            <h2>
+                Is Your Business Ready to Leverage AR &amp; VR Solutions?
+            </h2>
+
+            <p>
+                Our AR/VR application development services help businesses
+                transform ideas into immersive digital experiences.
+                Whether you're building virtual training programs,
+                product visualizations, interactive marketing campaigns,
+                or virtual walkthroughs, we create scalable AR and VR
+                solutions tailored to your business goals. Using advanced
+                3D technologies, real-time rendering, and user-centric design,
+                we deliver engaging experiences that improve learning,
+                customer engagement, and operational efficiency across industries.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             SERVICE CARDS
+        ================================================== -->
+
+        <div class="row pt-45 mx-auto justify-content-center custom-card">
+
+
+            <!-- =================================================
+                 1. AUGMENTED REALITY
+            ================================================== -->
+
+            <div class="col-lg-4 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-duration="500">
+
+                <div class="services-card services-style-bg p-0">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&h=800&fit=crop&crop=center&auto=format"
+                        alt="Augmented Reality development"
+                        class="card-img"
+                    >
+
+                    <div class="card-content">
+
+                        <h3>
+                            <a href="#">
+                                Augmented Reality (AR) Development
+                            </a>
+                        </h3>
+
+                        <p>
+                            Create interactive AR applications that enhance
+                            customer experiences, improve workforce productivity,
+                            and bring digital content into real-world environments.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 2. VIRTUAL REALITY
+            ================================================== -->
+
+            <div class="col-lg-4 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-duration="750">
+
+                <div class="services-card services-style-bg p-0">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&h=800&fit=crop&crop=center&auto=format"
+                        alt="Virtual Reality development"
+                        class="card-img"
+                    >
+
+                    <div class="card-content">
+
+                        <h3>
+                            <a href="#">
+                                Virtual Reality (VR) Development
+                            </a>
+                        </h3>
+
+                        <p>
+                            Build immersive virtual environments for training,
+                            product demonstrations, simulations, virtual tours,
+                            and enterprise collaboration.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 3. MIXED REALITY
+            ================================================== -->
+
+            <div class="col-lg-4 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-duration="1000">
+
+                <div class="services-card services-style-bg p-0">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=800&fit=crop&crop=center&auto=format"
+                        alt="Mixed Reality development"
+                        class="card-img"
+                    >
+
+                    <div class="card-content">
+
+                        <h3>
+                            <a href="#">
+                                Mixed Reality (MR) Development
+                            </a>
+                        </h3>
+
+                        <p>
+                            Combine physical and digital environments with
+                            Mixed Reality solutions that enable real-time
+                            interaction, visualization, and enhanced
+                            operational efficiency.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
 
 <!-- Trust Us Area -->	
 <div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">

@@ -148,9 +148,11 @@
 
 
 <section class="video bg-dark">
-    <video preload="metadata" autoplay muted loop playsinline poster="{{ asset('theme/assets/images/video-poster.webp') }}">
-        <source src="{{ asset('theme/assets/images/intro-1.mp4') }}" type="video/mp4">
-    </video>
+    <img 
+        src="{{ asset('theme/assets/images/poster.jpg') }}" 
+        alt="Video Banner"
+        class="w-100"
+    >
 </section>
 
 <div class="case-study-area pt-80 pb-80">
@@ -403,6 +405,95 @@
 
     </div>
 </section>
+<style>
+	/* ============================================
+   FIX FOR SERVICES SECTION - NO HEADER OVERLAP
+   ============================================ */
+
+/* 1. Give the section proper spacing from header */
+.services-process {
+    position: relative;
+    z-index: 1;
+    scroll-margin-top: 100px;
+    margin-top: 30px; /* Adjust this value based on your header height */
+}
+
+/* 2. Fix the number positioning - keep inside card */
+.service-box {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 3. Number styles - ensure they stay within their container */
+.service-box .number {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 48px;
+    font-weight: 800;
+    opacity: 0.08;
+    color: #000;
+    line-height: 1;
+    pointer-events: none;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+/* 4. Different colors for numbers */
+.service-box.blue .number { 
+    color: #0d6efd; 
+}
+.service-box.cyan .number { 
+    color: #17a2b8; 
+}
+.service-box.purple .number { 
+    color: #6f42c1; 
+}
+.service-box.pink .number { 
+    color: #e83e8c; 
+}
+
+/* 5. Hover effect */
+.service-box:hover .number {
+    opacity: 0.15;
+    transform: scale(1.05);
+}
+
+/* 6. Responsive adjustments */
+@media (max-width: 768px) {
+    .service-box .number {
+        font-size: 36px;
+        bottom: 10px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .service-box .number {
+        font-size: 28px;
+        bottom: 8px;
+        right: 12px;
+    }
+}
+
+/* 7. If you have a fixed header, add body padding */
+body {
+    padding-top: 20px; /* Adjust this to match your header height */
+}
+
+/* 8. If header is fixed, ensure section stays below */
+header.fixed,
+header.sticky,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+	</style>
+	
 
 
 <section class="work-process-area home_cards pt-80">
@@ -875,459 +966,7 @@
 </section>
 
 
-<style>
-	/* =========================================================
-   JFS BLOG SECTION
-========================================================= */
 
-.blog-area {
-    background: #ffffff;
-    position: relative;
-}
-
-
-/* =========================================================
-   SECTION TITLE
-========================================================= */
-
-.blog-subtitle {
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    margin-bottom: 10px;
-}
-
-.blog-area .section-title h2 {
-    font-size: 38px;
-    line-height: 1.25;
-    font-weight: 700;
-    color: #17233c;
-    margin-bottom: 15px;
-}
-
-.blog-section-desc {
-    max-width: 720px;
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 1.8;
-    color: #6b7280;
-}
-
-
-/* =========================================================
-   BLOG CARD
-========================================================= */
-
-.jfs-blog-card {
-    height: 100%;
-    background: #ffffff;
-    border: 1px solid #e8edf3;
-    border-radius: 14px;
-    overflow: hidden;
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
-    transition:
-        transform 0.35s ease,
-        box-shadow 0.35s ease,
-        border-color 0.35s ease;
-}
-
-.jfs-blog-card:hover {
-    transform: translateY(-8px);
-    border-color: transparent;
-    box-shadow: 0 18px 45px rgba(23, 35, 60, 0.12);
-}
-
-
-/* =========================================================
-   BLOG IMAGE
-========================================================= */
-
-.jfs-blog-image {
-    height: 245px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    background: #f3f5f8;
-}
-
-.jfs-blog-image a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.jfs-blog-image img {
-    width: 100%;
-    height: 100%;
-    display: block;
-
-    object-fit: cover;
-    object-position: center;
-
-    transition: transform 0.55s ease;
-}
-
-.jfs-blog-card:hover .jfs-blog-image img {
-    transform: scale(1.07);
-}
-
-
-/* =========================================================
-   IMAGE OVERLAY
-========================================================= */
-
-.jfs-blog-image::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 55%,
-        rgba(0, 0, 0, 0.12)
-    );
-
-    pointer-events: none;
-}
-
-
-/* =========================================================
-   DATE BADGE
-========================================================= */
-
-.jfs-blog-date {
-    position: absolute;
-
-    left: 18px;
-    bottom: 18px;
-
-    min-width: 62px;
-    height: 68px;
-
-    background: #ffffff;
-    border-radius: 8px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.13);
-
-    z-index: 2;
-
-    overflow: hidden;
-}
-
-.jfs-date-day {
-    display: block;
-
-    font-size: 23px;
-    line-height: 25px;
-    font-weight: 700;
-
-    color: #17233c;
-}
-
-.jfs-date-month {
-    display: block;
-
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 600;
-
-    text-transform: uppercase;
-
-    color: #295cab;
-}
-
-
-/* =========================================================
-   BLOG CONTENT
-========================================================= */
-
-.jfs-blog-content {
-    padding: 26px 25px 24px;
-
-    display: flex;
-    flex-direction: column;
-
-    flex: 1;
-}
-
-
-/* =========================================================
-   BLOG TITLE
-========================================================= */
-
-.jfs-blog-title {
-    margin: 0 0 13px;
-    min-height: 58px;
-
-    font-size: 21px;
-    line-height: 1.4;
-    font-weight: 700;
-}
-
-.jfs-blog-title a {
-    color: #17233c;
-    text-decoration: none;
-
-    transition: color 0.3s ease;
-}
-
-.jfs-blog-title a:hover {
-    color: #295cab;
-}
-
-
-/* =========================================================
-   BLOG DESCRIPTION
-========================================================= */
-
-.jfs-blog-description {
-    margin-bottom: 20px;
-}
-
-.jfs-blog-description p {
-    margin: 0;
-
-    color: #6b7280;
-
-    font-size: 14px;
-    line-height: 1.8;
-
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-
-    overflow: hidden;
-}
-
-
-/* =========================================================
-   BLOG FOOTER
-========================================================= */
-
-.jfs-blog-footer {
-    margin-top: auto;
-    padding-top: 4px;
-}
-
-
-/* =========================================================
-   READ MORE
-========================================================= */
-
-.jfs-read-more {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-
-    color: #295cab;
-
-    font-size: 14px;
-    font-weight: 600;
-
-    text-decoration: none;
-
-    transition:
-        color 0.3s ease,
-        gap 0.3s ease;
-}
-
-.jfs-read-more i {
-    font-size: 20px;
-    line-height: 1;
-
-    transition: transform 0.3s ease;
-}
-
-.jfs-read-more:hover {
-    color: #17233c;
-    gap: 10px;
-}
-
-.jfs-read-more:hover i {
-    transform: translateX(3px);
-}
-
-
-/* =========================================================
-   NO BLOG
-========================================================= */
-
-.jfs-no-blog {
-    max-width: 500px;
-    margin: 0 auto;
-
-    padding: 50px 30px;
-
-    text-align: center;
-
-    border: 1px solid #e8edf3;
-    border-radius: 14px;
-
-    background: #ffffff;
-}
-
-.jfs-no-blog-icon {
-    width: 65px;
-    height: 65px;
-
-    margin: 0 auto 15px;
-
-    border-radius: 50%;
-
-    background: #f1f5fb;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.jfs-no-blog-icon i {
-    font-size: 30px;
-    color: #295cab;
-}
-
-.jfs-no-blog h4 {
-    margin-bottom: 8px;
-
-    font-size: 21px;
-    font-weight: 700;
-
-    color: #17233c;
-}
-
-.jfs-no-blog p {
-    margin: 0;
-
-    font-size: 14px;
-    color: #6b7280;
-}
-
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 991px) {
-
-    .blog-area .section-title h2 {
-        font-size: 32px;
-    }
-
-    .jfs-blog-image {
-        height: 225px;
-    }
-
-    .jfs-blog-content {
-        padding: 23px 21px 22px;
-    }
-
-    .jfs-blog-title {
-        font-size: 19px;
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 767px) {
-
-    .blog-area {
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-    .blog-area .section-title {
-        margin-bottom: 30px !important;
-    }
-
-    .blog-area .section-title h2 {
-        font-size: 28px;
-        line-height: 1.35;
-    }
-
-    .blog-section-desc {
-        font-size: 14px;
-        line-height: 1.7;
-    }
-
-    .jfs-blog-image {
-        height: 220px;
-    }
-
-    .jfs-blog-content {
-        padding: 22px 20px 21px;
-    }
-
-    .jfs-blog-title {
-        min-height: auto;
-        font-size: 19px;
-    }
-
-    .jfs-blog-description p {
-        font-size: 14px;
-    }
-
-}
-
-
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
-
-@media (max-width: 575px) {
-
-    .blog-area .section-title h2 {
-        font-size: 25px;
-    }
-
-    .blog-subtitle {
-        font-size: 14px;
-    }
-
-    .jfs-blog-image {
-        height: 210px;
-    }
-
-    .jfs-blog-date {
-        left: 15px;
-        bottom: 15px;
-
-        min-width: 58px;
-        height: 63px;
-    }
-
-    .jfs-date-day {
-        font-size: 21px;
-    }
-
-    .jfs-date-month {
-        font-size: 11px;
-    }
-
-    .jfs-blog-content {
-        padding: 20px 18px;
-    }
-
-    .jfs-blog-title {
-        font-size: 18px;
-        line-height: 1.45;
-    }
-
-}
-</style>
 <section class="blog-area pt-80 pb-80">
     <div class="container">
 

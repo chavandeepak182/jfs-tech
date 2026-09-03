@@ -93,10 +93,12 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75">
-            <h1>Solutions for the Best Application Modernisation Services</h1>
+            <!-- <h1>Solutions for the Best Application Modernisation Services</h1> -->
+             <h1>AI-Powered Application Modernization Services</h1>
             <p class="text-white"></p>
             <div class="banner-btn">
-				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your Modernisation Journey Today <i class="bx bx-chevron-right"></i></a>
+				<!-- <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your Modernisation Journey Today <i class="bx bx-chevron-right"></i></a> -->
+                <a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50">Start Your Modernisation Journey Today <i class="bx bx-chevron-right"></i></a>
 			</div>
         </div>
     </div>
@@ -107,7 +109,1210 @@
         Sorry, your browser does not support HTML5 video.
     </video>
 </div>
+<style>
+/* =========================================================
+   APPLICATION MODERNIZATION SECTION
+========================================================= */
 
+.modernization-section {
+    position: relative;
+    width: 100%;
+    padding: 90px 20px;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 0% 15%,
+            rgba(24, 151, 221, 0.10),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 100% 85%,
+            rgba(82, 190, 245, 0.10),
+            transparent 32%
+        ),
+        linear-gradient(
+            180deg,
+            #f8fcff 0%,
+            #eef8ff 100%
+        );
+}
+
+.modernization-container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+========================================================= */
+
+.modernization-main {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 55px;
+    align-items: center;
+}
+
+
+/* =========================================================
+   LEFT CONTENT
+========================================================= */
+
+.modernization-content {
+    position: relative;
+}
+
+.modernization-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    margin-bottom: 18px;
+
+    color: #1486d0;
+
+    font-size: 12px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.modernization-eyebrow::before {
+    content: "";
+
+    width: 30px;
+    height: 2px;
+
+    background: #168bd4;
+
+    border-radius: 10px;
+}
+
+
+.modernization-title {
+    margin: 0 0 22px;
+
+    color: #102f47;
+
+    font-size: 44px;
+    font-weight: 750;
+
+    line-height: 1.16;
+
+    letter-spacing: -0.7px;
+}
+
+.modernization-title .blue-text {
+    color: #168bd4;
+}
+
+
+.modernization-description {
+    max-width: 650px;
+
+    margin: 0 0 28px;
+
+    color: #667d8e;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   SERVICE FEATURES
+========================================================= */
+
+.modernization-features {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+
+    max-width: 620px;
+}
+
+.modernization-feature {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 11px 13px;
+
+    background: rgba(255, 255, 255, 0.85);
+
+    border: 1px solid #d8ebf7;
+
+    border-radius: 8px;
+
+    color: #38586d;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    transition: all 0.25s ease;
+}
+
+.modernization-feature:hover {
+    transform: translateY(-2px);
+
+    border-color: #9ed3f0;
+
+    color: #168bd4;
+
+    box-shadow:
+        0 8px 20px rgba(20, 120, 180, 0.08);
+}
+
+.modernization-feature-icon {
+    width: 30px;
+    height: 30px;
+
+    min-width: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+
+    background: #e8f6ff;
+
+    border: 1px solid #d1ebfa;
+
+    color: #168bd4;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   RIGHT MODERNIZATION VISUAL
+========================================================= */
+
+.modernization-visual {
+    position: relative;
+
+    padding: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff 0%,
+            #f4fbff 100%
+        );
+
+    border: 1px solid #d5eaf7;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 20px 55px rgba(22, 136, 212, 0.10);
+
+    overflow: hidden;
+}
+
+.modernization-visual::before {
+    content: "";
+
+    position: absolute;
+
+    width: 190px;
+    height: 190px;
+
+    top: -100px;
+    right: -70px;
+
+    border-radius: 50%;
+
+    background: rgba(22, 136, 212, 0.08);
+}
+
+.modernization-visual::after {
+    content: "";
+
+    position: absolute;
+
+    width: 130px;
+    height: 130px;
+
+    bottom: -75px;
+    left: -60px;
+
+    border-radius: 50%;
+
+    background: rgba(83, 190, 245, 0.08);
+}
+
+
+/* =========================================================
+   VISUAL HEADER
+========================================================= */
+
+.modernization-visual-header {
+    position: relative;
+    z-index: 2;
+
+    margin-bottom: 25px;
+}
+
+.modernization-visual-header small {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #168bd4;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+
+    text-transform: uppercase;
+}
+
+.modernization-visual-header h3 {
+    margin: 0;
+
+    color: #12304a;
+
+    font-size: 21px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   MODERNIZATION FLOW
+========================================================= */
+
+.modernization-flow {
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+
+    align-items: center;
+
+    gap: 9px;
+}
+
+
+.modernization-flow-card {
+    min-height: 145px;
+
+    padding: 17px 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px solid #d8ebf7;
+
+    border-radius: 11px;
+
+    transition: all 0.25s ease;
+}
+
+.modernization-flow-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #9bd2f1;
+
+    box-shadow:
+        0 10px 25px rgba(22, 136, 212, 0.09);
+}
+
+
+.modernization-flow-icon {
+    width: 50px;
+    height: 50px;
+
+    margin-bottom: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 13px;
+
+    background: #eaf7ff;
+
+    border: 1px solid #d1ecfb;
+
+    color: #168bd4;
+
+    font-size: 21px;
+}
+
+.modernization-flow-card h4 {
+    margin: 0 0 5px;
+
+    color: #244b63;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+.modernization-flow-card p {
+    margin: 0;
+
+    color: #8195a3;
+
+    font-size: 10px;
+
+    line-height: 1.5;
+}
+
+
+.modernization-arrow {
+    color: #168bd4;
+
+    font-size: 23px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   VISUAL FOOTER
+========================================================= */
+
+.modernization-visual-footer {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    margin-top: 18px;
+
+    padding: 12px 14px;
+
+    background: #eef9ff;
+
+    border: 1px solid #d2ebf9;
+
+    border-radius: 8px;
+
+    color: #527489;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+.modernization-visual-footer-icon {
+    width: 27px;
+    height: 27px;
+
+    min-width: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    color: #168bd4;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   TRUSTED BY
+========================================================= */
+
+.trusted-by-section {
+    margin-top: 80px;
+
+    padding-top: 45px;
+
+    border-top: 1px solid #d8eaf5;
+}
+
+.trusted-by-header {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.trusted-by-label {
+    display: inline-block;
+
+    margin-bottom: 8px;
+
+    color: #168bd4;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+.trusted-by-header h3 {
+    margin: 0 0 8px;
+
+    color: #12304a;
+
+    font-size: 28px;
+
+    font-weight: 700;
+}
+
+.trusted-by-header p {
+    margin: 0;
+
+    color: #78909f;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   TECHNOLOGY LOGOS
+========================================================= */
+
+.technology-grid {
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 12px;
+}
+
+.technology-card {
+    min-height: 82px;
+
+    padding: 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    background: rgba(255, 255, 255, 0.90);
+
+    border: 1px solid #d7eaf6;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 14px rgba(20, 100, 150, 0.035);
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.technology-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #96d0ef;
+
+    box-shadow:
+        0 10px 25px rgba(22, 136, 212, 0.09);
+}
+
+
+/* =========================================================
+   LOGO MARKS
+========================================================= */
+
+.technology-logo {
+    width: 36px;
+    height: 36px;
+
+    min-width: 36px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #edf8ff;
+
+    border: 1px solid #d2ebfa;
+
+    color: #168bd4;
+
+    font-size: 12px;
+
+    font-weight: 800;
+}
+
+.technology-name {
+    color: #3c5b6e;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+.technology-card:hover .technology-name {
+    color: #168bd4;
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .modernization-main {
+        gap: 30px;
+    }
+
+    .modernization-title {
+        font-size: 37px;
+    }
+
+    .modernization-description {
+        font-size: 15px;
+    }
+
+    .technology-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .technology-card {
+        flex-direction: column;
+        gap: 7px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - 800px
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .modernization-section {
+        padding: 70px 20px;
+    }
+
+    .modernization-main {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .modernization-title {
+        font-size: 38px;
+    }
+
+    .modernization-description {
+        max-width: 100%;
+    }
+
+    .technology-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .technology-card {
+        flex-direction: row;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .modernization-section {
+        padding: 55px 15px;
+    }
+
+    .modernization-eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .modernization-title {
+        font-size: 29px;
+
+        line-height: 1.25;
+    }
+
+    .modernization-description {
+        font-size: 14px;
+
+        line-height: 1.7;
+    }
+
+    .modernization-features {
+        grid-template-columns: 1fr;
+    }
+
+    .modernization-feature {
+        font-size: 12px;
+    }
+
+    .modernization-visual {
+        padding: 18px;
+    }
+
+    .modernization-visual-header h3 {
+        font-size: 18px;
+    }
+
+    .modernization-flow {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+    }
+
+    .modernization-flow-card {
+        min-height: 105px;
+    }
+
+    .modernization-arrow {
+        transform: rotate(90deg);
+    }
+
+    .trusted-by-section {
+        margin-top: 55px;
+
+        padding-top: 35px;
+    }
+
+    .trusted-by-header h3 {
+        font-size: 23px;
+    }
+
+    .trusted-by-header p {
+        font-size: 12px;
+    }
+
+    .technology-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 8px;
+    }
+
+    .technology-card {
+        min-height: 72px;
+
+        padding: 9px;
+    }
+
+    .technology-logo {
+        width: 32px;
+        height: 32px;
+
+        min-width: 32px;
+
+        font-size: 10px;
+    }
+
+    .technology-name {
+        font-size: 10px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .modernization-title {
+        font-size: 26px;
+    }
+
+    .modernization-description {
+        font-size: 13px;
+    }
+
+    .technology-name {
+        font-size: 9px;
+    }
+}
+</style>
+
+
+<!-- =====================================================
+     SECOND SECTION
+===================================================== -->
+
+<section class="modernization-section">
+
+    <div class="modernization-container">
+
+        <!-- ================================================
+             MAIN MODERNIZATION CONTENT
+        ================================================= -->
+
+        <div class="modernization-main">
+
+
+            <!-- LEFT CONTENT -->
+
+            <div class="modernization-content">
+
+                <div class="modernization-eyebrow">
+                    Application Modernization
+                </div>
+
+
+                <h2 class="modernization-title">
+
+                    Transform Legacy Applications into
+
+                    <span class="blue-text">
+                        Secure, Cloud-Ready
+                    </span>
+
+                    Digital Solutions
+
+                </h2>
+
+
+                <p class="modernization-description">
+
+                    Modernize outdated software with AI-powered application
+                    modernization, cloud migration, API integration, UI/UX
+                    modernization, and performance optimization. JFS Technologies
+                    helps businesses build scalable, secure, and future-ready
+                    applications that accelerate digital transformation.
+
+                </p>
+
+
+                <!-- SERVICE FEATURES -->
+
+                <div class="modernization-features">
+
+
+                    <div class="modernization-feature">
+
+                        <span class="modernization-feature-icon">
+                            ✦
+                        </span>
+
+                        <span>
+                            AI-Powered Application Modernization
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-feature">
+
+                        <span class="modernization-feature-icon">
+                            ☁
+                        </span>
+
+                        <span>
+                            Cloud Migration
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-feature">
+
+                        <span class="modernization-feature-icon">
+                            ⇄
+                        </span>
+
+                        <span>
+                            API Integration
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-feature">
+
+                        <span class="modernization-feature-icon">
+                            ◈
+                        </span>
+
+                        <span>
+                            UI/UX Modernization
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-feature">
+
+                        <span class="modernization-feature-icon">
+                            ⚡
+                        </span>
+
+                        <span>
+                            Performance Optimization
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-feature">
+
+                        <span class="modernization-feature-icon">
+                            🛡
+                        </span>
+
+                        <span>
+                            Secure & Scalable Architecture
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- ============================================
+                 RIGHT MODERNIZATION VISUAL
+            ============================================= -->
+
+            <div class="modernization-visual">
+
+
+                <div class="modernization-visual-header">
+
+                    <small>
+                        Digital Transformation
+                    </small>
+
+                    <h3>
+                        From Legacy to Future-Ready
+                    </h3>
+
+                </div>
+
+
+                <div class="modernization-flow">
+
+
+                    <!-- LEGACY -->
+
+                    <div class="modernization-flow-card">
+
+                        <div class="modernization-flow-icon">
+                            🖥
+                        </div>
+
+                        <h4>
+                            Legacy
+                        </h4>
+
+                        <p>
+                            Outdated applications
+                            and infrastructure
+                        </p>
+
+                    </div>
+
+
+                    <!-- ARROW -->
+
+                    <div class="modernization-arrow">
+                        →
+                    </div>
+
+
+                    <!-- MODERNIZATION -->
+
+                    <div class="modernization-flow-card">
+
+                        <div class="modernization-flow-icon">
+                            ⚙
+                        </div>
+
+                        <h4>
+                            Modernization
+                        </h4>
+
+                        <p>
+                            AI, APIs, modern UI
+                            and optimized code
+                        </p>
+
+                    </div>
+
+
+                    <!-- ARROW -->
+
+                    <div class="modernization-arrow">
+                        →
+                    </div>
+
+
+                    <!-- CLOUD -->
+
+                    <div class="modernization-flow-card">
+
+                        <div class="modernization-flow-icon">
+                            ☁
+                        </div>
+
+                        <h4>
+                            Cloud-Ready
+                        </h4>
+
+                        <p>
+                            Secure, scalable and
+                            future-ready
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="modernization-visual-footer">
+
+                    <span class="modernization-visual-footer-icon">
+                        ✓
+                    </span>
+
+                    <span>
+                        Secure architecture, scalable infrastructure and
+                        modern technology designed for long-term business growth.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             TRUSTED BY
+        ================================================== -->
+
+        <div class="trusted-by-section">
+
+
+            <div class="trusted-by-header">
+
+                <span class="trusted-by-label">
+                    Trusted By
+                </span>
+
+                <h3>
+                    Technologies We Work With
+                </h3>
+
+                <p>
+                    Modern technology stacks powering secure and scalable
+                    digital solutions.
+                </p>
+
+            </div>
+
+
+            <!-- TECHNOLOGY GRID -->
+
+            <div class="technology-grid">
+
+
+                <!-- AWS -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        AWS
+                    </span>
+
+                    <span class="technology-name">
+                        AWS
+                    </span>
+
+                </div>
+
+
+                <!-- MICROSOFT AZURE -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        AZ
+                    </span>
+
+                    <span class="technology-name">
+                        Microsoft Azure
+                    </span>
+
+                </div>
+
+
+                <!-- GOOGLE CLOUD -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        GC
+                    </span>
+
+                    <span class="technology-name">
+                        Google Cloud
+                    </span>
+
+                </div>
+
+
+                <!-- REACT -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        ⚛
+                    </span>
+
+                    <span class="technology-name">
+                        React
+                    </span>
+
+                </div>
+
+
+                <!-- ANGULAR -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        A
+                    </span>
+
+                    <span class="technology-name">
+                        Angular
+                    </span>
+
+                </div>
+
+
+                <!-- NODE JS -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        JS
+                    </span>
+
+                    <span class="technology-name">
+                        Node.js
+                    </span>
+
+                </div>
+
+
+                <!-- JAVA -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        JV
+                    </span>
+
+                    <span class="technology-name">
+                        Java
+                    </span>
+
+                </div>
+
+
+                <!-- PYTHON -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        PY
+                    </span>
+
+                    <span class="technology-name">
+                        Python
+                    </span>
+
+                </div>
+
+
+                <!-- DOCKER -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        DK
+                    </span>
+
+                    <span class="technology-name">
+                        Docker
+                    </span>
+
+                </div>
+
+
+                <!-- KUBERNETES -->
+
+                <div class="technology-card">
+
+                    <span class="technology-logo">
+                        K8
+                    </span>
+
+                    <span class="technology-name">
+                        Kubernetes
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <section class="services-style-area pt-80 pb-70">
     <div class="container">
         <div class="section-title text-center" data-aos="fade-up" data-aos-duration="500">
@@ -151,9 +1356,1249 @@
         </div>
     </div>
 </section>
+<style>
+/* =========================================================
+   WHY MODERNIZE + APPLICATION MODERNIZATION APPROACH
+========================================================= */
+
+.modernization-benefits-section {
+    width: 100%;
+    padding: 90px 20px;
+
+    background:
+        radial-gradient(
+            circle at 0% 10%,
+            rgba(22, 139, 212, 0.08),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 100% 90%,
+            rgba(82, 190, 245, 0.08),
+            transparent 32%
+        ),
+        linear-gradient(
+            180deg,
+            #f8fcff 0%,
+            #eef8ff 100%
+        );
+
+    overflow: hidden;
+}
+
+.modernization-benefits-container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   COMMON SECTION HEADER
+========================================================= */
+
+.modernization-section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    margin-bottom: 12px;
+
+    color: #168bd4;
+
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.modernization-section-label::before {
+    content: "";
+
+    width: 28px;
+    height: 2px;
+
+    background: #168bd4;
+
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   WHY MODERNIZE
+========================================================= */
+
+.why-modernize {
+    display: grid;
+
+    grid-template-columns: 0.85fr 1.15fr;
+
+    gap: 45px;
+
+    align-items: center;
+
+    margin-bottom: 90px;
+}
+
+
+/* =========================================================
+   LEFT WHY CONTENT
+========================================================= */
+
+.why-modernize-content h2 {
+    margin: 0 0 12px;
+
+    color: #12304a;
+
+    font-size: 38px;
+    font-weight: 750;
+
+    line-height: 1.2;
+}
+
+.why-modernize-content h2 span {
+    color: #168bd4;
+}
+
+.why-modernize-subtitle {
+    margin: 0 0 25px;
+
+    color: #657d8e;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   BENEFIT LIST
+========================================================= */
+
+.modernization-benefit-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.modernization-benefit {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 11px 14px;
+
+    background: #ffffff;
+
+    border: 1px solid #d8ebf7;
+
+    border-radius: 8px;
+
+    color: #38576b;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    box-shadow:
+        0 3px 12px rgba(20, 100, 150, 0.035);
+
+    transition: all 0.25s ease;
+}
+
+.modernization-benefit:hover {
+    transform: translateX(4px);
+
+    border-color: #9bd2f1;
+
+    color: #168bd4;
+
+    box-shadow:
+        0 8px 20px rgba(22, 136, 212, 0.08);
+}
+
+.modernization-benefit-check {
+    width: 25px;
+    height: 25px;
+
+    min-width: 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #e8f7ff;
+
+    border: 1px solid #cfeafa;
+
+    color: #168bd4;
+
+    font-size: 12px;
+
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   RIGHT STATS PANEL
+========================================================= */
+
+.modernization-stats {
+    position: relative;
+
+    padding: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff 0%,
+            #f2faff 100%
+        );
+
+    border: 1px solid #d5eaf7;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 18px 50px rgba(22, 136, 212, 0.08);
+
+    overflow: hidden;
+}
+
+.modernization-stats::before {
+    content: "";
+
+    position: absolute;
+
+    width: 190px;
+    height: 190px;
+
+    top: -100px;
+    right: -80px;
+
+    border-radius: 50%;
+
+    background: rgba(22, 139, 212, 0.07);
+}
+
+.modernization-stats-title {
+    position: relative;
+    z-index: 2;
+
+    margin: 0 0 22px;
+
+    color: #12304a;
+
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   STATS GRID
+========================================================= */
+
+.modernization-stat-grid {
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 12px;
+}
+
+.modernization-stat {
+    position: relative;
+
+    padding: 22px 12px;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px solid #d9ecf7;
+
+    border-radius: 12px;
+
+    transition: all 0.25s ease;
+}
+
+.modernization-stat:hover {
+    transform: translateY(-5px);
+
+    border-color: #9bd2f1;
+
+    box-shadow:
+        0 10px 25px rgba(22, 136, 212, 0.08);
+}
+
+.modernization-stat-icon {
+    width: 38px;
+    height: 38px;
+
+    margin: 0 auto 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #eaf7ff;
+
+    border: 1px solid #d1ecfa;
+
+    color: #168bd4;
+
+    font-size: 16px;
+}
+
+.modernization-stat-number {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: #168bd4;
+
+    font-size: 34px;
+
+    font-weight: 800;
+
+    line-height: 1;
+}
+
+.modernization-stat-text {
+    color: #617b8c;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    line-height: 1.45;
+}
+
+.modernization-stat-note {
+    position: relative;
+    z-index: 2;
+
+    display: block;
+
+    margin-top: 18px;
+
+    color: #8a9ca8;
+
+    font-size: 9px;
+
+    text-align: right;
+}
+
+
+/* =========================================================
+   APPROACH HEADER
+========================================================= */
+
+.modernization-approach {
+    position: relative;
+}
+
+.modernization-approach-header {
+    max-width: 750px;
+
+    margin: 0 auto 55px;
+
+    text-align: center;
+}
+
+.modernization-approach-header h2 {
+    margin: 0 0 12px;
+
+    color: #12304a;
+
+    font-size: 38px;
+
+    font-weight: 750;
+
+    line-height: 1.2;
+}
+
+.modernization-approach-header h2 span {
+    color: #168bd4;
+}
+
+.modernization-approach-header p {
+    margin: 0;
+
+    color: #6c8291;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   TIMELINE
+========================================================= */
+
+.modernization-timeline {
+    position: relative;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+
+/* CENTER LINE */
+
+.modernization-timeline::before {
+    content: "";
+
+    position: absolute;
+
+    top: 20px;
+    bottom: 20px;
+
+    left: 50%;
+
+    width: 2px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #bde4f8,
+            #168bd4,
+            #bde4f8
+        );
+
+    transform: translateX(-50%);
+}
+
+
+/* =========================================================
+   TIMELINE ITEM
+========================================================= */
+
+.modernization-step {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 1fr 70px 1fr;
+
+    align-items: center;
+
+    margin-bottom: 28px;
+}
+
+.modernization-step:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   LEFT / RIGHT CONTENT
+========================================================= */
+
+.modernization-step-content {
+    padding: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #d7eaf6;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 18px rgba(20, 100, 150, 0.045);
+
+    transition: all 0.25s ease;
+}
+
+.modernization-step-content:hover {
+    transform: translateY(-3px);
+
+    border-color: #9bd2f1;
+
+    box-shadow:
+        0 10px 25px rgba(22, 136, 212, 0.08);
+}
+
+.modernization-step:nth-child(odd)
+.modernization-step-content {
+    grid-column: 1;
+}
+
+.modernization-step:nth-child(even)
+.modernization-step-content {
+    grid-column: 3;
+}
+
+
+/* =========================================================
+   EMPTY SIDE
+========================================================= */
+
+.modernization-step-empty {
+    min-height: 1px;
+}
+
+
+/* =========================================================
+   STEP NUMBER
+========================================================= */
+
+.modernization-step-number {
+    position: relative;
+
+    z-index: 5;
+
+    grid-column: 2;
+
+    grid-row: 1;
+
+    width: 52px;
+    height: 52px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            145deg,
+            #168bd4,
+            #51b8e9
+        );
+
+    border: 5px solid #eef8ff;
+
+    color: #ffffff;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    box-shadow:
+        0 5px 15px rgba(22, 136, 212, 0.18);
+}
+
+
+/* =========================================================
+   STEP CONTENT
+========================================================= */
+
+.modernization-step-content h3 {
+    margin: 0 0 9px;
+
+    color: #244a62;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    line-height: 1.35;
+}
+
+.modernization-step-content p {
+    margin: 0;
+
+    color: #718795;
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   STEP ICON
+========================================================= */
+
+.modernization-step-icon {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    margin-bottom: 10px;
+
+    border-radius: 8px;
+
+    background: #eaf7ff;
+
+    border: 1px solid #d2ecfa;
+
+    color: #168bd4;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   RESPONSIVE TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .why-modernize {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .why-modernize-content h2 {
+        font-size: 35px;
+    }
+
+    .modernization-approach-header h2 {
+        font-size: 35px;
+    }
+
+    .modernization-timeline {
+        max-width: 850px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .modernization-benefits-section {
+        padding: 60px 15px;
+    }
+
+    .why-modernize {
+        margin-bottom: 65px;
+    }
+
+    .why-modernize-content h2 {
+        font-size: 29px;
+    }
+
+    .why-modernize-subtitle {
+        font-size: 14px;
+    }
+
+    .modernization-benefit {
+        font-size: 12px;
+
+        padding: 10px 12px;
+    }
+
+    .modernization-stats {
+        padding: 20px;
+    }
+
+    .modernization-stats-title {
+        font-size: 17px;
+    }
+
+    .modernization-stat-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modernization-stat {
+        padding: 18px;
+    }
+
+    .modernization-stat-number {
+        font-size: 32px;
+    }
+
+    .modernization-stat-text {
+        font-size: 12px;
+    }
+
+    .modernization-approach-header {
+        margin-bottom: 35px;
+    }
+
+    .modernization-approach-header h2 {
+        font-size: 29px;
+    }
+
+    .modernization-approach-header p {
+        font-size: 13px;
+    }
+
+
+    /* MOBILE TIMELINE */
+
+    .modernization-timeline::before {
+        left: 20px;
+
+        transform: none;
+    }
+
+    .modernization-step {
+        display: grid;
+
+        grid-template-columns: 40px 1fr;
+
+        gap: 12px;
+
+        margin-bottom: 18px;
+    }
+
+    .modernization-step-number {
+        grid-column: 1;
+
+        grid-row: 1;
+
+        width: 40px;
+        height: 40px;
+
+        border-width: 4px;
+
+        font-size: 12px;
+    }
+
+    .modernization-step-content,
+    .modernization-step:nth-child(odd)
+    .modernization-step-content,
+    .modernization-step:nth-child(even)
+    .modernization-step-content {
+        grid-column: 2;
+
+        grid-row: 1;
+
+        padding: 16px;
+    }
+
+    .modernization-step-content h3 {
+        font-size: 15px;
+    }
+
+    .modernization-step-content p {
+        font-size: 11px;
+    }
+
+    .modernization-step-icon {
+        width: 27px;
+        height: 27px;
+
+        font-size: 11px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .why-modernize-content h2,
+    .modernization-approach-header h2 {
+        font-size: 26px;
+    }
+
+    .modernization-stat-number {
+        font-size: 29px;
+    }
+
+    .modernization-step-content h3 {
+        font-size: 14px;
+    }
+
+    .modernization-step-content p {
+        font-size: 10px;
+    }
+}
+</style>
+
+
+<!-- =========================================================
+     WHY MODERNIZE SECTION
+========================================================= -->
+
+<section class="modernization-benefits-section">
+
+    <div class="modernization-benefits-container">
+
+
+        <!-- =================================================
+             WHY MODERNIZE
+        ================================================== -->
+
+        <div class="why-modernize">
+
+
+            <!-- LEFT -->
+
+            <div class="why-modernize-content">
+
+                <div class="modernization-section-label">
+                    Why Modernize?
+                </div>
+
+                <h2>
+                    The Benefits of
+                    <span>Application Modernization</span>
+                </h2>
+
+                <p class="why-modernize-subtitle">
+                    Modernizing legacy applications helps businesses reduce
+                    technical debt, improve performance, strengthen security,
+                    and create a better digital experience for customers.
+                </p>
+
+
+                <div class="modernization-benefit-list">
+
+
+                    <div class="modernization-benefit">
+
+                        <span class="modernization-benefit-check">
+                            ✓
+                        </span>
+
+                        <span>
+                            Reduce Maintenance Costs by up to 40%
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-benefit">
+
+                        <span class="modernization-benefit-check">
+                            ✓
+                        </span>
+
+                        <span>
+                            Improve Application Performance
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-benefit">
+
+                        <span class="modernization-benefit-check">
+                            ✓
+                        </span>
+
+                        <span>
+                            Faster Cloud Deployments
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-benefit">
+
+                        <span class="modernization-benefit-check">
+                            ✓
+                        </span>
+
+                        <span>
+                            Enhanced Security
+                        </span>
+
+                    </div>
+
+
+                    <div class="modernization-benefit">
+
+                        <span class="modernization-benefit-check">
+                            ✓
+                        </span>
+
+                        <span>
+                            Better Customer Experience
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT STATS -->
+
+            <div class="modernization-stats">
+
+                <h3 class="modernization-stats-title">
+                    Why Businesses Choose Application Modernization
+                </h3>
+
+
+                <div class="modernization-stat-grid">
+
+
+                    <!-- 40% -->
+
+                    <div class="modernization-stat">
+
+                        <div class="modernization-stat-icon">
+                            📉
+                        </div>
+
+                        <span class="modernization-stat-number">
+                            40%
+                        </span>
+
+                        <span class="modernization-stat-text">
+                            Reduced Maintenance Costs*
+                        </span>
+
+                    </div>
+
+
+                    <!-- 60% -->
+
+                    <div class="modernization-stat">
+
+                        <div class="modernization-stat-icon">
+                            ⚡
+                        </div>
+
+                        <span class="modernization-stat-number">
+                            60%
+                        </span>
+
+                        <span class="modernization-stat-text">
+                            Faster Application Performance*
+                        </span>
+
+                    </div>
+
+
+                    <!-- 50% -->
+
+                    <div class="modernization-stat">
+
+                        <div class="modernization-stat-icon">
+                            🚀
+                        </div>
+
+                        <span class="modernization-stat-number">
+                            50%
+                        </span>
+
+                        <span class="modernization-stat-text">
+                            Faster Project Delivery*
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+                <span class="modernization-stat-note">
+                    *Potential benefits may vary based on application,
+                    architecture and modernization scope.
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             APPLICATION MODERNIZATION APPROACH
+        ================================================== -->
+
+        <div class="modernization-approach">
+
+
+            <!-- HEADER -->
+
+            <div class="modernization-approach-header">
+
+                <div class="modernization-section-label">
+                    Our Approach
+                </div>
+
+                <h2>
+                    Our Application
+                    <span>Modernization Approach</span>
+                </h2>
+
+                <p>
+                    A structured modernization journey designed to reduce
+                    operational risk, improve application performance,
+                    and prepare your technology for future growth.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 TIMELINE
+            ================================================== -->
+
+            <div class="modernization-timeline">
+
+
+                <!-- STEP 01 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            🔍
+                        </div>
+
+                        <h3>
+                            Application Assessment & Planning
+                        </h3>
+
+                        <p>
+                            We evaluate your existing applications,
+                            infrastructure, and business processes to identify
+                            modernization opportunities. Based on this
+                            assessment, we develop a customized roadmap aligned
+                            with your business objectives.
+                        </p>
+
+                    </div>
+
+                    <div class="modernization-step-number">
+                        01
+                    </div>
+
+                    <div class="modernization-step-empty"></div>
+
+                </div>
+
+
+                <!-- STEP 02 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-empty"></div>
+
+                    <div class="modernization-step-number">
+                        02
+                    </div>
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            🧩
+                        </div>
+
+                        <h3>
+                            Customized Modernization Strategy
+                        </h3>
+
+                        <p>
+                            Every business has unique requirements. Our experts
+                            create a tailored modernization strategy that
+                            balances performance, scalability, security, and
+                            cost while minimizing operational disruption.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- STEP 03 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            ⚙️
+                        </div>
+
+                        <h3>
+                            Application Re-Architecture & Refactoring
+                        </h3>
+
+                        <p>
+                            We modernize legacy applications by redesigning
+                            their architecture, optimizing code, and adopting
+                            cloud-native and microservices-based approaches to
+                            improve agility and long-term scalability.
+                        </p>
+
+                    </div>
+
+                    <div class="modernization-step-number">
+                        03
+                    </div>
+
+                    <div class="modernization-step-empty"></div>
+
+                </div>
+
+
+                <!-- STEP 04 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-empty"></div>
+
+                    <div class="modernization-step-number">
+                        04
+                    </div>
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            ☁️
+                        </div>
+
+                        <h3>
+                            Migration & Cloud Enablement
+                        </h3>
+
+                        <p>
+                            Whether migrating to the cloud or upgrading
+                            existing infrastructure, we ensure a seamless
+                            transition with minimal downtime while improving
+                            application reliability, flexibility, and
+                            performance.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- STEP 05 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            🔗
+                        </div>
+
+                        <h3>
+                            Modern Technology Integration
+                        </h3>
+
+                        <p>
+                            We integrate advanced technologies, including cloud
+                            platforms, APIs, AI, automation, DevOps, and
+                            analytics, to enhance application capabilities and
+                            support future business growth.
+                        </p>
+
+                    </div>
+
+                    <div class="modernization-step-number">
+                        05
+                    </div>
+
+                    <div class="modernization-step-empty"></div>
+
+                </div>
+
+
+                <!-- STEP 06 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-empty"></div>
+
+                    <div class="modernization-step-number">
+                        06
+                    </div>
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            🛡️
+                        </div>
+
+                        <h3>
+                            Security & Compliance
+                        </h3>
+
+                        <p>
+                            Security is embedded throughout the modernization
+                            process. We implement robust security practices,
+                            data protection measures, and compliance standards
+                            to safeguard your applications and business data.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- STEP 07 -->
+
+                <div class="modernization-step">
+
+                    <div class="modernization-step-content">
+
+                        <div class="modernization-step-icon">
+                            📊
+                        </div>
+
+                        <h3>
+                            Continuous Monitoring & Optimization
+                        </h3>
+
+                        <p>
+                            After deployment, we continuously monitor
+                            application performance, optimize resources, and
+                            implement enhancements to ensure your applications
+                            remain secure, efficient, and ready for evolving
+                            business needs.
+                        </p>
+
+                    </div>
+
+                    <div class="modernization-step-number">
+                        07
+                    </div>
+
+                    <div class="modernization-step-empty"></div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- Trust Us Area -->	
-<div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
+<!-- <div class="choose-area pt-80 pb-80 home" data-aos="fade-up" data-aos-duration="750">
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-lg-12">
@@ -204,7 +2649,247 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
+<!-- Our Application Modernization Approach -->
+<section>
+    ...
+</section>
+
+
+<!-- =========================================
+     STOP PATCHING - START TRANSFORMING
+     ADD THIS SECTION HERE
+========================================= -->
+
+<section class="transform-cta-section">
+
+    <div class="transform-cta-container">
+
+        <div class="transform-cta-top">
+
+            <div class="transform-cta-heading">
+                <h2>
+                    Stop patching.<br>
+                    <em>Start transforming.</em>
+                </h2>
+            </div>
+
+            <div class="transform-cta-description">
+                <p>
+                    Accelerate digital transformation with secure,
+                    scalable, and cloud-native application
+                    modernization services.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="transform-cta-bottom">
+
+            <h3>
+                Stop patching.
+                <em>Start transforming.</em>
+            </h3>
+
+            <p>
+                Accelerate digital transformation with secure,
+                scalable, and cloud-native application modernization
+                services.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     SUCCESS STORIES
+========================================= -->
+
+<section class="success-stories">
+
+    ...
+    
+</section>
+<style>
+    /* =========================================
+   STOP PATCHING / START TRANSFORMING
+========================================= */
+
+.transform-cta-section {
+    width: 100%;
+    padding: 80px 20px;
+
+    background: #ffffff;
+}
+
+.transform-cta-container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+/* TOP AREA */
+
+.transform-cta-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+
+    padding-bottom: 55px;
+
+    border-bottom: 1px solid #e5edf3;
+}
+
+
+/* HEADING */
+
+.transform-cta-heading h2 {
+    margin: 0;
+
+    color: #0c2d63;
+
+    font-size: 48px;
+
+    line-height: 1.08;
+
+    font-weight: 700;
+
+    letter-spacing: -1px;
+}
+
+.transform-cta-heading h2 em {
+    font-family: Georgia, serif;
+
+    font-weight: 500;
+
+    color: #0c2d63;
+}
+
+
+/* DESCRIPTION */
+
+.transform-cta-description {
+    max-width: 480px;
+}
+
+.transform-cta-description p {
+    margin: 0;
+
+    color: #526b7d;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* BOTTOM CONTENT */
+
+.transform-cta-bottom {
+    padding-top: 35px;
+
+    max-width: 900px;
+}
+
+.transform-cta-bottom h3 {
+    margin: 0 0 8px;
+
+    color: #0c2d63;
+
+    font-size: 23px;
+
+    font-weight: 500;
+}
+
+.transform-cta-bottom h3 em {
+    font-family: Georgia, serif;
+
+    font-weight: 500;
+}
+
+.transform-cta-bottom p {
+    margin: 0;
+
+    color: #252525;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+    .transform-cta-section {
+        padding: 65px 20px;
+    }
+
+    .transform-cta-top {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .transform-cta-heading h2 {
+        font-size: 40px;
+    }
+
+    .transform-cta-description p {
+        font-size: 16px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .transform-cta-section {
+        padding: 50px 15px;
+    }
+
+    .transform-cta-top {
+        gap: 20px;
+
+        padding-bottom: 35px;
+    }
+
+    .transform-cta-heading h2 {
+        font-size: 34px;
+
+        line-height: 1.12;
+    }
+
+    .transform-cta-description p {
+        font-size: 14px;
+    }
+
+    .transform-cta-bottom {
+        padding-top: 25px;
+    }
+
+    .transform-cta-bottom h3 {
+        font-size: 20px;
+    }
+
+    .transform-cta-bottom p {
+        font-size: 15px;
+    }
+}
+</style>
 
 <div class="case-study-area pt-80 pb-70">
     <div class="container" data-aos="fade-up" data-aos-duration="750">

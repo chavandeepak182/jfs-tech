@@ -121,8 +121,8 @@
 <div id="banner" class="inner-banner">
     <div class="container">
         <div class="inner-title w-75">
-            <h1>Digital Experience</h1>
-            <p class="text-white">Our top digital experience service company to boost your online presence and engage your audience. From website development to digital marketing services, mobile application development services, and creative graphic designing services, we provide a comprehensive suite of solutions to help you succeed in the digital realm.</p>
+            <h1>Digital Experience Services</h1>
+            <p class="text-white">Build engaging digital experiences with custom websites, mobile apps, digital marketing, and creative design solutions.</p>
             <div class="banner-btn">
 				<a href="{{ url('/contact-us') }}" class="default-btn btn-bg-one border-radius-50 ">Get A Quote</a>
 			</div>

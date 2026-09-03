@@ -42,12 +42,12 @@
 									Resource Augmentation
 								</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="#">
 									<i class="bx bx-chevron-right"></i>
 									Hire A Dedicated Developer
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="https://jfstechnologies.com/blog/">
+								<a href="https://jfstechnologies.com/blogs/">
 									<i class="bx bx-chevron-right"></i>
 									Blogs
 								</a>
