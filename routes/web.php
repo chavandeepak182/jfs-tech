@@ -38,6 +38,11 @@ Route::get('/about-us', function () {
     return view('frontend.about');
 });
 
+Route::get('/life-at-jfs', function () {
+    return view('frontend.life-at-jfs');
+})->name('life.at.jfs');
+
+
 Route::get('/contact-us', function () {
     return view('frontend.contact');
 });
