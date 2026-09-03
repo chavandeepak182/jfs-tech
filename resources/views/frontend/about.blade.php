@@ -372,7 +372,7 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+			<!-- <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/vineet-n.jpg" alt="Team Images">
 					<ul class="social-link">
@@ -387,10 +387,10 @@
 						<span>Business Development Manager</span>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/deepak-c.jpg" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/deepak.webp" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="https://www.linkedin.com/in/deepak-chavan-970a40193" target="_blank">
@@ -502,9 +502,9 @@
 			<!--		</div>-->
 			<!--	</div>-->
 			<!--</div>-->
-			<!-- <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
+			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
-					<img src="{{ asset('theme') }}/assets/images/team/yakub_fakir.webp" alt="Team Images">
+					<img src="{{ asset('theme') }}/assets/images/team/pooja.webp" alt="Team Images">
 					<ul class="social-link">
 						<li>
 							<a href="#" target="_blank">
@@ -513,11 +513,11 @@
 						</li>
 					</ul>
 					<div class="content">
-						<h3>Yakub Fakir</h3>
-						<span>Human Resources</span>
+						<h3>Pooja Mohite</h3>
+						<span>HR Generalist</span>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="750">
 				<div class="team-card">
 					<img src="{{ asset('theme') }}/assets/images/team/amit_saroj.webp" alt="Team Images">
