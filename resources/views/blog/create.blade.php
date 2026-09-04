@@ -19,7 +19,7 @@
         <!-- Breadcrumb Right Start -->
         <div class="flex-align gap-8 flex-wrap">
             <div class="flex-align text-gray-500 text-13 border-gray-100 focus-border-main-600">
-                <a href="{{ route('blog.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+                <a href="{{ route('admin.blog.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
             </div>
         </div>
         <!-- Breadcrumb Right End -->
@@ -30,7 +30,7 @@
             @if(session('success'))
                 <div class="alert alert-success">{{ session('success') }}</div>
             @endif
-            <form action="{{ route('blogs.store') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('admin.blogs.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
                 <div class="row gy-20">
                     <label class="h5 fw-semibold font-heading mt-15 mb-0">Add Blog <span class="text-13 text-gray-400 fw-medium"></span> </label>

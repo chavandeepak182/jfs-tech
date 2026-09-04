@@ -10,11 +10,7 @@ use App\Http\Controllers\BlogCategoryController;
 use App\Http\Controllers\CareerController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\CareerApplicationController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\IndustriesCategoryController;
-use App\Http\Controllers\IndustriesController;
-use App\Http\Controllers\PermissionController;
-use App\Http\Controllers\RoleController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -37,11 +33,6 @@ Route::get('/services', function () {
 Route::get('/about-us', function () {
     return view('frontend.about');
 });
-
-Route::get('/life-at-jfs', function () {
-    return view('frontend.life-at-jfs');
-})->name('life.at.jfs');
-
 
 Route::get('/contact-us', function () {
     return view('frontend.contact');
@@ -250,10 +241,7 @@ Route::middleware('isAdmin')->prefix('admin')->name('admin.')->group(function ()
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/admindashboard', [AdminController::class, 'adminDashboard'])->name('adminDashboard');
     
-    // Profile
-    Route::get('/profile/edit', [ProfileController::class, 'editProfile'])->name('profile.edit');
-    Route::post('/profile/update', [ProfileController::class, 'updateProfile'])->name('profile.update');
-    Route::get('/profile', [ProfileController::class, 'showProfile'])->name('profile');
+ 
     
     // ==========================================
     // BLOG MANAGEMENT
@@ -301,12 +289,9 @@ Route::middleware('isAdmin')->prefix('admin')->name('admin.')->group(function ()
     // ==========================================
     // PERMISSIONS & ROLES
     // ==========================================
-    Route::resource('permissions', PermissionController::class);
-    Route::get('permissions/{permissionId}/delete', [PermissionController::class, 'destroy']);
+   
     
-    Route::resource('roles', RoleController::class);
-    Route::get('roles/{roleId}/give-permissions', [RoleController::class, 'addPermissionToRole']);
-    Route::put('roles/{roleId}/give-permissions', [RoleController::class, 'givePermissionToRole']);
+    
     
     // Users
     Route::resource('users', UsersController::class);

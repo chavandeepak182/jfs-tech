@@ -25,7 +25,7 @@ class BlogController extends Controller
         $blog = DB::table('blog')
             //->join('industries_subcategory', 'industries.industries_subcategory_id', '=', 'industries_subcategory.industries_subcategory_id')
             //->join('industries_category', 'industries_subcategory.pid', '=', 'industries_category.pid')
-            ->select('blog.*') // सबकॅटेगरी/कॅटेगरी रिलेशन काढलं
+            ->select('blog.*') 
             ->get();
 
         return view('blog.index', compact('blog'));
@@ -33,11 +33,16 @@ class BlogController extends Controller
 
 
     // Show create form
-    public function create()
-    {
-        $categories = DB::table('blog_category')->get();
-        return view('blog.create', compact('categories'));
-    }
+   public function create()
+{
+    $categories = DB::table('blog_category')->get();
+
+    $blogs = DB::table('blog')
+        ->orderBy('id', 'desc')
+        ->get();
+
+    return view('blog.create', compact('categories', 'blogs'));
+}
 
     // Store new blog
   
@@ -113,7 +118,7 @@ class BlogController extends Controller
             return redirect()->back()->with('error', 'blog could not be added. Please check logs.');
         }
 
-        return redirect()->route('blog.index')->with('success', 'Blog added successfully.');
+        return redirect()->route('admin.blog.index')->with('success', 'Blog added successfully.');
     }
 
 
@@ -126,7 +131,7 @@ class BlogController extends Controller
         $blog = DB::table('blog')->where('id', $id)->first();
 
         if (!$blog) {
-            return redirect()->route('blog.index')->with('error', 'Blog not found.');
+            return redirect()->route('admin.blog.index')->with('error', 'Blog not found.');
         }
 
         $categories = DB::table('blog_category')->get();
@@ -139,8 +144,9 @@ class BlogController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'blog_name' => 'required|string|max:255',
-            'description' => 'nullable|string',
+    'blog_name' => 'required|string|max:255',
+    'category_id' => 'required|integer',
+    'description' => 'nullable|string',
             'slug' => 'nullable|string|max:255',
             'meta_title' => 'nullable|string|max:255',
             'meta_keywords' => 'nullable|string',
@@ -157,7 +163,7 @@ class BlogController extends Controller
         $blog = DB::table('blog')->where('id', $id)->first();
 
         if (!$blog) {
-            return redirect()->route('blog.index')->with('error', 'Blog not found.');
+            return redirect()->route('admin.blog.index')->with('error', 'Blog not found.');
         }
 
         $imagePath = $blog->image;
@@ -175,8 +181,9 @@ class BlogController extends Controller
         }
 
         DB::table('blog')->where('id', $id)->update([
-            'blog_name' => $request->blog_name,
-            'description' => $request->description,
+    'blog_name' => $request->blog_name,
+    'category_id' => $request->category_id,
+    'description' => $request->description,
             'slug' => $request->slug,
             'meta_title' => $request->meta_title,
             'meta_keywords' => $request->meta_keywords,
@@ -191,7 +198,7 @@ class BlogController extends Controller
             'updated_at' => now(),
         ]);
 
-        return redirect()->route('blog.index')->with('success', 'Blog updated successfully.');
+        return redirect()->route('admin.blog.index')->with('success', 'Blog updated successfully.');
     }
 
     // Delete blog
@@ -200,7 +207,7 @@ class BlogController extends Controller
         $blog = DB::table('blog')->where('id', $id)->first();
 
         if (!$blog) {
-            return redirect()->route('blog.index')->with('error', 'Blog not found.');
+            return redirect()->route('admin.blog.index')->with('error', 'Blog not found.');
         }
 
         if ($blog->image && File::exists(public_path($blog->image))) {
@@ -209,7 +216,7 @@ class BlogController extends Controller
 
         DB::table('blog')->where('id', $id)->delete();
 
-        return redirect()->route('blog.index')->with('success', 'Blog deleted successfully.');
+        return redirect()->route('admin.blog.index')->with('success', 'Blog deleted successfully.');
     }
 }
 

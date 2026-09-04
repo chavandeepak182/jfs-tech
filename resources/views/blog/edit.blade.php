@@ -23,7 +23,7 @@
         <!-- Breadcrumb Right Start -->
         <div class="flex-align gap-8 flex-wrap">
             <div class="flex-align text-gray-500 text-13 border-gray-100 focus-border-main-600">
-                <a href="{{ route('blog.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
+                <a href="{{ route('admin.blog.index') }}" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back</a>
             </div>
         </div>
         <!-- Breadcrumb Right End -->
@@ -35,7 +35,7 @@
                 <div class="alert alert-success">{{ session('success') }}</div>
             @endif
 
-            <form action="{{ route('blogs.update', $blog->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('admin.blogs.update', $blog->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
 
@@ -43,7 +43,7 @@
                     <div class="col-md-8">
                         <div class="mb-3">
                             <label for="category" class="form-label">Select Blog Category:</label>
-                            <select name="pid" id="category" class="form-control" required>
+                            <select name="category_id" id="category" class="form-control" required>
                                 <option value="">-- Select Blog Category --</option>
                                 @foreach($categories as $category)
                                     <option value="{{ $category->pid }}" {{ $blog->category_id == $category->pid ? 'selected' : '' }}>
