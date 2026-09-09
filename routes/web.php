@@ -33,6 +33,9 @@ Route::get('/services', function () {
 Route::get('/about-us', function () {
     return view('frontend.about');
 });
+Route::get('/deepak-chavan', function () {
+    return view('frontend.deepak');
+});
 
 Route::get('/contact-us', function () {
     return view('frontend.contact');
@@ -115,11 +118,18 @@ Route::redirect('/services/website-development', '/services/website-development-
 Route::get('/services/mobile-app-development', function () {
     return view('frontend.app-development');
 });
-
+Route::get('/life-at-jfs', function () {
+    return view('frontend.life-at-jfs');
+});
 Route::get('/success-stories', function () {
     return view('frontend.success-stories');
 });
-
+Route::get('/end-to-end-sales-outsourcing', function () {
+    return view('frontend.end-to-end-sales-outsourcing');
+});
+Route::get('/website-design-and-development', function () {
+    return view('frontend.website-development');
+});
 Route::get('/services/creative-service-agency', function () {
     return view('frontend.creative-services');
 });

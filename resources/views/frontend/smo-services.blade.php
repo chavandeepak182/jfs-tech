@@ -1,7 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Top Social Media Advertising Company for all Business")
-@section('description', "Boost your brand with Top Social Media Advertising Company. Get the best social media marketing for all businesses, paid advertising, and affordable packages!")
-@section('keywords', "Top Social Media Advertising, Top Social Media Advertising Company, best Social media marketing for all business, Social media strategy development agency, Paid Social Media Advertising Services, Affordable Social Media Marketing Package, Best Social Media Marketing Services")
+@section('title', 'Social Media Advertising Services | JFS Technologies')
+@section('description', 'JFS Technologies provides social media advertising services to help businesses increase brand awareness, reach targeted audiences, generate leads, and improve campaign performance.')
 @section('canonical')
 <link rel="canonical" href="https://jfstechnologies.com/services/social-media-advertising" />
 <meta name="robots" content="index, follow">
@@ -19,76 +18,70 @@
 @section('schema')
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "JFS Technologies",
-    "item": "https://jfstechnologies.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "Services",
-    "item": "https://jfstechnologies.com/services"  
-  },{
-    "@type": "ListItem", 
-    "position": 3, 
-    "name": "Digital Experience",
-    "item": "https://jfstechnologies.com/services/digital-experience"  
-  },{
-    "@type": "ListItem", 
-    "position": 4, 
-    "name": "Best Digital Marketing Agency",
-    "item": "https://jfstechnologies.com/services/best-digital-marketing-agency"  
-  },{
-    "@type": "ListItem", 
-    "position": 5, 
-    "name": "Social Media Advertising",
-    "item": "https://jfstechnologies.com/services/social-media-advertising"  
-  }]
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "JFS Technologies",
+      "item": "https://jfstechnologies.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://jfstechnologies.com/services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Social Media Advertising",
+      "item": "https://jfstechnologies.com/services/social-media-advertising"
+    }
+  ]
 }
 </script>
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What makes JFS Technologies one of the top social media advertising company?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "At JFS Technologies, we leverage data-driven strategies, creative content, and targeted ads to maximize engagement and ROI. Our team ensures your brand reaches the right audience with precision and impact."
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does JFS Technologies offer in social media advertising?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JFS Technologies provides social media strategy, content creation, community management, paid social advertising, campaign optimization, analytics, and reporting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can social media advertising benefit my business?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Social media advertising can help businesses reach targeted audiences, increase brand awareness, generate leads, drive website traffic, and improve conversions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which social media platforms do you support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depending on your business goals and target audience, we support platforms such as Facebook, Instagram, LinkedIn, YouTube, Pinterest, and other relevant social media platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you measure social media advertising performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We measure campaign performance using metrics such as reach, impressions, engagement, clicks, conversions, cost per result, and return on investment."
+      }
     }
-  },{
-    "@type": "Question",
-    "name": "How can social media marketing benefit businesses of all sizes?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Whether you're a startup or an established enterprise, social media marketing helps increase brand visibility, drive website traffic, and generate leads. We create customized strategies to suit your business goals and industry needs."
-    }
-  },{
-    "@type": "Question",
-    "name": "Why is a social media strategy development agency important for business growth?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "A well-defined strategy ensures consistent branding, audience engagement, and measurable results. JFS Technologies helps businesses craft data-backed, goal-oriented social media plans for long-term success."
-    }
-  },{
-    "@type": "Question",
-    "name": "How does JFS Technologies stand out as the best SEO marketing company?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We combine SEO with data-driven marketing strategies, including content marketing, link building, and conversion optimization, to ensure long-term success for your business."
-    }
-  },{
-    "@type": "Question",
-    "name": "Why should I choose JFS Technologies as my SEO service agency?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "We believe in transparency, result-oriented strategies, and continuous improvement. Our team works closely with clients to understand their goals and deliver measurable growth in organic traffic and revenue."
-    }
-  }]
+  ]
 }
 </script>
 @endsection
@@ -141,12 +134,26 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3>Content Creation & Curation</h3>
-					<p>Our team creates content that resonates with your audience and encourages engagement. From eye-catching visuals to interactive posts, we craft tailored strategies to ensure your content is relevant & drives conversations.
-                        <ul>
-                            <li><strong>Post Design:</strong> Creative posts that align with your brand's voice and visual identity, effectively communicating your message while building recognition, trust, and engagement with your audience.</li>
-                            <li><strong>Content Calendar:</strong> We plan content around key dates, industry events, and promotions to maintain consistency.</li>
-                        </ul>
-                    </p>
+					<p>
+    Our team creates content that resonates with your audience and encourages engagement.
+    From eye-catching visuals to interactive posts, we craft tailored strategies to ensure
+    your content is relevant and drives conversations.
+</p>
+
+<ul>
+    <li>
+        <strong>Post Design:</strong>
+        Creative posts that align with your brand's voice and visual identity,
+        effectively communicating your message while building recognition,
+        trust, and engagement with your audience.
+    </li>
+
+    <li>
+        <strong>Content Calendar:</strong>
+        We plan content around key dates, industry events, and promotions
+        to maintain consistency.
+    </li>
+</ul>
                     <img src="{{ asset('theme') }}/assets/images/icons/content-creation.svg" class="brand-logo-one" alt="Top Social Media Advertising" style="width:20%;">
 				</div>
 			</div>
@@ -154,13 +161,29 @@
 				<div class="work-process-card-three">
 					<div class="number-title invisible ">01.</div>
 					<h3 title="Paid Social Media Advertising Services">Paid Social Media Advertising</h3>
-					<p>We run targeted ads to reach your ideal audience. Whether it’s Facebook, Instagram, or LinkedIn, we design and manage ad campaigns that increase visibility and drive conversions.
-                        <ul>
-                            <li><strong>Ad Copy & Visual Design:</strong> Engaging ad creatives that prompt action.</li>
-                            <li><strong>A/B Testing:</strong> Testing ad variations to find the best performing campaigns.</li>
-                            <li><strong>Analytics & Reporting:</strong> Tracking key metrics like click-through rates, impressions, and conversions to continuously improve performance.</li>
-                        </ul>
-                    </p>
+					<p>
+    We run targeted ads to reach your ideal audience. Whether it’s Facebook,
+    Instagram, or LinkedIn, we design and manage ad campaigns that increase
+    visibility and drive conversions.
+</p>
+
+<ul>
+    <li>
+        <strong>Ad Copy & Visual Design:</strong>
+        Engaging ad creatives that prompt action.
+    </li>
+
+    <li>
+        <strong>A/B Testing:</strong>
+        Testing ad variations to find the best performing campaigns.
+    </li>
+
+    <li>
+        <strong>Analytics & Reporting:</strong>
+        Tracking key metrics like click-through rates, impressions,
+        and conversions to continuously improve performance.
+    </li>
+</ul>
                     <img src="{{ asset('theme') }}/assets/images/icons/paid-media.svg" class="brand-logo-one" alt="Top Social Media Advertising" style="width:20%;">
 				</div>
 			</div>
@@ -976,7 +999,10 @@
                         <h2>Ready for Top Social Media Advertising for all Business?</h2>
                         <p>Built a cohesive visual identity to enhance brand recognition. Whether you're looking to refresh your brand’s image, elevate user experiences, or craft compelling content, our creative team is ready to bring your vision to life and drive impactful results.</p>
                     </div>
-                    <a href="http://127.0.0.1:8000/contact-us" class="default-btn btn-bg-one border-radius-5 py-3">Contact Us</a>
+                    <a href="{{ url('/contact-us') }}"
+   class="default-btn btn-bg-one border-radius-5 py-3">
+    Contact Us
+</a>
                 </div>
             </div>
         </div>
