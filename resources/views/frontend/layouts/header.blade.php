@@ -160,6 +160,17 @@
             background: #e6a800;
             transform: scale(1.05);
         }
+
+        html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav.nav {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
         
         /* ===== RESPONSIVE IMAGES ===== */
         /* Desktop (1025px+) - Already set above */
