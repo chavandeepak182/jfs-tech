@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /
+Disallow: /admin/
+Disallow: /public/
+Disallow: /blog/
 
 Sitemap: https://jfstechnologies.com/sitemap.xml
