@@ -383,6 +383,18 @@ nav.nav {
         })(window,document,'script','dataLayer','GTM-TBK8PBWM');
     </script>
 
+    <!-- ============================================
+    GOOGLE ANALYTICS 4 (GA4)
+    ============================================ -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG94TD129M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LG94TD129M');
+    </script>
+
     @yield('schema')
 </head>
 <body>
@@ -424,7 +436,7 @@ nav.nav {
                         <div class="content">
                             <div class="row">
                                 <a href="{{ url('/services/digital-transformation-services') }}">
-                                    <img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.webp" 
+                                    <img src="{{ asset('theme') }}/assets/images/icons/digitalization-y.gif" 
                                          class="brand-logo-one" 
                                          alt="digitalization"
                                          loading="lazy"
