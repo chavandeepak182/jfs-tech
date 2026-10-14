@@ -49,77 +49,64 @@ class BlogController extends Controller
 
 
     
-    public function storeService(Request $request)
-    {
-        Log::info('storeService function called', ['request' => $request->all()]);
+ public function storeService(Request $request)
+{
+    $request->validate([
+        'blog_name' => 'required|string|max:255',
+        'category_id'  => 'required|integer|',
+        'description' => 'nullable|string',
+        'slug' => 'nullable|string|max:255',
+        'meta_title' => 'nullable|string|max:255',
+        'meta_keywords' => 'nullable|string',
+        'publish_date' => 'nullable|string',
+        'status' => 'nullable|string',
+        'author_name' => 'nullable|string',
+        'tag' => 'nullable|string',
+        'schema_markup' => 'nullable|string',
+        'meta_description' => 'nullable|string',
+        'image_alt' => 'nullable|string|max:255',
+        'image' => 'nullable|image|mimes:jpeg,png,jpg,webp,gif|max:2048',
+    ]);
 
-        $request->validate([
-            'blog_name' => 'required|string|max:255',
-            'category_id'  => 'required|integer|',
-            'description' => 'nullable|string',
-            'slug' => 'nullable|string|max:255',
-            'meta_title' => 'nullable|string|max:255',
-            'meta_keywords' => 'nullable|string',
-            'publish_date' => 'nullable|string',
-            'status' => 'nullable|string',
-            'author_name' => 'nullable|string',
-            'tag' => 'nullable|string',
-            'schema_markup' => 'nullable|string',
-            'meta_description' => 'nullable|string',
-            'image_alt' => 'nullable|string|max:255',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,webp,gif|max:2048',
-        ]);
+    $imagePath = null;
 
-        $imagePath = null;
+    if ($request->hasFile('image')) {
+        $image = $request->file('image');
+        $imageName = time() . '_' . $image->getClientOriginalName();
+        $destinationPath = public_path('uploads/industries');
 
-        if ($request->hasFile('image')) {
-            Log::info('Image file detected');
-            
-            $image = $request->file('image');
-            $imageName = time() . '_' . $image->getClientOriginalName();
-            $destinationPath = public_path('uploads/industries');
-            
-            if ($image->move($destinationPath, $imageName)) {
-                $imagePath = 'uploads/industries/' . $imageName;
-                Log::info('Image successfully uploaded', ['path' => $imagePath]);
-            } else {
-                Log::error('Image upload failed');
-            }
-        } else {
-            Log::warning('No image file detected in request');
+        if ($image->move($destinationPath, $imageName)) {
+            $imagePath = 'uploads/industries/' . $imageName;
         }
-
-        $data = [
-            'blog_name' => $request->blog_name,
-            'category_id' => $request->category_id,
-            'description' => $request->description,
-            'slug' => $request->slug,
-            'meta_title' => $request->meta_title,
-            'meta_keywords' => $request->meta_keywords,
-            'meta_description' => $request->meta_description,
-            'publish_date' => $request->publish_date,
-            'status' => $request->status,
-            'schema_markup' => $request->schema_markup,
-            'tag' => $request->tag,
-            'author_name' => $request->author_name,
-            'image' => $imagePath,
-'image_alt' => $request->image_alt,
-            'created_at' => now(),
-            'updated_at' => now(),
-        ];
-
-        Log::info('Data to be inserted', ['data' => $data]);
-
-        try {
-            DB::table('blog')->insert($data);
-            Log::info('blog successfully inserted into database');
-        } catch (\Exception $e) {
-            Log::error('Error inserting blog', ['error' => $e->getMessage()]);
-            return redirect()->back()->with('error', 'blog could not be added. Please check logs.');
-        }
-
-        return redirect()->route('admin.blog.index')->with('success', 'Blog added successfully.');
     }
+
+    $data = [
+        'blog_name' => $request->blog_name,
+        'category_id' => $request->category_id,
+        'description' => $request->description,
+        'slug' => $request->slug,
+        'meta_title' => $request->meta_title,
+        'meta_keywords' => $request->meta_keywords,
+        'meta_description' => $request->meta_description,
+        'publish_date' => $request->publish_date,
+        'status' => $request->status,
+        'schema_markup' => $request->schema_markup,
+        'tag' => $request->tag,
+        'author_name' => $request->author_name,
+        'image' => $imagePath,
+        'image_alt' => $request->image_alt,
+        'created_at' => now(),
+        'updated_at' => now(),
+    ];
+
+    try {
+        DB::table('blog')->insert($data);
+    } catch (\Exception $e) {
+        return redirect()->back()->with('error', 'blog could not be added. Please check logs.');
+    }
+
+    return redirect()->route('admin.blog.index')->with('success', 'Blog added successfully.');
+}
 
 
 
